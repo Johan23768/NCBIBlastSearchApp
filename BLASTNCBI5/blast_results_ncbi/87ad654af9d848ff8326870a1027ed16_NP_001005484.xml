@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1127697</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_001005484.2 olfactory receptor 4F5 [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>326</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1127697</Iteration_query-ID>
+  <Iteration_query-def>NP_001005484.2 olfactory receptor 4F5 [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>326</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|ABD85040.1|</Hit_id>
+  <Hit_def>odorant receptor 11.1, partial [Danio rerio]</Hit_def>
+  <Hit_accession>ABD85040</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>1.66738e-54</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>VTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>VEYFILDGLKDKIVLP-----IFFTVYVSVLSGNSMIIYLVRTDPKLDTPMYFFLHNLSFSDIVYTSVTIPKMLSVFLTGDKTISKTGCFMQIQFVLWMGLTGRGLLTAMAFDRYVAICNPLRYTTIMTRKLCVLLIFASWTYGALIVLPPVIWATQLPYCGPNVVKHMFCDHSSVLTLACVDTTRNSFFALALALIGLLLTFLLILISYVYIGKAMRRMSMAQKLKAGATCVSHLIVVFISYCSAFFVYI-SYRVSKFDPEVRIMIALLYSVLTPLLNPIIYSLRNKELQDAMKR</Hsp_hseq>
+      <Hsp_midline>V  FI  GL D   L      +FF  Y  ++ GN +I+  V +D  L +PMYF L NLS  D+  +SVT PKM++ F +  K IS  GC +QI  + + G +   +L AM FDRY+AIC PL YTTIM    CV ++  +W  G L  +  + +A  L +CGPN V   +CD   V+ LAC DT R     +A + +  + +F+L++ISY  I   ++   + +  KA +T  +H+ VV + +    F+Y   + +   D      +A+ YSV+TPLLNPIIY+LRNK+++ A+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_009293936.1|</Hit_id>
+  <Hit_def>olfactory receptor 6C75 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009293936</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>1.84871e-54</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>VTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>VEYFILDGLKDKIVLP-----IFFTVYVSVLSGNSMIIYLVRTDPKLDTPMYFFLHNLSFSDIVYTSVTIPKMLSVFLTGDKTISKTGCFMQIQFVLWMGLTGRGLLTAMAFDRYVAICNPLRYTTIMTRKLCVLLIFASWTYGALIVLPPVIWATQLPYCGPNVVKHMFCDHSSVLTLACVDTTRNSFFALALALIGLLLTFLLILISYVYIGKAMRRMSMAQKLKAGATCVSHLIVVFISYCSAFFVYI-SYRVSKFDPEVRIMIALLYSVLTPLLNPIIYSLRNKELQDAMKR</Hsp_hseq>
+      <Hsp_midline>V  FI  GL D   L      +FF  Y  ++ GN +I+  V +D  L +PMYF L NLS  D+  +SVT PKM++ F +  K IS  GC +QI  + + G +   +L AM FDRY+AIC PL YTTIM    CV ++  +W  G L  +  + +A  L +CGPN V   +CD   V+ LAC DT R     +A + +  + +F+L++ISY  I   ++   + +  KA +T  +H+ VV + +    F+Y   + +   D      +A+ YSV+TPLLNPIIY+LRNK+++ A+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_009293935.1|</Hit_id>
+  <Hit_def>olfactory receptor 6C75 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009293935</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.68314e-54</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>TSETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>TRMNTSGSVEYFILDGLKDKIVLP-----IFFTVYVSVLSGNSMIIYLVRTDPKLDTPMYFFLHNLSFSDIVYTSVTIPKMLSVFLTGDKTISKTGCFMQIQFVLWMGLTGRGLLTAMAFDRYVAICNPLRYTTIMTRKLCVLLIFASWTYGALIVLPPVIWATQLPYCGPNVVKHMFCDHSSVLTLACVDTTRNSFFALALALIGLLLTFLLILISYVYIGKAMRRMSMAQKLKAGATCVSHLIVVFISYCSAFFVYI-SYRVSKFDPEVRIMIALLYSVLTPLLNPIIYSLRNKELQDAMKR</Hsp_hseq>
+      <Hsp_midline>T    +  V  FI  GL D   L      +FF  Y  ++ GN +I+  V +D  L +PMYF L NLS  D+  +SVT PKM++ F +  K IS  GC +QI  + + G +   +L AM FDRY+AIC PL YTTIM    CV ++  +W  G L  +  + +A  L +CGPN V   +CD   V+ LAC DT R     +A + +  + +F+L++ISY  I   ++   + +  KA +T  +H+ VV + +    F+Y   + +   D      +A+ YSV+TPLLNPIIY+LRNK+++ A+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|ABC43292.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43292</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>5.68871e-54</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>VTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>VEYFILDGLKDKIVLP-----IFFTVYVSVLSGNSMIIYLVRTDPKLDTPMYFFLHNLSFSDIVYTSVTIPKMLSVFLTGDKTISKTGCFMQIQFVLWMGLTGRGLLTAMAFDRYVAICNPLRYTTIMTRKLCVLLIFASWTYGALIVLPPVIWATQLPYCGPNVVKHMFCDHSSVLTLACVDTTRNSFFALALALIGLLLTFLLILISYVYIGKAMRRMSMAQKLKAGATCVSHLIVVFISYCCAFFVYI-SYRVSKFDPEVRIMIALLYSVLTPLLNPIIYSLRNKELQDAMKR</Hsp_hseq>
+      <Hsp_midline>V  FI  GL D   L      +FF  Y  ++ GN +I+  V +D  L +PMYF L NLS  D+  +SVT PKM++ F +  K IS  GC +QI  + + G +   +L AM FDRY+AIC PL YTTIM    CV ++  +W  G L  +  + +A  L +CGPN V   +CD   V+ LAC DT R     +A + +  + +F+L++ISY  I   ++   + +  KA +T  +H+ VV + +    F+Y   + +   D      +A+ YSV+TPLLNPIIY+LRNK+++ A+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_571245.1|</Hit_id>
+  <Hit_def>odorant receptor 104-2 [Danio rerio] &gt;gb|AAI62918.1| Odorant receptor, family C, subfamily 104, member 2 [Danio rerio] &gt;gb|AAI62938.1| Odorant receptor, family C, subfamily 104, member 2 [Danio rerio] &gt;gb|ABC43249.1| odorant receptor [Danio rerio] &gt;emb|CAJ21233.1| odorant receptor 10a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571245</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>3.89753e-42</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>NESTSETNNSMVTEFIFLGLSDS-QELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYAW-PFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>SQEGNETRAFVVTEFFIMGFPGLLPKYYSLTAALLFCIYIAVITGNSLIVVLFVIERSLHKPMYIIMLSLSVSDICFCTVALPKVISRYWFNDGYISFYVCLFQRQLIHYFGALNCLIMMLMALDRYLAICHPLRYPVLMTNRMLGLLLGFSWVTAMIPPTITLTQTLKLPFCGPNIIAQCFCDSTSINQLACADASNANFIAFCLIMFVLLVPFAFIIFSYACILVSVLQIANAKGRLKAFSTCATQLTIISIFFVPRFVVFSSNNLPSNNEKIALVMFYSLLPPLMNPFIYFMRIREIR</Hsp_hseq>
+      <Hsp_midline>++  +ET   +VTEF  +G      +  +    L F  Y  ++ GN LIV+  V +  LH PMY ++ +LS+ D+   +V  PK+I+ ++     ISF  CL Q  L+H+FG    +I++ M  DRY+AIC PL Y  +M       ++  +W    +     L   + L FCGPN +   +CD   + +LAC D    + +       + +  F  +I SY  IL+++      K   KA ST    +T++ +FF P   +++    P  +    L +FYS++ PL+NP IY +R ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_073769601.1|</Hit_id>
+  <Hit_def>odorant receptor 104-2 isoform X1 [Danio rerio] &gt;ref|XP_073769602.1| odorant receptor 104-2 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073769601</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>4.28635e-42</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>NESTSETNNSMVTEFIFLGLSDS-QELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYAW-PFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>SQEGNETRAFVVTEFFIMGFPGLLPKYYSLTAALLFCIYIAVITGNSLIVVLFVIERSLHKPMYIIMLSLSVSDICFCTVALPKVISRYWFNDGYISFYVCLFQRQLIHYFGALNCLIMMLMALDRYLAICHPLRYPVLMTNRMLGLLLGFSWVTAMIPPTITLTQTLKLPFCGPNIIAQCFCDSTSINQLACADASNANFIAFCLIMFVLLVPFAFIIFSYACILVSVLQIANAKGRLKAFSTCATQLTIISIFFVPRFVVFSSNNLPSNNEKIALVMFYSLLPPLMNPFIYFIRIREIR</Hsp_hseq>
+      <Hsp_midline>++  +ET   +VTEF  +G      +  +    L F  Y  ++ GN LIV+  V +  LH PMY ++ +LS+ D+   +V  PK+I+ ++     ISF  CL Q  L+H+FG    +I++ M  DRY+AIC PL Y  +M       ++  +W    +     L   + L FCGPN +   +CD   + +LAC D    + +       + +  F  +I SY  IL+++      K   KA ST    +T++ +FF P   +++    P  +    L +FYS++ PL+NP IY +R ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|NP_001034712.1|</Hit_id>
+  <Hit_def>odorant receptor 103-2 [Danio rerio] &gt;gb|ABC43347.1| odorant receptor [Danio rerio] &gt;emb|CAJ21232.1| odorant receptor 8b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001034712</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>9.24126e-42</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>SETNNSMVTEFIFLGLSDSQELQTFLF--MLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIY-----AWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>SVGNTSFAKDFVIVGFPGLQPHYYGLVSALLFFVYLFTLI-GNAVFFTLFVITKSLHKPVYYFIINLVASDVLFSTTTLPKIISRYWFQDGTISFLGCFVQMFFVHFLGSACSVVLAVMAIDRYTAICYPLQYHSIMTNRNVLILILSPWILSFLGPLALVIRAYPLPYCADNSIIHCYCDHVSITTLACTDRSLYSIPALIYAFLILLVPFAVIIFSYCSIFIAVMRISGSQGRMKTFSTCSPQLIIIALYFIPRVFNYLSSNIGLKFS-TDLRIIMIMMYSVLPPLINPIIYCLRTEEVKKVLRQ</Hsp_hseq>
+      <Hsp_midline>S  N S   +F+ +G    Q     L   +LFFV+   ++ GN +     V    LH P+Y+ + NL   D+  S+ T PK+I+ ++ Q   ISF GC VQ+F +HF G +  V+L  M  DRY AIC PL Y +IM     + ++   W + FL  ++ +  A  L +C  N +   YCD   +  LACTD     I  +  + ++ +  F ++I SY  I + +      +   K  ST +  + ++ L+F P VF Y        F    L   + + YSV+ PL+NPIIY LR +++K  +RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_073770316.1|</Hit_id>
+  <Hit_def>odorant receptor 104-1 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073770316</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.93534e-41</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMVTEFIFLGLSDS-QELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIY-AWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>SQANDTTASTVTEFFIMGFPGLLPKYYSLTAALLFCIYIAVITGNSLIVVLFVIERSLHKPMYIIMLSLSVSDICFCTVALPKVISRYWFNDGFISFYVCLFQRQLIHYFGTLNSLIMMLMALDRYLAICHPLRYPVLMTNRTMRLLVGFSWVTAMIAPSISLSLTLKLPFCGPNMIAHCFCDSLSMNQLACADASFYNLIAFGVAMFVLLVPLSFIIFSYASILVSVLQIANAKGRLKALSTCATQLTIISIYYVPRFAVYITSNVPNAQMDKAEKIALVMFYSLLPPLMNPFIYFIRIREIR</Hsp_hseq>
+      <Hsp_midline>   ++T  S VTEF  +G      +  +    L F  Y  ++ GN LIV+  V +  LH PMY ++ +LS+ D+   +V  PK+I+ ++     ISF  CL Q  L+H+FG    +I++ M  DRY+AIC PL Y  +M       ++  +W    +     L+  + L FCGPN +   +CD   + +LAC D    +++    +  + +     +I SY  IL+++      K   KALST    +T++ +++ P   +Y     P   +DK     L +FYS++ PL+NP IY +R ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|NP_001082909.1|</Hit_id>
+  <Hit_def>odorant receptor 104-1 [Danio rerio] &gt;gb|ABC43248.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001082909</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.26699e-41</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMVTEFIFLGLSDS-QELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIY-AWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>SQANDTTASTVTEFFIMGFPGLLPKYYSLTAALLFCIYIAVITGNSLIVVLFVIERSLHKPMYIIMLSLSVSDICFCTVALPKVISRYWFNDGFISFYVCLFQRQLIHYFGTLNSLIMMLMALDRYLAICHPLRYPVLMTNRTMRLLVGFSWVTAMIAPSISLSLTLKLPFCGPNMIAHCFCDSLSMNQLACADASFYNLIAFGVAMFVLLVPLSFIIFSYASILVSVLQIANAKGRLKALSTCATQLTIISIYYVPRFAVYITSNVPNAQMDKAEKIALVMFYSLLPPLMNPFIYFIRIREIR</Hsp_hseq>
+      <Hsp_midline>   ++T  S VTEF  +G      +  +    L F  Y  ++ GN LIV+  V +  LH PMY ++ +LS+ D+   +V  PK+I+ ++     ISF  CL Q  L+H+FG    +I++ M  DRY+AIC PL Y  +M       ++  +W    +     L+  + L FCGPN +   +CD   + +LAC D    +++    +  + +     +I SY  IL+++      K   KALST    +T++ +++ P   +Y     P   +DK     L +FYS++ PL+NP IY +R ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_073779462.1|</Hit_id>
+  <Hit_def>odorant receptor 102-2 isoform X1 [Danio rerio] &gt;gb|ABC43351.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779462</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>7.30371e-41</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>NESTSET--NNSMVTEFIFLGLSD-SQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMKTAI-RQLRK</Hsp_qseq>
+      <Hsp_hseq>SRSNVETYQNTTIITEFVLRGFPGLPPEYHGSVGALLFILYLVLATGNIFIIVFVMIEKSIQKPTYIIFCNLAMADLALGTTTYPRVIAKYWMSDKIISFSGCFTQMFFIHFLGATNSFLMALMALDRFIAICNPLRYHTLIKNSTILIICAFVWTANMLQLVGVTLLSLSVKYCGSNVIPHCYCDHVSISKLACGDAATMKVTSTAIAMFVLWGPLSFILFSYVSIIISVSKISKSEGRYKTFSTCTPQLLIICLYYLPRTFVYITNISGYELSNDTRMVVSMMYSLIPAVINPFIYCFRTKEIKEAIFKRFKK</Hsp_hseq>
+      <Hsp_midline>+ S  ET  N +++TEF+  G      E    +  L F+ Y  +  GN+ I++ V+ +  +  P Y +  NL++ DL+L + T P++I  ++   K+ISF GC  Q+F +HF G +   ++  M  DR+IAIC PL Y T++  +  + I A  W    L  V     ++ + +CG N +   YCD   + KLAC D   + +   A +  +       ++ SY  I++++      +   K  ST T  + ++ L++ P  F+Y        L       +++ YS+I  ++NP IY  R K++K AI ++ +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|NP_571814.1|</Hit_id>
+  <Hit_def>odorant receptor 102-2 [Danio rerio] &gt;gb|AAF27260.1| odorant receptor 5.3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571814</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>1.55921e-40</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>NESTSET--NNSMVTEFIFLGLSD-SQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMKTAI-RQLRK</Hsp_qseq>
+      <Hsp_hseq>SRSNVETYQNTTIITEFVLRGFPGLPPEYHGSVGALLFILYLVLATGNIFIIVFVMIEKSIQKPTYIIFCNLAMADLALGTTTYPRVIAKYWMSDKIISFSGCFTQMFFVHFLGATNSFLMALMALDRFIAICNPLRYHTLIKNSTILIICAFVWTANMLQLVGVTLLSLSVKYCGSNVIPHCYCDHVSISKLACGDAATMKVTSTAIAMFVLWGPLSFILFSYVSIIISVSKISKSEGRYKTFSTCTPQLLIICLYYLPRTFVYITNISGYELSTDTRMVVSMMYSLIPAVINPFIYCFRTKEIKEAIFKRFKK</Hsp_hseq>
+      <Hsp_midline>+ S  ET  N +++TEF+  G      E    +  L F+ Y  +  GN+ I++ V+ +  +  P Y +  NL++ DL+L + T P++I  ++   K+ISF GC  Q+F +HF G +   ++  M  DR+IAIC PL Y T++  +  + I A  W    L  V     ++ + +CG N +   YCD   + KLAC D   + +   A +  +       ++ SY  I++++      +   K  ST T  + ++ L++ P  F+Y        L       +++ YS+I  ++NP IY  R K++K AI ++ +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AAF27262.1|</Hit_id>
+  <Hit_def>odorant receptor 13.2 [Danio rerio]</Hit_def>
+  <Hit_accession>AAF27262</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>1.89221e-40</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>SETNNSMVTEFIFLGLSDSQELQTFLF--MLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIY-----AWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>SVGNTSFAKDFAIVGFPGLQPHYYGLVSALLFFVYLFTLI-GNAVFFTLFVITKSLHKPVYYFIINLVASDVLFSTTTLPKIISRYWFQDGTISFLGCFVQMFFVHFLGSACSVVLAVMAIDRYTAICYPLQYHSIMTNRNVLILILSPWILSFWGPLALVIRAYPLPYCADNSIIHCYCDHVSITTLACTDRSLYSIPALIYAFLILLVPFAVIIFSYCSIFIAVMRISGSQGRMKTFSTCSPQLIIIALYFIPRVFNYLSSNIGLKFS-TDLRIIMIMMYSVLPPLINPIIYCLRTEEVKKVLRQ</Hsp_hseq>
+      <Hsp_midline>S  N S   +F  +G    Q     L   +LFFV+   ++ GN +     V    LH P+Y+ + NL   D+  S+ T PK+I+ ++ Q   ISF GC VQ+F +HF G +  V+L  M  DRY AIC PL Y +IM     + ++   W + F   ++ +  A  L +C  N +   YCD   +  LACTD     I  +  + ++ +  F ++I SY  I + +      +   K  ST +  + ++ L+F P VF Y        F    L   + + YSV+ PL+NPIIY LR +++K  +RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|ABC43345.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43345</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>2.75786e-40</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>SETNNSMVTEFIFLGLSDSQE--LQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDT--YRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIY-AWPFPIK-SLDKFLAV--FYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSSVKF</Hsp_qseq>
+      <Hsp_hseq>SAGNISFVKEFFIVGFPGLQKGYFDSVAALMLFVFVC-ILAGNGTFLILFSLEKSLHKPMYYVILNLVASDILFSTTTLPKIIARYLFQDGSISFMGCFIQMYFVHYFGTVNAFILAIMAFDRYVAICNPLRYPNIVTKWNIFYLCLISWVIANVTPLMMVIRAYPLPYCAENTIIQCYCDHISITSLACTNRAPYSIPAFVLAMVALLTPLAFI--VFSYCAIILAVLRISSTQARLKTFSTCSPQLIIIALYFLPRCFIYLSSNIGIYFSTDLRLAIIMMYSLFPPMFNPLIYCLRTKDVKECL--VKRLKISTNVKF</Hsp_hseq>
+      <Hsp_midline>S  N S V EF  +G    Q+    +   ++ FVF   I+ GN   +I    +  LH PMY+++ NL   D+  S+ T PK+I  +  Q   ISF GC +Q++ +H+FG     IL  M FDRY+AIC PL Y  I+       +  ++W I  +  +  +  A  L +C  N +   YCD   +  LACT+   Y +   V+A   +LT  +F+  + SY  IIL  ++        K  ST +  + ++ L+F P  FIY +    I  S D  LA+   YS+  P+ NP+IY LR KD+K  +  +++    ++VKF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|NP_571663.1|</Hit_id>
+  <Hit_def>odorant receptor 103-1 [Danio rerio] &gt;gb|AAC60253.1| olfactory receptor protein 13.1 [Danio rerio] &gt;gb|AAC60262.1| olfactory receptor protein 13.1 [Danio rerio] &gt;gb|AAF27264.1| odorant receptor 13.1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571663</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>4.868e-40</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>SETNNSMVTEFIFLGLSDSQE--LQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDT--YRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIY-AWPFPIK-SLDKFLAV--FYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSSVKF</Hsp_qseq>
+      <Hsp_hseq>SAGNISFVKEFFIVGFPGLQKGYFDSVAALMLFVFVC-ILAGNGTFLILFSLEKSLHKPMYYVILNLVASDILFSTTTLPKIIARYLFQDGGISFMGCFIQMYFVHYFGTVNAFILAIMAFDRYVAICNPLRYPNIVTKWNIFYLCLISWVIANVTPLMMVIRAYPLPYCAENTIIQCYCDHISITSLACTNRAPYSIPAFVLAMVALLTPLAFI--VFSYCAIILAVLRISSTQARLKTFSTCSPQLIIIALYFLPRCFIYLSSNIGIYFSTDLRLAIIMMYSLFPPMFNPLIYCLRTKDVKECL--VKRLKISTNVKF</Hsp_hseq>
+      <Hsp_midline>S  N S V EF  +G    Q+    +   ++ FVF   I+ GN   +I    +  LH PMY+++ NL   D+  S+ T PK+I  +  Q   ISF GC +Q++ +H+FG     IL  M FDRY+AIC PL Y  I+       +  ++W I  +  +  +  A  L +C  N +   YCD   +  LACT+   Y +   V+A   +LT  +F+  + SY  IIL  ++        K  ST +  + ++ L+F P  FIY +    I  S D  LA+   YS+  P+ NP+IY LR KD+K  +  +++    ++VKF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_017208556.1|</Hit_id>
+  <Hit_def>olfactory receptor 8G17-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017208556</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>3.84319e-39</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>TNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLAC-----TDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVL-LFFGPCVFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>TNSILLVE----GLKVTPQSSQSVFIMFLLAYIFAMVSNIGLIFLISTEKNLHDPMHFLFCNLPLNDIMGTTVIMPRLLQDILTEPSERYISYAECAIQAYFVHIFAAGCHYVLMIMAFDRYVAICKPLRYTAIMTNKMVIALSALAWGLAFLFVTIMVGLSLRLSRCR-YKIENPFCDNASLFKLSCENVSVNNVFGLVYTVVALS--LSALSIFVTYVKIATVCITSKNKALN--SKAIKTCSTHLAVYLIMFLTGAVFIFLHRFPEYSDNRKLASIMFHIVPPGLNPLVYGLQTKEIREKVVKL</Hsp_hseq>
+      <Hsp_midline>TN+ ++ E    GL  + +    +F++F + Y   +  N+ ++  + ++ +LH PM+FL  NL L D+  ++V  P+++ D  ++   + IS+  C +Q + +H F      +L+ M FDRY+AICKPL YT IM     + + A+ WG+ FL     +  ++ L  C   ++++ +CD   + KL+C      + + L   V+A S  L+  S  +  +    + +T +++ L+  SKA+ T + H+ V L +F    VFI+   FP  S ++ LA + + ++ P LNP++Y L+ K+++  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_002666109.1|</Hit_id>
+  <Hit_def>olfactory receptor 52N5-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_002666109</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>6.57337e-39</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFF--SQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRL-DIMVIANSGVLTVCSFVLLIISY---TIILMTIQHRPLDKSSKALSTLTAHITVVLLFF-GPCVFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSS</Hsp_qseq>
+      <Hsp_hseq>GLQVTPQSTYVVFVLLLIVYIFIMVANITLVILISTEKNLHHPMHFLFCNLPLNDILGTTVILPRLLRDVLIETSDRYITFNECVTQAYFVHIFVAACHYVLIIMAFDRYVAICNPLRYTAIMTNKMVMKLSAIAWGLSVLMVSILLGLTVRLSHCR-SKIENPFCDNASLFKLSCDEGVAVNNIYGIIYTVVLFTFSILSIFITYGKIAAVCITSKNKALN--SKAIKTCSTHLAVYLIMFVSGSTFIFLHRFPLYSESRKLASIMFHIVPPGLNPLVYGLQTKEIRQKFVKIWRREKESS</Hsp_hseq>
+      <Hsp_midline>GL  + +    +F+L  + Y  I+  N+ +VI + ++ +LH PM+FL  NL L D+  ++V  P+++ D    +  + I+F  C+ Q + +H F  +   +LI M FDRY+AIC PL YT IM     + + A+ WG+  L     L   V L  C  +++++ +CD   + KL+C +   + +I  I  + VL   S + + I+Y     + +T +++ L+  SKA+ T + H+ V L+ F     FI+   FP+ S  + LA + + ++ P LNP++Y L+ K+++    ++ + +  SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|NP_001121877.1|</Hit_id>
+  <Hit_def>odorant receptor 115-5 [Danio rerio] &gt;gb|ABC43290.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121877</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>8.64145e-39</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>TNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYT-IILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPC-VFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQLRKW</Hsp_qseq>
+      <Hsp_hseq>TNDFLLVE----GLKVTYPSSYPIFILLFLFYIFAMGCNIGLIILIATEKKLHHPMHFLFCNLPVNDIIGTTVILPRLICDIFKQTSERSMTYVECVVQAYFVHIFTTASHTALVTMAYDRQVAICNPLLYTAVMTDKMVVKLSATAWTLPIIVVAVMIGLTVRLSRCR-SKIENPFCDNASLYKLSCENVAINNIFGIVYSVAALIISVALMVIAYARIVTACIISKSKALNSKAIKTCSSHIAVYLIMFVSCAIMIFFHRFPEYSENRKLASIMFHIVPPGLNPIVYGLQTKEIRQII--VKRW</Hsp_hseq>
+      <Hsp_midline>TN+ ++ E    GL  +      +F+L F+FY   +  N+ ++I + ++  LH PM+FL  NL + D+  ++V  P++I D F Q   + +++  C+VQ + +H F  +    L+ M +DR +AIC PL YT +M     V + A  W +  +     +   V L  C  +++++ +CD   + KL+C +    +I  I  S    + S  L++I+Y  I+   I  +    +SKA+ T ++HI V L+ F  C + I+   FP  S ++ LA + + ++ P LNPI+Y L+ K+++  I  +++W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_073770317.1|</Hit_id>
+  <Hit_def>odorant receptor 105-1 isoform X1 [Danio rerio] &gt;ref|XP_073770318.1| odorant receptor 105-1 isoform X1 [Danio rerio] &gt;ref|XP_073770319.1| odorant receptor 105-1 isoform X1 [Danio rerio] &gt;ref|XP_073770320.1| odorant receptor 105-1 isoform X1 [Danio rerio] &gt;ref|XP_073770321.1| odorant receptor 105-1 isoform X1 [Danio rerio] &gt;ref|XP_073770322.1| odorant receptor 105-1 isoform X1 [Danio rerio] &gt;ref|XP_073770323.1| odorant receptor 105-1 isoform X1 [Danio rerio] &gt;ref|XP_073770324.1| odorant receptor 105-1 isoform X1 [Danio rerio] &gt;ref|XP_073770325.1| odorant receptor 105-1 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073770317</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>3.17374e-38</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSD-SQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NWTTISEFIIVGIPGLHPDYYGLVSAIFFVIYITTVAGNMFFLVLFVTTESLRKPMYIILASLALSDMCFSTVALPKIISKYWFNAGATPFHACFFQMELIHYFGSLNSLIMMIMALDRYVAICYSLRYQTVMTNHVTYILITTAWITAFIAPTVATLDTQQLPYCGPNLILQCYCDHISITNLACAENSKQLLVALCMALLVLLLPLVCIIYSYCHIIASVMRLSSSQSRWKSFATCSTQLCIITLFYMPRFTVYLTTFLQIQISKDFRILLVLIYCLVPPLVNPFIYCLRTQEIRMIVSR</Hsp_hseq>
+      <Hsp_midline>N + ++EFI +G+     +    +  +FFV Y   V GN+  ++  V+   L  PMY +LA+L+L D+  S+V  PK+I+ ++       F  C  Q+ L+H+FG    +I++ M  DRY+AIC  L Y T+M  +    ++   W   F+           L +CGPN +   YCD   +  LAC +  +  ++ +  + ++ +   V +I SY  I+ ++      +S  K+ +T +  + ++ LF+ P   +Y   F    + K     L + Y ++ PL+NP IY LR ++++  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|NP_001082911.1|</Hit_id>
+  <Hit_def>odorant receptor 105-1 [Danio rerio] &gt;gb|AAI63131.1| Odorant receptor, family C, subfamily 105, member 1 [Danio rerio] &gt;gb|AAI63137.1| Odorant receptor, family C, subfamily 105, member 1 [Danio rerio] &gt;gb|ABC43250.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001082911</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>4.30233e-38</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSD-SQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDK----FLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NWTTISEFIIVGIPGLHPDYYGLVSAIFFVIYITTVAGNMFFLVLFVTTESLRKPMYIILASLALSDMCFSTVALPKIISKYWFNAGATPFHACFFQMELIHYFGSLNSLIMMIMALDRYVAICYSLRYQTVMTNRVTYILITTAWITAFIAPTVATLDTQQLPYCGPNLILQCYCDHISITNLACAENSKQLLVALCMALLVLLLPLVCIIYSYCHIIASVMRLSSSQSRWKSFATCSTQLCIITLFYMPRFTVYLTTFLQIQISKDFRILLVLIYCLVPPLVNPFIYCLRTQEIRMIVSR</Hsp_hseq>
+      <Hsp_midline>N + ++EFI +G+     +    +  +FFV Y   V GN+  ++  V+   L  PMY +LA+L+L D+  S+V  PK+I+ ++       F  C  Q+ L+H+FG    +I++ M  DRY+AIC  L Y T+M       ++   W   F+           L +CGPN +   YCD   +  LAC +  +  ++ +  + ++ +   V +I SY  I+ ++      +S  K+ +T +  + ++ LF+ P   +Y   F    + K     L + Y ++ PL+NP IY LR ++++  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|NP_571828.2|</Hit_id>
+  <Hit_def>odorant receptor 103-5 [Danio rerio] &gt;gb|ABC43346.1| odorant receptor [Danio rerio] &gt;emb|CAJ21226.1| odorant receptor 8c [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571828</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>4.5049e-38</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLF--MLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIY-----AWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>NTSFVKDFVIVGFPGLQPHYYGLVSALLFFVYVFTLI-GNAVFFTLFVITKSLHKPVYYFIINLVVSDVLFSTATLTKIISRYWFQDGTISFLGCFVQMFFVHLFGSVCSVVLAVMAIDRYTAICYPLQYHSIMTNRNVLILILSPWILSFWGPLALVIRAYPLPYCADNSIIHCYCDHVSITTLACTDRSLYSIPALIYAFLILLVPFAVIIFSYCSIFIAVMRISGSQGRMKTFSTCSPQLIIIALYFIPRILNFLSSNIGLKFS-TDLRLIMIMMYSVLPPLINPIIYCLRTEEVKKVLRQQFK</Hsp_hseq>
+      <Hsp_midline>N S V +F+ +G    Q     L   +LFFV+   ++ GN +     V    LH P+Y+ + NL + D+  S+ T  K+I+ ++ Q   ISF GC VQ+F +H FG    V+L  M  DRY AIC PL Y +IM     + ++   W + F   ++ +  A  L +C  N +   YCD   +  LACTD     I  +  + ++ +  F ++I SY  I + +      +   K  ST +  + ++ L+F P +  +        F    L   + + YSV+ PL+NPIIY LR +++K  +RQ  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_017208546.1|</Hit_id>
+  <Hit_def>olfactory receptor 8G17 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017208546</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>9.7272e-38</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>TNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGV---LTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVL-LFFGPCVFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>TNSLLLVE----GLKVTPQSSQPVFIMFLLAYVFAMISNAGLIFLISTDKNLHEPMHFLFCNLPLNDIIGTTVVMPRLLLDILRETSERFISYAECVVQAYFVHIFTAACHYVLMIMAFDRYVAICNPLRYTAIMTNKMVIVLSAIVWSLAVLLVTIMLGLTIRLSHCR-YKIENPFCDNASLFKLSCENVSVNNVFGLVYTVVVFSLSALSIVVTYVKIATVCVTSKNKALN--SKAIKTCSTHLAVYLIMFISGATFIFLHRFPEYSDNRKLASIMFHVVPPGLNPLVYGLQNKEIRQKFVKL</Hsp_hseq>
+      <Hsp_midline>TN+ ++ E    GL  + +    +F++F + Y   +  N  ++  + +D +LH PM+FL  NL L D+  ++V  P+++ D   +   + IS+  C+VQ + +H F  +   +L+ M FDRY+AIC PL YT IM     + + A+ W +  L     L   + L  C   ++++ +CD   + KL+C +    ++  +  + V   L+  S V+  +    + +T +++ L+  SKA+ T + H+ V L +F     FI+   FP  S ++ LA + + V+ P LNP++Y L+NK+++    +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|NP_001032482.1|</Hit_id>
+  <Hit_def>odorant receptor 115-12 [Danio rerio] &gt;gb|AAI07988.1| Odorant receptor, family F, subfamily 115, member 12 [Danio rerio] &gt;gb|ABC43283.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001032482</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>1.16902e-37</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITV--VLLFFG--PCVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>GLQITQQSSQLTFIFLLTVYVFSMVSNIGILIQILAEKSLHQPMYILFCHLPMSDIIGATVLIPRLLKDLLTDPSERYITYIECVLQAFFTHLYGTTSHTILMIMAFDRYVAICNPLRYPTIMNNKMIVKLSAGAWGAAIVLVGILIGLSVRLSHCR-SVIENHVCDNPSLFKLSCENTFINNVYGLTFTVVLLTSSLGWVVLTYLRIAMVCIKSKHKATNSKAIKTCTTHLTVYIITIIFGFVP-IFLHRFSEYTES-RKFGNVMFHVVPPGLNPIIYGLQAKEIKDKMLKL</Hsp_hseq>
+      <Hsp_midline>GL  +Q+     F+     Y   +  N+ I+I ++++  LH PMY L  +L + D+  ++V  P+++ D  +    + I++  C++Q F  H +G +   IL+ M FDRY+AIC PL Y TIM     V + A  WG   +     +  +V L  C  + +++  CD P + KL+C +T+  ++  +  + VL   S   ++++Y  I M  I+ +    +SKA+ T T H+TV  + + FG  P +F++ +    +S  KF  V + V+ P LNPIIY L+ K++K  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|AAI07499.1|</Hit_id>
+  <Hit_def>Odorant receptor, family F, subfamily 115, member 7 [Danio rerio]</Hit_def>
+  <Hit_accession>AAI07499</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>1.57351e-37</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>TNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIM-VIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVLLFF-GPCVFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>TNSILLVE----GLKVTPQSSQPVFIMFLLAYIFAMVSNIGLIFLISTEKNLHDPMHFLFCNLPLNDIMGTTVIMPRLLQDILTEASERYISYAECAIQAYFVHVFTAACHYVLMIMAFDRYVAICNPLRYTAIMTNKMVIGLSALAWGLAIIFVTIMVGLSLRLSRCR-YKIENPFCDNASLFKLSCENVSVNNVFGLVYTVIVLSVSALSIFVTYVKIATVCVTSKNKALNSKAIKTCSTHLAVYLIMFVTGAVFIFLHRFPEYSDNRKLASIMFHIVPPGLNPLVYGLQTKEIRQKVVKL</Hsp_hseq>
+      <Hsp_midline>TN+ ++ E    GL  + +    +F++F + Y   +  N+ ++  + ++ +LH PM+FL  NL L D+  ++V  P+++ D  ++   + IS+  C +Q + +H F  +   +L+ M FDRY+AIC PL YT IM     +G+ A+ WG+  +     +  ++ L  C   ++++ +CD   + KL+C +    ++  ++    VL+V +  + +    I  + +  +    +SKA+ T + H+ V L+ F    VFI+   FP  S ++ LA + + ++ P LNP++Y L+ K+++  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|NP_001030339.2|</Hit_id>
+  <Hit_def>odorant receptor 115-7 [Danio rerio] &gt;gb|ABC43288.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001030339</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>2.04245e-37</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>TNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY---TIILMTIQHRPLDKSSKALSTLTAHITVVLLFF-GPCVFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>TNSILLVE----GLKVTPQSSQPVFIMFLLAYIFAMVSNIGLIFLISTEKNLHDPMHFLFCNLPLNDIMGTTVIMPRLLQDILTEASERYISYAECAIQAYFVHVFTAACHYVLMIMAFDRYVAICNPLRYTAIMTNKMVIGLSALAWGLAIIFVTIMVGLSLRLSRCR-YKIENPFCDNASLFKLSCENVSVNNVFGLVYTVIVLSLSALSIFVTYVKIATVCVTSKNKALN--SKAIKTCSTHLAVYLIMFVTGAVFIFLHRFPEYSDNRKLASIMFHIVPPGLNPLVYGLQTKEIRQKVVKL</Hsp_hseq>
+      <Hsp_midline>TN+ ++ E    GL  + +    +F++F + Y   +  N+ ++  + ++ +LH PM+FL  NL L D+  ++V  P+++ D  ++   + IS+  C +Q + +H F  +   +L+ M FDRY+AIC PL YT IM     +G+ A+ WG+  +     +  ++ L  C   ++++ +CD   + KL+C +    ++  +  + ++   S + + ++Y     + +T +++ L+  SKA+ T + H+ V L+ F    VFI+   FP  S ++ LA + + ++ P LNP++Y L+ K+++  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|NP_001035388.1|</Hit_id>
+  <Hit_def>odorant receptor 115-6 [Danio rerio] &gt;gb|AAI15186.1| Odorant receptor, family F, subfamily 115, member 6 [Danio rerio] &gt;gb|ABC43289.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001035388</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>2.04856e-37</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFL--GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYT-IILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPC---VFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>DNLTITNRILLIEGLKVTQHSSYPVFILLLLVYLFIMGCNIGLVIVILTEKNLHHPMHFLFFNLPLNDIIGSTVIMPRLLQDILREASERYMTYVECVVQAYFVHIFAAASHYVLLIMAFDRYMAICNPLRYTAIMTNKMVVKLSALAWGWSVISVTILISLTLRLSRCRSN-IENPFCDNASLFKLSCEDVVVNNVYGICTTILVSVFSLGSVFITYAKIATVCITSKNKSFNRKAIQTCGTHIAVYLIMFVSSVIMVFLHRSPPQYSDSRKLASIMFHIVPPGLNPLVYGLQTKEIR</Hsp_hseq>
+      <Hsp_midline>+N  +T  I L  GL  +Q     +F+L  + Y  I+  N+ +VI ++++ +LH PM+FL  NL L D+  S+V  P+++ D   +   + +++  C+VQ + +H F  +   +L+ M FDRY+AIC PL YT IM     V + A+ WG   +     ++  + L  C  N +++ +CD   + KL+C D    ++  I  + +++V S   + I+Y  I  + I  +    + KA+ T   HI V L+ F      VF++  P       K  ++ + ++ P LNP++Y L+ K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|ABC43383.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43383</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>2.37985e-37</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFV-----LLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFF--GPCVFI---YAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>TKFLLTGFPEIYKYRRFLFLPFFLIYLLLLVGNSLLLFVIKSTESLHSPMYIFVSALAVVDIIVPTAIIPAMLLGFLFDLNEITLSGCLTQMFVTHFFSSVESTILLAMALDRFVAICKPLHYNEIMNSSMFLKLFLFTLIRSGTIMSTLVALASPLSFCGSNVIYHCYCDHMALVSLACDSIAQNQTM-----GLIVIICFVGIDTSVIFFSYVKILHVVLGTAAGEDRWKAFHTCGTHLMVMICFYFVGSVTFLSRNLNIPIPI-DVNTFLGVMYIVFPASVNPIIYGVRTKEIRTALFKIFK</Hsp_hseq>
+      <Hsp_midline>T+F+  G  +  + + FLF+ FF+ Y  ++ GN L++  + S   LHSPMY  ++ L+++D+ + +   P M+  F      I+  GCL Q+F+ HFF   E  IL+AM  DR++AICKPLHY  IM  +  + +   T         + +A A  L FCG N +   YCD   ++ LAC    +   M     G++ +  FV     ++  SY  IL  +      +   KA  T   H+ V++ F+  G   F+      P PI  ++ FL V Y V    +NPIIY +R K+++TA+ ++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|ABC43331.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43331</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>2.52317e-37</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSF----YCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYA-WPFPIKS----LDKFLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>GFDLSPEKAIIAFFFAIVNYIIILLCNSFLLFTIISNKALHEPMHILLLNLPINDLIGSTCLFPHVMRELLFDTRTMSFSVCITQAFFIHVYAVSAVFILAAMAYDRYVAICQPMRYTTIMTNIHLAKIISLVW----LSNLILMAVLFILLLRLP-RCRSFLNHPYCDNPSLLQLVCADTTINNIYGLLMTAVSQVCSLGLIMYSYLRILIACFRNKRSDTRSKALQTCGTHLVVFGLF--ECLGLFTIISYRIKDISIHLRKFIAVAAMILPPTMNPVIYGLRTKEIR</Hsp_hseq>
+      <Hsp_midline>G   S E     F    V Y  I+  N  ++ T++S+  LH PM+ LL NL + DL  S+   P ++ +     + +SF  C+ Q F +H +  S + IL AM +DRY+AIC+P+ YTTIM       I+++ W    L ++  +A    LL   P    SF    YCD P +++L C DT   +I  +  + V  VCS  L++ SY  IL+   +++  D  SKAL T   H+ V  LF   C+ ++    + IK     L KF+AV   ++ P +NP+IY LR K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|ABC43350.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio] &gt;emb|CAJ21231.1| odorant receptor 5a [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43350</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>2.69095e-37</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>VTEFIFLGLSD--SQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLF----CGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS--KALSTLTAHITVVLLFFGPCVFIYAWPFPIK---SLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>ITEFYLLGFPGLHPEYYGAVGFLLFFV-YLTLAGGNIFIIAFIAYEKSLQKPTYLIFCNLAVCDIAIGTVTLPKAIAKYFFDSSEITFLSCFVQMFFVHYLGSINSFLMLLMAVDRFVAVCNPLRYCVLITNKTILLACALIW----MLCISWLTFMVYNTFDEPYCGSNIITQNYCDHNSIIKLSCGDIGQKKFYSFSFAMFVLLGPLIFIIFSFTAIIISV-FRISDTQARFKTFSTCTPQLLIICLYYVPRCVVYVHDVTIAISPGIRVMLIMWYTLIPPIVNPMIYCFRTKEIKDAIKKKLK</Hsp_hseq>
+      <Hsp_midline>+TEF  LG      +      F+LFFV Y  +  GN+ I+  +  +  L  P Y +  NL++ D+++ +VT PK I  +F     I+F  C VQ+F +H+ G     +++ M  DR++A+C PL Y  ++     +   A+ W    +  +S L F V+  F    CG N +   YCD   +IKL+C D  +      + +  + +   + +I S+T I++++  R  D  +  K  ST T  + ++ L++ P   +Y     I     +   L ++Y++I P++NP+IY  R K++K AI++  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|NP_001070197.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC767762 [Danio rerio] &gt;gb|AAI24158.1| Zgc:152857 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001070197</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>3.27979e-37</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSF----YCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYA-WPFPIKS----LDKFLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>GFDLSPEKAIIAFFFAIVNYIIILLCNSFLLFTIISNKALHEPMHILLLNLPINDLIGSTRLFPHVMRELLFDTRTMSFSVCITQAFFIHVYAVSAVFILAAMAYDRYVAICQPMRYTTIMTNIHLAKIISLVW----LSNLILMAVLFILLLRLP-RCRSFLNHPYCDNPSLLQLVCADTTINNIYGLLMTAVSQVCSLGLIMYSYLRILIACFRNKRSDTRSKALQTCGTHLVVFGLF--ECLGLFTIISYRIKDISIHLRKFIAVAAMILPPTMNPVIYGLRTKEIR</Hsp_hseq>
+      <Hsp_midline>G   S E     F    V Y  I+  N  ++ T++S+  LH PM+ LL NL + DL  S+   P ++ +     + +SF  C+ Q F +H +  S + IL AM +DRY+AIC+P+ YTTIM       I+++ W    L ++  +A    LL   P    SF    YCD P +++L C DT   +I  +  + V  VCS  L++ SY  IL+   +++  D  SKAL T   H+ V  LF   C+ ++    + IK     L KF+AV   ++ P +NP+IY LR K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|NP_571815.2|</Hit_id>
+  <Hit_def>odorant receptor 102-1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571815</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>3.95324e-37</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>VTEFIFLGLSD--SQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLF----CGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS--KALSTLTAHITVVLLFFGPCVFIYAWPFPIK---SLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>ITEFYLLGFPGLHPEYYGAVGFLLFFV-YLTLAGGNIFIIAFIAYEKSLQKPTYLIFCNLAVCDIAIGTVTLPKAIAKYFFDSSEITFLSCFVQMFFVHYLGSINSFLMLLMAVDRFVAVCNPLRYCVLITNKTILLACALIW----MLCISWLTFMVYNTFDEPYCGSNIITQNYCDHNSIIKLSCGDIGQKKFYSFSFAMFVLLGPLIFIIFSFTAIIISV-FRISDTQARFKTFSTCTPQLLIICLYYVPRCVVYVHDVTIAISPGIRVMLIMWYTLIPPIVNPMIYCFRTKEIKDAIKKKLK</Hsp_hseq>
+      <Hsp_midline>+TEF  LG      +      F+LFFV Y  +  GN+ I+  +  +  L  P Y +  NL++ D+++ +VT PK I  +F     I+F  C VQ+F +H+ G     +++ M  DR++A+C PL Y  ++     +   A+ W    +  +S L F V+  F    CG N +   YCD   +IKL+C D  +      + +  + +   + +I S+T I++++  R  D  +  K  ST T  + ++ L++ P   +Y     I     +   L ++Y++I P++NP+IY  R K++K AI++  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_003200052.4|</Hit_id>
+  <Hit_def>olfactory receptor 52E8 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_003200052</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>4.05699e-37</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFV-----LLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFF--GPCVFI---YAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>TKFLLTGFPEIYKYRRFLFLPFFLIYLLLLVGNSLLLFVIKSTESLHSPMYIFVSALAVVDIIVPTAIIPAMLLGFLFDLNEITLSGCLTQMFVTHFFSSVESTILLAMALDRFVAICKPLHYNEIMNSSMFLKLFLFTLIRSGTIMSTLVALASPLSFCGSNVIYHCYCDHMALVSLACDSIAQNQTM-----GLIVIICFVGIDTSVIFFSYVKILHVVLGTAAGEDRWKAFHTCGTHLMVMICFYFVGSVTFLSRNLNIPIPI-DVNTFLGVMYIVFPASVNPIIYGVRTKEIRTALFKIFK</Hsp_hseq>
+      <Hsp_midline>T+F+  G  +  + + FLF+ FF+ Y  ++ GN L++  + S   LHSPMY  ++ L+++D+ + +   P M+  F      I+  GCL Q+F+ HFF   E  IL+AM  DR++AICKPLHY  IM  +  + +   T         + +A A  L FCG N +   YCD   ++ LAC    +   M     G++ +  FV     ++  SY  IL  +      +   KA  T   H+ V++ F+  G   F+      P PI  ++ FL V Y V    +NPIIY +R K+++TA+ ++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|AAR08140.1|</Hit_id>
+  <Hit_def>odorant receptor ZOR6A [Danio rerio]</Hit_def>
+  <Hit_accession>AAR08140</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>4.10207e-37</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFV-----LLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFF--GPCVFI---YAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>TKFLLTGFPEIYKYRRFLFLPFFLTYLLLLVGNSLLLFVIKSTESLHSPMYIFVSALAVVDIIVPTAIIPAMLLGFLFDLNEITLSGCLTQMFVTHFFSSVESTILLAMALDRFVAICKPLHYNEIMNSSMFLKLFLFTLIRSGTIMSTLVALASPLSFCGSNVIYHCYCDHMALVSLACDSIAQNQTM-----GLIVIICFVGIDTSVIFFSYVKILHVVLGTAAGEDRWKAFHTCGTHLMVMICFYFVGSVTFLSRNLNIPIPI-DVNTFLGVMYIVFPASVNPIIYGVRTKEIRTALFKIFK</Hsp_hseq>
+      <Hsp_midline>T+F+  G  +  + + FLF+ FF+ Y  ++ GN L++  + S   LHSPMY  ++ L+++D+ + +   P M+  F      I+  GCL Q+F+ HFF   E  IL+AM  DR++AICKPLHY  IM  +  + +   T         + +A A  L FCG N +   YCD   ++ LAC    +   M     G++ +  FV     ++  SY  IL  +      +   KA  T   H+ V++ F+  G   F+      P PI  ++ FL V Y V    +NPIIY +R K+++TA+ ++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>dbj|BAA85041.1|</Hit_id>
+  <Hit_def>olfactory receptor protein ZF2A [Danio rerio]</Hit_def>
+  <Hit_accession>BAA85041</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>9.06872e-37</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>NNSMVTE--FIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NNSIVRPEYFFILGLSGIPN-SSYYYIFLFIIYCITVIGNSLVLLIIALDRSLHSAKYLCVFNLALADFGETNAVIPNMLKTFLFDSQYISYNACLANMFFVNYFINVQSATLVVLAFDRVIAICLPLRYHSIVNNIVMLIVFCGIWTLNTLVVALSVSLMTRLSICKSNVVESYYCDYGPVLRLACNDSTVNKIITNVIAVMSLVAPVILIVLSYLGIFFALSKITTWEGRLKALKTCVSHLLIVGLFFLPVICIFIASSTSTLTPNVRIISTSLSFTLPPMLNPIIYVLNTAEIKDTIRK</Hsp_hseq>
+      <Hsp_midline>NNS+V    F  LGLS      ++ ++  F+ Y   V GN L+++ +  D  LHS  Y  + NL+L D   ++   P M+  F    + IS+  CL  +F +++F   +   L+ + FDR IAIC PL Y +I+     + +    W +  L     ++    L  C  N V+S+YCD   V++LAC D+    I+    + +  V   +L+++SY  I   +      +   KAL T  +H+ +V LFF P  C+FI +    +    + ++   S  + P+LNPIIY L   ++K  IR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AAC60259.1|</Hit_id>
+  <Hit_def>olfactory receptor protein 2.11 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60259</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>9.27251e-37</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV-TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>NASSYKNTSIVHPEYFFISGLSGIPYSSYYYVFLFITYFITIIGNSVVLLIIAFDRSLHSPKYIVVFNLALADIGETNALIPNMMKTFLFDSQYISYNACLVNMFFVFLFSTMQSFTLVVLAYDRFVAICLPLRYHAIVNNSSITLILSAKWAFNSSMVALMVSLITRISFCDSNVIQSYFCDHGPVYRLACNDNSINRFMGSFITCLYLVVPLAIIILSYIGIFLALNKITTWESRLKALKTCVSHLLLVGIYFLPMSCTYIAAWLLALAPNARVITTSLAYTISPMLNPIIYVLNTAEIKDLLRKMFK</Hsp_hseq>
+      <Hsp_midline> ++S  N S+V  E+ F+         ++ ++  F+ Y   + GN ++++ +  D  LHSP Y ++ NL+L D+  ++   P M+  F    + IS+  CLV +F +  F   +   L+ + +DR++AIC PL Y  I+  ++   I++  W          ++    + FC  N + S++CD   V +LAC D      M    + +  V    ++I+SY  I + +      +S  KAL T  +H+ +V ++F P  C +I AW   +    + +    +  I+P+LNPIIY L   ++K  +R++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|AAH93294.2|</Hit_id>
+  <Hit_def>Odorant receptor, family F, subfamily 115, member 7 [Danio rerio]</Hit_def>
+  <Hit_accession>AAH93294</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>1.22894e-36</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>TNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIM-VIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVLLFF-GPCVFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>TNSILLVE----GLKVTPQSSQPVFIMFLLAYIFAMVSNIGLIFLISTEKNLHDPMHFLFCNLPLNDIMGTTVIMPRLLQDILTEASERYISYAECAIQAYFVHVFTAACHYVLMIMAFDRYVAICNPLRYTAIMTNKMVIALSALAWGLAIIFVTIMVGLSLRLSRCR-YKIENPFCDNASLFKLSCENVSVNNVFGLVYTVIVLSVSALSIFVTYVKIATVCVTSKNKALNSKAIKTCSTHLAVYLIMFVTGAVFIFLHRFPEYSDNRKLASIMFHIVPPGLNPLVYGLQTKEIRQKVVKL</Hsp_hseq>
+      <Hsp_midline>TN+ ++ E    GL  + +    +F++F + Y   +  N+ ++  + ++ +LH PM+FL  NL L D+  ++V  P+++ D  ++   + IS+  C +Q + +H F  +   +L+ M FDRY+AIC PL YT IM     + + A+ WG+  +     +  ++ L  C   ++++ +CD   + KL+C +    ++  ++    VL+V +  + +    I  + +  +    +SKA+ T + H+ V L+ F    VFI+   FP  S ++ LA + + ++ P LNP++Y L+ K+++  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|AAF27263.1|</Hit_id>
+  <Hit_def>odorant receptor 13.3 [Danio rerio]</Hit_def>
+  <Hit_accession>AAF27263</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>1.24032e-36</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLF--MLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIY-----AWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAI</Hsp_qseq>
+      <Hsp_hseq>NTSFVKDFVIVGFPGLQPHYYGLVSALLFFVYLFTLI-GNAVFFTLFVITKSLHKPVYYFIINLVVSDVLFSTATLTKIISRYWFQDGTISFLGCFVQMFSVHLFGSVCSVVLAVMAIDRYTAICYPLQYHSIMTNRNVLILILSPWILSFWGPLALVIRAYPLPYCADNSIIHCYCDHVSITTLACTDRSLYSIPALIYAFLILLVPFAVIIFSYCSIFIAVMRISGSQGRMKTFSTCSPQLIIIALYFIPRIFNFLSSNIGLKFS-TDLRLIMIMMYSVLPPLINPIIYCLRTEEVKKVL</Hsp_hseq>
+      <Hsp_midline>N S V +F+ +G    Q     L   +LFFV+   ++ GN +     V    LH P+Y+ + NL + D+  S+ T  K+I+ ++ Q   ISF GC VQ+F +H FG    V+L  M  DRY AIC PL Y +IM     + ++   W + F   ++ +  A  L +C  N +   YCD   +  LACTD     I  +  + ++ +  F ++I SY  I + +      +   K  ST +  + ++ L+F P +F +        F    L   + + YSV+ PL+NPIIY LR +++K  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|NP_001092732.1|</Hit_id>
+  <Hit_def>odorant receptor 115-13 [Danio rerio] &gt;gb|AAI42925.1| Or115-13 protein [Danio rerio] &gt;gb|ABC43282.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001092732</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.02703e-36</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITV-VLLFFGPCVFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSS</Hsp_qseq>
+      <Hsp_hseq>SKLLVEGLQVTSQSTLPTFILLLMVYAFIMVSNIGMMIQISADKCLHQPMYVLFCNLTLNDVLGTTVILPGLLRNILTDPSERHITFVECVIQAYFAHLNGTASHTVIMIMAFDRYVAICNPLRYPAIMTSNMVVKLSAAAWGVAVVLVGILIGLSVRLSHCR-SVIQNYICDNASLFKLSCENTVINNVYGLTFTVVLFTSSMGSIVLTYLKIALICFKSKNKATNSKAIKTCSTHLTVYIIMLISGSTAISLHRFPVYAETRKLADIIFHVIPPGLNPIIYGIQSKEIRQKIFKLFRNDLNAK</Hsp_hseq>
+      <Hsp_midline>++ +  GL  + +     F+L  + Y  I+  N+ ++I + +D  LH PMY L  NL+L D+  ++V  P ++ +  +    + I+F  C++Q +  H  G +   +++ M FDRY+AIC PL Y  IM  N  V + A  WG+  +     +  +V L  C  + + ++ CD   + KL+C +T   ++  +  + VL   S   ++++Y  I L+  + +    +SKA+ T + H+TV +++       I    FP+ +  + LA + + VI P LNPIIY +++K+++  I +L + D ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|ABC43342.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43342</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>2.09681e-36</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>NNSMVTE--FIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NNSIVRPEYFFILGLSGIPN-SSYYYIFLFIIYCITVIGNSLVLLIIALDRSLHSAKYLCVFNLALADFGETNAVIPNMLKTFLFDSQYISYNACLANMFFVNYFINVQSATLVVLAFDRVIAICLPLRYHSIVNNIVMLIVFFGIWTLNTLVVALSVSLMTRLSICKSNVVESYYCDYGPVLRLACNDSTVNKIITNVIAVMSLVAPVILIVLSYLGIFFALSKITTWEGRLKALKTCVSHLLIVGLFFLPVICIFIASSTSTLTPNVRIISTSLSFTLPPMLNPIIYVLNTAEIKDTIRK</Hsp_hseq>
+      <Hsp_midline>NNS+V    F  LGLS      ++ ++  F+ Y   V GN L+++ +  D  LHS  Y  + NL+L D   ++   P M+  F    + IS+  CL  +F +++F   +   L+ + FDR IAIC PL Y +I+     + +    W +  L     ++    L  C  N V+S+YCD   V++LAC D+    I+    + +  V   +L+++SY  I   +      +   KAL T  +H+ +V LFF P  C+FI +    +    + ++   S  + P+LNPIIY L   ++K  IR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|NP_001349357.1|</Hit_id>
+  <Hit_def>odorant receptor 111-10 [Danio rerio] &gt;ref|NP_571656.2| odorant receptor 111-10 [Danio rerio] &gt;gb|AAI62387.1| Odorant receptor, family D, subfamily 111, member 10 [Danio rerio] &gt;gb|AAI62400.1| Odorant receptor, family D, subfamily 111, member 10 [Danio rerio] &gt;gb|ABC43343.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001349357</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>3.61024e-36</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV-TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>NASSYKNTSIVHPEYFFISGLSGIPYSSYYYVFLFITYFITIIGNSVVLLIIAFERSLHSPKYIVVFNLALADIGETNALIPNMMKTFLFDSQYISYNACLVNMFFVFLFSTMQSFTLVVLAYDRFVAICLPLRYHAIVNNSSITLILSAKWAFNSSMVALMVSLITRISFCDSNVIQSYFCDHGPVYRLACNDNSINRFMGSFITCLYLVVPLAIIILSYIGIFLALNKITTWESRLKALKTCVSHLLLVGIYFLPMSCTYIAAWLLALAPNARVITTSLAYTISPMLNPIIYVLNTAEIKDLLRKMFK</Hsp_hseq>
+      <Hsp_midline> ++S  N S+V  E+ F+         ++ ++  F+ Y   + GN ++++ +  +  LHSP Y ++ NL+L D+  ++   P M+  F    + IS+  CLV +F +  F   +   L+ + +DR++AIC PL Y  I+  ++   I++  W          ++    + FC  N + S++CD   V +LAC D      M    + +  V    ++I+SY  I + +      +S  KAL T  +H+ +V ++F P  C +I AW   +    + +    +  I+P+LNPIIY L   ++K  +R++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|NP_571822.1|</Hit_id>
+  <Hit_def>odorant receptor 111-4 [Danio rerio] &gt;ref|XP_073779464.1| odorant receptor 111-4 isoform X1 [Danio rerio] &gt;gb|AAC60269.1| olfactory receptor protein 2.7 [Danio rerio] &gt;gb|AAF27272.1| odorant receptor 2.7 [Danio rerio] &gt;gb|AAI63798.1| Odorant receptor, family D, subfamily 111, member 4 [Danio rerio] &gt;gb|AAI63801.1| Odorant receptor, family D, subfamily 111, member 4 [Danio rerio] &gt;gb|ABC43337.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571822</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>4.99121e-36</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>SWNESTSETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYT-IILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>SVNASFYQNISIIRPEYFFISGLSGIPFSNYYYIFLFVIYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALADIGETNALIPNMMKTFLFDSQYISYNACLANMFFVFLFSSVQSFTLVALAYDRFIAICLPLRYHAIVTNTSMILIFSTIWVFNSSVVASMVSMIPRLSFCDSNKIPSYFCDHGPLFRLACNDARFSEFFAYFISALYITMPLVIIVLSYLHIFVALIKITTWEGRLKALKTCVSHLLLVGIFFLPIYCTYIAQVLIPLTTNARIIGTSLSYAVPPLLNPIIYVFNTAEIKDILRKVCK</Hsp_hseq>
+      <Hsp_midline>S N S  +  + +  E+ F+          + ++  FV Y   V GN ++++ +  D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+  CL  +F +  F   +   L+A+ +DR+IAIC PL Y  I+   + + I +  W        S ++    L FC  N++ S++CD   + +LAC D    +      S +      V++++SY  I +  I+    +   KAL T  +H+ +V +FF P  C +I     P+ +  + +    S  + PLLNPIIY     ++K  +R++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|AAF27261.1|</Hit_id>
+  <Hit_def>odorant receptor 5.1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAF27261</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>5.2937e-36</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>VTEFIFLGLSD--SQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLF----CGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS--KALSTLTAHITVVLLFFGPCVFIYAWPFPIK---SLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>ITEFYLLGFPGLHPEYYGAVGFLLLFV-YLTLAGGNIFIISFIAYEKSLQKPTYLIFCNLAVCDIAIGTVTLPKAIAKYFFDSSEITFLSCFVQMFFVHYLGSINSFLMLLMAVDRFVAVCNPLRYCVLITNKTILLACALIW----MLCISWLTFMVYNTFDEPYCGSNIITQNYCDHNSIIKLSCGDIGQKKFYSFSFAMFVLLGPLIFIIFSFTAIIISV-FRISDTQARFKTFSTCTPQLLIICLYYVPRCVVYVHDVTIAISPGIRVMLIMWYTLIPPIVNPMIYCFRTKEIKDAIKKKLK</Hsp_hseq>
+      <Hsp_midline>+TEF  LG      +      F+L FV Y  +  GN+ I+  +  +  L  P Y +  NL++ D+++ +VT PK I  +F     I+F  C VQ+F +H+ G     +++ M  DR++A+C PL Y  ++     +   A+ W    +  +S L F V+  F    CG N +   YCD   +IKL+C D  +      + +  + +   + +I S+T I++++  R  D  +  K  ST T  + ++ L++ P   +Y     I     +   L ++Y++I P++NP+IY  R K++K AI++  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|NP_001122043.1|</Hit_id>
+  <Hit_def>odorant receptor 109-4 [Danio rerio] &gt;gb|ABC43267.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122043</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>5.84469e-36</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>ISWNESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY---TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP------CVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSSVK</Hsp_qseq>
+      <Hsp_hseq>MSFIQSNSSANETFVRPATFFLSGLSNVPHAKYYYVFLSLV-YVATVLGNSFIMCVIYMSRRLHTAKYIVVFHLAFSDLCGSSTVIPNVIDTFLFDHQEISYEACLANTFFTYHFMNLQSLTLLVMAYDRLVAICFPLQYHAIVTNAAMFSILGGMWIFSVTHFSVFVGLLNRLSFCKSNVIDSYFCDYSLINRLACNDNSVNIMMVKINFGLLICTPLILIFISYFCISLALFKIAH-GVDR-AKAIKTCTSHLMLVAIFFIPFLSNQIAILTTSVHLNTRLINSSLT---QAIPPMLNPIIYTLKTDEVMQSVKELYKRKVNTTTE</Hsp_hseq>
+      <Hsp_midline>+S+ +S S  N + V    F   GLS+    + +   L  V Y   V GN  I+  +     LH+  Y ++ +L+  DL  SS   P +I  F    + IS++ CL   F  + F   + + L+ M +DR +AIC PL Y  I+   A   I+   W     H    +     L FC  N +DS++CD   + +LAC D     +MV  N G+L     +L+ ISY   ++ L  I H  +D+ +KA+ T T+H+ +V +FF P       +   +     + ++  L      I P+LNPIIYTL+  ++  ++++L K   +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|NP_571820.1|</Hit_id>
+  <Hit_def>odorant receptor 111-9 [Danio rerio] &gt;gb|AAF27267.1| odorant receptor 2.9 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571820</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>6.16381e-36</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>NNSMVTE--FIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NNSIVRPEYFFIIGLSGIPN-SSYYYIFLFIIYCITVIGNSLVLLIIALDRSLHSAKYLCVFNLALADFGETNAVIPNMLKTFLFDSQYISYNACLANMFFVNYFINVQSATLVVLAFDRVIAICLPLRYHSIVNNIVMLIVFFGIWTLNTLVVALSVSLMTRLSICKSNVVESYYCDYGPVLRLACNDSTVNKIITNVIAVMSLVAPVILIVLSYLGIFFALSKITTWEGRLKALKTCVSHLLIVGLFFLPVICIFIASSTSTLTPNVRIISTSLSFTLPPMLNPIIYVLNTAEIKDTIRK</Hsp_hseq>
+      <Hsp_midline>NNS+V    F  +GLS      ++ ++  F+ Y   V GN L+++ +  D  LHS  Y  + NL+L D   ++   P M+  F    + IS+  CL  +F +++F   +   L+ + FDR IAIC PL Y +I+     + +    W +  L     ++    L  C  N V+S+YCD   V++LAC D+    I+    + +  V   +L+++SY  I   +      +   KAL T  +H+ +V LFF P  C+FI +    +    + ++   S  + P+LNPIIY L   ++K  IR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|AAF27277.1|</Hit_id>
+  <Hit_def>odorant receptor 4.1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAF27277</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>9.76707e-36</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSF----YCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYA-WPFPIKS----LDKFLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>GFDLSPEKAIIAFFFAIVNYIIILLCNSYLLFTIISNKALHEPMHILLLNLPINDLIGSTCLFPHVMRELLFDTRTMSFSVCITQAFFIHVYAVSTVFILTAMAYDRYVAICQPMRYTTIMTNVHLAKIISLVW----LSNLTLMAVLFILLLRLP-RCRSFLNHPYCDNPSLLQLVCADTTINNIYGLLMTAVCQAFTVGLIIYSYLHILIACFRNKRSDTRSKALQTCGTHLVVFVLF--ECLGLFTIISYRIKDISIHLRKFIAVAAMILPPTVNPVIYGLRTKEIR</Hsp_hseq>
+      <Hsp_midline>G   S E     F    V Y  I+  N  ++ T++S+  LH PM+ LL NL + DL  S+   P ++ +     + +SF  C+ Q F +H +  S + IL AM +DRY+AIC+P+ YTTIM       I+++ W    L +++ +A    LL   P    SF    YCD P +++L C DT   +I  +  + V    +  L+I SY  IL+   +++  D  SKAL T   H+ V +LF   C+ ++    + IK     L KF+AV   ++ P +NP+IY LR K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_073779465.1|</Hit_id>
+  <Hit_def>odorant receptor 111-3 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779465</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>1.09847e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>MKKVTAEAISWNESTSETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRKWDAHS</Hsp_qseq>
+      <Hsp_hseq>IKRKTAMS-SVNASFSQNISIVRPEYFFISGLSGIPYSSYYYIFLFVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALADIGETNALIPNMMKTFLFNSQYISYNGCMANMFFVFLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMVSMITRLSICKSNVIPSYFCDHGPIFRLACNDIKINEFFAFFISILYLTMPMVIIALSYLNIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPLLCTYIAQVLLALTPNARVISTSLSYAIPPMLNPIIYVLNTAEIKYIIRKLFKRRLRS</Hsp_hseq>
+      <Hsp_midline>+K+ TA + S N S S+  + +  E+ F+         ++ ++  FV Y   V GN ++++ +  D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+ GC+  +F +  F   +   L+A+ +DR+IAIC PL Y  I+   + + I    W        S ++    L  C  N + S++CD   + +LAC D    +      S +      V++ +SY  I L  I+    +   KAL T  +H+ +V +FF P  C +I      +    + ++   S  I P+LNPIIY L   ++K  IR+L K    S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|NP_001122045.1|</Hit_id>
+  <Hit_def>odorant receptor 116-2 [Danio rerio] &gt;ref|XP_005157733.1| odorant receptor 116-2 isoform X1 [Danio rerio] &gt;gb|ABC43326.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122045</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.10519e-35</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>321</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>FLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITVVLLFFGPCVF-IYAWPFPIKSLD--KFLAVFYSVITPLLNPIIYTLRNKDMKTA-IRQLRKWDAH</Hsp_qseq>
+      <Hsp_hseq>FIFGIFIYMFGA--FCNLTLLLLIFLTESLHKPMYFILFSLPLNDFVGITSMLPKVLSDILTETNKTYYPLCVLQGFLLHMYGGGVLFVLAAMAFDRYIAICMPLRYNALMTPRAVMGIVALVWGLDLFFIILLFALQSKYSRCR-SDILNVFCDNPSLLKLTCSNTIVSNIIGLFNTAMIQIISVSIQAFSYVKILITCLATSKSDAKNKAINTCVSQLVIFIMFEIVATFTILSHRFTSVNADLQKIMGMLIFLVPPLLNPIVYGLNSHELRNNLLKVIHRKIAH</Hsp_hseq>
+      <Hsp_midline>F+F +F   +G   F NL +++ +     LH PMYF+L +L L D    +   PK+++D  ++     +  C++Q FLLH +GG  + +L AM FDRYIAIC PL Y  +M   A +GI+A+ WG+     +   A       C  +++ + +CD P ++KL C++T   +I+ + N+ ++ + S  +   SY  IL+T +     D  +KA++T  + + + ++F     F I +  F   + D  K + +   ++ PLLNPI+Y L + +++   ++ + +  AH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_001923166.3|</Hit_id>
+  <Hit_def>olfactory receptor 8G17 [Danio rerio] &gt;gb|ABC43291.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>XP_001923166</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.45958e-35</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFL--GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFF--SQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCV-FIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>DNLTITNYTLLVEGLKVAPQSSYPVFILLLLVYVFIMVSNIGLIVLISTEKNLHHPMHFLFCNLPLNDIIGTNVILPRLMQDMLRDSSERYISYAECVVQAYFVHLFAIACHYVLIIMAFDRYVAICNPLRYTAIMTNKMVVKLSASAWGLSIFMVSILLGLTIRLSRCR-SYIENPFCDNASLFKLSCESVIINNIFGMVYSVIVFTLSLGSLFVTYGKIASVCITSKNKSLNSKAIKTCSTHIAVYLIMFISCASFIFLHRVPEYSDTRKLASIMFHIVPPGLNPLVYGFQTKEIR</Hsp_hseq>
+      <Hsp_midline>+N  +T +  L  GL  + +    +F+L  + Y  I+  N+ +++ + ++ +LH PM+FL  NL L D+  ++V  P+++ D    S  + IS+  C+VQ + +H F  +   +LI M FDRY+AIC PL YT IM     V + A  WG+        L   + L  C  + +++ +CD   + KL+C      +I  +  S ++   S   L ++Y  I  + I  +    +SKA+ T + HI V L+ F  C  FI+    P  S  + LA + + ++ P LNP++Y  + K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|AAC60270.1|</Hit_id>
+  <Hit_def>olfactory receptor protein 2.11 [Danio rerio] &gt;gb|AAF27266.1| odorant receptor 2.11 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60270</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.89935e-35</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV-TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>NASSYKNTSIVHPEYFFISGLSGIPYSSYYYVFLFITYFITIIGNSVVLLIIAFERSLHSPKYIVVFNLALADIGETNALIPNMMKTFLFDSQYISYNACLVNMFFVFLFSTMQSFTLVVLAYDRFVAICLPLRYHAIVNNSSITLILSAKWAFNSSMVALMVSLITRISFCDSNVIQSYFCDHGPVYRLACNDNSINRFMGSFITCLYLVVPLGIIVLSYIGIFLALNKITTWDSRLKALKTCVSHLLLVGIYFLPMSCTYIAVWLLALAPNARVITTSLAYTISPMLNPIIYVLNTAEIKDLLRKMFK</Hsp_hseq>
+      <Hsp_midline> ++S  N S+V  E+ F+         ++ ++  F+ Y   + GN ++++ +  +  LHSP Y ++ NL+L D+  ++   P M+  F    + IS+  CLV +F +  F   +   L+ + +DR++AIC PL Y  I+  ++   I++  W          ++    + FC  N + S++CD   V +LAC D      M    + +  V    ++++SY  I + +      D   KAL T  +H+ +V ++F P  C +I  W   +    + +    +  I+P+LNPIIY L   ++K  +R++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|NP_001122035.1|</Hit_id>
+  <Hit_def>odorant receptor 109-3 [Danio rerio] &gt;gb|ABC43266.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122035</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>2.1082e-35</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY---TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP------CVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>QSNSSANETFVRPAKFFLSGLSNVPHVKYYYVFLSLV-YVVTVLGNSFLMCTIYLARRLHTAKYIVVFHLAFSDLCGSSAVIPKTIDTFLFDHQDISYEACLANTFFIYHFLNIQSLTLLVMAYDRLVAICFPLHYHAIITKAAMFLILGGMWIFSVTHISVFVGLLNRLSFCRSTVIDSYFCDYSLINRLACNDNSLNILMIKINFGLLLCAPLILIFVSYFCISLALFKIAHGA--DRVKAIKTCTSHLMLVVVGYTPLISNQIAVLTAPMPANIRLINNCLT---QVIPPMLNPIIYTLKTDEVMQSIKEL</Hsp_hseq>
+      <Hsp_midline>+S S  N + V   +F   GLS+   ++ +   L  V Y   V GN  ++ T+     LH+  Y ++ +L+  DL  SS   PK I  F    + IS++ CL   F ++ F   + + L+ M +DR +AIC PLHY  I+   A   I+   W     H    +     L FC    +DS++CD   + +LAC D     +M+  N G+L     +L+ +SY   ++ L  I H       KA+ T T+H+ +V++ + P       V     P  I+ ++  L     VI P+LNPIIYTL+  ++  +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_009293934.1|</Hit_id>
+  <Hit_def>olfactory receptor 8G17-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009293934</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>2.18109e-35</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>TNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFF--SQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCV-FIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>TNNILLVE----GLKVAPQSSYPVFILLLLVYVFIMVSNIGLIVLISTEKNLHHPMHFLFCNLPLNDIIGTNVILPRLMQDMLRESSERYISYAECVVQAYFVHVFAVACHYVLMIMAFDRYVAICNPLRYSAIMTNKMVVKLSASAWGLSIFIVSILLGLTIRLSRCR-SYIENPFCDNASLFKLSCESVIINNIFGMVYTVIVFTLSLGSLFITYGKIASVCITSKNKSLNSKAIKTCSTHIAVYLIMFISCASFIFLHRVPEYSDTRKLASIMFHIVPPGLNPLVYGLQTKEIR</Hsp_hseq>
+      <Hsp_midline>TNN ++ E    GL  + +    +F+L  + Y  I+  N+ +++ + ++ +LH PM+FL  NL L D+  ++V  P+++ D    S  + IS+  C+VQ + +H F  +   +L+ M FDRY+AIC PL Y+ IM     V + A  WG+        L   + L  C  + +++ +CD   + KL+C      +I  +  + ++   S   L I+Y  I  + I  +    +SKA+ T + HI V L+ F  C  FI+    P  S  + LA + + ++ P LNP++Y L+ K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|NP_001034711.1|</Hit_id>
+  <Hit_def>odorant receptor 119-2 [Danio rerio] &gt;ref|XP_005157746.1| odorant receptor 119-2 isoform X1 [Danio rerio] &gt;gb|AAI63175.1| Odorant receptor [Danio rerio] &gt;gb|AAI63194.1| Odorant receptor [Danio rerio] &gt;gb|AAI63823.1| Odorant receptor [Danio rerio] &gt;gb|ABC43332.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001034711</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>2.25445e-35</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSF----YCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYA-WPFPIKS----LDKFLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>GFDLSPEKAIIAFFFAIVNYIIILLCNSFLLFTIITNKALHEPMHILLLNLPINDLIGSTCLFPHVMRELLFDTRTMSFSVCITQAFFIHVYAVSTVFILTAMAYDRYVAICQPMRYTTIMTNIHLAKIISLVW----LSNLTLMAVLFILLLRLP-RCRSFLNHPYCDNPSLLQLVCADTTINNIYGLLMTAVCQAFTVGLIIYSYLHILIACFRNKRSDTRSKALQTCGTHLVVFVLF--ECLGLFTIISYRIKDISIHLRKFIAVAAMILPPTVNPVIYGLRTKEIR</Hsp_hseq>
+      <Hsp_midline>G   S E     F    V Y  I+  N  ++ T++++  LH PM+ LL NL + DL  S+   P ++ +     + +SF  C+ Q F +H +  S + IL AM +DRY+AIC+P+ YTTIM       I+++ W    L +++ +A    LL   P    SF    YCD P +++L C DT   +I  +  + V    +  L+I SY  IL+   +++  D  SKAL T   H+ V +LF   C+ ++    + IK     L KF+AV   ++ P +NP+IY LR K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|NP_571668.1|</Hit_id>
+  <Hit_def>odorant receptor 111-1 [Danio rerio] &gt;ref|XP_005157753.1| odorant receptor 111-1 isoform X1 [Danio rerio] &gt;gb|AAC60268.1| olfactory receptor protein 2.6 [Danio rerio] &gt;gb|AAI63319.1| Odorant receptor, family D, subfamily 111, member 1 [Danio rerio] &gt;gb|AAI63331.1| Odorant receptor, family D, subfamily 111, member 1 [Danio rerio] &gt;gb|ABC43334.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571668</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>2.31579e-35</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>SWNESTSETNNSMVTEFIFL----GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAV--HLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>SVNASFSKNISIVHPEYFFVIGLTGIGYSSYYYIFLFITYFI----TVVGNTAVILIIVLDRRLHSAKYIGMFNLALADFGEANALIPNMMKTFLFDSQYIYYNACMANMFFVFLFSTMQSFTLVVMAYDRLIAICLPLRYHSIVNNSNMILIFSAIW--AFNSSVVALMVSLIDRLSFCESNMIQSYFCDHGPVYRLACSDISKNKIMAYVISAMYIIAPMVVIVFSYLGIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPLFCTYLAQLLLSLNPNARVISTSLSYAIPPMLNPIIYVLNTGEIKDLIRKMLK</Hsp_hseq>
+      <Hsp_midline>S N S S+  + +  E+ F+    G+  S     FLF+ +F+     V GN  +++ +V D  LHS  Y  + NL+L D   ++   P M+  F    + I +  C+  +F +  F   +   L+ M +DR IAIC PL Y +I+  +  + I +  W   F  SV  L  ++   L FC  N + S++CD   V +LAC+D  +  IM    S +  +   V+++ SY  I L  I+    +   KAL T  +H+ +V +FF P  C ++      +    + ++   S  I P+LNPIIY L   ++K  IR++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|NP_571823.3|</Hit_id>
+  <Hit_def>odorant receptor 111-3 [Danio rerio] &gt;gb|ABC43336.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571823</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>2.31579e-35</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>SWNESTSETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRKWDAHS</Hsp_qseq>
+      <Hsp_hseq>SVNASFSQNISIVRPEYFFISGLSGIPYSSYYYIFLFVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALADIGETNALIPNMMKTFLFNSQYISYNGCMANMFFVFLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMVSMITRLSICKSNVIPSYFCDHGPIFRLACNDIKINEFFAFFISILYLTMPMVIIALSYLNIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPLLCTYIAQVLLALTPNARVISTSLSYAIPPMLNPIIYVLNTAEIKYIIRKLFKRRLRS</Hsp_hseq>
+      <Hsp_midline>S N S S+  + +  E+ F+         ++ ++  FV Y   V GN ++++ +  D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+ GC+  +F +  F   +   L+A+ +DR+IAIC PL Y  I+   + + I    W        S ++    L  C  N + S++CD   + +LAC D    +      S +      V++ +SY  I L  I+    +   KAL T  +H+ +V +FF P  C +I      +    + ++   S  I P+LNPIIY L   ++K  IR+L K    S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|NP_001121889.1|</Hit_id>
+  <Hit_def>odorant receptor 118-3 [Danio rerio] &gt;gb|ABC43329.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121889</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>3.8385e-35</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>YGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFC--GPNEVDSFY-----CDLPRVIKLACTDT-----YRLDIMVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITVVLLFFG-----PCVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>YLIVLLCNLTIIVTICLNRNLHKPMYILLLNLPINDTMGSTSLFPHLLYSIWSQDRSITYSACLTQGFFIHFYGGASHVILMVMAFDRYIAICLPLRYGAIMTPSNLMRIISVMWFIHFV--------IIFVLFCLLMPHRICQTYMADLICYNPSLMKIMCEDTTVNNMYGLFILSLYHSLPLSVVAF-----TYIHILVTCVTNRQSDAKMKALQTCGTHL-VVFLFLEFNTLFPLIAHRAESIP-AHLRRVFSISVVIFPPIVNPLIYGFKTKEIRQKIENFYK</Hsp_hseq>
+      <Hsp_midline>Y  ++  NL I++T+  + +LH PMY LL NL + D   S+   P ++   +SQ + I++  CL Q F +HF+GG+  VIL+ M FDRYIAIC PL Y  IM  +  + I++V W I F+         + +LFC   P+ +   Y     C  P ++K+ C DT     Y L I+ + +S  L+V +F     +Y  IL+T + +R  D   KAL T   H+ VV LF       P +   A   P   L +  ++   +  P++NP+IY  + K+++  I    K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gb|AAC60265.1|</Hit_id>
+  <Hit_def>olfactory receptor protein 2.3 [Danio rerio] &gt;gb|AAF27273.1| odorant receptor 2.3 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60265</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>4.06724e-35</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>SWNESTSETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRKWDAHS</Hsp_qseq>
+      <Hsp_hseq>SVNASFSQNISIVRPEYFFISGLSGIPYSSYYYIFLFVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALADIGETNALIPNMMKTFLFNSQYISYNGCMANMFFVFLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMVSMIPRLSICKSNVIPSYFCDHGPIFRLACNDIKINEFFAFFISILYLTMPMVIIALSYLNIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPLLCTYIAQVLLALTPNARVISTSLSYAIPPMLNPIIYVLNTAEIKYIIRKLFKRRLRS</Hsp_hseq>
+      <Hsp_midline>S N S S+  + +  E+ F+         ++ ++  FV Y   V GN ++++ +  D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+ GC+  +F +  F   +   L+A+ +DR+IAIC PL Y  I+   + + I    W        S ++    L  C  N + S++CD   + +LAC D    +      S +      V++ +SY  I L  I+    +   KAL T  +H+ +V +FF P  C +I      +    + ++   S  I P+LNPIIY L   ++K  IR+L K    S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gb|AAF27275.1|</Hit_id>
+  <Hit_def>odorant receptor 2.6 [Danio rerio]</Hit_def>
+  <Hit_accession>AAF27275</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>4.70645e-35</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>SWNESTSETNNSMVTEFIFL----GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAV--HLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>SVNASFSKNISIVHPEYFFVIGLTGIGYSSYYYIFLFITYFI----TVVGNTAVILIIVLDRRLHSAKYIGMFNLALADFGEXNALIPNMMKTFLFDSQYIYYNACMANMFFVFLFSTMQSFTLVVMAYDRLIAICLPLRYHSIVNNSNMILIFSAIW--AFNSSVVALMVSLIDRLSFCESNMIQSYFCDHGPVYRLACSDISKNKIMAYVISAMYIIAPMVVIVFSYLGIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPLFCTYLAQLLLSLNPNARVISTSLSYAIPPMLNPIIYVLNTGEIKDLIRKMLK</Hsp_hseq>
+      <Hsp_midline>S N S S+  + +  E+ F+    G+  S     FLF+ +F+     V GN  +++ +V D  LHS  Y  + NL+L D    +   P M+  F    + I +  C+  +F +  F   +   L+ M +DR IAIC PL Y +I+  +  + I +  W   F  SV  L  ++   L FC  N + S++CD   V +LAC+D  +  IM    S +  +   V+++ SY  I L  I+    +   KAL T  +H+ +V +FF P  C ++      +    + ++   S  I P+LNPIIY L   ++K  IR++ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|NP_001122038.1|</Hit_id>
+  <Hit_def>odorant receptor 115-8 [Danio rerio] &gt;gb|ABC43287.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122038</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>5.093e-35</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>TNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRL-DIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDK-SSKALSTLTAHITVVLLFFGPC-VFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>TNNVVLVEGLKVTLQSSYP-AFILLLLIYVFTMGC---NIGLTILILTQKNLHNPMHFLFCNMPVNDIIGSTVIMPRLLQGILREASQRYMTYTECVVQAFFVHVFASVSHSVLIIMAFDRYVAICKPLRYAAIMSNKMVVRLSALAWGVSVIAVTVMIALSLRLSRCR-SYIENPFCDNASLFKLSCEEGVVINNLFGIFSTVVMFTFSLGSVFVTYGKIAASFRNRKHNSFNSKAMKTCGTHIALYLIMFVSCAIMIFLHRSPQHSENRKLASIMFHIAPPGLNPLVYGLQTKEIRQNTSKL</Hsp_hseq>
+      <Hsp_midline>TNN ++ E + + L  S      L +L +VF  G    N+ + I +++  +LH+PM+FL  N+ + D+  S+V  P+++     +  ++ +++  C+VQ F +H F      +LI M FDRY+AICKPL Y  IM     V + A+ WG+  +     +A ++ L  C  + +++ +CD   + KL+C +   + ++  I ++ V+   S   + ++Y  I  + ++R  +  +SKA+ T   HI + L+ F  C + I+    P  S ++ LA + + +  P LNP++Y L+ K+++    +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|NP_001122057.1|</Hit_id>
+  <Hit_def>odorant receptor 115-9 [Danio rerio] &gt;gb|ABC43286.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122057</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>5.59493e-35</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY---TIILMTIQHRPLDKSSKALSTLTAHITVVLLFF-GPCVFIYAWPFPIKSLDKFL-AVFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSSV</Hsp_qseq>
+      <Hsp_hseq>GLKVTHQSSQPVFIVLFLSYIFAMISNITLIFLISTEKNLHDPMHFLFCNLPVNDIIGTTVILPRLMQDVLKEASERYISYTECVVQAYFVHVFTAACHYVLMIMAFDRYVAICNPLRYTAIMTNKMVIKLSASAWGLAIIVVTVMIGLTLRLSHCR-STIENPFCDNASLFKLSCENVSINNAFGVVYSVIVACLSAISIFITYVKIATVCLASKNKALN--SKAMKTCSTHLAVYLIMFVSGAIFIFLHRFPEYAESRKLGSIMFHIVPPGLNPLVYGLQTKEIRQRFVKLCRRKTSTSL</Hsp_hseq>
+      <Hsp_midline>GL  + +    +F++ F+ Y   +  N+ ++  + ++ +LH PM+FL  NL + D+  ++V  P+++ D   +   + IS+  C+VQ + +H F  +   +L+ M FDRY+AIC PL YT IM     + + A  WG+  +     +   + L  C  + +++ +CD   + KL+C +    +   +  S ++   S + + I+Y     + +  +++ L+  SKA+ T + H+ V L+ F    +FI+   FP  +  + L ++ + ++ P LNP++Y L+ K+++    +L +    +S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|NP_001122049.1|</Hit_id>
+  <Hit_def>odorant receptor 116-1 [Danio rerio] &gt;gb|ABC43325.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122049</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>7.40159e-35</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>FLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCG-PNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIK----SLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSSV</Hsp_qseq>
+      <Hsp_hseq>FIFGIFIYMFAA--FCNLTLLLLIILTKSLHKPMYFILFSLPLNDFVGITSMLPKVLSDILTETNNMYYPLCVLQGFLLHMYGGGVMFVLAAMAFDRYIAICMPLRYNALMTPRAVMTVVALVWGLVFL--IICVLFSLHGLHSRCRSHIVSLFCDNPSLLKLACGDTTINNIYGLFLTAIMQIITISIQAFSYVKILITCLTTRRSDAKSKAINTCVAQL-VIFITFEIVVTFYLLSHRFSNVNANLQKIMGMLIFLVPPIMNPIVYGLNSHEIRKHI--LKTFHRKTSV</Hsp_hseq>
+      <Hsp_midline>F+F +F   +    F NL +++ ++    LH PMYF+L +L L D    +   PK+++D  ++   + +  C++Q FLLH +GG  M +L AM FDRYIAIC PL Y  +M   A + ++A+ WG+ FL  +  + F++H L     + + S +CD P ++KLAC DT   +I  +  + ++ + +  +   SY  IL+T +  R  D  SKA++T  A + V+ + F   V  Y           +L K + +   ++ P++NPI+Y L + +++  I  L+ +   +SV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|NP_982294.1|</Hit_id>
+  <Hit_def>odorant receptor 103-4 [Danio rerio] &gt;gb|AAC60254.1| olfactory receptor protein 13.4 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_982294</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>8.33659e-35</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLF--MLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYAWP-FPIK---SLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NTSFVKDFFIVGFPGLQPHYYGLVSALLFFVYLFTLMENGVFFTLFVITKS-LHRPVYYFVLNLVVCDVLFSTTMLPKIISRYWFQDGTISFLGCFVQMFFVHYLGGVISNVLAVMAIDRYAAICYPLQYHNIMTNRNILILILGCWILSLAGPLMLVIRAYPLPYCAENTIIHCYCEHVSVTTLACTDRSLYSIPALIYALVLLMGSFAIIVFSYCSIFIAVMRISGSQGRMKTFSTCSPHLMIIALYFIPKCFLYLFGNIGVKFSTDLRILINVMSNLLPPMINPLIYCLRTEEITKILKR</Hsp_hseq>
+      <Hsp_midline>N S V +F  +G    Q     L   +LFFV+   ++   +   + V++ S LH P+Y+ + NL + D+  S+   PK+I+ ++ Q   ISF GC VQ+F +H+ GG    +L  M  DRY AIC PL Y  IM     + ++   W +     +  +  A  L +C  N +   YC+   V  LACTD     I  +  + VL + SF +++ SY  I + +      +   K  ST + H+ ++ L+F P  F+Y +    +K    L   + V  +++ P++NP+IY LR +++   +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|NP_001121879.1|</Hit_id>
+  <Hit_def>odorant receptor 108-2 [Danio rerio] &gt;gb|ABC43244.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121879</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>9.96739e-35</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>NESTSETNNSMVTEFIFLGLSDSQELQTFLFMLFF-VFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYA---WPFPIKSLDKFLAV-FYSVITPLLNPIIYTLRNKDMKTAI</Hsp_qseq>
+      <Hsp_hseq>NAISSGQNSSIIQPAGFYIVALSSVPYSNVYVMFLTVLYVITVICNVFLISIIVYDQRLHVPKFMAVGNLAVVDLILSTSLVPGMIKIYIVLDNFMPFKLCLVQMYTYYTFLKVEALSLCILSYDRFIAICFPLRHESINTNTRMTYIICVSWFLSFSISLYGTLSIPALSFCGSLQVNSYFCDYAPVLRVACSDTASQFNFGTASNILFVIIPFAFIFLTYAGILYAVFRMKNNQSRFKALATCTEHLILVALFFFPIVIIFSLGLFGYIINSNVRSVCLSMTSLLTPCVNPILYSLKTKEIRSRV</Hsp_hseq>
+      <Hsp_midline>N  +S  N+S++    F  ++ S    + ++++F  V Y   V  N+ ++  +V D  LH P +  + NL+++DL LS+   P MI  +      + FK CLVQ++  + F   E + L  + +DR+IAIC PL + +I        I+ V+W + F  S+        L FCG  +V+S++CD   V+++AC+DT        A++ +  +  F  + ++Y  IL  +     ++S  KAL+T T H+ +V LFF P V I++   + + I S  + + +   S++TP +NPI+Y+L+ K++++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gb|AAC60263.1|</Hit_id>
+  <Hit_def>olfactory receptor protein 2.1 [Danio rerio] &gt;gb|AAF27269.1| odorant receptor 2.1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60263</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.07217e-34</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>VFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDKFLAVFYSV---ITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>VIGNFLVILLIVLDRSLHSPKYIGVFNLALADIGETNALIPNMMKTFLFDSQYISYNACLVNMFFVFLFSSMQSLTLVVMAYDRLIAICLPLRYHVIVNNTSMISIFSAVFMFNSIIVASMVSLVTNISFCKSNVIQSYFCDHGPMFRMACNDNNINKIMGFLYTTLYLIAPMLVIFLSYLGIFLVVSKIATWERRLKALKTCVSHLLLVGIYFLPIFFTYLTSLLLFSTSNSRVISTSLAYAIPPMLNPIIYVLNTAEIKNTIRK</Hsp_hseq>
+      <Hsp_midline>V GN L+++ +V D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+  CLV +F +  F   + + L+ M +DR IAIC PL Y  I+   + + I +  +    +   S ++   ++ FC  N + S++CD   + ++AC D     IM    + +  +   +++ +SY  I + +      ++  KAL T  +H+ +V ++F P  F Y     + S      +  S+   I P+LNPIIY L   ++K  IR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|NP_571657.1|</Hit_id>
+  <Hit_def>odorant receptor 111-7 [Danio rerio] &gt;gb|AAC60255.1| olfactory receptor protein 2.1 [Danio rerio] &gt;gb|AAI62098.1| Odorant receptor, family D, subfamily 111, member 7 [Danio rerio] &gt;gb|AAI62104.1| Odorant receptor, family D, subfamily 111, member 7 [Danio rerio] &gt;gb|ABC43340.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571657</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.20237e-34</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>VFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDKFLAVFYSV---ITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>VIGNFLVILLIVLDRSLHSPKYIGVFNLALADIGETNALIPNMMKTFLFDSQYISYNACLVNMFFVFLFSSMQSLTLVVMAYDRLIAICLPLRYHVIVNNTSMISIFSAVFMFNSIIVASMVSLVTNISFCKSNVIQSYFCDHGPMFRMACNDNNINKIMGFLYTTLYLIAPMLVIFLSYLGIFLVVSKIATWERRLKALKTCVSHLLLVGIYFLPIFFTYLTSLLLFSTSNSRVISTSLAYAIPPMLNPIIYVLNTAEIKNTIRK</Hsp_hseq>
+      <Hsp_midline>V GN L+++ +V D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+  CLV +F +  F   + + L+ M +DR IAIC PL Y  I+   + + I +  +    +   S ++   ++ FC  N + S++CD   + ++AC D     IM    + +  +   +++ +SY  I + +      ++  KAL T  +H+ +V ++F P  F Y     + S      +  S+   I P+LNPIIY L   ++K  IR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|NP_571158.1|</Hit_id>
+  <Hit_def>odorant receptor 115-15 [Danio rerio] &gt;gb|AAA96510.2| odorant receptor 9.2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571158</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.71094e-34</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVL---TVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVL-LFFGPCVFIYAWPFPIKS-LDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSSVK</Hsp_qseq>
+      <Hsp_hseq>GLRVSEEATYPVFVFFLLFYVAIMVLNIGIFIVITTHRSLHEPMYMLFCNLPINDILGNSIMVPRLLMDILKSPSQRYISYVECVVQAFSTHTYGTTSHTILIIMAIDRYVAICNPLRYQTIMTNKTVITLSALAWGIALLFISILIGLTLRLSRCR-TFISNPFCDNASLFKLSCEDVTINNLYGLIYTVLLFGSSMGSIAVTYIKITAVCLVTKSKMLN--SRALKTCSTHLSLYLIMLISGLIIIVLHRFPAYSDYRKIASLLFHIIPSILNPIIYGVQSSEVRHVLIQVLSFKKRRAVK</Hsp_hseq>
+      <Hsp_midline>GL  S+E    +F+ F +FY  I+  N+ I I + +   LH PMY L  NL + D+  +S+  P+++ D      ++ IS+  C+VQ F  H +G +   ILI M  DRY+AIC PL Y TIM     + + A+ WGI  L     +   + L  C    + + +CD   + KL+C D    ++  +  + +L   ++ S  +  I  T + +  + + L+  S+AL T + H+++ L +     + I    FP  S   K  ++ + +I  +LNPIIY +++ +++  + Q+  +    +VK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gb|ABC43349.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43349</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>2.36524e-34</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLF--MLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYAWP-FPIK---SLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NTSFAKDFFIVGFPGLQPHYYGLVSALLFFVYLFTLMENGVFFTLFVITKS-LHRPVYYFVLNLVVCDVLFSTTMLPKIISRYWFQDGTISFLGCFVQMFFVHYLGGVISNVLAVMAIDRYAAICYPLQYHNIMTNRNILILILGCWILSLAGPLMLVIRAYPLPYCAENTIIHCYCEHVSVTTLACTDRSLYSIPALIYALVLLMGSFAIIVFSYCSIFIAVMRISGSQGRMKTFSTCSPHLMIIALYFIPKCFLYLFGNIGVKFSTDLRILINVMSNLLPPMINPLIYCLRTEEITKILKR</Hsp_hseq>
+      <Hsp_midline>N S   +F  +G    Q     L   +LFFV+   ++   +   + V++ S LH P+Y+ + NL + D+  S+   PK+I+ ++ Q   ISF GC VQ+F +H+ GG    +L  M  DRY AIC PL Y  IM     + ++   W +     +  +  A  L +C  N +   YC+   V  LACTD     I  +  + VL + SF +++ SY  I + +      +   K  ST + H+ ++ L+F P  F+Y +    +K    L   + V  +++ P++NP+IY LR +++   +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gb|AAI07995.1|</Hit_id>
+  <Hit_def>Odorant receptor, family D, subfamily 111, member 3 [Danio rerio]</Hit_def>
+  <Hit_accession>AAI07995</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>2.36574e-34</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>SWNESTSETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRKWDAHS</Hsp_qseq>
+      <Hsp_hseq>SVNASFSQNISIVRPEYFFISGLSGIPYSSYYYIFLFVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALADIGETNALIPNMMKTFLFNSQYISYNGCMANMFFVFLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMVSMITRHSICKSNVIPSYFCDHGPIFRLACNDIKINEFFAFFISILYLTMPMVIIALSYLNIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPLLCTYIAQVLLALTPNARVISTSLSYAIPPMLNPIIYVLNTAEIKYIIRKLFKRRLRS</Hsp_hseq>
+      <Hsp_midline>S N S S+  + +  E+ F+         ++ ++  FV Y   V GN ++++ +  D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+ GC+  +F +  F   +   L+A+ +DR+IAIC PL Y  I+   + + I    W        S ++       C  N + S++CD   + +LAC D    +      S +      V++ +SY  I L  I+    +   KAL T  +H+ +V +FF P  C +I      +    + ++   S  I P+LNPIIY L   ++K  IR+L K    S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|AAC60257.1|</Hit_id>
+  <Hit_def>olfactory receptor protein 2.3 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60257</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.00562e-34</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>SWNESTSETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKDMKTAIRQLRKWDAHS</Hsp_qseq>
+      <Hsp_hseq>SVNASFYQNISIVRPEYFFISGLSGIPYSSYYYIFLFVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALADIGETNALIPNMMKTFLFNSQYISYNGCMANMFFVVLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMVSMITRLSICKSNVIPSYFCDHGPIFRLACNDIKINEFFAFFISILYLTMPMVIIALSYLNIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPLLCTYIAQVLLALTPNARVISTSLSYAIPPMLNPIIYVLNTAEIKYIIRKLFKRRLRS</Hsp_hseq>
+      <Hsp_midline>S N S  +  + +  E+ F+         ++ ++  FV Y   V GN ++++ +  D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+ GC+  +F +  F   +   L+A+ +DR+IAIC PL Y  I+   + + I    W        S ++    L  C  N + S++CD   + +LAC D    +      S +      V++ +SY  I L  I+    +   KAL T  +H+ +V +FF P  C +I      +    + ++   S  I P+LNPIIY L   ++K  IR+L K    S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|AAC60258.1|</Hit_id>
+  <Hit_def>olfactory receptor protein 2.4 [Danio rerio] &gt;gb|AAC60266.1| olfactory receptor protein 2.4 [Danio rerio] &gt;gb|AAF27274.1| odorant receptor 2.4 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60258</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.23275e-34</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>SWNESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKD</Hsp_qseq>
+      <Hsp_hseq>SVNASFSQ-NISIVHPENFFIIGLSGIQHSGYYYIFLFFTYFISVI-GNSVVLLIIALERSLHSPKYIGVFNLALADIGETSALIPNMMKNFLFNSQYISYNGCMANMFFVFLFSSMQSFTLVVMAYDRLIAICLPLRYHAIVNNTSMILMTLAIWAFNTFVVALMVSLINRLSFCESNMIQSYFCDHGPVFRLACNDNSMNKIMAYVISVLYILAPMVVIVFSYLGIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPVCCTYIAQVLLYLTPNARIISTSFSYAVPPVLNPIIYVLNTAE</Hsp_hseq>
+      <Hsp_midline>S N S S+ N S+V    F  +GLS  Q    +   LFF ++  ++ GN ++++ +  +  LHSP Y  + NL+L D+  +S   P M+ +F    + IS+ GC+  +F +  F   +   L+ M +DR IAIC PL Y  I+   + + +    W          ++    L FC  N + S++CD   V +LAC D     IM    S +  +   V+++ SY  I L  I+    +   KAL T  +H+ +V +FF P  C +I      +    + ++  +S  + P+LNPIIY L   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|NP_001121860.1|</Hit_id>
+  <Hit_def>odorant receptor 117-1 [Danio rerio] &gt;gb|ABC43327.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121860</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.74222e-33</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>VFYGGI------VFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLAC-TDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITVVLLF---FGPCVFIYAWP-FPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAI</Hsp_qseq>
+      <Hsp_hseq>VFFAGILVYMFSVICNTTILGLIISQKSLHKPMFYILFSLPLIDLIGITAGLPRVLVDIVTETNDVYYPTCVLQAFLIHLYGGGTLFLLAAMSLDRYIAICNPLRYNSIMTPSRIFGLIAFAWGLDFAVITVLFSLQARLVKCK-SFITNVYCDNPSLVLLSCGGDLSVNNIYGLFLTAFIQITSVFIQMFSYGCIVITCVKQTHADSRVKALNTCVAQFTTFILFEMVTAVAIISYRIPDFP-PTAQRVCGLMIYAVLPVVNPVIYGLKMKDIRIAL</Hsp_hseq>
+      <Hsp_midline>VF+ GI      V  N  I+  ++S   LH PM+++L +L LIDL   +   P+++ D  ++   + +  C++Q FL+H +GG  + +L AM  DRYIAIC PL Y +IM  +   G++A  WG+ F       +    L+ C  + + + YCD P ++ L+C  D    +I  +  +  + + S  + + SY  I++T ++    D   KAL+T  A  T  +LF       +  Y  P FP  +  +   +    + P++NP+IY L+ KD++ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|NP_571667.1|</Hit_id>
+  <Hit_def>odorant receptor 111-5 [Danio rerio] &gt;ref|XP_073779324.1| odorant receptor 111-5 isoform X1 [Danio rerio] &gt;gb|AAC60256.1| olfactory receptor protein 2.2 [Danio rerio] &gt;gb|AAC60264.1| olfactory receptor protein 2.2 [Danio rerio] &gt;gb|AAF27271.1| odorant receptor 2.2 [Danio rerio] &gt;gb|AAI62074.1| Odorant receptor, family D, subfamily 111, member 5 [Danio rerio] &gt;gb|AAI62085.1| Odorant receptor, family D, subfamily 111, member 5 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571667</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>3.28269e-33</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>FIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLL----FCGPNEVDSFYCDLPRVIKLACTDTYRLDIMV-IANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGPCVFIY------AWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>FFIIGLS-GIPYSSYYYIFLFVIYFITIIGNSLVLLLIALDRSLHSPKYIGVFNLALADIGETNALIPNMVKTFLFDSQYISYNACLANMFFVFFFSSLQSVSLVIMSYDRLIAICLPLRYHSIVNNSSMILVSPAIW----IFNSSMVALMVSLITRISFCDSNVIQSYFCDHGPVYRLACND-FNLNKSVGFVITSLFLIAPMIIIFLSYLVIFLALSKITTWERRLKALKTCVSHLLLVGVYFFPICFTYLAQLLLALTPNARVISTSLAY---VVPPMLNPIIYVLNTAEIKNLLQKM</Hsp_hseq>
+      <Hsp_midline>F  +GLS      ++ ++  FV Y   + GN L+++ +  D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+  CL  +F + FF   + V L+ M +DR IAIC PL Y +I+  ++ + +    W    + + S +A  V L+    FC  N + S++CD   V +LAC D + L+  V    + +  +   +++ +SY +I + +      ++  KAL T  +H+ +V ++F P  F Y      A     + +   LA    V+ P+LNPIIY L   ++K  ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|XP_009289739.2|</Hit_id>
+  <Hit_def>olfactory receptor 1D2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009289739</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.05334e-33</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>SETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLAC-----TDTYRLD-IMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAH------ITVVLLF------FGPCVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>SLENESSVSVFTLSGLDETMENRYVLFSLTVLFYPLMVFCNVTVIVAIISHKKLHEPMYVFICNLCANALFGTAGFYPKFLYDLFAQDHVISYAGCMIQTFVIYSYALCDVSTLTVMAYDRYVAICRPLEYHSIMTSQRVVEWILFCWLAPLFCMSLLIVLLSRLVLCG-STIEKLYCEIWAVAKLSCFSNTVNNVFGLTVILVYFGHGVLIYCSYFQLIRKCV--------KSTEGRRKFMQTCVPHLLSLINVTVALLFDVLYSRFG------SKNVP-HSVRNFMALEFLLIPPILNPLIYGLN----LTIVRQ</Hsp_hseq>
+      <Hsp_midline>S  N S V+ F   GL ++ E +  LF L  +FY  +VF N+ +++ ++S   LH PMY  + NL    L  ++   PK + D F+Q  VIS+ GC++Q F+++ +   ++  L  M +DRY+AIC+PL Y +IM     V  +   W          +     L+ CG + ++  YC++  V KL+C      + + L  I+V    GVL  CS+  LI            +  +   K + T   H      +TV LLF      FG      +   P  S+  F+A+ + +I P+LNP+IY L      T +RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>dbj|BAA85043.1|</Hit_id>
+  <Hit_def>olfactory receptor protein ZF9A [Danio rerio]</Hit_def>
+  <Hit_accession>BAA85043</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.48488e-33</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>VFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDKFLAVFYSV---ITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>VIGNFLVILLIVLDRSLHSPKYIGVFNLALADIGETNALIPNMMKTFLFDSQYISYNACLVNMFFVFLFSSMQSLTLVVMAYDRLIAICLPLRYHVIVNNTSMISIFSAVFMFNSIIVASMVSLVTNISFCKSNVIQSYLCDHGPMFRMACNDNNINKIMGFLYTTLYLIAPMLVIFLSYLGIFLVVSKIATWERRLKALKTCVSHLLLVGIYFLPIFFTYLTSLLLFSTSNSRVISTSLAYAIPPMLNPIIYVLNTAEITNTIRK</Hsp_hseq>
+      <Hsp_midline>V GN L+++ +V D  LHSP Y  + NL+L D+  ++   P M+  F    + IS+  CLV +F +  F   + + L+ M +DR IAIC PL Y  I+   + + I +  +    +   S ++   ++ FC  N + S+ CD   + ++AC D     IM    + +  +   +++ +SY  I + +      ++  KAL T  +H+ +V ++F P  F Y     + S      +  S+   I P+LNPIIY L   ++   IR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|XP_005157754.1|</Hit_id>
+  <Hit_def>odorant receptor 111-2 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005157754</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>5.47314e-33</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>TAEAISWNESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKD</Hsp_qseq>
+      <Hsp_hseq>SKSAMSSVNASFSQNISIVHPENFFIIGLTGIQHSGYYYIFLFFTYFISVI-GNSVVLLIIALERNLHSAKYIGVFNLALADIGETSALIPNMMKNFLFDSQYISYNGCMANMFFVFLFSSMQSFTLVVMAYDRLIAICLPLRYHAIVNNTSMILMTLAIWAFNTFVVALMVSLINRLSFCESNMIQSYFCDHGPVFRLACNDNSMNKIMAYVISVLYILAPMVVIVFSYLAIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPVCCTYIAQVLLYLTPNARIISTSFSYAVPPVLNPIIYVLNTAE</Hsp_hseq>
+      <Hsp_midline>+  A+S   ++   N S+V    F  +GL+  Q    +   LFF ++  ++ GN ++++ +  + +LHS  Y  + NL+L D+  +S   P M+ +F    + IS+ GC+  +F +  F   +   L+ M +DR IAIC PL Y  I+   + + +    W          ++    L FC  N + S++CD   V +LAC D     IM    S +  +   V+++ SY  I L  I+    +   KAL T  +H+ +V +FF P  C +I      +    + ++  +S  + P+LNPIIY L   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|NP_001122244.1|</Hit_id>
+  <Hit_def>odorant receptor 111-2 [Danio rerio] &gt;gb|AAI62064.1| LOC791954 protein [Danio rerio] &gt;gb|AAI62072.1| LOC791954 protein [Danio rerio] &gt;gb|ABC43335.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122244</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>6.71767e-33</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>SWNESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAVFYS-VITPLLNPIIYTLRNKD</Hsp_qseq>
+      <Hsp_hseq>SVNASFSQ-NISIVHPENFFIIGLTGIQHSGYYYIFLFFTYFISVI-GNSVVLLIIALERNLHSAKYIGVFNLALADIGETSALIPNMMKNFLFDSQYISYNGCMANMFFVFLFSSMQSFTLVVMAYDRLIAICLPLRYHAIVNNTSMILMTLAIWAFNTFVVALMVSLINRLSFCESNMIQSYFCDHGPVFRLACNDNSMNKIMAYVISVLYILAPMVVIVFSYLAIFLALIKITTWEGRLKALKTCVSHLLLVGIFFLPVCCTYIAQVLLYLTPNARIISTSFSYAVPPVLNPIIYVLNTAE</Hsp_hseq>
+      <Hsp_midline>S N S S+ N S+V    F  +GL+  Q    +   LFF ++  ++ GN ++++ +  + +LHS  Y  + NL+L D+  +S   P M+ +F    + IS+ GC+  +F +  F   +   L+ M +DR IAIC PL Y  I+   + + +    W          ++    L FC  N + S++CD   V +LAC D     IM    S +  +   V+++ SY  I L  I+    +   KAL T  +H+ +V +FF P  C +I      +    + ++  +S  + P+LNPIIY L   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gb|ABC43341.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43341</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>6.86796e-33</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>STSETNNSMVTEFIFL----GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLL----FCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAV-FYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>SLSQNSSSVYPEYFFIIGLSGIHNSNYYYMFLCITYFV----TVTGNSLVLLLIALYRSLHSPKYIGVFNLALADFGETNALIPNMMRTFLFDSQYISYNACLANMFFVHFFSTVQSFTLVVLSYDRFIAIFLPLRYHAIVNYTFMYFVFSIIW----VFNASIVAFAVSLITRLSFCESNKVNSYYCDYGPVYRLACNDNSICASMAQLSAALYVVAPVIIIVLSYLGIFLALSKITTWEGRLKALKTCVSHLLLVGSFFLPIICIFIATSTNSLSLNARVISTSLAHALPPMLHPIIYVLNTAEIKDIIIKIVR</Hsp_hseq>
+      <Hsp_midline>S S+ ++S+  E+ F+    G+ +S     FL + +FV     V GN L+++ +     LHSP Y  + NL+L D   ++   P M+  F    + IS+  CL  +F +HFF   +   L+ + +DR+IAI  PL Y  I+       + ++ W    + + S +AFAV L+    FC  N+V+S+YCD   V +LAC D      M   ++ +  V   +++++SY  I + +      +   KAL T  +H+ +V  FF P  C+FI      +    + ++      + P+L+PIIY L   ++K  I ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|NP_694517.1|</Hit_id>
+  <Hit_def>odorant receptor 111-8 [Danio rerio] &gt;gb|AAF27268.1| odorant receptor 2.10 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_694517</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.88589e-32</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>STSETNNSMVTEFIFL----GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLL----FCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGP--CVFIY----AWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>SLSQNSSSVYPEYFFIIGLSGIHNSNYYYMFLCITYFV----TVTGNSLVLLLIALYRSLHSPKYIGVFNLALADFGETNALIPNMMKTFLFDSQYISYNACLANMFFVHFFSTVQSFTLVVLAYDRFIAIFLPLRYHAIVNYTFMYFVFSIIW----VFNASIVAFAVSLITRLSFCESNKVNGYYCDYGPVYRLACNDNSICASMAQLSAALYVVAPVIIIVLSYLGIFLALSKITTWEGRLKALKTCVSHLLLVGSFFLPIICIFIATSTNSLSLNARVISTSLA---HALPPMLHPIIYVLNTAEIKDIIIKIVR</Hsp_hseq>
+      <Hsp_midline>S S+ ++S+  E+ F+    G+ +S     FL + +FV     V GN L+++ +     LHSP Y  + NL+L D   ++   P M+  F    + IS+  CL  +F +HFF   +   L+ + +DR+IAI  PL Y  I+       + ++ W    + + S +AFAV L+    FC  N+V+ +YCD   V +LAC D      M   ++ +  V   +++++SY  I + +      +   KAL T  +H+ +V  FF P  C+FI     +     + +   LA     + P+L+PIIY L   ++K  I ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gb|ABC43316.1|</Hit_id>
+  <Hit_def>odorant receptor, partial [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43316</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>2.03221e-32</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLAC-----TDTYRLD-IMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAH------ITVVLLF------FGPCVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NESSVSVFTLSGLDETMENRYVLFSLTVLFYPLMVFCNVTVIVAIISHKKLHEPMYVFICNLCANALFGTAGFYPKFLYDLLSQDHVISYAGCMIQTFVIYSYALCDVSTLTVMAYDRYVAICRPLEYHSVMTSQRVVEWILFCWLAPLFCMSLLIVLLSRLVLCG-STIEKLYCEIWAVAKLSCFSNTVNNVFGLTVILVYFGHGVLIYCSYFQLIRKCV--------KSTEGRRKFMQTCVPHLLSLINVTVALLFDVLYSRFG------SKNVP-HSVRNFMALEFLLIPPILNPLIYGLN----LTIVRQ</Hsp_hseq>
+      <Hsp_midline>N S V+ F   GL ++ E +  LF L  +FY  +VF N+ +++ ++S   LH PMY  + NL    L  ++   PK + D  SQ  VIS+ GC++Q F+++ +   ++  L  M +DRY+AIC+PL Y ++M     V  +   W          +     L+ CG + ++  YC++  V KL+C      + + L  I+V    GVL  CS+  LI            +  +   K + T   H      +TV LLF      FG      +   P  S+  F+A+ + +I P+LNP+IY L      T +RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gb|ABC43274.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43274</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>3.5307e-32</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIG------FLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY---TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCVF--IYAWPFPIKSLDKFL-AVFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSSVK</Hsp_qseq>
+      <Hsp_hseq>DSNSSANVTFVRPATFFLNGFSNFPHAKYYYLFLSLV-YVVTVLGNSFIMCTIYLSRRLHTAKYIAVFHLALCDLCGSSAVIPKVVDTFLFDHQDISYEACMANIFFVFHFMNVQSLPLLVMAYDRLVAICFPLRYHAIVTKTSMLLILGVIWTFSLIFFSVFVDSINRLSF------CRTNVINNYFCDYCTVYRLACNDNSINILMGKLGNDLLVFTPLILVFISYFCISLALFKIAH-AVDR-TKAIKTCTTHLMLVAIFYIPILSNNIAALTTPFTSDIQIINNSLTQTIPPMLNPIIYTLKTDEVMQSVKELYKRSRMNTIR</Hsp_hseq>
+      <Hsp_midline>+S S  N + V    F   G S+    + +   L  V Y   V GN  I+ T+     LH+  Y  + +L+L DL  SS   PK++  F    + IS++ C+  IF +  F   + + L+ M +DR +AIC PL Y  I+   + + I+ V W         F+ S+++L+F      C  N +++++CD   V +LAC D     +M    + +L     +L+ ISY   ++ L  I H  +D+ +KA+ T T H+ +V +F+ P +   I A   P  S  + +       I P+LNPIIYTL+  ++  ++++L K    ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>dbj|BAA85042.1|</Hit_id>
+  <Hit_def>olfactory receptor protein ZF2B [Danio rerio]</Hit_def>
+  <Hit_accession>BAA85042</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>4.39272e-32</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>STSETNNSMVTEFIFL----GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLL----FCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGP--CVFIYAWPFPIKSLDKFLAV-FYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>SLSQNSSSVYPEYFFIIGLSGIHNSNYYYMFLCITYFV----TVTGNSLVLLLIALYRSLHSPKYIGVFNLALADFGETNALIPNMMRTFLFDSQYISYNACXANMFCVHFFSTVQSFTLVVLSYDRFIAIFLPLRYHAIVNYTFMYFVFSIIW----VFNASIVAFAVSLITRLSFCESNKVNSYYCDYGPVYRLACNDNSICASMAQLSAALYVVAPVIIIVLSYLGIFLALSKITTWEGRLKALKTCVSHLLLVGSFFLPIICIFIATSTNSLSLNARVISTSLAHALPPMLHPIIYVLNTAEIKDIIIKIVR</Hsp_hseq>
+      <Hsp_midline>S S+ ++S+  E+ F+    G+ +S     FL + +FV     V GN L+++ +     LHSP Y  + NL+L D   ++   P M+  F    + IS+  C   +F +HFF   +   L+ + +DR+IAI  PL Y  I+       + ++ W    + + S +AFAV L+    FC  N+V+S+YCD   V +LAC D      M   ++ +  V   +++++SY  I + +      +   KAL T  +H+ +V  FF P  C+FI      +    + ++      + P+L+PIIY L   ++K  I ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|NP_001122054.1|</Hit_id>
+  <Hit_def>odorant receptor 114-1 [Danio rerio] &gt;gb|ABC43324.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122054</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>6.55957e-32</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIG-FLHS----VSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYR-LDIMVIANSGVLTVCSFVLLIISYTIILMTI-QHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDKFLAVF----YSVITPLLNPIIYTLRNKDMKTAI</Hsp_qseq>
+      <Hsp_hseq>KTFNISYQEFYLIGFTDLQDYRRYLFIPFFLIFAFTLFTNSIIILVIVKESKLHAPMYILIGFVAALGFLQPIFAIPRILISFLFGRNMIYKSECLVQMFCLHMAGCFQSTVLVAMAVDRFFAITFPLQYHYYVNLKT-----SLIFGLALFLRNLVVVVSMVGLIAPLQFCKTNVIYHCVCEHTSVVSIACGDVSKNYAAGTVAFSIVTGDCVFIMC--SYIVIFVIIFRSPPGDSRQKAINTCSTHLMVMVVAYCSCVVAYVG-YRVSSIPRDIRVLCTMSYLLFTNFFNPVIYGIRTKEIKAQI</Hsp_hseq>
+      <Hsp_midline>+T N    EF  +G +D Q+ + +LF+ FF+ +   +F N +I++ +V +S LH+PMY L+  ++ +         P+++  F   R +I    CLVQ+F LH  G  +  +L+AM  DR+ AI  PL Y   +         ++ +G+  FL +    VS +     L FC  N +    C+   V+ +AC D  +      +A S V   C F++   SY +I + I +  P D   KA++T + H+ V+++ +  CV  Y   + + S+ + + V     Y + T   NP+IY +R K++K  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|AAF27265.1|</Hit_id>
+  <Hit_def>odorant receptor 2.8 [Danio rerio] &gt;gb|AAH86731.1| Odorant receptor, family D, subfamily 111, member 11 [Danio rerio] &gt;gb|AAI64128.1| Or111-11 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAF27265</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>7.51748e-32</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>EFIFL-GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPIKSLDKFLAVFYS----VITPLLNPIIYTLRNKD</Hsp_qseq>
+      <Hsp_hseq>EYFFITGLSGTEYSNYYYIFLFFLYIVAVI-GNFIVLLIIALERSLHSPKYIAVFNLALADIGEMNALVPNMIKMFLFESQYISYNACMVNMFFVHFFTTMQSFTLVVMSYDRFVAICLPLRYHAIVNNTVISVVFLVLWAFNVFVLLVVVGMITRLSICKSNVILSYYCDHGPVYKLACNDNSINSFLGKLSTALYLVAPLIIIFLSYVGVFLALSKITTWEGRLKALKTCVAHLLLAGSFFVPIFSIYIASI-MNSLTPNARVLSTSLSYVLPPTLNPILYVLNTAE</Hsp_hseq>
+      <Hsp_midline>E+ F+ GLS ++    +   LFF++   ++ GN ++++ +  +  LHSP Y  + NL+L D+   +   P MI  F  + + IS+  C+V +F +HFF   +   L+ M +DR++AIC PL Y  I+       +  V W       +  +     L  C  N + S+YCD   V KLAC D      +   ++ +  V   +++ +SY  + + +      +   KAL T  AH+ +   FF P   IY     + SL     V  +    V+ P LNPI+Y L   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|NP_571817.1|</Hit_id>
+  <Hit_def>odorant receptor 115-1 [Danio rerio] &gt;gb|AAG13952.1| odorant receptor 9.4 [Danio rerio] &gt;gb|AAI62353.1| Or115-1 protein [Danio rerio] &gt;gb|ABC43378.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571817</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>8.42076e-32</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITV-VLLFFGPCVFIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSS</Hsp_qseq>
+      <Hsp_hseq>GLQVTSQSTLPTFILLLIVYVFIMVSNIGMMIQISADKCLHQPMYVLFCNLTLNDVLGTTVFMPHVLKNLLKDPSKCYITFVECAIQAYFTHLNGTASHTVIMIMAFDRYVAICNPLRYPAIMTSNMVVKLSIAAWGVAAVLVGILIGLSVRLSHC-RSVIQGNVCDNASLFKLSCENTVVNNVYGLTFTVVLFTSSIVCVALTYLKIAMVCFKSKNKATNSKAVKTCSTHLTVYIIMLISGSVTIFLHRFVTYAETRKLAGIIFHVIPPGLNPIIYGIQSKEIRQKILKLFRNQVNAK</Hsp_hseq>
+      <Hsp_midline>GL  + +     F+L  + Y  I+  N+ ++I + +D  LH PMY L  NL+L D+  ++V  P ++ +      +  I+F  C +Q +  H  G +   +++ M FDRY+AIC PL Y  IM  N  V +    WG+  +     +  +V L  C  + +    CD   + KL+C +T   ++  +  + VL   S V + ++Y  I ++  + +    +SKA+ T + H+TV +++     V I+   F   +  + LA + + VI P LNPIIY +++K+++  I +L +   ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gb|ABC43270.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43270</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>9.15064e-32</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIG------FLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY---TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCVF--IYAWPFPIKSLDKFL-AVFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSSVK</Hsp_qseq>
+      <Hsp_hseq>DSNSSANVAFVRPATFFLNGFSNFPHAKYYYLFLSLV-YAVTVLGNSFIMCIIYLSRRLHTAKYIAVFHLALCDLCGSSAVIPKVVDTFLFDHQDISYAACMANIFFVFHFMNVQSLTLLVMAYDRLVAICFPLRYHAIVTKTSMLLILGVIWTFSLIFFSVFVDSINRLSF------CRTNVINNYFCDYCTVYRLACNDNSINILMGKLGNNLLVFTPLILVFISYFCISLALFKIAH-AVDR-TKAIKTCTTHLMLVAIFYIPILSNNIAALTTPFTSDIQIINNSLTQTIPPMLNPILYTLKTDEVMQSVKELYKRSRMNTIR</Hsp_hseq>
+      <Hsp_midline>+S S  N + V    F   G S+    + +   L  V Y   V GN  I+  +     LH+  Y  + +L+L DL  SS   PK++  F    + IS+  C+  IF +  F   + + L+ M +DR +AIC PL Y  I+   + + I+ V W         F+ S+++L+F      C  N +++++CD   V +LAC D     +M    + +L     +L+ ISY   ++ L  I H  +D+ +KA+ T T H+ +V +F+ P +   I A   P  S  + +       I P+LNPI+YTL+  ++  ++++L K    ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|NP_001124289.1|</Hit_id>
+  <Hit_def>odorant receptor 113-2 [Danio rerio] &gt;gb|ABC43323.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001124289</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>1.16984e-31</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIM-CGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHI---TVVLLFFGPCVFIYAWPFPIKSLDK-FLAVFYSVITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>QNTSFKDFRLTGFFSLGEWRPLLFIPFFFMFLLAITANSILIYLIKTQKSLHSPMYVLIGVMAVLDLILPIFFVPNMLLSFLFNWSGISLPGCLIQMFGLHFIGTFQSTLLFWMALDRYFAICKPLYYHKSMEILNFLKFVFAPVIRNGLL-TVTMVSLAGRLSFCATNVIDHSFCEHMALVQIACGDTSVNNIVGLLCAFLITTVDFILITVSYVVIFFSV-FRSGKAHLKAINTCVTHIIAMTLSLISALTAFLLYRIRNNISSSNRIFISIMYLLFPSCLHPLIYGWRTKEIR</Hsp_hseq>
+      <Hsp_midline> N+   +F   G     E +  LF+ FF  +   +  N +++  + +   LHSPMY L+  ++++DL L     P M+  F      IS  GCL+Q+F LHF G  +  +L  M  DRY AICKPL+Y   M   N    + A     G L +V+ ++ A  L FC  N +D  +C+   ++++AC DT   +I+ +  + ++T   F+L+ +SY +I  ++  R      KA++T   HI   T+ L+       +Y     I S ++ F+++ Y +    L+P+IY  R K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|NP_001121864.1|</Hit_id>
+  <Hit_def>odorant receptor 126-4 [Danio rerio] &gt;gb|ABC43314.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121864</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>1.66717e-31</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLD------IMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVL-----LFFGPCVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAI</Hsp_qseq>
+      <Hsp_hseq>NESSVSVFTLSALSETMENRYVLLTFTALFYPLVVFCNVTVILTIFLHKKLHEPMYVFICNLCVNGVYGTSGFYPKFMYDLLAQDQVISYAGCMIQILVIYSYLICDFSTLTVMAYDRYVAICRPLEYHSIMTNQKIFKCILFCWLPAIFSISFLILLLVRLPLCG-STIEKLYCEIWAVAKLSCVSTTVNNVFGFIVILTYFGHAVLVFCSY--------IYLMRKCRKSIEDKNKFIQTCVPHILALMNVTIAMLFDVLFTRYGTKNVPQSLRNFMAMEFLLVPPILNPLIYGLKMKTVRQEI</Hsp_hseq>
+      <Hsp_midline>N S V+ F    LS++ E +  L     +FY  +VF N+ +++T+     LH PMY  + NL +  +  +S   PK + D  +Q +VIS+ GC++QI +++ +   +   L  M +DRY+AIC+PL Y +IM        +   W          +   V L  CG + ++  YC++  V KL+C  T   +      I+      VL  CS+        I LM    + ++  +K + T   HI  ++     + F      Y      +SL  F+A+ + ++ P+LNP+IY L+ K ++  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|NP_001122052.1|</Hit_id>
+  <Hit_def>odorant receptor 118-2 [Danio rerio] &gt;gb|ABC43330.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122052</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>1.81339e-31</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>YGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLF--CGPNEVDSFYCDLPRVIKLACTDTYRLDI-----MVIANSGVLTVCSFVLLIISYTIILMT-IQHRPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWPFPI-----KSLDKFLAVFYS----VITPLLNPIIYTLRNKDMK</Hsp_qseq>
+      <Hsp_hseq>YLFILFCNLTIVITICLNRSLHKPMYILLLNMPINDTMAATNFFSQLLYSIWSQDTSISYPACLLQGFIVHLYGGASYVILTAMAYDRYIAICCPLRYGAIMNSNNLIKIITGMWVFNF--TVITVLFSLLLPYKICRTHMTDLF-CYNPSIMKLMCEDTTVNNIIGLISLVLYHCIALSVVAF-----TYIHILITCVTNKQSDAKMKALQTCGTHL-VVFLFLE-----FNTLFPLVAHRSESVPAYLRRVFSITVFVFPPIINPLVYGFKTKEIR</Hsp_hseq>
+      <Hsp_midline>Y  I+F NL IVIT+  +  LH PMY LL N+ + D   ++    +++   +SQ   IS+  CL+Q F++H +GG+  VIL AM +DRYIAIC PL Y  IM  N  + I+   W   F  +V  + F++ L +  C  +  D F C  P ++KL C DT   +I     +V+ +   L+V +F     +Y  IL+T + ++  D   KAL T   H+ VV LF       +   FP+     +S+  +L   +S    V  P++NP++Y  + K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|NP_001121851.1|</Hit_id>
+  <Hit_def>odorant receptor 103-3 [Danio rerio] &gt;gb|ABC43348.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121851</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>2.75437e-31</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>SETNNSMVTEFIFLGLSDSQELQTFLF--MLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSS-KALSTLTAHITVVLLFFGPCVFIYAWP-FPIK---SLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>SVGNTSFVKDFFIVGFPGLQPHYYGLVSALLFFVYLFTLMENGVFFTLFVITKS-LHRPVYYFIINLVVCDVLLSTTTLPKIISRYWFQDGTISFLGCFVQMFFVHYLGGVISNVLAVMAIDRYAAICYPLQYHNIMTHRNMLILILGCWLLSLAGALMLVIRAYPLPYCAENTIIHCYCEHVSVTTLACTNRSLYSIPALIYALAVMAWSIAIIAFSYCSIFKAVMRISGSQGRMKTFSTCSPQLIIIALHFLPKGLIYLFGNIGIKFDTDLRLIIIIMSSQLPPMINPLIYSLRTEEDKKILKR</Hsp_hseq>
+      <Hsp_midline>S  N S V +F  +G    Q     L   +LFFV+   ++   +   + V++ S LH P+Y+ + NL + D+ LS+ T PK+I+ ++ Q   ISF GC VQ+F +H+ GG    +L  M  DRY AIC PL Y  IM     + ++   W +    ++  +  A  L +C  N +   YC+   V  LACT+     I  +  +  +   S  ++  SY  I   +      +   K  ST +  + ++ L F P   IY +    IK    L   + +  S + P++NP+IY+LR ++ K  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gb|ABC43302.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43302</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>2.89497e-31</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLD------IMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVL-----LFFGPCVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NETIVVVFTLSGLNDTMGNRFVFFSLTALYYPFIVFCNVTILYAVMMHKKLHEPMFFFICNLCVNALYGTVGFYPKFLYDLLSQDHVITYAGCLIQIFIIYSSVLCDISTLTVMAYDRYVAICRPLEYHSIMTDQRIVECILFCWLTPFFCMTVLIGLTARLTLCG-SAIEKLYCENWSVVKLSCFSTTVNNVVGYVIIIVYFGHAVLIFCSYIYLVVK--------CRKSTESRHKFIQTCVPHLLALLNVTVALLFDVLYSRYGSKSLPQDLRNFMSLEFLLVPPMLNPLIYGLNLTRLRREVMR</Hsp_hseq>
+      <Hsp_midline>N ++V  F   GL+D+   +   F L  ++Y  IVF N+ I+  V+    LH PM+F + NL +  L  +    PK + D  SQ  VI++ GCL+QIF+++     ++  L  M +DRY+AIC+PL Y +IM     V  +   W   F      +     L  CG + ++  YC+   V+KL+C  T   +      I+V     VL  CS++ L++           +  +   K + T   H+  +L     L F      Y      + L  F+++ + ++ P+LNP+IY L    ++  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|NP_001427687.1|</Hit_id>
+  <Hit_def>odorant receptor 107-1 isoform 2 [Danio rerio] &gt;ref|XP_009289962.1| odorant receptor 107-1 isoform X2 [Danio rerio] &gt;gb|ABC43333.1| odorant receptor [Danio rerio] &gt;emb|CAJ21227.1| odorant receptor 9a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001427687</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>3.23371e-31</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>AISWNESTSETNNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH-RPLDKSSKALSTLTAHITVVLLFFGPCVFIYAWP--FPIKSLDKFLAVF-YSVITP-LLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>SVTFSNGTASFN-----EGFYLTAFQTLPTKNYLILGLAIIYIITLLGNLVLLSVVLMNSSLQNPKYLAVCNLAVVDISINSVIIPQMVPVFVFNQNYISFGACFSQMFFMHFFGDMESFSLALLAYDRLIAICWPLRYSTINTNLRMLLIIALIWILVTLLDIFPVIFASRLPYCSSRAVLSCCCEHGPVYRLACTDTTYNRQLGTVKTMITLLGPLFFIVFTYVIVVIAVMRIASVTQRWKAFHTCLTHMMLVMLYYMPVIIAYVLGNLRLVQNVDLLTAILTVSVTVPAMLNPIIYSLKTDELKERMVKL</Hsp_hseq>
+      <Hsp_midline>+++++  T+  N     E  +L    +   + +L +   + Y   + GNL+++  V+ +S L +P Y  + NL+++D+S++SV  P+M+  F   +  ISF  C  Q+F +HFFG  E   L  + +DR IAIC PL Y+TI      + I+A+ W +  L  +  + FA  L +C    V S  C+   V +LACTDT     +    + +  +     ++ +Y I+++ +     + +  KA  T   H+ +V+L++ P +  Y       ++++D   A+   SV  P +LNPIIY+L+  ++K  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|NP_001124270.1|</Hit_id>
+  <Hit_def>odorant receptor 109-2 [Danio rerio] &gt;gb|ABC43265.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001124270</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>3.30482e-31</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLL----FCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY---TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGP-----CVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRKWDAHSS</Hsp_qseq>
+      <Hsp_hseq>QSNSSANETFVRPATFFLSGLSNVPHAKYYYVFLSLV-YVATVLGNSFIMCVIYLSRRLHTAKYVVVFHLAFSDLCGSSTVIPKIIDTFLFEHQEISYEACLANTFFIYHFLNIQSLTLLVMAYDRLVAICFPLRYHAIITKPTMFLILGGMW----IYSVTYFSVFIGLLNRLSFCKSNVIDSYFCDYSLLNKLACNDNSINILMIKICFGVMIGMPLMLIFVSYFCISLALFKIAHGA--DQAKAIKTCTSHLMLVAISYIPYLSSHIAFLTSHIQPNTRLIN--HSLTQTISPMLNPIIYTLKTEEVMQSIKDLYKSSKVSS</Hsp_hseq>
+      <Hsp_midline>+S S  N + V    F   GLS+    + +   L  V Y   V GN  I+  +     LH+  Y ++ +L+  DL  SS   PK+I  F  + + IS++ CL   F ++ F   + + L+ M +DR +AIC PL Y  I+       I+   W    ++SV+  +  + LL    FC  N +DS++CD   + KLAC D     +M+    GV+     +L+ +SY   ++ L  I H      +KA+ T T+H+ +V + + P       F+ +   P   L          I+P+LNPIIYTL+ +++  +I+ L K    SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|NP_571816.2|</Hit_id>
+  <Hit_def>odorant receptor 115-14 [Danio rerio] &gt;gb|AAI62625.1| Or115-14 protein [Danio rerio] &gt;gb|AAI62628.1| Or115-14 protein [Danio rerio] &gt;gb|ABC43281.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571816</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>3.70562e-31</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITV-VLLFFGPCVFIYAWPFPI-KSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>SKLLVEGLQVTSQSTLPTFILLLMVYAFIMVSNIGMMVLISADKCLHQPMYVLFCNLTLNDILGTTDFVPPVLRNLLIEPSERYITFVECVIQAYFAHLNGTASHTVIMIMAFDRYVAICNPLRYPAIMTSNMVVKLSVAAWAVAAVLVGILIGLSVRLSHCR-SVIQGSICDNPSLFKLSCENTVVNNVYGLTFTVVLFTSSVVCVALTYLRIALICFKSKNKATNSKAIKTCSTHLTVYIIMLISGSVTILLHRFPVYAETRKLAAIILHVIPPALNPIIYGVQSKEIRQKILKL</Hsp_hseq>
+      <Hsp_midline>++ +  GL  + +     F+L  + Y  I+  N+ +++ + +D  LH PMY L  NL+L D+  ++   P ++ +   +   + I+F  C++Q +  H  G +   +++ M FDRY+AIC PL Y  IM  N  V +    W +  +     +  +V L  C  + +    CD P + KL+C +T   ++  +  + VL   S V + ++Y  I L+  + +    +SKA+ T + H+TV +++     V I    FP+     K  A+   VI P LNPIIY +++K+++  I +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|XP_001920649.2|</Hit_id>
+  <Hit_def>olfactory receptor 6N1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_001920649</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>4.11728e-31</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLD------IMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVL-----LFFGPCVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NETIVVVFTLSGLNDTMGNRFVFFSLTALYYPFIVFCNVTILYAVMLHKKLHEPMFFFICNLCVNALYGTVGFYPKFLYDLLSQDHVITYAGCLIQIFIIYSSVLCDISTLTVMAYDRYVAICRPLEYHSIMTDQRIVECILFCWLTPFFCMAVLIGLTARLTLCG-SAIEKLYCENWSVVKLSCFSTTVNNVVGYVIIIVYFGHAVLIFCSYIYLVVK--------CRKSTESRHKFIQTCVPHLLALLNVTVALLFDVLYSRYGSKSLPQDLRNFMSLEFLLVPPMLNPLIYGLNLTRLRREVMR</Hsp_hseq>
+      <Hsp_midline>N ++V  F   GL+D+   +   F L  ++Y  IVF N+ I+  V+    LH PM+F + NL +  L  +    PK + D  SQ  VI++ GCL+QIF+++     ++  L  M +DRY+AIC+PL Y +IM     V  +   W   F      +     L  CG + ++  YC+   V+KL+C  T   +      I+V     VL  CS++ L++           +  +   K + T   H+  +L     L F      Y      + L  F+++ + ++ P+LNP+IY L    ++  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gb|AAG13951.1|</Hit_id>
+  <Hit_def>odorant receptor 9.1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAG13951</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>4.51108e-31</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQ--RKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISY-TIILMTIQHRPLDKSSKALSTLTAHITV-VLLFFGPCVFIYAWPFPI-KSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQL</Hsp_qseq>
+      <Hsp_hseq>SKLLVEGLQVTSQSTLPTFILLLMVYAFIMVSNIGMMVLISADKCLHQPMYVLFCNLTLNDILGTTDFVPPVLRNLLIEPSERYITFVECVVQAYFAHLNGTASHTVIMIMAFDRYVAICNPLRYPAIMTSNMVVKLSVAAWAVAAVLVGILIGLSVRLSHCR-SVIQGSICDNPSLFKLSCENTVVNNVYGLTFTVVLFTSSVVCVALTYLRIALICFKSKNKATNSKAIKTCSTHLTVYIIMLISGSVTILLHRFPVYAETRKLAAIILYVIPPALNPIIYGVQSKEIRQKILKL</Hsp_hseq>
+      <Hsp_midline>++ +  GL  + +     F+L  + Y  I+  N+ +++ + +D  LH PMY L  NL+L D+  ++   P ++ +   +   + I+F  C+VQ +  H  G +   +++ M FDRY+AIC PL Y  IM  N  V +    W +  +     +  +V L  C  + +    CD P + KL+C +T   ++  +  + VL   S V + ++Y  I L+  + +    +SKA+ T + H+TV +++     V I    FP+     K  A+   VI P LNPIIY +++K+++  I +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|NP_571206.1|</Hit_id>
+  <Hit_def>odorant receptor 110-1 [Danio rerio] &gt;gb|ABC43262.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571206</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>5.34395e-31</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGP-NEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH--RPLDKSSKALSTLTAHITVVLLFFGPCVFIYA-WPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>NVSTPSYFYISGFSGIPHMRYYYIFLFFI-YIITVLGNSCLMSVIIMDRNLHTPKYIAVFNLSLTDICESTAVIPQLLDTFLFGNQMMPYGLCMSSMFSVLLFLAMQSLTLTVLSFDRFVAISLPLRYHMIVTQRLMLIIIAASWTLALLLMIIGAIFMSRLSFCKVIVTVNSFYCDHGPIYRSACNNNFPSSVIASLFPAVILGFPAFFIIFSYTCIAVTLFRITTPQDR-QRATKTCMAHLILVAVFYVPITFTYAFWSFIDTNTRIINLSLTSALPPMLNPIIYTFMTEEFMVAVKRLFK</Hsp_hseq>
+      <Hsp_midline>N S  + F   G S    ++ +   LFF+ Y   V GN  ++  ++ D +LH+P Y  + NLSL D+  S+   P+++  F    +++ +  C+  +F +  F   + + L  + FDR++AI  PL Y  I+     + I+A +W +  L  +    F   L FC     V+SFYCD   + + AC + +   ++      V+       +I SYT I +T+     P D+  +A  T  AH+ +V +F+ P  F YA W F   +         S + P+LNPIIYT   ++   A+++L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gb|ABC43307.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43307</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>5.39731e-31</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGN--ACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANS-GVLT-----VCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCV-------FIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>TNFNFMWFENLGYIRYALFILGFILYFVIILFNVLIMLAVFLERTLHQPMYILISCLSINSLFGTAGFFPRVLSDLLSETHSISREACIFQCFVIFTYAANEFSILMLMAFDRYVAICKPLHYHSIVRPRFLACLIVLNLTVPMTLIGVGSLL--TTNLKMCG-NKLFKVYCHTYEVVKLSC------DNIVINNAFGLFTLITTSVIPIISILFSYVKILIICQRSSAQFKGKAFQTCIPHI-VILLNFTIAVTCDITLSRVVNLQIPV-GLSVFLSLEFLIIPPVLNPLIYAFNLPDIRKKMISLIK</Hsp_hseq>
+      <Hsp_midline>T F F+   +   ++  LF+L F+ Y  I+  N+LI++ V  +  LH PMY L++ LS+  L  ++   P++++D  S+   IS + C+ Q F++  +  +E  IL+ M FDRY+AICKPLHY +I+     AC+ ++ +T  +  +   S L    +L  CG N++   YC    V+KL+C      D +VI N+ G+ T     V   + ++ SY  IL+  Q        KA  T   HI V+LL F   V        +     P+  L  FL++ + +I P+LNP+IY     D++  +  L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gb|ABC43271.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43271</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>5.50194e-31</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIG------FLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH--RPLDKSSKALSTLTAHITVVLLFFGPCV---FIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>QSNSSANVTFVRPATFFLSGLSNVPHAKYYYVFLSLV-YVVTVLGNSFIMYIIYLARRLHTAKYIAVFHLAFSDLCGSSALIPKVIDTFLFDHQDISYEACMANMFFVLHFMNMQSLTLLALAYDRLIAICFPLRYHAIINKSAMFLIIGVMWIFSATFFSVVVGSVSRISF------CISNVIDTYYCDFAPVFRLACNDNSMPILMGKLCFGILICMPPILIFVSYFCISLALLKIARGVDR-NKAIKTCTSHLMLVAIFYLPILSNNIAYATTYINPNARLINNSLTQTIPPMLNPIIYTLKTDEVMQSIKELYK</Hsp_hseq>
+      <Hsp_midline>+S S  N + V    F   GLS+    + +   L  V Y   V GN  I+  +     LH+  Y  + +L+  DL  SS   PK+I  F    + IS++ C+  +F +  F   + + L+A+ +DR IAIC PL Y  I+  +A   I+ V W          + SVS+++F      C  N +D++YCD   V +LAC D     +M     G+L     +L+ +SY  I + +    R +D+ +KA+ T T+H+ +V +F+ P +     YA  +   +           I P+LNPIIYTL+  ++  +I++L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|NP_001124273.1|</Hit_id>
+  <Hit_def>odorant receptor, family 42, subfamily A, member 4 [Danio rerio] &gt;gb|ABC43275.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001124273</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>6.11854e-31</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIG------FLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH--RPLDKSSKALSTLTAHITVVLLFFGPCV---FIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>QSNSSANVTFVRPATFFLSGLSNVPHAKYYYVFLSLV-YVVTVLGNSFIMYIIYLARRLHTAKYIAVFHLAFSDLCGSSALIPKVIDTFLFDHQDISYEACMANMFFVLHFMNMQSLTLLALAYDRLIAICFPLRYHAIINKSAMFLIIGVMWIFSATFFSVVVGSVSRISF------CISNVIDTYYCDFAPVFRLACNDNSLPILMGKLCFGILICMPPILIFVSYFCISLALLKIARGVDR-NKAIKTCTSHLMLVAIFYLPILSNNIAYATTYINPNARLINNSLTQTIPPMLNPIIYTLKTDEVMQSIKELYK</Hsp_hseq>
+      <Hsp_midline>+S S  N + V    F   GLS+    + +   L  V Y   V GN  I+  +     LH+  Y  + +L+  DL  SS   PK+I  F    + IS++ C+  +F +  F   + + L+A+ +DR IAIC PL Y  I+  +A   I+ V W          + SVS+++F      C  N +D++YCD   V +LAC D     +M     G+L     +L+ +SY  I + +    R +D+ +KA+ T T+H+ +V +F+ P +     YA  +   +           I P+LNPIIYTL+  ++  +I++L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|XP_005169207.1|</Hit_id>
+  <Hit_def>odorant receptor, family 42, subfamily A, member 4 isoform X1 [Danio rerio] &gt;ref|XP_005169208.1| odorant receptor, family 42, subfamily A, member 4 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005169207</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>6.246e-31</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>ESTSETNNSMV--TEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIG------FLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCSFVLLIISYTIILMTIQH--RPLDKSSKALSTLTAHITVVLLFFGPCV---FIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>QSNSSANVTFVRPATFFLSGLSNVPHAKYYYVFLSLV-YVVTVLGNSFIMYIIYLARRLHTAKYIAVFHLAFSDLCGSSALIPKVIDTFLFDHQDISYEACMANMFFVLHFMNMQSLTLLALAYDRLIAICFPLRYHAIINKSAMFLIIGVMWIFSATFFSVVVGSVSRISF------CISNVIDTYYCDFAPVFRLACNDNSLPILMGKLCFGILICMPPILIFVSYFCISLALLKIARGVDR-NKAIKTCTSHLMLVAIFYLPILSNNIAYATTYINPNARLINNSLTQTIPPMLNPIIYTLKTDEVMQSIKELYK</Hsp_hseq>
+      <Hsp_midline>+S S  N + V    F   GLS+    + +   L  V Y   V GN  I+  +     LH+  Y  + +L+  DL  SS   PK+I  F    + IS++ C+  +F +  F   + + L+A+ +DR IAIC PL Y  I+  +A   I+ V W          + SVS+++F      C  N +D++YCD   V +LAC D     +M     G+L     +L+ +SY  I + +    R +D+ +KA+ T T+H+ +V +F+ P +     YA  +   +           I P+LNPIIYTL+  ++  +I++L K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|NP_001121855.1|</Hit_id>
+  <Hit_def>odorant receptor 126-5 [Danio rerio] &gt;gb|ABC43315.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121855</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>6.2661e-31</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>NNSMVTEFIFLGLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLLFCGPNEVDSFYCDLPRVIKLACTDTY------RLDIMVIANSGVLTVCSFVLLIISYTIILMTIQHRPLDKSSKALSTLTAHITVVLLF------FGPCVFIYAWPFPIKSLDKFLAVFYSVITPLLNPIIYTLRNKDMKTAIRQ</Hsp_qseq>
+      <Hsp_hseq>NESSVSVFKLSGLNETMENRIVFFSFTALFYPLMVFCNVTVMFTIMSNKKLHEPMYMFICNLCVNGLFGTSGFYPKFLYDLLAHDHVISYVGCLIQIFVIYSSALCDFSTLTVMAYDRYVAICRPLEYHSIMTSRMILKCILFCWLAPFVCMSVLIVLIARLTLCA-STIEKLYCEIWAVAKLSCFSTTINNVFGYIVILTYFGHAVLIFCSYIHL-IKKCMKSIEVRHKFIQTCVPHLLSLI-NVTAALLFDVLYSRYG------SRNLP-QSVRNFMALEFLLVPPILNPLIYGLN----LTAVRQ</Hsp_hseq>
+      <Hsp_midline>N S V+ F   GL+++ E +   F    +FY  +VF N+ ++ T++S+  LH PMY  + NL +  L  +S   PK + D  +   VIS+ GCL+QIF+++     +   L  M +DRY+AIC+PL Y +IM     +  +   W   F+     +     L  C  + ++  YC++  V KL+C  T        + I+      VL  CS++ L I   +  + ++H+ +      L +L  ++T  LLF      +G      +   P +S+  F+A+ + ++ P+LNP+IY L      TA+RQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|NP_001122058.1|</Hit_id>
+  <Hit_def>odorant receptor 109-1 [Danio rerio] &gt;ref|XP_073769543.1| odorant receptor 109-1 isoform X1 [Danio rerio] &gt;gb|ABC43264.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122058</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>7.63906e-31</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>GLSDSQELQTFLFMLFFVFYGGIVFGNLLIVITVVSDSHLHSPMYFLLANLSLIDLSLSSVTAPKMITDFFSQRKVISFKGCLVQIFLLHFFGGSEMVILIAMGFDRYIAICKPLHYTTIMCGNACVGIMAVTWGIGFLHSVSQLAFAVHLL----FCGPNEVDSFYCDLPRVIKLACTDTYRLDIMVIANSGVLTVCS-FVLLIISY---TIILMTIQHRPLDKSSKALSTLTAHITVVLLFFGPCV--FIYAWPFPIKSLDKFLA-VFYSVITPLLNPIIYTLRNKDMKTAIRQLRK</Hsp_qseq>
+      <Hsp_hseq>GFSNMPQAK-YYYMFLSLVYAVTVLGNSFIMCIIYLARRLHTAKYIVVFHLALSDLCGSSALIPKIIEMFLFDHQDISYEACLTNMFFVYHFMNLQSLTLLALAYDRLVAICFPLQYHAIVTKSAMFLIIGVMWIV----SVTFFSILVGLVNTISFCRSNVLNSYFCDYAPICGLACNDI-TINILIGKTSYGLLICTPLILIFISYFCISVALLRIAHGA--ERIKALKTCTSHFMLVAMYYLPVLTNIIASATTPLHPNVQIINNSLTQAIPPMLNPIIYTLKTEEVMQSIKDLYR</Hsp_hseq>
+      <Hsp_midline>G S+  + + + +M   + Y   V GN  I+  +     LH+  Y ++ +L+L DL  SS   PK+I  F    + IS++ CL  +F ++ F   + + L+A+ +DR +AIC PL Y  I+  +A   I+ V W +    SV+  +  V L+    FC  N ++S++CD   +  LAC D   ++I++   S  L +C+  +L+ ISY   ++ L+ I H    +  KAL T T+H  +V +++ P +   I +   P+    + +       I P+LNPIIYTL+ +++  +I+ L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

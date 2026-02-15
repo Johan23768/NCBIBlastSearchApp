@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6055853</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_001091703.1 purine-rich element-binding protein gamma isoform b [Mus musculus]</BlastOutput_query-def>
+  <BlastOutput_query-len>325</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6055853</Iteration_query-ID>
+  <Iteration_query-def>NP_001091703.1 purine-rich element-binding protein gamma isoform b [Mus musculus]</Iteration_query-def>
+  <Iteration_query-len>325</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_001015508.1|</Hit_id>
+  <Hit_def>purine-rich element-binding protein gamma isoform B [Homo sapiens] &gt;ref|NP_001310241.1| purine-rich element-binding protein gamma isoform B [Homo sapiens] &gt;ref|XP_002756973.2| purine-rich element-binding protein gamma isoform X2 [Callithrix jacchus] &gt;ref|XP_007960314.1| purine-rich element-binding protein gamma isoform X2 [Chlorocebus sabaeus] &gt;ref|XP_009211102.1| purine-rich element-binding protein gamma isoform X3 [Papio anubis] &gt;ref|XP_011740032.1| purine-rich element-binding protein gamma isoform X1 [Macaca nemestrina] &gt;ref|XP_011833108.1| PREDICTED: purine-rich element-binding protein gamma [Mandrillus leucophaeus] &gt;ref|XP_015000608.1| purine-rich element-binding protein gamma isoform X2 [Macaca mulatta] &gt;ref|XP_016814808.3| purine-rich element-binding protein gamma isoform X2 [Pan troglodytes] &gt;ref|XP_018887434.1| purine-rich element-binding protein gamma [Gorilla gorilla gorilla] &gt;ref|XP_023070422.1| purine-rich element-binding protein gamma isoform X2 [Piliocolobus tephrosceles] &gt;ref|XP_025250348.1| purine-rich element-binding protein gamma isoform X3 [Theropithecus gelada] &gt;ref|XP_030793756.1| purine-rich element-binding protein gamma isoform X2 [Rhinopithecus roxellana] &gt;ref|XP_033086235.1| purine-rich element-binding protein gamma isoform X2 [Trachypithecus francoisi] &gt;ref|XP_034821816.1| purine-rich element-binding protein gamma isoform X2 [Pan paniscus] &gt;ref|XP_045254065.1| purine-rich element-binding protein gamma isoform X2 [Macaca fascicularis] &gt;ref|XP_050658490.1| purine-rich element-binding protein gamma isoform X2 [Macaca thibetana thibetana] &gt;gb|KAL4664089.1| hypothetical protein H8957_013358 [Semnopithecus entellus] &gt;gb|KAL4842382.1| hypothetical protein H8958_007825 [Nasalis larvatus] &gt;gb|AAL77218.1| Pur-gamma B-form [Homo sapiens] &gt;gb|EAW63429.1| purine-rich element binding protein G, isoform CRA_b, partial [Homo sapiens] &gt;gb|KAI2549559.1| purine rich element binding protein G [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001015508</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.024</Hsp_bit-score>
+      <Hsp_score>1634</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>MERARRRGGGGSGGGRGRGGKNVGGPGLSKSRLYPQAQHSHYPHYSASATPNQSGGTSEIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPSPPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNYPKSRENLNLFHCCQTKHKEQPYDTPKTVEE</Hsp_qseq>
+      <Hsp_hseq>MERARRRGGGG---GRGRGGKNVGGSGLSKSRLYPQAQHSHYPHYAASATPNQAGGAAEIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGHSKEQGSRRRQKHSAPSPPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQEQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRGGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNYPKSRENINLFHCCQIKHKEQPHDTTKTVEE</Hsp_hseq>
+      <Hsp_midline>MERARRRGGGG   GRGRGGKNVGG GLSKSRLYPQAQHSHYPHY+ASATPNQ+GG +EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHG SKEQ SRRRQKHSAPSPPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQ+QTIVLPAQGMIEFRDALVQLIEDYGEGDIEERR GDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNYPKSREN+NLFHCCQ KHKEQP+DT KTVEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_001310240.1|</Hit_id>
+  <Hit_def>purine-rich element-binding protein gamma isoform A [Homo sapiens] &gt;ref|NP_037489.1| purine-rich element-binding protein gamma isoform A [Homo sapiens] &gt;ref|XP_007960313.1| purine-rich element-binding protein gamma isoform X1 [Chlorocebus sabaeus] &gt;ref|XP_009211100.1| purine-rich element-binding protein gamma isoform X1 [Papio anubis] &gt;ref|XP_011740031.1| purine-rich element-binding protein gamma isoform X3 [Macaca nemestrina] &gt;ref|XP_015000607.1| purine-rich element-binding protein gamma isoform X1 [Macaca mulatta] &gt;ref|XP_016814807.3| purine-rich element-binding protein gamma isoform X1 [Pan troglodytes] &gt;ref|XP_023070420.1| purine-rich element-binding protein gamma isoform X1 [Piliocolobus tephrosceles] &gt;ref|XP_025250347.1| purine-rich element-binding protein gamma isoform X2 [Theropithecus gelada] &gt;ref|XP_030793755.1| purine-rich element-binding protein gamma isoform X1 [Rhinopithecus roxellana] &gt;ref|XP_033086226.1| purine-rich element-binding protein gamma isoform X1 [Trachypithecus francoisi] &gt;ref|XP_034821817.1| purine-rich element-binding protein gamma isoform X1 [Pan paniscus] &gt;ref|XP_045254064.1| purine-rich element-binding protein gamma isoform X1 [Macaca fascicularis] &gt;ref|XP_050658489.1| purine-rich element-binding protein gamma isoform X1 [Macaca thibetana thibetana] &gt;ref|XP_078203588.1| purine-rich element-binding protein gamma isoform X1 [Callithrix jacchus] &gt;sp|Q9UJV8.1| RecName: Full=Purine-rich element-binding protein gamma; Short=Purine-rich element-binding protein G [Homo sapiens] &gt;gb|AIC51305.1| PURG, partial [synthetic construct] &gt;gb|KAL4671102.1| hypothetical protein H8959_003811 [Pygathrix nigripes] &gt;emb|SJX35858.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAF03900.1| Pur-gamma A-form [Homo sapiens] &gt;gb|AAI06709.1| Purine-rich element binding protein G [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001310240</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>568.155</Hsp_bit-score>
+      <Hsp_score>1463</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MERARRRGGGGSGGGRGRGGKNVGGPGLSKSRLYPQAQHSHYPHYSASATPNQSGGTSEIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPSPPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNY-PKSRENLNLFHCCQTKHKE</Hsp_qseq>
+      <Hsp_hseq>MERARRRGGGG---GRGRGGKNVGGSGLSKSRLYPQAQHSHYPHYAASATPNQAGGAAEIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGHSKEQGSRRRQKHSAPSPPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQEQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRGGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKVSEVRPPYRNTITVPFKAWTRFGE</Hsp_hseq>
+      <Hsp_midline>MERARRRGGGG   GRGRGGKNVGG GLSKSRLYPQAQHSHYPHY+ASATPNQ+GG +EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHG SKEQ SRRRQKHSAPSPPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQ+QTIVLPAQGMIEFRDALVQLIEDYGEGDIEERR GDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLK++   P  R  + +     T+  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|KAI2549561.1|</Hit_id>
+  <Hit_def>purine rich element binding protein G, partial [Homo sapiens] &gt;gb|KAI4010202.1| purine rich element binding protein G, partial [Homo sapiens] &gt;gb|PNI67946.1| PURG isoform 3, partial [Pan troglodytes]</Hit_def>
+  <Hit_accession>KAI2549561</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.997</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>6.44907e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MERARRRGGGGSGGGRGRGGKNVGGPGLSKSRLYPQAQHSHYPHYSASATPNQSGGTSEIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPSPPVSVGS</Hsp_qseq>
+      <Hsp_hseq>MERARRRGGGG---GRGRGGKNVGGSGLSKSRLYPQAQHSHYPHYAASATPNQAGGAAEIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGHSKEQGSRRRQKHSAPSPPVSVGS</Hsp_hseq>
+      <Hsp_midline>MERARRRGGGG   GRGRGGKNVGG GLSKSRLYPQAQHSHYPHY+ASATPNQ+GG +EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHG SKEQ SRRRQKHSAPSPPVSVGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.410397</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYG</Hsp_qseq>
+      <Hsp_hseq>LASKRVDIQKKRFYLDVKQSSRGRFLKIAEV------WIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYA</Hsp_hseq>
+      <Hsp_midline>L +  ++   +++YLD+K++ RGRFL+I +        IG       +   + L      E +D L   IE Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAI10595.1|</Hit_id>
+  <Hit_def>PURA protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAI10595</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>1.01693e-77</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>AQHSHYPHYSASATPNQSGGTSEIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPS-PPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNY-PKSRENLNL</Hsp_qseq>
+      <Hsp_hseq>AQHHGGPRQRQRAGWCGAGLQHETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEVGAGGN------KSRLTLSMSVAVEFRDYLGDFIEHYAQLG------------------------PSQPPDLAQAQDEPRRALKSEFLVRENRKYYMDLKENQRGRFLRIRQTVNRGPGL----GSTQG--QTIALPAQGLIEFRDALAKLIDDYG---VEE------EPAELPEGTSLTVDNKRFFFDVGSNKYGVFMRVSEVKPTYRNSITV</Hsp_hseq>
+      <Hsp_midline>AQH   P     A    +G   E QELASKRVDIQ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS+SVA E +D LGDFIEHYA LG                        PS PP    +++ P   LK++++ R+NRKYY+DLKENQRGRFLRIRQT+ RG G+    G + G  QTI LPAQG+IEFRDAL +LI+DYG   +EE      +P ELPEGTS  VDNKRF+FDVGSNKYG+F++++   P  R ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAI10575.1|</Hit_id>
+  <Hit_def>PURA protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAI10575</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>5.80977e-77</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPS-PPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNY-PKSRENLNL</Hsp_qseq>
+      <Hsp_hseq>ETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEVGAGGN------KSRLTLSMSVAVEFRDYLGDFIEHYAQLG------------------------PSQPPDLAQAQDEPRRALKSEFLVRENRKYYMDLKENQRGRFLRIRQTVNRGPGL----GSTQG--QTIALPAQGLIEFRDALAKLIDDYG---VEE------EPAELPEGTSLTVDNKRFFFDVGSNKYGVFMRVSEVKPTYRNSITV</Hsp_hseq>
+      <Hsp_midline>E QELASKRVDIQ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS+SVA E +D LGDFIEHYA LG                        PS PP    +++ P   LK++++ R+NRKYY+DLKENQRGRFLRIRQT+ RG G+    G + G  QTI LPAQG+IEFRDAL +LI+DYG   +EE      +P ELPEGTS  VDNKRF+FDVGSNKYG+F++++   P  R ++ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>9.95085e-07</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>EHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDY---GEGDIEERRCGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKL</Hsp_qseq>
+      <Hsp_hseq>QHETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEV---GAG---------GNKSRLTLSMSVAVEFRDYLGDFIEHYAQLGPSQPPDLAQAQDEPRRALKSEFLVRENRKYYMDLKENQRGRFLRI</Hsp_hseq>
+      <Hsp_midline>+H    L +  ++  N+++YLD+K+N +GRFL+I +    G G         G    + L     +EFRD L   IE Y   G     +     D+P    +      +N+++Y D+  N+ G FL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_005850.1|</Hit_id>
+  <Hit_def>transcriptional activator protein Pur-alpha [Homo sapiens] &gt;ref|XP_003354344.1| transcriptional activator protein Pur-alpha [Sus scrofa] &gt;ref|XP_003354345.1| transcriptional activator protein Pur-alpha [Sus scrofa] &gt;ref|XP_005617329.1| transcriptional activator protein Pur-alpha [Canis lupus familiaris] &gt;ref|XP_005661787.1| transcriptional activator protein Pur-alpha [Sus scrofa] &gt;ref|XP_006156298.2| transcriptional activator protein Pur-alpha [Tupaia chinensis] &gt;ref|XP_008012849.1| transcriptional activator protein Pur-alpha isoform X2 [Chlorocebus sabaeus] &gt;ref|XP_008012852.1| transcriptional activator protein Pur-alpha isoform X2 [Chlorocebus sabaeus] &gt;ref|XP_009207485.1| transcriptional activator protein Pur-alpha [Papio anubis] &gt;ref|XP_011714651.1| transcriptional activator protein Pur-alpha [Macaca nemestrina] &gt;ref|XP_011945852.1| PREDICTED: transcriptional activator protein Pur-alpha isoform X2 [Cercocebus atys] &gt;ref|XP_011945853.1| PREDICTED: transcriptional activator protein Pur-alpha isoform X2 [Cercocebus atys] &gt;ref|XP_011945854.1| PREDICTED: transcriptional activator protein Pur-alpha isoform X2 [Cercocebus atys] &gt;ref|XP_012360565.2| transcriptional activator protein Pur-alpha [Nomascus leucogenys] &gt;ref|XP_013850661.1| transcriptional activator protein Pur-alpha [Sus scrofa] &gt;ref|XP_016021866.1| transcriptional activator protein Pur-alpha [Rousettus aegyptiacus] &gt;ref|XP_016021867.1| transcriptional activator protein Pur-alpha [Rousettus aegyptiacus] &gt;ref|XP_017392237.1| transcriptional activator protein Pur-alpha [Cebus imitator] &gt;ref|XP_019279916.1| transcriptional activator protein Pur-alpha [Panthera pardus] &gt;ref|XP_019279917.1| transcriptional activator protein Pur-alpha [Panthera pardus] &gt;ref|XP_019279918.1| transcriptional activator protein Pur-alpha [Panthera pardus] &gt;ref|XP_019279919.1| transcriptional activator protein Pur-alpha [Panthera pardus] &gt;ref|XP_019691937.2| transcriptional activator protein Pur-alpha [Felis catus] &gt;ref|XP_021533116.2| transcriptional activator protein Pur-alpha [Aotus nancymaae] &gt;ref|XP_021557634.1| transcriptional activator protein Pur-alpha isoform X1 [Neomonachus schauinslandi] &gt;ref|XP_021795916.1| transcriptional activator protein Pur-alpha [Papio anubis] &gt;ref|XP_022349155.1| transcriptional activator protein Pur-alpha [Enhydra lutris kenyoni] &gt;ref|XP_023050779.1| transcriptional activator protein Pur-alpha [Piliocolobus tephrosceles] &gt;ref|XP_025244605.1| transcriptional activator protein Pur-alpha isoform X1 [Theropithecus gelada] &gt;ref|XP_025873171.2| transcriptional activator protein Pur-alpha [Vulpes vulpes] &gt;ref|XP_026257048.1| transcriptional activator protein Pur-alpha [Urocitellus parryii] &gt;ref|XP_026310265.1| transcriptional activator protein Pur-alpha [Piliocolobus tephrosceles] &gt;ref|XP_026363909.1| transcriptional activator protein Pur-alpha [Ursus arctos] &gt;ref|XP_026363910.1| transcriptional activator protein Pur-alpha [Ursus arctos] &gt;ref|XP_026932349.1| transcriptional activator protein Pur-alpha [Acinonyx jubatus] &gt;ref|XP_026932350.1| transcriptional activator protein Pur-alpha [Acinonyx jubatus] &gt;ref|XP_026932351.1| transcriptional activator protein Pur-alpha [Acinonyx jubatus] &gt;ref|XP_030175415.1| transcriptional activator protein Pur-alpha [Lynx canadensis] &gt;ref|XP_030175423.1| transcriptional activator protein Pur-alpha [Lynx canadensis] &gt;ref|XP_030175433.1| transcriptional activator protein Pur-alpha [Lynx canadensis] &gt;ref|XP_030684008.1| transcriptional activator protein Pur-alpha [Nomascus leucogenys] &gt;ref|XP_030684017.1| transcriptional activator protein Pur-alpha [Nomascus leucogenys] &gt;ref|XP_030783540.1| transcriptional activator protein Pur-alpha [Rhinopithecus roxellana] &gt;ref|XP_030867118.1| transcriptional activator protein Pur-alpha isoform X2 [Gorilla gorilla gorilla] &gt;ref|XP_031297745.2| transcriptional activator protein Pur-alpha [Camelus dromedarius] &gt;ref|XP_032013953.1| transcriptional activator protein Pur-alpha [Hylobates moloch] &gt;ref|XP_032013954.1| transcriptional activator protein Pur-alpha [Hylobates moloch] &gt;ref|XP_032013955.1| transcriptional activator protein Pur-alpha [Hylobates moloch] &gt;ref|XP_032106459.1| transcriptional activator protein Pur-alpha [Sapajus apella] &gt;ref|XP_032106460.1| transcriptional activator protein Pur-alpha [Sapajus apella] &gt;ref|XP_032192411.1| transcriptional activator protein Pur-alpha [Mustela erminea] &gt;ref|XP_032192412.1| transcriptional activator protein Pur-alpha [Mustela erminea] &gt;ref|XP_032192413.1| transcriptional activator protein Pur-alpha [Mustela erminea] &gt;ref|XP_032332766.1| transcriptional activator protein Pur-alpha [Camelus ferus] &gt;ref|XP_032332767.1| transcriptional activator protein Pur-alpha [Camelus ferus] &gt;ref|XP_032332768.1| transcriptional activator protein Pur-alpha [Camelus ferus] &gt;ref|XP_032703399.1| transcriptional activator protein Pur-alpha [Lontra canadensis] &gt;ref|XP_032703400.1| transcriptional activator protein Pur-alpha [Lontra canadensis] &gt;ref|XP_032703401.1| transcriptional activator protein Pur-alpha [Lontra canadensis] &gt;ref|XP_033036919.1| transcriptional activator protein Pur-alpha [Trachypithecus francoisi] &gt;ref|XP_034870168.1| transcriptional activator protein Pur-alpha [Mirounga leonina] &gt;ref|XP_034870169.1| transcriptional activator protein Pur-alpha [Mirounga leonina] &gt;ref|XP_034870170.1| transcriptional activator protein Pur-alpha [Mirounga leonina] &gt;ref|XP_034870171.1| transcriptional activator protein Pur-alpha [Mirounga leonina] &gt;ref|XP_034870172.1| transcriptional activator protein Pur-alpha [Mirounga leonina] &gt;ref|XP_034870173.1| transcriptional activator protein Pur-alpha [Mirounga leonina] &gt;ref|XP_035148074.1| transcriptional activator protein Pur-alpha [Callithrix jacchus] &gt;ref|XP_035148075.1| transcriptional activator protein Pur-alpha [Callithrix jacchus] &gt;ref|XP_035980001.1| transcriptional activator protein Pur-alpha [Halichoerus grypus] &gt;ref|XP_035980011.1| transcriptional activator protein Pur-alpha [Halichoerus grypus] &gt;ref|XP_035980026.1| transcriptional activator protein Pur-alpha [Halichoerus grypus] &gt;ref|XP_036080283.1| transcriptional activator protein Pur-alpha [Rousettus aegyptiacus] &gt;ref|XP_036080284.1| transcriptional activator protein Pur-alpha [Rousettus aegyptiacus] &gt;ref|XP_036080285.1| transcriptional activator protein Pur-alpha [Rousettus aegyptiacus] &gt;ref|XP_037365061.1| transcriptional activator protein Pur-alpha [Talpa occidentalis] &gt;ref|XP_038386245.1| transcriptional activator protein Pur-alpha [Canis lupus familiaris] &gt;ref|XP_038514539.1| transcriptional activator protein Pur-alpha [Canis lupus familiaris] &gt;ref|XP_039108647.1| transcriptional activator protein Pur-alpha [Hyaena hyaena] &gt;ref|XP_039108648.1| transcriptional activator protein Pur-alpha [Hyaena hyaena] &gt;ref|XP_039324177.1| transcriptional activator protein Pur-alpha isoform X2 [Saimiri boliviensis] &gt;ref|XP_040300595.1| transcriptional activator protein Pur-alpha [Herpailurus yagouaroundi] &gt;ref|XP_040300596.1| transcriptional activator protein Pur-alpha [Herpailurus yagouaroundi] &gt;ref|XP_040300597.1| transcriptional activator protein Pur-alpha [Herpailurus yagouaroundi] &gt;ref|XP_040478287.1| transcriptional activator protein Pur-alpha [Ursus maritimus] &gt;ref|XP_040478288.1| transcriptional activator protein Pur-alpha [Ursus maritimus] &gt;ref|XP_041621704.1| transcriptional activator protein Pur-alpha [Vulpes lagopus] &gt;ref|XP_041621705.1| transcriptional activator protein Pur-alpha [Vulpes lagopus] &gt;ref|XP_042792815.1| transcriptional activator protein Pur-alpha [Panthera leo] &gt;ref|XP_042792824.1| transcriptional activator protein Pur-alpha [Panthera leo] &gt;ref|XP_042792830.1| transcriptional activator protein Pur-alpha [Panthera leo] &gt;ref|XP_042792839.1| transcriptional activator protein Pur-alpha [Panthera leo] &gt;ref|XP_042841193.1| transcriptional activator protein Pur-alpha [Panthera tigris] &gt;ref|XP_042841195.1| transcriptional activator protein Pur-alpha [Panthera tigris] &gt;ref|XP_042841197.1| transcriptional activator protein Pur-alpha [Panthera tigris] &gt;ref|XP_042841200.1| transcriptional activator protein Pur-alpha [Panthera tigris] &gt;ref|XP_043431558.1| transcriptional activator protein Pur-alpha [Prionailurus bengalensis] &gt;ref|XP_043431629.1| transcriptional activator protein Pur-alpha [Prionailurus bengalensis] &gt;ref|XP_043431709.1| transcriptional activator protein Pur-alpha [Prionailurus bengalensis] &gt;ref|XP_044082250.1| transcriptional activator protein Pur-alpha [Neogale vison] &gt;ref|XP_044243389.1| transcriptional activator protein Pur-alpha [Ursus arctos] &gt;ref|XP_044931354.1| transcriptional activator protein Pur-alpha [Mustela putorius furo] &gt;ref|XP_044931355.1| transcriptional activator protein Pur-alpha [Mustela putorius furo] &gt;ref|XP_044931356.1| transcriptional activator protein Pur-alpha [Mustela putorius furo] &gt;ref|XP_045250891.1| transcriptional activator protein Pur-alpha [Macaca fascicularis] &gt;ref|XP_045301983.1| transcriptional activator protein Pur-alpha [Leopardus geoffroyi] &gt;ref|XP_045301992.1| transcriptional activator protein Pur-alpha [Leopardus geoffroyi] &gt;ref|XP_045302000.1| transcriptional activator protein Pur-alpha [Leopardus geoffroyi] &gt;ref|XP_045302010.1| transcriptional activator protein Pur-alpha [Leopardus geoffroyi] &gt;ref|XP_045650481.1| transcriptional activator protein Pur-alpha [Ursus americanus] &gt;ref|XP_045650482.1| transcriptional activator protein Pur-alpha [Ursus americanus] &gt;ref|XP_045650483.1| transcriptional activator protein Pur-alpha [Ursus americanus] &gt;ref|XP_045650484.1| transcriptional activator protein Pur-alpha [Ursus americanus] &gt;ref|XP_045749545.1| transcriptional activator protein Pur-alpha [Mirounga angustirostris] &gt;ref|XP_045749553.1| transcriptional activator protein Pur-alpha [Mirounga angustirostris] &gt;ref|XP_045749562.1| transcriptional activator protein Pur-alpha [Mirounga angustirostris] &gt;ref|XP_045854954.1| transcriptional activator protein Pur-alpha isoform X2 [Meles meles] &gt;ref|XP_045854955.1| transcriptional activator protein Pur-alpha isoform X2 [Meles meles] &gt;ref|XP_045854956.1| transcriptional activator protein Pur-alpha isoform X2 [Meles meles] &gt;ref|XP_046315916.1| transcriptional activator protein Pur-alpha [Marmota monax] &gt;ref|XP_046315917.1| transcriptional activator protein Pur-alpha [Marmota monax] &gt;ref|XP_046941580.1| transcriptional activator protein Pur-alpha [Lynx rufus] &gt;ref|XP_046941589.1| transcriptional activator protein Pur-alpha [Lynx rufus] &gt;ref|XP_046941597.1| transcriptional activator protein Pur-alpha [Lynx rufus] &gt;ref|XP_047585432.1| transcriptional activator protein Pur-alpha [Lutra lutra] &gt;ref|XP_047634752.1| transcriptional activator protein Pur-alpha [Phacochoerus africanus] &gt;ref|XP_047705710.1| transcriptional activator protein Pur-alpha [Prionailurus viverrinus] &gt;ref|XP_047705712.1| transcriptional activator protein Pur-alpha [Prionailurus viverrinus] &gt;ref|XP_047705720.1| transcriptional activator protein Pur-alpha [Prionailurus viverrinus] &gt;ref|XP_047705729.1| transcriptional activator protein Pur-alpha [Prionailurus viverrinus] &gt;ref|XP_048957721.1| transcriptional activator protein Pur-alpha [Canis lupus dingo] &gt;ref|XP_048957722.1| transcriptional activator protein Pur-alpha [Canis lupus dingo] &gt;ref|XP_048957724.1| transcriptional activator protein Pur-alpha [Canis lupus dingo] &gt;ref|XP_048957725.1| transcriptional activator protein Pur-alpha [Canis lupus dingo] &gt;ref|XP_049505316.1| transcriptional activator protein Pur-alpha [Panthera uncia] &gt;ref|XP_049505317.1| transcriptional activator protein Pur-alpha [Panthera uncia] &gt;ref|XP_050651031.1| transcriptional activator protein Pur-alpha [Macaca thibetana thibetana] &gt;ref|XP_054343278.1| transcriptional activator protein Pur-alpha isoform X2 [Pongo pygmaeus] &gt;ref|XP_054412610.1| transcriptional activator protein Pur-alpha isoform X2 [Pongo abelii] &gt;ref|XP_054424329.1| transcriptional activator protein Pur-alpha [Pteronotus mesoamericanus] &gt;ref|XP_054424330.1| transcriptional activator protein Pur-alpha [Pteronotus mesoamericanus] &gt;ref|XP_054968992.1| transcriptional activator protein Pur-alpha [Pan paniscus] &gt;ref|XP_054968993.1| transcriptional activator protein Pur-alpha [Pan paniscus] &gt;ref|XP_054968994.1| transcriptional activator protein Pur-alpha [Pan paniscus] &gt;ref|XP_054998577.1| transcriptional activator protein Pur-alpha [Sorex araneus] &gt;ref|XP_054998578.1| transcriptional activator protein Pur-alpha [Sorex araneus] &gt;ref|XP_054998579.1| transcriptional activator protein Pur-alpha [Sorex araneus] &gt;ref|XP_054998581.1| transcriptional activator protein Pur-alpha [Sorex araneus] &gt;ref|XP_054998582.1| transcriptional activator protein Pur-alpha [Sorex araneus] &gt;ref|XP_055187345.1| transcriptional activator protein Pur-alpha isoform X2 [Nyctereutes procyonoides] &gt;ref|XP_055187347.1| transcriptional activator protein Pur-alpha isoform X2 [Nyctereutes procyonoides] &gt;ref|XP_055187348.1| transcriptional activator protein Pur-alpha isoform X2 [Nyctereutes procyonoides] &gt;ref|XP_055187349.1| transcriptional activator protein Pur-alpha isoform X2 [Nyctereutes procyonoides] &gt;ref|XP_058295885.1| transcriptional activator protein Pur-alpha [Hylobates moloch] &gt;ref|XP_058590726.1| transcriptional activator protein Pur-alpha [Neofelis nebulosa] &gt;ref|XP_058590732.1| transcriptional activator protein Pur-alpha [Neofelis nebulosa] &gt;ref|XP_058590740.1| transcriptional activator protein Pur-alpha [Neofelis nebulosa] &gt;ref|XP_058590751.1| transcriptional activator protein Pur-alpha [Neofelis nebulosa] &gt;ref|XP_059030743.1| transcriptional activator protein Pur-alpha [Mustela lutreola] &gt;ref|XP_059030744.1| transcriptional activator protein Pur-alpha [Mustela lutreola] &gt;ref|XP_059273705.1| transcriptional activator protein Pur-alpha [Mustela nigripes] &gt;ref|XP_059273706.1| transcriptional activator protein Pur-alpha [Mustela nigripes] &gt;ref|XP_060491961.1| transcriptional activator protein Pur-alpha [Panthera onca] &gt;ref|XP_060491963.1| transcriptional activator protein Pur-alpha [Panthera onca] &gt;ref|XP_060491964.1| transcriptional activator protein Pur-alpha [Panthera onca] &gt;ref|XP_060491965.1| transcriptional activator protein Pur-alpha [Panthera onca] &gt;ref|XP_062943169.1| transcriptional activator protein Pur-alpha [Cynocephalus volans] &gt;ref|XP_062943170.1| transcriptional activator protein Pur-alpha [Cynocephalus volans] &gt;ref|XP_064340420.1| transcriptional activator protein Pur-alpha [Camelus dromedarius] &gt;ref|XP_064340421.1| transcriptional activator protein Pur-alpha [Camelus dromedarius] &gt;ref|XP_064340422.1| transcriptional activator protein Pur-alpha [Camelus dromedarius] &gt;ref|XP_064452055.1| transcriptional activator protein Pur-alpha [Mirounga angustirostris] &gt;ref|XP_064452056.1| transcriptional activator protein Pur-alpha [Mirounga angustirostris] &gt;ref|XP_064452057.1| transcriptional activator protein Pur-alpha [Mirounga angustirostris] &gt;ref|XP_070954428.1| transcriptional activator protein Pur-alpha [Macaca nemestrina] &gt;ref|XP_071468412.1| transcriptional activator protein Pur-alpha [Marmota flaviventris] &gt;ref|XP_071468413.1| transcriptional activator protein Pur-alpha [Marmota flaviventris] &gt;ref|XP_071468414.1| transcriptional activator protein Pur-alpha [Marmota flaviventris] &gt;ref|XP_072682202.1| transcriptional activator protein Pur-alpha [Canis lupus baileyi] &gt;ref|XP_072682203.1| transcriptional activator protein Pur-alpha [Canis lupus baileyi] &gt;ref|XP_072682204.1| transcriptional activator protein Pur-alpha [Canis lupus baileyi] &gt;ref|XP_072682205.1| transcriptional activator protein Pur-alpha [Canis lupus baileyi] &gt;ref|XP_072812680.1| transcriptional activator protein Pur-alpha [Vicugna pacos] &gt;ref|XP_072812685.1| transcriptional activator protein Pur-alpha [Vicugna pacos] &gt;ref|XP_072812694.1| transcriptional activator protein Pur-alpha [Vicugna pacos] &gt;ref|XP_072812697.1| transcriptional activator protein Pur-alpha [Vicugna pacos] &gt;ref|XP_072812702.1| transcriptional activator protein Pur-alpha [Vicugna pacos] &gt;ref|XP_072866739.1| transcriptional activator protein Pur-alpha isoform X2 [Chlorocebus sabaeus] &gt;ref|XP_072866740.1| transcriptional activator protein Pur-alpha isoform X2 [Chlorocebus sabaeus] &gt;ref|XP_074216876.1| transcriptional activator protein Pur-alpha [Camelus bactrianus] &gt;ref|XP_074216877.1| transcriptional activator protein Pur-alpha [Camelus bactrianus] &gt;ref|XP_074236389.1| transcriptional activator protein Pur-alpha isoform X2 [Saimiri boliviensis] &gt;ref|XP_076712985.1| transcriptional activator protein Pur-alpha [Callospermophilus lateralis] &gt;ref|XP_076712986.1| transcriptional activator protein Pur-alpha [Callospermophilus lateralis] &gt;ref|XP_076712987.1| transcriptional activator protein Pur-alpha [Callospermophilus lateralis] &gt;ref|XP_077753602.1| transcriptional activator protein Pur-alpha [Canis aureus] &gt;ref|XP_077753603.1| transcriptional activator protein Pur-alpha [Canis aureus] &gt;ref|XP_077753604.1| transcriptional activator protein Pur-alpha [Canis aureus] &gt;ref|XP_077753606.1| transcriptional activator protein Pur-alpha [Canis aureus] &gt;ref|XP_077793221.1| transcriptional activator protein Pur-alpha isoform X2 [Macaca mulatta] &gt;ref|XP_077902407.1| transcriptional activator protein Pur-alpha [Ictidomys tridecemlineatus] &gt;ref|XP_077902409.1| transcriptional activator protein Pur-alpha [Ictidomys tridecemlineatus] &gt;ref|XP_077902411.1| transcriptional activator protein Pur-alpha [Ictidomys tridecemlineatus] &gt;ref|XP_077902413.1| transcriptional activator protein Pur-alpha [Ictidomys tridecemlineatus] &gt;ref|XP_077902420.1| transcriptional activator protein Pur-alpha [Ictidomys tridecemlineatus] &gt;sp|Q00577.2| RecName: Full=Transcriptional activator protein Pur-alpha; AltName: Full=Purine-rich single-stranded DNA-binding protein alpha [Homo sapiens] &gt;gb|KAG8506510.1| Transcriptional activator protein Pur-alpha [Galemys pyrenaicus] &gt;gb|KAI5774556.1| PURA protein [Gulo gulo luscus] &gt;gb|KAK2116846.1| hypothetical protein P7K49_003732 [Saguinus oedipus] &gt;gb|KAM6149077.1| transcriptional activator protein Pur-alpha [Erethizon dorsatum] &gt;gb|KAM8959535.1| transcriptional activator protein Pur-alpha isoform 1-T1 [Lycaon pictus] &gt;gb|PNI22613.1| PURA isoform 3 [Pan troglodytes] &gt;dbj|BAG74192.1| purine-rich element binding protein A, partial [synthetic construct]</Hit_def>
+  <Hit_accession>NP_005850</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>7.8456e-77</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPS-PPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNY-PKSRENLNL</Hsp_qseq>
+      <Hsp_hseq>ETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEVGAGGN------KSRLTLSMSVAVEFRDYLGDFIEHYAQLG------------------------PSQPPDLAQAQDEPRRALKSEFLVRENRKYYMDLKENQRGRFLRIRQTVNRGPGL----GSTQG--QTIALPAQGLIEFRDALAKLIDDYG---VEE------EPAELPEGTSLTVDNKRFFFDVGSNKYGVFMRVSEVKPTYRNSITV</Hsp_hseq>
+      <Hsp_midline>E QELASKRVDIQ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS+SVA E +D LGDFIEHYA LG                        PS PP    +++ P   LK++++ R+NRKYY+DLKENQRGRFLRIRQT+ RG G+    G + G  QTI LPAQG+IEFRDAL +LI+DYG   +EE      +P ELPEGTS  VDNKRF+FDVGSNKYG+F++++   P  R ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AAV38195.1|</Hit_id>
+  <Hit_def>purine-rich element binding protein A [Homo sapiens]</Hit_def>
+  <Hit_accession>AAV38195</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.736</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>1.23632e-76</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPS-PPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNY-PKSRENLNL</Hsp_qseq>
+      <Hsp_hseq>ETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEVGAGGD------KSRLTLSMSVAVEFRDYLGDFIEHYAQLG------------------------PSQPPDLAQAQDEPRRALKSEFLVRENRKYYMDLKENQRGRFLRIRQTVNRGPGL----GSTQG--QTIALPAQGLIEFRDALAKLIDDYG---VEE------EPAELPEGTSLTVDNKRFFFDVGSNKYGVFMRVSEVKPTYRNSITV</Hsp_hseq>
+      <Hsp_midline>E QELASKRVDIQ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS+SVA E +D LGDFIEHYA LG                        PS PP    +++ P   LK++++ R+NRKYY+DLKENQRGRFLRIRQT+ RG G+    G + G  QTI LPAQG+IEFRDAL +LI+DYG   +EE      +P ELPEGTS  VDNKRF+FDVGSNKYG+F++++   P  R ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AAH36087.1|</Hit_id>
+  <Hit_def>Purine-rich element binding protein A [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH36087</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>4.88956e-76</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPS-PPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNY-PKSRENLNL</Hsp_qseq>
+      <Hsp_hseq>ETQELASKRVDIRNKRFYLDVKQNAKGRFLKIAEVGAGGN------KSRLTLSMSVAVEFRDYLGDFIEHYAQLG------------------------PSQPPDLAQAQDEPRRALKSEFLVRENRKYYMDLKENQRGRFLRIRQTVNRGPGL----GSTQG--QTIALPAQGLIEFRDALAKLIDDYG---VEE------EPAELPEGTSLTVDNKRFFFDVGSNKYGVFMRVSEVKPTYRNSITV</Hsp_hseq>
+      <Hsp_midline>E QELASKRVDI+ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS+SVA E +D LGDFIEHYA LG                        PS PP    +++ P   LK++++ R+NRKYY+DLKENQRGRFLRIRQT+ RG G+    G + G  QTI LPAQG+IEFRDAL +LI+DYG   +EE      +P ELPEGTS  VDNKRF+FDVGSNKYG+F++++   P  R ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|EAW62076.1|</Hit_id>
+  <Hit_def>hCG45299 [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW62076</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>5.54728e-76</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPS-PPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPLELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNY-PKSRENLNL</Hsp_qseq>
+      <Hsp_hseq>ETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEVGAGGN------KSRLTLSMSVAVEFRDYLGDFIEHYAQLG------------------------PSQPPDLAQAQDEPRRALKSEFLVRENRKYYMDLKENQRGRFLRIRQTVNRGPGL----GST--QGQTIALPAQGLIEFRDALAKLIDDYG---VEE------EPAELPEGTSLTVDNKRFFFDVGSNKYGVFMRVSEVKPTYRNSITV</Hsp_hseq>
+      <Hsp_midline>E QELASKRVDIQ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS+SVA E +D LGDFIEHYA LG                        PS PP    +++ P   LK++++ R+NRKYY+DLKENQRGRFLRIRQT+ RG G+    G +  Q QTI LPAQG+IEFRDAL +LI+DYG   +EE      +P ELPEGTS  VDNKRF+FDVGSNKYG+F++++   P  R ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|NP_150093.1|</Hit_id>
+  <Hit_def>transcriptional regulator protein Pur-beta [Homo sapiens] &gt;sp|Q96QR8.3| RecName: Full=Transcriptional regulator protein Pur-beta; AltName: Full=Purine-rich element-binding protein B [Homo sapiens] &gt;gb|AIC54998.1| PURB, partial [synthetic construct] &gt;emb|SJX45870.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAI01736.1| Purine-rich element binding protein B [Homo sapiens] &gt;gb|AAI01738.1| Purine-rich element binding protein B [Homo sapiens] &gt;gb|AAK72462.1| Pur-beta [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_150093</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>2.0566e-71</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>NQSGGTSEIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPSPP--VSVGSEE--HPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMR--GTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPL-----------------ELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNYPKSREN</Hsp_qseq>
+      <Hsp_hseq>SRGGGEQETQELASKRLDIQNKRFYLDVKQNAKGRFLKIAEVGAGGS------KSRLTLSMAVAAEFRDSLGDFIEHYAQLG------------------------PSSPEQLAAGAEEGGGPRRALKSEFLVRENRKYYLDLKENQRGRFLRIRQTVNRGGGGFGAGPGPGGLQSGQTIALPAQGLIEFRDALAKLIDDYG---------GEDDELAGGPGGGAGGPGGGLYGELPEGTSITVDSKRFFFDVGCNKYGVFLRVSEVKPSYRN</Hsp_hseq>
+      <Hsp_midline>++ GG  E QELASKR+DIQ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS++VAAE +D LGDFIEHYA LG                        PS P  ++ G+EE   P   LK++++ R+NRKYYLDLKENQRGRFLRIRQT+ R  G    G     L   QTI LPAQG+IEFRDAL +LI+DYG         G+DD L                 ELPEGTS  VD+KRF+FDVG NKYG+FL+++    S  N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>9.87633e-07</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>PVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYGEGDIEERRCGDDDPLELPEG------------TSFRV-DNKRFYFDVGSNKYGIFLKL</Hsp_qseq>
+      <Hsp_hseq>PASRGGGEQETQELASKRLDIQNKRFYLDVKQNAKGRFLKIAEV---GAG---------GSKSRLTLSMAVAAEFRDSLGDFIEHYAQ-------LGPSSPEQLAAGAEEGGGPRRALKSEFLVRENRKYYLDLKENQRGRFLRI</Hsp_hseq>
+      <Hsp_midline>P S G  E     L +  ++  N+++YLD+K+N +GRFL+I +    G G         G    + L      EFRD+L   IE Y +        G   P +L  G            + F V +N+++Y D+  N+ G FL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|8CHT|A</Hit_id>
+  <Hit_def>Chain A, Transcriptional activator protein Pur-alpha [Homo sapiens] &gt;pdb|8CHT|B Chain B, Transcriptional activator protein Pur-alpha [Homo sapiens] &gt;pdb|8CHT|C Chain C, Transcriptional activator protein Pur-alpha [Homo sapiens] &gt;pdb|8CHT|D Chain D, Transcriptional activator protein Pur-alpha [Homo sapiens]</Hit_def>
+  <Hit_accession>8CHT_A</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.46912e-59</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPS-PPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYG</Hsp_qseq>
+      <Hsp_hseq>ETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEVGAGGN------KSRLTLSMSVAVEFRDYLGDFIEHYAQLG------------------------PSQPPDLAQAQDEPRRALKSEFLVRENRKYYMDLKENQRGRFLRIRQTVNRGPGL----GSTQG--QTIALPAQGLIEFRDALAKLIDDYG</Hsp_hseq>
+      <Hsp_midline>E QELASKRVDIQ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS+SVA E +D LGDFIEHYA LG                        PS PP    +++ P   LK++++ R+NRKYY+DLKENQRGRFLRIRQT+ RG G+    G + G  QTI LPAQG+IEFRDAL +LI+DYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|8CHV|A</Hit_id>
+  <Hit_def>Chain A, Transcriptional activator protein Pur-alpha [Homo sapiens] &gt;pdb|8CHV|B Chain B, Transcriptional activator protein Pur-alpha [Homo sapiens] &gt;pdb|8CHV|C Chain C, Transcriptional activator protein Pur-alpha [Homo sapiens] &gt;pdb|8CHV|D Chain D, Transcriptional activator protein Pur-alpha [Homo sapiens]</Hit_def>
+  <Hit_accession>8CHV_A</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>5.6251e-59</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPS-PPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYG</Hsp_qseq>
+      <Hsp_hseq>ETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEVGAGGN------KSRLTLSMSVAVEFRDYLGDFIEHYAQLG------------------------PSQPPDLAQAQDEPPRALKSEFLVRENRKYYMDLKENQRGRFLRIRQTVNRGPGL----GST--QGQTIALPAQGLIEFRDALAKLIDDYG</Hsp_hseq>
+      <Hsp_midline>E QELASKRVDIQ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS+SVA E +D LGDFIEHYA LG                        PS PP    +++ P   LK++++ R+NRKYY+DLKENQRGRFLRIRQT+ RG G+    G +  Q QTI LPAQG+IEFRDAL +LI+DYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|8CHU|A</Hit_id>
+  <Hit_def>Chain A, Transcriptional activator protein Pur-alpha [Homo sapiens] &gt;pdb|8CHU|B Chain B, Transcriptional activator protein Pur-alpha [Homo sapiens]</Hit_def>
+  <Hit_accession>8CHU_A</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>1.07686e-58</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSVAAELKDCLGDFIEHYAHLGLKGHRQEHGQSKEQVSRRRQKHSAPS-PPVSVGSEEHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQTMMRGTGMIGYFGHSLGQDQTIVLPAQGMIEFRDALVQLIEDYG</Hsp_qseq>
+      <Hsp_hseq>ETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEVGAGGN------ESRLTLSMSVAVEFRDYLGDFIEHYAQLG------------------------PSQPPDLAQAQDEPRRALKSEFLVRENRKYYMDLKENQRGRFLRIRQTVNRGPGL----GST--QGQTIALPAQGLIEFRDALAKLIDDYG</Hsp_hseq>
+      <Hsp_midline>E QELASKRVDIQ KRFYLDVKQ+++GRFLKIAEV  G        +S+LTLS+SVA E +D LGDFIEHYA LG                        PS PP    +++ P   LK++++ R+NRKYY+DLKENQRGRFLRIRQT+ RG G+    G +  Q QTI LPAQG+IEFRDAL +LI+DYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|KAI2539193.1|</Hit_id>
+  <Hit_def>purine rich element binding protein A, partial [Homo sapiens] &gt;gb|KAI4022965.1| purine rich element binding protein A, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI2539193</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>8.84541e-15</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>EIQELASKRVDIQKKRFYLDVKQSSRGRFLKIAEVWIGRGRQDNIRKSKLTLSLSV</Hsp_qseq>
+      <Hsp_hseq>ETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEVGAGGN------KSRLTLSMSV</Hsp_hseq>
+      <Hsp_midline>E QELASKRVDIQ KRFYLDVKQ+++GRFLKIAEV  G        KS+LTLS+SV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0821419</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>EHPHSVLKTDYIERDNRKYYLDLKENQRGRFLRIRQT</Hsp_qseq>
+      <Hsp_hseq>QHETQELASKRVDIQNKRFYLDVKQNAKGRFLKIAEV</Hsp_hseq>
+      <Hsp_midline>+H    L +  ++  N+++YLD+K+N +GRFL+I + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|8CHW|A</Hit_id>
+  <Hit_def>Chain A, Transcriptional activator protein Pur-alpha [Homo sapiens] &gt;pdb|8CHW|B Chain B, Transcriptional activator protein Pur-alpha [Homo sapiens]</Hit_def>
+  <Hit_accession>8CHW_A</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>4.30237e-10</Hsp_evalue>
+      <Hsp_query-from>263</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>ELPEGTSFRVDNKRFYFDVGSNKYGIFLKLTNYPKSREN</Hsp_qseq>
+      <Hsp_hseq>ELPEGTSLTVDNKRFFFDVGSNKYGVFMRVSEVKPTYRN</Hsp_hseq>
+      <Hsp_midline>ELPEGTS  VDNKRF+FDVGSNKYG+F++++    +  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>2278835</Statistics_db-num>
+      <Statistics_db-len>223971059</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

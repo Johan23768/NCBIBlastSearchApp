@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6536173</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000508.1 hemoglobin subunit alpha [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>142</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6536173</Iteration_query-ID>
+  <Iteration_query-def>NP_000508.1 hemoglobin subunit alpha [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>142</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>emb|CAE30442.1|</Hit_id>
+  <Hit_def>novel alpha-globin [Danio rerio]</Hit_def>
+  <Hit_accession>CAE30442</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>2.04457e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLSDKDKAVVKAIWAKISPKADEIGAEALARMLTVYPQTKTYFSHWSDLSPGSGPVKKHGKTIMGAVGEAVSKIDDLVGGLAALSELHAFKLRVDPANFKILSHNVIVVIAMLFPADFTPEVHVSVDKFFSNLALALSEKYR</Hsp_hseq>
+      <Hsp_midline>M LS  DK  VKA W K+   A E GAEAL RM   +P TKTYF H+ DLS GS  VK HGK +  A+  AV+ +DD+   L+ALS+LHA KLRVDP NFK+LSH ++V +A   PA+FTP VH S+DKF ++++  L+ KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAH42321.1|</Hit_id>
+  <Hit_def>Hemoglobin alpha adult-1 [Danio rerio] &gt;gb|AAI64447.1| Hbaa1 protein [Danio rerio] &gt;emb|CAE30440.1| novel alpha-globin [Danio rerio]</Hit_def>
+  <Hit_accession>AAH42321</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>5.01167e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLSDTDKAVVKAIWAKISPKADEIGAEALARMLTVYPQTKTYFSHWADLSPGSGPVKKHGKTIMGAVGEAVSKIDDLVGGLAALSELHAFKLRVDPANFKILSHNVIVVIAMLFPADFTPEVHVSVDKFFNNLALALSEKYR</Hsp_hseq>
+      <Hsp_midline>M LS  DK  VKA W K+   A E GAEAL RM   +P TKTYF H+ DLS GS  VK HGK +  A+  AV+ +DD+   L+ALS+LHA KLRVDP NFK+LSH ++V +A   PA+FTP VH S+DKF  +++  L+ KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_571332.3|</Hit_id>
+  <Hit_def>hemoglobin subunit alpha [Danio rerio] &gt;sp|Q90487.3| RecName: Full=Hemoglobin subunit alpha; AltName: Full=Alpha-globin aa1; AltName: Full=Hemoglobin alpha chain [Danio rerio] &gt;gb|AAB05404.1| aA1 globin [Danio rerio] &gt;gb|AAI16465.1| Hbaa1 protein [Danio rerio] &gt;emb|CAE48986.1| novel protein similar to zebrafish hemoglobin alpha-adult 1 (hbaa1) [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571332</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>7.51051e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLSDTDKAVVKAIWAKISPKADEIGAEALARMLTVYPQTKTYFSHWADLSPGSGPVKKHGKTIMGAVGEAISKIDDLVGGLAALSELHAFKLRVDPANFKILSHNVIVVIAMLFPADFTPEVHVSVDKFFNNLALALSEKYR</Hsp_hseq>
+      <Hsp_midline>M LS  DK  VKA W K+   A E GAEAL RM   +P TKTYF H+ DLS GS  VK HGK +  A+  A++ +DD+   L+ALS+LHA KLRVDP NFK+LSH ++V +A   PA+FTP VH S+DKF  +++  L+ KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAH91534.1|</Hit_id>
+  <Hit_def>Si:xx-by187g17.5 [Danio rerio] &gt;gb|AAI64280.1| Si:xx-by187g17.5 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH91534</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>8.37822e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLTAKDKAVIKGFWAKIASQADSIGQEAMGRMLTVYPQTKIYFAHWPDLSLGSAQVKKHGKIVMGAITDAVGKIDDLLGALSSLSDLHATKLRVDPGNFKILSHNILVTLAVHFPADFTAEVHVAVDKFLAALSAALADKYR</Hsp_hseq>
+      <Hsp_midline>M L+  DK  +K  W K+ + A   G EA+ RM   +P TK YF H+ DLS GSAQVK HGK V  A+T+AV  +DD+  ALS+LSDLHA KLRVDP NFK+LSH +LVTLA H PA+FT  VH ++DKFLA++S  L  KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_001028265.1|</Hit_id>
+  <Hit_def>Hemoglobin subunit alpha-like [Danio rerio] &gt;gb|AAI71555.1| Si:xx-by187g17.1 [Danio rerio] &gt;gb|AAI71557.1| Si:xx-by187g17.1 [Danio rerio] &gt;emb|CAE48980.1| novel protein similar to zebrafish hemoglobin alpha-adult 1 (hbaa1) [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001028265</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>9.55278e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLSDKDKAVVKAIWAKISPKADEIGAEALARMLTVYPQTKTYFSHWSDLSPGSGPVKKHGKTIMGAVGEAISKIDDLVGGLAALSELHAFKLRVDPANFKILSHNVIVVIAMLFPADFTPEVHVSVDKFFNNLALALSEKYR</Hsp_hseq>
+      <Hsp_midline>M LS  DK  VKA W K+   A E GAEAL RM   +P TKTYF H+ DLS GS  VK HGK +  A+  A++ +DD+   L+ALS+LHA KLRVDP NFK+LSH ++V +A   PA+FTP VH S+DKF  +++  L+ KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_001013479.2|</Hit_id>
+  <Hit_def>hemoglobin, alpha adult 2 [Danio rerio] &gt;ref|XP_073796320.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796326.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796332.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796340.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796346.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796350.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796352.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796356.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796363.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796368.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796370.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796374.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796377.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796385.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;ref|XP_073796396.1| hemoglobin, alpha adult 2 isoform X2 [Danio rerio] &gt;emb|CAE48989.1| novel alpha globin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001013479</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>2.00906e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLTAKDKAVIKGFWGKIASQADSIGQEAMGRMLTVYPQTKIYFAHWPDHSLGSAQVKKHGKIVMGAITDAVGKIDDLLGALSSLSDLHATKLRVDPGNFKILSHNILVTLAVHFPADFTAEVHVAVDKFLAALSAALADKYR</Hsp_hseq>
+      <Hsp_midline>M L+  DK  +K  WGK+ + A   G EA+ RM   +P TK YF H+ D S GSAQVK HGK V  A+T+AV  +DD+  ALS+LSDLHA KLRVDP NFK+LSH +LVTLA H PA+FT  VH ++DKFLA++S  L  KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_073796316.1|</Hit_id>
+  <Hit_def>hemoglobin, alpha adult 2 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073796316</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>3.45454e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLTAKDKAVIKGFWGKIASQADSIGQEAMGRMLTVYPQTKIYFAHWPDHSLGSAQVKKHGKIVMGAITDAVGKIDDLLGALSSLSDLHATKLRVDPGNFKILSHNILVTLAVHFPADFTAEVHVAVDKFLAALSAALADKYR</Hsp_hseq>
+      <Hsp_midline>M L+  DK  +K  WGK+ + A   G EA+ RM   +P TK YF H+ D S GSAQVK HGK V  A+T+AV  +DD+  ALS+LSDLHA KLRVDP NFK+LSH +LVTLA H PA+FT  VH ++DKFLA++S  L  KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>emb|CAE30444.1|</Hit_id>
+  <Hit_def>novel alpha-globin [Danio rerio]</Hit_def>
+  <Hit_accession>CAE30444</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>3.27343e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLSAKDKAAVKALWAKIAGKADDIGHDALSRMLIVYPQTKTYFSHWKDLSPGSAPVRKHGKTVMGGVAEAVSKIDDLTAGLLNLSELHAFQLRVDPANFKILSHNILVVLATLFPADFTPEAHVAMDKFLSALALAMSEKYR</Hsp_hseq>
+      <Hsp_midline>M LS  DK  VKA W K+   A + G +AL RM + +P TKTYF H+ DLS GSA V+ HGK V   +  AV+ +DD+   L  LS+LHA +LRVDP NFK+LSH +LV LA   PA+FTP  H ++DKFL++++  ++ KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|NP_001313630.2|</Hit_id>
+  <Hit_def>hemoglobin, alpha embryonic 5 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001313630</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>1.70432e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLSAKDKAAVRSFWAKIAPKGEQIGNEAFSRLLLVYPQTKTYFSHWNDLAPGSPSVKKQGKKIVGGLGLAVDKIDDLFNGLLNLSELHAFQLRVDPANFKLLSHCLLVVFAMLFPDDFTAEVHLAIDKFLARVALALSDKYR</Hsp_hseq>
+      <Hsp_midline>M LS  DK  V++ W K+     + G EA  R+ L +P TKTYF H+ DL+ GS  VK  GKK+   L  AV  +DD+ N L  LS+LHA +LRVDP NFKLLSHCLLV  A   P +FT  VH ++DKFLA V+  L+ KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|NP_001352279.1|</Hit_id>
+  <Hit_def>hemoglobin, alpha embryonic 1.3 [Danio rerio] &gt;ref|NP_001352280.1| hemoglobin, alpha embryonic 1.3 [Danio rerio] &gt;ref|NP_891985.1| hemoglobin, alpha embryonic 1.1 [Danio rerio] &gt;gb|AAH71550.1| Hemoglobin alpha embryonic-1 [Danio rerio] &gt;gb|AAI52155.1| Hbae1 protein [Danio rerio] &gt;gb|AAI55771.1| Hbae1 protein [Danio rerio] &gt;gb|AAP78902.1| embryonic alpha globin e1 [Danio rerio] &gt;emb|CAD60790.1| novel alpha-type globin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001352279</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>2.19121e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLSAKDKAAVKTLWAKIAGKADDIGHDALSRMLIVYPQTKTYFSHWKDLSPGSAPVRKHGKTVMGGVAEAVSKIDDLNAGLLNLSELHAFQLRVDPANFKILSHNILVVLATLFPADFTPEAHVAMDKFLSALALAMSEKYR</Hsp_hseq>
+      <Hsp_midline>M LS  DK  VK  W K+   A + G +AL RM + +P TKTYF H+ DLS GSA V+ HGK V   +  AV+ +DD+   L  LS+LHA +LRVDP NFK+LSH +LV LA   PA+FTP  H ++DKFL++++  ++ KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|NP_898889.2|</Hit_id>
+  <Hit_def>hemoglobin alpha embryonic-3 [Danio rerio] &gt;gb|AAH71507.1| Hbae3 protein [Danio rerio] &gt;emb|CAD60794.1| novel alpha-type globin [Danio rerio] &gt;emb|CAE30449.1| novel alpha-globin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_898889</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>2.58141e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLSAKDKANVKAFFDKVAPKAEEIGRETLSRTLFVYPQTKTYFSHWADLSPNSPQVKKHGTTVINGVLTAVGLMDDLKGGLLTLSELHAFMLRVDPANFKIINHNLLVSLAMMFPDDFTPEVHVSVDKFLAQVSLALSEKYR</Hsp_hseq>
+      <Hsp_midline>M LS  DK NVKA + KV   A E G E L R    +P TKTYF H+ DLS  S QVK HG  V + +  AV  +DD+   L  LS+LHA  LRVDP NFK+++H LLV+LA   P +FTP VH S+DKFLA VS  L+ KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AAI54183.1|</Hit_id>
+  <Hit_def>Hbae1 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI54183</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>6.53349e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MSLSAKDKAAVKTLWAKIAGKADDIGHDALSRMLIVYPQTKTYFSHWKDLSPGSAPVRKHGKTVMGGVAEAVSKIDDLNAGLLNLSELHAFQLRVDPANFKILSHNILMVLATLFPADFTPEAHVAMDKFLSALALAMSEKYR</Hsp_hseq>
+      <Hsp_midline>M LS  DK  VK  W K+   A + G +AL RM + +P TKTYF H+ DLS GSA V+ HGK V   +  AV+ +DD+   L  LS+LHA +LRVDP NFK+LSH +L+ LA   PA+FTP  H ++DKFL++++  ++ KYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|NP_001076303.1|</Hit_id>
+  <Hit_def>Hemoglobin subunit alpha-D-like [Danio rerio] &gt;gb|AAI34211.1| Zgc:163057 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076303</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>1.48932e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR</Hsp_qseq>
+      <Hsp_hseq>MLSSAEKELIAEIWDKMTPVAEEIGSEALLRMFTTFPKTKTYFSHLNISANSEHLRSHGKKIVEALAEGAKNISTLTTTLAPLSRFHAYQLRIHPTNFKLFNHCILVTLACRMGDDFTPVVHAAIDKFLSAFSAVLAEKFR</Hsp_hseq>
+      <Hsp_midline>+LS A+K  +   W K+   A E G+EAL RMF +FP TKTYF H ++S  S  ++ HGKK+ +AL     ++  +   L+ LS  HA++LR+ P NFKL +HC+LVTLA  +  +FTP VHA++DKFL++ S VL  K+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|AAB05406.1|</Hit_id>
+  <Hit_def>alpha globin, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAB05406</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.02517e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLA</Hsp_qseq>
+      <Hsp_hseq>MSLSDTDKAVVKAIWAKISPKADEIGAEALARMLTVYPQTKTYFSHWADLSPGSGPVKKHGKTIMGAVGEAISKIDDLVGGLAALSELHAFKLRVDPANFKILSHNVIVVIA</Hsp_hseq>
+      <Hsp_midline>M LS  DK  VKA W K+   A E GAEAL RM   +P TKTYF H+ DLS GS  VK HGK +  A+  A++ +DD+   L+ALS+LHA KLRVDP NFK+LSH ++V +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|AAP93666.1|</Hit_id>
+  <Hit_def>embryonic globin alpha a3 [Danio rerio]</Hit_def>
+  <Hit_accession>AAP93666</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>9.84628e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYF-PHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLA</Hsp_qseq>
+      <Hsp_hseq>MSLSAKDKANVKAFFDKVAPKAEEIGRETLSRTLFVYPQTKTYFSPLADLSPNSPQVKKHGTTVINGVLTAVGLMDDLKGGLLTLSELHAFMLRVDPANFKIINHNLLVSLA</Hsp_hseq>
+      <Hsp_midline>M LS  DK NVKA + KV   A E G E L R    +P TKTYF P  DLS  S QVK HG  V + +  AV  +DD+   L  LS+LHA  LRVDP NFK+++H LLV+LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AAH76338.1|</Hit_id>
+  <Hit_def>Zgc:92880 [Danio rerio] &gt;gb|AAI64891.1| Zgc:92880 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH76338</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>1.1731e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>SPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>SDSERKTIASVWSKI--NVDEIGPQTLARVLVVYPWTQRYFGAFGDLSCASAIMGNPKVSEHGKTVLKALEKAVKNVDDIKTTYAQLSQLHCEKLNVDPDNFKLLADCLSIVIATNFGPAFNPAVQSTWQKLLSVVVAALTSRY</Hsp_hseq>
+      <Hsp_midline>S +++  + + W K+  +  E G + L R+ + +P T+ YF  F DLS  SA     +V  HGK V  AL  AV +VDD+    + LS LH  KL VDP NFKLL+ CL + +A +    F PAV ++  K L+ V   LTS+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|NP_001003431.2|</Hit_id>
+  <Hit_def>hemoglobin, beta adult 2 [Danio rerio] &gt;emb|CAE48992.1| novel beta globin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001003431</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>4.13155e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>SPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>SDSERKTIASVWSKI--NVDEIGPQTLARVLVVYPWTQRYFGAFGDLSCASAIMGNPKVSEHGKTVLKALEKAVKNVDDIKTTYAKLSQLHCEKLNVDPDNFKLLADCLSIVIATNFGPAFNPSVQSTWQKLLSVVVAALTSRY</Hsp_hseq>
+      <Hsp_midline>S +++  + + W K+  +  E G + L R+ + +P T+ YF  F DLS  SA     +V  HGK V  AL  AV +VDD+    + LS LH  KL VDP NFKLL+ CL + +A +    F P+V ++  K L+ V   LTS+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AAP93667.1|</Hit_id>
+  <Hit_def>embryonic globin beta e3, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAP93667</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>4.27958e-24</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>GAEALERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>GLETLTRCLVVYPWTQRYFGGFGNLYNTEAIMANPKVKAHGVVVLKGLEKALNNMDNIKSTFASLSELHSEKLQVDPGNFRLLADCLTVVIATRMRSEFTPDIQAAWQKFLSVVVSALRRQY</Hsp_hseq>
+      <Hsp_midline>G E L R  + +P T+ YF  F +L +  A     +VK HG  V   L  A+ ++D++ +  ++LS+LH+ KL+VDP NF+LL+ CL V +A  + +EFTP + A+  KFL+ V + L  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|NP_001015058.1|</Hit_id>
+  <Hit_def>hemoglobin beta embryonic-3 [Danio rerio] &gt;ref|XP_056325466.1| hemoglobin beta embryonic-3 [Danio aesculapii] &gt;gb|AAH90459.1| Hemoglobin beta embryonic-3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001015058</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>5.35264e-24</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>GAEALERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>GLETLTRCLVVYPWTQRYFGGFGNLYNTEAIMANPKVKAHGVVVLKGLEKALNNMDNIKSTYASLSELHSEKLQVDPGNFRLLADCLTVVIATRMRSEFTPDIQAAWQKFLSVVVSALRRQY</Hsp_hseq>
+      <Hsp_midline>G E L R  + +P T+ YF  F +L +  A     +VK HG  V   L  A+ ++D++ +  ++LS+LH+ KL+VDP NF+LL+ CL V +A  + +EFTP + A+  KFL+ V + L  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|Q90485.3|</Hit_id>
+  <Hit_def>RecName: Full=Hemoglobin subunit beta-2; AltName: Full=Beta-2-globin; AltName: Full=Beta-A2-globin; AltName: Full=Hemoglobin beta-2 chain [Danio rerio] &gt;gb|AAB05402.1| bA2 globin [Danio rerio] &gt;gb|AAH59624.1| Ba2 globin [Danio rerio] &gt;gb|AAH76356.1| Ba2 globin [Danio rerio] &gt;emb|CAE30441.1| novel protein similar to zebrafish ba2 globin (ba2) [Danio rerio]</Hit_def>
+  <Hit_accession>Q90485</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>2.122e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>SPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHL-PAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>TDAERTAILGLWGKL--NIDEIGPQALSRCLIVYPWTQRYFATFGNLSSPAAIMGNPKVAAHGRTVMGGLERAIKNMDNIKNTYAALSVMHSEKLHVDPDNFKLLADCITVCAAMKFGQAGFNADIQEAWQKFLAVVVSALCRQY</Hsp_hseq>
+      <Hsp_midline>+ A++T +   WGK+  +  E G +AL R  + +P T+ YF  F +LS      G+ +V  HG+ V   L  A+ ++D++ N  +ALS +H+ KL VDP NFKLL+ C+ V  A     A F   +  +  KFLA V + L  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|AAI15159.1|</Hit_id>
+  <Hit_def>Ba1 globin [Danio rerio]</Hit_def>
+  <Hit_accession>AAI15159</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>3.45092e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>SPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHL-PAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>TDAERTAILGLWGKLNIE--EIGPQALSRCLIVYPWTQRYFATFGNLSSPAAIMGNPKVAAHGRTVMGGLERAIKNMDNVKNTYAALSVMHSEKLHVDPDNFRLLADCITVCAAMKFGQAGFNADVQEAWQKFLAVVVSALCRQY</Hsp_hseq>
+      <Hsp_midline>+ A++T +   WGK+     E G +AL R  + +P T+ YF  F +LS      G+ +V  HG+ V   L  A+ ++D++ N  +ALS +H+ KL VDP NF+LL+ C+ V  A     A F   V  +  KFLA V + L  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|NP_001013045.1|</Hit_id>
+  <Hit_def>ba1 globin, like [Danio rerio] &gt;ref|NP_571095.1| hemoglobin subunit beta-1 [Danio rerio] &gt;sp|Q90486.3| RecName: Full=Hemoglobin subunit beta-1; AltName: Full=Beta-1-globin; AltName: Full=Beta-A1-globin; AltName: Full=Hemoglobin beta-1 chain [Danio rerio] &gt;gb|AAB05403.1| bA1 globin [Danio rerio] &gt;gb|AAI07514.1| Ba1 protein [Danio rerio] &gt;gb|AAI22093.1| Ba1l protein [Danio rerio] &gt;gb|AAI62261.1| Ba1 protein [Danio rerio] &gt;gb|AAI62267.1| Ba1 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001013045</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>4.10216e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>SPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHL-PAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>TDAERTAILGLWGKL--NIDEIGPQALSRCLIVYPWTQRYFATFGNLSSPAAIMGNPKVAAHGRTVMGGLERAIKNMDNVKNTYAALSVMHSEKLHVDPDNFRLLADCITVCAAMKFGQAGFNADVQEAWQKFLAVVVSALCRQY</Hsp_hseq>
+      <Hsp_midline>+ A++T +   WGK+  +  E G +AL R  + +P T+ YF  F +LS      G+ +V  HG+ V   L  A+ ++D++ N  +ALS +H+ KL VDP NF+LL+ C+ V  A     A F   V  +  KFLA V + L  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|AAH53176.1|</Hit_id>
+  <Hit_def>Ba2 globin [Danio rerio]</Hit_def>
+  <Hit_accession>AAH53176</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>2.3596e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>SPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHL-PAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>TDAERTAILGLWGKL--NIDEIAPQALSRCLIVYPWTQRYFATFGNLSSPAAIMGNPKVAAHGRTVMGGLERAIKNMDNIKNTYAALSVMHSEKLHVDPDNFKLLADCITVCAAMKFGQAGFNADIQEAWQKFLAVVVSALCRQY</Hsp_hseq>
+      <Hsp_midline>+ A++T +   WGK+  +  E   +AL R  + +P T+ YF  F +LS      G+ +V  HG+ V   L  A+ ++D++ N  +ALS +H+ KL VDP NFKLL+ C+ V  A     A F   +  +  KFLA V + L  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|NP_001096600.1|</Hit_id>
+  <Hit_def>hemoglobin beta embryonic-1.2 [Danio rerio] &gt;ref|NP_001352192.1| hemoglobin, beta embryonic 1.3 [Danio rerio] &gt;ref|NP_932339.1| hemoglobin beta embryonic-1.1 [Danio rerio] &gt;gb|AAC62069.1| embryonic 1 beta-globin [Danio rerio] &gt;gb|AAH95024.1| Si:busm1-118j2.5 protein [Danio rerio] &gt;gb|AAI42788.1| Hbbe1 protein [Danio rerio] &gt;gb|AAI50358.1| Si:busm1-118j2.5 [Danio rerio] &gt;gb|AAI52122.1| MGC173646 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001096600</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>2.70474e-22</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>GAEALERMFLSFPTTKTYFPHFDLSHGSAQVKG------HGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>GPQALARCLIVYPWTQRYFAKFGNLYNAAAILGNPMVAAHGKTVLKGLELAVKNMDNIKATYADLSVLHSEKLHVDPDNFRLLADCLTIVVAAQMGAGFTPEVQAAFQKFIAVAVSALGRQY</Hsp_hseq>
+      <Hsp_midline>G +AL R  + +P T+ YF  F   + +A + G      HGK V   L  AV ++D++    + LS LH+ KL VDP NF+LL+ CL + +AA + A FTP V A+  KF+A   + L  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|NP_998011.1|</Hit_id>
+  <Hit_def>hemoglobin beta embryonic-2 [Danio rerio] &gt;gb|AAI39603.1| Hemoglobin beta embryonic-2 [Danio rerio] &gt;gb|AAP93668.1| embryonic globin beta e2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_998011</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.14865e-21</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>EYGAEALERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>EAGPKALQRALIVYPWTQRYFGSFGNLYNAEAIINNPKVAAHGTVVLHGLDRAMKNMDDIKNTYAELSVLHSEKLHVDPDNFRLLADCLTIVIASTMGAAFTADMQAAWQKFLAVVVSALQRQY</Hsp_hseq>
+      <Hsp_midline>E G +AL+R  + +P T+ YF  F +L +  A     +V  HG  V   L  A+ ++DD+ N  + LS LH+ KL VDP NF+LL+ CL + +A+ + A FT  + A+  KFLA V + L  +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AAI35091.1|</Hit_id>
+  <Hit_def>Cygb2 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI35091</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>3.19924e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL----HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>LTDVERGIIKDTWARVYASCEDVGVTILIRFFVNFPSAKQYFSQFQDMEDPEEMEKSSQLRKHARRVMNAINTVVENLHD-PEKVSSVLVLVGKAHAFKYKVEPVYFKILSGVILEILAEEFGECFTPEVQTSWSKLMAALYWHITGAY</Hsp_hseq>
+      <Hsp_midline>L+  ++  +K  W +V A   + G   L R F++FP+ K YF  F D+        S+Q++ H ++V +A+   V ++ D P  +S++  L    HA K +V+PV FK+LS  +L  LA      FTP V  S  K +A++   +T  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|NP_001019395.2|</Hit_id>
+  <Hit_def>cytoglobin-2 [Danio rerio] &gt;sp|Q575S8.1| RecName: Full=Cytoglobin-2; AltName: Full=Nitric oxygen dioxygenase CYGB; AltName: Full=Nitrite reductase CYGB; AltName: Full=Pseudoperoxidase CYGB; AltName: Full=Superoxide dismutase CYGB [Danio rerio] &gt;emb|CAG25612.1| cytoglobin-2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001019395</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>4.22326e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL----HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>LTDVERGIIKDTWARVYASCEDVGVTILIRFFVNFPSAKQYFSQFQDMEDPEEMEKSSQLRKHARRVMNAINTVVENLHD-PEKVSSVLVLVGKAHAFKYKVEPIYFKILSGVILEILAEEFGECFTPEVQTSWSKLMAALYWHITGAY</Hsp_hseq>
+      <Hsp_midline>L+  ++  +K  W +V A   + G   L R F++FP+ K YF  F D+        S+Q++ H ++V +A+   V ++ D P  +S++  L    HA K +V+P+ FK+LS  +L  LA      FTP V  S  K +A++   +T  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|NP_694484.1|</Hit_id>
+  <Hit_def>cytoglobin-1 [Danio rerio] &gt;emb|CAC86225.1| cytoglobin-1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_694484</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>5.0376e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHV---DDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPA-VHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>LTEEDVCVIQDTWKPVYAERDNAGVAVLVRFFTNFPSAKQYFEHFRELQDPAEMQQNAQLKKHGQRVLNALNTLVENLRDADKLNTIFNQMGKSHALRHKVDPVYFKILAGVILEVLVEAFPQCFSPAEVQSSWSKLMGILYWQMNRVY</Hsp_hseq>
+      <Hsp_midline>L+  D   ++  W  V A     G   L R F +FP+ K YF HF +L        +AQ+K HG++V +AL   V ++   D +    + +   HA + +VDPV FK+L+  +L  L    P  F+PA V +S  K +  +   +   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|Q8UUR3.2|</Hit_id>
+  <Hit_def>RecName: Full=Cytoglobin-1; AltName: Full=Nitric oxygen dioxygenase CYGB; AltName: Full=Nitrite reductase CYGB; AltName: Full=Pseudoperoxidase CYGB; AltName: Full=Superoxide dismutase CYGB [Danio rerio] &gt;gb|AAH94999.1| Cygb1 protein [Danio rerio] &gt;gb|AAI65894.1| Cygb1 protein [Danio rerio]</Hit_def>
+  <Hit_accession>Q8UUR3</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>5.20066e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHV---DDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPA-VHASLDKFLASVSTVLTSKY</Hsp_qseq>
+      <Hsp_hseq>LTEEDVCVIQDTWKPVYAERDNAGVAVLVRFFTNFPSAKQYFEHFRELQDPAEMQQNAQLKEHGQRVLNALNTLVENLRDADKLNTIFNQMGKSHALRHKVDPVYFKILAGVILEVLVEAFPQCFSPAEVQSSWSKLMGILYWQMNRVY</Hsp_hseq>
+      <Hsp_midline>L+  D   ++  W  V A     G   L R F +FP+ K YF HF +L        +AQ+K HG++V +AL   V ++   D +    + +   HA + +VDPV FK+L+  +L  L    P  F+PA V +S  K +  +   +   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>emb|CAE30439.1|</Hit_id>
+  <Hit_def>novel protein similar to zebrafish ba2 globin (ba2), partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAE30439</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.44685e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFK</Hsp_qseq>
+      <Hsp_hseq>AERTAILGLWGKL--NIDEIGPQALSRCLIVYPWTQRYFATFGNLSSPAAIMGNPKVAAHGRTVMGGLERAIKNMDNIKNTYAALSVMHSEKLHVDPDNFK</Hsp_hseq>
+      <Hsp_midline>A++T +   WGK+  +  E G +AL R  + +P T+ YF  F +LS      G+ +V  HG+ V   L  A+ ++D++ N  +ALS +H+ KL VDP NFK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|AAB05405.1|</Hit_id>
+  <Hit_def>beta globin, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAB05405</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>3.65185e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFK</Hsp_qseq>
+      <Hsp_hseq>AERTAILGLWGKL--NIDEIGPQALSRCLIVYPWTQRYFATFGNLSSPAAIMGNPKVAAHGRTVMGGLERAIKNMDNVKNTYAALSVMHSEKLHVDPDNFR</Hsp_hseq>
+      <Hsp_midline>A++T +   WGK+  +  E G +AL R  + +P T+ YF  F +LS      G+ +V  HG+ V   L  A+ ++D++ N  +ALS +H+ KL VDP NF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>emb|CAD60791.1|</Hit_id>
+  <Hit_def>novel beta-type globin [Danio rerio]</Hit_def>
+  <Hit_accession>CAD60791</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.76862e-09</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAEALERMFLSFPTTKTYFPHFDLSHGSAQVKG------HGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKL</Hsp_qseq>
+      <Hsp_hseq>GPQALARCLIVYPWTQRYFAKFGNLYNAAAILGNPMVAAHGKTVLKGLELAVKNMDNIKATYADLSVLHSEKLHVDPDNFRV</Hsp_hseq>
+      <Hsp_midline>G +AL R  + +P T+ YF  F   + +A + G      HGK V   L  AV ++D++    + LS LH+ KL VDP NF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|AAH96977.1|</Hit_id>
+  <Hit_def>Zgc:92880 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH96977</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>3.59363e-08</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKL</Hsp_qseq>
+      <Hsp_hseq>GNPKVSEHGKTVLKALEKAVKNVEDIKTTYAQLSQLHCEKLNVDPDNFKV</Hsp_hseq>
+      <Hsp_midline>G+ +V  HGK V  AL  AV +V+D+    + LS LH  KL VDP NFK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|ABP65284.1|</Hit_id>
+  <Hit_def>ugly duckling [Danio rerio]</Hit_def>
+  <Hit_accession>ABP65284</Hit_accession>
+  <Hit_len>2055</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.82224</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>957</Hsp_hit-from>
+      <Hsp_hit-to>1001</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>PVNFKLLSHCLLVTLAAHLPAEFTPAV--HASLDKFLASVSTVLT</Hsp_qseq>
+      <Hsp_hseq>PINFHYLSPELGASNPAHLPANLPPSVVQKPQCDVSLLSTGTVKT</Hsp_hseq>
+      <Hsp_midline>P+NF  LS  L  +  AHLPA   P+V      D  L S  TV T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

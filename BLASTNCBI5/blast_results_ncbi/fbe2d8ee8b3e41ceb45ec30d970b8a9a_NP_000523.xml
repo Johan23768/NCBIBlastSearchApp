@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4348123</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000523.2 propionyl-CoA carboxylase beta chain, mitochondrial isoform 1 precursor [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>539</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4348123</Iteration_query-ID>
+  <Iteration_query-def>NP_000523.2 propionyl-CoA carboxylase beta chain, mitochondrial isoform 1 precursor [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>539</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_998090.2|</Hit_id>
+  <Hit_def>propionyl-CoA carboxylase beta chain, mitochondrial [Danio rerio]</Hit_def>
+  <Hit_accession>NP_998090</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>939.873</Hsp_bit-score>
+      <Hsp_score>2428</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>539</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>446</Hsp_identity>
+      <Hsp_positive>476</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>514</Hsp_align-len>
+      <Hsp_qseq>RSLCSQATSVNERIENKRRTALLGGGQRRIDAQHKRGKLTARERISLLLDPGSFVESDMFVEHRCADFGMAADKNKFPGDSVVTGRGRINGRLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDVTQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVVDEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCLDINSSVKGARFVRFCDAFNIPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKAYGGAYDVMSSKHLCGDTNYAWPTAEIAVMGAKGAVEIIFKGHENVEAAQAEYIEKFANPFPAAVRGFVDDIIQPSSTRARICCDLDVLASKKVQRPWRKHANIPL</Hsp_qseq>
+      <Hsp_hseq>RCYSSSHMSVQERIEQKRQAALTGGGQLRIAAQHKRGKLTARERVELLLDADSFVEYDMFVEHRCSDFGMEADQNKYPGDSVVTGQGRINGRLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAMLVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVMASGVVPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDVTQEELGGAKTHTAVSGVAHRAFENDIDALLNLRDFFNFLPLSNKDSAPVVECHDPRDRLVPGLDTVVPFESTKAYDMLDIVHGIVDEREFFEIMPNYAKNIVVGFARMNGRTVGIVGNQPKVASGCLDINSSVKGARFVRFCDAFNIPIITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKITVITRKAYGGAYDVMSSKHLRGDVNYAWPTAEVAVMGAKGAVQIIFRGKQNQAEAEAEYVEKFANPFPAAVRGFVDDIIQPSTTRRRICRDLEVLASKKQTNPWKKHANIPL</Hsp_hseq>
+      <Hsp_midline>R   S   SV ERIE KR+ AL GGGQ RI AQHKRGKLTARER+ LLLD  SFVE DMFVEHRC+DFGM AD+NK+PGDSVVTG+GRINGRLVYVFSQDFTVFGGSLSGAHAQKICKIMDQA+ VGAPVIGLNDSGGARIQEGVESLAGYADIFLRNV ASGV+PQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDVTQEELGGAKTHT +SGVAHRAFEND+DAL NLRDFFN+LPLS++D APV ECHDP DRLVP LDT+VP ESTKAY+M+DI+H +VDEREFFEIMPNYAKNI+VGFARMNGRTVGIVGNQPKVASGCLDINSSVKGARFVRFCDAFNIP+ITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPK+TVITRKAYGGAYDVMSSKHL GD NYAWPTAE+AVMGAKGAV+IIF+G +N   A+AEY+EKFANPFPAAVRGFVDDIIQPS+TR RIC DL+VLASKK   PW+KHANIPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAH67640.1|</Hit_id>
+  <Hit_def>Propionyl Coenzyme A carboxylase, beta polypeptide [Danio rerio]</Hit_def>
+  <Hit_accession>AAH67640</Hit_accession>
+  <Hit_len>557</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>916.376</Hsp_bit-score>
+      <Hsp_score>2367</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>530</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>546</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>467</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>505</Hsp_align-len>
+      <Hsp_qseq>RSLCSQATSVNERIENKRRTALLGGGQRRIDAQHKRGKLTARERISLLLDPGSFVESDMFVEHRCADFGMAADKNKFPGDSVVTGRGRINGRLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDVTQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVVDEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCLDINSSVKGARFVRFCDAFNIPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKAYGGAYDVMSSKHLCGDTNYAWPTAEIAVMGAKGAVEIIFKGHENVEAAQAEYIEKFANPFPAAVRGFVDDIIQPSSTRARICCDLDVLASKKVQRP</Hsp_qseq>
+      <Hsp_hseq>RCYSSSHMSVQERIEQKRQAALTGGGQLRIAAQHKRGKLTARERVELLLDADSFVEYDMFVEHRCSDFGMEADQNKYPGDSVVTGQGRINGRLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAMLVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVMASGVVPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDVTQEELGGAKTHTAVSGVAHRAFENDIDALLNLRDFFNFLPLSNKDSAPVVECHDPRDRLVPGLDTVVPFESTKAYDMLDIVHGIVDEREFFEIMPNYAKNIVVGFARMNGRTVGIVGNQPKVASGCLDINSSVKGARFVRFCDAFNIPIITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKITVITRKAYGGAYDVMSSKHLRGDVNYAWPTAEVAVMGAKGAVQIIFRGKQNQAEAEAEYVEKFANPFPAAVRGFVDDIIQPSTTRRRICRDLEVLASKKQTNP</Hsp_hseq>
+      <Hsp_midline>R   S   SV ERIE KR+ AL GGGQ RI AQHKRGKLTARER+ LLLD  SFVE DMFVEHRC+DFGM AD+NK+PGDSVVTG+GRINGRLVYVFSQDFTVFGGSLSGAHAQKICKIMDQA+ VGAPVIGLNDSGGARIQEGVESLAGYADIFLRNV ASGV+PQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDVTQEELGGAKTHT +SGVAHRAFEND+DAL NLRDFFN+LPLS++D APV ECHDP DRLVP LDT+VP ESTKAY+M+DI+H +VDEREFFEIMPNYAKNI+VGFARMNGRTVGIVGNQPKVASGCLDINSSVKGARFVRFCDAFNIP+ITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPK+TVITRKAYGGAYDVMSSKHL GD NYAWPTAE+AVMGAKGAV+IIF+G +N   A+AEY+EKFANPFPAAVRGFVDDIIQPS+TR RIC DL+VLASKK   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_998092.1|</Hit_id>
+  <Hit_def>methylcrotonoyl-CoA carboxylase beta chain, mitochondrial [Danio rerio] &gt;gb|AAH67577.1| Methylcrotonoyl-Coenzyme A carboxylase 2 (beta) [Danio rerio]</Hit_def>
+  <Hit_accession>NP_998092</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>4.74153e-66</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>529</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>549</Hsp_align-len>
+      <Hsp_qseq>ALRVAAVGARLSVLASGLRAAVRSLCSQATSVNERIENKRRTALLGGGQRRIDAQHKRGKLTARERISLLLDPGS-FVESDMFVEHRCADFGMAADKNKFPGDSVVTGRGRINGRLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAG---YADIFLRNVTASGV-IPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDVTQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVP--ELDTIVPLESTKAYNMVDIIHSVVDEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCLDINSSVKGARFVRFCDAFNIPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKAYGGAYDVMSSKHLCGDTNYAWPTAEIAVMGAKGAVEIIF---------KGHE---NVEAAQAEYI----EKFANPFPAAVRGFVDDIIQPSSTRARICCDLDVLASKKVQR</Hsp_qseq>
+      <Hsp_hseq>ADKVATVGSQPDTQSPVFQENYERMQALVKELKDRAEKIK----LGGGEKARNLHTSRGKLLPRERIDRLLDPGSPFLEFSQFAAYQL--YG----KEEVPAGGIITGIGRVSGVECLIVANDATVKGGTYYPVTVKKHLRAQEIAQQNHLPCIYLVDSGGANLSRQADVFPDRDHFGRIFFNQARLSSEGISQIAVVMGSCTAGGAYVPAMADESIIVRKQGTIFLGGPPLVKAATGEEVSAEDLGGADLHCRKSGVTDHYALDDNHALHLARKAVRSLNYKKNLDVTVEPPEAP---LFPADELYGIVGDNLKRNFDIREVIARIVDGSKFDEFKAFYGDTLITGFARIFGYPVGIIGN-----NGVLFSESAKKGTHFIELCCQRNIPLLFLQNITGFMVGREYEAGGIAKDGAKMVTAVACANVPKITVIIGGSYGAGNYGMCGRAYGPRFLYMWPNSRISVMGGEQAATVLATITKDQKAREGKEFTAEQEAAMKEPIIKRFEEEGNPYYSSARLWDDGIIDPADTRLVLGLSLSAALNAPTQK</Hsp_hseq>
+      <Hsp_midline>A +VA VG++    +   +     + +    + +R E  +    LGGG++  +    RGKL  RERI  LLDPGS F+E   F  ++   +G    K + P   ++TG GR++G    + + D TV GG+      +K  +  + A     P I L DSGGA +    +       +  IF      S   I QI+++MG C  G  Y PA+ D + +V+    +F+ GP +VK+ T E+V+ E+LGGA  H   SGV      +D  AL   R     L         V     P   L P  EL  IV     + +++ ++I  +VD  +F E    Y   +I GFAR+ G  VGI+GN     +G L   S+ KG  F+  C   NIPL+   ++ GF+ G   E GGI + GAK++ A A A VPK+TVI   +YG     M  +       Y WP + I+VMG + A  ++          +G E     EAA  E I    E+  NP+ ++ R + D II P+ TR  +   L    +   Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|NP_001107124.1|</Hit_id>
+  <Hit_def>methylcrotonoyl-coenzyme A carboxylase 2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001107124</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>9.93546e-46</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>590</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>509</Hsp_align-len>
+      <Hsp_qseq>IENKRRTALLGGGQRRIDAQHKRG-KLTARERISLLLDPGSFVESDMFVEHRCADFGMAADKNKFPGDSVVTGRGRINGRLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLA----GYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDVTQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYL--PLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVVDEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCLDINSSVKGARFVRFCDAFNIPLITFVDVPGFLPGTAQEYGGI------------IRHGAKLLYAFAEATVPKVTVITRKAYGGAYDVMSSKHLCGDTNYAWPTAEIAVMGAKGAVEIIFKGHENVEAAQAEYIEKFANPFPAAVRGFVDDIIQPSSTRARICCDLDVLASKKVQ</Hsp_qseq>
+      <Hsp_hseq>FEHKEKV-MKGGGENAIARHTQRNQKVLVRERLRMLLDDEDYLELSPFA-------GLGLPYGDIPSAGCLTGIGKINGLWCMFSANDATVKGGTAYPITVKKQLRAQIVAMQNRLPFVYLVDSGGAFLPLQSEIFPDKNHGGRTFYNEAIMSAMKIPQVAVVCGSCTAGGAYVPTMSEEAVIVHRIGTIFLGGPPLVKAATGEEVSPEDLGGARLHSEVSGCVDHFAAVESEAYEYTRNIISTLNYELPEEDSVQVEEPLYSTE----ELMGLAPRSYNYSLDIRLIVSRLTDGSRFQEFKARYGTTLLTGFARIDGHQIGIVAN-----NGELTYEASLKGSHFVQLCDQRDIPLI-------FLQNTAPEPAHTTSQTKAESNTNRLKAQGSMMSAVACASVPKMTVVIGGCHGGDSYAMCGRAFDPNFLFLWPNARVSIL-APGYSEEFVQTEEEITQIN-EMLEEESSAFFSTGRLWDDGVILPQDTRKILSKCLEIIKQQEYQ</Hsp_hseq>
+      <Hsp_midline> E+K +  + GGG+  I    +R  K+  RER+ +LLD   ++E   F        G+       P    +TG G+ING      + D TV GG+      +K  +    A+    P + L DSGGA +    E       G    +   + ++  IPQ++++ G C  G  Y P +++   +V     +F+ GP +VK+ T E+V+ E+LGGA+ H+ +SG        + +A    R+  + L   L  +D   V E    ++    EL  + P     + ++  I+  + D   F E    Y   ++ GFAR++G  +GIV N     +G L   +S+KG+ FV+ CD  +IPLI       FL  TA E                ++    ++ A A A+VPK+TV+    +GG    M  +    +  + WP A ++++ A G  E   +  E +     E +E+ ++ F +  R + D +I P  TR  +   L+++  ++ Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_073808166.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X7 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808166</Hit_accession>
+  <Hit_len>2267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>6.93138e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1669</Hsp_hit-from>
+      <Hsp_hit-to>2049</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_021332108.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X3 [Danio rerio] &gt;ref|XP_073808160.1| acetyl-CoA carboxylase 2 isoform X3 [Danio rerio] &gt;ref|XP_073808161.1| acetyl-CoA carboxylase 2 isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021332108</Hit_accession>
+  <Hit_len>2372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>7.04453e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1774</Hsp_hit-from>
+      <Hsp_hit-to>2154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_073808154.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X2 [Danio rerio] &gt;ref|XP_073808157.1| acetyl-CoA carboxylase 2 isoform X2 [Danio rerio] &gt;ref|XP_073808158.1| acetyl-CoA carboxylase 2 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808154</Hit_accession>
+  <Hit_len>2378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>7.10904e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1780</Hsp_hit-from>
+      <Hsp_hit-to>2160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_073808172.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X12 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808172</Hit_accession>
+  <Hit_len>2240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>7.22519e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1642</Hsp_hit-from>
+      <Hsp_hit-to>2022</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_021332109.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X4 [Danio rerio] &gt;ref|XP_073808162.1| acetyl-CoA carboxylase 2 isoform X4 [Danio rerio] &gt;ref|XP_073808163.1| acetyl-CoA carboxylase 2 isoform X4 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021332109</Hit_accession>
+  <Hit_len>2364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>7.35412e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1766</Hsp_hit-from>
+      <Hsp_hit-to>2146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_021332107.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X1 [Danio rerio] &gt;ref|XP_073808155.1| acetyl-CoA carboxylase 2 isoform X1 [Danio rerio] &gt;ref|XP_073808156.1| acetyl-CoA carboxylase 2 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021332107</Hit_accession>
+  <Hit_len>2386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>7.4945e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1788</Hsp_hit-from>
+      <Hsp_hit-to>2168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_073808164.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X5 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808164</Hit_accession>
+  <Hit_len>2281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>7.50451e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1683</Hsp_hit-from>
+      <Hsp_hit-to>2063</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_073808171.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X11 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808171</Hit_accession>
+  <Hit_len>2248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>7.75144e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1650</Hsp_hit-from>
+      <Hsp_hit-to>2030</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_073808168.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X9 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808168</Hit_accession>
+  <Hit_len>2259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>8.03297e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1661</Hsp_hit-from>
+      <Hsp_hit-to>2041</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_073808165.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X6 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808165</Hit_accession>
+  <Hit_len>2273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>8.47282e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1675</Hsp_hit-from>
+      <Hsp_hit-to>2055</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_073808169.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X10 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808169</Hit_accession>
+  <Hit_len>2254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>8.68477e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1656</Hsp_hit-from>
+      <Hsp_hit-to>2036</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_073808167.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase 2 isoform X8 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808167</Hit_accession>
+  <Hit_len>2262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>8.69e-17</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>474</Hsp_query-to>
+      <Hsp_hit-from>1664</Hsp_hit-from>
+      <Hsp_hit-to>2044</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>RLVYVFSQDFTVFGGSLSGAHAQKICKIMDQAITVGAPVIGLNDSGGARIQEGVESLAGYADIFLRNVTASGVIPQISLIMGPCAGGAVYSPALTDFTFMVKDTSYLFITGPDVVKSVTNEDV--TQEELGGAKTHTTMSGVAHRAFENDVDALCNLRDFFNYLPLSSQDPAPVRECHDPSDRLVPELDTIVPLESTKAYNMVDIIHSVV---------DEREFFEIMPNYAKNIIVGFARMNGRTVGIVGNQPKVASGCL-----DINSSVK---GARFVRFCDA----------FN---IPLITFVDVPGFLPGTAQEYGGIIRHGAKLLYAFAEATVPKVTVITRKA--YGGAYDVMS-SKHLCGDTNYAWPTAEIAVMGAKGAVEIIFK</Hsp_qseq>
+      <Hsp_hseq>KYLYLTPQDYTRISSS-NSVH----CHHVEEG---GESRYILTDIIGKEEGIGVENLRGSGTIAGETSQAYKEIITISMVTCRAIGIGAYLVRLGQRVIQVEN-SHIILTGAGALNKVLGREVYTSNNQLGGVQIMHN-NGVTHSTVPDDFEGVLTILQWLSYMPKSNQSPVPIKPATDPVDREIDFVPTKAPYDPR--WLLCGRPHPTVKGAWQSGFFDHGSFLEIMATWAQTVVVGRARLGGIPLGVIAVETRTVELAIPADPANLDSEAKLLQQAGQVWFPDSAYKTAQAIEDFNREKLPLMVFANWRGFSGGMKDMYDQVLKFGSYIVDALREFSQPVLVYIPPNAELRGGSWVVIDPTINLQHMELYADRESRGGVLEAEGTVEIKFR</Hsp_hseq>
+      <Hsp_midline>+ +Y+  QD+T    S +  H    C  +++    G     L D  G     GVE+L G   I      A   I  IS++     G   Y   L      V++ S++ +TG   +  V   +V  +  +LGG +     +GV H    +D + +  +  + +Y+P S+Q P P++   DP DR +  + T  P +    + +    H  V         D   F EIM  +A+ ++VG AR+ G  +G++  + +     +     +++S  K    A  V F D+          FN   +PL+ F +  GF  G    Y  +++ G+ ++ A  E + P +  I   A   GG++ V+  + +L     YA   +   V+ A+G VEI F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,2842 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8019851</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000513.2 homeobox protein Hox-A13 [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>388</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8019851</Iteration_query-ID>
+  <Iteration_query-def>NP_000513.2 homeobox protein Hox-A13 [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>388</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_571269.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-A13b [Danio rerio] &gt;sp|P79724.3| RecName: Full=Homeobox protein Hox-A13b; Short=Hox-A13 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571269</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>5.5255e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>99</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>MTASVLLHPRWIEPTVMFLYDNGGGLVADELNKNMEGAAAAAAAAAAAAAAGAGGGGFPHPAAAAAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAASAYSSAPGEAPPSAAAAAAAAAAAAAAAAAASSSGGPGPAGPAGAEAAKQCSPCSAAAQSSSGPAALPYGYFGSGYYPCARMGPHPNAIKSCAQPASAAAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>MTASLLLHSRWIDP-VMFLYDNG----LDDMSKNMEGFV---------------------------GGNF------------AANQCRNLIAHPSTLAP--STTYTSS--EVPVSGMG-----------------------------EPVKQCSPCSAVQNTPS--ASLPYGYFGGSYYPC-RMP------KSCTQPTT------YGEKYMDTSV-SGEEFPSRAKEFAFY-QGYSSGPY---QPVPSYLDVPVVPALSAPSEPRHESL-LPVETYQPWAITNGWSSPVYCPKDQTQSSTLWKSSIQDTVSG-TDGASVRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISAHTNLTERQVTIWFQNRRVKEKKVVNKYKGIS</Hsp_hseq>
+      <Hsp_midline>MTAS+LLH RWI+P VMFLYDNG     D+++KNMEG                             GGNF            AANQCRNL+AHP+ LAP  ++ Y+S+  E P S                                E  KQCSPCSA   + S  A+LPYGYFG  YYPC RM       KSC QP +      + +KYMDT+  + EEF SRAKEFAFY QGY++GPY   QP+P YLD+PVVP L  P E RHE L LP+E+YQPWA+ NGW+  +YCPK+Q Q   LWKS++ D VS  +D +S RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISA TNL+ERQVTIWFQNRRVKEKKV+NK K  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAD15936.1|</Hit_id>
+  <Hit_def>homeobox protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15936</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>3.47761e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>103</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>MTASVLLHPRWIEPTVMFLYDNGGGLVADELNKNMEGAAAAAAAAAAAAAAGAGGGGFPHPAAAAAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAASAYSSAPGEAPPSAAAAAAAAAAAAAAAAAASSSGGPGPAGPAGAEAAKQCSPCSAAAQSSSGPAALPYGYFGSGYYPCARMGPHPNAIKSCAQPASAAAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>MTASLLLHSRWIDP-VMFLYDNG----LDDMSKNMEGFV---------------------------GGNF------------AANQCRNLIAHPSTLAP--STTYTSS--EVPVSGMG-----------------------------EPVKQCSPCSAVQNTPS--ASLPYGYFGGSYYPC-RMP------KSCTQPTT------YGEKYMDTSV-SGEEFPSRAKEFAFY-QGYSSA---LTQPVPSYLDVPVVPALSAPSEPRHESL-LPVETYQPWAITNGWSSPVYCPKDQTQSSTLWKSSI-----QGTDGASVRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISAHTNLTERQVTIWFQNRRVKEKKVVNKYKGIS</Hsp_hseq>
+      <Hsp_midline>MTAS+LLH RWI+P VMFLYDNG     D+++KNMEG                             GGNF            AANQCRNL+AHP+ LAP  ++ Y+S+  E P S                                E  KQCSPCSA   + S  A+LPYGYFG  YYPC RM       KSC QP +      + +KYMDT+  + EEF SRAKEFAFY QGY++      QP+P YLD+PVVP L  P E RHE L LP+E+YQPWA+ NGW+  +YCPK+Q Q   LWKS++       +D +S RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISA TNL+ERQVTIWFQNRRVKEKKV+NK K  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_001078963.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A13a [Danio rerio] &gt;sp|Q6W990.2| RecName: Full=Homeobox protein Hox-A13a [Danio rerio] &gt;gb|AAI33883.1| Hoxa13a protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001078963</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>1.73477e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>MTASVLLHPRWIEPTVMFLYDNGGGLVADELNKNMEGAAAAAAAAAAAAAAGAGGGGFPHPAAAAAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAASAYSSAPGEAPPSAAAAAAAAAAAAAAAAAASSSGGPGPAGPAGAEAAKQCSPCSAAAQSSSGPAALPYGYFGSGYYPCARMGPHPNA---IKSCAQPASAAAAAAFADKYMDTAGPAAEEF-SSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALP-NGWNGQMYCPKEQAQPPHLWKSTLPDVVSHP-SDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>MTTSLLLRPRWIDP-VMFLYDNGGGL--DDTSKNMEGFT---------------------------GGNFSPSP------------CRNLMSHPASLAPSATY----------PSSEVAAAAAG-----------------------DSGKQCSPCSAV-QGSASASISYGYFGGGGYYPC-RMSHHHGSGGGVKTCAQ--SPASGSPYGEKYMDTSASTGEDYTSSRAKEFALY-SSYASSPY---QPVPSYLDVPVVQAISGPSEPRHESL-LPMESYQPWAITTSGWNGQVYCTKEQQQTGNVWKSSIPESVSHGGADGSSFRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISAQTNLSERQVTIWFQNRRVKEKKVVNKLKSSS</Hsp_hseq>
+      <Hsp_midline>MT S+LL PRWI+P VMFLYDNGGGL  D+ +KNMEG                             GGNFS +             CRNLM+HPA LAP A            PS+  AAAAA                        ++ KQCSPCSA  Q S+  +     + G GYYPC RM  H  +   +K+CAQ  S A+ + + +KYMDT+    E++ SSRAKEFA Y   YA+ PY   QP+P YLD+PVV  + GP E RHE L LPMESYQPWA+  +GWNGQ+YC KEQ Q  ++WKS++P+ VSH  +D SS+RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISA TNLSERQVTIWFQNRRVKEKKV+NKLK++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAQ72839.1|</Hit_id>
+  <Hit_def>HoxA13a [Danio rerio]</Hit_def>
+  <Hit_accession>AAQ72839</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>4.88392e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>MTASVLLHPRWIEPTVMFLYDNGGGLVADELNKNMEGAAAAAAAAAAAAAAGAGGGGFPHPAAAAAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAASAYSSAPGEAPPSAAAAAAAAAAAAAAAAAASSSGGPGPAGPAGAEAAKQCSPCSAAAQSSSGPAALPYGYFGSGYYPCARMGPHPNA---IKSCAQPASAAAAAAFADKYMDTAGPAAEEF-SSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALP-NGWNGQMYCPKEQAQPPHLWKSTLPDVVSHP-SDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>MTTSLLLRPRWIDP-VMFLYDNGGGL--DDTSKNMEGFT---------------------------GGNFSPSP------------CRNLMSHPASLAPSATY----------PSSEVAAAAAG-----------------------DSGKQCSPCSAV-QGSASASISYGYFGGGGYYPC-RMSHHHGSGGGVKTCAQ--SPASGSPYGEKYMDTSASTGEDYTSSRAKEFALY-SSYASSPY---QPVPSYLDVPVVQAISGPWEPRHESL-LPMESYQPWAITTSGWNGQVYCTKEQQQTGNVWKSSIPESVSHGGADGSSFRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISAQTNLSERQVTIWFQNRRVKEKKVVNKLKSSS</Hsp_hseq>
+      <Hsp_midline>MT S+LL PRWI+P VMFLYDNGGGL  D+ +KNMEG                             GGNFS +             CRNLM+HPA LAP A            PS+  AAAAA                        ++ KQCSPCSA  Q S+  +     + G GYYPC RM  H  +   +K+CAQ  S A+ + + +KYMDT+    E++ SSRAKEFA Y   YA+ PY   QP+P YLD+PVV  + GP E RHE L LPMESYQPWA+  +GWNGQ+YC KEQ Q  ++WKS++P+ VSH  +D SS+RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISA TNLSERQVTIWFQNRRVKEKKV+NKLK++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAH90761.1|</Hit_id>
+  <Hit_def>Hoxa13b protein [Danio rerio] &gt;gb|AAI65536.1| Hoxa13b protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH90761</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>5.12921e-114</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>98</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>MFLYDNGGGLVADELNKNMEGAAAAAAAAAAAAAAGAGGGGFPHPAAAAAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAASAYSSAPGEAPPSAAAAAAAAAAAAAAAAAASSSGGPGPAGPAGAEAAKQCSPCSAAAQSSSGPAALPYGYFGSGYYPCARMGPHPNAIKSCAQPASAAAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>MFLYDNG----LDDMSKNMEGFV---------------------------GGNF------------AANQCRNLIAHPSTLAP--STTYTSS--EVPVSGMG-----------------------------EPVKQCSPCSAVQNTPS--ASLPYGYFGGSYYPC-RMP------KSCTQPTT------YGEKYMDTSV-SGEEFPSRAKEFAFY-QGYSSGPY---QPVPSYLDVPVVPALSAPSEPRHESL-LPVETYQPWAITNGWSSPVYCPKDQTQSSTLWKSSIQDTVSG-TDGASVRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISAHTNLTERQVTIWFQNRRVKEKKVVNKYKGIS</Hsp_hseq>
+      <Hsp_midline>MFLYDNG     D+++KNMEG                             GGNF            AANQCRNL+AHP+ LAP  ++ Y+S+  E P S                                E  KQCSPCSA   + S  A+LPYGYFG  YYPC RM       KSC QP +      + +KYMDT+  + EEF SRAKEFAFY QGY++GPY   QP+P YLD+PVVP L  P E RHE L LP+E+YQPWA+ NGW+  +YCPK+Q Q   LWKS++ D VS  +D +S RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISA TNL+ERQVTIWFQNRRVKEKKV+NK K  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_001038377.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-B13a [Danio rerio] &gt;sp|Q1ECY2.1| RecName: Full=Homeobox protein Hox-B13a [Danio rerio] &gt;gb|AAI17626.1| Homeo box B13a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001038377</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>3.11754e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>MTASVLLHPRWIEPTVMFLYDNGGGLVADELNKNMEGAAAAAAAAAAAAAAGAGGGGFPHPAAAAAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAASAYSSAPGEAPPSAAAAAAAAAAAAAAAAAASSSGGPGPAGPAGAEAAKQCSPCSAAAQ-SSSGPAALPYGYFGSGYYPCARMGPHPNAIKSCAQPASAAAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTT</Hsp_qseq>
+      <Hsp_hseq>MTTSLVLNPRWAD-TVMFVYENN----LDEL-KNMEGLVGS--------------------------GNF------------AANQCRNLMAH---------SALSGHP--------SSLVHGSSYPTVDVSTSSS----------AESGKQCTPCPTVPQASSTGP--IPYGYFGNSYYPC-RMGR--GSLKSCTQPS---ALSYTAEKYMDTP-VTSEEYPTRAKEFAFYHS--YPSPY---QSMASYLDVSVVQTLG-TGEPRHDSL-LPMDSYQPWALANGWGSQMYCSKDQGQAGHLWKSALADVVAHQHDGGSFRRGRKKRIPYTKVQLKELEKEYAANKFITKDKRRKISAVTNLSERQITIWFQNRRVKEKKFIAKVKNT</Hsp_hseq>
+      <Hsp_midline>MT S++L+PRW + TVMF+Y+N      DEL KNMEG   +                          GNF            AANQCRNLMAH         SA S  P        ++    ++      + SSS          AE+ KQC+PC    Q SS+GP  +PYGYFG+ YYPC RMG    ++KSC QP+   A +  A+KYMDT    +EE+ +RAKEFAFYH      PY   Q M  YLD+ VV  LG  GE RH+ L LPM+SYQPWAL NGW  QMYC K+Q Q  HLWKS L DVV+H  D  S+RRGRKKR+PYTKVQLKELE+EYA NKFITKDKRR+ISA TNLSERQ+TIWFQNRRVKEKK I K+K T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AAI34024.1|</Hit_id>
+  <Hit_def>Hoxc13a protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI34024</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>1.12216e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>MTASVLLHPRWIEPTVMFLYDNGGGLVADELNKNMEGAAAAAAAAAAAAAAGAGGGGFPHPAAAAAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAASAYSSAPGEAPPSAAAAAAAAAAAAAAAAAASSSGGPGPAGPAGAEAAKQCSPCSAAAQSSSGPAALPYGY-FGSGYYPCARMGPHPNAIKSCAQPASAAAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>MTTSLVLHPRWAD-TLMYVYEKSPNENNQNKSQIMEGLS----------------GNCP------------------------ATHCRELISHPA------------------------------LGRHSGTIATHQGSVYLDISSPETGRQC----PAPQTSSS-ASLSYGYPFGNPYYGC-RLS-HSHNVNLQQKPCSYHPAEKYAE--TSSALPT-EELSSRAKEFAFY-PSFASS----YQAVPGYLDMSVVPSISAHPEPRHDAL-IPMEGYQHWALSNGWDGQVYCSKEQTQSSHLWKSPFPDVVPLQPEVSSYRRGRKKRVPYTKIQLKELEKEYAASKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKFVSKSKTNN</Hsp_hseq>
+      <Hsp_midline>MT S++LHPRW + T+M++Y+          ++ MEG +                G  P                        A  CR L++HPA                                  +   ++  G      +  E  +QC     A Q+SS  A+L YGY FG+ YY C R+  H + +    +P S   A  +A+    +A P  EE SSRAKEFAFY   +A+     +Q +PGYLDM VVP +    E RH+ L +PME YQ WAL NGW+GQ+YC KEQ Q  HLWKS  PDVV    + SSYRRGRKKRVPYTK+QLKELE+EYA +KFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK ++K KT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|NP_571618.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-C13a [Danio rerio] &gt;sp|Q6JIY5.1| RecName: Full=Homeobox protein Hox-C13a [Danio rerio] &gt;gb|AAS16937.1| Hoxc13a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571618</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>2.39436e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>88</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>MTASVLLHPRWIEPTVMFLYDNGGGLVADELNKNMEGAAAAAAAAAAAAAAGAGGGGFPHPAAAAAGGNFSVAAAAAAAAAAAANQCRNLMAHPAPLAPGAASAYSSAPGEAPPSAAAAAAAAAAAAAAAAAASSSGGPGPAGPAGAEAAKQCSPCSAAAQSSSGPAALPYGY-FGSGYYPCARMGPHPNAIKSCAQPASAAAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>MTTSQVLHPRWAD-TLMYVYEKSPNENNQNKSQIMEGLS----------------GNCP------------------------ATHCRELISHPA----------------------LGRHSGTIATHQGSVYSDISSP--------ETGRQC----PAPQTSSS-ASLSYGYPFGNPYYGC-RLS-HSHNVNLQQKPCSYHPAEKYAE--TSSALPT-EELSSRAKEFAFY--PSLASSY---QAVPGYLDMSVVPSISVHPEPRHDAL-IPMEGYQHWALSNGWDGQVYCSKEQTQSSHLWKSPFPDVVPLQPEVSSYRRGRKKRVPYTKIQLKELEKEYAASKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKFVSKSKTNN</Hsp_hseq>
+      <Hsp_midline>MT S +LHPRW + T+M++Y+          ++ MEG +                G  P                        A  CR L++HPA                          +   A    +  S    P        E  +QC     A Q+SS  A+L YGY FG+ YY C R+  H + +    +P S   A  +A+    +A P  EE SSRAKEFAFY     A  Y   Q +PGYLDM VVP +    E RH+ L +PME YQ WAL NGW+GQ+YC KEQ Q  HLWKS  PDVV    + SSYRRGRKKRVPYTK+QLKELE+EYA +KFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK ++K KT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q6JIY4.1|</Hit_id>
+  <Hit_def>RecName: Full=Homeobox protein Hox-C13b [Danio rerio] &gt;gb|AAS16938.1| Hoxc13b [Danio rerio]</Hit_def>
+  <Hit_accession>Q6JIY4</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>8.01881e-81</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>AAQSSSGPAALPYGY-FGSGYYPCARMGPHP-NAIKSCAQPASAAAAAAFADKYMDTAGPA-AEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINK</Hsp_qseq>
+      <Hsp_hseq>APQASSG-TSLGYGYAFGSPYYGCRLSYSHNVNLQQKSYHPA---------EKYMETSGALPAEELSSRSKEFAIY-PSFASS----YQTVPGYLDVPVVPGISAHPESRHEAL-FPMDSYQHWALSNGWDEQLYCSKEQTHFNHLWKSQFSDVVPHQAEMNGYRRGRKKRVPYTKIQLKELEKEYAASKFITKDRRRRISATTSLSERQVTIWFQNRRVKEKKFVCK</Hsp_hseq>
+      <Hsp_midline>A Q+SSG  +L YGY FGS YY C     H  N  +    PA         +KYM+T+G   AEE SSR+KEFA Y   +A+     +Q +PGYLD+PVVPG+    ESRHE L  PM+SYQ WAL NGW+ Q+YC KEQ    HLWKS   DVV H ++ + YRRGRKKRVPYTK+QLKELE+EYA +KFITKD+RRRISATT+LSERQVTIWFQNRRVKEKK + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|NP_571621.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-C13b [Danio rerio] &gt;gb|AAI39598.1| Homeo box C13b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571621</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.366</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>1.0066e-80</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>AAQSSSGPAALPYGY-FGSGYYPCARMGPHP-NAIKSCAQPASAAAAAAFADKYMDTAGPA-AEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINK</Hsp_qseq>
+      <Hsp_hseq>APQASSG-TSLGYGYAFGSPYYGCRLSYSHNVNLQQKSYHPA---------EKYMETSGALPAEELSSRSKEFAIY-PSFASS----YQTVPGYLDVPVVPGISAHPESRHEAL-FPMDSYQHWALSNGWDEQLYCSKEQTHFNHLWKSQFSDVVPHQAEMNGYRRGRKKRVPYTKIQLKELEKEYAASKFITKDRRRRISATTSLSERQVTIWFQNRRVKEKKFVCK</Hsp_hseq>
+      <Hsp_midline>A Q+SSG  +L YGY FGS YY C     H  N  +    PA         +KYM+T+G   AEE SSR+KEFA Y   +A+     +Q +PGYLD+PVVPG+    ESRHE L  PM+SYQ WAL NGW+ Q+YC KEQ    HLWKS   DVV H ++ + YRRGRKKRVPYTK+QLKELE+EYA +KFITKD+RRRISATT+LSERQVTIWFQNRRVKEKK + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>emb|CAA61031.1|</Hit_id>
+  <Hit_def>HoxD13 [Danio rerio]</Hit_def>
+  <Hit_accession>CAA61031</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.014</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>4.01427e-50</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>PASAAAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>PGVAKQNGQFANKPVDHG-----EASSWLKEFAFY-QG-CAGSYPR---IPAFIDLPVVQ-RAMMGDRRHETC-LTMEGHQHWDWSNNCSSQLYCSQDQTRSPHIWK---PSLTEEAAAASFCQRGRKKRVPYTKFQLKELEREYNTTKFITKENRRRIASSTNLSERQVTIWFQNRRVKDKK</Hsp_hseq>
+      <Hsp_midline>P  A     FA+K +D       E SS  KEFAFY QG  AG Y     +P ++D+PVV      G+ RHE   L ME +Q W   N  + Q+YC ++Q + PH+WK   P +    + AS  +RGRKKRVPYTK QLKELEREY T KFITK+ RRRI+++TNLSERQVTIWFQNRRVK+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AAI53653.1|</Hit_id>
+  <Hit_def>Hoxd13a protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI53653</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>9.11316e-50</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>PNAIKSCAQPASAAAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>PNAV---FPPGVAKQNGQFANKPVDHG-----EASSWLKEFAFY-QG-CAGSYPR---IPAFIDLPVVQ-RAMMGDRRHETC-LTMEGHQHWDWSNNCSSQLYCSQDQTRSPHIWK---PSLTEEAAAASFCQRGRKKRVPYTKFQLKELEREYNTTKFITKENRRRIASSTNLSERQVTIWFQNRRVKDKK</Hsp_hseq>
+      <Hsp_midline>PNA+     P  A     FA+K +D       E SS  KEFAFY QG  AG Y     +P ++D+PVV      G+ RHE   L ME +Q W   N  + Q+YC ++Q + PH+WK   P +    + AS  +RGRKKRVPYTK QLKELEREY T KFITK+ RRRI+++TNLSERQVTIWFQNRRVK+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|NP_571244.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-D13a [Danio rerio] &gt;sp|Q90472.2| RecName: Full=Homeobox protein Hox-D13a; Short=Hox-D13 [Danio rerio] &gt;gb|AAH91996.1| Homeo box D13a [Danio rerio] &gt;gb|AAI63878.1| Homeo box D13a [Danio rerio] &gt;gb|AAI65451.1| Hoxd13a protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571244</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>7.49325e-49</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>PASAAAAAAFADKYMDTAGPAAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>PGVAKQNGQFANKPVDHG-----EASSWLKEFAFY-QGCARS----YPRIPAFIDLPVVQR-AMMGDLRHETC-LTMEGHQHWDWSNNCSSQLYCFQDQTRSPHIWK---PSLTEEAAAASFCQRGRKKRVPYTKFQLKELEREYNTTKFITKENRRRIASSTNLSERQVTIWFQNRRVKDKK</Hsp_hseq>
+      <Hsp_midline>P  A     FA+K +D       E SS  KEFAFY QG A      +  +P ++D+PVV      G+ RHE   L ME +Q W   N  + Q+YC ++Q + PH+WK   P +    + AS  +RGRKKRVPYTK QLKELEREY T KFITK+ RRRI+++TNLSERQVTIWFQNRRVK+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|AAD15935.1|</Hit_id>
+  <Hit_def>homeobox protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15935</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>2.48739e-39</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISAQTNLSERQVTIWFQNRRVKEKKVVNKLKSSS</Hsp_hseq>
+      <Hsp_midline>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISA TNLSERQVTIWFQNRRVKEKKV+NKLK++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|AAD15954.1|</Hit_id>
+  <Hit_def>homeobox protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15954</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>4.89752e-35</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GRKKRVPYTKIQLKELEKEYAASKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKFVSKSKTNN</Hsp_hseq>
+      <Hsp_midline>GRKKRVPYTK+QLKELE+EYA +KFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK ++K KT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>emb|CAA68961.1|</Hit_id>
+  <Hit_def>HOXA-13, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAA68961</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>8.00952e-35</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>381</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVI</Hsp_qseq>
+      <Hsp_hseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISAHTNLTERQVTIWFQNRRVKEKKVV</Hsp_hseq>
+      <Hsp_midline>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISA TNL+ERQVTIWFQNRRVKEKKV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AAD15955.1|</Hit_id>
+  <Hit_def>homeobox protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15955</Hit_accession>
+  <Hit_len>73</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.74791e-32</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GRKKRVPYTKIQLKELEKEYAASKFITKDRRRRISATTSLSERQVTIWFQNRRVKEKKFVCKSSKSS</Hsp_hseq>
+      <Hsp_midline>GRKKRVPYTK+QLKELE+EYA +KFITKD+RRRISATT+LSERQVTIWFQNRRVKEKK + K   +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AAY67938.1|</Hit_id>
+  <Hit_def>homeobox c13a, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAY67938</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.80276e-31</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>321</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>ADKYMDTAGPA-AEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSYRR</Hsp_qseq>
+      <Hsp_hseq>AEKYAETSSALPTEELSSRAKEFAFY-PSFASS----YQAVPGYLDMSVVPSISAHPEPRHDAL-IPMEGYQHWALSNGWDGQVYCSKEQTQSSHLWKSPFPDVVPLQPEVSSYRR</Hsp_hseq>
+      <Hsp_midline>A+KY +T+     EE SSRAKEFAFY   +A+     +Q +PGYLDM VVP +    E RH+ L +PME YQ WAL NGW+GQ+YC KEQ Q  HLWKS  PDVV    + SSYRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|AAY67923.1|</Hit_id>
+  <Hit_def>homeobox b13a, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAY67923</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>2.57822e-29</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>319</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AAEEFSSRAKEFAFYHQGYAAGPYHHHQPMPGYLDMPVVPGLGGPGESRHEPLGLPMESYQPWALPNGWNGQMYCPKEQAQPPHLWKSTLPDVVSHPSDASSY</Hsp_qseq>
+      <Hsp_hseq>TSEEYPTRAKEFAFYHS--YPSPY---QSMASYLDVSVVQTLG-TGEPRHDSL-LPMDSYQPWALANGWGSQMYCSKDQGQAGHLWKSALADVVAHQHDGGSF</Hsp_hseq>
+      <Hsp_midline> +EE+ +RAKEFAFYH      PY   Q M  YLD+ VV  LG  GE RH+ L LPM+SYQPWAL NGW  QMYC K+Q Q  HLWKS L DVV+H  D  S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_009298848.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-C11a [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009298848</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>2.12166e-19</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RMRKKRCPYTKFQIRELEREFFFNVYINKEKRLQLSRILNLTDRQVKIWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>R RKKR PYTK Q++ELERE+  N +I K+KR ++S   NL++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|NP_571240.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-C11a [Danio rerio] &gt;sp|Q58EL0.1| RecName: Full=Homeobox protein Hox-C11a [Danio rerio] &gt;gb|AAH91858.1| Homeo box C11a [Danio rerio] &gt;gb|AAI64748.1| Hoxc11a protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571240</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>4.22516e-19</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RTRKKRCPYSKFQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>R RKKR PY+K Q++ELERE+  N +I K+KR ++S   NL++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|AAD15951.1|</Hit_id>
+  <Hit_def>homeobox protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15951</Hit_accession>
+  <Hit_len>72</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>4.49285e-19</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RKKRCPYSKFQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>RKKR PY+K Q++ELERE+  N +I K+KR ++S   NL++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>emb|CAA68960.1|</Hit_id>
+  <Hit_def>HOXA-11, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAA68960</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>7.41917e-19</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKM</Hsp_hseq>
+      <Hsp_midline>RKKR PYTK Q++ELERE+  + +I K+KR ++S   NL++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|NP_571620.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-C12b [Danio rerio] &gt;sp|Q9YGT0.1| RecName: Full=Homeobox protein Hox-C12b [Danio rerio] &gt;gb|AAD15953.1| homeobox protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571620</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>9.24921e-19</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>381</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>YRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVI</Hsp_qseq>
+      <Hsp_hseq>HRQTRKKRKPYSKLQLNELEGEFILNEFITRQRRRELSDRLNLTDQQVKIWFQNRRMKKKRLL</Hsp_hseq>
+      <Hsp_midline>+R+ RKKR PY+K+QL ELE E+  N+FIT+ +RR +S   NL+++QV IWFQNRR+K+K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|AAD15952.1|</Hit_id>
+  <Hit_def>homeobox protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15952</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>9.97998e-19</Hsp_evalue>
+      <Hsp_query-from>324</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>KKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>KKRCPYTKFQIRELEREFFFNVYINKEKRLQLSRILNLTDRQVKIWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>KKR PYTK Q++ELERE+  N +I K+KR ++S   NL++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|NP_001428668.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A11a [Danio rerio] &gt;gb|AAI63694.1| Hoxa11a protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001428668</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.80132e-18</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RFRKKRCPYTKFQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>R RKKR PYTK Q++ELERE+  + +I K+KR ++S   NL++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|AAD15943.1|</Hit_id>
+  <Hit_def>homeobox protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15943</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.92875e-18</Hsp_evalue>
+      <Hsp_query-from>318</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>SYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>SAKAGRKKRCPYSKHQILELEKEFLFNMYLTRERRLEISRSINLTDRQVKIWFQNRRMKLKKMTREHRT</Hsp_hseq>
+      <Hsp_midline>S + GRKKR PY+K Q+ ELE+E+  N ++T+++R  IS + NL++RQV IWFQNRR+K KK+  + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|NP_001104229.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-C12a [Danio rerio] &gt;ref|XP_056305638.1| homeobox protein Hox-C12a [Danio aesculapii] &gt;gb|AAI62849.1| Homeo box C12a [Danio rerio] &gt;gb|AAI62872.1| Homeo box C12a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001104229</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.99496e-18</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>381</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVI</Hsp_qseq>
+      <Hsp_hseq>RTRKKRKPYSKLQLAELEGEFMLNEFITRQRRRELSDRLNLSDQQVKIWFQNRRMKKKRLL</Hsp_hseq>
+      <Hsp_midline>R RKKR PY+K+QL ELE E+  N+FIT+ +RR +S   NLS++QV IWFQNRR+K+K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|NP_571222.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A11b [Danio rerio] &gt;sp|Q9DDU1.1| RecName: Full=Homeobox protein Hox-A11b; Short=Hox-A11 [Danio rerio] &gt;gb|AAG39068.1| Hoxa-11b [Danio rerio] &gt;gb|AAI62917.1| Homeo box A11b [Danio rerio] &gt;gb|AAI62927.1| Homeo box A11b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571222</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>4.54875e-18</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>SGSSNGQKTRKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>S +S+ ++ RKKR PYTK Q++ELERE+  + +I K+KR ++S   NL++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|AAY67936.1|</Hit_id>
+  <Hit_def>homeobox c11a, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAY67936</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>5.50059e-18</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKE</Hsp_qseq>
+      <Hsp_hseq>RTRKKRCPYSKFQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKE</Hsp_hseq>
+      <Hsp_midline>R RKKR PY+K Q++ELERE+  N +I K+KR ++S   NL++RQV IWFQNRR+KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|Q9DDU0.1|</Hit_id>
+  <Hit_def>RecName: Full=Homeobox protein Hox-A11a [Danio rerio] &gt;gb|AAG39069.1| Hoxa-11a [Danio rerio]</Hit_def>
+  <Hit_accession>Q9DDU0</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>5.54893e-18</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RFRKKRCPYTKFQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKMWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>R RKKR PYTK Q++ELERE+  + +I K+KR ++S   NL++RQV +WFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|AAD15934.1|</Hit_id>
+  <Hit_def>homeobox protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15934</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>7.70767e-18</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RFRKKRCPYTKFQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKMWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>R RKKR PYTK Q++ELERE+  + +I K+KR ++S   NL++RQV +WFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|AAB38637.1|</Hit_id>
+  <Hit_def>Hoxd10, partial [Devario devario] &gt;gb|AAB38640.1| Hoxd10, partial [Devario malabaricus] &gt;gb|AAB38642.1| Hoxd10, partial [Devario pathirana] &gt;gb|AAB38643.1| Hoxd10, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAB38643</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.40663e-17</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>KSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEITKSVNLTDRQVKIWFQNRRMKLKKM</Hsp_hseq>
+      <Hsp_midline>+ GRKKR PYTK Q  ELE+E+  N ++T+++R  I+ + NL++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AAB38638.1|</Hit_id>
+  <Hit_def>Hoxd10, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAB38638</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.40663e-17</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>KSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEITKSVNLTDRQVKIWFQNRRMKLKKM</Hsp_hseq>
+      <Hsp_midline>+ GRKKR PYTK Q  ELE+E+  N ++T+++R  I+ + NL++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_073794044.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-C10a isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073794044</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>1.67078e-17</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>KSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSINLTDRQVKIWFQNRRMKLKKL</Hsp_hseq>
+      <Hsp_midline>+ GRKKR PYTK Q  ELE+E+  N ++T+++R  IS + NL++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|NP_571242.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-D11a [Danio rerio] &gt;sp|Q90470.2| RecName: Full=Homeobox protein Hox-D11a; Short=Hox-D11; AltName: Full=Homeobox protein Hox-C11 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571242</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>1.80452e-17</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>SSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>SSATKSRKKRCPYSKYQIRELEREFFFNVYINKEKRLQLSRMLSLTDRQVKIWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>SS  + RKKR PY+K Q++ELERE+  N +I K+KR ++S   +L++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>emb|CAA61030.1|</Hit_id>
+  <Hit_def>HoxD11 [Danio rerio]</Hit_def>
+  <Hit_accession>CAA61030</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>1.81177e-17</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>SSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>SSATKSRKKRCPYSKYQIRELEREFFFNVYINKEKRLQLSRMLSLTDRQVKIWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>SS  + RKKR PY+K Q++ELERE+  N +I K+KR ++S   +L++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_005172570.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-D12a isoform X1 [Danio rerio] &gt;sp|Q90471.2| RecName: Full=Homeobox protein Hox-D12a; Short=Hox-D12 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005172570</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>2.16539e-17</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>RSRKKRKPYTKPQLTELENEFMMNEFINRQKRKELSDRLELSDQQVKIWFQNRRMKKKRLMMREHT</Hsp_hseq>
+      <Hsp_midline>R RKKR PYTK QL ELE E+  N+FI + KR+ +S    LS++QV IWFQNRR+K+K+++ +  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|NP_001119958.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-D12a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001119958</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>2.30978e-17</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>RSRKKRKPYTKPQLTELENEFMMNEFINRQKRKELSDRLELSDQQVKIWFQNRRMKKKRLMMREHT</Hsp_hseq>
+      <Hsp_midline>R RKKR PYTK QL ELE E+  N+FI + KR+ +S    LS++QV IWFQNRR+K+K+++ +  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|AAI14272.1|</Hit_id>
+  <Hit_def>Hoxd11a protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAI14272</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>2.86631e-17</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>231</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>SSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>SSATKSRKKRCPYSKYQIRELEREFFFNVYINKEKRLQLSRMLSLTDRQVKIWFQNRRMKEKKL</Hsp_hseq>
+      <Hsp_midline>SS  + RKKR PY+K Q++ELERE+  N +I K+KR ++S   +L++RQV IWFQNRR+KEKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>emb|CAA61032.1|</Hit_id>
+  <Hit_def>HoxD12 [Danio rerio]</Hit_def>
+  <Hit_accession>CAA61032</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.90977e-17</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>RGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>RSRKKRKPYTKPQLTELENEFMMNEFINRQKRKELSDRLELSDQQVKIWFQNRRMKKKRLMMREHT</Hsp_hseq>
+      <Hsp_midline>R RKKR PYTK QL ELE E+  N+FI + KR+ +S    LS++QV IWFQNRR+K+K+++ +  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|NP_571196.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-B9a [Danio rerio] &gt;sp|Q9PWM2.2| RecName: Full=Homeobox protein Hox-B9a; Short=Hox-B9 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571196</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>4.3251e-17</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RSSRKKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARLLNLTERQVKIWFQNRRMKMKKM</Hsp_hseq>
+      <Hsp_midline>R  RKKR PYTK Q  ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|AAH96950.1|</Hit_id>
+  <Hit_def>Hoxb9a protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH96950</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>4.45311e-17</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RSSRKKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARLLNLTERQVKIWFQNRRMKMKKM</Hsp_hseq>
+      <Hsp_midline>R  RKKR PYTK Q  ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|AAH56695.1|</Hit_id>
+  <Hit_def>Homeo box D9a [Danio rerio]</Hit_def>
+  <Hit_accession>AAH56695</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.82073e-17</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RSTRKKRCPYTKYQTLELEKEFLYNMYLTRDRRYEVARILNLTERQVKIWFQNRRMKMKKM</Hsp_hseq>
+      <Hsp_midline>R  RKKR PYTK Q  ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|AAD15949.1|</Hit_id>
+  <Hit_def>homeobox protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15949</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.02494e-17</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RSSRKKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARLLNLTERQVKIWFQNRRMKMKKM</Hsp_hseq>
+      <Hsp_midline>R  RKKR PYTK Q  ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|NP_571201.3|</Hit_id>
+  <Hit_def>homeobox protein Hox-D9a [Danio rerio] &gt;sp|Q9PWM6.2| RecName: Full=Homeobox protein Hox-D9a; Short=Hox-D9 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571201</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.47475e-17</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RSTRKKRCPYTKYQTLELEKEFLYNMYLTRDRRYEVARILNLTERQVKIWFQNRRMKMKKM</Hsp_hseq>
+      <Hsp_midline>R  RKKR PYTK Q  ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|AAD15961.1|</Hit_id>
+  <Hit_def>homeobox protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15961</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.73033e-17</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>RSTRKKRCPYTKYQTLELEKEFLYNMYLTRDRRYEVARILNLTERQVKIWFQNRRMKMKKM</Hsp_hseq>
+      <Hsp_midline>R  RKKR PYTK Q  ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>sp|Q9PWL7.2|</Hit_id>
+  <Hit_def>RecName: Full=Homeobox protein Hox-B10a; Short=Hox-B10 [Danio rerio] &gt;gb|AAI63689.1| Homeo box B10a [Danio rerio]</Hit_def>
+  <Hit_accession>Q9PWL7</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>7.14151e-17</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYSKHQILELEKEFLFNMYLTRERRLEISRSINLTDRQVKIWFQNRRMKLKKMTREHRT</Hsp_hseq>
+      <Hsp_midline>GRKKR PY+K Q+ ELE+E+  N ++T+++R  IS + NL++RQV IWFQNRR+K KK+  + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|NP_571616.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-B10a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571616</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>7.21062e-17</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYSKHQILELEKEFLFNMYLTRERRLEISRSINLTDRQVKIWFQNRRMKLKKMTREHRT</Hsp_hseq>
+      <Hsp_midline>GRKKR PY+K Q+ ELE+E+  N ++T+++R  IS + NL++RQV IWFQNRR+K KK+  + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|NP_571607.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-A9a [Danio rerio] &gt;ref|XP_073787186.1| homeobox protein Hox-A9a isoform X1 [Danio rerio] &gt;sp|Q9PWL6.2| RecName: Full=Homeobox protein Hox-A9a; Short=Hoxx9 [Danio rerio] &gt;gb|AAH90700.1| Homeo box A9a [Danio rerio] &gt;gb|AAI65442.1| Hoxa9a protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571607</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>8.3484e-17</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>RKKRCPYTKHQILELEKEFLFNTYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMKK-FNKNET</Hsp_hseq>
+      <Hsp_midline>RKKR PYTK Q+ ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+K KK  NK +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gb|AAD15941.1|</Hit_id>
+  <Hit_def>homeobox protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15941</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>9.19901e-17</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>RKKRCPYTKHQILELEKEFLFNTYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMKK-FNKNET</Hsp_hseq>
+      <Hsp_midline>RKKR PYTK Q+ ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+K KK  NK +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gb|AAI55299.1|</Hit_id>
+  <Hit_def>Hoxb10a protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI55299</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>9.5799e-17</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYSKHQILELEKEFLFNMYLTRERRLEISRSINLTDRQVKIWFQNRRMKLKKMTREHRT</Hsp_hseq>
+      <Hsp_midline>GRKKR PY+K Q+ ELE+E+  N ++T+++R  IS + NL++RQV IWFQNRR+K KK+  + +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|NP_571241.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-D10a [Danio rerio] &gt;sp|Q90469.4| RecName: Full=Homeobox protein Hox-D10a; Short=Hox-D10; AltName: Full=Homeobox protein Hox-C10 [Danio rerio] &gt;gb|AAH71329.1| Hoxd10a protein [Danio rerio] &gt;gb|AAI53659.1| Hoxd10a protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571241</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.14299e-16</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVNLTDRQVKIWFQNRRMKLKKM</Hsp_hseq>
+      <Hsp_midline>GRKKR PYTK Q  ELE+E+  N ++T+++R  IS + NL++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|NP_001241873.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-C10a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001241873</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.20481e-16</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSINLTDRQVKIWFQNRRMKLKKL</Hsp_hseq>
+      <Hsp_midline>GRKKR PYTK Q  ELE+E+  N ++T+++R  IS + NL++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|XP_017208987.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-C10a isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017208987</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.28362e-16</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSINLTDRQVKIWFQNRRMKLKKL</Hsp_hseq>
+      <Hsp_midline>GRKKR PYTK Q  ELE+E+  N ++T+++R  IS + NL++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|NP_001020683.1|</Hit_id>
+  <Hit_def>GS homeobox 2 [Danio rerio] &gt;gb|AAI15064.1| GS homeobox 2 [Danio rerio] &gt;gb|AAI64330.1| Gsx2 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001020683</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>3.01361e-16</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>SDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>SDNSHIQNGKRMRTAFTSTQLLELEREFSSNMYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKHKK</Hsp_hseq>
+      <Hsp_midline>SD S  + G++ R  +T  QL ELERE+++N ++++ +R  I+   NLSE+QV IWFQNRRVK KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>emb|CAN88050.1|</Hit_id>
+  <Hit_def>GS homeobox 2 [Danio rerio]</Hit_def>
+  <Hit_accession>CAN88050</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>3.01361e-16</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>SDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>SDNSHIQNGKRMRTAFTSTQLLELEREFSSNMYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKHKK</Hsp_hseq>
+      <Hsp_midline>SD S  + G++ R  +T  QL ELERE+++N ++++ +R  I+   NLSE+QV IWFQNRRVK KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gb|AAD15950.1|</Hit_id>
+  <Hit_def>homeobox protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15950</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>9.8174e-16</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>KSGRKKXCPNTKHQTLELEKEFLFNMYLTRERRLEISKSINLTDRQVKIWFQNRRMKLKKL</Hsp_hseq>
+      <Hsp_midline>+ GRKK  P TK Q  ELE+E+  N ++T+++R  IS + NL++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>sp|Q8AWY2.1|</Hit_id>
+  <Hit_def>RecName: Full=Homeobox protein Hox-A10b; Short=Hox-A10 [Danio rerio] &gt;gb|AAI62345.1| Homeo box A10b [Danio rerio] &gt;emb|CAD59110.1| homeo box protein A10b [Danio rerio]</Hit_def>
+  <Hit_accession>Q8AWY2</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.05033e-15</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISRSVHLTDRQVKIWFQNRRMKLKKM</Hsp_hseq>
+      <Hsp_midline>GRKKR PYTK Q  ELE+E+  N ++T+++R  IS + +L++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|NP_571230.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-A10b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571230</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.2467e-15</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISRSVHLTDRQVKIWFQNRRMKLKKM</Hsp_hseq>
+      <Hsp_midline>GRKKR PYTK Q  ELE+E+  N ++T+++R  IS + +L++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|XP_005158011.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A10b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005158011</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.27146e-15</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISRSVHLTDRQVKIWFQNRRMKLKKM</Hsp_hseq>
+      <Hsp_midline>GRKKR PYTK Q  ELE+E+  N ++T+++R  IS + +L++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>emb|CAA61029.1|</Hit_id>
+  <Hit_def>HoxD10 [Danio rerio]</Hit_def>
+  <Hit_accession>CAA61029</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.27456e-15</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>GRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVSLTDRQVKIWFQNRRMKLKKM</Hsp_hseq>
+      <Hsp_midline>GRKKR PYTK Q  ELE+E+  N ++T+++R  IS + +L++RQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gb|AAH83312.1|</Hit_id>
+  <Hit_def>Hoxb9a protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAH83312</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.79727e-15</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRV</Hsp_qseq>
+      <Hsp_hseq>RSSRKKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARLLNLTERQVKIWFQNRRM</Hsp_hseq>
+      <Hsp_midline>R  RKKR PYTK Q  ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>sp|Q9YGT5.3|</Hit_id>
+  <Hit_def>RecName: Full=Homeobox protein Hox-A9b [Danio rerio] &gt;gb|AAH95300.1| Hoxa9b protein [Danio rerio]</Hit_def>
+  <Hit_accession>Q9YGT5</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>2.12049e-15</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>RKKRCPYTKHQTLELEKEFLFNMYLSRDRRYEVARLLNLTERQVKIWFQNRRMKMKK</Hsp_hseq>
+      <Hsp_midline>RKKR PYTK Q  ELE+E+  N ++++D+R  ++   NL+ERQV IWFQNRR+K KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|NP_571608.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A9b [Danio rerio] &gt;gb|AAD15942.1| homeobox protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571608</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>2.1987e-15</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>RKKRCPYTKHQTLELEKEFLFNMYLSRDRRYEVARLLNLTERQVKIWFQNRRMKMKK</Hsp_hseq>
+      <Hsp_midline>RKKR PYTK Q  ELE+E+  N ++++D+R  ++   NL+ERQV IWFQNRR+K KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|XP_005158025.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A9b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005158025</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>2.20362e-15</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>RKKRCPYTKHQTLELEKEFLFNMYLSRDRRYEVARLLNLTERQVKIWFQNRRMKMKK</Hsp_hseq>
+      <Hsp_midline>RKKR PYTK Q  ELE+E+  N ++++D+R  ++   NL+ERQV IWFQNRR+K KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|AAQ91242.1|</Hit_id>
+  <Hit_def>homeo box B9 [Danio rerio]</Hit_def>
+  <Hit_accession>AAQ91242</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>3.1469e-15</Hsp_evalue>
+      <Hsp_query-from>324</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>KKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>EKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARLLNLTERQVKIWFQNRRMKMKKM</Hsp_hseq>
+      <Hsp_midline>+KR PYTK Q  ELE+E+  N ++T+D+R  ++   NL+ERQV IWFQNRR+K KK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>emb|CAD59109.1|</Hit_id>
+  <Hit_def>homeo box protein A9b, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAD59109</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>1.13344e-14</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVK</Hsp_qseq>
+      <Hsp_hseq>RKKRCPYTKHQTLELEKEFLFNMYLSRDRRYEVARLLNLTERQVKIWFQNRRMK</Hsp_hseq>
+      <Hsp_midline>RKKR PYTK Q  ELE+E+  N ++++D+R  ++   NL+ERQV IWFQNRR+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|NP_001012251.1|</Hit_id>
+  <Hit_def>GS homeobox 1 [Danio rerio] &gt;gb|AAS55432.1| genetic screen homeobox 1 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001012251</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>1.27926e-14</Hsp_evalue>
+      <Hsp_query-from>309</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>VVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>CISIENSSSQLQSSKRMRTAFTSTQLLELEREFTSNMYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKHKK</Hsp_hseq>
+      <Hsp_midline> +S  + +S  +  ++ R  +T  QL ELERE+ +N ++++ +R  I+   NLSE+QV IWFQNRRVK KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>emb|CAA30294.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAA30294</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>1.76505e-14</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GKRARTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKK-DNKLKSMS</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+    LSERQ+ IWFQNRR+K KK  NKLK+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|NP_001002450.2|</Hit_id>
+  <Hit_def>homeobox protein MOX-1 [Danio rerio] &gt;sp|F1Q4R9.1| RecName: Full=Homeobox protein MOX-1; AltName: Full=Mesenchyme homeobox 1; AltName: Full=Protein choker [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001002450</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>2.17705e-14</Hsp_evalue>
+      <Hsp_query-from>303</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>KSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>KREVTDIQDSSFKADSNCKARKERTAFTKEQLRELEAEFTHHNYLTRLRRYEIAVNLDLTERQVKVWFQNRRMKWKRV</Hsp_hseq>
+      <Hsp_midline>K  + D+      A S  + RK+R  +TK QL+ELE E+  + ++T+ +R  I+   +L+ERQV +WFQNRR+K K+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gb|AAH76021.1|</Hit_id>
+  <Hit_def>Mesenchyme homeobox 1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAH76021</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>2.53225e-14</Hsp_evalue>
+      <Hsp_query-from>303</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>KSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>KREVTDIQDSSFKADSNCKARKERTAFTKEQLRELEAEFTHHNYLTRLRRYEIAVNLDLTERQVKVWFQNRRMKWKRV</Hsp_hseq>
+      <Hsp_midline>K  + D+      A S  + RK+R  +TK QL+ELE E+  + ++T+ +R  I+   +L+ERQV +WFQNRR+K K+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gb|AAH91958.1|</Hit_id>
+  <Hit_def>Gsh1 protein [Danio rerio] &gt;gb|AAI65050.1| Gsx1 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH91958</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>3.05497e-14</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>VSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>ISIENSSSQLQSSKRMRTAFTSTQLLELEREFTSNMYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKHKK</Hsp_hseq>
+      <Hsp_midline>+S  + +S  +  ++ R  +T  QL ELERE+ +N ++++ +R  I+   NLSE+QV IWFQNRRVK KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|NP_571615.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A5a [Danio rerio] &gt;gb|AAD15940.1| homeobox protein [Danio rerio] &gt;gb|AAI62975.1| Homeo box A5a [Danio rerio] &gt;gb|AAI62990.1| Homeo box A5a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571615</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>3.77141e-14</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>GKRPRTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHTLCLSERQIKIWFQNRRMKWKK-DNKLKS</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+ T  LSERQ+ IWFQNRR+K KK  NKLK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|XP_073787191.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A5a isoform X1 [Danio rerio] &gt;sp|Q9YGT6.2| RecName: Full=Homeobox protein Hox-A5a [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073787191</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.83239e-14</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKT</Hsp_qseq>
+      <Hsp_hseq>GKRPRTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHTLCLSERQIKIWFQNRRMKWKK-DNKLKS</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+ T  LSERQ+ IWFQNRR+K KK  NKLK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|NP_001038589.1|</Hit_id>
+  <Hit_def>homeobox protein MOX-2b [Danio rerio] &gt;emb|CAK04930.1| novel protein similar to vertebrate mesenchyme homeo box 2 (growth arrest-specific homeo box) (MEOX2) [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001038589</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>4.89734e-14</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>SDVSS--KPRKERTAFTKEQIRELESEFAHHNYLTRLRRYEIAVNLDLTERQVKVWFQNRRMKWKRV</Hsp_hseq>
+      <Hsp_midline>SD SS  + RK+R  +TK Q++ELE E+A + ++T+ +R  I+   +L+ERQV +WFQNRR+K K+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gb|AFJ72420.1|</Hit_id>
+  <Hit_def>homeobox B5, partial [Miniopterus schreibersii] &gt;gb|AFJ72422.1| homeobox B5, partial [Rhinolophus macrotis] &gt;gb|AFJ72423.1| homeobox B5, partial [Hipposideros armiger] &gt;gb|AFJ72427.1| homeobox B5, partial [Taphozous melanopogon] &gt;gb|AFJ72428.1| homeobox B5, partial [Rhinolophus marshalli] &gt;gb|AFJ72429.1| homeobox B5, partial [Cynopterus sphinx] &gt;gb|AFJ72430.1| homeobox B5, partial [Mops plicatus] &gt;gb|AFJ72432.1| homeobox B5, partial [Rhinolophus pusillus] &gt;gb|AFJ72434.1| homeobox B5, partial [Rousettus leschenaultii] &gt;emb|CAA30293.1| unnamed protein product [Danio rerio]</Hit_def>
+  <Hit_accession>CAA30293</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>5.14726e-14</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GKRARTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKK-DNKLKSMS</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+    LSERQ+ IWFQNRR+K KK  NKLK+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>sp|P09074.2|</Hit_id>
+  <Hit_def>RecName: Full=Homeobox protein Hox-C5a; Short=Hox-C5; AltName: Full=Homeobox protein Hox-3.4; AltName: Full=Homeobox protein Zf-25 [Danio rerio] &gt;emb|CAA48399.1| homeobox-3.4 protein [Danio rerio]</Hit_def>
+  <Hit_accession>P09074</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>5.50494e-14</Hsp_evalue>
+      <Hsp_query-from>286</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>NGQMYCPKEQAQPPHLWKSTLPDV--------VSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNL--SERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>NGDYFSDKQQTNSTQRQNQSQPQIYPWMTKLHMSHESD------GKRSRTSYTRYQTLELEKEFHFNRYLTR--RRRIEIANNLCLNERQIKIWFQNRRMKWKK</Hsp_hseq>
+      <Hsp_midline>NG  +  K+Q         + P +        +SH SD      G++ R  YT+ Q  ELE+E+  N+++T+  RRRI    NL  +ERQ+ IWFQNRR+K KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|XP_073787071.1|</Hit_id>
+  <Hit_def>homeobox protein MOX-2b isoform X1 [Danio rerio] &gt;ref|XP_073787072.1| homeobox protein MOX-2b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073787071</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>8.77623e-14</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>SDVSS--KPRKERTAFTKEQIRELESEFAHHNYLTRLRRYEIAVNLDLTERQVKVWFQNRRMKWKRV</Hsp_hseq>
+      <Hsp_midline>SD SS  + RK+R  +TK Q++ELE E+A + ++T+ +R  I+   +L+ERQV +WFQNRR+K K+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|NP_571184.2|</Hit_id>
+  <Hit_def>homeobox protein CDX-4 [Danio rerio] &gt;gb|AAI54242.1| Cdx4 protein [Danio rerio] &gt;gb|AAI60643.1| Cdx4 protein [Danio rerio] &gt;emb|CAQ13437.1| caudal type homeo box transcription factor 4 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571184</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>9.23946e-14</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINK</Hsp_qseq>
+      <Hsp_hseq>RTKEKYRVVYTDHQRLELEKEFHFNRYITIRRKSELAVNLGLSERQVKIWFQNRRAKERKLIKK</Hsp_hseq>
+      <Hsp_midline>R   K RV YT  Q  ELE+E+  N++IT  ++  ++    LSERQV IWFQNRR KE+K+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|AAH76488.1|</Hit_id>
+  <Hit_def>Cdx4 protein [Danio rerio] &gt;gb|AAI64427.1| Cdx4 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH76488</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>9.56117e-14</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINK</Hsp_qseq>
+      <Hsp_hseq>RTKEKYRVVYTDHQRLELEKEFHFNRYITIRRKSELAVNLGLSERQVKIWFQNRRAKERKLIKK</Hsp_hseq>
+      <Hsp_midline>R   K RV YT  Q  ELE+E+  N++IT  ++  ++    LSERQV IWFQNRR KE+K+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|XP_017206696.1|</Hit_id>
+  <Hit_def>homeobox protein MOX-2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017206696</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.11606e-13</Hsp_evalue>
+      <Hsp_query-from>311</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>SHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKV</Hsp_qseq>
+      <Hsp_hseq>NYKSDVSS--KPRKERTAFTKEQIRELEAEFAHHNYLTRLRRYEIAVNLDLTERQVKVWFQNRRMKWKRV</Hsp_hseq>
+      <Hsp_midline>++ SD SS  + RK+R  +TK Q++ELE E+A + ++T+ +R  I+   +L+ERQV +WFQNRR+K K+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|NP_571176.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-B5a [Danio rerio] &gt;sp|P09014.2| RecName: Full=Homeobox protein Hox-B5a; Short=Hox-B5; AltName: Full=Homeobox protein Zf-21 [Danio rerio] &gt;gb|AAH71493.1| Homeo box B5a [Danio rerio] &gt;emb|CAD59114.1| SI:dZ254O17.4 (homeo box protein B5a) [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571176</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.83216e-13</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GKRARTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKKD-NKLKSMS</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+    LSERQ+ IWFQNRR+K KK  NKLK+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|NP_998001.2|</Hit_id>
+  <Hit_def>homeobox protein CDX-1a [Danio rerio] &gt;gb|AAI15218.1| Cdx1a protein [Danio rerio] &gt;dbj|BAC54033.2| homeodomain protein Cdx1a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_998001</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.17525e-13</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINK</Hsp_qseq>
+      <Hsp_hseq>RTKDKYRVVYSDVQRLELEKEFHFSRYITIRRKAELAGTLNLSERQVKIWFQNRRAKERKMNKK</Hsp_hseq>
+      <Hsp_midline>R   K RV Y+ VQ  ELE+E+  +++IT  ++  ++ T NLSERQV IWFQNRR KE+K+  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>emb|CAA31290.1|</Hit_id>
+  <Hit_def>ZF-21 gene product [Danio rerio] &gt;emb|CAA48320.1| homeodomain protein [Danio rerio]</Hit_def>
+  <Hit_accession>CAA31290</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.19181e-13</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GKRARTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKKD-NKLKSMS</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+    LSERQ+ IWFQNRR+K KK  NKLK+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|AAA56866.1|</Hit_id>
+  <Hit_def>developmental protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAA56866</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.49966e-13</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>VSHPSDASSYRRG--RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>LSIPTVSPNYSGGEPKRSRTAYTRQQVLELEKEFHYNRYLTRRRRVEIAHTLCLSERQIKIWFQNRRMKWKK</Hsp_hseq>
+      <Hsp_midline>+S P+ + +Y  G  ++ R  YT+ Q+ ELE+E+  N+++T+ +R  I+ T  LSERQ+ IWFQNRR+K KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>emb|CAA47380.1|</Hit_id>
+  <Hit_def>Zf-cad1 protein [Danio rerio]</Hit_def>
+  <Hit_accession>CAA47380</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>3.06311e-13</Hsp_evalue>
+      <Hsp_query-from>320</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINK</Hsp_qseq>
+      <Hsp_hseq>RTKEKYRVVYTDHQRLELEKEFHFNRYITIRRKSELAVNLGLSERQVKIWFQNRRAKERKLIKK</Hsp_hseq>
+      <Hsp_midline>R   K RV YT  Q  ELE+E+  N++IT  ++  ++    LSERQV IWFQNRR KE+K+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>emb|CAA31291.1|</Hit_id>
+  <Hit_def>unnamed protein product [Danio rerio]</Hit_def>
+  <Hit_accession>CAA31291</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>3.88328e-13</Hsp_evalue>
+      <Hsp_query-from>324</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>RARTAYTRYQALELEKEFHFNRYLTRRRRIEIRHALCLSERQIKIWFQNRRMKWKK-DNKLKSMS</Hsp_hseq>
+      <Hsp_midline>+ R  YT+ Q  ELE+E+  N+++T+ +R  I     LSERQ+ IWFQNRR+K KK  NKLK+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|NP_571191.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-B2a [Danio rerio] &gt;sp|O42367.2| RecName: Full=Homeobox protein Hox-B2a; Short=Hox-B2 [Danio rerio] &gt;gb|AAD03832.1| homeobox transcription factor [Danio rerio] &gt;gb|AAH65967.1| Homeo box B2a [Danio rerio] &gt;emb|CAD59117.1| SI:dZ254O17.7 (homeo box protein B2a) [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571191</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>4.492e-13</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>RRLRTAYTNTQLLELEKEFHFNKYLCRPRRVEIAALLDLTERQVKVWFQNRRMKHKR</Hsp_hseq>
+      <Hsp_midline>R+ R  YT  QL ELE+E+  NK++ + +R  I+A  +L+ERQV +WFQNRR+K K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>sp|P09013.2|</Hit_id>
+  <Hit_def>RecName: Full=Homeobox protein Hox-B5b; AltName: Full=Homeobox protein Zf-54; AltName: Full=Hox-B5-like [Danio rerio] &gt;emb|CAD44458.1| homeo box protein B5b [Danio rerio]</Hit_def>
+  <Hit_accession>P09013</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>4.53702e-13</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GKRARTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKKD-NKLKSMS</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+    LSERQ+ IWFQNRR+K KK  NKLK+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|NP_571219.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-C5a [Danio rerio] &gt;gb|AAI63205.1| Hoxc5a protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571219</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>4.71816e-13</Hsp_evalue>
+      <Hsp_query-from>293</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>KEQAQPPHL-WKSTLPDVVSHPSDASSYRRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNL--SERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>QNQSQPQIYPWMTKLH--MSHESD------GKRSRTSYTRYQTLELEKEFHFNRYLTR--RRRIEIANNLCLNERQIKIWFQNRRMKWKK</Hsp_hseq>
+      <Hsp_midline>+ Q+QP    W + L   +SH SD      G++ R  YT+ Q  ELE+E+  N+++T+  RRRI    NL  +ERQ+ IWFQNRR+K KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gb|AAD15946.1|</Hit_id>
+  <Hit_def>homeobox protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAD15946</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>4.93793e-13</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GKRARTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKK-DNKLKSMS</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+    LSERQ+ IWFQNRR+K KK  NKLK+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gb|AAA50029.1|</Hit_id>
+  <Hit_def>homeo-box region peptide, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAA50029</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.09815e-13</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>GKRSRTSYTRYQTLELEKEFHFNRYLTRRRRIEIANNLCLNERQIKIWFQNRRMKWKK</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+    L+ERQ+ IWFQNRR+K KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|NP_571612.2|</Hit_id>
+  <Hit_def>homeobox protein Hox-B5b [Danio rerio] &gt;gb|AAH78285.1| Homeo box B5b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571612</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>5.27402e-13</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKKVINKLKTTS</Hsp_qseq>
+      <Hsp_hseq>GKRARTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKKD-NKLKSMS</Hsp_hseq>
+      <Hsp_midline>G++ R  YT+ Q  ELE+E+  N+++T+ +R  I+    LSERQ+ IWFQNRR+K KK  NKLK+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|XP_073780677.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A2b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073780677</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>5.2786e-13</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>RRLRTAYTNTQLLELEKEFHFNKYLCRPRRVEIAALLDLTERQVKVWFQNRRMKHKR</Hsp_hseq>
+      <Hsp_midline>R+ R  YT  QL ELE+E+  NK++ + +R  I+A  +L+ERQV +WFQNRR+K K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|NP_571181.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-A2b [Danio rerio] &gt;sp|O42365.2| RecName: Full=Homeobox protein Hox-A2b; Short=Hox-A2 [Danio rerio] &gt;gb|AAG30510.1| transcription factor Hoxa2 [Danio rerio] &gt;gb|AAI62328.1| Homeo box A2b [Danio rerio] &gt;emb|CAD59108.1| homeo box protein A2b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571181</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.02307e-13</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>RRLRTAYTNTQLLELEKEFHFNKYLCRPRRVEIAALLDLTERQVKVWFQNRRMKHKR</Hsp_hseq>
+      <Hsp_midline>R+ R  YT  QL ELE+E+  NK++ + +R  I+A  +L+ERQV +WFQNRR+K K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gb|AAI62323.1|</Hit_id>
+  <Hit_def>Homeo box A2b [Danio rerio]</Hit_def>
+  <Hit_accession>AAI62323</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.15294e-13</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>RRLRTAYTNTQLLELEKEFHFNKYLCRPRRVEIAALLDLTERQVKVWFQNRRMKHKR</Hsp_hseq>
+      <Hsp_midline>R+ R  YT  QL ELE+E+  NK++ + +R  I+A  +L+ERQV +WFQNRR+K K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|NP_571194.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-B6a [Danio rerio] &gt;sp|P15861.1| RecName: Full=Homeobox protein Hox-B6a; Short=Hox-B6; AltName: Full=Homeobox protein Zf-22 [Danio rerio] &gt;emb|CAA35171.1| Hox 2.2 [Danio rerio] &gt;emb|CAA48319.1| homeodomain protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571194</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>7.46289e-13</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRV---KEKKVINKLKTT</Hsp_qseq>
+      <Hsp_hseq>GRRGRQTYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLTERQIKIWFQNRRMKWKKENKLINCSQTS</Hsp_hseq>
+      <Hsp_midline>GR+ R  YT+ Q  ELE+E+  N+++T+ +R  I+    L+ERQ+ IWFQNRR+   KE K+IN  +T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|XP_056309368.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-B6a [Danio aesculapii] &gt;gb|AAI62839.1| Homeo box B6a [Danio rerio] &gt;gb|AAI62846.1| Homeo box B6a [Danio rerio] &gt;emb|CAD59113.1| SI:dZ254O17.3 (homeo box protein B6a) [Danio rerio]</Hit_def>
+  <Hit_accession>AAI62839</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>8.13208e-13</Hsp_evalue>
+      <Hsp_query-from>322</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRV---KEKKVINKLKTT</Hsp_qseq>
+      <Hsp_hseq>GRRGRQTYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLTERQIKIWFQNRRMKWKKENKLINCSQTS</Hsp_hseq>
+      <Hsp_midline>GR+ R  YT+ Q  ELE+E+  N+++T+ +R  I+    L+ERQ+ IWFQNRR+   KE K+IN  +T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|NP_571193.1|</Hit_id>
+  <Hit_def>homeobox protein Hox-B4a [Danio rerio] &gt;sp|P22574.3| RecName: Full=Homeobox protein Hox-B4a; Short=Hox-B4; AltName: Full=Homeobox protein Zf-13 [Danio rerio] &gt;gb|AAD15945.1| homeobox protein [Danio rerio] &gt;gb|AAI62840.1| Homeo box B4a [Danio rerio] &gt;gb|AAI62844.1| Homeo box B4a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571193</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>9.49897e-13</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK</Hsp_qseq>
+      <Hsp_hseq>KRSRTAYTRQQVLELEKEFHYNRYLTRRRRVEIAHTLCLSERQIKIWFQNRRMKWKK</Hsp_hseq>
+      <Hsp_midline>++ R  YT+ Q+ ELE+E+  N+++T+ +R  I+ T  LSERQ+ IWFQNRR+K KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,2842 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_380225</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000541.1 5,6-dihydroxyindole-2-carboxylic acid oxidase precursor [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>537</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_380225</Iteration_query-ID>
+  <Iteration_query-def>NP_000541.1 5,6-dihydroxyindole-2-carboxylic acid oxidase precursor [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>537</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_068078908.1|</Hit_id>
+  <Hit_def>5,6-dihydroxyindole-2-carboxylic acid oxidase isoform X1 [Danio rerio] &gt;ref|XP_073763887.1| 5,6-dihydroxyindole-2-carboxylic acid oxidase isoform X1 [Danio rerio] &gt;ref|XP_073763888.1| 5,6-dihydroxyindole-2-carboxylic acid oxidase isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068078908</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>750.74</Hsp_bit-score>
+      <Hsp_score>1937</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>537</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>524</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>352</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>515</Hsp_align-len>
+      <Hsp_qseq>RAQFPRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSFRNTVEGYSDPTGKYDPAVRSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFDEWLRRYNADISTFPLENAPIGHNRQYNMVPFWPPVTNTEMFVTAPDNLGYTYEIQWPSREFSVPEIIAIAVVGALLLVALIFGTASYLIRARRSMDEANQPLLTDQYQCYAEEYEKLQNPNQSVV</Hsp_qseq>
+      <Hsp_hseq>RTQFPRVCVTAEGLRSAQCCP--SP-NGLGDDPCGASLGRGQCVDVSADTRAHGPQYPYTGRDDRESWPRRFFTRACRCNGNYSGFDCGRCKHAHTGEECQQRVPVVRRNVLTLSAEQKRVFVSALDQAKRTTHPDIVIATRHYSEIFGPD-NSTQFQNISIYNLFVWTHYYSVSKTFLGDGEPSFSAVDFSHEGPGFLTWHRYHLLQLERDMQDMLRDPSFALPFWDFSTGGSECDICTDDLMGARSRFDSTAISSNSIFSSWRVICESVEDYDTLGTICNSTESSPIRRNPAGNVARPMVQRLPEAQDVAACLEIDAFDTPPFYSTSSDSFRNSIEGYSAPEGPYDPVVRSLHNLAHLFLNGTGGQTHLSPNDPIFLLLHTFTDAIFDEWLRRHTADVSSYPLENAPIGHNREFNMVPFWPPVRNAEMFVSAADSLGYSYEVQWPARALTLTQIITVTVVAALIIVAIVFAAATCVVRSRSFGTETRQPLLGDQYQRYDE-----QHKTQSVV</Hsp_hseq>
+      <Hsp_midline>R QFPR C T E LRS  CCP  SP +G G D CG+S GRG+C  V+AD+R H PQYP+ GRDDRE WP RFF R C CNGN+SG +CG C+    G  C QRV +VRRN+L LS E+K  FV ALD AKRTTHP  VIATR   EI GPD N+ QF+NISIYN FVWTHYYSV KTFLG G+ SF  VDFSHEGP FLTWHRYHLL+LE+DMQ+ML++PSF+LP+W+F+TG + CDICTDDLMG+RS FDST IS NS+FS WRV+C+S+EDYDTLGT+CNSTE  PIRRNPAGNVARPMVQRLPE QDVA CLE+  FDTPPFYS S++SFRN++EGYS P G YDP VRSLHNLAHLFLNGTGGQTHLSPNDPIF+LLHTFTDA+FDEWLRR+ AD+S++PLENAPIGHNR++NMVPFWPPV N EMFV+A D+LGY+YE+QWP+R  ++ +II + VV AL++VA++F  A+ ++R+R    E  QPLL DQYQ Y E     Q+  QSVV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAI55087.1|</Hit_id>
+  <Hit_def>Unknown (protein for IMAGE:7221334), partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAI55087</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>748.429</Hsp_bit-score>
+      <Hsp_score>1931</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>537</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>413</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>515</Hsp_align-len>
+      <Hsp_qseq>RAQFPRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSFRNTVEGYSDPTGKYDPAVRSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFDEWLRRYNADISTFPLENAPIGHNRQYNMVPFWPPVTNTEMFVTAPDNLGYTYEIQWPSREFSVPEIIAIAVVGALLLVALIFGTASYLIRARRSMDEANQPLLTDQYQCYAEEYEKLQNPNQSVV</Hsp_qseq>
+      <Hsp_hseq>RTQFPRVCVTAEGLRSAQCCP--SP-NGLGDDPCGASLGRGQCVDVSADTRAHGPQYPYTGRDDRESWPRRFFTRACRCNGNYSGFDCGRCKHAHTGEECQQRVPVVRRNVLTLSAEQKRVFVSALDQAKRTTHPDIVIATRHYSEIFGPD-NSTQFQNISIYNLFVWTHYYSVSKTFLGDGEPSFSAVDFSHEGPGFLTWHRYHLLQLERDMQDMLRDPSFALPFWDFSTGGSECDICTDDLMGARSRFDSTAISSNSIFSNWRVICESVEDYDTLGTICNSTESSPIRRNPAGNVARPMVQRLPEAQDVAACLEIDAFDTPPFYSTSSDSFRNSIEGYSAPEGPYDPVVRSLHNLAHLFLNGTGGQTHLSPNDPIFLLLHTFTDAIFDEWLRRHTADVSSYPLGNAPIGHNREFNMVPFWPPVRNAEMFVSAADSLGYSYEVQWPARALTLTQIITVTVVAALIIVAIVFAAATCVVRSRSFGTETRQPLLGDQYQRYDE-----QHKTQSVV</Hsp_hseq>
+      <Hsp_midline>R QFPR C T E LRS  CCP  SP +G G D CG+S GRG+C  V+AD+R H PQYP+ GRDDRE WP RFF R C CNGN+SG +CG C+    G  C QRV +VRRN+L LS E+K  FV ALD AKRTTHP  VIATR   EI GPD N+ QF+NISIYN FVWTHYYSV KTFLG G+ SF  VDFSHEGP FLTWHRYHLL+LE+DMQ+ML++PSF+LP+W+F+TG + CDICTDDLMG+RS FDST IS NS+FS WRV+C+S+EDYDTLGT+CNSTE  PIRRNPAGNVARPMVQRLPE QDVA CLE+  FDTPPFYS S++SFRN++EGYS P G YDP VRSLHNLAHLFLNGTGGQTHLSPNDPIF+LLHTFTDA+FDEWLRR+ AD+S++PL NAPIGHNR++NMVPFWPPV N EMFV+A D+LGY+YE+QWP+R  ++ +II + VV AL++VA++F  A+ ++R+R    E  QPLL DQYQ Y E     Q+  QSVV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_001002749.1|</Hit_id>
+  <Hit_def>tyrosinase-related protein 1b precursor [Danio rerio] &gt;gb|AAH76406.1| Tyrosinase-related protein 1b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001002749</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>732.635</Hsp_bit-score>
+      <Hsp_score>1890</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>537</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>526</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>421</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>518</Hsp_align-len>
+      <Hsp_qseq>ARAQFPRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSFRNTVEGYSDPTGKYDPAVRSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFDEWLRRYNADIS-TFPLENAPIGHNRQYNMVPFWPPVTNTEMFVTAPDNLGYTYEIQWPSREFSVPEIIAIAVVGALLLVALIFGTASYLIRARRSMD-EANQPLLTDQYQCYAEEYEKLQNPNQSVV</Hsp_qseq>
+      <Hsp_hseq>TRAQFPRQCMTPEGLRSGTCCP--SP-TGLANDECGSISGRGQCVSITADRRPHGPQYPHDGRDDRERWPLRFFNRTCQCNGNFTGFNCGRCRHGLTGPNCDQRITVVRRNIMQMSADEKRAFVNALDQAKRTVHPDLVICTRRFQEILSPDGASVQVENITIYNYFVWTHYYSVSKTYMGPGQQSFGGVDFSHEGPGFVTWHRYHLLQLERDMQDMLGDPSFALPYWNFAIGGSECDICTDDLIGARSSFDTNGISSNSVFSQWRVICESVEEYETLGTICNNTESSPIRRNPAGNVARPMVQRLPEPQDVIDCLELNTFDTPPYYSTSSQSFRNTIEGYSAPQGNYDPVVRSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAIFDEWLQRHTAAGTLAYPEENAPIGHNREFNMVPFWPPIRNAEMFVSAPDNLGYTYEVQWPTRAYTISEIITIAIVAVVLVVAVVGGVIGCAVRARSYRSAEGLEPLLGEQFRRYSEDE---RHASQSVV</Hsp_hseq>
+      <Hsp_midline> RAQFPRQC T E LRSG CCP  SP +G   D CGS SGRG+C ++TAD RPH PQYPHDGRDDRE WPLRFFNRTC CNGNF+G NCG CR G  G  CDQR+ +VRRN++ +S +EK  FV ALD AKRT HP  VI TRR +EIL PDG + Q ENI+IYNYFVWTHYYSV KT++G GQ+SFG VDFSHEGP F+TWHRYHLL+LE+DMQ+ML +PSF+LPYWNFA G + CDICTDDL+G+RS+FD+  IS NSVFSQWRV+C+S+E+Y+TLGT+CN+TE  PIRRNPAGNVARPMVQRLPEPQDV  CLE+  FDTPP+YS S+ SFRNT+EGYS P G YDP VRSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDA+FDEWL+R+ A  +  +P ENAPIGHNR++NMVPFWPP+ N EMFV+APDNLGYTYE+QWP+R +++ EII IA+V  +L+VA++ G     +RAR     E  +PLL +Q++ Y+E+    ++ +QSVV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_021333754.1|</Hit_id>
+  <Hit_def>5,6-dihydroxyindole-2-carboxylic acid oxidase isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021333754</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>629.402</Hsp_bit-score>
+      <Hsp_score>1622</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>537</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>442</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSFRNTVEGYSDPTGKYDPAVRSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFDEWLRRYNADISTFPLENAPIGHNRQYNMVPFWPPVTNTEMFVTAPDNLGYTYEIQWPSREFSVPEIIAIAVVGALLLVALIFGTASYLIRARRSMDEANQPLLTDQYQCYAEEYEKLQNPNQSVV</Hsp_qseq>
+      <Hsp_hseq>SRVCGGHAEISGH-----------------ALAVRRNVLTLSAEQKRVFVSALDQAKRTTHPDIVIATRHYSEIFGPD-NSTQFQNISIYNLFVWTHYYSVSKTFLGDGEPSFSAVDFSHEGPGFLTWHRYHLLQLERDMQDMLRDPSFALPFWDFSTGGSECDICTDDLMGARSRFDSTAISSNSIFSSWRVICESVEDYDTLGTICNSTESSPIRRNPAGNVARPMVQRLPEAQDVAACLEIDAFDTPPFYSTSSDSFRNSIEGYSAPEGPYDPVVRSLHNLAHLFLNGTGGQTHLSPNDPIFLLLHTFTDAIFDEWLRRHTADVSSYPLENAPIGHNREFNMVPFWPPVRNAEMFVSAADSLGYSYEVQWPARALTLTQIITVTVVAALIIVAIVFAAATCVVRSRSFGTETRQPLLGDQYQRYDE-----QHKTQSVV</Hsp_hseq>
+      <Hsp_midline>+R C  +   SGH                  L VRRN+L LS E+K  FV ALD AKRTTHP  VIATR   EI GPD N+ QF+NISIYN FVWTHYYSV KTFLG G+ SF  VDFSHEGP FLTWHRYHLL+LE+DMQ+ML++PSF+LP+W+F+TG + CDICTDDLMG+RS FDST IS NS+FS WRV+C+S+EDYDTLGT+CNSTE  PIRRNPAGNVARPMVQRLPE QDVA CLE+  FDTPPFYS S++SFRN++EGYS P G YDP VRSLHNLAHLFLNGTGGQTHLSPNDPIF+LLHTFTDA+FDEWLRR+ AD+S++PLENAPIGHNR++NMVPFWPPV N EMFV+A D+LGY+YE+QWP+R  ++ +II + VV AL++VA++F  A+ ++R+R    E  QPLL DQYQ Y E     Q+  QSVV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_571630.2|</Hit_id>
+  <Hit_def>L-dopachrome tautomerase precursor [Danio rerio] &gt;gb|AAI29261.1| Dopachrome tautomerase [Danio rerio] &gt;gb|AAI64222.1| Dct protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571630</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.263</Hsp_bit-score>
+      <Hsp_score>1253</Hsp_score>
+      <Hsp_evalue>6.7998e-168</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>LLSLGCIFFPLLLFQQARAQFPRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVL-IVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSFRNTVEGYSDPTGKYDPAVRSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFDEWLRRYNADISTFPLENAPIGHNRQYNMVPFWPPVTNTEMFVTAPDNLGYTYEI</Hsp_qseq>
+      <Hsp_hseq>LCCFGCMYL-------SEAQFPRVCCTVEGIVSKECCPALG--SDPA-NVCGLLAGRGNCSDVHVDSKPWGGPYSLRNVDDRERWPTKFFNRTCRCFGNFAGYNCGECKFGWTGLNCDQRKAPVLRKDIHSLSPEELQEFLNALDLSKTTVHPDYMIASQHWLGLLGPNGTEPQFSNISIYDFFVWQHYYSVRDTLLGPGR-PFKAIDFSHKGPAFITWHRYHLLSLERELQKLTGNENFAVPYWNFATGQSECDVCTDSLLGGRDPSDPSRISPRSRFARWGVVCDSLDEYNRLVTLCNGTNEGSLRRGAAMSTN----VTLPTMNDVRSCLNLRDFDSPPYFTNSTFSFRNALEGYDKPDGELDTSVSNLHNLVHQFLNGTSALSHSAANDPIFLVLHAFTDAIFDEWMRRFREN-ETFPDEMAPIGHNRHYNMVPFFPPVTNEEIYI-ASEQLGYSYSI</Hsp_hseq>
+      <Hsp_midline>L   GC++        + AQFPR C TVE + S  CCP L   S P  + CG  +GRG C  V  DS+P    Y     DDRE WP +FFNRTC C GNF+G+NCG C+ GW G  CDQR   ++R+++  LS EE   F+ ALD++K T HP ++IA++    +LGP+G  PQF NISIY++FVW HYYSV+ T LG G+  F  +DFSH+GPAF+TWHRYHLL LE+++Q++    +F++PYWNFATG++ CD+CTD L+G R   D + ISP S F++W VVCDSL++Y+ L TLCN T +G +RR  A +        LP   DV  CL +  FD+PP+++NST SFRN +EGY  P G+ D +V +LHNL H FLNGT   +H + NDPIF++LH FTDA+FDEW+RR+  +  TFP E APIGHNR YNMVPF+PPVTN E+++ A + LGY+Y I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AAF81264.1|</Hit_id>
+  <Hit_def>dopachrome tautomerase [Danio rerio]</Hit_def>
+  <Hit_accession>AAF81264</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>486.878</Hsp_bit-score>
+      <Hsp_score>1252</Hsp_score>
+      <Hsp_evalue>1.02809e-167</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>466</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>LLSLGCIFFPLLLFQQARAQFPRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVL-IVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSFRNTVEGYSDPTGKYDPAVRSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFDEWLRRYNADISTFPLENAPIGHNRQYNMVPFWPPVTNTEMFVTAPDNLGYTYEI</Hsp_qseq>
+      <Hsp_hseq>VLMLCCFGYMYL----SEAQFPRVCCTVEGIVSKECCPALG--SDPA-NVCGLLAGRGNCSDVHVDSKPWGGPYSLRNVDDRERWPTKFFNRTCRCFGNFAGYNCGECKFGWTGLNCDQRKAPVLRKDIHSLSPEELQEFLNALDLSKTTVHPDYMIATQHWLGLLGPNGTEPQFSNISIYDFFVWQHYYSVRDTLLGPGR-PFKAIDFSHKGPAFITWHRYHLLSLERELQKLTGNENFAVPYWNFATGQSECDVCTDSLLGGRDPSDPSRISPRSRFARWGVVCDSLDEYNRLVTLCNGTNEGSLRRGTAMSTN----VTLPTMNDVRSCLNLRDFDSPPYFTNSTFSFRNALEGYDKPDGELDTSVSNLHNLVHQFLNGTSALSHSAANDPIFLVLHAFTDAIFDEWMRRFREN-ETFPDEMAPIGHNRHYNMVPFFPPVTNEEIYI-ASEQLGYSYSI</Hsp_hseq>
+      <Hsp_midline>+L L C  +  L    + AQFPR C TVE + S  CCP L   S P  + CG  +GRG C  V  DS+P    Y     DDRE WP +FFNRTC C GNF+G+NCG C+ GW G  CDQR   ++R+++  LS EE   F+ ALD++K T HP ++IAT+    +LGP+G  PQF NISIY++FVW HYYSV+ T LG G+  F  +DFSH+GPAF+TWHRYHLL LE+++Q++    +F++PYWNFATG++ CD+CTD L+G R   D + ISP S F++W VVCDSL++Y+ L TLCN T +G +RR  A +        LP   DV  CL +  FD+PP+++NST SFRN +EGY  P G+ D +V +LHNL H FLNGT   +H + NDPIF++LH FTDA+FDEW+RR+  +  TFP E APIGHNR YNMVPF+PPVTN E+++ A + LGY+Y I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_073763889.1|</Hit_id>
+  <Hit_def>5,6-dihydroxyindole-2-carboxylic acid oxidase isoform X3 [Danio rerio] &gt;ref|XP_073763890.1| 5,6-dihydroxyindole-2-carboxylic acid oxidase isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073763889</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>1.74326e-163</Hsp_evalue>
+      <Hsp_query-from>235</Hsp_query-from>
+      <Hsp_query-to>537</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSFRNTVEGYSDPTGKYDPAVRSLHNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFDEWLRRYNADISTFPLENAPIGHNRQYNMVPFWPPVTNTEMFVTAPDNLGYTYEIQWPSREFSVPEIIAIAVVGALLLVALIFGTASYLIRARRSMDEANQPLLTDQYQCYAEEYEKLQNPNQSVV</Hsp_qseq>
+      <Hsp_hseq>MQDMLRDPSFALPFWDFSTGGSECDICTDDLMGARSRFDSTAISSNSIFSSWRVICESVEDYDTLGTICNSTESSPIRRNPAGNVARPMVQRLPEAQDVAACLEIDAFDTPPFYSTSSDSFRNSIEGYSAPEGPYDPVVRSLHNLAHLFLNGTGGQTHLSPNDPIFLLLHTFTDAIFDEWLRRHTADVSSYPLENAPIGHNREFNMVPFWPPVRNAEMFVSAADSLGYSYEVQWPARALTLTQIITVTVVAALIIVAIVFAAATCVVRSRSFGTETRQPLLGDQYQRYDE-----QHKTQSVV</Hsp_hseq>
+      <Hsp_midline>MQ+ML++PSF+LP+W+F+TG + CDICTDDLMG+RS FDST IS NS+FS WRV+C+S+EDYDTLGT+CNSTE  PIRRNPAGNVARPMVQRLPE QDVA CLE+  FDTPPFYS S++SFRN++EGYS P G YDP VRSLHNLAHLFLNGTGGQTHLSPNDPIF+LLHTFTDA+FDEWLRR+ AD+S++PLENAPIGHNR++NMVPFWPPV N EMFV+A D+LGY+YE+QWP+R  ++ +II + VV AL++VA++F  A+ ++R+R    E  QPLL DQYQ Y E     Q+  QSVV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|NP_571088.4|</Hit_id>
+  <Hit_def>tyrosinase precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571088</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.326</Hsp_bit-score>
+      <Hsp_score>965</Hsp_score>
+      <Hsp_evalue>3.46057e-124</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>531</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>300</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>PRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSFRNTVEGYSDPTGKYDPAVRSL-HNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFDEWLRRYNADISTFPLENAPIGHNRQYNMVPFWPPVTNTEMFVTAPDNLGYTYE-IQWPS----REFSVPE----------IIAIAVVGALL--LVALIFGTASYLIRARRSMDEAN-QPLLTDQYQCYAEEYE</Hsp_qseq>
+      <Hsp_hseq>PRVCTSPEVLQSKRCCP-VWPGDG---SVCGVQSGRGFCQDVLVSDLPNGPQYPHSGVDDRERWPLVFYNQTCQCAGNYMGFDCGECKFGFFGANCAERRESVRRNIFQLSTTERQRFISYLNLAKTTISPDYMIVTGTYAQM--NNGSTPMFANISVYDLFVWMHYYVSRDALLGGPGNVWADIDFAHESAAFLPWHRVYLLFWEHEIRKLTGDFNFTIPYWDWRDAQD-CQVCTDELMGARSSLNRSLISPSSVFSSWKVICSQPESYNLREALCDGSPEGPLLRNP-GDHDRIRVPRLPTSADVESVLRLTDYETGQMDRRANLSFRNALEGFANPETGLAVTGRSLMHNSLHVFMNGSMSSVQGSANDPIFIIHHAFIDSIFEQWLRRHQPPRTHYPTANAPIGHNDGYFMVPFIPLYRNGDYFLST-KALGYEYAYLQDPGQRFVQEFLTPYLEQAQQIWQWLVAAGILGAAVAGIIASVFAVACRRQTRRRKLSYGERQPLLNSSEEEGSASYQ</Hsp_hseq>
+      <Hsp_midline>PR C + E L+S  CCP + P  G     CG  SGRG C+ V     P+ PQYPH G DDRE WPL F+N+TC C GN+ G +CG C+ G+ GA C +R   VRRN+  LS  E+  F+  L++AK T  P ++I T    ++   +G+TP F NIS+Y+ FVW HYY  +   LG     + ++DF+HE  AFL WHR +LL  E +++++  + +F++PYW++   ++ C +CTD+LMG+RS+ + +LISP+SVFS W+V+C   E Y+    LC+ + +GP+ RNP G+  R  V RLP   DV   L +  ++T      +  SFRN +EG+++P        RSL HN  H+F+NG+      S NDPIF++ H F D++F++WLRR+    + +P  NAPIGHN  Y MVPF P   N + F++    LGY Y  +Q P     +EF  P           ++A  ++GA +  ++A +F  A      RR +     QPLL    +  +  Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AAN17339.1|</Hit_id>
+  <Hit_def>tyrosinase [Danio rerio]</Hit_def>
+  <Hit_accession>AAN17339</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.941</Hsp_bit-score>
+      <Hsp_score>964</Hsp_score>
+      <Hsp_evalue>4.57317e-124</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>532</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>300</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>PRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSFRNTVEGYSDPTGKYDPAVRSL-HNLAHLFLNGTGGQTHLSPNDPIFVLLHTFTDAVFDEWLRRYNADISTFPLENAPIGHNRQYNMVPFWPPVTNTEMFVTAPDNLGYTYE-IQWPS----REFSVPE----------IIAIAVVGALL--LVALIFGTASYLIRARRSMDEAN-QPLLTDQYQCYAEEYE</Hsp_qseq>
+      <Hsp_hseq>PRVCTSPEVLQSKRCCP-VWPGDG---SVCGVQSGRGFCQDILVSDLPNGPQYPHSGVDDRERWPLVFYNQTCQCAGNYMGFDCGECKFGFFGANCAERRESVRRNIFQLSTTERQRFISYLNLAKTTISPDYMIVTGTYAQM--NNGSTPMFANISVYDLFVWMHYYVSRDALLGGPGNVWADIDFAHESAAFLPWHRVYLLFWEHEIRKLTGDFNFTIPYWDWRDAQD-CQVCTDELMGARSSLNRSLISPSSVFSSWKVICSQPESYNLREALCDGSPEGPLLRNP-GDHDRIRVPRLPTSADVESVLRLTDYETGQMDRRANLSFRNALEGFANPETGLAVTGRSLMHNSLHVFMNGSMSSVQGSANDPIFIIHHAFIDSIFEQWLRRHQPPRTHYPTANAPIGHNDGYFMVPFIPLYRNGDYFLST-KALGYEYAYLQDPGQRFVQEFLTPYLEQAQQIWQWLVAAGILGAAVAGIIASVFAVACRRQTRRRKLSYGERQPLLNSSEEEGSASYQ</Hsp_hseq>
+      <Hsp_midline>PR C + E L+S  CCP + P  G     CG  SGRG C+ +     P+ PQYPH G DDRE WPL F+N+TC C GN+ G +CG C+ G+ GA C +R   VRRN+  LS  E+  F+  L++AK T  P ++I T    ++   +G+TP F NIS+Y+ FVW HYY  +   LG     + ++DF+HE  AFL WHR +LL  E +++++  + +F++PYW++   ++ C +CTD+LMG+RS+ + +LISP+SVFS W+V+C   E Y+    LC+ + +GP+ RNP G+  R  V RLP   DV   L +  ++T      +  SFRN +EG+++P        RSL HN  H+F+NG+      S NDPIF++ H F D++F++WLRR+    + +P  NAPIGHN  Y MVPF P   N + F++    LGY Y  +Q P     +EF  P           ++A  ++GA +  ++A +F  A      RR +     QPLL    +  +  Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AAH98525.1|</Hit_id>
+  <Hit_def>Dopachrome tautomerase [Danio rerio]</Hit_def>
+  <Hit_accession>AAH98525</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>2.17581e-113</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>KLLSLGCIFFPLLLFQQARAQFPRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVL-IVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNFATGKNVCDICTDDLMGSRSNFDSTLISPNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGPIRRNPAGNVARPMVQRLPEPQDVAQCLEVGLFDTPPFYSNSTNSF</Hsp_qseq>
+      <Hsp_hseq>RLVMMLCCFGCMYL---SEAQFPRVCCTVEGIVSKECCPALG--SDPA-NVCGLLAGRGNCSDVHVDSKPWGGPYSLRNVDDRERWPTKFFNRTCRCFGNFAGYNCGECKFGWTGLNCDQRKAPVLRKDIHSLSPEELQEFLNALDLSKTTVHPDYMIATQHWLGLLGPNGTEPQFSNISIYDFFVWQHYYSVRDTLLGPGR-PFKAIDFSHKGPAFITWHRYHLLSLERELQKLTGNENFAVPYWNFATGQSECDVCTDSLLGGRDPSDPSRISPRSRFARWGVVCDSLDEYNRLVTLCNGTNEGSLRRGTAMSTN----VTLPTMNDVRSCLNLRDFDSPPYFTNFTFSI</Hsp_hseq>
+      <Hsp_midline>+L+ + C F  + L   + AQFPR C TVE + S  CCP L   S P  + CG  +GRG C  V  DS+P    Y     DDRE WP +FFNRTC C GNF+G+NCG C+ GW G  CDQR   ++R+++  LS EE   F+ ALD++K T HP ++IAT+    +LGP+G  PQF NISIY++FVW HYYSV+ T LG G+  F  +DFSH+GPAF+TWHRYHLL LE+++Q++    +F++PYWNFATG++ CD+CTD L+G R   D + ISP S F++W VVCDSL++Y+ L TLCN T +G +RR  A +        LP   DV  CL +  FD+PP+++N T S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>emb|CAB58353.1|</Hit_id>
+  <Hit_def>putative tyrosinase enzyme, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAB58353</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>2.27057e-53</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>CGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLLRLEKDMQEMLQEPSFSL</Hsp_qseq>
+      <Hsp_hseq>CGVQSGRGFCQDILVSDLPNGPQYPHSGVDDRERWPLVFYNQTCQCAGNYMGFDCGECKFGFFGANCAERRESVRRNIFQLSTTERQRFISYLNLAKTTISPDYMIVTGTYAQM--NNGSTPMFANISVYDLFVWMHYYVSRDALLGGPGNVWADIDFAHESAAFLPWHRVYLLFWEHEIRKLTGDFNFTI</Hsp_hseq>
+      <Hsp_midline>CG  SGRG C+ +     P+ PQYPH G DDRE WPL F+N+TC C GN+ G +CG C+ G+ GA C +R   VRRN+  LS  E+  F+  L++AK T  P ++I T    ++   +G+TP F NIS+Y+ FVW HYY  +   LG     + ++DF+HE  AFL WHR +LL  E +++++  + +F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AMO00810.1|</Hit_id>
+  <Hit_def>tyrosinase, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AMO00810</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>9.12636e-35</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>SGPGTDRCGSSSGRGRCEAVTADSR-PHSPQY-PHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLSKEEKNHFVRALDMAKRTTHPLFVIATRRSEEILGPDGNTPQFENISIYNYFVWTHYYSVKKTFLGVGQESFGEVDFSHEGPAFLTWHRYHLL</Hsp_qseq>
+      <Hsp_hseq>SWPG-DGSGAASSQVEGSVRTSWVRLPNGPQFLTQEGRSRAMAFSV--YNQTCQCAGNYMGFDCGECKFGFFGANCAERRESVRRNIFQLSTTERQRFISYLNLAKTTISPDYMIVTGTYAQM--NNGSTPMFANISVYDLFVWMHYYVSRDALLGGPGNVWADIDFAHESAAFLPWHRVYLL</Hsp_hseq>
+      <Hsp_midline>S PG D  G++S +      T+  R P+ PQ+   +GR     + +  +N+TC C GN+ G +CG C+ G+ GA C +R   VRRN+  LS  E+  F+  L++AK T  P ++I T    ++   +G+TP F NIS+Y+ FVW HYY  +   LG     + ++DF+HE  AFL WHR +LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|AAH94957.1|</Hit_id>
+  <Hit_def>Tyr protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH94957</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.0478e-30</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>PRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAVTADSRPHSPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLSKEEKNHFVRALDMA</Hsp_qseq>
+      <Hsp_hseq>PRVCTSPEVLQSKRCCP-VWPGDG---SVCGVQSGRGFCQDVLVSDLPNGPQYPHSGVDDRERWPLVFYNQTCQCAGNYMGFDCGECKFGFFGANCAERRESVRRNIFQLSTTERQRFISYLNLA</Hsp_hseq>
+      <Hsp_midline>PR C + E L+S  CCP + P  G     CG  SGRG C+ V     P+ PQYPH G DDRE WPL F+N+TC C GN+ G +CG C+ G+ GA C +R   VRRN+  LS  E+  F+  L++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>emb|CAD33523.1|</Hit_id>
+  <Hit_def>putative tyrosinase enzyme, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAD33523</Hit_accession>
+  <Hit_len>64</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0345954</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>QFPRQCATVEALRSGMCCPDLSPVSGPGTDRCGSSSGRGRCEAV</Hsp_qseq>
+      <Hsp_hseq>QFPRVCTTPEVLQSKRCCP-VWPGDG---SVCGVQSGRGFCQDV</Hsp_hseq>
+      <Hsp_midline>QFPR C T E L+S  CCP + P  G     CG  SGRG C+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_009289785.2|</Hit_id>
+  <Hit_def>teneurin-4 isoform X18 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009289785</Hit_accession>
+  <Hit_len>2767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.96455</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>710</Hsp_hit-from>
+      <Hsp_hit-to>757</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_073778829.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X21 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778829</Hit_accession>
+  <Hit_len>2751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.01483</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>710</Hsp_hit-from>
+      <Hsp_hit-to>757</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_073778828.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X20 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778828</Hit_accession>
+  <Hit_len>2758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.03226</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>710</Hsp_hit-from>
+      <Hsp_hit-to>757</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_068069557.2|</Hit_id>
+  <Hit_def>teneurin-4 isoform X9 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068069557</Hit_accession>
+  <Hit_len>2816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.06891</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>759</Hsp_hit-from>
+      <Hsp_hit-to>806</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_009289779.2|</Hit_id>
+  <Hit_def>teneurin-4 isoform X4 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009289779</Hit_accession>
+  <Hit_len>2840</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.0873</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>783</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_073778812.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778812</Hit_accession>
+  <Hit_len>2865</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.08804</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>808</Hsp_hit-from>
+      <Hsp_hit-to>855</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_073778824.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X17 [Danio rerio] &gt;ref|XP_073778826.1| teneurin-4 isoform X17 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778824</Hit_accession>
+  <Hit_len>2776</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.10316</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>735</Hsp_hit-from>
+      <Hsp_hit-to>782</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_073778823.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X16 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778823</Hit_accession>
+  <Hit_len>2783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.10338</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>726</Hsp_hit-from>
+      <Hsp_hit-to>773</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_073778820.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X11 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778820</Hit_accession>
+  <Hit_len>2807</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.10412</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>759</Hsp_hit-from>
+      <Hsp_hit-to>806</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_073778835.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X26 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778835</Hit_accession>
+  <Hit_len>2718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.11925</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>677</Hsp_hit-from>
+      <Hsp_hit-to>724</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_073778834.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X25 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778834</Hit_accession>
+  <Hit_len>2725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.13759</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>677</Hsp_hit-from>
+      <Hsp_hit-to>724</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_073778831.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X23 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778831</Hit_accession>
+  <Hit_len>2743</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.13818</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>702</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_073778832.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X24 [Danio rerio] &gt;ref|XP_073778833.1| teneurin-4 isoform X24 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778832</Hit_accession>
+  <Hit_len>2734</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.17456</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>677</Hsp_hit-from>
+      <Hsp_hit-to>724</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_073778827.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X19 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778827</Hit_accession>
+  <Hit_len>2759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.17539</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>702</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_073778817.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X8 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778817</Hit_accession>
+  <Hit_len>2816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.17723</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>775</Hsp_hit-from>
+      <Hsp_hit-to>822</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|NP_571044.3|</Hit_id>
+  <Hit_def>teneurin-4 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571044</Hit_accession>
+  <Hit_len>2824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.17748</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>783</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_073778814.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X3 [Danio rerio] &gt;ref|XP_073778815.1| teneurin-4 isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778814</Hit_accession>
+  <Hit_len>2849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.17825</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>808</Hsp_hit-from>
+      <Hsp_hit-to>855</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_009289786.2|</Hit_id>
+  <Hit_def>teneurin-4 isoform X15 [Danio rerio] &gt;ref|XP_073778822.1| teneurin-4 isoform X15 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009289786</Hit_accession>
+  <Hit_len>2791</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.19502</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>750</Hsp_hit-from>
+      <Hsp_hit-to>797</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_073778821.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X14 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778821</Hit_accession>
+  <Hit_len>2792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.19505</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>751</Hsp_hit-from>
+      <Hsp_hit-to>798</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>sp|Q9W7R3.1|</Hit_id>
+  <Hit_def>RecName: Full=Teneurin-4; Short=Ten-4; AltName: Full=Protein Odd Oz/ten-m homolog 4; AltName: Full=Tenascin-M4; Short=Ten-m4; AltName: Full=Teneurin transmembrane protein 4 [Danio rerio] &gt;dbj|BAA81893.1| ten-m4 [Danio rerio]</Hit_def>
+  <Hit_accession>Q9W7R3</Hit_accession>
+  <Hit_len>2824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.19608</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>783</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_005157540.2|</Hit_id>
+  <Hit_def>teneurin-4 isoform X6 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005157540</Hit_accession>
+  <Hit_len>2831</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.1963</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>783</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_009289781.2|</Hit_id>
+  <Hit_def>teneurin-4 isoform X5 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009289781</Hit_accession>
+  <Hit_len>2832</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.19633</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>775</Hsp_hit-from>
+      <Hsp_hit-to>822</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_073778813.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778813</Hit_accession>
+  <Hit_len>2856</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.19708</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>808</Hsp_hit-from>
+      <Hsp_hit-to>855</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_073778830.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X22 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778830</Hit_accession>
+  <Hit_len>2750</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.21241</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>702</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_009289783.2|</Hit_id>
+  <Hit_def>teneurin-4 isoform X12 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009289783</Hit_accession>
+  <Hit_len>2807</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.21429</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>750</Hsp_hit-from>
+      <Hsp_hit-to>797</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_073778819.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X10 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778819</Hit_accession>
+  <Hit_len>2808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.21432</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>751</Hsp_hit-from>
+      <Hsp_hit-to>798</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_073778816.1|</Hit_id>
+  <Hit_def>teneurin-4 isoform X7 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778816</Hit_accession>
+  <Hit_len>2823</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.2148</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>775</Hsp_hit-from>
+      <Hsp_hit-to>822</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_009289784.2|</Hit_id>
+  <Hit_def>teneurin-4 isoform X13 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009289784</Hit_accession>
+  <Hit_len>2798</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.23291</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>750</Hsp_hit-from>
+      <Hsp_hit-to>797</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TCHCNGNFSGHNCGT-------------------CRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>TCNCDHNWTGHDCSTELCAADCGGHGICVAGSCRCDEGWMGTGCEQRA</Hsp_hseq>
+      <Hsp_midline>TC+C+ N++GH+C T                   C  GW G  C+QR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_073803906.1|</Hit_id>
+  <Hit_def>uncharacterized protein si:dkey-11l22.1 [Danio rerio] &gt;ref|XP_073803907.1| uncharacterized protein si:dkey-11l22.1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073803906</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.63359</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>RTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLS-----KEEKNHFVRALDMAKRTT--------HPLFVIATRRSE-------EILGPDGNTPQFENI----SIYNYFV</Hsp_qseq>
+      <Hsp_hseq>KPCHNCGALNVSNCKTCRNCFAAIALKASIMAKQKNIEESSWAANNKKHRNA-ARVVDSARTAVKKLEMLGYKPLLFISKEKKKGFNAELITTMGPFGEGPQQKIIDKMTSLYEVFI</Hsp_hseq>
+      <Hsp_midline>+ CH  G  +  NC TCR  +   A    ++  ++N+ + S     K+ +N   R +D A+            PL  I+  + +         +GP G  PQ + I    S+Y  F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|ACS52175.2|</Hit_id>
+  <Hit_def>stabilin 2 [Danio rerio]</Hit_def>
+  <Hit_accession>ACS52175</Hit_accession>
+  <Hit_len>2508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.70242</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1361</Hsp_hit-from>
+      <Hsp_hit-to>1397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLD</Hsp_qseq>
+      <Hsp_hseq>CLCNQGFNGTACESCQPGKYGIHCDQECKCVHGRCKD</Hsp_hseq>
+      <Hsp_midline>C CN  F+G  C +C+PG  G  CDQ    V     D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>emb|CAX12847.1|</Hit_id>
+  <Hit_def>novel protein similar to vertebrate odz, odd Oz/ten-m homolog 2 (Drosophila) (ODZ2), partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAX12847</Hit_accession>
+  <Hit_len>2372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.72452</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_073777991.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X1 [Danio rerio] &gt;ref|XP_073777992.1| teneurin-2 isoform X1 [Danio rerio] &gt;ref|XP_073777993.1| teneurin-2 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777991</Hit_accession>
+  <Hit_len>2816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.75221</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>789</Hsp_hit-from>
+      <Hsp_hit-to>815</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_073778004.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X9 [Danio rerio] &gt;ref|XP_073778005.1| teneurin-2 isoform X9 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778004</Hit_accession>
+  <Hit_len>2764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.78145</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>771</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_073777999.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X5 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777999</Hit_accession>
+  <Hit_len>2778</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.78221</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>759</Hsp_hit-from>
+      <Hsp_hit-to>785</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_073778018.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X19 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778018</Hit_accession>
+  <Hit_len>2626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.8057</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>599</Hsp_hit-from>
+      <Hsp_hit-to>625</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_073777997.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X4 [Danio rerio] &gt;ref|XP_073777998.1| teneurin-2 isoform X4 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777997</Hit_accession>
+  <Hit_len>2786</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.81495</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>759</Hsp_hit-from>
+      <Hsp_hit-to>785</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|XP_073777995.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X3 [Danio rerio] &gt;ref|XP_073777996.1| teneurin-2 isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777995</Hit_accession>
+  <Hit_len>2802</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.81582</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>775</Hsp_hit-from>
+      <Hsp_hit-to>801</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|XP_073777994.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777994</Hit_accession>
+  <Hit_len>2808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.81614</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>789</Hsp_hit-from>
+      <Hsp_hit-to>815</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|XP_073778021.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X22 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778021</Hit_accession>
+  <Hit_len>2585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.83563</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>558</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|XP_073778015.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X16 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778015</Hit_accession>
+  <Hit_len>2694</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.8423</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>675</Hsp_hit-from>
+      <Hsp_hit-to>701</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|XP_073778000.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X6 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778000</Hit_accession>
+  <Hit_len>2775</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.84693</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>748</Hsp_hit-from>
+      <Hsp_hit-to>774</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|XP_073802501.1|</Hit_id>
+  <Hit_def>stabilin-2 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073802501</Hit_accession>
+  <Hit_len>2542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.86558</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1360</Hsp_hit-from>
+      <Hsp_hit-to>1396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLD</Hsp_qseq>
+      <Hsp_hseq>CLCNQGFNGTACESCQPGKYGIHCDQECKCVHGRCKD</Hsp_hseq>
+      <Hsp_midline>C CN  F+G  C +C+PG  G  CDQ    V     D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|NP_001277107.2|</Hit_id>
+  <Hit_def>stabilin-2 precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001277107</Hit_accession>
+  <Hit_len>2543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.86565</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1361</Hsp_hit-from>
+      <Hsp_hit-to>1397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLD</Hsp_qseq>
+      <Hsp_hseq>CLCNQGFNGTACESCQPGKYGIHCDQECKCVHGRCKD</Hsp_hseq>
+      <Hsp_midline>C CN  F+G  C +C+PG  G  CDQ    V     D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|XP_073778020.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X21 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778020</Hit_accession>
+  <Hit_len>2618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.87049</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>599</Hsp_hit-from>
+      <Hsp_hit-to>625</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|XP_073778014.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X15 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778014</Hit_accession>
+  <Hit_len>2702</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.87559</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>675</Hsp_hit-from>
+      <Hsp_hit-to>701</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|XP_073778013.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X14 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778013</Hit_accession>
+  <Hit_len>2708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.87595</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>689</Hsp_hit-from>
+      <Hsp_hit-to>715</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|XP_073778012.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X13 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778012</Hit_accession>
+  <Hit_len>2716</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.87641</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>689</Hsp_hit-from>
+      <Hsp_hit-to>715</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|XP_073778003.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X8 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778003</Hit_accession>
+  <Hit_len>2767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.87933</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>748</Hsp_hit-from>
+      <Hsp_hit-to>774</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|XP_073778024.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X25 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778024</Hit_accession>
+  <Hit_len>2548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.899</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>529</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|XP_073778023.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X24 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778023</Hit_accession>
+  <Hit_len>2556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.89953</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>529</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|XP_073778022.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X23 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778022</Hit_accession>
+  <Hit_len>2579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.90105</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>552</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|XP_073778001.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X7 [Danio rerio] &gt;ref|XP_073778002.1| teneurin-2 isoform X7 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778001</Hit_accession>
+  <Hit_len>2772</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.94616</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>771</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|XP_073778019.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X20 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778019</Hit_accession>
+  <Hit_len>2620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.97065</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>593</Hsp_hit-from>
+      <Hsp_hit-to>619</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|XP_073778008.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X12 [Danio rerio] &gt;ref|XP_073778010.1| teneurin-2 isoform X12 [Danio rerio] &gt;ref|XP_073778011.1| teneurin-2 isoform X12 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778008</Hit_accession>
+  <Hit_len>2723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.97701</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>704</Hsp_hit-from>
+      <Hsp_hit-to>730</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|XP_073778007.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X11 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778007</Hit_accession>
+  <Hit_len>2731</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.97748</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>704</Hsp_hit-from>
+      <Hsp_hit-to>730</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|NP_001108584.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC100141499 [Danio rerio] &gt;gb|AAI54766.1| Zgc:174698 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001108584</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.98523</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>RTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLS-----KEEKNHFVRALDMAKRTT--------HPLFVIATRRSE-------EILGPDGNTPQFENI----SIYNYFV</Hsp_qseq>
+      <Hsp_hseq>KPCHNCGALNVSNCKTCRNCFAAIALKASIMAKQKNIEESSWAANNKKHRNA-ARVVDSARTAVKKLEMLGYKPLLFISKEKKKGFNTELITTMGPFGEGPQQKIIDKMASLYEVFI</Hsp_hseq>
+      <Hsp_midline>+ CH  G  +  NC TCR  +   A    ++  ++N+ + S     K+ +N   R +D A+            PL  I+  + +         +GP G  PQ + I    S+Y  F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|XP_073778016.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X17 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778016</Hit_accession>
+  <Hit_len>2661</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>4.00718</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>634</Hsp_hit-from>
+      <Hsp_hit-to>660</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|XP_073778006.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X10 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778006</Hit_accession>
+  <Hit_len>2737</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>4.01181</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>718</Hsp_hit-from>
+      <Hsp_hit-to>744</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|XP_073778017.1|</Hit_id>
+  <Hit_def>teneurin-2 isoform X18 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073778017</Hit_accession>
+  <Hit_len>2653</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>4.04089</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>634</Hsp_hit-from>
+      <Hsp_hit-to>660</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRV</Hsp_qseq>
+      <Hsp_hseq>CGTHGVCMGGSC-RCEEGWTGAACDQRV</Hsp_hseq>
+      <Hsp_midline>C  +G   G +C  C  GW GAACDQRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gb|AAI55245.1|</Hit_id>
+  <Hit_def>Zgc:174698 protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAI55245</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.36172</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>RTCHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLDLS-----KEEKNHFVRALDMAKRTT--------HPLFVIATRRSE-------EILGPDGNTPQFENI----SIYNYFV</Hsp_qseq>
+      <Hsp_hseq>KPCHNCGALNVSNCKTCRNCFAAIALKASIMAKQKNIEESSWAANNKKHRNA-ARVVDSARTAVKKLEMLGYKPLLFISKEKKKGFNTELITTMGPFGEGPQQKIIDKMASLYEVFI</Hsp_hseq>
+      <Hsp_midline>+ CH  G  +  NC TCR  +   A    ++  ++N+ + S     K+ +N   R +D A+            PL  I+  + +         +GP G  PQ + I    S+Y  F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|XP_073802502.1|</Hit_id>
+  <Hit_def>stabilin-2 isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073802502</Hit_accession>
+  <Hit_len>1703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.76026</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1361</Hsp_hit-from>
+      <Hsp_hit-to>1397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>CHCNGNFSGHNCGTCRPGWRGAACDQRVLIVRRNLLD</Hsp_qseq>
+      <Hsp_hseq>CLCNQGFNGTACESCQPGKYGIHCDQECKCVHGRCKD</Hsp_hseq>
+      <Hsp_midline>C CN  F+G  C +C+PG  G  CDQ    V     D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|XP_073763166.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X33 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073763166</Hit_accession>
+  <Hit_len>2596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.90385</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>637</Hsp_hit-from>
+      <Hsp_hit-to>663</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|XP_073763084.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X32 [Danio rerio] &gt;ref|XP_073763120.1| teneurin-3 isoform X32 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073763084</Hit_accession>
+  <Hit_len>2597</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.90399</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>638</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|XP_073762785.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X28 [Danio rerio] &gt;ref|XP_073762861.1| teneurin-3 isoform X28 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762785</Hit_accession>
+  <Hit_len>2612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.90607</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>653</Hsp_hit-from>
+      <Hsp_hit-to>679</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|XP_073763279.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X35 [Danio rerio] &gt;ref|XP_073763313.1| teneurin-3 isoform X35 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073763279</Hit_accession>
+  <Hit_len>2589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.97891</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>637</Hsp_hit-from>
+      <Hsp_hit-to>663</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|ACX56233.1|</Hit_id>
+  <Hit_def>odd oz/ten-m3 [Danio rerio]</Hit_def>
+  <Hit_accession>ACX56233</Hit_accession>
+  <Hit_len>2590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.97905</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>638</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>dbj|BAA81892.1|</Hit_id>
+  <Hit_def>ten-m3 [Danio rerio]</Hit_def>
+  <Hit_accession>BAA81892</Hit_accession>
+  <Hit_len>2590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.97905</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>638</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|XP_073763221.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X34 [Danio rerio] &gt;ref|XP_073763253.1| teneurin-3 isoform X34 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073763221</Hit_accession>
+  <Hit_len>2590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.97905</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>638</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|XP_073763009.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X31 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073763009</Hit_accession>
+  <Hit_len>2598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.98017</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>646</Hsp_hit-from>
+      <Hsp_hit-to>672</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|XP_073762956.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X30 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762956</Hit_accession>
+  <Hit_len>2605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.98115</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>646</Hsp_hit-from>
+      <Hsp_hit-to>672</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|XP_073762915.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X29 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762915</Hit_accession>
+  <Hit_len>2611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.13605</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>652</Hsp_hit-from>
+      <Hsp_hit-to>678</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|XP_073762680.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X27 [Danio rerio] &gt;ref|XP_073762747.1| teneurin-3 isoform X27 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762680</Hit_accession>
+  <Hit_len>2623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.13773</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>671</Hsp_hit-from>
+      <Hsp_hit-to>697</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>sp|Q9W7R4.2|</Hit_id>
+  <Hit_def>RecName: Full=Teneurin-3; Short=Ten-3; AltName: Full=Protein Odd Oz/ten-m homolog 3; AltName: Full=Tenascin-M3; Short=Ten-m3; AltName: Full=Teneurin transmembrane protein 3 [Danio rerio]</Hit_def>
+  <Hit_accession>Q9W7R4</Hit_accession>
+  <Hit_len>2694</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.22548</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>742</Hsp_hit-from>
+      <Hsp_hit-to>768</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|XP_073762659.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X26 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762659</Hit_accession>
+  <Hit_len>2630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.37483</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>671</Hsp_hit-from>
+      <Hsp_hit-to>697</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|XP_068078390.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X25 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068078390</Hit_accession>
+  <Hit_len>2645</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.37695</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>686</Hsp_hit-from>
+      <Hsp_hit-to>712</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|XP_068078257.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X5 [Danio rerio] &gt;ref|XP_073810825.1| teneurin-3 isoform X5 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068078257</Hit_accession>
+  <Hit_len>2818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.48001</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>859</Hsp_hit-from>
+      <Hsp_hit-to>885</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|XP_073762595.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X24 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762595</Hit_accession>
+  <Hit_len>2694</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.54465</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>742</Hsp_hit-from>
+      <Hsp_hit-to>768</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|XP_687343.5|</Hit_id>
+  <Hit_def>laminin subunit gamma-3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_687343</Hit_accession>
+  <Hit_len>1643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.5485</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>VSGPGTDRCGS---SSGRGRCEAVTADSRPH-SPQYPHDGRDDREVWPLRFFNRTCHCNGNFSGHNCGTCRPG</Hsp_qseq>
+      <Hsp_hseq>VSGVKCDICKSGFHSLGPGGCRLCDCDERGSVGVCSAEDGR--------------CHCKANVEGQSCNRCKPG</Hsp_hseq>
+      <Hsp_midline>VSG   D C S   S G G C     D R         DGR              CHC  N  G +C  C+PG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|XP_073762049.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X11 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762049</Hit_accession>
+  <Hit_len>2784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.55663</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>825</Hsp_hit-from>
+      <Hsp_hit-to>851</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|XP_073762020.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X10 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762020</Hit_accession>
+  <Hit_len>2785</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.55676</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>826</Hsp_hit-from>
+      <Hsp_hit-to>852</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|XP_073763495.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X40 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073763495</Hit_accession>
+  <Hit_len>2425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.58472</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>473</Hsp_hit-from>
+      <Hsp_hit-to>499</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|XP_073763466.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X39 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073763466</Hit_accession>
+  <Hit_len>2440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.58727</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>481</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|NP_001352472.1|</Hit_id>
+  <Hit_def>teneurin-3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001352472</Hit_accession>
+  <Hit_len>2716</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.62918</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>757</Hsp_hit-from>
+      <Hsp_hit-to>783</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|XP_073762264.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X16 [Danio rerio] &gt;ref|XP_073762285.1| teneurin-3 isoform X16 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762264</Hit_accession>
+  <Hit_len>2763</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.63548</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>811</Hsp_hit-from>
+      <Hsp_hit-to>837</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|XP_073762508.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X22 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762508</Hit_accession>
+  <Hit_len>2709</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.71043</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>750</Hsp_hit-from>
+      <Hsp_hit-to>776</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|XP_073762174.1|</Hit_id>
+  <Hit_def>teneurin-3 isoform X14 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762174</Hit_accession>
+  <Hit_len>2771</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.71881</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>819</Hsp_hit-from>
+      <Hsp_hit-to>845</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>NRTCHCNGNFSGHNCGTCRPGWRGAACD</Hsp_qseq>
+      <Hsp_hseq>NSNGRCTLDQNGWHC-VCQPGWRGAGCD</Hsp_hseq>
+      <Hsp_midline>N    C  + +G +C  C+PGWRGA CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

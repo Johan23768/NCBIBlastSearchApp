@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3669509</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_001002212.1 inactive serine protease 35 precursor [Danio rerio]</BlastOutput_query-def>
+  <BlastOutput_query-len>418</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3669509</Iteration_query-ID>
+  <Iteration_query-def>NP_001002212.1 inactive serine protease 35 precursor [Danio rerio]</Iteration_query-def>
+  <Iteration_query-len>418</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AAH37170.1|</Hit_id>
+  <Hit_def>Protease, serine, 35 [Homo sapiens] &gt;gb|ADZ15635.1| protease, serine, 35, partial [synthetic construct] &gt;emb|SJX40834.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAQ89024.1| ENML522 [Homo sapiens] &gt;gb|AIC57910.1| PRSS35, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAH37170</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>5.50033e-154</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>DYTWPQRKIPLVQEKQTVHLESSEFLAKPQNDLHGICGIECQQRLPEPSLDDLEQLLSYETMYDNGTRTLTTVTVQDLNVSNDWTGASQ-LHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKERSRRKNGRKGKGRKGKGQRKHEEEEVDENGEIVEKQQERKSKGKGRRNRSRRSTDSE-QPSFRWTRVKQMQVPKGWFKGISENVLADYDYAVLELKRAQKTKFMDLGVIPSVKKLPAGRIHFSGFDDDRPGNLVYRFCSVSEESNDLLYQYCDAKPGSSGSGVYIRLKEPGKKKWKRKIIGVFSGHQWVDVNGGQQDYNVAVRITPLKYAQICRWVHGDSSQC</Hsp_qseq>
+      <Hsp_hseq>DFMWHLRKVPRIVSERTFHLTSPAFEADAKMMVNTVCGIECQKELPTPSLSELEDYLSYETVFENGTRTLTRVKVQDLVLEPTQNITTKGVSVRRKRQVYGTDSRFSILDKRFLTNFPFSTAVKLSTGCSGILISPQHVLTAAHCVHDGKDYVKGSKKLRVGLLKMR----NKSGGKKRRGSKRSRREASGGDQREGTREHLQERAKGGRRRKKSGRGQRIAEGRPSFQWTRVKNTHIPKGWARGGMGDATLDYDYALLELKRAHKKKYMELGISPTIKKMPGGMIHFSGFDNDRADQLVYRFCSVSDESNDLLYQYCDAESGSTGSGVYLRLKDPDKKNWKRKIIAVYSGHQWVDVHGVQKDYNVAVRITPLKYAQICLWIHGNDANC</Hsp_hseq>
+      <Hsp_midline>D+ W  RK+P +  ++T HL S  F A  +  ++ +CGIECQ+ LP PSL +LE  LSYET+++NGTRTLT V VQDL +       ++ +  R +R+VYGTD+RF+I DK++   +PFST+VK+STGCSG+L+SP+HVLTAAHC+H+G DY+ G +KL VG+LK R    N   GK R+G  + + E    D+     E  QER   G+ R+   R    +E +PSF+WTRVK   +PKGW +G   +   DYDYA+LELKRA K K+M+LG+ P++KK+P G IHFSGFD+DR   LVYRFCSVS+ESNDLLYQYCDA+ GS+GSGVY+RLK+P KK WKRKII V+SGHQWVDV+G Q+DYNVAVRITPLKYAQIC W+HG+ + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_001163894.1|</Hit_id>
+  <Hit_def>inactive serine protease 35 precursor [Homo sapiens] &gt;ref|NP_699193.2| inactive serine protease 35 precursor [Homo sapiens] &gt;sp|Q8N3Z0.2| RecName: Full=Inactive serine protease 35; Flags: Precursor [Homo sapiens] &gt;gb|EAW48663.1| protease, serine, 35, isoform CRA_b [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001163894</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>3.08309e-153</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>389</Hsp_align-len>
+      <Hsp_qseq>DYTWPQRKIPLVQEKQTVHLESSEFLAKPQNDLHGICGIECQQRLPEPSLDDLEQLLSYETMYDNGTRTLTTVTVQDLNVSNDWTGASQ-LHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKERSRRKNGRKGKGRKGKGQRKHEEEEVDENGEIVEKQQERKSKGKGRRNRSRRSTDSE-QPSFRWTRVKQMQVPKGWFKGISENVLADYDYAVLELKRAQKTKFMDLGVIPSVKKLPAGRIHFSGFDDDRPGNLVYRFCSVSEESNDLLYQYCDAKPGSSGSGVYIRLKEPGKKKWKRKIIGVFSGHQWVDVNGGQQDYNVAVRITPLKYAQICRWVHGDSSQC</Hsp_qseq>
+      <Hsp_hseq>DFMWHLRKVPRIVSERTFHLTSPAFEADAKMMVNTVCGIECQKELPTPSLSELEDYLSYETVFENGTRTLTRVKVQDLVLEPTQNITTKGVSVRRKRQVYGTDSRFSILDKRFLTNFPFSTAVKLSTGCSGILISPQHVLTAAHCVHDGKDYVKGSKKLRVGLLKMR----NKSGGKKRRGSKRSRREASGGDQREGTREHLRERAKGGRRRKKSGRGQRIAEGRPSFQWTRVKNTHIPKGWARGGMGDATLDYDYALLELKRAHKKKYMELGISPTIKKMPGGMIHFSGFDNDRADQLVYRFCSVSDESNDLLYQYCDAESGSTGSGVYLRLKDPDKKNWKRKIIAVYSGHQWVDVHGVQKDYNVAVRITPLKYAQICLWIHGNDANC</Hsp_hseq>
+      <Hsp_midline>D+ W  RK+P +  ++T HL S  F A  +  ++ +CGIECQ+ LP PSL +LE  LSYET+++NGTRTLT V VQDL +       ++ +  R +R+VYGTD+RF+I DK++   +PFST+VK+STGCSG+L+SP+HVLTAAHC+H+G DY+ G +KL VG+LK R    N   GK R+G  + + E    D+     E  +ER   G+ R+   R    +E +PSF+WTRVK   +PKGW +G   +   DYDYA+LELKRA K K+M+LG+ P++KK+P G IHFSGFD+DR   LVYRFCSVS+ESNDLLYQYCDA+ GS+GSGVY+RLK+P KK WKRKII V+SGHQWVDV+G Q+DYNVAVRITPLKYAQIC W+HG+ + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|EAW48662.1|</Hit_id>
+  <Hit_def>protease, serine, 35, isoform CRA_a [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW48662</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.32</Hsp_bit-score>
+      <Hsp_score>1087</Hsp_score>
+      <Hsp_evalue>6.28182e-145</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>FLAKPQNDLHGICGIECQQRLPEPSLDDLEQLLSYETMYDNGTRTLTTVTVQDLNVSNDWTGASQ-LHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKERSRRKNGRKGKGRKGKGQRKHEEEEVDENGEIVEKQQERKSKGKGRRNRSRRSTDSE-QPSFRWTRVKQMQVPKGWFKGISENVLADYDYAVLELKRAQKTKFMDLGVIPSVKKLPAGRIHFSGFDDDRPGNLVYRFCSVSEESNDLLYQYCDAKPGSSGSGVYIRLKEPGKKKWKRKIIGVFSGHQWVDVNGGQQDYNVAVRITPLKYAQICRWVHGDSSQC</Hsp_qseq>
+      <Hsp_hseq>FEADAKMMVNTVCGIECQKELPTPSLSELEDYLSYETVFENGTRTLTRVKVQDLVLEPTQNITTKGVSVRRKRQVYGTDSRFSILDKRFLTNFPFSTAVKLSTGCSGILISPQHVLTAAHCVHDGKDYVKGSKKLRVGLLKMR----NKSGGKKRRGSKRSRREASGGDQREGTREHLRERAKGGRRRKKSGRGQRIAEGRPSFQWTRVKNTHIPKGWARGGMGDATLDYDYALLELKRAHKKKYMELGISPTIKKMPGGMIHFSGFDNDRADQLVYRFCSVSDESNDLLYQYCDAESGSTGSGVYLRLKDPDKKNWKRKIIAVYSGHQWVDVHGVQKDYNVAVRITPLKYAQICLWIHGNDANC</Hsp_hseq>
+      <Hsp_midline>F A  +  ++ +CGIECQ+ LP PSL +LE  LSYET+++NGTRTLT V VQDL +       ++ +  R +R+VYGTD+RF+I DK++   +PFST+VK+STGCSG+L+SP+HVLTAAHC+H+G DY+ G +KL VG+LK R    N   GK R+G  + + E    D+     E  +ER   G+ R+   R    +E +PSF+WTRVK   +PKGW +G   +   DYDYA+LELKRA K K+M+LG+ P++KK+P G IHFSGFD+DR   LVYRFCSVS+ESNDLLYQYCDA+ GS+GSGVY+RLK+P KK WKRKII V+SGHQWVDV+G Q+DYNVAVRITPLKYAQIC W+HG+ + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|NP_001280108.1|</Hit_id>
+  <Hit_def>serine protease 23 precursor [Homo sapiens] &gt;ref|NP_001280109.1| serine protease 23 precursor [Homo sapiens] &gt;ref|NP_009104.3| serine protease 23 precursor [Homo sapiens] &gt;sp|O95084.1| RecName: Full=Serine protease 23; AltName: Full=Putative secreted protein Zsig13; Flags: Precursor [Homo sapiens] &gt;gb|AIC50810.1| PRSS23, partial [synthetic construct] &gt;emb|SJX37250.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAD01553.1| serine protease [Homo sapiens] &gt;gb|AAF07186.1| putative secreted protein ZSIG13 [Homo sapiens] &gt;gb|AAH01278.1| Protease, serine, 23 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001280108</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>3.92355e-131</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>391</Hsp_align-len>
+      <Hsp_qseq>TWPQRKIPLVQEKQTVHLESSEFLAKPQNDLHGICGIECQQRLPEPSLDDLEQLLSYETMYDNGTRTLTTVTVQDLNVSNDWT----GASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKERSRRKNGRKGKGRKGKGQRKHEEEEVDENGEIVEKQQERKSKGKGRRNRSRRSTDSEQPSFRWTRVKQMQVPKGWFKGISENVLADYDYAVLELKRAQKTKFMDLGVIPSVKKLPAGRIHFSGFDDDRPGNLVYRFCSVSEESNDLLYQYCDAKPGSSGSGVYIRLKEPGKKKWKRKIIGVFSGHQWVDVNGGQQDYNVAVRITPLKYAQICRWVHGDSSQCRD</Hsp_qseq>
+      <Hsp_hseq>TWPAYRLPVVLPQSTLNLAKPDFGAEAKLEVSSSCGPQCHKGTPLPTYEEAKQYLSYETLYANGSRTETQVGIYILSSSGDGAQHRDSGSSGKSRRKRQIYGYDSRFSIFGKDFLLNYPFSTSVKLSTGCTGTLVAEKHVLTAAHCIHDGKTYVKGTQKLRVGFLKP---------------------------------------KFKDGGRGANDSTSAMPEQMKFQWIRVKRTHVPKGWIKGNANDIGMDYDYALLELKKPHKRKFMKIGVSPPAKQLPGGRIHFSGYDNDRPGNLVYRFCDVKDETYDLLYQQCDAQPGASGSGVYVRMWKRQQQKWERKIIGIFSGHQWVDMNGSPQDFNVAVRITPLKYAQICYWIKGNYLDCRE</Hsp_hseq>
+      <Hsp_midline>TWP  ++P+V  + T++L   +F A+ + ++   CG +C +  P P+ ++ +Q LSYET+Y NG+RT T V +  L+ S D        S   +R +R++YG D+RF+I  K + + YPFSTSVK+STGC+G LV+ KHVLTAAHCIH+G  Y+ G QKL VG LK                                        K K  GR      S   EQ  F+W RVK+  VPKGW KG + ++  DYDYA+LELK+  K KFM +GV P  K+LP GRIHFSG+D+DRPGNLVYRFC V +E+ DLLYQ CDA+PG+SGSGVY+R+ +  ++KW+RKIIG+FSGHQWVD+NG  QD+NVAVRITPLKYAQIC W+ G+   CR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|EAW75146.1|</Hit_id>
+  <Hit_def>protease, serine, 23, isoform CRA_b [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW75146</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>2.33461e-130</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>391</Hsp_align-len>
+      <Hsp_qseq>TWPQRKIPLVQEKQTVHLESSEFLAKPQNDLHGICGIECQQRLPEPSLDDLEQLLSYETMYDNGTRTLTTVTVQDLNVSNDWT----GASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKERSRRKNGRKGKGRKGKGQRKHEEEEVDENGEIVEKQQERKSKGKGRRNRSRRSTDSEQPSFRWTRVKQMQVPKGWFKGISENVLADYDYAVLELKRAQKTKFMDLGVIPSVKKLPAGRIHFSGFDDDRPGNLVYRFCSVSEESNDLLYQYCDAKPGSSGSGVYIRLKEPGKKKWKRKIIGVFSGHQWVDVNGGQQDYNVAVRITPLKYAQICRWVHGDSSQCRD</Hsp_qseq>
+      <Hsp_hseq>TWPAYRLPVVLPQSTLNLAKPDFGAEAKLEVSSSCGPQCHKGTPLPTYEEAKQYLSYETLYANGSRTETQVGIYILSSSGDGAQHRDSGSSGKSRRKRQIYGYDSRFSIFGKDFLLNYPFSTSVKLSTGCTGTLVAEKHVLTAAHCIHDGKTYVKGTQKLRVGFLKP---------------------------------------KFKDGGRGANDSTSAMPEQMKFQWIRVKRTHVPKGWIKGNANDIGMDYDYALLELKKPHKRKFMKIGVSPPAKQLPGGRIHFSGYDNDRPGNLVYRFCDVKDETYDLLYQQCDAQPGASGSGVYVRMWKRQQQKWERKIIGIFSGHQWVDMNGSPQDFNVAVRITPLKYAQICYWIKGNYLDCRE</Hsp_hseq>
+      <Hsp_midline>TWP  ++P+V  + T++L   +F A+ + ++   CG +C +  P P+ ++ +Q LSYET+Y NG+RT T V +  L+ S D        S   +R +R++YG D+RF+I  K + + YPFSTSVK+STGC+G LV+ KHVLTAAHCIH+G  Y+ G QKL VG LK                                        K K  GR      S   EQ  F+W RVK+  VPKGW KG + ++  DYDYA+LELK+  K KFM +GV P  K+LP GRIHFSG+D+DRPGNLVYRFC V +E+ DLLYQ CDA+PG+SGSGVY+R+ +  ++KW+RKIIG+FSGHQWVD+NG  QD+NVAVRITPLKYAQIC W+ G+   CR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|BAG52121.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAG52121</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>6.23647e-130</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>391</Hsp_align-len>
+      <Hsp_qseq>TWPQRKIPLVQEKQTVHLESSEFLAKPQNDLHGICGIECQQRLPEPSLDDLEQLLSYETMYDNGTRTLTTVTVQDLNVSNDWT----GASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKERSRRKNGRKGKGRKGKGQRKHEEEEVDENGEIVEKQQERKSKGKGRRNRSRRSTDSEQPSFRWTRVKQMQVPKGWFKGISENVLADYDYAVLELKRAQKTKFMDLGVIPSVKKLPAGRIHFSGFDDDRPGNLVYRFCSVSEESNDLLYQYCDAKPGSSGSGVYIRLKEPGKKKWKRKIIGVFSGHQWVDVNGGQQDYNVAVRITPLKYAQICRWVHGDSSQCRD</Hsp_qseq>
+      <Hsp_hseq>TWPAYRLPVVLPQSTLNLAKPDFGAEAKLEVSSSCGPQCHKGTPLPTYEEAKQYLSYETLYANGSRTETQVGIYILSSSGDGAQHRDSGSSGKSRRKRQIYGYDSRFSIFGKDFLLNYPFSTSVKLSTGCTGTLVAEKHVLTAAHCIHDGKTYVKGTQKLRVGFLKP---------------------------------------KFKDGGRGANDSTSAMPEQMKFQWIRVKRTHVPKGWIKGNANDIGMDYDYALLELKKPHKRKFMKIGVSPPAKQLPGDRIHFSGYDNDRPGNLVYRFCDVKDETYDLLYQQCDAQPGASGSGVYVRMWKRQQQKWERKIIGIFSGHQWVDMNGSPQDFNVAVRITPLKYAQICYWIKGNYLDCRE</Hsp_hseq>
+      <Hsp_midline>TWP  ++P+V  + T++L   +F A+ + ++   CG +C +  P P+ ++ +Q LSYET+Y NG+RT T V +  L+ S D        S   +R +R++YG D+RF+I  K + + YPFSTSVK+STGC+G LV+ KHVLTAAHCIH+G  Y+ G QKL VG LK                                        K K  GR      S   EQ  F+W RVK+  VPKGW KG + ++  DYDYA+LELK+  K KFM +GV P  K+LP  RIHFSG+D+DRPGNLVYRFC V +E+ DLLYQ CDA+PG+SGSGVY+R+ +  ++KW+RKIIG+FSGHQWVD+NG  QD+NVAVRITPLKYAQIC W+ G+   CR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>dbj|BAG65155.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAG65155</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.451</Hsp_bit-score>
+      <Hsp_score>916</Hsp_score>
+      <Hsp_evalue>1.34387e-120</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>LPEPSLDDLEQLLSYETMYDNGTRTLTTVTVQDLNVSNDWT----GASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKERSRRKNGRKGKGRKGKGQRKHEEEEVDENGEIVEKQQERKSKGKGRRNRSRRSTDSEQPSFRWTRVKQMQVPKGWFKGISENVLADYDYAVLELKRAQKTKFMDLGVIPSVKKLPAGRIHFSGFDDDRPGNLVYRFCSVSEESNDLLYQYCDAKPGSSGSGVYIRLKEPGKKKWKRKIIGVFSGHQWVDVNGGQQDYNVAVRITPLKYAQICRWVHGDSSQCRD</Hsp_qseq>
+      <Hsp_hseq>LPQSTLNLAKQYLSYETLYANGSRTETQVGIYILSSSGDGAQHRDSGSSGKSRRKRQIYGYDSRFSIFGKDFLLNYPFSTSVKLSTGCTGTLVAEKHVLTAAHCIHDGKTYVKGTQKLRVGFLKP---------------------------------------KFKDGGRGANDSTSAMPEQMKFQWIRVKRTHVPKGWIKGNANDIGMDYDYALLELKKPHKRKFMKIGVSPPAKQLPGGRIHFSGYDNDRPGNLVYRFCDVKDETYDLLYQQCDAQPGASGSGVYVRMWKRQQQKWERKIIGIFSGHQWVDMNGSPQDFNVAVRITPLKYAQICYWIKGNYLDCRE</Hsp_hseq>
+      <Hsp_midline>LP+ +L+  +Q LSYET+Y NG+RT T V +  L+ S D        S   +R +R++YG D+RF+I  K + + YPFSTSVK+STGC+G LV+ KHVLTAAHCIH+G  Y+ G QKL VG LK                                        K K  GR      S   EQ  F+W RVK+  VPKGW KG + ++  DYDYA+LELK+  K KFM +GV P  K+LP GRIHFSG+D+DRPGNLVYRFC V +E+ DLLYQ CDA+PG+SGSGVY+R+ +  ++KW+RKIIG+FSGHQWVD+NG  QD+NVAVRITPLKYAQIC W+ G+   CR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>dbj|BAH14879.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAH14879</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>2.68749e-79</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>EQPSFRWTRVKQMQVPKGWFKGISENVLADYDYAVLELKRAQKTKFMDLGVIPSVKKLPAGRIHFSGFDDDRPGNLVYRFCSVSEESNDLLYQYCDAKPGSSGSGVYIRLKEPGKKKWKRKIIGVFSGHQWVDVNGGQQDYNVAVRITPLKYAQICRWVHGDSSQCRD</Hsp_qseq>
+      <Hsp_hseq>EQMKFQWIRVKRTHVPKGWIKGNANDIGMDYDYALLELKKPHKRKFMKIGVSPPAKQLPGGRIHFSGYDNDRPGNLVYRFCDVKDETYDLLYQQCDAQPGASGSGVYVRMWKRQQQKWERKIIGIFSGHQWVDMNGSPQDFNVAVRITPLKYAQICYWIKGNYLDCRE</Hsp_hseq>
+      <Hsp_midline>EQ  F+W RVK+  VPKGW KG + ++  DYDYA+LELK+  K KFM +GV P  K+LP GRIHFSG+D+DRPGNLVYRFC V +E+ DLLYQ CDA+PG+SGSGVY+R+ +  ++KW+RKIIG+FSGHQWVD+NG  QD+NVAVRITPLKYAQIC W+ G+   CR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>dbj|BAG64963.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAG64963</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>4.67991e-79</Hsp_evalue>
+      <Hsp_query-from>246</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>STDSEQPSFRWTRVKQMQVPKGWFKGISENVLADYDYAVLELKRAQKTKFMDLGVIPSVKKLPAGRIHFSGFDDDRPGNLVYRFCSVSEESNDLLYQYCDAKPGSSGSGVYIRLKEPGKKKWKRKIIGVFSGHQWVDVNGGQQDYNVAVRITPLKYAQICRWVHGDSSQCRD</Hsp_qseq>
+      <Hsp_hseq>SAMPEQMKFQWIRVKRTHVPKGWIKGNANDIGMDYDYALLELKKPHKRKFMKIGVSPPAKQLPGGRIHFSGYDNDRPGNLVYRFCDVKDETYDLLYQQCDAQPGASGSGVYVRMWKRQQQKWERKIIGIFSGHQWVDMNGSPQDFNVAVRITPLKYAQICYWIKGNYLDCRE</Hsp_hseq>
+      <Hsp_midline>S   EQ  F+W RVK+  VPKGW KG + ++  DYDYA+LELK+  K KFM +GV P  K+LP GRIHFSG+D+DRPGNLVYRFC V +E+ DLLYQ CDA+PG+SGSGVY+R+ +  ++KW+RKIIG+FSGHQWVD+NG  QD+NVAVRITPLKYAQIC W+ G+   CR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KAI2562229.1|</Hit_id>
+  <Hit_def>serine protease 23, partial [Homo sapiens] &gt;gb|KAI4073550.1| serine protease 23, partial [Homo sapiens] &gt;gb|PNI57149.1| PRSS23 isoform 1, partial [Pan troglodytes]</Hit_def>
+  <Hit_accession>KAI2562229</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.96952e-23</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>TWPQRKIPLVQEKQTVHLESSEFLAKPQNDLHGICGIECQQRLPEPSLDDLEQLLSYETMYDNGTRTLTTVTVQDLNVSNDWT----GASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSV</Hsp_qseq>
+      <Hsp_hseq>TWPAYRLPVVLPQSTLNLAKPDFGAEAKLEVSSSCGPQCHKGTPLPTYEEAKQYLSYETLYANGSRTETQVGIYILSSSGDGAQHRDSGSSGKSRRKRQIYGYDSRFSIFGKDFLLNYPFSTSV</Hsp_hseq>
+      <Hsp_midline>TWP  ++P+V  + T++L   +F A+ + ++   CG +C +  P P+ ++ +Q LSYET+Y NG+RT T V +  L+ S D        S   +R +R++YG D+RF+I  K + + YPFSTSV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|EAW71926.1|</Hit_id>
+  <Hit_def>kallikrein 3, (prostate specific antigen), isoform CRA_e [Homo sapiens] &gt;emb|CAC41631.1| putative preproPSA-RP2 [Homo sapiens] &gt;emb|CAC41632.1| putative preproPSA-RP2 [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71926</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0180036</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|EAW71927.1|</Hit_id>
+  <Hit_def>kallikrein 3, (prostate specific antigen), isoform CRA_f [Homo sapiens] &gt;gb|KAI2592576.1| kallikrein related peptidase 3 [Homo sapiens] &gt;gb|KAI4044224.1| kallikrein related peptidase 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71927</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0237136</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|AAD14185.1|</Hit_id>
+  <Hit_def>prostate-specific antigen, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAD14185</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0245483</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|NP_001025218.1|</Hit_id>
+  <Hit_def>prostate-specific antigen isoform 3 preproprotein [Homo sapiens] &gt;gb|EAW71936.1| kallikrein 3, (prostate specific antigen), isoform CRA_n [Homo sapiens] &gt;gb|KAI2592570.1| kallikrein related peptidase 3 [Homo sapiens] &gt;gb|KAI4044233.1| kallikrein related peptidase 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001025218</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0270389</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|KAI2592568.1|</Hit_id>
+  <Hit_def>kallikrein related peptidase 3 [Homo sapiens] &gt;gb|KAI4044227.1| kallikrein related peptidase 3 [Homo sapiens] &gt;emb|CAD30844.1| prostate specific antigen [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI2592568</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0271526</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|EAW71928.1|</Hit_id>
+  <Hit_def>kallikrein 3, (prostate specific antigen), isoform CRA_g [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71928</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0281745</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDG</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCIRNKSVILLG</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHCI N +  L G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|EAW71929.1|</Hit_id>
+  <Hit_def>kallikrein 3, (prostate specific antigen), isoform CRA_h [Homo sapiens] &gt;gb|KAI2592572.1| kallikrein related peptidase 3 [Homo sapiens] &gt;gb|KAI4044230.1| kallikrein related peptidase 3 [Homo sapiens] &gt;emb|CAD54617.1| prostate specific antigen [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71929</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.031906</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|EAW71923.1|</Hit_id>
+  <Hit_def>kallikrein 3, (prostate specific antigen), isoform CRA_b [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71923</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0353597</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|NP_001639.1|</Hit_id>
+  <Hit_def>prostate-specific antigen isoform 1 preproprotein [Homo sapiens] &gt;sp|P07288.2| RecName: Full=Prostate-specific antigen; Short=PSA; AltName: Full=Gamma-seminoprotein; Short=Seminin; AltName: Full=Kallikrein-3; AltName: Full=P-30 antigen; AltName: Full=Semenogelase; Flags: Precursor [Homo sapiens] &gt;gb|AAH50595.2| kallikrein-related peptidase 3 [synthetic construct] &gt;emb|SJX31542.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAA56764.1| prostate specific antigen precursor [Homo sapiens] &gt;gb|AAA58802.1| prostate-specific antigen [Homo sapiens] &gt;gb|AAA60192.1| prostate specific antigen [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001639</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0379797</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|EAW71933.1|</Hit_id>
+  <Hit_def>kallikrein 3, (prostate specific antigen), isoform CRA_l [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71933</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0425106</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|AAA59997.1|</Hit_id>
+  <Hit_def>prostate specific antigen precursor, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA59997</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0529078</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>LTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|EAW71922.1|</Hit_id>
+  <Hit_def>kallikrein 3, (prostate specific antigen), isoform CRA_a [Homo sapiens] &gt;gb|KAI2592575.1| kallikrein related peptidase 3 [Homo sapiens] &gt;gb|KAI4044231.1| kallikrein related peptidase 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71922</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0558909</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|AAX30052.1|</Hit_id>
+  <Hit_def>kallikrein 13 splice variant 4 [Homo sapiens] &gt;gb|KAI2592638.1| kallikrein related peptidase 13 [Homo sapiens] &gt;gb|KAI4044292.1| kallikrein related peptidase 13 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAX30052</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.06889</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNG</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCLKEG</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|AAA59996.1|</Hit_id>
+  <Hit_def>prostate specific antigen precursor, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA59996</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0735937</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>VVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|AAA59995.1|</Hit_id>
+  <Hit_def>prostate specific antigen precursor, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA59995</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0966858</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>LTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|EAW71931.1|</Hit_id>
+  <Hit_def>kallikrein 3, (prostate specific antigen), isoform CRA_j [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71931</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.11856</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHN</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCIRN</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHCI N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|KAI2592574.1|</Hit_id>
+  <Hit_def>kallikrein related peptidase 3, partial [Homo sapiens] &gt;gb|KAI4044226.1| kallikrein related peptidase 3, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI2592574</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.170826</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|AAK71706.1|</Hit_id>
+  <Hit_def>ARM1 [Homo sapiens] &gt;gb|KAI2592588.1| kallikrein related peptidase 4 [Homo sapiens] &gt;gb|KAI4044246.1| kallikrein related peptidase 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAK71706</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.188303</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>26</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHN</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQN</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|KAI2592573.1|</Hit_id>
+  <Hit_def>kallikrein related peptidase 3, partial [Homo sapiens] &gt;gb|KAI4044228.1| kallikrein related peptidase 3, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI2592573</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.205727</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|2ZCH|P</Hit_id>
+  <Hit_def>Chain P, Prostate-specific antigen [Homo sapiens] &gt;pdb|2ZCK|P Chain P, Prostate-specific antigen [Homo sapiens] &gt;pdb|2ZCL|P Chain P, Prostate-specific antigen [Homo sapiens] &gt;pdb|3QUM|P Chain P, Prostate-specific antigen [Homo sapiens] &gt;pdb|3QUM|Q Chain Q, Prostate-specific antigen [Homo sapiens] &gt;prf||1403294A gamma seminoprotein [Homo sapiens]</Hit_def>
+  <Hit_accession>2ZCH_P</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.259228</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|9ZJQ|A</Hit_id>
+  <Hit_def>Chain A, Prostate-specific antigen [Homo sapiens]</Hit_def>
+  <Hit_accession>9ZJQ_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.262768</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCIRNKSVILLGRHSL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHCI N +  L G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|AAK71704.1|</Hit_id>
+  <Hit_def>ARM1, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAK71704</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.265098</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>26</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHN</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQN</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|EAW71925.1|</Hit_id>
+  <Hit_def>kallikrein 3, (prostate specific antigen), isoform CRA_d [Homo sapiens] &gt;gb|KAI2592571.1| kallikrein related peptidase 3 [Homo sapiens] &gt;gb|KAI4044229.1| kallikrein related peptidase 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71925</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.278359</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTD</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRKPGD</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI    D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|NP_001025219.1|</Hit_id>
+  <Hit_def>prostate-specific antigen isoform 4 preproprotein [Homo sapiens] &gt;gb|EAW71930.1| kallikrein 3, (prostate specific antigen), isoform CRA_i [Homo sapiens] &gt;gb|KAI2592569.1| kallikrein related peptidase 3 [Homo sapiens] &gt;gb|KAI4044232.1| kallikrein related peptidase 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001025219</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.371403</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTD</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCIRKPGD</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI    D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|NP_001335106.1|</Hit_id>
+  <Hit_def>kallikrein-13 isoform 2 precursor [Homo sapiens] &gt;gb|EAW71981.1| kallikrein 13, isoform CRA_c [Homo sapiens] &gt;gb|KAI2592636.1| kallikrein related peptidase 13 [Homo sapiens] &gt;gb|KAI4044298.1| kallikrein related peptidase 13 [Homo sapiens] &gt;dbj|BAC75826.1| kallikrein 13 splicing variant 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001335106</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.396238</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCLKEGLKVYLGKHAL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+  G     G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>emb|CAB43320.2|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>CAB43320</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.497851</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCLKEGLKVYLGKHAL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+  G     G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_047294535.1|</Hit_id>
+  <Hit_def>kallikrein-13 isoform X2 [Homo sapiens] &gt;ref|XP_054176469.1| kallikrein-13 isoform X2 [Homo sapiens] &gt;gb|EAW71980.1| kallikrein 13, isoform CRA_b [Homo sapiens] &gt;gb|KAI2592639.1| kallikrein related peptidase 13 [Homo sapiens] &gt;gb|KAI4044299.1| kallikrein related peptidase 13 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_047294535</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.53795</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCLKEGLKVYLGKHAL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+  G     G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|KAI2592585.1|</Hit_id>
+  <Hit_def>kallikrein related peptidase 2 [Homo sapiens] &gt;gb|KAI4044236.1| kallikrein related peptidase 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI2592585</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.611989</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|AAX30051.1|</Hit_id>
+  <Hit_def>kallikrein 4 [Homo sapiens] &gt;gb|KAI2592591.1| kallikrein related peptidase 4 [Homo sapiens] &gt;gb|KAI4044247.1| kallikrein related peptidase 4 [Homo sapiens] &gt;gb|PNI11248.1| KLK4 isoform 5 [Pan troglodytes]</Hit_def>
+  <Hit_accession>AAX30051</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.635495</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIH</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQ</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|AAL14780.1|</Hit_id>
+  <Hit_def>kallikrein 4 splice variant [Homo sapiens] &gt;gb|AAL14781.1| kallikrein 4 splice variant [Homo sapiens]</Hit_def>
+  <Hit_accession>AAL14780</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.637405</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|NP_056411.1|</Hit_id>
+  <Hit_def>kallikrein-13 isoform 1 precursor [Homo sapiens] &gt;ref|XP_047294534.1| kallikrein-13 isoform X1 [Homo sapiens] &gt;ref|XP_054176468.1| kallikrein-13 isoform X1 [Homo sapiens] &gt;sp|Q9UKR3.1| RecName: Full=Kallikrein-13; AltName: Full=Kallikrein-like protein 4; Short=KLK-L4; Flags: Precursor [Homo sapiens] &gt;gb|ADQ32940.1| kallikrein-related peptidase 13, partial [synthetic construct] &gt;emb|SJX31780.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAD26425.2| kallikrein-like protein 4 KLK-L4 [Homo sapiens] &gt;gb|AAG23259.1| kallikrein 13 [Homo sapiens] &gt;gb|AAH69334.1| Kallikrein-related peptidase 13 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_056411</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.653292</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCLKEGLKVYLGKHAL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+  G     G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|AAA60193.1|</Hit_id>
+  <Hit_def>prostate-specific antigen [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA60193</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.65997</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>VTVQDLNVSNDWTGASQLHTRHRREVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>VPVVFLTLSVTWIGAAPLILS--RIVGGWEC------EKHSQPWQVLVASRGRAVCGGVLVHPQWVLTAAHCI</Hsp_hseq>
+      <Hsp_midline>V V  L +S  W GA+ L     R V G +       +++S  +    + +    C GVLV P+ VLTAAHCI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|EAW51725.1|</Hit_id>
+  <Hit_def>chymotrypsin C (caldecrin), isoform CRA_a, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW51725</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.824736</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>REVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQK</Hsp_qseq>
+      <Hsp_hseq>RVVGGEDARPHSWPWQISLQYLKNDTWRHT--CGGTLIASNFVLTAAHCISNTRTYRVAVGK</Hsp_hseq>
+      <Hsp_midline>R V G D R      Q S++Y  + + + +  C G L++   VLTAAHCI N   Y   V K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|QDZ37644.1|</Hit_id>
+  <Hit_def>KLK4-KLKP1 fusion protein [Homo sapiens] &gt;gb|UHA56992.1| putative KLK4 signalling molecule [Homo sapiens]</Hit_def>
+  <Hit_accession>QDZ37644</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.846024</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|AAA35527.1|</Hit_id>
+  <Hit_def>adipsin/complement factor D [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA35527</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.879046</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCAGVLVAERWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C+GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_011525847.1|</Hit_id>
+  <Hit_def>kallikrein-4 isoform X1 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_011525847</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.911631</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|AAK71705.1|</Hit_id>
+  <Hit_def>ARM1 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAK71705</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.989647</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|AAL14782.1|</Hit_id>
+  <Hit_def>kallikrein 4 splice variant [Homo sapiens]</Hit_def>
+  <Hit_accession>AAL14782</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.15118</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|AAK71701.1|</Hit_id>
+  <Hit_def>ARM1 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAK71701</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.34298</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_011538852.1|</Hit_id>
+  <Hit_def>chymotrypsin-C isoform X1 [Homo sapiens] &gt;ref|XP_054190022.1| chymotrypsin-C isoform X1 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_011538852</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.36261</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>REVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQK</Hsp_qseq>
+      <Hsp_hseq>RVVGGEDARPHSWPWQISLQYLKNDTWRHT--CGGTLIASNFVLTAAHCISNTRTYRVAVGK</Hsp_hseq>
+      <Hsp_midline>R V G D R      Q S++Y  + + + +  C G L++   VLTAAHCI N   Y   V K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>pdb|7JQO|E</Hit_id>
+  <Hit_def>Chain E, Kallikrein-4 [Homo sapiens]</Hit_def>
+  <Hit_accession>7JQO_E</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.3988</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gb|AAK71702.1|</Hit_id>
+  <Hit_def>ARM1 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAK71702</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.42618</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>emb|CAA74031.1|</Hit_id>
+  <Hit_def>chymotrypsin, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>CAA74031</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.4527</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>REVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKE</Hsp_qseq>
+      <Hsp_hseq>RVVGGEDARPHSWPWQISLQYLKDDTWRHT--CGGTLIASNFVLTAAHCISNTWTYRVAVGKNNLEVEDE</Hsp_hseq>
+      <Hsp_midline>R V G D R      Q S++Y    + + +  C G L++   VLTAAHCI N   Y   V K ++ V  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gb|AAH96177.3|</Hit_id>
+  <Hit_def>Kallikrein-related peptidase 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH96177</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.47503</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gb|EAW71945.1|</Hit_id>
+  <Hit_def>kallikrein 4 (prostase, enamel matrix, prostate), isoform CRA_c [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW71945</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.48923</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>pdb|7JQK|E</Hit_id>
+  <Hit_def>Chain E, Kallikrein-4 [Homo sapiens] &gt;pdb|7JQN|E Chain E, Kallikrein-4 [Homo sapiens]</Hit_def>
+  <Hit_accession>7JQK_E</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.48991</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|NP_004908.4|</Hit_id>
+  <Hit_def>kallikrein-4 isoform 1 preproprotein [Homo sapiens] &gt;gb|ADQ32870.1| kallikrein-related peptidase 4, partial [synthetic construct] &gt;emb|SJX31406.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAD26424.2| kallikrein-like protein 1 KLK-L1 [Homo sapiens] &gt;gb|AAD38019.1| kallikrein 4 splice variant [Homo sapiens] &gt;gb|AAF70620.1| serine protease 17 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_004908</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.54229</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>pdb|6NVB|A</Hit_id>
+  <Hit_def>Chain A, Kallikrein-4 [Homo sapiens] &gt;pdb|6NVB|B Chain B, Kallikrein-4 [Homo sapiens] &gt;pdb|6NVB|C Chain C, Kallikrein-4 [Homo sapiens] &gt;pdb|6NVB|D Chain D, Kallikrein-4 [Homo sapiens]</Hit_def>
+  <Hit_accession>6NVB_A</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.57958</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gb|AAK71700.1|</Hit_id>
+  <Hit_def>ARM1 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAK71700</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.60499</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>26</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHN</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQN</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>pdb|2BDG|A</Hit_id>
+  <Hit_def>Chain A, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDG|B Chain B, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDH|A Chain A, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDH|B Chain B, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDH|C Chain C, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDH|D Chain D, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|A Chain A, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|B Chain B, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|C Chain C, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|D Chain D, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|E Chain E, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|F Chain F, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|G Chain G, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|H Chain H, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|I Chain I, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|J Chain J, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|K Chain K, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|L Chain L, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|M Chain M, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|N Chain N, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|O Chain O, Kallikrein-4 [Homo sapiens] &gt;pdb|2BDI|P Chain P, Kallikrein-4 [Homo sapiens] &gt;pdb|4K1E|A Chain A, Kallikrein-4 [Homo sapiens] &gt;pdb|4K8Y|A Chain A, Kallikrein-4 [Homo sapiens] &gt;pdb|4KEL|A Chain A, Kallikrein-4 [Homo sapiens] &gt;pdb|4KGA|A Chain A, Kallikrein-4 [Homo sapiens] &gt;pdb|4KGA|B Chain B, Kallikrein-4 [Homo sapiens] &gt;pdb|6O21|A Chain A, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOD|E Chain E, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOE|E Chain E, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOS|A Chain A, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOS|C Chain C, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOS|E Chain E, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOS|G Chain G, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOS|I Chain I, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOS|K Chain K, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOS|M Chain M, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JOW|E Chain E, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens] &gt;pdb|7JQV|E Chain E, Kallikrein 4 (Prostase, enamel matrix, prostate), isoform CRA_a [Homo sapiens]</Hit_def>
+  <Hit_accession>2BDG_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.61579</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|NP_009203.2|</Hit_id>
+  <Hit_def>chymotrypsin-C preproprotein [Homo sapiens] &gt;sp|Q99895.2| RecName: Full=Chymotrypsin-C; AltName: Full=Caldecrin; Flags: Precursor [Homo sapiens] &gt;gb|AIC50866.1| CTRC, partial [synthetic construct] &gt;emb|SJX31818.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAH15118.1| Chymotrypsin C (caldecrin) [Homo sapiens] &gt;gb|EAW51726.1| chymotrypsin C (caldecrin), isoform CRA_b [Homo sapiens] &gt;gb|KAI2515200.1| chymotrypsin C [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_009203</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.64957</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>REVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKE</Hsp_qseq>
+      <Hsp_hseq>RVVGGEDARPHSWPWQISLQYLKNDTWRHT--CGGTLIASNFVLTAAHCISNTRTYRVAVGKNNLEVEDE</Hsp_hseq>
+      <Hsp_midline>R V G D R      Q S++Y  + + + +  C G L++   VLTAAHCI N   Y   V K ++ V  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|NP_001304264.1|</Hit_id>
+  <Hit_def>complement factor D isoform 2 precursor [Homo sapiens] &gt;gb|KAI2587505.1| complement factor D [Homo sapiens] &gt;gb|KAI4039171.1| complement factor D [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001304264</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.65667</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gb|AAB47104.2|</Hit_id>
+  <Hit_def>caldecrin precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>AAB47104</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.69413</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>REVYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKE</Hsp_qseq>
+      <Hsp_hseq>RVVGGEDARPHSWPWQISLQYLKNDTWRHT--CGGTLIASNFVLTAAHCISNTRTYRVAVGKNNLEVEDE</Hsp_hseq>
+      <Hsp_midline>R V G D R      Q S++Y  + + + +  C G L++   VLTAAHCI N   Y   V K ++ V  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gb|AAG43246.1|</Hit_id>
+  <Hit_def>enamel matrix serine proteinase 1, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAG43246</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.71445</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>sp|Q9Y5K2.2|</Hit_id>
+  <Hit_def>RecName: Full=Kallikrein-4; AltName: Full=Enamel matrix serine proteinase 1; AltName: Full=Kallikrein-like protein 1; Short=KLK-L1; AltName: Full=Prostase; AltName: Full=Serine protease 17; Flags: Precursor [Homo sapiens] &gt;gb|AAD21580.1| serine protease prostase [Homo sapiens] &gt;gb|AAD21581.1| serine protease prostase [Homo sapiens] &gt;gb|AAG33357.1| serine protease [Homo sapiens] &gt;pdb|6KBR|A Chain A, Kallikrein-4 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9Y5K2</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.73185</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CSGVLVHPQWVLSAAHCFQNSYTIGLGLHSL</Hsp_hseq>
+      <Hsp_midline>CSGVLV P+ VL+AAHC  N      G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>pdb|1DST|A</Hit_id>
+  <Hit_def>Chain A, FACTOR D [Homo sapiens]</Hit_def>
+  <Hit_accession>1DST_A</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.77366</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAAD</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|AQM72977.1|</Hit_id>
+  <Hit_def>kallikrein-2 isoform 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>AQM72977</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.79144</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|AAH40146.1|</Hit_id>
+  <Hit_def>CFD protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH40146</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.97382</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|ABI63376.1|</Hit_id>
+  <Hit_def>complement factor D preproprotein [Homo sapiens]</Hit_def>
+  <Hit_accession>ABI63376</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.99715</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>emb|CAG38812.1|</Hit_id>
+  <Hit_def>DF [Homo sapiens]</Hit_def>
+  <Hit_accession>CAG38812</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.01156</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|NP_001919.2|</Hit_id>
+  <Hit_def>complement factor D isoform 1 preproprotein [Homo sapiens] &gt;sp|P00746.5| RecName: Full=Complement factor D; AltName: Full=Adipsin; AltName: Full=C3 convertase activator; AltName: Full=Properdin factor D; Flags: Precursor [Homo sapiens] &gt;dbj|BAJ21016.1| complement factor D, partial [synthetic construct] &gt;gb|AAH57807.1| Complement factor D (adipsin) [Homo sapiens] &gt;gb|EAW69588.1| complement factor D (adipsin) [Homo sapiens] &gt;gb|KAI2587506.1| complement factor D [Homo sapiens] &gt;gb|KAI4039170.1| complement factor D [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001919</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.06355</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gb|AAH34529.1|</Hit_id>
+  <Hit_def>CFD protein, partial [Homo sapiens] &gt;pdb|1FDP|A Chain A, PROENZYME OF COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|1FDP|B Chain B, PROENZYME OF COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|1FDP|C Chain C, PROENZYME OF COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|1FDP|D Chain D, PROENZYME OF COMPLEMENT FACTOR D [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH34529</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.08566</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>pdb|2XW9|A</Hit_id>
+  <Hit_def>Chain A, COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|2XWB|I Chain I, COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|2XWB|J Chain J, COMPLEMENT FACTOR D [Homo sapiens]</Hit_def>
+  <Hit_accession>2XW9_A</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.10403</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>pdb|5FBE|A</Hit_id>
+  <Hit_def>Chain A, Complement factor D [Homo sapiens] &gt;pdb|5FBI|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|5FCK|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|5MT0|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|5MT4|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|5NAR|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|5NAT|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|5NAW|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|5NB6|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|6FTY|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|6FTZ|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|6FUG|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|6FUG|B Chain B, Complement factor D [Homo sapiens] &gt;pdb|6FUG|C Chain C, Complement factor D [Homo sapiens] &gt;pdb|6FUG|D Chain D, Complement factor D [Homo sapiens] &gt;pdb|6FUG|E Chain E, Complement factor D [Homo sapiens] &gt;pdb|6FUG|F Chain F, Complement factor D [Homo sapiens] &gt;pdb|6FUH|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|6FUI|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|6FUJ|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|6FUJ|B Chain B, Complement factor D [Homo sapiens] &gt;pdb|6FUJ|C Chain C, Complement factor D [Homo sapiens] &gt;pdb|6FUJ|D Chain D, Complement factor D [Homo sapiens] &gt;pdb|6FUJ|E Chain E, Complement factor D [Homo sapiens] &gt;pdb|6FUJ|F Chain F, Complement factor D [Homo sapiens] &gt;pdb|6FUT|A Chain A, Complement factor D [Homo sapiens]</Hit_def>
+  <Hit_accession>5FBE_A</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.11834</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>pdb|6QMR|A</Hit_id>
+  <Hit_def>Chain A, Complement factor D [Homo sapiens] &gt;pdb|6QMR|B Chain B, Complement factor D [Homo sapiens] &gt;pdb|6QMR|C Chain C, Complement factor D [Homo sapiens] &gt;pdb|6QMR|D Chain D, Complement factor D [Homo sapiens] &gt;pdb|6QMR|E Chain E, Complement factor D [Homo sapiens] &gt;pdb|6QMR|F Chain F, Complement factor D [Homo sapiens] &gt;pdb|6QMT|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|6QMT|B Chain B, Complement factor D [Homo sapiens]</Hit_def>
+  <Hit_accession>6QMR_A</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.14498</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>pdb|5NB7|A</Hit_id>
+  <Hit_def>Chain A, Complement factor D [Homo sapiens] &gt;pdb|5NBA|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|8D95|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|8DEA|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|8DEA|B Chain B, Complement factor D [Homo sapiens] &gt;pdb|8DEA|C Chain C, Complement factor D [Homo sapiens] &gt;pdb|8DEA|D Chain D, Complement factor D [Homo sapiens]</Hit_def>
+  <Hit_accession>5NB7_A</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.15931</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>pdb|1BIO|A</Hit_id>
+  <Hit_def>Chain A, COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|1DFP|A Chain A, FACTOR D [Homo sapiens] &gt;pdb|1DFP|B Chain B, FACTOR D [Homo sapiens] &gt;pdb|1DIC|A Chain A, FACTOR D [Homo sapiens] &gt;pdb|1DSU|A Chain A, FACTOR D [Homo sapiens] &gt;pdb|1DSU|B Chain B, FACTOR D [Homo sapiens] &gt;pdb|1HFD|A Chain A, COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|4D9R|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|4D9R|B Chain B, Complement factor D [Homo sapiens] &gt;pdb|5TCA|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|5TCA|B Chain B, Complement factor D [Homo sapiens] &gt;pdb|5TCA|C Chain C, Complement factor D [Homo sapiens] &gt;pdb|5TCA|D Chain D, Complement factor D [Homo sapiens] &gt;pdb|5TCA|E Chain E, Complement factor D [Homo sapiens] &gt;pdb|5TCA|F Chain F, Complement factor D [Homo sapiens] &gt;pdb|5TCA|G Chain G, Complement factor D [Homo sapiens] &gt;pdb|5TCC|A Chain A, Complement factor D [Homo sapiens] &gt;pdb|5TCC|B Chain B, Complement factor D [Homo sapiens] &gt;pdb|5TCC|C Chain C, Complement factor D [Homo sapiens] &gt;pdb|5TCC|D Chain D, Complement factor D [Homo sapiens] &gt;pdb|5TCC|E Chain E, Complement factor D [Homo sapiens] &gt;pdb|5TCC|F Chain F, Complement factor D [Homo sapiens] &gt;pdb|5TCC|G Chain G, Complement factor D [Homo sapiens] &gt;pdb|6VMJ|W Chain W, Complement factor D [Homo sapiens] &gt;pdb|6VMJ|X Chain X, Complement factor D [Homo sapiens] &gt;pdb|6VMJ|Y Chain Y, Complement factor D [Homo sapiens] &gt;pdb|6VMJ|Z Chain Z, Complement factor D [Homo sapiens] &gt;pdb|6VMK|C Chain C, Complement factor D [Homo sapiens] &gt;pdb|6VMK|F Chain F, Complement factor D [Homo sapiens] &gt;pdb|6VMK|I Chain I, Complement factor D [Homo sapiens] &gt;pdb|6VMK|N Chain N, Complement factor D [Homo sapiens] &gt;pdb|6VMK|Q Chain Q, Complement factor D [Homo sapiens] &gt;pdb|6VMK|T Chain T, Complement factor D [Homo sapiens] &gt;pdb|6VMK|W Chain W, Complement factor D [Homo sapiens] &gt;pdb|6VMK|X Chain X, Complement factor D [Homo sapiens] &gt;pdb|6VMK|a Chain a, Complement factor D [Homo sapiens] &gt;pdb|6VMK|d Chain d, Complement factor D [Homo sapiens] &gt;pdb|6VMK|g Chain g, Complement factor D [Homo sapiens] &gt;pdb|6VMK|j Chain j, Complement factor D [Homo sapiens] &gt;pdb|6VMK|m Chain m, Complement factor D [Homo sapiens] &gt;pdb|6VMK|p Chain p, Complement factor D [Homo sapiens] &gt;pdb|6VMK|s Chain s, Complement factor D [Homo sapiens] &gt;pdb|6VMK|v Chain v, Complement factor D [Homo sapiens] &gt;pdb|8DG6|A Chain A, Complement factor D [Homo sapiens]</Hit_def>
+  <Hit_accession>1BIO_A</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.20073</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gb|AAH51001.1|</Hit_id>
+  <Hit_def>CFD protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH51001</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.24401</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>pdb|2XWA|A</Hit_id>
+  <Hit_def>Chain A, COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|2XWA|B Chain B, COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|4CBN|A Chain A, COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|4CBN|B Chain B, COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|4CBO|A Chain A, COMPLEMENT FACTOR D [Homo sapiens] &gt;pdb|4CBO|B Chain B, COMPLEMENT FACTOR D [Homo sapiens]</Hit_def>
+  <Hit_accession>2XWA_A</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.26087</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>PFSTSVKISTG--CSGVLVSPKHVLTAAHCIHNGTD----YLDGVQKLS</Hsp_qseq>
+      <Hsp_hseq>PYMASVQLNGAHLCGGVLVAEQWVLSAAHCLEDAADGKVQVLLGAHSLS</Hsp_hseq>
+      <Hsp_midline>P+  SV+++    C GVLV+ + VL+AAHC+ +  D     L G   LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|AAB51205.1|</Hit_id>
+  <Hit_def>factor XII, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAB51205</Hit_accession>
+  <Hit_len>40</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.28475</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHN</Hsp_qseq>
+      <Hsp_hseq>CAGSLIAPCWVLTAAHCLQD</Hsp_hseq>
+      <Hsp_midline>C+G L++P  VLTAAHC+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|AAB51206.1|</Hit_id>
+  <Hit_def>factor XII, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAB51206</Hit_accession>
+  <Hit_len>40</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.65054</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHN</Hsp_qseq>
+      <Hsp_hseq>CAGSLIAPCWVLTAAHCMQD</Hsp_hseq>
+      <Hsp_midline>C+G L++P  VLTAAHC+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gb|KAI2592580.1|</Hit_id>
+  <Hit_def>kallikrein related peptidase 2 [Homo sapiens] &gt;gb|KAI4044234.1| kallikrein related peptidase 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI2592580</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.79573</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>pdb|1B0F|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (ELASTASE) [Homo sapiens]</Hit_def>
+  <Hit_accession>1B0F_A</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.91777</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>KYPFSTSVKISTG--CSGVLVSPKHVLTAAHC</Hsp_qseq>
+      <Hsp_hseq>AWPFMVSLQLAGGHFCGATLIAPNFVMSAAHC</Hsp_hseq>
+      <Hsp_midline> +PF  S++++ G  C   L++P  V++AAHC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|NP_001245280.2|</Hit_id>
+  <Hit_def>granzyme M isoform 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001245280</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.9442</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>pdb|4H4F|A</Hit_id>
+  <Hit_def>Chain A, Chymotrypsin-C [Homo sapiens]</Hit_def>
+  <Hit_accession>4H4F_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.96429</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>VYGTDTRFTITDKQYSMKYPFSTSVKISTGCSGVLVSPKHVLTAAHCIHNGTDYLDGVQKLSVGVLKE</Hsp_qseq>
+      <Hsp_hseq>VGGEDARPHSWPWQISLQYLKNDTWRHT--CGGTLIASNFVLTAAHCISNTRTYRVAVGKNNLEVEDE</Hsp_hseq>
+      <Hsp_midline>V G D R      Q S++Y  + + + +  C G L++   VLTAAHCI N   Y   V K ++ V  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|KAI2587453.1|</Hit_id>
+  <Hit_def>granzyme M [Homo sapiens] &gt;gb|KAI4039117.1| granzyme M [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI2587453</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.97086</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>pdb|2ZGC|A</Hit_id>
+  <Hit_def>Chain A, Granzyme M [Homo sapiens] &gt;pdb|2ZGH|A Chain A, Granzyme M [Homo sapiens] &gt;pdb|2ZKS|A Chain A, Granzyme M [Homo sapiens]</Hit_def>
+  <Hit_accession>2ZGC_A</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.20498</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gb|AAA57257.1|</Hit_id>
+  <Hit_def>metase, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA57257</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.23404</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>pdb|2ZGJ|A</Hit_id>
+  <Hit_def>Chain A, Granzyme M [Homo sapiens]</Hit_def>
+  <Hit_accession>2ZGJ_A</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.26281</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gb|AQM72978.1|</Hit_id>
+  <Hit_def>kallikrein-2 isoform 5 [Homo sapiens]</Hit_def>
+  <Hit_accession>AQM72978</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.64162</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCLKKNSQVWLGRHNL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+   +    G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gb|AAA59582.1|</Hit_id>
+  <Hit_def>metase [Homo sapiens] &gt;gb|ADR82740.1| granzyme M (lymphocyte met-ase 1), partial [synthetic construct] &gt;emb|SJX40652.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAH25701.1| Granzyme M (lymphocyte met-ase 1) [Homo sapiens] &gt;gb|AIC48906.1| GZMM, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAA59582</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.65896</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|NP_005308.2|</Hit_id>
+  <Hit_def>granzyme M isoform 1 preproprotein [Homo sapiens] &gt;sp|P51124.2| RecName: Full=Granzyme M; AltName: Full=Met-1 serine protease; Short=Hu-Met-1; AltName: Full=Met-ase; AltName: Full=Natural killer cell granular protease; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_005308</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.65896</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCI</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVLTAAHCL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK VLTAAHC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gb|AAF08275.1|</Hit_id>
+  <Hit_def>prostrate kallikrein 2 [Homo sapiens] &gt;gb|EAW71942.1| kallikrein 2, prostatic, isoform CRA_d [Homo sapiens] &gt;gb|KAI2592581.1| kallikrein related peptidase 2 [Homo sapiens] &gt;gb|KAI4044242.1| kallikrein related peptidase 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAF08275</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.85328</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCLKKNSQVWLGRHNL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+   +    G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>dbj|BAG70279.1|</Hit_id>
+  <Hit_def>kallikrein 13 precursor, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAG70279</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>4.8875</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPKWVPTAAHCLKEGLKVYLGKHAL</Hsp_hseq>
+      <Hsp_midline>C GVLV PK V TAAHC+  G     G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gb|AAR10468.1|</Hit_id>
+  <Hit_def>kallikrein 2 isoform 5 preproprotein [Homo sapiens]</Hit_def>
+  <Hit_accession>AAR10468</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.13571</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCLKKNSQVWLGRHNL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+   +    G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>pdb|4NFE|A</Hit_id>
+  <Hit_def>Chain A, Kallikrein-2 [Homo sapiens] &gt;pdb|4NFF|A Chain A, Kallikrein-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>4NFE_A</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>6.20412</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCLKKNSQVWLGRHNL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+   +    G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>dbj|BAG62272.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAG62272</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.48189</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCLKKNSQVWLGRHNL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+   +    G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|NP_001002231.1|</Hit_id>
+  <Hit_def>kallikrein-2 isoform 2 preproprotein [Homo sapiens] &gt;gb|AAD13817.1| glandular kallikrein-1 [Homo sapiens] &gt;gb|AAF08277.1| prostrate kallikrein 2 [Homo sapiens] &gt;gb|EAW71938.1| kallikrein 2, prostatic, isoform CRA_b [Homo sapiens] &gt;gb|EAW71939.1| kallikrein 2, prostatic, isoform CRA_b [Homo sapiens] &gt;gb|KAI2592579.1| kallikrein related peptidase 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001002231</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.69343</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCLKKNSQVWLGRHNL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+   +    G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>pdb|1H1B|A</Hit_id>
+  <Hit_def>Chain A, LEUKOCYTE ELASTASE [Homo sapiens] &gt;pdb|1H1B|B Chain B, LEUKOCYTE ELASTASE [Homo sapiens] &gt;pdb|1PPG|E Chain E, HUMAN LEUKOCYTE ELASTASE [Homo sapiens] &gt;pdb|2Z7F|E Chain E, Leukocyte elastase [Homo sapiens] &gt;pdb|3Q76|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|3Q76|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|3Q77|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|4NZL|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|4WVP|E Chain E, Neutrophil elastase [Homo sapiens] &gt;pdb|5A09|A Chain A, NEUTROPHIL ELASTASE [Homo sapiens] &gt;pdb|5A0A|E Chain E, NEUTROPHIL ELASTASE [Homo sapiens] &gt;pdb|5A0B|A Chain A, Neutrophil Elastase [Homo sapiens] &gt;pdb|5A0C|A Chain A, NEUTROPHIL ELASTASE [Homo sapiens] &gt;pdb|5A0C|B Chain B, NEUTROPHIL ELASTASE [Homo sapiens] &gt;pdb|5A8X|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|5A8Y|A Chain A, NEUTROPHIL ELASTASE [Homo sapiens] &gt;pdb|5A8Z|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|5ABW|A Chain A, Neutrophil Elastase [Homo sapiens] &gt;pdb|6E69|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|6E69|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|6E69|C Chain C, Neutrophil elastase [Homo sapiens] &gt;pdb|6E69|D Chain D, Neutrophil elastase [Homo sapiens] &gt;pdb|6F5M|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|6F5M|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|6SMA|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|6SMA|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|6SMA|C Chain C, Neutrophil elastase [Homo sapiens] &gt;pdb|8D4Q|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|8D4Q|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|8D4U|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|8D4U|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7I|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7I|D Chain D, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7I|G Chain G, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7I|J Chain J, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7I|M Chain M, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7I|P Chain P, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7K|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7K|D Chain D, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7K|G Chain G, Neutrophil elastase [Homo sapiens] &gt;pdb|8D7K|J Chain J, Neutrophil elastase [Homo sapiens] &gt;pdb|8G24|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|8G25|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|8G25|E Chain E, Neutrophil elastase [Homo sapiens] &gt;pdb|8G25|H Chain H, Neutrophil elastase [Homo sapiens] &gt;pdb|8G26|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|8QGX|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|8VK5|E Chain E, Neutrophil elastase [Homo sapiens] &gt;pdb|9ASS|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|9ASX|B Chain B, Neutrophil elastase [Homo sapiens] &gt;pdb|9ATK|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|9ATK|D Chain D, Neutrophil elastase [Homo sapiens] &gt;pdb|9ATK|G Chain G, Neutrophil elastase [Homo sapiens] &gt;pdb|9ATK|J Chain J, Neutrophil elastase [Homo sapiens] &gt;pdb|9ATU|A Chain A, Neutrophil elastase [Homo sapiens] &gt;pdb|9ATU|C Chain C, Neutrophil elastase [Homo sapiens] &gt;pdb|9ATU|D Chain D, Neutrophil elastase [Homo sapiens] &gt;pdb|9ATU|F Chain F, Neutrophil elastase [Homo sapiens] &gt;pdb|9SI4|A Chain A, Neutrophil elastase [Homo sapiens]</Hit_def>
+  <Hit_accession>1H1B_A</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.80353</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>KYPFSTSVKISTG--CSGVLVSPKHVLTAAHC</Hsp_qseq>
+      <Hsp_hseq>AWPFMVSLQLRGGHFCGATLIAPNFVMSAAHC</Hsp_hseq>
+      <Hsp_midline> +PF  S+++  G  C   L++P  V++AAHC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gb|KAI4044238.1|</Hit_id>
+  <Hit_def>kallikrein related peptidase 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI4044238</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>6.82751</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>CSGVLVSPKHVLTAAHCIHNGTDYLDGVQKL</Hsp_qseq>
+      <Hsp_hseq>CGGVLVHPQWVLTAAHCLKKNSQVWLGRHNL</Hsp_hseq>
+      <Hsp_midline>C GVLV P+ VLTAAHC+   +    G   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>2278835</Statistics_db-num>
+      <Statistics_db-len>223971059</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

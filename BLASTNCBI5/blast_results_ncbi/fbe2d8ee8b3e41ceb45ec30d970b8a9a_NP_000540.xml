@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_290203</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000540.2 thyrotropin subunit beta isoform 1 precursor [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>138</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_290203</Iteration_query-ID>
+  <Iteration_query-def>NP_000540.2 thyrotropin subunit beta isoform 1 precursor [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>138</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AAI63604.1|</Hit_id>
+  <Hit_def>Thyroid stimulating hormone, beta subunit [Danio rerio] &gt;gb|AAI63605.1| Thyroid stimulating hormone, beta subunit [Danio rerio]</Hit_def>
+  <Hit_accession>AAI63604</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>3.19097e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MTALFLMSMLFGLTCGQAMSFCIPTEYTMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCIHEAIKTN----YCTKP</Hsp_qseq>
+      <Hsp_hseq>MSLLYVIGML-GLLMKVAVPMCAPTDYTIYIERQECNYCVAVNTTICMGFCFSRDSNIKELVGPRFIVQRGCTYQEVEYRTAVLPGCPSHADPHFTYPVALSCHCSTCKTHSDEC---ALKTRSAGMRCSKP</Hsp_hseq>
+      <Hsp_midline>M+ L+++ ML GL    A+  C PT+YT++IER+EC YC+ +NTTIC G+C +RD N K  +    + Q  CTY++  YRT  +PGCP H  P+F+YPVALSC C  C T   +C   A+KT      C+KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_852471.1|</Hit_id>
+  <Hit_def>thyroid stimulating hormone subunit beta a precursor [Danio rerio] &gt;gb|AAN08914.1| thyriod-stimulating hormone beta subunit [Danio rerio]</Hit_def>
+  <Hit_accession>NP_852471</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>7.38017e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MTALFLMSMLFGLTCGQAMSFCIPTEYTMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCIHEAIKTN----YCTKP</Hsp_qseq>
+      <Hsp_hseq>MSLLYVIGML-GLLMKVAVPMCAPTDYTIYIERQECNYCVAVNTTICMGFCFSRDSNIKELVGPRFIVQRGCTYQEVEYRTAVLPGCPSHADPHFTYPVALSCHCSTCKTHSDEC---ALRTRSAGMRCSKP</Hsp_hseq>
+      <Hsp_midline>M+ L+++ ML GL    A+  C PT+YT++IER+EC YC+ +NTTIC G+C +RD N K  +    + Q  CTY++  YRT  +PGCP H  P+F+YPVALSC C  C T   +C   A++T      C+KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_073808740.1|</Hit_id>
+  <Hit_def>thyroid stimulating hormone subunit beta a isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073808740</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>5.30698e-31</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>FCIPTEYTMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCIHEAIKTN----YCTKP</Hsp_qseq>
+      <Hsp_hseq>MCAPTDYTIYIERQECNYCVAVNTTICMGFCFSRDSNIKELVGPRFIVQRGCTYQEVEYRTAVLPGCPSHADPHFTYPVALSCHCSTCKTHSDEC---ALKTRSAGMRCSKP</Hsp_hseq>
+      <Hsp_midline> C PT+YT++IER+EC YC+ +NTTIC G+C +RD N K  +    + Q  CTY++  YRT  +PGCP H  P+F+YPVALSC C  C T   +C   A+KT      C+KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_073795714.1|</Hit_id>
+  <Hit_def>thyrotropin subunit beta [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073795714</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>4.09352e-30</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>CIPTEYTMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCI-HEAIKTNYCTK</Hsp_qseq>
+      <Hsp_hseq>CSLKNYTLYVEKHECGHCMAINTTVCSGMCFTRDTNVQGFVGKRFLLQQSCMHRSLVYRSARMPGCPVHIDPLFFYPVARRCNCTKCNTSRNECVFRHKHKHNRCSK</Hsp_hseq>
+      <Hsp_midline>C    YT+++E+ EC +C+ INTT+C+G C TRD N + F+ K  L Q  C +R  +YR+  +PGCP+H+ P F YPVA  C C KCNT  ++C+     K N C+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAV31153.1|</Hit_id>
+  <Hit_def>luteinizing hormone beta-subunit [Danio rerio]</Hit_def>
+  <Hit_accession>AAV31153</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>2.71008e-22</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>TMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCIHEAIKTNYCTKPQKSY</Hsp_qseq>
+      <Hsp_hseq>TVSVEKEGCPKCLVFQTTICSGHCVTRDPVYKS--PFSTVHQTVCTYRDVRYETINLPDCSAGVDPQITYPVALSCDCSLCTINTSDCTIQSLQPDFCMSQREDF</Hsp_hseq>
+      <Hsp_midline>T+ +E+  C  CL   TTIC+G+C+TRD   K   P   + Q VCTYRD  Y T+ +P C   V P  +YPVALSC C  C  + SDC  ++++ ++C   ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_991185.1|</Hit_id>
+  <Hit_def>lutropin subunit beta precursor [Danio rerio] &gt;gb|AAH75999.1| Luteinizing hormone, beta polypeptide [Danio rerio] &gt;gb|AAI62111.1| Lhb protein [Danio rerio] &gt;gb|AAI62119.1| Lhb protein [Danio rerio] &gt;gb|AAR84284.1| luteinizing hormone beta 2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_991185</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>3.18731e-22</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>TMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCIHEAIKTNYCTKPQKSY</Hsp_qseq>
+      <Hsp_hseq>TVSVEKEGCPKCLVFQTTICSGHCVTRDPVYKS--PFSTVHQTVCTYRDVRYETINLPDCSAGVDPQITYPVALSCDCSLCTINTSDCTIQSLQPDFCMSQREDF</Hsp_hseq>
+      <Hsp_midline>T+ +E+  C  CL   TTIC+G+C+TRD   K   P   + Q VCTYRD  Y T+ +P C   V P  +YPVALSC C  C  + SDC  ++++ ++C   ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|CCE39580.1|</Hit_id>
+  <Hit_def>luteinizing hormone, beta polypeptide, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CCE39580</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>6.79824e-22</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>TMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCIHEAIKTNYC</Hsp_qseq>
+      <Hsp_hseq>TVSVEKEGCPKCLVFQTTICSGHCVTRDPVYKS--PFSTVHQTVCTYRDVRYETINLPDCSAGVDPQITYPVALSCDCSLCTINTSDCTIQSLQPDFC</Hsp_hseq>
+      <Hsp_midline>T+ +E+  C  CL   TTIC+G+C+TRD   K   P   + Q VCTYRD  Y T+ +P C   V P  +YPVALSC C  C  + SDC  ++++ ++C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_073775576.1|</Hit_id>
+  <Hit_def>lutropin subunit beta isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073775576</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.03832e-21</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>TMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCIHEAIKTNYCTKPQKSY</Hsp_qseq>
+      <Hsp_hseq>TVSVEKEGCPKCLVFQTTICSGHCVTRDPVYKS--PFSTVHQTVCTYRDVRYETINLPDCSAGVDPQITYPVALSCDCSLCTINTSDCTIQSLQPDFCMSQREDF</Hsp_hseq>
+      <Hsp_midline>T+ +E+  C  CL   TTIC+G+C+TRD   K   P   + Q VCTYRD  Y T+ +P C   V P  +YPVALSC C  C  + SDC  ++++ ++C   ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AAR84283.1|</Hit_id>
+  <Hit_def>luteinizing hormone beta 1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAR84283</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.87604e-21</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>TMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCIHEAIKTNYCTKPQKSY</Hsp_qseq>
+      <Hsp_hseq>TVSVEKEGCPKCLVFQTTICSGHCVTRDPVYKS--PFSTVHQTVCMYRDVRYETINLPDCSAGVDPQITYPVALSCDCSLCTINTSDCTIQSLQPDFCMSQREDF</Hsp_hseq>
+      <Hsp_midline>T+ +E+  C  CL   TTIC+G+C+TRD   K   P   + Q VC YRD  Y T+ +P C   V P  +YPVALSC C  C  + SDC  ++++ ++C   ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AAS45559.1|</Hit_id>
+  <Hit_def>luteinizing hormone beta, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAS45559</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.34751e-19</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>IERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALSQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCIHE</Hsp_qseq>
+      <Hsp_hseq>LEKEGCPKCLVFQTTICSGHCVTRDPVYKS--PFSTVHQTVCTYRDVRYETINLPDCSAGVDPQITYPVALSCDCSLCTINTSDCTFE</Hsp_hseq>
+      <Hsp_midline>+E+  C  CL   TTIC+G+C+TRD   K   P   + Q VCTYRD  Y T+ +P C   V P  +YPVALSC C  C  + SDC  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|NP_991187.1|</Hit_id>
+  <Hit_def>follitropin subunit beta precursor [Danio rerio] &gt;gb|AAR84282.1| follicle-stimulating hormone beta subunit [Danio rerio] &gt;gb|AAV31152.1| follicle stimulating hormone beta-subunit [Danio rerio]</Hit_def>
+  <Hit_accession>NP_991187</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>2.03679e-18</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>CIPTEYTMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYAL-SQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSD</Hsp_qseq>
+      <Hsp_hseq>CRLTNISITVESEECGSCVTIDTTACAGLCWTMD---RVYPSSMAQHTQKVCNFKNLMYKSYEFKGCPAGVDSVFVYPVALSCECNQVNSDTTD</Hsp_hseq>
+      <Hsp_midline>C  T  ++ +E  EC  C+TI+TT CAG C T D   +++    A  +Q VC +++ +Y++ E  GCP  V   F YPVALSC+C + N+D +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AAS45558.1|</Hit_id>
+  <Hit_def>follicle stimulating hormone beta, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAS45558</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>7.60987e-15</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>IERRECAYCLTINTTICAGYCMTRDINGKLFLPKYAL-SQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKC</Hsp_qseq>
+      <Hsp_hseq>VESEECGSCVTIDTTACAGLCWTMD---RVYPSSMAQHTQKVCNFKNLMYKSYEFKGCPAGVDSVFVYPVALSCDC</Hsp_hseq>
+      <Hsp_midline>+E  EC  C+TI+TT CAG C T D   +++    A  +Q VC +++ +Y++ E  GCP  V   F YPVALSC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_073762460.1|</Hit_id>
+  <Hit_def>follitropin subunit beta isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073762460</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>2.02415e-14</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>CIPTEYTMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYAL-SQDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSC</Hsp_qseq>
+      <Hsp_hseq>CRLTNISITVESEECGSCVTIDTTACAGLCWTMD---RVYPSSMAQHTQKVCNFKNLMYKSYEFKGCPAGVDSVFVYPVALSC</Hsp_hseq>
+      <Hsp_midline>C  T  ++ +E  EC  C+TI+TT CAG C T D   +++    A  +Q VC +++ +Y++ E  GCP  V   F YPVALSC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|NP_001159810.1|</Hit_id>
+  <Hit_def>glycoprotein hormone beta-5 precursor [Danio rerio] &gt;ref|XP_073775275.1| glycoprotein hormone beta-5 isoform X1 [Danio rerio] &gt;gb|ABR68846.1| thyrostimulin beta subunit [Danio rerio] &gt;tpe|CAR95360.1| TPA: putative glycoprotein hormone-beta5 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001159810</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.94881e-09</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>CIPTEYTMHIERRECAYCLTINTTICAGYCMTRDINGKLFLPKYALS-QDVCTYRDFIYRTVEIPGCPLHVAPYFSYPVALSCKCGKCNTDYSDCI</Hsp_qseq>
+      <Hsp_hseq>CAVREFTFLARKPGCGG-LHITTDACWGRCET--WQKPVLEPPFIESHQRVCTYNETRQETVLLPNCTAGVDPSYSFPVALRCDCGLCLTSTTECI</Hsp_hseq>
+      <Hsp_midline>C   E+T    +  C   L I T  C G C T      +  P +  S Q VCTY +    TV +P C   V P +S+PVAL C CG C T  ++CI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

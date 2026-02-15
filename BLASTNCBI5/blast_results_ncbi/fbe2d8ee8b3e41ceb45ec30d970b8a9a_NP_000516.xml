@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_580333</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000516.3 ATP-sensitive inward rectifier potassium channel 11 isoform 1 [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>390</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_580333</Iteration_query-ID>
+  <Iteration_query-def>NP_000516.3 ATP-sensitive inward rectifier potassium channel 11 isoform 1 [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>390</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_001034916.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 11 [Danio rerio] &gt;gb|AAI63173.1| Potassium inwardly-rectifying channel, subfamily J, member 11 [Danio rerio] &gt;gb|AAI63174.1| Potassium inwardly-rectifying channel, subfamily J, member 11 [Danio rerio] &gt;dbj|BAE79479.1| Kir6.2 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001034916</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>573.933</Hsp_bit-score>
+      <Hsp_score>1478</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>MLSRKGIIPEEYVLTRLAEDPAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>MLSRKGLIPEDYLLTRLAEDVLQPKFKTKQRKARFVAKNGTCNVAHTNIREQGRFLQDVFTTLVDLKWLHTLVIFTMSFLCSWLLFGMIWWLIAFAHGDLDLKGEDFVPCVTDIHSFSSAFLFSIEVQVTIGFGGRMITEECVSAIVILILQNIVGLVINAIMLGCIFMKTAQANRRAETLIFSKHAVITVRNNKLCFMFRLGDLRKSMIISATVHMQVVRKTVTSEGEMVPLDQIDIQMDNPVGTNSIFLVSPLIISHTIDKNSPLYDLSADDL-LHEDIEVIVVLEGVVETTGITTQARTSYLSEEILWGHRFVPTVSEEDGMYAVDYSKFGNTVKVATPNSSARTLEE</Hsp_hseq>
+      <Hsp_midline>MLSRKG+IPE+Y+LTRLAED  +P+++ +QR+ARFV+K G CNVAH NIREQGRFLQDVFTTLVDLKW HTL+IFTMSFLCSWLLF M WWLIAFAHGDL        PCVT IHSFSSAFLFSIEVQVTIGFGGRM+TEEC  AI+ILI+QNIVGL+INAIMLGCIFMKTAQA+RRAETLIFSKHAVI +R+ +LCFM R+GDLRKSMIISAT+HMQVVRKT + EGE+VPL Q+DI M+N VG NSIFLV+PLII H ID NSPLYDL+  DL  H+D+E+IV+LEGVVETTGITTQARTSYL++EILWG RFVP V+EEDG Y+VDYSKFGNTVKV TP  +AR L+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_001025324.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 8 [Danio rerio] &gt;gb|AAI63413.1| Potassium inwardly-rectifying channel, subfamily J, member 8 [Danio rerio] &gt;gb|AAI63434.1| Potassium inwardly-rectifying channel, subfamily J, member 8 [Danio rerio] &gt;dbj|BAE79476.1| Kir6.1 like [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001025324</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.732</Hsp_bit-score>
+      <Hsp_score>1397</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>MLSRKGIIPEEYVLTRLAED-PAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTA-EPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHS-LLEALTLA--SARGPLRKRS</Hsp_qseq>
+      <Hsp_hseq>MLPRKSIIPEEFALPALVSRVPRKPVFRDRVNKARFIAKSGACNLAHKNIREQGRFLQDVFTTLVDLKWRFTLVIFTMTFLCSWLLFAMSWWLVAFGHGDLDTDRKPAVEQCVTNVNSFTSAFLFSIEVQVTIGFGGRMITERCPIAIAFLILQNIIGLIINAVMLGCIFMKTAQSHRRAETLIFSRHAVIAVRNNRLCFMIRVGDLRKSMIINAVVRLQVVRKTMTPEGEVIPIQQIDVQTESAVAGNSIFLLAPLIICHVIDKDSPLYDLSAMEL-QCSDLEVIVILEGVVETTGITTQARTSYVTEEIQWGHRFVPIVTEEEGVYSVDYSKFGNTVKVATPRCSARELDEKPSILIQTLQKSELSHQNSLRKRN</Hsp_hseq>
+      <Hsp_midline>ML RK IIPEE+ L  L    P KP +R R  +ARF++K G CN+AHKNIREQGRFLQDVFTTLVDLKW  TL+IFTM+FLCSWLLFAM+WWL+AF HGDL      A E CVT+++SF+SAFLFSIEVQVTIGFGGRM+TE CP+AI  LI+QNI+GL+INA+MLGCIFMKTAQ+HRRAETLIFS+HAVIA+R+ RLCFM+RVGDLRKSMII+A + +QVVRKT +PEGEV+P+ Q+D+  E+ V GNSIFL+APLII HVID +SPLYDL+  +L    DLE+IVILEGVVETTGITTQARTSY+ +EI WG RFVPIV EE+G YSVDYSKFGNTVKV TP C+AR+LDE  S L++ L  +  S +  LRKR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_001012387.1|</Hit_id>
+  <Hit_def>potassium inwardly rectifying channel subfamily J member 11, like [Danio rerio] &gt;ref|XP_056307710.1| potassium inwardly rectifying channel subfamily J member 11, like [Danio aesculapii] &gt;gb|AAI08005.1| Potassium inwardly-rectifying channel, subfamily J, member 11, like [Danio rerio] &gt;dbj|BAD74210.1| Kir6.3 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001012387</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>522.316</Hsp_bit-score>
+      <Hsp_score>1344</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLSRKGIIPEEYVLTRLAEDPAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAP---SEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSLLEA</Hsp_qseq>
+      <Hsp_hseq>MLARKGLLPDGFLLTRLAEDAQPSRIRPKSQRARFITKSGSCNVAHKNIREQGRFLQDVFTTMVDLKWQHSLLIFTSAFLCSWMLFAMVWWLLAFAHGDLEPRDPNEPGPVPCVTSIHSFTSAFLFSIEVQVTIGFGGRMVTEECPLAIIVLIIQNILGLIINAIMLGCVFMKTAQANRRAETLIFSRNAVIAPRNGRPTLMFRVGDLRKSMIISANIQLQVIRRTVTAEGEVIPVCQLDIQVENPLRSNGIFLVSPLIISHTIDRGSPLYELSAQSM-ATEDLEIIVILEGVVETTGITMQARTSYIPEEILWGRRFVSIMTEEDGRYSVDYSKFGNTVPVRMPALSAKELDQTRGVQDS</Hsp_hseq>
+      <Hsp_midline>ML+RKG++P+ ++LTRLAED    R R + +RARF++K G+CNVAHKNIREQGRFLQDVFTT+VDLKW H+LLIFT +FLCSW+LFAM WWL+AFAHGDL P   +E    PCVTSIHSF+SAFLFSIEVQVTIGFGGRMVTEECPLAI++LI+QNI+GL+INAIMLGC+FMKTAQA+RRAETLIFS++AVIA R+GR   M RVGDLRKSMIISA I +QV+R+T + EGEV+P+ Q+DI +EN +  N IFLV+PLII H ID  SPLY+L+   +   +DLEIIVILEGVVETTGIT QARTSY+ +EILWG+RFV I+ EEDGRYSVDYSKFGNTV V  P  +A++LD+   + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_005172632.1|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 2 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005172632</Hit_accession>
+  <Hit_len>402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.836</Hsp_bit-score>
+      <Hsp_score>917</Hsp_score>
+      <Hsp_evalue>5.43376e-121</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>PAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAP-SEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>PLQERERAKQKTQRYVRKDGKCNVHHGNVRETYRYLTDIFTTLVDLKWRFNLFIFVLVYTVTWLFFGFMWWLIAYIRGDLEHIGDNQWTPCVNNLNGFVSAFLFSIETETTIGYGHRVITDKCPEGIVLLLVQSVLGSIVNAFMVGCMFVKISQPKKRAETLVFSTNAVISMRDGRLCLMFRVGDLRNSHIVEASIRAKLIKSKQTKEGEFIPLNQTDINVGYDTGDDRLFLVSPLIICHEINQHSPFWEISREHM-AKEELEIVVILEGMVEATGMTCQARSSYVASEIKWGYRFTPVLTLEDGFYEVDYNSFHEIYETNTPSCSARELAE</Hsp_hseq>
+      <Hsp_midline>P + R RA+Q+  R+V K G CNV H N+RE  R+L D+FTTLVDLKW   L IF + +  +WL F   WWLIA+  GDL    +    PCV +++ F SAFLFSIE + TIG+G R++T++CP  I++L+VQ+++G ++NA M+GC+F+K +Q  +RAETL+FS +AVI++R GRLC M RVGDLR S I+ A+I  ++++   + EGE +PL+Q DI +    G + +FLV+PLII H I+ +SP ++++   +   ++LEI+VILEG+VE TG+T QAR+SY+A EI WG RF P++  EDG Y VDY+ F    +  TP C+AR+L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_073770397.1|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 2 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073770397</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.221</Hsp_bit-score>
+      <Hsp_score>918</Hsp_score>
+      <Hsp_evalue>6.75142e-121</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>PAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAP-SEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>PLQERERAKQKTQRYVRKDGKCNVHHGNVRETYRYLTDIFTTLVDLKWRFNLFIFVLVYTVTWLFFGFMWWLIAYIRGDLEHIGDNQWTPCVNNLNGFVSAFLFSIETETTIGYGHRVITDKCPEGIVLLLVQSVLGSIVNAFMVGCMFVKISQPKKRAETLVFSTNAVISMRDGRLCLMFRVGDLRNSHIVEASIRAKLIKSKQTKEGEFIPLNQTDINVGYDTGDDRLFLVSPLIICHEINQHSPFWEISREHM-AKEELEIVVILEGMVEATGMTCQARSSYVASEIKWGYRFTPVLTLEDGFYEVDYNSFHEIYETNTPSCSARELAE</Hsp_hseq>
+      <Hsp_midline>P + R RA+Q+  R+V K G CNV H N+RE  R+L D+FTTLVDLKW   L IF + +  +WL F   WWLIA+  GDL    +    PCV +++ F SAFLFSIE + TIG+G R++T++CP  I++L+VQ+++G ++NA M+GC+F+K +Q  +RAETL+FS +AVI++R GRLC M RVGDLR S I+ A+I  ++++   + EGE +PL+Q DI +    G + +FLV+PLII H I+ +SP ++++   +   ++LEI+VILEG+VE TG+T QAR+SY+A EI WG RF P++  EDG Y VDY+ F    +  TP C+AR+L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_001340328.2|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_001340328</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.903</Hsp_bit-score>
+      <Hsp_score>899</Hsp_score>
+      <Hsp_evalue>7.10643e-117</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>ARQRRARFVSKKGNCNVAHKNIR-EQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPS-EGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSL</Hsp_qseq>
+      <Hsp_hseq>AKRKRQRFVEKNGRCNVQHGNLGGETSRYISDLFTTLVDLKWRWNLLIFLLTYTVAWLIMASMWWIIAYIRGDLGHGHDDSYTPCVANVYNFPSAFLFFIETEATIGYGYRYITEKCPEGIILFLFQSLLGSIVDAFLIGCMFIKMSQPKKRAETLMFSQDAVISQRDGKLCLMFRVGNLRNSHMVSAQIRCKLIKSRQTPEGEFLPLDQRELDVGFGTGADQLFLVSPLTICHEINSNSPFFDLSQRSLMNEQ-FEIVVILEGIVETTGMTCQARTSYTEDEVLWGHRFLPVMSLEEGFFRVDYSQFHNTFEVPTPPYSVKEQDEKSSL</Hsp_hseq>
+      <Hsp_midline>A+++R RFV K G CNV H N+  E  R++ D+FTTLVDLKW   LLIF +++  +WL+ A  WW+IA+  GDL    + +  PCV ++++F SAFLF IE + TIG+G R +TE+CP  I++ + Q+++G +++A ++GC+F+K +Q  +RAETL+FS+ AVI+ R G+LC M RVG+LR S ++SA I  ++++   +PEGE +PL Q ++ +  G G + +FLV+PL I H I++NSP +DL+   L + Q  EI+VILEG+VETTG+T QARTSY  DE+LWG RF+P+++ E+G + VDYS+F NT +VPTP  + ++ DE  SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|NP_001082862.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC561782 [Danio rerio] &gt;gb|AAI33892.1| Zgc:162160 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001082862</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>1.94959e-116</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTA-EPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>KKRRQRYVEKDGKCNVHHGNVRETYRYLTDIFTTLVDLKWRFNLLVFTLVYTTTWVFFGFIWWLIAYARGDLEHTDDNDWTPCVNNLNGFVSAFLFSIETETTIGYGYRVITDKCPEGIILLLIQAILGSIVNAFMVGCMFVKISQPKKRAETLMFSNTAVISVRDSKLCLMFRVGDLRNSHIVEASIRAKLIRSKQTKEGEFIPLNQTDINVGFDTGDDRLFLVSPLIICHEINKNSPFWDVSQEHL-VREEFEIVVILEGMVEATGMTCQARSSYLSSEVLWGERFTPVLSLEEGFYEVDYDTFHHTYPAPTPSCSARELAE</Hsp_hseq>
+      <Hsp_midline>++RR R+V K G CNV H N+RE  R+L D+FTTLVDLKW   LL+FT+ +  +W+ F   WWLIA+A GDL  ++     PCV +++ F SAFLFSIE + TIG+G R++T++CP  I++L++Q I+G ++NA M+GC+F+K +Q  +RAETL+FS  AVI++R  +LC M RVGDLR S I+ A+I  +++R   + EGE +PL+Q DI +    G + +FLV+PLII H I+ NSP +D++   L   ++ EI+VILEG+VE TG+T QAR+SYL+ E+LWG+RF P+++ E+G Y VDY  F +T   PTP C+AR+L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_009297143.1|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009297143</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>1.5143e-115</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>RARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTA-EPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RSKRKRQRYVEKNGRCNVQHGNMRETYRYLTDIFTTLVDLNWRCSLLVFVMAYAVTWLFFGAIWYLIAYCRGDLDHLEDESWTPCVNNVNGFISAFLFSIETETTIGYGYRVITDQCPVGTMLLLLQAILGSMVNAFMVGCMFVKISQPNKRAETLVFSRNAVISLRDDKLCLMFRVGDLRSSHIVGANMRAKLIKSKQTQEGEFIPLDQTDISVGFETGDDRLFLVSPLVISHEIDVRSPFWDMSQNQL-EKEDFEIVVILEGMVEATGMTCQARSSYLAEEVMWGHRFSPMMCLAEGFFDVDYGAFHHTFEVDTPSCS</Hsp_hseq>
+      <Hsp_midline>R++++R R+V K G CNV H N+RE  R+L D+FTTLVDL W  +LL+F M++  +WL F   W+LIA+  GDL   E  +  PCV +++ F SAFLFSIE + TIG+G R++T++CP+  ++L++Q I+G M+NA M+GC+F+K +Q ++RAETL+FS++AVI+LR  +LC M RVGDLR S I+ A +  ++++   + EGE +PL Q DI +    G + +FLV+PL+I H ID  SP +D++ + L   +D EI+VILEG+VE TG+T QAR+SYLA+E++WG RF P++   +G + VDY  F +T +V TP C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_073785853.1|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 4 [Danio rerio] &gt;ref|XP_700619.4| G protein-activated inward rectifier potassium channel 4 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073785853</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>2.83465e-115</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>349</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>347</Hsp_align-len>
+      <Hsp_qseq>RKGIIPEEYVLTRLAEDPAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTA-EPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQL</Hsp_qseq>
+      <Hsp_hseq>RESQIPTDR--THLISDPVK------KPRQRYVQKDGKCNVHHGNVKETYRYLSDLFTTLVDLRWRLSFFIFTLVYVVNWLFFGFLWWLIALIRGDLLHSDEEGWTPCVENLNSFVSAFLFSIETETTIGYGYRVITEKCPEGIILLMVQAILGSIVNAMMVGCMFVKISQPKNRAETLMFSHNAVISVRDNKMCLMFRVGDLRNSHIVEASIRAKLIRSQQTKEGEFIPLNQTDINIGFDTGDDRLFLVSPLIISHEINEKSPFWEMSRAQM-EKEEFEIVVILEGMVEATGMTCQARSSYLDSEVLWGFRFTPVLSLEKGFYEVDYNNFHDIYETNTPTCSAKEL</Hsp_hseq>
+      <Hsp_midline>R+  IP +   T L  DP K      + R R+V K G CNV H N++E  R+L D+FTTLVDL+W  +  IFT+ ++ +WL F   WWLIA   GDL  S+     PCV +++SF SAFLFSIE + TIG+G R++TE+CP  I++L+VQ I+G ++NA+M+GC+F+K +Q   RAETL+FS +AVI++R  ++C M RVGDLR S I+ A+I  +++R   + EGE +PL+Q DI +    G + +FLV+PLII H I+  SP ++++ + +   ++ EI+VILEG+VE TG+T QAR+SYL  E+LWG RF P+++ E G Y VDY+ F +  +  TP C+A++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_001335950.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 12 [Danio rerio] &gt;ref|XP_005163905.1| ATP-sensitive inward rectifier potassium channel 12 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_001335950</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>7.07855e-115</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQG-RFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVP-TPLCTARQLDEDHSL</Hsp_qseq>
+      <Hsp_hseq>RKLRSRFVNKTGQCNVSFAHMDEQSQRYLADIFTTCVDSRWRWMFLLFSLAFVISWLAFGFAFWLIALVHGDLEKPQENFTPCVMQVNSFVAAFLFSVETQTTIGYGFRCVTEECPLAVFMVVFQSIVGCIIDSFMIGAIMAKMARPKKRAETILFSHNAVISMRDGKLCLMWRVGNLRKSHIVEAHVRAQLIKPRITEEGEYIPLDQIDINVGYDQGLDRIFLVAPLTILHEINEESPLFGINQQDL-ETSDFEIVVILEGMVEATAMTAQVRSSYLSSEILWGHRFEPVVFEERNQYKVDYSHFHKTYEVPSTPRCSAKDLEDNKSL</Hsp_hseq>
+      <Hsp_midline>R+ R+RFV+K G CNV+  ++ EQ  R+L D+FTT VD +W    L+F+++F+ SWL F  A+WLIA  HGDL   +    PCV  ++SF +AFLFS+E Q TIG+G R VTEECPLA+ +++ Q+IVG +I++ M+G I  K A+  +RAET++FS +AVI++R G+LC M RVG+LRKS I+ A +  Q+++   + EGE +PL Q+DI +    G + IFLVAPL I H I+  SPL+ +   DL    D EI+VILEG+VE T +T Q R+SYL+ EILWG RF P+V EE  +Y VDYS F  T +VP TP C+A+ L+++ SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_698251.1|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 1 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_698251</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>2.87369e-114</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIR-EQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPS-EGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSL</Hsp_qseq>
+      <Hsp_hseq>KKKRQRFVEKNGRCNVQHGNLGGETSRYLSDLFTTLVDLKWRWNLLIFILTYTIAWLVMASMWWIIAYIRGDLNHGHDASYTPCVANVYNFPSAFLFFIETEATIGYGYRYITEKCPEGIILFLFQSLLGSIVDAFLIGCMFIKMSQPKKRAETLMFSQDAVISQRDGKLCLMFRVGNLRNSHMVSAQIRCKLIKSRQTPEGEFLPLDQCELDVGFGTGADQLFLVSPLTICHEINPKSPFFDLSQRSLMNEQ-FEIVVILEGIVETTGMTCQARTSYTEDEVLWGHRFLPVMSLEEGFFRVDYSQFHSTFEVPTPPYSVKEYEEKSSL</Hsp_hseq>
+      <Hsp_midline>+++R RFV K G CNV H N+  E  R+L D+FTTLVDLKW   LLIF +++  +WL+ A  WW+IA+  GDL    + +  PCV ++++F SAFLF IE + TIG+G R +TE+CP  I++ + Q+++G +++A ++GC+F+K +Q  +RAETL+FS+ AVI+ R G+LC M RVG+LR S ++SA I  ++++   +PEGE +PL Q ++ +  G G + +FLV+PL I H I+  SP +DL+   L + Q  EI+VILEG+VETTG+T QARTSY  DE+LWG RF+P+++ E+G + VDYS+F +T +VPTP  + ++ +E  SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_002663356.3|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_002663356</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>1.71485e-113</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIR-EQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPS-EGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>RRKRQRFVDKNGRCNVQHGNLGGETSRYLSDLFTTLVDLKWRWNLFIFILTYTVAWLFMAFMWWVIAYIRGDLNRTHDEKYTPCVANVYNFPSAFLFFIETEATIGYGHRYITDKCPEGIILFLFQSILGSIVDAFLIGCMFIKMSQPKKRAETLMFSENAAISMRDGKLTLMFRVGNLRNSHMVSAQIRCKLLKSRQTPEGEFLPLDQLELDVGFSTGADQLFLVSPLTICHVIDTKSPFYELSQHSMQTEQ-FEIVVILEGIVETTGMTCQARTSYTEDEVLWGHRFFPVISLEEGFFKVDYSQFHATFEVPTPPYSAKEQDE</Hsp_hseq>
+      <Hsp_midline>R++R RFV K G CNV H N+  E  R+L D+FTTLVDLKW   L IF +++  +WL  A  WW+IA+  GDL  + +    PCV ++++F SAFLF IE + TIG+G R +T++CP  I++ + Q+I+G +++A ++GC+F+K +Q  +RAETL+FS++A I++R G+L  M RVG+LR S ++SA I  ++++   +PEGE +PL Q+++ +    G + +FLV+PL I HVID  SP Y+L+   +   Q  EI+VILEG+VETTG+T QARTSY  DE+LWG RF P+++ E+G + VDYS+F  T +VPTP  +A++ DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_005165913.1|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005165913</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>3.42148e-113</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIR-EQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPS-EGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSLLEALTLAS</Hsp_qseq>
+      <Hsp_hseq>KRKRQRFVDKNGRCNVQHGNLGGETSRYLSDLFTTLVDLKWRWNLFIFILTYTVAWLFMASMWWVIAFIRGDMNQAHDDKYTPCVANVYNFPSAFLFFIETEATIGYGYRYITDKCPEGIILFLFQSILGSIVDAFLIGCMFIKMSQPKKRAETLMFSEHAAISMRDGKLTLMFRVGNLRNSHMVSAQIRCKLLKSRQTPEGEFLPLDQLELDVGFSTGADQLFLVSPLTICHVIDSKSPFYDLSLRSMQTEQ-FEIVVILEGIVETTGMTCQARTSYTEDEVLWGHRFYPVISLEEGFFKVDYSQFHGTFEVPTPPHSVKEQEESLLLSSPLTAPS</Hsp_hseq>
+      <Hsp_midline>+++R RFV K G CNV H N+  E  R+L D+FTTLVDLKW   L IF +++  +WL  A  WW+IAF  GD+  + +    PCV ++++F SAFLF IE + TIG+G R +T++CP  I++ + Q+I+G +++A ++GC+F+K +Q  +RAETL+FS+HA I++R G+L  M RVG+LR S ++SA I  ++++   +PEGE +PL Q+++ +    G + +FLV+PL I HVID+ SP YDL+   +   Q  EI+VILEG+VETTG+T QARTSY  DE+LWG RF P+++ E+G + VDYS+F  T +VPTP  + ++ +E   L   LT  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_005162964.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 12 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005162964</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>6.10631e-113</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQG-RFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAE--PCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVP-TPLCTARQLDEDHSLL</Hsp_qseq>
+      <Hsp_hseq>RKSRNRFVKKNGQCNVQFTNMDEKSQRYMADIFTTCVDIRWRYMLIVFTLVFVISWLAFGLAFWVIALLHGDLDNPAGDDNFTPCVLQVNGFIAAFLFSIETQTTIGYGFRCVTEECPLAVFLVVFQSIVGSIIDCFMIGAIMAKMARPKKRAQTLLFSHNAVIAMRDGKLCLMWRVGNLRKSHIVEAHVRAQLIKPRVTTEGEYIPLDQLDINVGFDKGLDRIFLVSPITILHQIDHESPLFGISKQDL-ETADFEIVVILEGMVEATAMTAQARSSYLASEILWGHRFEPVLFEEKNQYKVDYSHFHKTYEVPSTPRCSAKDMMENKYLV</Hsp_hseq>
+      <Hsp_midline>R+ R RFV K G CNV   N+ E+  R++ D+FTT VD++W + L++FT+ F+ SWL F +A+W+IA  HGDL    G     PCV  ++ F +AFLFSIE Q TIG+G R VTEECPLA+ +++ Q+IVG +I+  M+G I  K A+  +RA+TL+FS +AVIA+R G+LC M RVG+LRKS I+ A +  Q+++   + EGE +PL Q+DI +    G + IFLV+P+ I H ID  SPL+ ++  DL    D EI+VILEG+VE T +T QAR+SYLA EILWG RF P++ EE  +Y VDYS F  T +VP TP C+A+ + E+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_017210355.1|</Hit_id>
+  <Hit_def>inward rectifier potassium channel 2 [Danio rerio] &gt;ref|XP_073800273.1| inward rectifier potassium channel 2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017210355</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>8.51705e-113</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>YRARQRRARFVSKKGNCNVAHKNIREQG-RFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVP-TPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>HEQQQTQNRFVNKDGRCNVQFINMSEKGQRYLADIFTTCVDIRWRWMMVLFFLSFLLSWLIFGLIFWLVAYTSGDL---DNQVQICISNVDSFTAAFLFSVETQTTIGYGYRYVTEDCPIAVFMVVFQSILGCIIDAFIIGAVMAKMAKPKKRNETLVFSQYATIAMRDGKLCLMWRVGNLRKSHLVEAHVRAQLLKSRTTAEGEFIPLDQLDIDVGFDTGIDRIFLVSPITIVHEIDEDSPFYDMSKQELESSE-LEIVVILEGMVEATAMTTQCRSSYVTSEILWGHRFEPVLFEEKNHYKVDYSHFENTYEVPNTPQCSARDLAE</Hsp_hseq>
+      <Hsp_midline>+  +Q + RFV+K G CNV   N+ E+G R+L D+FTT VD++W   +++F +SFL SWL+F + +WL+A+  GDL   +   + C++++ SF++AFLFS+E Q TIG+G R VTE+CP+A+ +++ Q+I+G +I+A ++G +  K A+  +R ETL+FS++A IA+R G+LC M RVG+LRKS ++ A +  Q+++  T+ EGE +PL Q+DI +    G + IFLV+P+ I H ID +SP YD++  +L   + LEI+VILEG+VE T +TTQ R+SY+  EILWG RF P++ EE   Y VDYS F NT +VP TP C+AR L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|NP_001318145.1|</Hit_id>
+  <Hit_def>inward rectifier potassium channel 2a [Danio rerio] &gt;gb|AGF33065.1| potassium inwardly-rectifying channel subfamily J member 2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001318145</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.65</Hsp_bit-score>
+      <Hsp_score>862</Hsp_score>
+      <Hsp_evalue>2.50294e-112</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>389</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>QRRARFVSKKGNCNVAHKNIREQG-RFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVP-TPLCTARQLDEDHSLLEALTLASARGPLRKRSVPMAKAKPKFSISPDSL</Hsp_qseq>
+      <Hsp_hseq>QTQSRFVKKDGHCNVQFINVSEKSQRYLADIFTTCVDIRWRWMFVIFCLAFLLSWLFFGCIFWLVAIFHGDL---ENNGHKCVSNVSSFTAAFLFSIETQTTIGYGYRYVTDECPIAVFMVVFQSIVGCIIDAFIIGAVMAKMAKPKKRNETLVFSHNATVAMRDNKLCLMWRVGNLRKSHLVEAHVRAQLLRSRTTAEGEFIPLDQMDIDVGFDSGIDRIFLVSPITIVHEIDEDSPFYDMSKQEM-ENSDFEIVVILEGMVEATAMTTQCRSSYVANEILWAHRFEPVLFEEKNYYKVDYSRFHKTYEVPSTPLCSARDLAE-----KKYIISNSNSFCYENEVALSNKEEKEEGHGDSL</Hsp_hseq>
+      <Hsp_midline>Q ++RFV K G+CNV   N+ E+  R+L D+FTT VD++W    +IF ++FL SWL F   +WL+A  HGDL   E     CV+++ SF++AFLFSIE Q TIG+G R VT+ECP+A+ +++ Q+IVG +I+A ++G +  K A+  +R ETL+FS +A +A+R  +LC M RVG+LRKS ++ A +  Q++R  T+ EGE +PL Q+DI +    G + IFLV+P+ I H ID +SP YD++  ++  + D EI+VILEG+VE T +TTQ R+SY+A+EILW  RF P++ EE   Y VDYS+F  T +VP TPLC+AR L E     +   ++++     +  V ++  + K     DSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_002667440.4|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 12 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_002667440</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.791</Hsp_bit-score>
+      <Hsp_score>839</Hsp_score>
+      <Hsp_evalue>7.58109e-108</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>QRRARFVSKKGNCNVAHKNIREQGR-FLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTA-EPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVP-TPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>QLRSRFVKKNGQCNVVFANMEDKPRRYLADLFTTCVDIRWRYLMLVFCSTFLLSWLLFGVIFYSVSLLHGDFQKEHGKLWKPCLLHVEGFVGAFLFSIETQTTIGYGWRCVTEECPVAIVTVVVQSIVGCIIDSFMIGTIMAKMARPKKRNQTLMFSQNAVIALRDGKLCLMWRVGNLRRSHIVEAHVRAQLIRPYVTAEGEFIPLEQTDLNVGYDDGTDRLFLVSPLVIVHEIDEDSPLWGMSRAEL-ESDDFEIVVILEGMVEATAMTTQARSSYLSREILWGHRFEPVIFEDHDRYQVDYAHFHKTYEVPSTPGCSAKELHE</Hsp_hseq>
+      <Hsp_midline>Q R+RFV K G CNV   N+ ++ R +L D+FTT VD++W + +L+F  +FL SWLLF + ++ ++  HGD     G   +PC+  +  F  AFLFSIE Q TIG+G R VTEECP+AI+ ++VQ+IVG +I++ M+G I  K A+  +R +TL+FS++AVIALR G+LC M RVG+LR+S I+ A +  Q++R   + EGE +PL Q D+ +    G + +FLV+PL+I H ID +SPL+ ++ ++L    D EI+VILEG+VE T +TTQAR+SYL+ EILWG RF P++ E+  RY VDY+ F  T +VP TP C+A++L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AAI55345.1|</Hit_id>
+  <Hit_def>Unknown (protein for IMAGE:7064374), partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAI55345</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>1.1513e-102</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>FVSKKGNCNVAHKNIREQG-RFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLA--------------------PSEG---------TAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKV-PTPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>FVGKDGRCNVTFVNMSERGQRYLTDLFTTCVDIRWRWMLVVFTLSFLLTWLLFGFTFWLIAAAHGDLNPLASSSSSPSSLSSSLAPLDATEGSSRVEMVAETEEPCFQQVNSFMAAFLFSLETQTSIGYGFRSVTEACPLAVLAVVLQCIVGCIIDAFIIGAVMAKIAKPKKRNETLVFSDVAVVAVRDGKLCMMWRVGNLRKSHLVEAHVRAQLLKPRVTPEGEFLPLDNSDLNVGFDTGTDRIFLVSPVTIVHEINEESPFFEMDKGALEGDKDLEVVVILEGMVEATAMTTQCRSSFLASEILWGHRFEPVLFERKNCYQVDYSYFNRTYEVTDTPTCSAKELAE</Hsp_hseq>
+      <Hsp_midline>FV K G CNV   N+ E+G R+L D+FTT VD++W   L++FT+SFL +WLLF   +WLIA AHGDL                      +EG         T EPC   ++SF +AFLFS+E Q +IG+G R VTE CPLA+L +++Q IVG +I+A ++G +  K A+  +R ETL+FS  AV+A+R G+LC M RVG+LRKS ++ A +  Q+++   +PEGE +PL   D+ +    G + IFLV+P+ I H I+  SP +++    L   +DLE++VILEG+VE T +TTQ R+S+LA EILWG RF P++ E    Y VDYS F  T +V  TP C+A++L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|NP_001313403.2|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 14 [Danio rerio] &gt;ref|NP_001431136.1| ATP-sensitive inward rectifier potassium channel 14 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001313403</Hit_accession>
+  <Hit_len>543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>6.5061e-102</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>FVSKKGNCNVAHKNIREQG-RFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLA--------------------PSEG---------TAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKV-PTPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>FVGKDGRCNVTFVNMSERGQRYLTDLFTTCVDIRWRWMLVVFTLSFLLTWLLFGFTFWLIAAAHGDLNPLASSSSSPSSLSSSLAPLDATEGSSRVEMVAETEEPCFQQVNSFMAAFLFSLETQTSIGYGFRSVTEACPLAVLAVVLQCIVGCIIDAFIIGAVMAKIAKPKKRNETLVFSDVAVVAVRDGKLCMMWRVGNLRKSHLVEAHVRAQLLKPRVTPEGEFLPLDNSDLNVGFDTGTDRIFLVSPVTIVHEINEESPFFEMDKGALEGDKDLEVVVILEGMVEATAMTTQCRSSFLASEILWGHRFEPVLFERKNCYQVDYSYFNRTYEVTDTPTCSAKELAE</Hsp_hseq>
+      <Hsp_midline>FV K G CNV   N+ E+G R+L D+FTT VD++W   L++FT+SFL +WLLF   +WLIA AHGDL                      +EG         T EPC   ++SF +AFLFS+E Q +IG+G R VTE CPLA+L +++Q IVG +I+A ++G +  K A+  +R ETL+FS  AV+A+R G+LC M RVG+LRKS ++ A +  Q+++   +PEGE +PL   D+ +    G + IFLV+P+ I H I+  SP +++    L   +DLE++VILEG+VE T +TTQ R+S+LA EILWG RF P++ E    Y VDYS F  T +V  TP C+A++L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_073780059.1|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073780059</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>3.72109e-92</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>357</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>515</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSLLE</Hsp_qseq>
+      <Hsp_hseq>RQQR-RYVSKDGKCRVDLAHMAEKERFLADIFTSFVDLQYRWFLFVFMMCYTVTWFIFAGLYSLNAFLRGDLEHPADT-DVCFQNIDGFVSALLFSVETQRTIGYGARTVSPRCYEGVFLVMAQCIVGSMIDALMVGCMFVKISRPKKRAETLLFSRTCVVANRDDRLCLMFRLGDLRESHMVDAKVRAKLIKSRQTSEGEFLPLEQSEIDLGYESGSDRLFLVEPQVIQHIIDSSSPFWELGPEKLRKQQ-FEIIVILEGIVEATGMMCQAKTSYIETEIEWGARFEPCMTLEKGSFRVDLRRFHSTYPVPLPPCSAQ---DTHHLLE</Hsp_hseq>
+      <Hsp_midline>RQ+R R+VSK G C V   ++ E+ RFL D+FT+ VDL++   L +F M +  +W +FA  + L AF  GDL     T + C  +I  F SA LFS+E Q TIG+G R V+  C   + +++ Q IVG MI+A+M+GC+F+K ++  +RAETL+FS+  V+A R  RLC M R+GDLR+S ++ A +  ++++   + EGE +PL Q +I +    G + +FLV P +I H+ID++SP ++L P  L   Q  EIIVILEG+VE TG+  QA+TSY+  EI WG RF P +  E G + VD  +F +T  VP P C+A+   + H LLE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_073800927.1|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 1 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073800927</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.478</Hsp_bit-score>
+      <Hsp_score>698</Hsp_score>
+      <Hsp_evalue>2.28896e-89</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIR-EQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPS-EGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGI</Hsp_qseq>
+      <Hsp_hseq>KKKRQRFVEKNGRCNVQHGNLGGETSRYLSDLFTTLVDLKWRWNLLIFILTYTIAWLVMASMWWIIAYIRGDLNHGHDASYTPCVANVYNFPSAFLFFIETEATIGYGYRYITEKCPEGIILFLFQSLLGSIVDAFLIGCMFIKMSQPKKRAETLMFSQDAVISQRDGKLCLMFRVGNLRNSHMVSAQIRCKLIKSRQTPEGEFLPLDQCELDVGFGTGADQLFLVSPLTICHEINPKSPFFDLSQRSLMNEQ-FEIVVILEGIVETTDL</Hsp_hseq>
+      <Hsp_midline>+++R RFV K G CNV H N+  E  R+L D+FTTLVDLKW   LLIF +++  +WL+ A  WW+IA+  GDL    + +  PCV ++++F SAFLF IE + TIG+G R +TE+CP  I++ + Q+++G +++A ++GC+F+K +Q  +RAETL+FS+ AVI+ R G+LC M RVG+LR S ++SA I  ++++   +PEGE +PL Q ++ +  G G + +FLV+PL I H I+  SP +DL+   L + Q  EI+VILEG+VETT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|NP_001092204.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 1b [Danio rerio] &gt;ref|XP_021334854.1| ATP-sensitive inward rectifier potassium channel 1b isoform X1 [Danio rerio] &gt;gb|AAI42810.1| Zgc:165474 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001092204</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>9.84013e-89</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>RRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAE-EDGRYSVDYSKFGNTVKVPTPLC</Hsp_qseq>
+      <Hsp_hseq>RRTRLVTKDGHCNIKFGTTEYQSHFAFLKDFWTTFVEIHWCFVILLFAAAFTGSWFVFGLLWYSLAKSNGDLSESQQT--KCIENINSLTTAFLYSLETQTTIGYGGRALTGHCPGTVALLIIQSLMGAIINCFMCGLILAKISLPKRRAKTVAFSETAVIRLWKGNLCLQIRVANLRKTLLIGSHIYGKLLRTTITPEGETIILDQVNVDFSVDAGKDNLFFVCPLTIYHVIDKSSPFADMAADNL-QLQDFELVVFLDGTAESTSLSCQVRTSYLPREIKWGYVFLPVISRTKTGKYRIDLSNFSKTQQADTPHC</Hsp_hseq>
+      <Hsp_midline>RR R V+K G+CN+       Q  F  L+D +TT V++ W   +L+F  +F  SW +F + W+ +A ++GDL+ S+ T   C+ +I+S ++AFL+S+E Q TIG+GGR +T  CP  + +LI+Q+++G +IN  M G I  K +   RRA+T+ FS+ AVI L  G LC  +RV +LRK+++I + I+ +++R T +PEGE + L QV++      G +++F V PL IYHVID +SP  D+A  +L   QD E++V L+G  E+T ++ Q RTSYL  EI WG  F+P+++  + G+Y +D S F  T +  TP C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_005159338.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 1a.1 isoform X2 [Danio rerio] &gt;ref|XP_021323275.1| ATP-sensitive inward rectifier potassium channel 1a.1 isoform X2 [Danio rerio] &gt;ref|XP_073785037.1| ATP-sensitive inward rectifier potassium channel 1a.1 isoform X2 [Danio rerio] &gt;ref|XP_073785038.1| ATP-sensitive inward rectifier potassium channel 1a.1 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005159338</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>6.86445e-86</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDL---APSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RGRKNRLVTKDGRCNIEFGNVMHRNRFAYVLDFWTTFVETRWRFILLYFVASFTLSWFIFGLIWYWLARNNGDLLWQNPPPG-HKPCAFSVNDMTYAFLFSLETQSTIGFGNIYVTDQCPGGVALIVIQTIIGLFINIFWCGIVMTKISLPKKRAKTITFSESAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETVILDQVSIDFMVDAGKDNLFFVCPLTLYHIIDKSSPFFNMA-VDTMHQQDFELVVFLDGMAESTSSACQVRTSYIPQEIMWGYDFLPIISRSKEGRYRVDFSNFAKVVPVPTAHCT</Hsp_hseq>
+      <Hsp_midline>R R+ R V+K G CN+   N+  + RF  + D +TT V+ +W   LL F  SF  SW +F + W+ +A  +GDL    P  G  +PC  S++  + AFLFS+E Q TIGFG   VT++CP  + ++++Q I+GL IN    G +  K +   +RA+T+ FS+ AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE V L QV I      G +++F V PL +YH+ID +SP +++A  D  H QD E++V L+G+ E+T    Q RTSY+  EI+WG  F+PI++  ++GRY VD+S F   V VPT  CT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_073785035.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 1a.1 isoform X1 [Danio rerio] &gt;ref|XP_073785036.1| ATP-sensitive inward rectifier potassium channel 1a.1 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073785035</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>8.72374e-86</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDL---APSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RGRKNRLVTKDGRCNIEFGNVMHRNRFAYVLDFWTTFVETRWRFILLYFVASFTLSWFIFGLIWYWLARNNGDLLWQNPPPG-HKPCAFSVNDMTYAFLFSLETQSTIGFGNIYVTDQCPGGVALIVIQTIIGLFINIFWCGIVMTKISLPKKRAKTITFSESAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETVILDQVSIDFMVDAGKDNLFFVCPLTLYHIIDKSSPFFNMA-VDTMHQQDFELVVFLDGMAESTSSACQVRTSYIPQEIMWGYDFLPIISRSKEGRYRVDFSNFAKVVPVPTAHCT</Hsp_hseq>
+      <Hsp_midline>R R+ R V+K G CN+   N+  + RF  + D +TT V+ +W   LL F  SF  SW +F + W+ +A  +GDL    P  G  +PC  S++  + AFLFS+E Q TIGFG   VT++CP  + ++++Q I+GL IN    G +  K +   +RA+T+ FS+ AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE V L QV I      G +++F V PL +YH+ID +SP +++A  D  H QD E++V L+G+ E+T    Q RTSY+  EI+WG  F+PI++  ++GRY VD+S F   V VPT  CT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|NP_957329.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 1a.1 [Danio rerio] &gt;gb|AAH55133.1| Potassium inwardly-rectifying channel, subfamily J, member 1 [Danio rerio] &gt;gb|AAR02569.1| potassium channel ROMK2 [Danio rerio] &gt;emb|CAK04692.1| novel protein (zgc:63534) [Danio rerio]</Hit_def>
+  <Hit_accession>NP_957329</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.774</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>2.18033e-85</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDL---APSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RGRKNRLVTKDGRCNIEFGNVMHRNRFAYVLDFWTTFVETRWRFILLYFVASFTLSWFIFGLIWYWLARNNGDLLWQNPPPG-HKPCAFSVNDMTYAFLFSLETQSTIGFGNIYVTDQCPGGVALIVIQTIIGLFINIFWCGIVMTKISLPKKRAKTITFSESAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETVILDQVSIDFMVDAGKDNLFFVCPLTLYHIIDKSSPFFNMA-VDTMHQQDFELVVFLDGMAESTSSACQVRTSYIPQEIMWGYDFLPIISRSKEGRYRVDFSNFAKVVPVPTAHCS</Hsp_hseq>
+      <Hsp_midline>R R+ R V+K G CN+   N+  + RF  + D +TT V+ +W   LL F  SF  SW +F + W+ +A  +GDL    P  G  +PC  S++  + AFLFS+E Q TIGFG   VT++CP  + ++++Q I+GL IN    G +  K +   +RA+T+ FS+ AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE V L QV I      G +++F V PL +YH+ID +SP +++A  D  H QD E++V L+G+ E+T    Q RTSY+  EI+WG  F+PI++  ++GRY VD+S F   V VPT  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AAH92004.1|</Hit_id>
+  <Hit_def>Zgc:113361 [Danio rerio]</Hit_def>
+  <Hit_accession>AAH92004</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>7.0539e-84</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>RYRARQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAE--PCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RLKQRIRKNRLVTKDGRCNIEFGNVLHRSRFTYVLDFWTTLVETRWRFILLYFVASFTLSWFIFGLLWYWLARSNGDLLWQNPPPDHKPCVYSVNDLTYAYLYSLESQATIGYGNVYVTDQCPAGVALITIQMLIGLLISIFWCGIVMTKITLPKKRAKTITFSESAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETNILDQVNIDFMVDAGKDNLFFVCPLTLYHIIDKSSPFFNMA-ADTMHQQDFELVVFLDSMAETTSSSCQVRTSYIPQEIMWGYDFLPIISRSKEGRYQVDFSNFAKVVPVPTAHCS</Hsp_hseq>
+      <Hsp_midline>R + R R+ R V+K G CN+   N+  + RF  + D +TTLV+ +W   LL F  SF  SW +F + W+ +A ++GDL       +  PCV S++  + A+L+S+E Q TIG+G   VT++CP  + ++ +Q ++GL+I+    G +  K     +RA+T+ FS+ AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE   L QV+I      G +++F V PL +YH+ID +SP +++A +D  H QD E++V L+ + ETT  + Q RTSY+  EI+WG  F+PI++  ++GRY VD+S F   V VPT  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|NP_001014334.2|</Hit_id>
+  <Hit_def>uncharacterized protein LOC541499 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001014334</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>1.60208e-83</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>RYRARQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAE--PCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RLKQRIRKNRLVTKDGRCNIEFGNVLHRSRFTYVLDFWTTLVETRWRFILLYFVASFTLSWFIFGLLWYWLARSNGDLLWQNPPPDHKPCVYSVNDLTYAYLYSLESQATIGYGNVYVTDQCPAGVALITIQMLIGLLISIFWCGIVMTKITLPKKRAKTITFSESAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETNILDQVSIDFMVDAGKDNLFFVCPLTLYHIIDKSSPFFNMA-ADTMHQQDFELVVFLDSMAETTSSSCQVRTSYIPQEIMWGYDFLPIISRSKEGRYQVDFSNFAKEVPVPTAHCS</Hsp_hseq>
+      <Hsp_midline>R + R R+ R V+K G CN+   N+  + RF  + D +TTLV+ +W   LL F  SF  SW +F + W+ +A ++GDL       +  PCV S++  + A+L+S+E Q TIG+G   VT++CP  + ++ +Q ++GL+I+    G +  K     +RA+T+ FS+ AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE   L QV I      G +++F V PL +YH+ID +SP +++A +D  H QD E++V L+ + ETT  + Q RTSY+  EI+WG  F+PI++  ++GRY VD+S F   V VPT  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>emb|CAK04693.1|</Hit_id>
+  <Hit_def>novel protein (zgc:113361) [Danio rerio]</Hit_def>
+  <Hit_accession>CAK04693</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>1.80403e-83</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>RYRARQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAE--PCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RLKQRIRKNRLVTKDGRCNIEFGNVLHRSRFTYVLDFWTTLVETRWRFILLYFVASFTLSWFIFGLLWYWLARSNGDLLWQNPPPDHKPCVYSVNDLTYAYLYSLESQATIGYGNVYVTDQCPAGVALITIQMLIGLLISIFWCGIVMTKITLPKKRAKTITFSESAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETNILDQVNIDFMVDAGKDNLFFVCPLTLYHIIDKSSPFFNMA-VDTMHQQDFELVVFLDSMAETTSSSCQVRTSYIPQEIMWGYDFLPIISRSKEGRYQVDFSNFAKVVPVPTAHCS</Hsp_hseq>
+      <Hsp_midline>R + R R+ R V+K G CN+   N+  + RF  + D +TTLV+ +W   LL F  SF  SW +F + W+ +A ++GDL       +  PCV S++  + A+L+S+E Q TIG+G   VT++CP  + ++ +Q ++GL+I+    G +  K     +RA+T+ FS+ AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE   L QV+I      G +++F V PL +YH+ID +SP +++A  D  H QD E++V L+ + ETT  + Q RTSY+  EI+WG  F+PI++  ++GRY VD+S F   V VPT  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|NP_001038640.2|</Hit_id>
+  <Hit_def>potassium inwardly rectifying channel subfamily J member 1a, tandem duplicate 6 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001038640</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>3.82284e-82</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>RYRARQRRARFVSKKGNCNVAHKNI-REQG-RFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDL---APSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RLERRIRKNRLVTKDGRCNIELGNVMRKNGFTYVLDFWTTLVETRWRFIILYFVASYTLSWFIFGLLWYWLAKSNGDLLWQNPSEDHT-PCVHNVNGMTYAYLYSLETQTTIGCGNIYITDQCPAGVALIIIQVVIGVLIGIFWCGIVMTKLTLPKKRAKTITFSKSAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTEGETVILDQVNIDFMVDAGKDNLFFVSPLTLCHIIDKSSPFFDMAVDTLHQ-QDFELVVFLDGMAESTSSSCQVRTSYIPQEIMWGYDFLPIISRSKEGRYRVEFSNFAKVVPVPTAHCS</Hsp_hseq>
+      <Hsp_midline>R   R R+ R V+K G CN+   N+ R+ G  ++ D +TTLV+ +W   +L F  S+  SW +F + W+ +A ++GDL    PSE    PCV +++  + A+L+S+E Q TIG G   +T++CP  + ++I+Q ++G++I     G +  K     +RA+T+ FSK AVI  + G LC  +RV +LRK+++I + I+ +++R TT  EGE V L QV+I      G +++F V+PL + H+ID +SP +D+A   LH  QD E++V L+G+ E+T  + Q RTSY+  EI+WG  F+PI++  ++GRY V++S F   V VPT  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|NP_001038643.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC569191 [Danio rerio] &gt;emb|CAK04695.1| novel protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001038643</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>1.25853e-81</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>YRARQR--RARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAE--PCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSLLEA</Hsp_qseq>
+      <Hsp_hseq>YRLEQRSHKKRVVTKDGRCNIKFGNVMHRNRFTYVLDFWTTLVETRWRFIIFYFVASYTLSWFIFGLLWYWLARSNGDLLWQNPPPDHNPCAYSLNGMTYAFLYSLETQGTVGYGNVYVTDQCPGGVALIIIQMIVGLFIRIFWGGIVITKITLPKKRAKTITFSESAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTITGGETNILDQVSINFMVDAGKDNLFFVCPLTLYHIIDKSSPFFDMA-VDTMHQQDFELVVFLDGMAETTSSSCQVRTSYIPQEIMWGYDFLPIISRSKEGKYRVDFSNFTKVVPVPTAHCSRCYHNEPGNHLEG</Hsp_hseq>
+      <Hsp_midline>YR  QR  + R V+K G CN+   N+  + RF  + D +TTLV+ +W   +  F  S+  SW +F + W+ +A ++GDL       +  PC  S++  + AFL+S+E Q T+G+G   VT++CP  + ++I+Q IVGL I     G +  K     +RA+T+ FS+ AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE   L QV I      G +++F V PL +YH+ID +SP +D+A  D  H QD E++V L+G+ ETT  + Q RTSY+  EI+WG  F+PI++  ++G+Y VD+S F   V VPT  C+    +E  + LE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>emb|CAK04697.1|</Hit_id>
+  <Hit_def>novel protein [Danio rerio]</Hit_def>
+  <Hit_accession>CAK04697</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>4.14502e-81</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>RYRARQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDL---APSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RLERRIRKNRLVTKDGRCNIELGNVMHKKGFTYVLDFWTTLVETRWRFIILYFVASYTLSWFIFGLLWYWLAKSNGDLLWQNPSEDHT-PCVHNVNGMTYAYLYSLETQTTIGCGNIYITDQCPAGVALIIIQVVIGVLIGIFWCGIVMTKLTLPKKRAKTITFSKSAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTEGETVILDQVNIDFMVDAGKDNLFFVSPLTLCHIIDKSSPFFDMAVDTLHQ-QDFELVVFLDGMAESTSSSCQVRTSYIPQEIVWGYDFLPIISRSKEGKYRVEFSNFAKVVPVPTAHCS</Hsp_hseq>
+      <Hsp_midline>R   R R+ R V+K G CN+   N+  +  F  + D +TTLV+ +W   +L F  S+  SW +F + W+ +A ++GDL    PSE    PCV +++  + A+L+S+E Q TIG G   +T++CP  + ++I+Q ++G++I     G +  K     +RA+T+ FSK AVI  + G LC  +RV +LRK+++I + I+ +++R TT  EGE V L QV+I      G +++F V+PL + H+ID +SP +D+A   LH  QD E++V L+G+ E+T  + Q RTSY+  EI+WG  F+PI++  ++G+Y V++S F   V VPT  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|NP_001038641.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC569137 [Danio rerio] &gt;emb|CAK04694.1| novel protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001038641</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>1.36425e-80</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>RYRARQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDL----APSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSLLEAL</Hsp_qseq>
+      <Hsp_hseq>RLKQRIRKNRLVTKDGRCNIEFDNVMHRNRFAYVRDFWTTFVETRWRFIILYFVASFTLSWFIFGLIWYWLARSNGDLLWQNPPPDHT--PCVYSVYDMTYAFIFSLETQNTVIYGNVYVTDQCPAGVALIIIQTIIGILISIFWCGIVITKITLPKKRAKTITFSESAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETVILDQVNIDFMVDAGKDNLFFVCPLTLYHIIDKSSPFFDMAVDTL-HQQDFELVVFLDGMAETTSSSCQVRTSYIPQEIMWGYDFLPIISRSEEGRYQVDFSNFAKVVPVPTAHCSRCYHNEPGNHLEGI</Hsp_hseq>
+      <Hsp_midline>R + R R+ R V+K G CN+   N+  + RF  ++D +TT V+ +W   +L F  SF  SW +F + W+ +A ++GDL     P + T  PCV S++  + AF+FS+E Q T+ +G   VT++CP  + ++I+Q I+G++I+    G +  K     +RA+T+ FS+ AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE V L QV+I      G +++F V PL +YH+ID +SP +D+A   L H QD E++V L+G+ ETT  + Q RTSY+  EI+WG  F+PI++  E+GRY VD+S F   V VPT  C+    +E  + LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_003198936.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 10 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_003198936</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>2.54225e-79</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>VSKKGNCNVAHKNIREQGR-FLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDL----APSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQ----DLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTP</Hsp_qseq>
+      <Hsp_hseq>LSKDGRSNVRIEHVSGRGTLYLRDLWTTFLDMQWRYKLFLFSATFAGTWFVFGVLWYLVALVHGDLLEFDPPSNHT--PCVMQVQTLTGAFLFSLESQTTIGYGFRCITEECPLAIILLIVQLVITMVMEIFITGTFLAKVARPKKRGETVKFSQHAVVANHEGRPCLMIRVANMRKSLLLGCQVSGKLLQTSQTKEGETVRLDQRNVAFQVDTSSDSPFLILPLTFYHVIDDNSPLRAWAAKGGGWTDPELADFELLVIMSATVEPTSATCQVRTSYLPDEILWGYEFPPVVSLSPSGKYVADFAFFDKVAKTKTP</Hsp_hseq>
+      <Hsp_midline>+SK G  NV  +++  +G  +L+D++TT +D++W + L +F+ +F  +W +F + W+L+A  HGDL     PS  T  PCV  + + + AFLFS+E Q TIG+G R +TEECPLAI++LIVQ ++ +++   + G    K A+  +R ET+ FS+HAV+A   GR C M+RV ++RKS+++   +  ++++ + + EGE V L Q ++  +     +S FL+ PL  YHVID NSPL   A            D E++VI+   VE T  T Q RTSYL DEILWG  F P+V+    G+Y  D++ F    K  TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|NP_001038634.2|</Hit_id>
+  <Hit_def>potassium inwardly rectifying channel subfamily J member 1a, tandem duplicate 5 [Danio rerio] &gt;ref|XP_005159340.1| potassium inwardly rectifying channel subfamily J member 1a, tandem duplicate 5 isoform X1 [Danio rerio] &gt;gb|AAI33827.1| Si:ch211-244h7.6 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001038634</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>2.81914e-76</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>RYRARQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAE--PCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAE-EDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RLERRIRKNRLVTKDGHCNIEFGNVLHKNGFAYVLDFWTTLVETRWRFILLYFVASYSLSWLIFGLLWYWLARNNGDLYWQNPPPDHKPCAINVNDMTNAFLNALETQTGMGCGNLFVTDLCPGSVAVLTIQMVVGLFIGIFWCGIVMTKITLPKKRAKTITFSKSAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETVILDQVSIDFMVDAGKDNLFFMCPLTLYHIIDKSSPFFDMAVDTLHQ-QDFELVVFLDGMDESTSSSCQVRTSYIPREIMWGYDFLPIISRSKERRYRVDFSNIAKVVPVPTAHCS</Hsp_hseq>
+      <Hsp_midline>R   R R+ R V+K G+CN+   N+  +  F  + D +TTLV+ +W   LL F  S+  SWL+F + W+ +A  +GDL       +  PC  +++  ++AFL ++E Q  +G G   VT+ CP ++ +L +Q +VGL I     G +  K     +RA+T+ FSK AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE V L QV I      G +++F + PL +YH+ID +SP +D+A   LH  QD E++V L+G+ E+T  + Q RTSY+  EI+WG  F+PI++  ++ RY VD+S     V VPT  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>emb|CAK04696.1|</Hit_id>
+  <Hit_def>novel protein [Danio rerio]</Hit_def>
+  <Hit_accession>CAK04696</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>7.42449e-76</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>RRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAE--PCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTPLCT</Hsp_qseq>
+      <Hsp_hseq>RKNRLVTKDGHCNIEFGNVLHKNGFAYVLDFWTTLVETRWRFILLYFVASYTLSWLIFGLLWYWLARNNGDLYWQNPPPDHKPCAINVNDMTNAFLNALETQTGMGCGNLFVTDLCPGSVAVLTIQMVVGLFIGIFWCGIVMTKITLPKKRAKTITFSKSAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETVILDQVSIDFMVDAGKDNLFFMCPLTLYHIIDKSSPFFDMAVDTLHQ-QDFELVVFLDGMDESTSSSCQVRTSYIPQEIMWGYDFLPIISRSKERRYRVDFSNIAKVVPVPTAHCS</Hsp_hseq>
+      <Hsp_midline>R+ R V+K G+CN+   N+  +  F  + D +TTLV+ +W   LL F  S+  SWL+F + W+ +A  +GDL       +  PC  +++  ++AFL ++E Q  +G G   VT+ CP ++ +L +Q +VGL I     G +  K     +RA+T+ FSK AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE V L QV I      G +++F + PL +YH+ID +SP +D+A   LH  QD E++V L+G+ E+T  + Q RTSY+  EI+WG  F+PI++  ++ RY VD+S     V VPT  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_073799839.1|</Hit_id>
+  <Hit_def>inward rectifier potassium channel 4 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073799839</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>1.51473e-73</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>TIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVP-TPLCTARQLDE</Hsp_qseq>
+      <Hsp_hseq>TIGYGWRCVTEECPVAIVTVVVQSIVGCIIDSFMIGTIMAKMARPKKRNQTLMFSQNAVIALRDGKLCLMWRVGNLRRSHIVEAHVRAQLIRPYVTAEGEFIPLEQTDLNVGYDDGTDRLFLVSPLVIVHEIDEDSPLWGMSRAEL-ESDDFEIVVILEGMVEATAMTTQARSSYLSREILWGHRFEPVIFEDHDRYQVDYAHFHKTYEVPSTPGCSAKELHE</Hsp_hseq>
+      <Hsp_midline>TIG+G R VTEECP+AI+ ++VQ+IVG +I++ M+G I  K A+  +R +TL+FS++AVIALR G+LC M RVG+LR+S I+ A +  Q++R   + EGE +PL Q D+ +    G + +FLV+PL+I H ID +SPL+ ++ ++L    D EI+VILEG+VE T +TTQAR+SYL+ EILWG RF P++ E+  RY VDY+ F  T +VP TP C+A++L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_005172631.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 15 [Danio rerio] &gt;ref|XP_073770398.1| ATP-sensitive inward rectifier potassium channel 15 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005172631</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>9.78164e-73</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>RFVSKKGNCNVAHKNIREQGR-FLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDL-APSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKF</Hsp_qseq>
+      <Hsp_hseq>RLVSKDGRSNVKIDNVEGMVKLFLHDLWTTVVDMKWRYKITLFASTFVMTWFVFGVLFYLIGLRNGDFHADPSSNHTPCVMNVHTLTGAYLFSLETQTTIGYGFRHVSEECPLAIGALVLQLVLTGLAEIFVTGAFLAKLARPKKRAGTIKFSRCAVVCRRGGRWCLMVRVANMRSSLLIQCQLSGKLLAPHVTLEGQKTLVHQTTVDFQMDSSGECPFLLLPLTFYHVLDERSPLADLTAHSL-QKRDFELLLTLNATVESTAASCQSRTSYLPQEILWGQEFRPVLANTSGTLSADFSLF</Hsp_hseq>
+      <Hsp_midline>R VSK G  NV   N+    + FL D++TT+VD+KW + + +F  +F+ +W +F + ++LI   +GD  A       PCV ++H+ + A+LFS+E Q TIG+G R V+EECPLAI  L++Q ++  +    + G    K A+  +RA T+ FS+ AV+  R GR C M+RV ++R S++I   +  +++    + EG+   +HQ  +  +    G   FL+ PL  YHV+D  SPL DL    L   +D E+++ L   VE+T  + Q+RTSYL  EILWGQ F P++A   G  S D+S F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_009305113.2|</Hit_id>
+  <Hit_def>inward rectifier potassium channel 16 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009305113</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>2.19347e-72</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>RRARFVSKKGNCNVAHKNIREQGR-FLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLD</Hsp_qseq>
+      <Hsp_hseq>KKKRYVRKDGSCNMVPRHVPEKWLLWVTDIFTTLVEIRWRVMLLTFALSYILSWLFFGILFWIIALTHGDMKNPNN--EPCVYEVRSFTAAFLFSLETQTTIGYGFRGMSENCMIAIIVVTIQDVISVFIDTFVIGIAVAKMASARKRAQTVGFSKCAVISIHDGHLCLSWRVGDFRRNHMVEGTSNAQLIEFQANNNTGKVDITYKDLIIEE----RSVILATPTTIIHKILPGTPLYKMSLKDL-RKESFELVVSFTYTDDCTGILHQTRTSYTPSEILWGQNFQEMIRVTRKNYRVDYALFNHTVKVLVPELSAEEYD</Hsp_hseq>
+      <Hsp_midline>++ R+V K G+CN+  +++ E+   ++ D+FTTLV+++W   LL F +S++ SWL F + +W+IA  HGD+       EPCV  + SF++AFLFS+E Q TIG+G R ++E C +AI+++ +Q+++ + I+  ++G    K A A +RA+T+ FSK AVI++  G LC   RVGD R++ ++  T + Q++    +     V +   D+ +E      S+ L  P  I H I   +PLY ++  DL   +  E++V      + TGI  Q RTSY   EILWGQ F  ++      Y VDY+ F +TVKV  P  +A + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_009297229.1|</Hit_id>
+  <Hit_def>ATP-sensitive inward rectifier potassium channel 10 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009297229</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>4.5863e-65</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>RRARFVSKKGNCNVAHKNIRE-QGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEP--CVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLH----HHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVA-EEDGRYSVDYSKFGNTVKVPTP</Hsp_qseq>
+      <Hsp_hseq>RKRRILTKDGRSNVRIEHVSGLSALYLRDPWTTVVDMQWRYKLVLFSATFVGTWFTFGLLWYLLALVHGDLLEFDPPANHSVCVMQMQTLTGAFLFSLETQTTIGYGYRCITEECPSAIVLLIIQLLITTAMEIFITGTFLAKVARPKKRGETIRFSQHAVIANHDGRPSLMIRVANMRKSLLLGCQVTGKLLQPCVPKAGETVRLDQKNVSFSVDTASESPFLILPLTFYHIIDDESPLRAWADKGGGWTDPGQTDFELLVMMSSTVEPTSATCQVRTSYLPDEILWGYEFPPIVSLSPMGKYVADLAYFDKVVKTKAP</Hsp_hseq>
+      <Hsp_midline>R+ R ++K G  NV  +++      +L+D +TT+VD++W + L++F+ +F+ +W  F + W+L+A  HGDL   +  A    CV  + + + AFLFS+E Q TIG+G R +TEECP AI++LI+Q ++   +   + G    K A+  +R ET+ FS+HAVIA   GR   M+RV ++RKS+++   +  ++++      GE V L Q ++         S FL+ PL  YH+ID  SPL   A            D E++V++   VE T  T Q RTSYL DEILWG  F PIV+    G+Y  D + F   VK   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_073800928.1|</Hit_id>
+  <Hit_def>G protein-activated inward rectifier potassium channel 1 isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073800928</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>7.60644e-64</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIR-EQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPS-EGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVR</Hsp_qseq>
+      <Hsp_hseq>KKKRQRFVEKNGRCNVQHGNLGGETSRYLSDLFTTLVDLKWRWNLLIFILTYTIAWLVMASMWWIIAYIRGDLNHGHDASYTPCVANVYNFPSAFLFFIETEATIGYGYRYITEKCPEGIILFLFQSLLGSIVDAFLIGCMFIKMSQPKKRAETLMFSQDAVISQRDGKLCLMFRVGNLRNSHMVSAQIRCKLIK</Hsp_hseq>
+      <Hsp_midline>+++R RFV K G CNV H N+  E  R+L D+FTTLVDLKW   LLIF +++  +WL+ A  WW+IA+  GDL    + +  PCV ++++F SAFLF IE + TIG+G R +TE+CP  I++ + Q+++G +++A ++GC+F+K +Q  +RAETL+FS+ AVI+ R G+LC M RVG+LR S ++SA I  ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>emb|CAK04691.1|</Hit_id>
+  <Hit_def>novel protein (zgc:63534), partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAK04691</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>1.88666e-48</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQGRF--LQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDL---APSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVD</Hsp_qseq>
+      <Hsp_hseq>RGRKNRLVTKDGRCNIEFGNVMHRNRFAYVLDFWTTFVETRWRFILLYFVASFTLSWFIFGLIWYWLARNNGDLLWQNPPPG-HKPCAFSVNDMTYAFLFSLETQSTIGFGNIYVTDQCPGGVALIVIQTIIGLFINIFWCGIVMTKISLPKKRAKTITFSESAVICPKKGTLCLQIRVANLRKTLMIGSQIYGKLLR-TTVTGGETVILDQVS</Hsp_hseq>
+      <Hsp_midline>R R+ R V+K G CN+   N+  + RF  + D +TT V+ +W   LL F  SF  SW +F + W+ +A  +GDL    P  G  +PC  S++  + AFLFS+E Q TIGFG   VT++CP  + ++++Q I+GL IN    G +  K +   +RA+T+ FS+ AVI  + G LC  +RV +LRK+++I + I+ +++R TT   GE V L QV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>dbj|BAF03613.1|</Hit_id>
+  <Hit_def>inwardly rectifying potassium channel 7.1 [Danio rerio]</Hit_def>
+  <Hit_accession>BAF03613</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>6.62856e-39</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQGR-----FLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEP-----CVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPME-NGVGGNSI-FLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLD</Hsp_qseq>
+      <Hsp_hseq>KPQRRRLVSKDGR-SQTRGNTRGGSRETCFSALRDLWGTWLALRWRWVVLAFCGSFLLHWLLFAVLWYLLARVNGDLDVLDHDSPPPGHVLCVKHVNGFTAAFSFALETQLTIGYGTMYPNADCPTAIALLALQMLLGLMLEAFITGAFVAKFSRPQKRCDGILFSPQAVVCEQKGQRCLMFRVCNLQPQPLVDVSVSAVLYEERDDHE-----LHQTALEFSIDNLGSRSCPLFLSPLTFFHPLNPSTPFINNPSSQTH----FELVVFLTATQESTGSGYHKRTSYLPDEIQYGYCFSKVTSVHQNK--TPNMRYFDTVPCPLTLANTHTTD</Hsp_hseq>
+      <Hsp_midline>+ +R R VSK G  +    N R   R      L+D++ T + L+W   +L F  SFL  WLLFA+ W+L+A  +GDL   +  + P     CV  ++ F++AF F++E Q+TIG+G      +CP AI +L +Q ++GLM+ A + G    K ++  +R + ++FS  AV+  + G+ C M RV +L+   ++  ++   +  +    E     LHQ  +    + +G  S    ++PL  +H ++ ++P  +   S  H     E++V L    E+TG     RTSYL DEI +G  F  + +    +      ++ +TV  P  L      D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|NP_001039014.2|</Hit_id>
+  <Hit_def>inward rectifier potassium channel 13 [Danio rerio] &gt;ref|NP_001429133.1| inward rectifier potassium channel 13 [Danio rerio] &gt;ref|NP_001429134.1| inward rectifier potassium channel 13 [Danio rerio] &gt;ref|NP_001429135.1| inward rectifier potassium channel 13 [Danio rerio] &gt;ref|NP_001429136.1| inward rectifier potassium channel 13 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001039014</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>6.90282e-39</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>RQRRARFVSKKGNCNVAHKNIREQGR-----FLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEP-----CVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPME-NGVGGNSI-FLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLD</Hsp_qseq>
+      <Hsp_hseq>KPQRRRLVSKDGR-SQTRGNTRGGSRETCFSALRDLWGTWLALRWRWVVLAFCGSFLLHWLLFAVLWYLLARVNGDLDVLDHDSPPPGHVLCVKHVNGFTAAFSFALETQLTIGYGTMYPNADCPTAIALLALQMLLGLMLEAFITGAFVAKFSRPQKRCDGILFSPQAVVCEQKGQRCLMFRVCNLQPQPLVDVSVSAVLYEERDDHE-----LHQTALEFSIDNLGSRSCPLFLSPLTFFHPLNPSTPFINNPSSQTH----FELVVFLTATQESTGSGYHKRTSYLPDEIQYGYCFSKVTSVHQNK--TPNMRYFDTVPCPLTLANTHTTD</Hsp_hseq>
+      <Hsp_midline>+ +R R VSK G  +    N R   R      L+D++ T + L+W   +L F  SFL  WLLFA+ W+L+A  +GDL   +  + P     CV  ++ F++AF F++E Q+TIG+G      +CP AI +L +Q ++GLM+ A + G    K ++  +R + ++FS  AV+  + G+ C M RV +L+   ++  ++   +  +    E     LHQ  +    + +G  S    ++PL  +H ++ ++P  +   S  H     E++V L    E+TG     RTSYL DEI +G  F  + +    +      ++ +TV  P  L      D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>emb|CCX28594.1|</Hit_id>
+  <Hit_def>potassium inwardly-rectifying channel, subfamily J, member 10a, Kir4.1a, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CCX28594</Hit_accession>
+  <Hit_len>41</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>2.95703e-06</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>RAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATI</Hsp_qseq>
+      <Hsp_hseq>RGETVKFSQHAVVANHEGRPCLMIRVANMRKSLLLGCQV</Hsp_hseq>
+      <Hsp_midline>R ET+ FS+HAV+A   GR C M+RV ++RKS+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>emb|CCX28595.1|</Hit_id>
+  <Hit_def>potassium inwardly-rectifying channel, subfamily J, member 10b, Kir4.1b, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CCX28595</Hit_accession>
+  <Hit_len>41</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.000688865</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>AETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATI</Hsp_qseq>
+      <Hsp_hseq>GETIRFSQHAVIANHDGRPSLMIRVANMRKSLLLGCQV</Hsp_hseq>
+      <Hsp_midline> ET+ FS+HAVIA   GR   M+RV ++RKS+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

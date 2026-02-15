@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7594653</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000528.1 renin preproprotein [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>406</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7594653</Iteration_query-ID>
+  <Iteration_query-def>NP_000528.1 renin preproprotein [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>406</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_998025.1|</Hit_id>
+  <Hit_def>renin precursor [Danio rerio] &gt;gb|AAO31713.1| renin precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_998025</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>6.47993e-138</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>TTTFKRIFLKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLGNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITVTQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALA</Hsp_qseq>
+      <Hsp_hseq>TKALWRVKLKKMPSIRETLKEMSVTPAQVLSEIMPKYQEPSPTNGTAPTPLINYLDTQYFGEISIGSPAQMFNVVFDTGSANLWVPSHSCSPLYTACFTHNRYDASKSLTHIFNGTGFSIQYASGNVRGFLSEDVVVVGGIPVVQVFAEATALPAIPFILAKFDGVLGMGYPNVAIDGITPVFDRIMSQHVLKENVFSVYYSRDP--THIPGGELVLGGTDPNYHTGPFHYINTKEQGKWEVIMKGVSVGADILFCKDGCTAVIDTGSSYITGPASSISILMKTIGAVELAEGGYTVSCNVVRLLPTVAFHLGGQEYSLTDEDYILWQSEFGEDICTVTFKALDVPPPTGPVWILGANFIARYYTEFDRGNNRIGFARA</Hsp_hseq>
+      <Hsp_midline>T    R+ LK+MPSIRE+LKE  V  A++  E     +  +  N T+   L NY+DTQY+GEI IG+P Q F VVFDTGS+N+WVPS  CS LYTAC  H  +DAS S ++  NGT  +++Y++G V GFLS+D++ VGGI V Q+F E T +PA+PF+LA+FDGV+GMG+   AI  +TP+FD I+SQ VLKE+VFS YY+RD   +   GG++VLGG+DP ++ G FHYIN  + G W++ MKGVSVG+  L C+DGC A++DTG+SYI+G  SSI  LM+ +GA +     Y V CN    LP ++FHLGG+EY+LT  DY+  +S   + +CT+   A+D+PPPTGP W LGA FI ++YTEFDR NNRIGFA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAI62339.1|</Hit_id>
+  <Hit_def>Renin [Danio rerio] &gt;gb|AAI62351.1| Renin [Danio rerio] &gt;gb|AAO41706.1| renin precursor [Danio rerio]</Hit_def>
+  <Hit_accession>AAI62339</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>1.69078e-137</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>TTTFKRIFLKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLGNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITVTQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALA</Hsp_qseq>
+      <Hsp_hseq>TKALWRVKLKKMPSIRETLKEMSVTPAQVLSEIMPKYQEPSPTNGTAPTPLINYLDTQYFGEISIGSPAQMFNVVFDTGSANLWVPSHSCSPLYTACFTHNRYDASKSLTHIFNGTGFSIQYASGNVRGFLSEDVVVVGGIPVVQVFAEATALPAIPFIFAKFDGVLGMGYPDVAIDGITPVFDRIMSQHVLKENVFSVYYSRDP--THIPGGELVLGGTDPNYHTGPFHYINTKEQGKWEVIMKGVSVGADILFCKDGCTAVIDTGSSYITGPASSISILMKTIGAVELAEGGYTVSCNVVRLLPTVAFHLGGQEYSLTDEDYILWQSEFGEDICTVTFKALDVPPPTGPVWILGANFIARYYTEFDRGNNRIGFARA</Hsp_hseq>
+      <Hsp_midline>T    R+ LK+MPSIRE+LKE  V  A++  E     +  +  N T+   L NY+DTQY+GEI IG+P Q F VVFDTGS+N+WVPS  CS LYTAC  H  +DAS S ++  NGT  +++Y++G V GFLS+D++ VGGI V Q+F E T +PA+PF+ A+FDGV+GMG+ + AI  +TP+FD I+SQ VLKE+VFS YY+RD   +   GG++VLGG+DP ++ G FHYIN  + G W++ MKGVSVG+  L C+DGC A++DTG+SYI+G  SSI  LM+ +GA +     Y V CN    LP ++FHLGG+EY+LT  DY+  +S   + +CT+   A+D+PPPTGP W LGA FI ++YTEFDR NNRIGFA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_571785.2|</Hit_id>
+  <Hit_def>cathepsin D precursor [Danio rerio] &gt;gb|AAH42316.1| Ctsd protein [Danio rerio] &gt;gb|AAH62824.1| Ctsd protein [Danio rerio] &gt;gb|AAI64814.1| Ctsd protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571785</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>1.74674e-117</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>LLLLLWGSCTFGLPTDTTTFKRIFLKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLG----NTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITV-TQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALAR</Hsp_qseq>
+      <Hsp_hseq>LLLVVAFFCT------SDAIVRIPLKKFRTLRRTLSDSGRSLEEL--VSSSNSLKYNLGFPASNDPTPETLKNYLDAQYYGEIGLGTPVQTFTVVFDTGSSNLWVPSVHCSLTDIACLLHHKYNGGKSSTYVKNGTQFAIQYGSGSLSGYLSQDTCTIGDIAVEKQIFGEAIKQPGVAFIAAKFDGILGMAYPRIAVDGVPPVFDMMMSQKKVEKNVFSFYLNRNPDTQP--GGELLLGGTDPKYYTGDFNYVDISRQAYWQIHMDGMSIGSGLSLCKGGCEAIVDTGTSLITGPAAEVKALQKAIGAIPLMQGEYMVDCKKVPTLPTISFSLGGKVYSLTGEQYILKESQGGHDICLSGFMGLDIPPPAGPLWILGDVFIGQYYTVFDRENNRVGFAKAK</Hsp_hseq>
+      <Hsp_midline>LLL++   CT      +    RI LK+  ++R +L + G  +  L    S    +  LG    N  +   L NY+D QYYGEIG+GTP QTF VVFDTGSSN+WVPS  CS    AC+ H  ++   SS+Y  NGT+  ++Y +G++SG+LSQD  T+G I V  Q+FGE  + P + F+ A+FDG++GM +   A+  V P+FD ++SQ  ++++VFSFY NR+ +     GG+++LGG+DP++Y G+F+Y+++ +   WQI M G+S+GS   LC+ GC A+VDTG S I+G  + ++ L +A+GA   +  +Y+V C + PTLP ISF LGGK Y+LT   Y+ +ES     +C      +DIPPP GP W LG  FI ++YT FDR NNR+GFA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAL61540.1|</Hit_id>
+  <Hit_def>cathepsin D precursor [Danio rerio]</Hit_def>
+  <Hit_accession>AAL61540</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>2.24275e-117</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>RIFLKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLG----NTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITV-TQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALAR</Hsp_qseq>
+      <Hsp_hseq>RIPLKKFRTLRRTLSDSGRSLEEL--VSSSNSLKYNLGFPASNDPTPETLKNYLDAQYYGEIGLGTPVQTFTVVFDTGSSNLWVPSVHCSLTDIACLLHHKYNGGKSSTYVKNGTQFAIQYGSGSLSGYLSQDTCTIGDIAVEKQIFGEAIKQPGVAFIAAKFDGILGMAYPRIAVDGVPPVFDMMMSQKKVEKNVFSFYLNRNPDTQP--GGELLLGGTDPKYYTGDFNYVDISRQAYWQIHMDGMSIGSGLSLCKGGCEAIVDTGTSLITGPAAEVKALQKAIGAIPLMQGEYMVDCKKVPTLPTISFSLGGKVYSLTGEQYILKESQGGHDICLSGFMGLDIPPPAGPLWILGDVFIGQYYTVFDRENNRVGFAKAK</Hsp_hseq>
+      <Hsp_midline>RI LK+  ++R +L + G  +  L    S    +  LG    N  +   L NY+D QYYGEIG+GTP QTF VVFDTGSSN+WVPS  CS    AC+ H  ++   SS+Y  NGT+  ++Y +G++SG+LSQD  T+G I V  Q+FGE  + P + F+ A+FDG++GM +   A+  V P+FD ++SQ  ++++VFSFY NR+ +     GG+++LGG+DP++Y G+F+Y+++ +   WQI M G+S+GS   LC+ GC A+VDTG S I+G  + ++ L +A+GA   +  +Y+V C + PTLP ISF LGGK Y+LT   Y+ +ES     +C      +DIPPP GP W LG  FI ++YT FDR NNR+GFA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAI54316.1|</Hit_id>
+  <Hit_def>Ctsd protein [Danio rerio] &gt;emb|CAK05390.1| cathepsin D [Danio rerio] &gt;emb|CAK11131.1| cathepsin D [Danio rerio]</Hit_def>
+  <Hit_accession>AAI54316</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.821</Hsp_bit-score>
+      <Hsp_score>891</Hsp_score>
+      <Hsp_evalue>9.41318e-117</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>RIFLKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLG----NTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITV-TQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALAR</Hsp_qseq>
+      <Hsp_hseq>RIPLKKFRTLRRTLSDSGRSLEEL--VSSSNSLKYNLGFPASNDPTPETLKNYLDAQYYGEIGLGTPVQTFTVVFDTGSSNLWVPSVHCSLTDIACLLHHKYNGGKSSTYVKNGTQFAIQYGSGSLSGYLSQDTCTIGDIAVEKQIFGEAIKQPGVAFIAAKFDGILGMAYPRISVDGVPPVFDMMMSQKKVEKNVFSFYLNRNPDTQP--GGELLLGGTDPKYYTGDFNYVDISRQAYWQIHMDGMSIGSGLSLCKGGCEAIVDTGTSLITGPAAEVKALQKAIGAIPLMQGEYMVDCKKVPTLPTISFSLGGKVYSLTGEQYILKESQGGHDICLSGFMGLDIPPPAGPLWILGDVFIGQYYTVFDRENNRVGFAKAK</Hsp_hseq>
+      <Hsp_midline>RI LK+  ++R +L + G  +  L    S    +  LG    N  +   L NY+D QYYGEIG+GTP QTF VVFDTGSSN+WVPS  CS    AC+ H  ++   SS+Y  NGT+  ++Y +G++SG+LSQD  T+G I V  Q+FGE  + P + F+ A+FDG++GM +   ++  V P+FD ++SQ  ++++VFSFY NR+ +     GG+++LGG+DP++Y G+F+Y+++ +   WQI M G+S+GS   LC+ GC A+VDTG S I+G  + ++ L +A+GA   +  +Y+V C + PTLP ISF LGGK Y+LT   Y+ +ES     +C      +DIPPP GP W LG  FI ++YT FDR NNR+GFA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>emb|CAC20111.1|</Hit_id>
+  <Hit_def>cathepsin D enzyme [Danio rerio]</Hit_def>
+  <Hit_accession>CAC20111</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>1.5871e-114</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>RIFLKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLG----NTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITV-TQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTG--ASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALAR</Hsp_qseq>
+      <Hsp_hseq>RIPLKKFRTLRRTLSDSGRSLEEL--VSSSNSLKYNLGFPASNDPTPETLKNYLDAQYYGEIGLGTPVQTFTVVFDTGSSNLWVPSVHCSLTDIACLLHHKYNGGKSSTYVKNGTQFAIQYGSGSLSGYLSQDTCTIGDIAVEKQIFGEAIKQPGVAFIAAKFDGILGMAYPRISVDGVPPVFDMMMSQKKVEKNVFSFYLNRNPDTQP--GGELLLGGTDPKYYTGDFNYVDISRQAYWQIHMDGMSIGSGLSLCKGGCEAIVDTGTSTSLITGPAAEVKALQKAIGAIPLMQGEYMVDCKKVPTLPTISFSLGGKVYSLTGEQYILKESQGGHDICLSGFMGLDIPPPAGPLWILGDVFIGQYYTVFDRENNRVGFAKAK</Hsp_hseq>
+      <Hsp_midline>RI LK+  ++R +L + G  +  L    S    +  LG    N  +   L NY+D QYYGEIG+GTP QTF VVFDTGSSN+WVPS  CS    AC+ H  ++   SS+Y  NGT+  ++Y +G++SG+LSQD  T+G I V  Q+FGE  + P + F+ A+FDG++GM +   ++  V P+FD ++SQ  ++++VFSFY NR+ +     GG+++LGG+DP++Y G+F+Y+++ +   WQI M G+S+GS   LC+ GC A+VDTG   S I+G  + ++ L +A+GA   +  +Y+V C + PTLP ISF LGGK Y+LT   Y+ +ES     +C      +DIPPP GP W LG  FI ++YT FDR NNR+GFA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AAI54325.1|</Hit_id>
+  <Hit_def>Zgc:63831 [Danio rerio]</Hit_def>
+  <Hit_accession>AAI54325</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.658</Hsp_bit-score>
+      <Hsp_score>875</Hsp_score>
+      <Hsp_evalue>3.9727e-114</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>LPTDTTTFKRIFLKRMPSIRESLKERG--VD----MARLGPEWSQ----PMKRLTLGNTTSSVI------LTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITVT-QMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALAR</Hsp_qseq>
+      <Hsp_hseq>LIADSQAIIRIPLHKMRTVRRMLADNGKTIDEIKSLAKMKAKYSDGTFTNQGSVTIPAPTTTQIPPPVEKLTNFMDAQYYGMISIGTPPQDFSVLFDTGSSNLWVPSIHCAFLDIACWLHRRYNSKKSSTYVQNGTEFSIQYGRGSLSGFISQDTVNLAGLNVTGQQFAEAVKQPGIVFAVARFDGVLGMAYPAISVDRVTPVFDTAMAAKILPQNIFSFYINRDPAG--DVGGELMLGGFDQQYFNGDLHYVNVTRKAYWQIKMDEVQVGSTLTLCKSGCQAIVDTGTSMITGPVQEVRALQKAIGAIPLLMGEYWIDCKKIPTLPVVSFSLGGKMFNLTGQEYVMKVSHMGMNVCLSGFMAMDIPPPAGPLWILGDVFIGRYYTVFDRDQDRVGFAPAK</Hsp_hseq>
+      <Hsp_midline>L  D+    RI L +M ++R  L + G  +D    +A++  ++S         +T+   T++ I      LTN+MD QYYG I IGTPPQ F V+FDTGSSN+WVPS  C+ L  AC  H+ +++  SS+Y  NGTE +++Y  G++SGF+SQD + + G+ VT Q F E  + P + F +A FDGV+GM +   ++ RVTP+FD  ++  +L +++FSFY NRD      +GG+++LGG D Q++ G+ HY+N+ +   WQI+M  V VGS+  LC+ GC A+VDTG S I+G    +  L +A+GA   L  +Y + C + PTLP +SF LGGK + LT  +YV + S+    +C     AMDIPPP GP W LG  FI ++YT FDR  +R+GFA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|NP_956325.1|</Hit_id>
+  <Hit_def>napsin-A precursor [Danio rerio] &gt;gb|AAH56836.1| Zgc:63831 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_956325</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.502</Hsp_bit-score>
+      <Hsp_score>872</Hsp_score>
+      <Hsp_evalue>9.36593e-114</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>406</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>LPTDTTTFKRIFLKRMPSIRESLKERG--VD----MARLGPEWSQ----PMKRLTLGNTTSSVI------LTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITVT-QMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALAR</Hsp_qseq>
+      <Hsp_hseq>LIADSQAIIRIPLHKMRTVRRMLADNGKTIDEIKSLAKMKAKYSDGTFTNQGSVTIPAPTTTQLPPPVEKLTNFMDAQYYGMISIGTPPQDFSVLFDTGSSNLWVPSIHCAFLDIACWLHRRYNSKKSSTYVQNGTEFSIQYGRGSLSGFISQDTVNLAGLNVTGQQFAEAVKQPGIVFAVARFDGVLGMAYPAISVDRVTPVFDTAMAAKILPQNIFSFYINRDPAG--DVGGELMLGGFDQQYFNGDLHYVNVTRKAYWQIKMDEVQVGSTLTLCKSGCQAIVDTGTSMITGPVQEVRALQKAIGAIPLLMGEYWIDCKKIPTLPVVSFSLGGKMFNLTGQEYVMKMSHMGMNVCLSGFMAMDIPPPAGPLWILGDVFIGRYYTVFDRDQDRVGFAPAK</Hsp_hseq>
+      <Hsp_midline>L  D+    RI L +M ++R  L + G  +D    +A++  ++S         +T+   T++ +      LTN+MD QYYG I IGTPPQ F V+FDTGSSN+WVPS  C+ L  AC  H+ +++  SS+Y  NGTE +++Y  G++SGF+SQD + + G+ VT Q F E  + P + F +A FDGV+GM +   ++ RVTP+FD  ++  +L +++FSFY NRD      +GG+++LGG D Q++ G+ HY+N+ +   WQI+M  V VGS+  LC+ GC A+VDTG S I+G    +  L +A+GA   L  +Y + C + PTLP +SF LGGK + LT  +YV + S+    +C     AMDIPPP GP W LG  FI ++YT FDR  +R+GFA A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|NP_001428271.1|</Hit_id>
+  <Hit_def>nothepsin precursor [Danio rerio] &gt;ref|NP_001428272.1| nothepsin precursor [Danio rerio] &gt;ref|NP_001428273.1| nothepsin precursor [Danio rerio] &gt;ref|NP_001428274.1| nothepsin precursor [Danio rerio] &gt;ref|NP_001428275.1| nothepsin precursor [Danio rerio] &gt;ref|NP_571879.2| nothepsin precursor [Danio rerio] &gt;ref|XP_073801612.1| nothepsin isoform X1 [Danio rerio] &gt;ref|XP_073801615.1| nothepsin isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001428271</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>1.0929e-80</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>RIFLKRMPSIR----------ESLKERGVDM-ARLGPEWSQPMKR-LTLGNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITV-TQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCE---DGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFA</Hsp_qseq>
+      <Hsp_hseq>RVALRQYPSVRSRLRASAQLEEFLKQHQPDMFSRRYVQCFPPAQHFLRLGGRVTER-LYNFMDAQFFGQISLGRPEQNFTVVFDTGSSDLWVPSSYC--VSQACALHNKFKAFESSTYTHDGRVFGIHYGSGHLLGVMARDELKVGSVRVQNQVFGEAVYEPGFSFVLAQFDGVLGLGFPQLAEEKGSPVFDSMMEQNMLDQPVFSFYL---TNNGSGFGGELVFGGMDESRFLPPINWIPVTQKGYWQIKLDAVKVQGALSFCYRSVQGCQAIVDTGTSLIGGPARDILILQQFIGATPTANGEFVVDCVRVSSLPVVSFLINSVEYSLSGEQYVRRETLNNKQICFSGFQSIEVPSPAGPVWILGDVFLSQVYSIYDRGENRVGLA</Hsp_hseq>
+      <Hsp_midline>R+ L++ PS+R          E LK+   DM +R   +   P +  L LG   +   L N+MD Q++G+I +G P Q F VVFDTGSS++WVPSS C  +  AC  H  F A +SS+Y H+G    + Y +G + G +++D + VG + V  Q+FGE    P   F+LA+FDGV+G+GF + A  + +P+FD+++ Q +L + VFSFY    + N    GG++V GG D   +    ++I + + G WQI++  V V  +   C     GC A+VDTG S I G    I  L + +GA      ++VV C    +LP +SF +   EY+L+   YV +E+ ++K++C     ++++P P GP W LG  F+ + Y+ +DR  NR+G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AAI65335.1|</Hit_id>
+  <Hit_def>Nots protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI65335</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>2.1974e-80</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>RIFLKRMPSIR----------ESLKERGVDM-ARLGPEWSQPMKR-LTLGNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITV-TQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCE---DGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFA</Hsp_qseq>
+      <Hsp_hseq>RVALRQYPSVRSRLRASAQLEEFLKQHQPDMFSRRYVQCFPPAQHFLRLGGRITER-LYNFMDAQFFGQISLGRPEQNFTVVFDTGSSDLWVPSSYC--VSQACALHNKFKAFESSTYTHDGRVFGIHYGSGHLLGVMARDELKVGSVCVQNQVFGEAVYEPGFSFVLAQFDGVLGLGFPQLAEEKGSPVFDSMMEQNMLDQPVFSFYL---TNNGSGFGGELVFGGMDESRFLPPINWIPVTQKGYWQIKLDAVKVQGALSFCYRSVQGCQAIVDTGTSLIGGPARDILILQQFIGATPTANGEFVVDCVRVSSLPVVSFLINSVEYSLSGEQYIRRETLNNKQICFSGFQSIEVPSPAGPMWILGDVFLSQVYSIYDRGENRVGLA</Hsp_hseq>
+      <Hsp_midline>R+ L++ PS+R          E LK+   DM +R   +   P +  L LG   +   L N+MD Q++G+I +G P Q F VVFDTGSS++WVPSS C  +  AC  H  F A +SS+Y H+G    + Y +G + G +++D + VG + V  Q+FGE    P   F+LA+FDGV+G+GF + A  + +P+FD+++ Q +L + VFSFY    + N    GG++V GG D   +    ++I + + G WQI++  V V  +   C     GC A+VDTG S I G    I  L + +GA      ++VV C    +LP +SF +   EY+L+   Y+ +E+ ++K++C     ++++P P GP W LG  F+ + Y+ +DR  NR+G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>emb|CAC20112.1|</Hit_id>
+  <Hit_def>nothepsin [Danio rerio]</Hit_def>
+  <Hit_accession>CAC20112</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>3.72002e-80</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>MPRWGLLLLLWGSCTFGLPTDTTTFKRIFLKRMPSIR----------ESLKERGVDM-ARLGPEWSQPMKRLTLGNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITV-TQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCE---DGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFA</Hsp_qseq>
+      <Hsp_hseq>MRSAGLILILVLHLGF-----STGLLRVALRQYPSVRSRLRASAQLEEFLKQHQPDMFSRRYVQCFPPAQHFLRPGRRVTERLYNFMDAQFFGQISLGRPEQNFTVVFDTGSSDLWVPSSYC--VTQACALHNKFKAFESSTYTHDGRVFGIHYGSGHLLGVMARDELKVGSVRVQNQVFGEAVYEPGFSFVLAQFDGVLGLGFPQLAEEKGSPVFDTMMEQNMLDQPVFSFYL---TNNGSGFGGELVFGANDESRFLPPINWIPVTQKGYWQIKLDAVKVQGALSFSDRSVQGCQAIVDTGTSLIGGPARDILILQQFIGATPTANGEFVVDCVRVSSLPVVSFLINSVEYSLSGEQYVRRETLNNKQICFSGFQSIEVPSPAGPVWILGDVFLSQVYSIYDRGENRVGLA</Hsp_hseq>
+      <Hsp_midline>M   GL+L+L     F     +T   R+ L++ PS+R          E LK+   DM +R   +   P +         +  L N+MD Q++G+I +G P Q F VVFDTGSS++WVPSS C  +  AC  H  F A +SS+Y H+G    + Y +G + G +++D + VG + V  Q+FGE    P   F+LA+FDGV+G+GF + A  + +P+FD ++ Q +L + VFSFY    + N    GG++V G +D   +    ++I + + G WQI++  V V  +    +    GC A+VDTG S I G    I  L + +GA      ++VV C    +LP +SF +   EY+L+   YV +E+ ++K++C     ++++P P GP W LG  F+ + Y+ +DR  NR+G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AAH86835.1|</Hit_id>
+  <Hit_def>Nots protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH86835</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>5.92218e-80</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>388</Hsp_align-len>
+      <Hsp_qseq>RIFLKRMPSIR----------ESLKERGVDM-ARLGPEWSQPMKR-LTLGNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITV-TQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCE---DGCLALVDTGASYISGSTSSIEKLMEALGAKKRLF-DYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFA</Hsp_qseq>
+      <Hsp_hseq>RVALRQYPSVRSRLRASAQLEEFLKQHQPDMFSRRYVQCFPPAQHFLRLGGRITER-LYNFMDAQFFGQISLGRPEQNFTVVFDTGSSDLWVPSSYC--VSQACALHNKFKAFESSTYTHDGRVFGIHYGSGHLLGVMARDELKVGSVCVQNQVFGEAVYEPGFSFVLAQFDGVLGLGFPQLAEEKGSPVFDSMMEQNMLDQPVFSFYL---TNNGSGFGGELVFGGMDESRFLPPINWIPVTQKGYWQIKLDAVKVQGALSFCYRSVQGCQAIVDTGTSLIGGPARDILILQQFIGATPTANGEFVVDCVRVSSLPVVSFLINSVEYSLSGEQYIRRETLNNKQICFSGFQSIEVPSPAGPMWILGDVFLSQVYSIYDRGENRVGLA</Hsp_hseq>
+      <Hsp_midline>R+ L++ PS+R          E LK+   DM +R   +   P +  L LG   +   L N+MD Q++G+I +G P Q F VVFDTGSS++WVPSS C  +  AC  H  F A +SS+Y H+G    + Y +G + G +++D + VG + V  Q+FGE    P   F+LA+FDGV+G+GF + A  + +P+FD+++ Q +L + VFSFY    + N    GG++V GG D   +    ++I + + G WQI++  V V  +   C     GC A+VDTG S I G    I  L + +GA      ++VV C    +LP +SF +   EY+L+   Y+ +E+ ++K++C     ++++P P GP W LG  F+ + Y+ +DR  NR+G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>emb|CAK05389.1|</Hit_id>
+  <Hit_def>cathepsin D [Danio rerio]</Hit_def>
+  <Hit_accession>CAK05389</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>4.0545e-18</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RIFLKRMPSIRESLKERGVDMARLGPEWSQPMKRLTL--GNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTAC</Hsp_qseq>
+      <Hsp_hseq>RIPLKKFRTLRRTLSDSGRSLEELVSSSNSLKYNLGFPASNDPTPETLKNYLDAQYYGEIGLGTPVQTFTVVFDTGSSNLWVPSVHCSLTDIAC</Hsp_hseq>
+      <Hsp_midline>RI LK+  ++R +L + G  +  L    +     L     N  +   L NY+D QYYGEIG+GTP QTF VVFDTGSSN+WVPS  CS    AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|NP_991267.2|</Hit_id>
+  <Hit_def>beta-secretase 1 isoform 2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_991267</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.33361e-17</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>LKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLGNTTSSVILTNYMDTQ-------YYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITV---GGITVTQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVT--PIFDNIISQGVLKEDVFS-------FYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLL--CEDGCL--ALVDTGASYISGSTSSIEKLMEALGAKKR---------LFDYVVKCNEGPT----LPDISFHLGGKEYTLTSADYVFQESY--------SSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALA</Hsp_qseq>
+      <Hsp_hseq>LLRVPLRQGPLTPHSTPAAHRSPHSPRVRSR----RATSGISFINMIDNLRGKSGQGYYIEMAVGSPAQRLNILVDTGSSNFAVGAAAHPFL------HRYYHRSLSSSYRDLGRGVYVPYTQGRWEGELGTDVVSVPCGPNVSLRANIAAITQSDRFFINGSNWEGILGLAYAEIARPDETLEPFFDSLLRQSTVA-DVFSLQLCGAGYSHNYSTGSSSTVGGSMIIGGVDPSLYVGELWYTPIRREWYYEVIIVRIEVNGQDLNMDCKEYNYDKSIVDSGTTNLRLPRKVFQAAVKAIEAASSTEQFPSGFWLGEQLVCWQAGTTPWHIFPVISLYLMSENRNQSFRISILPQQYLRPVEDVASAQEDC----YKFAVSQSSTGT-VMGAVIMEGFYVVFERQHKRIGFAVS</Hsp_hseq>
+      <Hsp_midline>L R+P  +  L       A   P   +   R      TS +   N +D         YY E+ +G+P Q   ++ DTGSSN  V ++    L      H+ +  S SSSY+  G  + + Y+ G   G L  D+++V     +++      +T+        + ++G++G+ + E A    T  P FD+++ Q  +  DVFS       + +N  + +S ++GG +++GG DP  Y G   Y  + +   +++ +  + V    L   C++     ++VD+G + +       +  ++A+ A            L + +V    G T     P IS +L  +    +    +  + Y        S+++ C    +   +   +  T  +GA  +  FY  F+R++ RIGFA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|AAH65973.1|</Hit_id>
+  <Hit_def>Zgc:77409 [Danio rerio]</Hit_def>
+  <Hit_accession>AAH65973</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>5.8016e-17</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>414</Hsp_align-len>
+      <Hsp_qseq>LKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLGNTTSSVILTNYMDTQ-------YYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITV---GGITVTQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVT--PIFDNIISQGVLKEDVFS-------FYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLL--CEDGCL--ALVDTGASYISGSTSSIEKLMEALGAKKR---------LFDYVVKCNEGPT----LPDISFHLGGKEYTLTSADYVFQESY--------SSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALA</Hsp_qseq>
+      <Hsp_hseq>LLRVPLRQGPLTPHSTPAAHRSPHGPRARSR----RAASGISFINMIDNLRGKSGQGYYIEMAVGSPAQRLNILVDTGSSNFAVGAAAHPFL------HRYYHRSLSSSYRDLGRGVYVPYTQGRWEGELGTDVVSVPCGPNVSLRANIAAITQSDRFFINGSNWEGILGLAYAEIARPDETLEPFFDSLLRQSTVA-DVFSLQLCGAGYNHNYSTGSSSTVGGSMIIGGVDPSLYVGELWYTPIRREWYYEVIIVRIEVNGQDLNMDCKEYNYDKSIVDSGTTNLRLPRKVFQAAVKAIEAASSTEQFPSGFWLGEQLVCWQAGTTPWHIFPVISLYLMSENRNQSFRISILPQQYLRPVEDVASAQEDC----YKFAVSQSSTGT-VMGAVIMEGFYVVFERQHKRIGFAVS</Hsp_hseq>
+      <Hsp_midline>L R+P  +  L       A   P   +   R       S +   N +D         YY E+ +G+P Q   ++ DTGSSN  V ++    L      H+ +  S SSSY+  G  + + Y+ G   G L  D+++V     +++      +T+        + ++G++G+ + E A    T  P FD+++ Q  +  DVFS       + +N  + +S ++GG +++GG DP  Y G   Y  + +   +++ +  + V    L   C++     ++VD+G + +       +  ++A+ A            L + +V    G T     P IS +L  +    +    +  + Y        S+++ C    +   +   +  T  +GA  +  FY  F+R++ RIGFA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|NP_001428890.1|</Hit_id>
+  <Hit_def>beta-secretase 1 isoform 3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001428890</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>1.31153e-16</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>LKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLGNTTSSVILTNYMDTQ-------YYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITV---GGITVTQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVT--PIFDNIISQGVLKEDVFS-------FYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLL--CEDGCL--ALVDTGASYISGSTSSIEKLMEALGAKKR---------LFDYVVKCNEGPT----LPDISFHLGGKEYTLTSADYVF-------QESYSSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALA</Hsp_qseq>
+      <Hsp_hseq>LLRVPLRQGPLTPHSTPAAHRSPHSPRVRSR----RATSGISFINMIDNLRGKSGQGYYIEMAVGSPAQRLNILVDTGSSNFAVGAAAHPFL------HRYYHRSLSSSYRDLGRGVYVPYTQGRWEGELGTDVVSVPCGPNVSLRANIAAITQSDRFFINGSNWEGILGLAYAEIARPDETLEPFFDSLLRQSTVA-DVFSLQLCGAGYSHNYSTGSSSTVGGSMIIGGVDPSLYVGELWYTPIRREWYYEVIIVRIEVNGQDLNMDCKEYNYDKSIVDSGTTNLRLPRKVFQAAVKAIEAASSTEQFPSGFWLGEQLVCWQAGTTPWHIFPVISLYLMSENRNQSFRISILPQYLRPVEDVASAQEDC----YKFAVSQSSTGT-VMGAVIMEGFYVVFERQHKRIGFAVS</Hsp_hseq>
+      <Hsp_midline>L R+P  +  L       A   P   +   R      TS +   N +D         YY E+ +G+P Q   ++ DTGSSN  V ++    L      H+ +  S SSSY+  G  + + Y+ G   G L  D+++V     +++      +T+        + ++G++G+ + E A    T  P FD+++ Q  +  DVFS       + +N  + +S ++GG +++GG DP  Y G   Y  + +   +++ +  + V    L   C++     ++VD+G + +       +  ++A+ A            L + +V    G T     P IS +L  +    +    +        ++  S+++ C    +   +   +  T  +GA  +  FY  F+R++ RIGFA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|NP_001428891.1|</Hit_id>
+  <Hit_def>beta-secretase 1 isoform 4 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001428891</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>4.02355e-16</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>397</Hsp_align-len>
+      <Hsp_qseq>LKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLGNTTSSVILTNYMDTQ-------YYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITV---GGITVTQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVT--PIFDNIISQGVLKEDVFS-------FYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISGSTSSIEKLMEALGAKKRLFDYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESY--------SSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALA</Hsp_qseq>
+      <Hsp_hseq>LLRVPLRQGPLTPHSTPAAHRSPHSPRVRSR----RATSGISFINMIDNLRGKSGQGYYIEMAVGSPAQRLNILVDTGSSNFAVGAAAHPFL------HRYYHRSLSSSYRDLGRGVYVPYTQGRWEGELGTDVVSVPCGPNVSLRANIAAITQSDRFFINGSNWEGILGLAYAEIARPDETLEPFFDSLLRQSTVA-DVFSLQLCGAGYSHNYSTGSSSTVGGSMIIGGVDPSLYVGELWYTPIRREWYYEVIIVRIEVNGQDL-----------------NMDCKETEQFPSGFWLGEQLVCWQAGTTPWHIFPVISLYLMSENRNQSFRISILPQQYLRPVEDVASAQEDC----YKFAVSQSSTGT-VMGAVIMEGFYVVFERQHKRIGFAVS</Hsp_hseq>
+      <Hsp_midline>L R+P  +  L       A   P   +   R      TS +   N +D         YY E+ +G+P Q   ++ DTGSSN  V ++    L      H+ +  S SSSY+  G  + + Y+ G   G L  D+++V     +++      +T+        + ++G++G+ + E A    T  P FD+++ Q  +  DVFS       + +N  + +S ++GG +++GG DP  Y G   Y  + +   +++ +  + V    L                 +      E+        ++L  +          P IS +L  +    +    +  + Y        S+++ C    +   +   +  T  +GA  +  FY  F+R++ RIGFA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|NP_001428889.1|</Hit_id>
+  <Hit_def>beta-secretase 1 isoform 1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001428889</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.46909e-15</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>77</Hsp_gaps>
+      <Hsp_align-len>431</Hsp_align-len>
+      <Hsp_qseq>LKRMPSIRESLKERGVDMARLGPEWSQPMKRLTLGNTTSSVILTNYMDTQ-------YYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITV---GGITVTQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVT--PIFDNIISQGVLKEDVFS-------FYYNRDSENSQSLGGQIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLL--CEDGCL--ALVDTGASYISGSTSSIEKLMEALGAKKRLF--------------------------DYVVKCNEGPT----LPDISFHLGGKEYTLTSADYVFQESY--------SSKKLCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALA</Hsp_qseq>
+      <Hsp_hseq>LLRVPLRQGPLTPHSTPAAHRSPH----SPRVRSRRATSGISFINMIDNLRGKSGQGYYIEMAVGSPAQRLNILVDTGSSNFAVGAAAHPFL------HRYYHRSLSSSYRDLGRGVYVPYTQGRWEGELGTDVVSVPCGPNVSLRANIAAITQSDRFFINGSNWEGILGLAYAEIARPDETLEPFFDSLLRQSTVA-DVFSLQLCGAGYSHNYSTGSSSTVGGSMIIGGVDPSLYVGELWYTPIRREWYYEVIIVRIEVNGQDLNMDCKEYNYDKSIVDSGTTNLRLPRKVFQAAVKAIEAASSVYSEYSCAHSDSAWCPQTEQFPSGFWLGEQLVCWQAGTTPWHIFPVISLYLMSENRNQSFRISILPQQYLRPVEDVASAQEDC----YKFAVSQSSTGT-VMGAVIMEGFYVVFERQHKRIGFAVS</Hsp_hseq>
+      <Hsp_midline>L R+P  +  L       A   P       R+     TS +   N +D         YY E+ +G+P Q   ++ DTGSSN  V ++    L      H+ +  S SSSY+  G  + + Y+ G   G L  D+++V     +++      +T+        + ++G++G+ + E A    T  P FD+++ Q  +  DVFS       + +N  + +S ++GG +++GG DP  Y G   Y  + +   +++ +  + V    L   C++     ++VD+G + +       +  ++A+ A   ++                          + +V    G T     P IS +L  +    +    +  + Y        S+++ C    +   +   +  T  +GA  +  FY  F+R++ RIGFA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|AAH98514.1|</Hit_id>
+  <Hit_def>Cryptochrome DASH [Danio rerio]</Hit_def>
+  <Hit_accession>AAH98514</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>3.85461</Hsp_evalue>
+      <Hsp_query-from>242</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>IVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGS-STLLCEDGCLALVDTG</Hsp_qseq>
+      <Hsp_hseq>IPLYSFDPRHYQGTYHY-NFPKTGPFRLRFLLDSVKDLRALLKKHGSTLLVRQG</Hsp_hseq>
+      <Hsp_midline>I L   DP+HY+G +HY N  KTG ++++    SV     LL + G   LV  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|NP_991249.1|</Hit_id>
+  <Hit_def>cryptochrome DASH [Danio rerio] &gt;dbj|BAD08600.1| cryptochrome dash [Danio rerio]</Hit_def>
+  <Hit_accession>NP_991249</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.31797</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DPQHYEGNFHYINLIKTGVWQIQMKGVSVGS-STLLCEDGCLALVDTG</Hsp_qseq>
+      <Hsp_hseq>DPRHYQGTYHY-NFPKTGPFRLRFLLDSVKDLRALLKKHGSTLLVRQG</Hsp_hseq>
+      <Hsp_midline>DP+HY+G +HY N  KTG ++++    SV     LL + G   LV  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|Q4KML2.2|</Hit_id>
+  <Hit_def>RecName: Full=Cryptochrome DASH; AltName: Full=Protein CRY-DASH; Short=zCRY-DASH [Danio rerio]</Hit_def>
+  <Hit_accession>Q4KML2</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.48441</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DPQHYEGNFHYINLIKTGVWQIQMKGVSVGS-STLLCEDGCLALVDTG</Hsp_qseq>
+      <Hsp_hseq>DPRHYQGTYHY-NFPKTGPFRLRFLLDSVKDLRALLKKHGSTLLVRQG</Hsp_hseq>
+      <Hsp_midline>DP+HY+G +HY N  KTG ++++    SV     LL + G   LV  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_073796275.1|</Hit_id>
+  <Hit_def>cryptochrome DASH isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073796275</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.54375</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DPQHYEGNFHYINLIKTGVWQIQMKGVSVGS-STLLCEDGCLALVDTG</Hsp_qseq>
+      <Hsp_hseq>DPRHYQGTYHY-NFPKTGPFRLRFLLDSVKDLRALLKKHGSTLLVRQG</Hsp_hseq>
+      <Hsp_midline>DP+HY+G +HY N  KTG ++++    SV     LL + G   LV  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

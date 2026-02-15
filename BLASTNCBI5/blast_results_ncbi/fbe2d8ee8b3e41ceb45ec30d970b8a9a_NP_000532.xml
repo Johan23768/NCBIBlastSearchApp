@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5690457</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000532.2 S-arrestin [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>405</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5690457</Iteration_query-ID>
+  <Iteration_query-def>NP_000532.2 S-arrestin [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>405</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_001153294.1|</Hit_id>
+  <Hit_def>beta-arrestin-1 [Danio rerio] &gt;ref|XP_056330387.1| beta-arrestin-1 [Danio aesculapii] &gt;gb|ABF59484.1| beta-arrestin 1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001153294</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.521</Hsp_bit-score>
+      <Hsp_score>1168</Hsp_score>
+      <Hsp_evalue>1.88459e-158</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>296</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPV-GAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVS--GFLGELTSSEVATEVPFRLMHPQP-------EDPAKESYQDANL----------VFEEFARHNL----KDAGEAEEG</Hsp_qseq>
+      <Hsp_hseq>VFKKASPNGKLTVYLGKRDFVDHVDLVEPVDGVVLIDPEYLKERKVFVTLTCAFRYGREDLDVLGLTFRKDLFVANIQAFPPVPEEKKSLTRLQERLIKKLGEHAYPFTFEIPPNLPCSVTLQPGPEDTGKACGVDFEVKAFCAENV---EEKIHKRNSVRLVIRKVQYAPEKPGPQPMAETTRQFLMSDKPLHLEASLDKEIYYHGEPISVNVHVTNNTNKTVKKIKISVRQYADICLFNTAQYKCPVAIEESDDIVAPSATFCKVYTLTPFLANNREKRGLALDGKLKHEDTNLASSTLLREGANKEILGIIVSYKVKVKLVVSRGGLLGDLASSDVAVELPFTLMHPKPLEESIYRDAPENDAPIDTNLIEFDTNDDDIIFEDFARQRLIGAKDDKDEDEEG</Hsp_hseq>
+      <Hsp_midline>+FKK S +  +T+YLG RD++DHV  V+PVDGVVL+DP+ +K +KV+VTLTCAFRYG+ED+DV+GLTFR+DL+ + +Q +PPV     + T+LQE L+KKLG + YPF    P  LPCSV LQP P+D+GK+CGVDFEVKAF  ++    E+KI K++SVRL+IRKVQ+AP + GPQP AE   QF MSDKPLHL  SL+KEIY+HGEPI V V VTNNT KTVKKIK  V Q A++ L+++  Y  PVA+EE+ + V P++T  K  TL P LANNRE+RG+ALDGK+KHEDTNLASST+++EG ++ +LGI+VSY++KVKL VS  G LG+L SS+VA E+PF LMHP+P       + P  ++  D NL          +FE+FAR  L     D  E EEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_956853.1|</Hit_id>
+  <Hit_def>S-arrestin a [Danio rerio] &gt;gb|AAH56570.1| Zgc:66109 [Danio rerio] &gt;gb|AAH68418.1| Zgc:66109 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_956853</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>6.19387e-151</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>PNHVIFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQED-IDVIGLTFRRDLYFSRVQVYPPV--GAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVSGFLGELTSSEVATEVPFRLMHPQPEDPAKESYQDANLVFEEFARHNLKDAGEAEE</Hsp_qseq>
+      <Hsp_hseq>PKNVVFKKISKDKSVGVYMGKRDFVDRVDSVDPVDGVILIDPEQLRGKKAYVTLSCVFRYGRDDDAEVLGISFRKEIYISTRQVYPALQDKEQCILTKVQEKLLRKLGDNAYPFFFEFPDNLPCSVGLQPAPKDVGKHCAVEFEVKAFCAESQDA---KVRKRSSVGLMIRKVQYAPEKLGPAPSVETTRDFLMSDKPLHLEASLEKQTYYHGEPINVRVKINNQSNKNVRNIILSVEQNANVVLYCNDNYMKVVATEDSGHSVDSGAKLEKVYTLLPLLANNRERRGIALDGKLKHEDTNLASSSIIKEGVQKEVLGIMVSYRVVVKLIVGGMMG---SSEVGVELPFQLMHPKP-DAVKESEAEEEMVFEEFKRTYLKGMPEDED</Hsp_hseq>
+      <Hsp_midline>P +V+FKKIS+DKSV +Y+G RD++D V  V PVDGV+L+DP+ ++GKK YVTL+C FRYG++D  +V+G++FR+++Y S  QVYP +        TK+QE LL+KLG N YPF   FPD LPCSV LQPAP+D GK C V+FEVKAF  +S DA   K+ K+SSV L+IRKVQ+AP ++GP P  E    F MSDKPLHL  SL K+ Y+HGEPI V V + N + K V+ I   VEQ ANVVLY +D Y+K VA E++   V   + L K  TLLPLLANNRERRGIALDGK+KHEDTNLASS+IIKEG+ + VLGI+VSY++ VKL V G +G   SSEV  E+PF+LMHP+P D  KES  +  +VFEEF R  LK   E E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_001429284.1|</Hit_id>
+  <Hit_def>S-arrestin b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001429284</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.639</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>9.80084e-150</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>PNHVIFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPV--GAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVSGFLGELTSSEVATEVPFRLMHPQP</Hsp_qseq>
+      <Hsp_hseq>PKHIIYKKISRDKSVGVYMGKRDFVDHCDFVDPVDGVVLIDPEQVKDKKVFVMLSCTFRYGREDMDVMGMAFRRDIFLCTRQVYPPLQDKERSIHTKVQEKILRKLGVNAHPFFFEFPDNLPCSVALQPAPTDVGKQCAVEFEVKAFCAENQD---EKAQKRSSVRLAIRKIQYAPDKGGEPPAGETTCEFIMSDKPLHMRVSLEKETYYHGEEINISVEIDNSSNRNVKDVTVSVEQVTNVVLYSNDKYVKSVAYEETKDAVPSGTSLKKVYTLCPLLDNNRERRGLALDGKLKHDDTNLASSSIVKDEVLREILGMLVSYRVVVKCTASGMVG---SSEVAVEVPFKLMHPKP</Hsp_hseq>
+      <Hsp_midline>P H+I+KKISRDKSV +Y+G RD++DH   V PVDGVVL+DP+ VK KKV+V L+C FRYG+ED+DV+G+ FRRD++    QVYPP+     S  TK+QE +L+KLG N +PF   FPD LPCSV LQPAP D GK C V+FEVKAF  ++ D   +K  K+SSVRL IRK+Q+AP + G  P  E   +F MSDKPLH+ VSL KE Y+HGE I ++V + N++ + VK +   VEQV NVVLYS+D YVK VA EE ++ VP  ++L K  TL PLL NNRERRG+ALDGK+KH+DTNLASS+I+K+ + R +LG+LVSY++ VK T SG +G   SSEVA EVPF+LMHP+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_009303544.1|</Hit_id>
+  <Hit_def>arrestin, beta 2a isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009303544</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.091</Hsp_bit-score>
+      <Hsp_score>1089</Hsp_score>
+      <Hsp_evalue>1.61381e-146</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTP-TKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVS--GFLGELTSSEVATEVPFRLMHPQPE--------------DPAKES----------YQDANLVFEEFARHNLKDAGEAEE</Hsp_qseq>
+      <Hsp_hseq>VFKKSSPNCKVTVYLGKRDFVDHLDHVDPVDGVILVDPEYLKDRKVFVTLTCAFRYGREDLDVLGLSFRKDLYIFTFQAYPPIPEESKPHSRLQERLLKKLGQNAYPFHFSIPQNLPCSVTLQPGPEDTGKACGVDFEIRAFCAKSM---EEKNHKRNSVRLVIRKVQYAPEKPGPQPMVETTRSFLMSDRSLHLEASLDKELYYHGEPISVNVHVTNNSTKTVKRVKISVRQYADICLFSTAQYKCPVAQIEADDQVASSSTFCKVYTLTPTLNNNREKRGLALDGKLKHEDTNLASSTIVKDVSNKEVLGVLVSYRVKVKLVVSRGGLLSSLLERDVSVELPFVLMHPKPSESSLSHSTSAVPMLDPPIDTNLIEFDTNSLIPDDDIVFEDFARLRLKGVIDKEE</Hsp_hseq>
+      <Hsp_midline>+FKK S +  VT+YLG RD++DH+  V PVDGV+LVDP+ +K +KV+VTLTCAFRYG+ED+DV+GL+FR+DLY    Q YPP+   S P ++LQE LLKKLG N YPF  + P  LPCSV LQP P+D+GK+CGVDFE++AF   S    E+K  K++SVRL+IRKVQ+AP + GPQP  E    F MSD+ LHL  SL+KE+Y+HGEPI V V VTNN+ KTVK++K  V Q A++ L+S+  Y  PVA  EA ++V  +ST  K  TL P L NNRE+RG+ALDGK+KHEDTNLASSTI+K+  ++ VLG+LVSY++KVKL VS  G L  L   +V+ E+PF LMHP+P               DP  ++            D ++VFE+FAR  LK   + EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_957418.1|</Hit_id>
+  <Hit_def>arrestin, beta 2b [Danio rerio] &gt;gb|AAH54595.1| Arrestin, beta 2b [Danio rerio] &gt;gb|AAI64508.1| Arrb2b protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_957418</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.387</Hsp_bit-score>
+      <Hsp_score>1069</Hsp_score>
+      <Hsp_evalue>1.16075e-143</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTP-TKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVSGFLGELTSSEVATEVPFRLMHPQPED----------PAKESYQDANL--------------VFEEFARHNLKDAGEAEE</Hsp_qseq>
+      <Hsp_hseq>VFKKSSPNCKLTVYLGKRDFVDHLDHVDPVDGVLLIDPEYLKDRKVFVTLTCAFRYGREDLDVLGLSFRKDLFISSFQAYPPLPDERKPLSRLQERLLKKLGQNAYPFNFTIPQNLPCSVTLQPGPEDTGKACGVDFEVRAFCAKTVD---EKTHKRNSVRLVIRKVQYAPEKPGPQPMVETTRSFLMSDRSLHLEASLDKELYYHGEPISVNVHVTNNSTKTVKRVKISVRQYADICLFSTAQYKCPVAQVEADDQVSSSSTFCKVYTLTPTLSNNREKRGLALDGQLKHEDTNLASSTIVKDVSNKEVLGILVSYRVKVKLVVS------RGGDVSVELPFVLMHPKPSEQPNSRPQSAVPETDVPVDANLIEFETNNFSQDDDFVFEDFARLRLKGMKDEED</Hsp_hseq>
+      <Hsp_midline>+FKK S +  +T+YLG RD++DH+  V PVDGV+L+DP+ +K +KV+VTLTCAFRYG+ED+DV+GL+FR+DL+ S  Q YPP+     P ++LQE LLKKLG N YPF  T P  LPCSV LQP P+D+GK+CGVDFEV+AF   + D   +K  K++SVRL+IRKVQ+AP + GPQP  E    F MSD+ LHL  SL+KE+Y+HGEPI V V VTNN+ KTVK++K  V Q A++ L+S+  Y  PVA  EA ++V  +ST  K  TL P L+NNRE+RG+ALDG++KHEDTNLASSTI+K+  ++ VLGILVSY++KVKL VS         +V+ E+PF LMHP+P +          P  +   DANL              VFE+FAR  LK   + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_999846.1|</Hit_id>
+  <Hit_def>arrestin, beta 2a [Danio rerio] &gt;gb|AAH57519.1| Arrestin, beta 2a [Danio rerio] &gt;gb|AAI65790.1| Arrb2a protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_999846</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>3.47466e-142</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTP-TKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVSGFLGELTSSEVATEVPFRLMHPQPE--------------DPAKES----------YQDANLVFEEFARHNLKDAGEAEE</Hsp_qseq>
+      <Hsp_hseq>VFKKSSPNCKVTVYLGKRDFVDHLDHVDPVDGVILVDPEYLKDRKVFVTLTCAFRYGREDLDVLGLSFRKDLYIFTFQAYPPIPEESKPHSRLQERLLKKLGQNAYPFHFSIPQNLPCSVTLQPGPEDTGKACGVDFEIRAFCAKSM---EEKNHKRNSVRLVIRKAQYAPEKPGPQPMVETTRSFLMSDRSLHLEASLDKELYYHGEPISVNVHVTNNSTKTVKRVKISVRQYADICLFSTAQYKCPVAQIEADDQVASSSTFCKVYTLTPTLNNNREKRGPALDGKLKHEDTNLASSTIVKDVSNKEVLGVLVSYRVKVKLVVS------RGGDVSVELPFVLMHPKPSESSLSHSTSAVPMLDPPIDTNLIEFDTNSLIPDDDIVFEDFARLRLKGVIDKEE</Hsp_hseq>
+      <Hsp_midline>+FKK S +  VT+YLG RD++DH+  V PVDGV+LVDP+ +K +KV+VTLTCAFRYG+ED+DV+GL+FR+DLY    Q YPP+   S P ++LQE LLKKLG N YPF  + P  LPCSV LQP P+D+GK+CGVDFE++AF   S    E+K  K++SVRL+IRK Q+AP + GPQP  E    F MSD+ LHL  SL+KE+Y+HGEPI V V VTNN+ KTVK++K  V Q A++ L+S+  Y  PVA  EA ++V  +ST  K  TL P L NNRE+RG ALDGK+KHEDTNLASSTI+K+  ++ VLG+LVSY++KVKL VS         +V+ E+PF LMHP+P               DP  ++            D ++VFE+FAR  LK   + EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_068078303.1|</Hit_id>
+  <Hit_def>arrestin, beta 2b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068078303</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.223</Hsp_bit-score>
+      <Hsp_score>1053</Hsp_score>
+      <Hsp_evalue>3.58918e-141</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTP-TKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVSGFLGELTSSEVATEVPFRLMHPQPED----------PAKESYQDANL--------------VFEEFARHNLKDAGEAEE</Hsp_qseq>
+      <Hsp_hseq>VFKKSSPNCKLTVYLGKRDFVDHLDHVDPVDGVLLIDPEYLKDRKVFVTLTCAFRYGREDLDVLGLSFRKDLFISSFQAYPPLPDERKPLSRLQERLLKKLGQNAYPFNFTIPQNLPCSVTLQPGPEDTGKACGVDFEVRAFCAKTVD---EKTHKRNSVRLVIRKVQYAPEKPGPQPMVETTRSFLMSDRSLHLEASLDKELYYHGEPISVNVHVTNNSTKTVKRVKISVLQVTDVVLYSHDTYSKSVGRQSSRDQVSSSSTFCKVYTLTPTLSNNREKRGLALDGQLKHEDTNLASSTIVKDVSNKEVLGILVSYRVKVKLVVS------RGGDVSVELPFVLMHPKPSEQPNSRPQSAVPETDVPVDANLIEFETNNFSQDDDFVFEDFARLRLKGMKDEED</Hsp_hseq>
+      <Hsp_midline>+FKK S +  +T+YLG RD++DH+  V PVDGV+L+DP+ +K +KV+VTLTCAFRYG+ED+DV+GL+FR+DL+ S  Q YPP+     P ++LQE LLKKLG N YPF  T P  LPCSV LQP P+D+GK+CGVDFEV+AF   + D   +K  K++SVRL+IRKVQ+AP + GPQP  E    F MSD+ LHL  SL+KE+Y+HGEPI V V VTNN+ KTVK++K  V QV +VVLYS D Y K V  + ++++V  +ST  K  TL P L+NNRE+RG+ALDG++KHEDTNLASSTI+K+  ++ VLGILVSY++KVKL VS         +V+ E+PF LMHP+P +          P  +   DANL              VFE+FAR  LK   + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_009301316.1|</Hit_id>
+  <Hit_def>arrestin, beta 2b isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009301316</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>7.27871e-134</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTP-TKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVS</Hsp_qseq>
+      <Hsp_hseq>VFKKSSPNCKLTVYLGKRDFVDHLDHVDPVDGVLLIDPEYLKDRKVFVTLTCAFRYGREDLDVLGLSFRKDLFISSFQAYPPLPDERKPLSRLQERLLKKLGQNAYPFNFTIPQNLPCSVTLQPGPEDTGKACGVDFEVRAFCAKTVD---EKTHKRNSVRLVIRKVQYAPEKPGPQPMVETTRSFLMSDRSLHLEASLDKELYYHGEPISVNVHVTNNSTKTVKRVKISVLQVTDVVLYSHDTYSKSVGRQSSRDQVSSSSTFCKVYTLTPTLSNNREKRGLALDGQLKHEDTNLASSTIVKDVSNKEVLGILVSYRVKVKLVVS</Hsp_hseq>
+      <Hsp_midline>+FKK S +  +T+YLG RD++DH+  V PVDGV+L+DP+ +K +KV+VTLTCAFRYG+ED+DV+GL+FR+DL+ S  Q YPP+     P ++LQE LLKKLG N YPF  T P  LPCSV LQP P+D+GK+CGVDFEV+AF   + D   +K  K++SVRL+IRKVQ+AP + GPQP  E    F MSD+ LHL  SL+KE+Y+HGEPI V V VTNN+ KTVK++K  V QV +VVLYS D Y K V  + ++++V  +ST  K  TL P L+NNRE+RG+ALDG++KHEDTNLASSTI+K+  ++ VLGILVSY++KVKL VS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_073777792.1|</Hit_id>
+  <Hit_def>arrestin 3b, retinal (X-arrestin) isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777792</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>8.46815e-131</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTV-SGFLGELTSSEVATEVPFRLMHPQPED</Hsp_qseq>
+      <Hsp_hseq>VYKKTSGNGSLCLYLGRRDFVDHVESVDSVDGVLKIDPSGLNGRKVWVQLACAFRYGREDLDVIGVSFRKDIWIKRIQMYPFEGTKPPNTPMQEALLKKAGDQGHPFTFDIPVHLPCSVSLQPAPEDAGKPCGVDYEVKAYIANEEDNIDEKVEKKDTCRLIIRKIQYAPAELAAGPKADINKQFITADKPIHMEVSMEKELYYHGDPIPIKVKVNNETSKVVKKIKINIFQITDVVIYAADKYHKCVLNEEFGDQINANSTFEKEYSVTPLLVNNKEKRGLALDGRLKDEDTNLASSTLLIPDMDKQMQGVVVSYKIKVILMMGGGLLGSLTSSDVTAELPLVLMSPKPAD</Hsp_hseq>
+      <Hsp_midline>++KK S + S+ +YLG RD++DHV  V  VDGV+ +DP  + G+KV+V L CAFRYG+ED+DVIG++FR+D++  R+Q+YP  G     T +QE+LLKK G   +PF    P +LPCSV LQPAP+D+GK CGVD+EVKA+  +  D  ++K+ KK + RL+IRK+Q+AP E+   P+A+   QF  +DKP+H+ VS+ KE+Y+HG+PIP+ V V N T K VKKIK  + Q+ +VV+Y++D Y K V  EE  +++  NST  K  ++ PLL NN+E+RG+ALDG++K EDTNLASST++   +D+ + G++VSY+IKV L +  G LG LTSS+V  E+P  LM P+P D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_073777791.1|</Hit_id>
+  <Hit_def>arrestin 3b, retinal (X-arrestin) isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777791</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.44782e-130</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTV-SGFLGELTSSEVATEVPFRLMHPQPED</Hsp_qseq>
+      <Hsp_hseq>VYKKTSGNGSLCLYLGRRDFVDHVESVDSVDGVLKIDPSGLNGRKVWVQLACAFRYGREDLDVIGVSFRKDIWIKRIQMYPFEGTKPPNTPMQEALLKKAGDQGHPFTFDIPVHLPCSVSLQPAPEDAGKPCGVDYEVKAYIANEEDNIDEKVEKKDTCRLIIRKIQYAPAELAAGPKADINKQFITADKPIHMEVSMEKELYYHGDPIPIKVKVNNETSKVVKKIKINIFQITDVVIYAADKYHKCVLNEEFGDQINANSTFEKEYSVTPLLVNNKEKRGLALDGRLKDEDTNLASSTLLIPDMDKQMQGVVVSYKIKVILMMGGGLLGSLTSSDVTAELPLVLMSPKPAD</Hsp_hseq>
+      <Hsp_midline>++KK S + S+ +YLG RD++DHV  V  VDGV+ +DP  + G+KV+V L CAFRYG+ED+DVIG++FR+D++  R+Q+YP  G     T +QE+LLKK G   +PF    P +LPCSV LQPAP+D+GK CGVD+EVKA+  +  D  ++K+ KK + RL+IRK+Q+AP E+   P+A+   QF  +DKP+H+ VS+ KE+Y+HG+PIP+ V V N T K VKKIK  + Q+ +VV+Y++D Y K V  EE  +++  NST  K  ++ PLL NN+E+RG+ALDG++K EDTNLASST++   +D+ + G++VSY+IKV L +  G LG LTSS+V  E+P  LM P+P D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AAI52656.1|</Hit_id>
+  <Hit_def>Arrestin 3, retinal (X-arrestin) [Danio rerio]</Hit_def>
+  <Hit_accession>AAI52656</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>1.90799e-130</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTV-SGFLGELTSSEVATEVPFRLMHPQP</Hsp_qseq>
+      <Hsp_hseq>VYKKTSGNGSLCLYLGRRDFVDHVESVDSVDGVLKIDPSGLNGRKVWVQLACAFRYGREDLDVIGVSFRKDIWIKRIQMYPFEGTKPPNTPMQEALLKKAGDQGHPFTFDIPVHLPCSVSLQPAPEDAGKPCGVDYEVKAYIANEEDNIDEKIEKKDTCRLIIRKIQYAPAELAAGPKADINKQFITADKPIHMEVSMEKELYYHGDPIPIKVKVNNETSKVVKKIKINIFQITDVVIYAADKYHKCVLNEEFGDQINANSTFEKEYSVTPLLVNNKEKRGLALDGRLKDEDTNLASSTLLIPDMDKQMQGVVVSYKIKVILMMGGGLLGSLTSSDVTAELPLVLMSPKP</Hsp_hseq>
+      <Hsp_midline>++KK S + S+ +YLG RD++DHV  V  VDGV+ +DP  + G+KV+V L CAFRYG+ED+DVIG++FR+D++  R+Q+YP  G     T +QE+LLKK G   +PF    P +LPCSV LQPAP+D+GK CGVD+EVKA+  +  D  ++KI KK + RL+IRK+Q+AP E+   P+A+   QF  +DKP+H+ VS+ KE+Y+HG+PIP+ V V N T K VKKIK  + Q+ +VV+Y++D Y K V  EE  +++  NST  K  ++ PLL NN+E+RG+ALDG++K EDTNLASST++   +D+ + G++VSY+IKV L +  G LG LTSS+V  E+P  LM P+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_073777790.1|</Hit_id>
+  <Hit_def>arrestin 3b, retinal (X-arrestin) isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777790</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>2.59677e-130</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTV-SGFLGELTSSEVATEVPFRLMHPQPEDPAKESYQDANLVFEEFAR</Hsp_qseq>
+      <Hsp_hseq>VYKKTSGNGSLCLYLGRRDFVDHVESVDSVDGVLKIDPSGLNGRKVWVQLACAFRYGREDLDVIGVSFRKDIWIKRIQMYPFEGTKPPNTPMQEALLKKAGDQGHPFTFDIPVHLPCSVSLQPAPEDAGKPCGVDYEVKAYIANEEDNIDEKVEKKDTCRLIIRKIQYAPAELAAGPKADINKQFITADKPIHMEVSMEKELYYHGDPIPIKVKVNNETSKVVKKIKINIFQITDVVIYAADKYHKCVLNEEFGDQINANSTFEKEYSVTPLLVNNKEKRGLALDGRLKDEDTNLASSTLLIPDMDKQMQGVVVSYKIKVILMMGGGLLGSLTSSDVTAELPLVLMSPKPA-ASFSCFLTASLCILEMSR</Hsp_hseq>
+      <Hsp_midline>++KK S + S+ +YLG RD++DHV  V  VDGV+ +DP  + G+KV+V L CAFRYG+ED+DVIG++FR+D++  R+Q+YP  G     T +QE+LLKK G   +PF    P +LPCSV LQPAP+D+GK CGVD+EVKA+  +  D  ++K+ KK + RL+IRK+Q+AP E+   P+A+   QF  +DKP+H+ VS+ KE+Y+HG+PIP+ V V N T K VKKIK  + Q+ +VV+Y++D Y K V  EE  +++  NST  K  ++ PLL NN+E+RG+ALDG++K EDTNLASST++   +D+ + G++VSY+IKV L +  G LG LTSS+V  E+P  LM P+P   +   +  A+L   E +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|NP_957086.1|</Hit_id>
+  <Hit_def>arrestin 3b, retinal (X-arrestin) [Danio rerio] &gt;gb|AAH59650.1| Arrestin 3, retinal (X-arrestin) [Danio rerio]</Hit_def>
+  <Hit_accession>NP_957086</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>3.36259e-130</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTV-SGFLGELTSSEVATEVPFRLMHPQP</Hsp_qseq>
+      <Hsp_hseq>VYKKTSGNGSLCLYLGRRDFVDHVESVDSVDGVLKIDPSGLNGRKVWVQLACAFRYGREDLDVIGVSFRKDIWIKRIQMYPFEGTKPPNTPMQEALLKKAGDQGHPFTFDIPVHLPCSVSLQPAPEDAGKPCGVDYEVKAYIANEEDNIDEKVEKKDTCRLIIRKIQYAPAELAAGPKADINKQFITADKPIHMEVSMEKELYYHGDPIPIKVKVNNETSKVVKKIKINIFQITDVVIYAADKYHKCVLNEEFGDQINANSTFEKEYSVTPLLVNNKEKRGLALDGRLKDEDTNLASSTLLIPDMDKQMQGVVVSYKIKVILMMGGGLLGSLTSSDVTAELPLVLMSPKP</Hsp_hseq>
+      <Hsp_midline>++KK S + S+ +YLG RD++DHV  V  VDGV+ +DP  + G+KV+V L CAFRYG+ED+DVIG++FR+D++  R+Q+YP  G     T +QE+LLKK G   +PF    P +LPCSV LQPAP+D+GK CGVD+EVKA+  +  D  ++K+ KK + RL+IRK+Q+AP E+   P+A+   QF  +DKP+H+ VS+ KE+Y+HG+PIP+ V V N T K VKKIK  + Q+ +VV+Y++D Y K V  EE  +++  NST  K  ++ PLL NN+E+RG+ALDG++K EDTNLASST++   +D+ + G++VSY+IKV L +  G LG LTSS+V  E+P  LM P+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_073777794.1|</Hit_id>
+  <Hit_def>arrestin 3b, retinal (X-arrestin) isoform X5 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777794</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>3.9019e-130</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTV-SGFLGELTSSEVATEVPFRLMHPQP</Hsp_qseq>
+      <Hsp_hseq>VYKKTSGNGSLCLYLGRRDFVDHVESVDSVDGVLKIDPSGLNGRKVWVQLACAFRYGREDLDVIGVSFRKDIWIKRIQMYPFEGTKPPNTPMQEALLKKAGDQGHPFTFDIPVHLPCSVSLQPAPEDAGKPCGVDYEVKAYIANEEDNIDEKVEKKDTCRLIIRKIQYAPAELAAGPKADINKQFITADKPIHMEVSMEKELYYHGDPIPIKVKVNNETSKVVKKIKINIFQITDVVIYAADKYHKCVLNEEFGDQINANSTFEKEYSVTPLLVNNKEKRGLALDGRLKDEDTNLASSTLLIPDMDKQMQGVVVSYKIKVILMMGGGLLGSLTSSDVTAELPLVLMSPKP</Hsp_hseq>
+      <Hsp_midline>++KK S + S+ +YLG RD++DHV  V  VDGV+ +DP  + G+KV+V L CAFRYG+ED+DVIG++FR+D++  R+Q+YP  G     T +QE+LLKK G   +PF    P +LPCSV LQPAP+D+GK CGVD+EVKA+  +  D  ++K+ KK + RL+IRK+Q+AP E+   P+A+   QF  +DKP+H+ VS+ KE+Y+HG+PIP+ V V N T K VKKIK  + Q+ +VV+Y++D Y K V  EE  +++  NST  K  ++ PLL NN+E+RG+ALDG++K EDTNLASST++   +D+ + G++VSY+IKV L +  G LG LTSS+V  E+P  LM P+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_073777793.1|</Hit_id>
+  <Hit_def>arrestin 3b, retinal (X-arrestin) isoform X4 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777793</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>5.36575e-130</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTV-SGFLGELTSSEVATEVPFRLMHPQP</Hsp_qseq>
+      <Hsp_hseq>VYKKTSGNGSLCLYLGRRDFVDHVESVDSVDGVLKIDPSGLNGRKVWVQLACAFRYGREDLDVIGVSFRKDIWIKRIQMYPFEGTKPPNTPMQEALLKKAGDQGHPFTFDIPVHLPCSVSLQPAPEDAGKPCGVDYEVKAYIANEEDNIDEKVEKKDTCRLIIRKIQYAPAELAAGPKADINKQFITADKPIHMEVSMEKELYYHGDPIPIKVKVNNETSKVVKKIKINIFQITDVVIYAADKYHKCVLNEEFGDQINANSTFEKEYSVTPLLVNNKEKRGLALDGRLKDEDTNLASSTLLIPDMDKQMQGVVVSYKIKVILMMGGGLLGSLTSSDVTAELPLVLMSPKP</Hsp_hseq>
+      <Hsp_midline>++KK S + S+ +YLG RD++DHV  V  VDGV+ +DP  + G+KV+V L CAFRYG+ED+DVIG++FR+D++  R+Q+YP  G     T +QE+LLKK G   +PF    P +LPCSV LQPAP+D+GK CGVD+EVKA+  +  D  ++K+ KK + RL+IRK+Q+AP E+   P+A+   QF  +DKP+H+ VS+ KE+Y+HG+PIP+ V V N T K VKKIK  + Q+ +VV+Y++D Y K V  EE  +++  NST  K  ++ PLL NN+E+RG+ALDG++K EDTNLASST++   +D+ + G++VSY+IKV L +  G LG LTSS+V  E+P  LM P+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|NP_001002405.1|</Hit_id>
+  <Hit_def>arrestin 3a, retinal (X-arrestin) [Danio rerio] &gt;gb|AAH76177.1| Arrestin 3, retinal (X-arrestin), like [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001002405</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>4.49725e-125</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVS--GFLGELTSSEVATEVPFRLMHPQPED</Hsp_qseq>
+      <Hsp_hseq>VYKKTSGNGQLTLYLGKRDYVDHVDVVDAVEGAVKIDPADLGDKKVWVQLACAFRYGREDLDVIGLSFRKDIWIQHIQLYPEAGHKPTLTEMHNTLLKKAGEQGHPFTFNIPTNLPCSVTLQPGPDDKGKACGVDFEVKAYVAKSADDPDEKVDKKDTCRLVIRKIQFAPDNTGSGQKAELCKSFMMSDKPVLLEASLEKEIYYHGDPIPVNIKIKNETNKVVKRIRVTVDQTTDVVLYSADKYTKNVLTEEFGETVEANSSFEKSLDITPLLANNKEKRGLALDGRLKDEDTNLASTTIIRTGMDKEMLGILVSYKIKVNLMVSGGGLLGGLTASDVTVELPLTLMHPKPKD</Hsp_hseq>
+      <Hsp_midline>++KK S +  +T+YLG RDY+DHV  V  V+G V +DP  +  KKV+V L CAFRYG+ED+DVIGL+FR+D++   +Q+YP  G   T T++  +LLKK G   +PF    P  LPCSV LQP P D GK+CGVDFEVKA+   S D  ++K+ KK + RL+IRK+Q AP   G   +AE    F MSDKP+ L  SL KEIY+HG+PIPV + + N T K VK+I+  V+Q  +VVLYS+D Y K V  EE  E V  NS+  K+L + PLLANN+E+RG+ALDG++K EDTNLAS+TII+ G+D+ +LGILVSY+IKV L VS  G LG LT+S+V  E+P  LMHP+P+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_073769888.1|</Hit_id>
+  <Hit_def>arrestin 3a, retinal (X-arrestin) isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073769888</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>7.67661e-125</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVS--GFLGELTSSEVATEVPFRLMHPQPED</Hsp_qseq>
+      <Hsp_hseq>VYKKTSGNGQLTLYLGKRDYVDHVDVVDAVEGAVKIDPADLGDKKVWVQLACAFRYGREDLDVIGLSFRKDIWIQHIQLYPEAGHKPTLTEMHNTLLKKAGEQGHPFTFNIPTNLPCSVTLQPGPDDKGKACGVDFEVKAYVAKSADDPDEKVDKKDTCRLVIRKIQFAPDNTGSGQKAELCKSFMMSDKPVLLEASLEKEIYYHGDPIPVNIKIKNETNKVVKRIRVTVDQTTDVVLYSADKYTKNVLTEEFGETVEANSSFEKSLDITPLLANNKEKRGLALDGRLKDEDTNLASTTIIRTGMDKEMLGILVSYKIKVNLMVSGGGLLGGLTASDVTVELPLTLMHPKPKD</Hsp_hseq>
+      <Hsp_midline>++KK S +  +T+YLG RDY+DHV  V  V+G V +DP  +  KKV+V L CAFRYG+ED+DVIGL+FR+D++   +Q+YP  G   T T++  +LLKK G   +PF    P  LPCSV LQP P D GK+CGVDFEVKA+   S D  ++K+ KK + RL+IRK+Q AP   G   +AE    F MSDKP+ L  SL KEIY+HG+PIPV + + N T K VK+I+  V+Q  +VVLYS+D Y K V  EE  E V  NS+  K+L + PLLANN+E+RG+ALDG++K EDTNLAS+TII+ G+D+ +LGILVSY+IKV L VS  G LG LT+S+V  E+P  LMHP+P+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AAX69083.1|</Hit_id>
+  <Hit_def>cone arrestin, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAX69083</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.643</Hsp_bit-score>
+      <Hsp_score>849</Hsp_score>
+      <Hsp_evalue>7.21662e-112</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LTCAFRYGQEDIDVIGLTFR-RDLYFSRVQVYPPVGAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTDAEEDKIPKKSSVRLLIRKVQHAPLEMGPQPRAEAAWQFFMSDKPLHLAVSLNKEIYFHGEPIPVTVTVTNNTEKTVKKIKAFVEQVANVVLYSSDYYVKPVAMEEAQEKVPPNSTLTKTLTLLPLLANNRERRGIALDGKIKHEDTNLASSTIIKEGIDRTVLGILVSYQIKVKLTVS--GFLGELTSSEVATEVPFRLMHPQPED</Hsp_qseq>
+      <Hsp_hseq>LACAFRYGREDLDVIGLSFRKRTSGFSTYQLYPEAGHKPTLTEMHNTLLKKAGEQGHPFTFNIPTNLPCSVTLQPGPDDKGKACGVDFEVKAYVAKSADDPDEKVDKKDTCRLVIRKIQFAPDNTGSGQKAELCKSFMMSDKPVLLEASLEKEIYYHGDPIPVNIKIKNETNKVVKRIRVTVDQTTDVVLYSADKYTKNVLTEEFGETVEANSSFEKSLDITPLLANNKEKRGLALDGRLKDEDTNLASTTIIRTGMDKEMLGILVSYKIKVNLMVSGGGLLGGLTASDVTVELPLTLMHPKPKD</Hsp_hseq>
+      <Hsp_midline>L CAFRYG+ED+DVIGL+FR R   FS  Q+YP  G   T T++  +LLKK G   +PF    P  LPCSV LQP P D GK+CGVDFEVKA+   S D  ++K+ KK + RL+IRK+Q AP   G   +AE    F MSDKP+ L  SL KEIY+HG+PIPV + + N T K VK+I+  V+Q  +VVLYS+D Y K V  EE  E V  NS+  K+L + PLLANN+E+RG+ALDG++K EDTNLAS+TII+ G+D+ +LGILVSY+IKV L VS  G LG LT+S+V  E+P  LMHP+P+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|AAH97245.1|</Hit_id>
+  <Hit_def>S-antigen; retina and pineal gland (arrestin) [Danio rerio]</Hit_def>
+  <Hit_accession>AAH97245</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>1.73487e-63</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>PNHVIFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPV--GAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATDSTD</Hsp_qseq>
+      <Hsp_hseq>PKHIIYKKISRDKSVGVYMGKRDFVDHCDFVDPVDGVVLIDPEQVKDKKVFVMLSCTFRYGREDMDVMGMAFRRDIFLCMRQVYPPLQDKERSIHTKVQEKILRKLGGNAHPFFFEFPDNLPCSVTLQPAPNDVGKQCAVEFEVKAFCAENQD</Hsp_hseq>
+      <Hsp_midline>P H+I+KKISRDKSV +Y+G RD++DH   V PVDGVVL+DP+ VK KKV+V L+C FRYG+ED+DV+G+ FRRD++    QVYPP+     S  TK+QE +L+KLG N +PF   FPD LPCSV LQPAP D GK C V+FEVKAF  ++ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|AAH83452.1|</Hit_id>
+  <Hit_def>ARRB1 protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAH83452</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>7.93267e-60</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>IFKKISRDKSVTIYLGNRDYIDHVSQVQPVDGVVLVDPDLVKGKKVYVTLTCAFRYGQEDIDVIGLTFRRDLYFSRVQVYPPV-GAASTPTKLQESLLKKLGSNTYPFLLTFPDYLPCSVMLQPAPQDSGKSCGVDFEVKAFATD</Hsp_qseq>
+      <Hsp_hseq>VFKKASPNGKLTVYLGKRDFVDHVDLVEPVDGVVLIDPEYLKERKVFVTLTCAFRYGREDLDVLGLTFRKDLFVANIQAFPPVPEEKKSLTRLQERLIKKLGEHAYPFTFEIPPNLPCSVTLQPGPEDTGKACGVDFEVKAFCAE</Hsp_hseq>
+      <Hsp_midline>+FKK S +  +T+YLG RD++DHV  V+PVDGVVL+DP+ +K +KV+VTLTCAFRYG+ED+DV+GLTFR+DL+ + +Q +PPV     + T+LQE L+KKLG + YPF    P  LPCSV LQP P+D+GK+CGVDFEVKAF  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

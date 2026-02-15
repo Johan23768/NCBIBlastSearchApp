@@ -1,0 +1,2880 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7702451</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000530.1 rhodopsin [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>348</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7702451</Iteration_query-ID>
+  <Iteration_query-def>NP_000530.1 rhodopsin [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>348</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_571287.1|</Hit_id>
+  <Hit_def>extra-ocular rhodopsin [Danio rerio] &gt;gb|AAH98524.1| Extra-ocular rhodopsin [Danio rerio] &gt;gb|ALG92531.1| exorhodopsin [Danio rerio] &gt;dbj|BAA88958.1| exo-rhodopsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571287</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>597.43</Hsp_bit-score>
+      <Hsp_score>1539</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSK</Hsp_qseq>
+      <Hsp_hseq>MNGTEGPNFYVPMSNRTGLVRSPFEEPQYYLAEPWQFSLLAAYMLFLILGSFPINALTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTVTLYTALHGYFLLGVTGCNIEGFFATLGGEIALWSLVVLAIERYIVVCKPMSTFRFGEKHAIIGVGFTWVMALTCAVPPLLGWSRYIPEGMQCSCGIDYYTPKPEVHNTSFVIYMFILHFSIPLLIIFFCYSRLLCTVRAAAAQQQESETTQRAEREVTRMVVVMVIAFLVCWVPYASVAWYIFANQGAEFGPVFMTVPAFFAKSAALYNPVIYIMLNRQFRNCMLSTVCCGKNPLAEDESSSAVSS</Hsp_hseq>
+      <Hsp_midline>MNGTEGPNFYVP SN TG+VRSPFE PQYYLAEPWQFS+LAAYM  LI+  FPIN LTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFT TLYT+LHGYF+ G TGCN+EGFFATLGGEIALWSLVVLAIERY+VVCKPMS FRFGE HAI+GV FTWVMAL CA PPL GWSRYIPEG+QCSCGIDYYT KPEV+N SFVIYMF++HF+IP++IIFFCY +L+ TV+ AAAQQQES TTQ+AE+EVTRMV++MVIAFL+CWVPYASVA+YIF +QG+ FGP+FMT+PAFFAKSAA+YNPVIYIM+N+QFRNCML+T+CCGKNPL +DE+S+ VS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAH45288.1|</Hit_id>
+  <Hit_def>Rho protein [Danio rerio] &gt;gb|AAI64171.1| Rho protein [Danio rerio] &gt;dbj|BAC21668.1| rod opsin [Danio rerio]</Hit_def>
+  <Hit_accession>AAH45288</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>596.66</Hsp_bit-score>
+      <Hsp_score>1537</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>278</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDE-ASATVSKTE</Hsp_qseq>
+      <Hsp_hseq>MNGTEGPAFYVPMSNATGVVRSPYEYPQYYLVAPWAYGLLAAYMFFLIITGFPVNFLTLYVTIEHKKLRTPLNYILLNLAIADLFMVFGGFTTTMYTSLHGYFVFGRLGCNLEGFFATLGGEMGLWSLVVLAIERWMVVCKPVSNFRFGENHAIMGVAFTWVMACSCAVPPLVGWSRYIPEGMQCSCGVDYYTRTPGVNNESFVIYMFIVHFFIPLIVIFFCYGRLVCTVKEAAAQQQESETTQRAEREVTRMVIIMVIAFLICWVPYAGVAWYIFTHQGSEFGPVFMTLPAFFAKTSAVYNPCIYICMNKQFRHCMITTLCCGKNPFEEEEGASTTASKTE</Hsp_hseq>
+      <Hsp_midline>MNGTEGP FYVP SNATGVVRSP+EYPQYYL  PW + +LAAYMF LI+ GFP+NFLTLYVT++HKKLRTPLNYILLNLA+ADLFMV GGFT+T+YTSLHGYFVFG  GCNLEGFFATLGGE+ LWSLVVLAIER++VVCKP+SNFRFGENHAIMGVAFTWVMA +CA PPL GWSRYIPEG+QCSCG+DYYT  P VNNESFVIYMF+VHF IP+I+IFFCYG+LV TVKEAAAQQQES TTQ+AE+EVTRMVIIMVIAFLICWVPYA VA+YIFTHQGS FGP+FMT+PAFFAK++A+YNP IYI MNKQFR+CM+TT+CCGKNP  ++E AS T SKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_571159.2|</Hit_id>
+  <Hit_def>rhodopsin [Danio rerio] &gt;sp|P35359.2| RecName: Full=Rhodopsin [Danio rerio] &gt;gb|AAD24751.1| rhodopsin [Danio rerio] &gt;gb|AAH63938.1| Rhodopsin [Danio rerio] &gt;gb|AAK01136.1| light receptor rod opsin [Danio rerio] &gt;gb|ADK38856.1| retinal rod opsin pigment rh1.1 [Danio rerio] &gt;gb|ALG92532.1| rhodopsin-like-1.1 rod opsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571159</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.504</Hsp_bit-score>
+      <Hsp_score>1534</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDE-ASATVSKTE</Hsp_qseq>
+      <Hsp_hseq>MNGTEGPAFYVPMSNATGVVRSPYEYPQYYLVAPWAYGLLAAYMFFLIITGFPVNFLTLYVTIEHKKLRTPLNYILLNLAIADLFMVFGGFTTTMYTSLHGYFVFGRLGCNLEGFFATLGGEMGLWSLVVLAIERWMVVCKPVSNFRFGENHAIMGVAFTWVMACSCAVPPLVGWSRYIPEGMQCSCGVDYYTRTPGVNNESFVIYMFIVHFFIPLIVIFFCYGRLVCTVKEAAAQQQESETTQRAEREVTRMVIIMVIAFLICWLPYAGVAWYIFTHQGSEFGPVFMTLPAFFAKTSAVYNPCIYICMNKQFRHCMITTLCCGKNPFEEEEGASTTASKTE</Hsp_hseq>
+      <Hsp_midline>MNGTEGP FYVP SNATGVVRSP+EYPQYYL  PW + +LAAYMF LI+ GFP+NFLTLYVT++HKKLRTPLNYILLNLA+ADLFMV GGFT+T+YTSLHGYFVFG  GCNLEGFFATLGGE+ LWSLVVLAIER++VVCKP+SNFRFGENHAIMGVAFTWVMA +CA PPL GWSRYIPEG+QCSCG+DYYT  P VNNESFVIYMF+VHF IP+I+IFFCYG+LV TVKEAAAQQQES TTQ+AE+EVTRMVIIMVIAFLICW+PYA VA+YIFTHQGS FGP+FMT+PAFFAK++A+YNP IYI MNKQFR+CM+TT+CCGKNP  ++E AS T SKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAA85566.1|</Hit_id>
+  <Hit_def>unknown opsin-like protein [Danio rerio] &gt;gb|AAD14679.1| rhodopsin [Danio rerio]</Hit_def>
+  <Hit_accession>AAA85566</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.26</Hsp_bit-score>
+      <Hsp_score>1510</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDE-ASATVSKTE</Hsp_qseq>
+      <Hsp_hseq>MNGTEGPAFYVPMSNATGVVRSPYEYPQYYLVAPWAYGFVAAYMFFLIITGFPVNFLTLYVTIEHKKLRTPLNYILLNLAIADLFMVFGGFTTTMYTSLHGYFVFGRLGCNLEGFFATLGGEMGLKSLVVLAIERWMVVCKPVSNFRFGENHAIMGVAFTWVMACSCAVPPLVGWSRYIPEGMQCSCGVDYYTRTPGVNNESFVIYMFIVHFFIPLIVIFFCYGRLVCTVKEAARQQQESETTQRAEREVTRMVIIMVIAFLICWLPYAGVAWYIFTHQGSEFGPVFMTLPAFFAKTSAVYNPCIYICMNKQFRHCMITTLCCGKNPFEEEEGASTTASKTE</Hsp_hseq>
+      <Hsp_midline>MNGTEGP FYVP SNATGVVRSP+EYPQYYL  PW +  +AAYMF LI+ GFP+NFLTLYVT++HKKLRTPLNYILLNLA+ADLFMV GGFT+T+YTSLHGYFVFG  GCNLEGFFATLGGE+ L SLVVLAIER++VVCKP+SNFRFGENHAIMGVAFTWVMA +CA PPL GWSRYIPEG+QCSCG+DYYT  P VNNESFVIYMF+VHF IP+I+IFFCYG+LV TVKEAA QQQES TTQ+AE+EVTRMVIIMVIAFLICW+PYA VA+YIFTHQGS FGP+FMT+PAFFAK++A+YNP IYI MNKQFR+CM+TT+CCGKNP  ++E AS T SKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_073772120.1|</Hit_id>
+  <Hit_def>rhodopsin, like isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073772120</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.265</Hsp_bit-score>
+      <Hsp_score>1388</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGD</Hsp_qseq>
+      <Hsp_hseq>MNGTEGPDFYVPMSNESGVVRSPYEYPQYYLASPFAFYCMAAYMLFLIVTCVPVNGLTLYVTIENKKLRTPLNYILLNLAVADLFMVFGGFTTTFYTSMHGYFVLGRAGCNLEGLFATVGGEIALWSLVVLAVERWVVVCKPFTKFRFSQLHATLGVAFSWSMACSCAIPPLLGWSRYIPEGLQCSCGVDYYTPNPETENESFVIYMFVVHFSIPLTIISFCYGRLLCTVKVAAAQQQESETTQRAEREVTRMVILMVIAFLICWLPYASVAWYIFTHQGSQFGPVFMTVPAFFAKSSALYNPLIYVFMNKQFRHSMMMTVCCGKDPFQD</Hsp_hseq>
+      <Hsp_midline>MNGTEGP+FYVP SN +GVVRSP+EYPQYYLA P+ F  +AAYM  LIV   P+N LTLYVT+++KKLRTPLNYILLNLAVADLFMV GGFT+T YTS+HGYFV G  GCNLEG FAT+GGEIALWSLVVLA+ER+VVVCKP + FRF + HA +GVAF+W MA +CA PPL GWSRYIPEGLQCSCG+DYYT  PE  NESFVIYMFVVHF+IP+ II FCYG+L+ TVK AAAQQQES TTQ+AE+EVTRMVI+MVIAFLICW+PYASVA+YIFTHQGS FGP+FMT+PAFFAKS+A+YNP+IY+ MNKQFR+ M+ T+CCGK+P  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_001103501.1|</Hit_id>
+  <Hit_def>rhodopsin, like [Danio rerio] &gt;gb|AAI15323.1| Zgc:136903 protein [Danio rerio] &gt;gb|ADK38855.1| retinal rod opsin pigment rh1.2 [Danio rerio] &gt;gb|ADP06864.1| rhodopsin-like photopigment [Danio rerio] &gt;gb|ALG92533.1| rhodopsin-like-1.2 rod opsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001103501</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGD</Hsp_qseq>
+      <Hsp_hseq>MNGTEGPDFYVPMSNESGVVRSPYEYPQYYLASPFAFYCMAAYMLFLIVTCVPVNGLTLYVTIENKKLRTPLNYILLNLAVADLFMVFGGFTTTFYTSMHGYFVLGRAGCNLEGLFATVGGEIALWSLVVLAVERWVVVCKPFTKFRFSQLHATLGVAFSWSMACSCAIPPLLGWSRYIPEGLQCSCGVDYYTPNPETENESFVIYMFVVHFSIPLTIISFCYGRLLCTVKVAAAQQQESETTQRAEREVTRMVILMVIAFLICWLPYASVAWYIFTHQGSQFGPVFMTVPAFFAKSSALYNPLIYVFMNKQFRHSMMMTVCCGKDPFQD</Hsp_hseq>
+      <Hsp_midline>MNGTEGP+FYVP SN +GVVRSP+EYPQYYLA P+ F  +AAYM  LIV   P+N LTLYVT+++KKLRTPLNYILLNLAVADLFMV GGFT+T YTS+HGYFV G  GCNLEG FAT+GGEIALWSLVVLA+ER+VVVCKP + FRF + HA +GVAF+W MA +CA PPL GWSRYIPEGLQCSCG+DYYT  PE  NESFVIYMFVVHF+IP+ II FCYG+L+ TVK AAAQQQES TTQ+AE+EVTRMVI+MVIAFLICW+PYASVA+YIFTHQGS FGP+FMT+PAFFAKS+A+YNP+IY+ MNKQFR+ M+ T+CCGK+P  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q9W6A6.2|</Hit_id>
+  <Hit_def>RecName: Full=Green-sensitive opsin-4; AltName: Full=Green cone photoreceptor pigment 4; AltName: Full=Opsin RH2-4; AltName: Full=Opsin-1, medium-wave-sensitive 4 [Danio rerio] &gt;gb|AAH59503.1| Opsin 1 (cone pigments), medium-wave-sensitive, 4 [Danio rerio] &gt;gb|ALG92537.1| rhodopsin-like-2.4 cone opsin [Danio rerio] &gt;dbj|BAC24132.1| green sensitive cone opsin [Danio rerio]</Hit_def>
+  <Hit_accession>Q9W6A6</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.258</Hsp_bit-score>
+      <Hsp_score>1375</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASA-TVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>MNGTEGNNFYIPLSNRTGLARSPYEYPQYYLAEPWQFKLLAVYMFFLICLGFPINGLTLLVTAQHKKLRQPLNFILVNLAVAGTIMVCFGFTVTFYTAINGYFVLGPTGCAIEGFMATLGGEVALWSLVVLAVERYIVVCKPMGSFKFSASHAFAGCAFTWVMAMACAAPPLVGWSRYIPEGMQCSCGPDYYTLNPEYNNESYVLYMFICHFILPVTIIFFTYGRLVCTVKAAAAQQQESESTQKAEREVTRMVILMVLGFLIAWTPYATVAAWIFFNKGAAFSAQFMAVPAFFSKTSALYNPVIYVLLNKQFRNCMLTTLFCGKNPLGDDESSTVSTSKTEVSSVSPA</Hsp_hseq>
+      <Hsp_midline>MNGTEG NFY+P SN TG+ RSP+EYPQYYLAEPWQF +LA YMF LI LGFPIN LTL VT QHKKLR PLN+IL+NLAVA   MV  GFT T YT+++GYFV GPTGC +EGF ATLGGE+ALWSLVVLA+ERY+VVCKPM +F+F  +HA  G AFTWVMA+ACAAPPL GWSRYIPEG+QCSCG DYYTL PE NNES+V+YMF+ HF +P+ IIFF YG+LV TVK AAAQQQES +TQKAE+EVTRMVI+MV+ FLI W PYA+VA +IF ++G+ F   FM +PAFF+K++A+YNPVIY+++NKQFRNCMLTT+ CGKNPLGDDE+S  + SKTE S V+PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|NP_571329.1|</Hit_id>
+  <Hit_def>green-sensitive opsin-4 [Danio rerio] &gt;gb|AAD24753.1| green-sensitive opsin 2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571329</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.332</Hsp_bit-score>
+      <Hsp_score>1370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASA-TVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>MNGTEGNNFYIPLSNRTGLARSPYEYPQYYLAEPWQFKLLAVYMFFLICLGFPINGLTLLVTAQHKKLRQPLNFILVNLAVAGTIMVCFGFTVTFYTAINGYFVLGPTGCAIEGFMATLGGEVALWSLVVLAVERYIVVCKPMGSFKFSASHAFAGCAFTWVMAMACAAPPLVGWPRYIPEGMQCSCGPDYYTLNPEYNNESYVLYMFICHFILPVTIIFFTYGRLVCTVKAAAAQQQESESTQKAEREVTRMVILMVLGFLIAWTPYATVAAWIFFNKGAAFSAQFMAVPAFFSKTSALYNPVIYVLLNKQFRNCMLTTLFCGKNPLGDDESSTVSTSKTEVSSVSPA</Hsp_hseq>
+      <Hsp_midline>MNGTEG NFY+P SN TG+ RSP+EYPQYYLAEPWQF +LA YMF LI LGFPIN LTL VT QHKKLR PLN+IL+NLAVA   MV  GFT T YT+++GYFV GPTGC +EGF ATLGGE+ALWSLVVLA+ERY+VVCKPM +F+F  +HA  G AFTWVMA+ACAAPPL GW RYIPEG+QCSCG DYYTL PE NNES+V+YMF+ HF +P+ IIFF YG+LV TVK AAAQQQES +TQKAE+EVTRMVI+MV+ FLI W PYA+VA +IF ++G+ F   FM +PAFF+K++A+YNPVIY+++NKQFRNCMLTT+ CGKNPLGDDE+S  + SKTE S V+PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|NP_878312.1|</Hit_id>
+  <Hit_def>green-sensitive opsin-3 [Danio rerio] &gt;sp|Q8AYM7.1| RecName: Full=Green-sensitive opsin-3; AltName: Full=Green cone photoreceptor pigment 3; AltName: Full=Opsin RH2-3; AltName: Full=Opsin-1, medium-wave-sensitive 3 [Danio rerio] &gt;gb|AAH75989.1| Opsin 1 (cone pigments), medium-wave-sensitive, 3 [Danio rerio] &gt;gb|ALG92536.1| rhodopsin-like-2.3 cone opsin [Danio rerio] &gt;dbj|BAC24131.1| green sensitive cone opsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_878312</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>526.939</Hsp_bit-score>
+      <Hsp_score>1356</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASA-TVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>MNGTEGNNFYIPMSNRTGLVRSPYEYPQYYLAEPWQFKLLAVYMFFLMCFGFPINGLTLVVTAQHKKLRQPLNFILVNLAVAGTIMVCFGFTVTFYTAINGYFVLGPTGCAIEGFMATLGGQISLWSLVVLAIERYIVVCKPMGSFKFSSNHAFAGIGFTWIMALSCAAPPLVGWSRYIPEGMQCSCGPDYYTLNPDYNNESYVLYMFCCHFIFPVTTIFFTYGRLVCTVKAAAAQQQESESTQKAEREVTRMVILMVLGFLVAWTPYASVAAWIFFNRGAAFSAQFMAVPAFFSKSSSIFNPIIYVLLNKQFRNCMLTTLFCGKNPLGDDESSTVSTSKTEVSSVSPA</Hsp_hseq>
+      <Hsp_midline>MNGTEG NFY+P SN TG+VRSP+EYPQYYLAEPWQF +LA YMF L+  GFPIN LTL VT QHKKLR PLN+IL+NLAVA   MV  GFT T YT+++GYFV GPTGC +EGF ATLGG+I+LWSLVVLAIERY+VVCKPM +F+F  NHA  G+ FTW+MAL+CAAPPL GWSRYIPEG+QCSCG DYYTL P+ NNES+V+YMF  HF  P+  IFF YG+LV TVK AAAQQQES +TQKAE+EVTRMVI+MV+ FL+ W PYASVA +IF ++G+ F   FM +PAFF+KS++I+NP+IY+++NKQFRNCMLTT+ CGKNPLGDDE+S  + SKTE S V+PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AEZ66689.1|</Hit_id>
+  <Hit_def>rhodopsin, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AEZ66689</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.138</Hsp_bit-score>
+      <Hsp_score>1302</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>VRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVI</Hsp_qseq>
+      <Hsp_hseq>VRSPYEYPQYYLVAPWAYGLLAAYMFFLIITGFPVNFLTLYVTIEHKKLRTPLNYILLNLAIADLFMVFGGFTTTMYTSLHGYFVFGRLGCNLEGFFATLGGEMGLWSLVVLAIERWMVVCKPVSNFRFGENHAIMGVAFTWVMACSCAVPPLVGWSRYIPEGMQCSCGVDYYTRTPGVNNESFVIYMFIVHFFIPLIVIFFCYGRLVCTVKEAAAQQQESETTQRAEREVTRMVIIMVIAFLICWLPYAGVAWYIFTHQGSEFGPVFMTLPAFFAKTSAVYNPCI</Hsp_hseq>
+      <Hsp_midline>VRSP+EYPQYYL  PW + +LAAYMF LI+ GFP+NFLTLYVT++HKKLRTPLNYILLNLA+ADLFMV GGFT+T+YTSLHGYFVFG  GCNLEGFFATLGGE+ LWSLVVLAIER++VVCKP+SNFRFGENHAIMGVAFTWVMA +CA PPL GWSRYIPEG+QCSCG+DYYT  P VNNESFVIYMF+VHF IP+I+IFFCYG+LV TVKEAAAQQQES TTQ+AE+EVTRMVIIMVIAFLICW+PYA VA+YIFTHQGS FGP+FMT+PAFFAK++A+YNP I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|NP_878311.1|</Hit_id>
+  <Hit_def>green-sensitive opsin-2 [Danio rerio] &gt;sp|Q8AYM8.1| RecName: Full=Green-sensitive opsin-2; AltName: Full=Green cone photoreceptor pigment 2; AltName: Full=Opsin RH2-2; AltName: Full=Opsin-1, medium-wave-sensitive 2 [Danio rerio] &gt;gb|AAH55605.1| Opsin 1 (cone pigments), medium-wave-sensitive, 2 [Danio rerio] &gt;gb|AAI64163.1| Opn1mw2 protein [Danio rerio] &gt;dbj|BAC24130.1| green sensitive cone opsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_878311</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.982</Hsp_bit-score>
+      <Hsp_score>1299</Hsp_score>
+      <Hsp_evalue>2.42202e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASA-TVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>MNGTEGNNFYIPMSNRTGLVRSPYEYTQYYLADPWQFKALAFYMFFLICFGLPINVLTLLVTAQHKKLRQPLNYILVNLAFAGTIMAFFGFTVTFYCSINGYMALGPTGCAIEGFFATLGGQVALWSLVVLAIERYIVVCKPMGSFKFSSNHAMAGIAFTWVMASSCAVPPLFGWSRYIPEGMQTSCGPDYYTLNPEFNNESYVLYMFSCHFCVPVTTIFFTYGSLVCTVKAAAAQQQESESTQKAEREVTRMVILMVLGFLVAWVPYASFAAWIFFNRGAAFSAQAMAIPAFFSKASALFNPIIYVLLNKQFRSCMLNTLFCGKSPLGDDESSSVSTSKTEVSSVSPA</Hsp_hseq>
+      <Hsp_midline>MNGTEG NFY+P SN TG+VRSP+EY QYYLA+PWQF  LA YMF LI  G PIN LTL VT QHKKLR PLNYIL+NLA A   M   GFT T Y S++GY   GPTGC +EGFFATLGG++ALWSLVVLAIERY+VVCKPM +F+F  NHA+ G+AFTWVMA +CA PPL GWSRYIPEG+Q SCG DYYTL PE NNES+V+YMF  HF +P+  IFF YG LV TVK AAAQQQES +TQKAE+EVTRMVI+MV+ FL+ WVPYAS A +IF ++G+ F    M IPAFF+K++A++NP+IY+++NKQFR+CML T+ CGK+PLGDDE+S+ + SKTE S V+PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|ALG92535.1|</Hit_id>
+  <Hit_def>rhodopsin-like-2.2 cone opsin [Danio rerio]</Hit_def>
+  <Hit_accession>ALG92535</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.597</Hsp_bit-score>
+      <Hsp_score>1298</Hsp_score>
+      <Hsp_evalue>2.76208e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASA-TVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>MNGTEGNNFYIPMSNRTGLVRSPYEYTQYYLADPWQFKALAFYMFFLICFGLPINVLTLLVTAQHKKLRQPLNYILVNLAFAGTIMAFFGFTVTFYCSINGYMALGPTGCAIEGFFATLGGQVALWSLVVLAIERYIVVCKPMGSFKFSSNHAMAGIAFTWVMASSCAVPPLFGWSRYIPEGMQTSCGPDYYTLNPEYNNESYVLYMFSCHFCVPVTTIFFTYGSLVCTVKAAAAQQQESESTQKAEREVTRMVILMVLGFLVAWVPYASFAAWIFFNRGAAFSAQAMAIPAFFSKASALFNPIIYVLLNKQFRSCMLNTLFCGKSPLGDDESSSVSTSKTEVSSVSPA</Hsp_hseq>
+      <Hsp_midline>MNGTEG NFY+P SN TG+VRSP+EY QYYLA+PWQF  LA YMF LI  G PIN LTL VT QHKKLR PLNYIL+NLA A   M   GFT T Y S++GY   GPTGC +EGFFATLGG++ALWSLVVLAIERY+VVCKPM +F+F  NHA+ G+AFTWVMA +CA PPL GWSRYIPEG+Q SCG DYYTL PE NNES+V+YMF  HF +P+  IFF YG LV TVK AAAQQQES +TQKAE+EVTRMVI+MV+ FL+ WVPYAS A +IF ++G+ F    M IPAFF+K++A++NP+IY+++NKQFR+CML T+ CGK+PLGDDE+S+ + SKTE S V+PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|NP_571328.2|</Hit_id>
+  <Hit_def>green-sensitive opsin-1 [Danio rerio] &gt;sp|Q9W6A5.2| RecName: Full=Green-sensitive opsin-1; AltName: Full=Green cone photoreceptor pigment 1; AltName: Full=Opsin RH2-1; AltName: Full=Opsin-1, medium-wave-sensitive 1 [Danio rerio] &gt;gb|AAH60896.1| Opsin 1 (cone pigments), medium-wave-sensitive, 1 [Danio rerio] &gt;gb|ALG92534.1| rhodopsin-like-2.1 cone opsin [Danio rerio] &gt;dbj|BAC24129.1| green sensitive cone opsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571328</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.516</Hsp_bit-score>
+      <Hsp_score>1290</Hsp_score>
+      <Hsp_evalue>4.75887e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASA-TVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>MNGTEGSNFYIPMSNRTGLVRSPYDYTQYYLAEPWKFKALAFYMFLLIIFGFPINVLTLVVTAQHKKLRQPLNYILVNLAFAGTIMVIFGFTVSFYCSLVGYMALGPLGCVMEGFFATLGGQVALWSLVVLAIERYIVVCKPMGSFKFSANHAMAGIAFTWFMACSCAVPPLFGWSRYLPEGMQTSCGPDYYTLNPEYNNESYVMYMFSCHFCIPVTTIFFTYGSLVCTVKAAAAQQQESESTQKAEREVTRMVILMVLGFLFAWVPYASFAAWIFFNRGAAFSAQAMAVPAFFSKTSAVFNPIIYVLLNKQFRSCMLNTLFCGKSPLGDDESSSVSTSKTEVSSVSPA</Hsp_hseq>
+      <Hsp_midline>MNGTEG NFY+P SN TG+VRSP++Y QYYLAEPW+F  LA YMFLLI+ GFPIN LTL VT QHKKLR PLNYIL+NLA A   MV+ GFT + Y SL GY   GP GC +EGFFATLGG++ALWSLVVLAIERY+VVCKPM +F+F  NHA+ G+AFTW MA +CA PPL GWSRY+PEG+Q SCG DYYTL PE NNES+V+YMF  HF IP+  IFF YG LV TVK AAAQQQES +TQKAE+EVTRMVI+MV+ FL  WVPYAS A +IF ++G+ F    M +PAFF+K++A++NP+IY+++NKQFR+CML T+ CGK+PLGDDE+S+ + SKTE S V+PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|AAD24752.1|</Hit_id>
+  <Hit_def>green-sensitive opsin 1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAD24752</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>499.975</Hsp_bit-score>
+      <Hsp_score>1286</Hsp_score>
+      <Hsp_evalue>1.97521e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASA-TVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>MNGTEGSNFYIPMSNRTGLVRSPYDYTQYYLAEPWKFKALAFYMFLLIIFGFPINVLTLVVTAQHKKLRQPLNYILVNLAFAGTIMVIFGFTVSFYCSLVGYMALGPLGCVMEGFFATLGGQVALWSLVVLAIERYIVVCKPMGSFKFSANHAMAGIAFTWFMACSCAVPPLFGWSRYLPEGMQTSCGPDYYTLNPEYNNESYVMYMFSCHFCIPVTTIFFTYGSLVCTVKAAAAQQQESESTQKAEREVTRMVILMVLGFLFAWVPYASFAAWIFFNRGAAFSAQAIAVPAFFSKTSAVFNPIIYVLLNKQFRSCMLNTLFCGKSPLGDDESSSVSTSKTEVSSVSPA</Hsp_hseq>
+      <Hsp_midline>MNGTEG NFY+P SN TG+VRSP++Y QYYLAEPW+F  LA YMFLLI+ GFPIN LTL VT QHKKLR PLNYIL+NLA A   MV+ GFT + Y SL GY   GP GC +EGFFATLGG++ALWSLVVLAIERY+VVCKPM +F+F  NHA+ G+AFTW MA +CA PPL GWSRY+PEG+Q SCG DYYTL PE NNES+V+YMF  HF IP+  IFF YG LV TVK AAAQQQES +TQKAE+EVTRMVI+MV+ FL  WVPYAS A +IF ++G+ F    + +PAFF+K++A++NP+IY+++NKQFR+CML T+ CGK+PLGDDE+S+ + SKTE S V+PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|NP_571267.1|</Hit_id>
+  <Hit_def>opsin-1, short-wave-sensitive 2 [Danio rerio] &gt;ref|XP_073771587.1| opsin-1, short-wave-sensitive 2 isoform X1 [Danio rerio] &gt;ref|XP_073771588.1| opsin-1, short-wave-sensitive 2 isoform X1 [Danio rerio] &gt;sp|Q9W6A8.1| RecName: Full=Opsin-1, short-wave-sensitive 2; AltName: Full=Blue cone photoreceptor pigment; AltName: Full=Blue-sensitive opsin; AltName: Full=Opsin SWS-2 [Danio rerio] &gt;gb|AAD24755.1| blue-sensitive opsin [Danio rerio] &gt;gb|AAH59418.1| Opsin 1 (cone pigments), short-wave-sensitive 2 [Danio rerio] &gt;gb|AAH62277.1| Opsin 1 (cone pigments), short-wave-sensitive 2 [Danio rerio] &gt;gb|AAI53616.1| Opsin 1 (cone pigments), short-wave-sensitive 2 [Danio rerio] &gt;gb|ALG92538.1| short-wavelength-sensitive-2 cone opsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571267</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.569</Hsp_bit-score>
+      <Hsp_score>854</Hsp_score>
+      <Hsp_evalue>8.76318e-113</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>NFYVPFSNATGVVR--SPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>DFHMPITLDVSNISAYSPFLVPQDHLGHSGVFMGMSAFMLFLFIAGTAINVLTIVCTIQYKKLRSHLNYILVNLAISNLWVSVFGSSVAFYAFYKKYFVFGPIGCKIEGFTSTIGGMVSLWSLAVVALERWLVICKPLGNFTFKTPHAIAGCILPWCMALAAGLPPLLGWSRYIPEGLQCSCGPDWYTTNNKFNNESYVMFLFCFCFAVPFSTIVFCYGQLLITLKLAAKAQADSASTQKAEREVTKMVVVMVFGFLICWGPYAIFAIWVVSNRGAPFDLRLATIPSCLCKASTVYNPVIYVLMNKQFRSCMMKMV-FNKN-IEEDEASSSSQVTQVSSVAP</Hsp_hseq>
+      <Hsp_midline>+F++P +     +   SPF  PQ +L     F  ++A+M  L + G  IN LT+  T+Q+KKLR+ LNYIL+NLA+++L++ + G +   Y     YFVFGP GC +EGF +T+GG ++LWSL V+A+ER++V+CKP+ NF F   HAI G    W MALA   PPL GWSRYIPEGLQCSCG D+YT   + NNES+V+++F   F +P   I FCYGQL+ T+K AA  Q +SA+TQKAE+EVT+MV++MV  FLICW PYA  A ++ +++G+ F     TIP+   K++ +YNPVIY++MNKQFR+CM+  +   KN + +DEAS++   T+ S VAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AAD24756.1|</Hit_id>
+  <Hit_def>ultraviolet-sensitive opsin [Danio rerio]</Hit_def>
+  <Hit_accession>AAD24756</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>9.21586e-105</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>VPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVA</Hsp_qseq>
+      <Hsp_hseq>VQFGNASKV--SPFEGEQYHIAPKWAFYLQAAFMGFVFIVGTPMNGIVLFVTMKYKKLRQPLNYILVNISLAGFIFDTFSVSQVSVCAARGYYSLGYTLCSMEAAMGSIAGLVTGWSLAVLAFERYVVICKPFGSFKFGQGQAVGAVVFTWIIGTACATPPFFGWSRYIPEGLGTACGPDWYTKSEEYNSESYTYFLLITCFMMPMTIIIFSYSQLLGALRAVAAQQAESESTQKAEREVSRMVVVMVGSFVLCYAPYAVTAMYFANSDEPNKDYRLVAIPAFFSKSSSVYNPLIYAFMNKQFNACIMETVFGKK----IDESSEVSSKTETSSVS</Hsp_hseq>
+      <Hsp_midline>V F NA+ V  SPFE  QY++A  W F + AA+M  + ++G P+N + L+VT+++KKLR PLNYIL+N+++A         +     +  GY+  G T C++E    ++ G +  WSL VLA ERYVV+CKP  +F+FG+  A+  V FTW++  ACA PP  GWSRYIPEGL  +CG D+YT   E N+ES+  ++ +  F +PM II F Y QL+  ++  AAQQ ES +TQKAE+EV+RMV++MV +F++C+ PYA  A Y       N     + IPAFF+KS+++YNP+IY  MNKQF  C++ T+   K     DE+S   SKTETS V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|NP_571394.2|</Hit_id>
+  <Hit_def>opsin-1, short-wave-sensitive 1 [Danio rerio] &gt;gb|AAH60894.1| Opsin 1 (cone pigments), short-wave-sensitive 1 [Danio rerio] &gt;gb|AAI53467.1| Opn1sw1 protein [Danio rerio] &gt;gb|ALG92539.1| short-wavelength-sensitive-1 cone opsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571394</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.612</Hsp_bit-score>
+      <Hsp_score>797</Hsp_score>
+      <Hsp_evalue>2.45404e-104</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>VPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVA</Hsp_qseq>
+      <Hsp_hseq>VQFGNASKV--SPFEGEQYHIAPKWAFYLQAAFMGFVFIVGTPMNGIVLFVTMKYKKLRQPLNYILVNISLAGFIFDTFSVSQVFVCAARGYYFLGYTLCAMEAAMGSIAGLVTGWSLAVLAFERYVVICKPFGSFKFGQGQAVGAVVFTWIIGTACATPPFFGWSRYIPEGLGTACGPDWYTKSEEYNSESYTYFLLVTCFMMPMTIIIFSYSQLLGALRAVAAQQAESESTQKAEREVSRMVVVMVGSFVLCYAPYAVTAMYFANSDEPNKDYRLVAIPAFFSKSSCVYNPLIYAFMNKQFNACIMETVFGKK----IDESSEVSSKTETSSVS</Hsp_hseq>
+      <Hsp_midline>V F NA+ V  SPFE  QY++A  W F + AA+M  + ++G P+N + L+VT+++KKLR PLNYIL+N+++A         +     +  GY+  G T C +E    ++ G +  WSL VLA ERYVV+CKP  +F+FG+  A+  V FTW++  ACA PP  GWSRYIPEGL  +CG D+YT   E N+ES+  ++ V  F +PM II F Y QL+  ++  AAQQ ES +TQKAE+EV+RMV++MV +F++C+ PYA  A Y       N     + IPAFF+KS+ +YNP+IY  MNKQF  C++ T+   K     DE+S   SKTETS V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|Q9W6A9.2|</Hit_id>
+  <Hit_def>RecName: Full=Opsin-1, short-wave-sensitive 1; Short=Opsin SWS-1; AltName: Full=Ultraviolet cone photoreceptor pigment; AltName: Full=Ultraviolet-sensitive opsin [Danio rerio] &gt;dbj|BAC24134.1| ultraviolet sensitive cone opsin [Danio rerio]</Hit_def>
+  <Hit_accession>Q9W6A9</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>4.00446e-104</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>VPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVA</Hsp_qseq>
+      <Hsp_hseq>VQFGNASKV--SPFEGEQYHIAPKWAFYLQAAFMGFVFIVGTPMNGIVLFVTMKYKKLRQPLNYILVNISLAGFIFDTFSVSQVFVCAARGYYFLGYTLCAMEAAMGSIAGLVTGWSLAVLAFERYVVICKPFGSFKFGQGQAVGAVVFTWIIGTACATPPFFGWSRYIPEGLGTACGPDWYTKSEEYNSESYTYFLLITCFMMPMTIIIFSYSQLLGALRAVAAQQAESESTQKAEREVSRMVVVMVGSFVLCYAPYAVTAMYFANSDEPNKDYRLVAIPAFFSKSSCVYNPLIYAFMNKQFNACIMETVFGKK----IDESSEVSSKTETSSVS</Hsp_hseq>
+      <Hsp_midline>V F NA+ V  SPFE  QY++A  W F + AA+M  + ++G P+N + L+VT+++KKLR PLNYIL+N+++A         +     +  GY+  G T C +E    ++ G +  WSL VLA ERYVV+CKP  +F+FG+  A+  V FTW++  ACA PP  GWSRYIPEGL  +CG D+YT   E N+ES+  ++ +  F +PM II F Y QL+  ++  AAQQ ES +TQKAE+EV+RMV++MV +F++C+ PYA  A Y       N     + IPAFF+KS+ +YNP+IY  MNKQF  C++ T+   K     DE+S   SKTETS V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|AAH67683.1|</Hit_id>
+  <Hit_def>Opsin 1 (cone pigments), short-wave-sensitive 1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAH67683</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>4.87087e-104</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>VPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVA</Hsp_qseq>
+      <Hsp_hseq>VQFGNASKV--SPFEGEQYHIAPKWAFYLQAAFMGFVFIVGTPMNGIVLFVTMKYKKLRQPLNYILVNISLAGFIFDTFSVSQVFVCAARGYYFLGYTLCAMEAAMGSIAGLVTGWSLAVLAFERYVVICKPFGSFKFGQGQAVGAVVFTWIIGTACATPPFFGWSRYIPEGLGTACGPDWYTKSEEYNSESYTYFLLVTCFMMPMTIIIFSYSQLLGALRAVASQQAESESTQKAEREVSRMVVVMVGSFVLCYAPYAVTAMYFANSDEPNKDYRLVAIPAFFSKSSCVYNPLIYAFMNKQFNACIMETVFGKK----IDESSEVSSKTETSSVS</Hsp_hseq>
+      <Hsp_midline>V F NA+ V  SPFE  QY++A  W F + AA+M  + ++G P+N + L+VT+++KKLR PLNYIL+N+++A         +     +  GY+  G T C +E    ++ G +  WSL VLA ERYVV+CKP  +F+FG+  A+  V FTW++  ACA PP  GWSRYIPEGL  +CG D+YT   E N+ES+  ++ V  F +PM II F Y QL+  ++  A+QQ ES +TQKAE+EV+RMV++MV +F++C+ PYA  A Y       N     + IPAFF+KS+ +YNP+IY  MNKQF  C++ T+   K     DE+S   SKTETS V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|ACA65932.1|</Hit_id>
+  <Hit_def>rhodopsin, partial [Danio cf. rerio &apos;Assam&apos;] &gt;gb|ACA65941.1| rhodopsin, partial [Danio rerio]</Hit_def>
+  <Hit_accession>ACA65941</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>1.94652e-97</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>GENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMM</Hsp_qseq>
+      <Hsp_hseq>GENHAIMGVAFTWVMACSCAVPPLVGWSRYIPEGMQCSCGVDYYTRTPGVNNESFVIYMFIVHFFIPLIVIFFCYGRLVCTVKEAAAQQQESETTQRAEREVTRMVIIMVIAFLICWVPYAGVAWYIFTHQGSEFGPVFMTLPAFFAKTSAVYNPCIYICM</Hsp_hseq>
+      <Hsp_midline>GENHAIMGVAFTWVMA +CA PPL GWSRYIPEG+QCSCG+DYYT  P VNNESFVIYMF+VHF IP+I+IFFCYG+LV TVKEAAAQQQES TTQ+AE+EVTRMVIIMVIAFLICWVPYA VA+YIFTHQGS FGP+FMT+PAFFAK++A+YNP IYI M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|NP_001002443.1|</Hit_id>
+  <Hit_def>red-sensitive opsin-2 [Danio rerio] &gt;gb|AAH76120.1| Opsin 1 (cone pigments), long-wave-sensitive, 2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001002443</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>4.40793e-92</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>RSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>RDPFEGPNYHIAPRWVYNVATVWMFFVVVASTFTNGLVLVATAKFKKLRHPLNWILVNLAIADLGETLFSSTISVINQVFGYFILGHPMCIFEGYTVSVCGIAGLWSLTVISWERWVVVCKPFGNVKFDGKWASAGIIFSWVWAAVWCAPPIFGWSRYWPHGLKTSCGPDVFGGNEDPGVQSYMLVLMITCCILPLAIIILCYIAVFLAIHAVAQQQKDSESTQKAEKEVSRMVVVMVLAFCLCWGPYTAFACFAAANPGYAFHPLAAAMPAYFAKSATIYNPIIYVFMNRQFRVCIMQLF--GKKV--DDGSEVSTSKTEVSSVAPA</Hsp_hseq>
+      <Hsp_midline>R PFE P Y++A  W +++   +MF ++V     N L L  T + KKLR PLN+IL+NLA+ADL   L   T ++   + GYF+ G   C  EG+  ++ G   LWSL V++ ER+VVVCKP  N +F    A  G+ F+WV A    APP+ GWSRY P GL+ SCG D +    +   +S+++ + +    +P+ II  CY  +   +   A QQ++S +TQKAEKEV+RMV++MV+AF +CW PY + A +   + G  F P+   +PA+FAKSA IYNP+IY+ MN+QFR C++     GK    DD +  + SKTE S VAPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|Q8AYN0.1|</Hit_id>
+  <Hit_def>RecName: Full=Red-sensitive opsin-2; AltName: Full=Opsin-1, long-wave-sensitive 2; Short=Opsin LWS-2; AltName: Full=Red cone photoreceptor pigment 2 [Danio rerio] &gt;gb|ALG92541.1| long-wavelength-sensitive-2 cone opsin [Danio rerio] &gt;dbj|BAC24128.1| red sensitive cone opsin [Danio rerio] &gt;emb|CAE30417.1| novel protein similar to zebrafish red-sensitive opsin (rdops) [Danio rerio]</Hit_def>
+  <Hit_accession>Q8AYN0</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>6.23704e-92</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>RSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>RDPFEGPNYHIAPRWVYNVATVWMFFVVVASTFTNGLVLVATAKFKKLRHPLNWILVNLAIADLGETLFASTISVINQVFGYFILGHPMCIFEGYTVSVCGIAGLWSLTVISWERWVVVCKPFGNVKFDGKWASAGIIFSWVWAAVWCAPPIFGWSRYWPHGLKTSCGPDVFGGNEDPGVQSYMLVLMITCCILPLAIIILCYIAVFLAIHAVAQQQKDSESTQKAEKEVSRMVVVMILAFCLCWGPYTAFACFAAANPGYAFHPLAAAMPAYFAKSATIYNPIIYVFMNRQFRVCIMQLF--GKKV--DDGSEVSTSKTEVSSVAPA</Hsp_hseq>
+      <Hsp_midline>R PFE P Y++A  W +++   +MF ++V     N L L  T + KKLR PLN+IL+NLA+ADL   L   T ++   + GYF+ G   C  EG+  ++ G   LWSL V++ ER+VVVCKP  N +F    A  G+ F+WV A    APP+ GWSRY P GL+ SCG D +    +   +S+++ + +    +P+ II  CY  +   +   A QQ++S +TQKAEKEV+RMV++M++AF +CW PY + A +   + G  F P+   +PA+FAKSA IYNP+IY+ MN+QFR C++     GK    DD +  + SKTE S VAPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>emb|CAE30416.1|</Hit_id>
+  <Hit_def>opsin 1 (cone pigments), long-wave-sensitive, 1 [Danio rerio]</Hit_def>
+  <Hit_accession>CAE30416</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>7.90735e-92</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>RSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>KDPFEGPNYHIAPRWVYNVATVWMFFVVVASTFTNGLVLVATAKFKKLRHPLNWILVNLAIADLGETLFASTISVINQFFGYFILGHPMCIFEGYTVSVCGIAALWSLTVISWERWVVVCKPFGNVKFDAKWASAGIIFSWVWAAAWCAPPIFGWSRYWPHGLKTSCGPDVFSGSEDPGVQSYMVVLMITCCIIPLAIIILCYIAVYLAIHAVAQQQKDSESTQKAEKEVSRMVVVMIFAYCFCWGPYTFFACFAAANPGYAFHPLAAAMPAYFAKSATIYNPVIYVFMNRQFRVCIMQLF--GKKV--DDGSEVSTSKTEVSSVAPA</Hsp_hseq>
+      <Hsp_midline>+ PFE P Y++A  W +++   +MF ++V     N L L  T + KKLR PLN+IL+NLA+ADL   L   T ++     GYF+ G   C  EG+  ++ G  ALWSL V++ ER+VVVCKP  N +F    A  G+ F+WV A A  APP+ GWSRY P GL+ SCG D ++   +   +S+++ + +    IP+ II  CY  +   +   A QQ++S +TQKAEKEV+RMV++M+ A+  CW PY   A +   + G  F P+   +PA+FAKSA IYNPVIY+ MN+QFR C++     GK    DD +  + SKTE S VAPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|NP_001300644.1|</Hit_id>
+  <Hit_def>red-sensitive opsin-1 [Danio rerio] &gt;sp|Q9W6A7.1| RecName: Full=Red-sensitive opsin-1; AltName: Full=Opsin-1, long-wave-sensitive 1; Short=Opsin LWS-1; AltName: Full=Red cone photoreceptor pigment 1 [Danio rerio] &gt;gb|AAD24754.1| red-sensitive opsin [Danio rerio] &gt;gb|AAH59415.1| Opsin 1 (cone pigments), long-wave-sensitive, 1 [Danio rerio] &gt;gb|ALG92540.1| long-wavelength-sensitive-1 cone opsin [Danio rerio] &gt;dbj|BAC24127.1| red sensitive cone opsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001300644</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>8.25795e-92</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>RSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>KDPFEGPNYHIAPRWVYNVATVWMFFVVVASTFTNGLVLVATAKFKKLRHPLNWILVNLAIADLGETLFASTISVINQFFGYFILGHPMCIFEGYTVSVCGIAALWSLTVISWERWVVVCKPFGNVKFDAKWASAGIIFSWVWAAAWCAPPIFGWSRYWPHGLKTSCGPDVFSGSEDPGVQSYMVVLMITCCIIPLAIIILCYIAVYLAIHAVAQQQKDSESTQKAEKEVSRMVVVMIFAYCFCWGPYTFFACFAAANPGYAFHPLAAAMPAYFAKSATIYNPVIYVFMNRQFRVCIMQLF--GKKV--DDGSEVSTSKTEVSSVAPA</Hsp_hseq>
+      <Hsp_midline>+ PFE P Y++A  W +++   +MF ++V     N L L  T + KKLR PLN+IL+NLA+ADL   L   T ++     GYF+ G   C  EG+  ++ G  ALWSL V++ ER+VVVCKP  N +F    A  G+ F+WV A A  APP+ GWSRY P GL+ SCG D ++   +   +S+++ + +    IP+ II  CY  +   +   A QQ++S +TQKAEKEV+RMV++M+ A+  CW PY   A +   + G  F P+   +PA+FAKSA IYNPVIY+ MN+QFR C++     GK    DD +  + SKTE S VAPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|AAD20549.1|</Hit_id>
+  <Hit_def>red opsin [Danio rerio]</Hit_def>
+  <Hit_accession>AAD20549</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>8.24062e-91</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>RSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAPA</Hsp_qseq>
+      <Hsp_hseq>KDPFEGPNYHIAPRWVYNVATVWMFFVVVASTFTNGLVLVATAKFKKLRHPLNWILVNLAIADLGETLFASTISVINQFFGYFILGHPMCIFEGYTVSVCGIAALWSLTVISWERWVVVCKPFGNVKFDAKWASAGIIFSWVWAAAWCAPPIFGWSRYWPHGLKTSCGPDVFSGSEDPGVQSYMVVLMITCCIIPLAIIILCYIAVYLAIHAVAQQQKDSESTQKAEKEVSRMVVVMIFAYCFCWGPY-TFACFAAANPGYAFHPLAAAMPAYFAKSATIYNPVIYVFMNRQFRVCIMQLF--GKKV--DDGSEVSTSKTEVSSVAPA</Hsp_hseq>
+      <Hsp_midline>+ PFE P Y++A  W +++   +MF ++V     N L L  T + KKLR PLN+IL+NLA+ADL   L   T ++     GYF+ G   C  EG+  ++ G  ALWSL V++ ER+VVVCKP  N +F    A  G+ F+WV A A  APP+ GWSRY P GL+ SCG D ++   +   +S+++ + +    IP+ II  CY  +   +   A QQ++S +TQKAEKEV+RMV++M+ A+  CW PY + A +   + G  F P+   +PA+FAKSA IYNPVIY+ MN+QFR C++     GK    DD +  + SKTE S VAPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|NP_571661.1|</Hit_id>
+  <Hit_def>vertebrate ancient long opsin a [Danio rerio] &gt;gb|AAI28816.1| Vertebrate ancient long opsin a [Danio rerio] &gt;gb|ALG92542.1| vertebrate ancient opsin-1 [Danio rerio] &gt;dbj|BAA94288.1| VAL-opsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571661</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>5.99469e-83</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>NATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSK</Hsp_qseq>
+      <Hsp_hseq>NAVSPAEDPFSAPLSSIA-PWNYSVLAALMFVVTALSLSENFTVMLVTFRFQQLRQPLNYIIVNLSLADFLVSLTGGSISFLTNYHGYFFLGKWACVLEGFAVTFFGIVALWSLAVLAFERFFVICRPLGNIRLRGKHAALGLVFVWSFSFIWTVPPVLGWSSYTVSRIGTTCEPNWYS--GNFHDHTFIITLFSTCFIFPLGVIIVCYCKLIRKLRKVSNTHGRLGNARKPERQVTRMVVVMIVAFMVAWTPYAAFSIIITAHPSMHVDPRLAAIPAFVAKTAAVYNPIIYVFMNKQFRKCLVQLLSCSKVTVVEGNNNQTTER</Hsp_hseq>
+      <Hsp_midline>NA      PF  P   +A PW +S+LAA MF++  L    NF  + VT + ++LR PLNYI++NL++AD  + L G + +  T+ HGYF  G   C LEGF  T  G +ALWSL VLA ER+ V+C+P+ N R    HA +G+ F W  +     PP+ GWS Y    +  +C  ++Y+     ++ +F+I +F   F  P+ +I  CY +L+  +++ +         +K E++VTRMV++M++AF++ W PYA+ +  I  H   +  P    IPAF AK+AA+YNP+IY+ MNKQFR C++  + C K  + +   + T  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>dbj|BAA94289.1|</Hit_id>
+  <Hit_def>VA-opsin [Danio rerio]</Hit_def>
+  <Hit_accession>BAA94289</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>1.22357e-77</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>NATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQ</Hsp_qseq>
+      <Hsp_hseq>NAVSPAEDPFSAPLSSIA-PWNYSVLAALMFVVTALSLSENFTVMLVTFRFQQLRQPLNYIIVNLSLADFLVSLTGGSISFLTNYHGYFFLGKWACVLEGFAVTFFGIVALWSLAVLAFERFFVICRPLGNIRLRGKHAALGLVFVWSFSFIWTVPPVLGWSSYTVSRIGTTCEPNWYS--GNFHDHTFIITLFSTCFIFPLGVIIVCYCKLIRKLRKVSNTHGRLGNARKPERQVTRMVVVMIVAFMVAWTPYAAFSIIITAHPSMHVDPRLAAIPAFVAKTAAVYNPIIYVFMNKQ</Hsp_hseq>
+      <Hsp_midline>NA      PF  P   +A PW +S+LAA MF++  L    NF  + VT + ++LR PLNYI++NL++AD  + L G + +  T+ HGYF  G   C LEGF  T  G +ALWSL VLA ER+ V+C+P+ N R    HA +G+ F W  +     PP+ GWS Y    +  +C  ++Y+     ++ +F+I +F   F  P+ +I  CY +L+  +++ +         +K E++VTRMV++M++AF++ W PYA+ +  I  H   +  P    IPAF AK+AA+YNP+IY+ MNKQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|NP_001103750.1|</Hit_id>
+  <Hit_def>vertebrate ancient long opsin b [Danio rerio] &gt;gb|AAY56361.1| vertebrate ancient long opsin b [Danio rerio] &gt;gb|ALG92543.1| vertebrate ancient opsin-2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001103750</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>7.02173e-75</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>EGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>ESFGFSVTESTDVTTPDDPFKGPLKSVA-PWNYTFLACLMFIVTSLSITENFTVMLVTYRFKQLRKPLNYIIVNLSVADFLVSMTGGTISFLTNARGFFFLGVWACVLEGFAVTFFGIVALWSLAILAFERFFVICRPLKNVRLGGKHAAMGLIFVWTFSFIWTIPPVLGWNSYTVSKIGTTCEPNWYST--NYYDHTYIITFFVTCFILPLGVIIISYGKLMQKLRKVSNTHGRLGNARKPDREVARMVVVMIVAFMVGWTPYAAFSITVTACPTIYIDPRLGSIPAFFSKTAAVYNPIIYVFMNKQFRKCLIQMF------KGNGTALESTNLNQTSDKGP</Hsp_hseq>
+      <Hsp_midline>E   F V  S        PF+ P   +A PW ++ LA  MF++  L    NF  + VT + K+LR PLNYI++NL+VAD  + + G T +  T+  G+F  G   C LEGF  T  G +ALWSL +LA ER+ V+C+P+ N R G  HA MG+ F W  +     PP+ GW+ Y    +  +C  ++Y+      + +++I  FV  F +P+ +I   YG+L+  +++ +         +K ++EV RMV++M++AF++ W PYA+ +  +         P   +IPAFF+K+AA+YNP+IY+ MNKQFR C++          G+  A  + +  +TS   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>dbj|BAV78537.1|</Hit_id>
+  <Hit_def>UV sensitive parapinopsin [Danio rerio]</Hit_def>
+  <Hit_accession>BAV78537</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>8.12905e-70</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQ-ESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNP</Hsp_qseq>
+      <Hsp_hseq>YTILAVIIGVFSVCGVILNVTVITVTLKYKQLRQPLNFALVNLAVADLGCAVFGGLPTVVTNAMGYFSLGRVGCVLEGFAVAFFGIAALCSVAVIALERCMVVCRPVGSISFQTRHAVFGVAVSWVWSFIWNTPPLFGWGRFELEGVRTSCAPDWYS--RDLANVSFIVCYFLLCFALPFSVIVYSYTRLLWTLRQVSRLQVCEGGSAARAEAQVSCMVVVMILAFLLTWLPYASFALCVILIPELYIDPVIATVPMYLTKSSTVFNPIIYIFMNRQFRDRALPFLLCGRNP</Hsp_hseq>
+      <Hsp_midline>+++LA  + +  V G  +N   + VT+++K+LR PLN+ L+NLAVADL   + G   T+ T+  GYF  G  GC LEGF     G  AL S+ V+A+ER +VVC+P+ +  F   HA+ GVA +WV +     PPL GW R+  EG++ SC  D+Y+   ++ N SF++  F++ F +P  +I + Y +L++T+++ +  Q  E  +  +AE +V+ MV++M++AFL+ W+PYAS A  +         P+  T+P +  KS+ ++NP+IYI MN+QFR+  L  + CG+NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|NP_001304685.1|</Hit_id>
+  <Hit_def>parapinopsin a [Danio rerio] &gt;gb|ALG92544.1| parapinopsin-1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001304685</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>2.23735e-69</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQ-ESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNP</Hsp_qseq>
+      <Hsp_hseq>YTILAVIIGVFSVCGVILNVTVITVTLKYKQLRQPLNFALVNLAVADLGCAVFGGLPTVVTNAMGYFSLGRVGCVLEGFAVAFFGIAALCSVAVIALERCMVVCRPVGSISFQTRHAVFGVAVSWLWSFIWNTPPLFGWGRFELEGVRTSCAPDWYS--RDLANVSFIVCYFLLCFALPFSVIVYSYTRLLWTLRQVSRLQVCEGGSAARAEAQVSCMVVVMILAFLLTWLPYASFALCVILIPELYIDPVIATVPMYLTKSSTVFNPIIYIFMNRQFRDRALPFLLCGRNP</Hsp_hseq>
+      <Hsp_midline>+++LA  + +  V G  +N   + VT+++K+LR PLN+ L+NLAVADL   + G   T+ T+  GYF  G  GC LEGF     G  AL S+ V+A+ER +VVC+P+ +  F   HA+ GVA +W+ +     PPL GW R+  EG++ SC  D+Y+   ++ N SF++  F++ F +P  +I + Y +L++T+++ +  Q  E  +  +AE +V+ MV++M++AFL+ W+PYAS A  +         P+  T+P +  KS+ ++NP+IYI MN+QFR+  L  + CG+NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|NP_001428334.1|</Hit_id>
+  <Hit_def>parapinopsin b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001428334</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>3.20144e-57</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPL-GDDEASA--TVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>FITLSLLMAVFSITSVVLNATVIVVTLRHKQLRQPLNFALVNLAVADLGTTLTGSVPSVVTNAVGYYITGRIGCVLEGFCVAFFGISALCTVALIAVERLFVVCRPLGSITFQSRHAAGGLLSCWLWSLIWNTPPLLGWGSYQLEGAGTSCGPHWQSR--ELRDVSYIICYFSVCFAVPFAIILVSYSWLLYTLRQVAKVGGGAAARAEARV--AWMVVMMVLAFLVSWLPYAALALTVVSKPEVQLAVLVKVLPIYMAKSSTVYNPLIYIYMNKQFQRYAIPFLMCGKDPWPSEDDVSEVQTVVSPLNNKISP</Hsp_hseq>
+      <Hsp_midline>F  L+  M +  +    +N   + VT++HK+LR PLN+ L+NLAVADL   L G   ++ T+  GY++ G  GC LEGF     G  AL ++ ++A+ER  VVC+P+ +  F   HA  G+   W+ +L    PPL GW  Y  EG   SCG  + +   E+ + S++I  F V F +P  II   Y  L++T+++ A     +A   +A      MV++MV+AFL+ W+PYA++A  + +        +   +P + AKS+ +YNP+IYI MNKQF+   +  + CGK+P   +D+ S   TV     ++++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|ALG92545.1|</Hit_id>
+  <Hit_def>parapinopsin-2 [Danio rerio] &gt;dbj|BAV78538.1| visible light sensitive parapinopsin [Danio rerio]</Hit_def>
+  <Hit_accession>ALG92545</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>6.55203e-57</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPL-GDDEAS--ATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>FITLSLLMAVFSITSVVLNATVIVVTLRHKQLRQPLNFALVNLAVADLGTTLTGSVPSVVTNAVGYYIMGRIGCVLEGFCVAFFGISALCTVALIAVERLFVVCRPLGSITFQCRHAAGGLLSCWLWSLIWNTPPLLGWGSYQLEGAGTSCGPHWQSR--ELRDVSYIICYFSVCFAVPFAIILVSYSWLLYTLRQVAKVGGGAAARAEARV--AWMVVMMVLAFLVSWLPYAALALTVVSKPEVQLAVLVKVLPIYMAKSSTVYNPLIYIYMNKQFQRYAIPFLMCGKDPWPSEDDVSEVQTVVSPLNNKISP</Hsp_hseq>
+      <Hsp_midline>F  L+  M +  +    +N   + VT++HK+LR PLN+ L+NLAVADL   L G   ++ T+  GY++ G  GC LEGF     G  AL ++ ++A+ER  VVC+P+ +  F   HA  G+   W+ +L    PPL GW  Y  EG   SCG  + +   E+ + S++I  F V F +P  II   Y  L++T+++ A     +A   +A      MV++MV+AFL+ W+PYA++A  + +        +   +P + AKS+ +YNP+IYI MNKQF+   +  + CGK+P   +D+ S   TV     ++++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|ALG92546.1|</Hit_id>
+  <Hit_def>parietopsin [Danio rerio]</Hit_def>
+  <Hit_accession>ALG92546</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.644</Hsp_bit-score>
+      <Hsp_score>457</Hsp_score>
+      <Hsp_evalue>2.83835e-53</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKE--AAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGK</Hsp_qseq>
+      <Hsp_hseq>YSILSYLMFINTTLSVFNNVLVIAVMVKNLHFLNAMTVIIFSLAVSDLLIATCGSAIVTVTNYEGSFFLGDAFCVFQGFAVNYFGLVSLCTLTLLAYERYNVVCKPMAGFKLNVGRSCQGLLLVWLYCLFWAVAPLLGWSSYGPEGVQTSCSLGWE--ERSWRNYSYLILYTLMCFILPTVIITYCYSNVLLTMRKINKSIECQGGKNCAEDNEHAVRMVLAMIIAFFICWLPYTAISVLVVVNPEISIPPLIATMPMYFAKTSPVYNPIIYFLTNKRFRESSLEVLSCGR</Hsp_hseq>
+      <Hsp_midline>+S+L+  MF+   L    N L + V V++      +  I+ +LAV+DL +   G      T+  G F  G   C  +GF     G ++L +L +LA ERY VVCKPM+ F+     +  G+   W+  L  A  PL GWS Y PEG+Q SC + +   +    N S++I   ++ F +P +II +CY  ++ T+++   + + Q      +  +   RMV+ M+IAF ICW+PY +++  +  +   +  P+  T+P +FAK++ +YNP+IY + NK+FR   L  + CG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>dbj|BAL63415.1|</Hit_id>
+  <Hit_def>parietopsin [Danio rerio]</Hit_def>
+  <Hit_accession>BAL63415</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>8.15067e-53</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>325</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKE--AAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGK</Hsp_qseq>
+      <Hsp_hseq>YSILSYLMFINTTLSVFNNVLVIAVMVKNLHFLNAMTVIIFSLAVSDLLIATCGSAIVTVTNYEGSFFLGDAFCVFQGFAVNYFGLVSLCTLTLLAYERYNVVCKPMAGFKLNVGRSCQGLLLVWLYCLFWAVAPLLGWSSYGPEGVQTSCSLGWE--ERSWRNYSYLILYTLMCFVLPTAIITYCYSNVLLTMRKINKSIECQGGKNCAEDNEHAVRMVLAMIIAFFICWLPYTAISVLVVVNPEISIPPLIATMPMYFAKTSPVYNPIIYFLTNKRFRESSLEVLSCGR</Hsp_hseq>
+      <Hsp_midline>+S+L+  MF+   L    N L + V V++      +  I+ +LAV+DL +   G      T+  G F  G   C  +GF     G ++L +L +LA ERY VVCKPM+ F+     +  G+   W+  L  A  PL GWS Y PEG+Q SC + +   +    N S++I   ++ F +P  II +CY  ++ T+++   + + Q      +  +   RMV+ M+IAF ICW+PY +++  +  +   +  P+  T+P +FAK++ +YNP+IY + NK+FR   L  + CG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|NP_001269302.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin 2b [Danio rerio] &gt;gb|AGK24998.1| teleost multiple tissue opsin 2b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001269302</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>4.42098e-52</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERY---VVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQV</Hsp_qseq>
+      <Hsp_hseq>FIALSVFLGFIMTFGFFNNLVVLVLFCKFKTLRTPVNMLLLNISISDMLVCMFGTTLSFASSVRGRWLLGRHGCMWYGFINSCFGIVSLISLVVLSYDRYSTLTVYHKRAPDYR----KPLLAVGGSWLYSLIWTVPPLLGWSSYGLEGAGTSCSVSWTQRTAE--SHAYIICLFVFCLGLPVLVMVYCYGRLLYAVKQVGKIRKTAA--RKREYHVLFMVITTVVCYLLCWMPYGVVAMMATFGRPGIISPVASVVPSLLAKSSTVINPLIYILMNKQFYRCFRILFCCQRSLLQNGHSSMP-SKTTVIQL</Hsp_hseq>
+      <Hsp_midline>F  L+ ++  ++  GF  N + L +  + K LRTP+N +LLN++++D+ + + G T +  +S+ G ++ G  GC   GF  +  G ++L SLVVL+ +RY    V  K   ++R      ++ V  +W+ +L    PPL GWS Y  EG   SC + +     E  + +++I +FV    +P++++ +CYG+L++ VK+    ++ +A  +K E  V  MVI  V+ +L+CW+PY  VA      +     P+   +P+  AKS+ + NP+IYI+MNKQF  C     CC ++ L +  +S   SKT   Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|ALG92548.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin-1b [Danio rerio]</Hit_def>
+  <Hit_accession>ALG92548</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>5.39147e-52</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERY---VVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQV</Hsp_qseq>
+      <Hsp_hseq>FIALSVFLGFIMTFGFFNNLVVLVLFCKFKTLRTPVNMLLLNISISDMLVCMFGTTLSFASSVRGRWLLGRHGCMWYGFINSCFGIVSLISLVVLSYDRYSTLTVYHKRAPDYR----KPLLAVGGSWLYSLIWTVPPLLGWSSYGLEGAGTSCSVSWTQRTAE--SHAYIICLFVFCLGLPVLVMVYCYGRLLYAVKQVGKIRKTAA--RKREYHVLFMVITTVVCYLLCWMPYGVVAMMATFGRPGIISPVASVVPSLLAKSSTVINPLIYILMNKQFYRCFRILFCCQRSLLQNGHSSMP-SKTTVIQL</Hsp_hseq>
+      <Hsp_midline>F  L+ ++  ++  GF  N + L +  + K LRTP+N +LLN++++D+ + + G T +  +S+ G ++ G  GC   GF  +  G ++L SLVVL+ +RY    V  K   ++R      ++ V  +W+ +L    PPL GWS Y  EG   SC + +     E  + +++I +FV    +P++++ +CYG+L++ VK+    ++ +A  +K E  V  MVI  V+ +L+CW+PY  VA      +     P+   +P+  AKS+ + NP+IYI+MNKQF  C     CC ++ L +  +S   SKT   Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|NP_001315086.2|</Hit_id>
+  <Hit_def>parietopsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001315086</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>1.62438e-50</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKE--AAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFR</Hsp_qseq>
+      <Hsp_hseq>YSILSYLMFINTTLSVFNNVLVIAVMVKNLHFLNAMTVIIFSLAVSDLLIATCGSAIVTVTNYEGSFFLGDAFCVFQGFAVNYFGLVSLCTLTLLAYERYNVVCKPMAGFKLNVGRSCQGLLLVWLYCLFWAVAPLLGWSSYGPEGVQTSCSLGWE--ERSWRNYSYLILYTLMCFILPTVIITYCYSNVLLTMRKINKSIECQGGKNCAEDNEHAVRMVLAMIIAFFVCWLPYTAISVLVVVNPEISIPPLIATMPMYFAKTSPVYNPIIYFLTNKRFR</Hsp_hseq>
+      <Hsp_midline>+S+L+  MF+   L    N L + V V++      +  I+ +LAV+DL +   G      T+  G F  G   C  +GF     G ++L +L +LA ERY VVCKPM+ F+     +  G+   W+  L  A  PL GWS Y PEG+Q SC + +   +    N S++I   ++ F +P +II +CY  ++ T+++   + + Q      +  +   RMV+ M+IAF +CW+PY +++  +  +   +  P+  T+P +FAK++ +YNP+IY + NK+FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|NP_001104634.1|</Hit_id>
+  <Hit_def>opsin-3 [Danio rerio] &gt;gb|ABM65699.1| encephalopsin [Danio rerio] &gt;gb|ALG92553.1| teleost encephalopsin/panopsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001104634</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>2.31964e-50</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYV-VVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQ----ESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTE</Hsp_qseq>
+      <Hsp_hseq>VLGFCNNIIVIILYSRYKRLRTPTNLLIVNISVSDLLVSLTGVNFTFVSCVKRRWVFNSATCVWDGFSNSLFGIVSIMTLSGLAYERYIRVVHAKVVDFPW----AWRAITHIWLYSLAWTGAPLLGWNRYTLEVHQLGCSLDWASKDP--NDASFILFFLLGCFFVPVGVMVYCYGNILYTVKMLRSIQDLQTVQTIKILRYEKKVAVMFLMMISCFLVCWTPYAVVSMLEAFGKKSVVSPTVAIIPSLFAKSSTAYNPVIYAFMSRKFRRCMLQMLCSRLTSLQHTIKDRPLSRIE</Hsp_hseq>
+      <Hsp_midline>VLGF  N + + +  ++K+LRTP N +++N++V+DL + L G   T  + +   +VF    C  +GF  +L G +++ +L  LA ERY+ VV   + +F +    A   +   W+ +LA    PL GW+RY  E  Q  C +D+ +  P  N+ SF+++  +  F +P+ ++ +CYG +++TVK   + Q     ++    + EK+V  M ++M+  FL+CW PYA V+      + S   P    IP+ FAKS+  YNPVIY  M+++FR CML  +C     L        +S+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|AAD20548.1|</Hit_id>
+  <Hit_def>blue cone opsin, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD20548</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>4.09399e-50</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>SRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVA</Hsp_qseq>
+      <Hsp_hseq>SRYIPEGLGTACGPDWYTKSEEYNSESYTYFLLVTCFMMPMTIIIFSYSQLLGALRAVAAQQAESESTQKAEREVSRMVVVMVGSFVLCYAPYAVTAMYFANSDEPNKDYRLVAIPAFFSKSSCVYNPVIYAFMNKQFNACIMETVFGKK----IDESSEVSSKTETSSVS</Hsp_hseq>
+      <Hsp_midline>SRYIPEGL  +CG D+YT   E N+ES+  ++ V  F +PM II F Y QL+  ++  AAQQ ES +TQKAE+EV+RMV++MV +F++C+ PYA  A Y       N     + IPAFF+KS+ +YNPVIY  MNKQF  C++ T+   K     DE+S   SKTETS V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|NP_001112371.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin a [Danio rerio] &gt;gb|AAI63681.1| Tmtops protein [Danio rerio] &gt;gb|ALG92551.1| teleost multiple tissue opsin-3a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001112371</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>4.10494e-50</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>QHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFG-PIFMT-----IPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLG</Hsp_qseq>
+      <Hsp_hseq>RYKVLRSPINFLLVNICLSDLLVCVLGTPFSFAASTQGRWLIGDTGCVWYGFANSLLGIVSLISLAVLSYERYCTMMGSTEADATNYKKVIGGVLMSWIYSLIWTLPPLFGWSRYGPEGPGTTCSVDWTT--KTANNISYIICLFIFCLIVPFLVIIFCYGKLLHAIKQVSSVN--TSVSRKREHRVLLMVITMVVFYLLCWLPYGIMALL------ATFGAPGLVTAEASIVPSILAKSSTVINPVIYIFMNKQFYRCFRALLNCDKPQRG</Hsp_hseq>
+      <Hsp_midline>++K LR+P+N++L+N+ ++DL + + G   +   S  G ++ G TGC   GF  +L G ++L SL VL+ ERY  +              I GV  +W+ +L    PPL GWSRY PEG   +C +D+ T     NN S++I +F+    +P ++I FCYG+L+  +K+ ++    ++ ++K E  V  MVI MV+ +L+CW+PY  +A        + FG P  +T     +P+  AKS+ + NPVIYI MNKQF  C    + C K   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|AGK24996.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin 1b [Danio rerio] &gt;gb|ALG92552.1| teleost multiple tissue opsin-3b [Danio rerio]</Hit_def>
+  <Hit_accession>AGK24996</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>6.77264e-49</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>GFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY-IFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDD-EASATVSKT</Hsp_qseq>
+      <Hsp_hseq>GFLNNTLVLVLFCRYKVLRSPMNCLLISISVSDLLVCVLGTPFSFAASTQGRWLIGRAGCVWYGFINSFLGVVSLISLAVLSYERYCTMMGSTQADSTNYRKVVIGIAFSWIYSMVWTLPPLFGWSCYGPEGPGTTCSVNWAARTP--NNVSYIVCLFVFCLILPFIVIVYSYGRLLQAITQVS--RINTVVSRKREQRVLFMVVTMVVCYLLCWLPYGIMALLATFGHPGL-VTPAASIVPSLLAKSSTVINPIIYIFMNKQFCRCFHALIMCTTPERGSSFKNSSKVTKT</Hsp_hseq>
+      <Hsp_midline>GF  N L L +  ++K LR+P+N +L++++V+DL + + G   +   S  G ++ G  GC   GF  +  G ++L SL VL+ ERY  +              ++G+AF+W+ ++    PPL GWS Y PEG   +C +++    P  NN S+++ +FV    +P I+I + YG+L+  + + +  +  +  ++K E+ V  MV+ MV+ +L+CW+PY  +A    F H G    P    +P+  AKS+ + NP+IYI MNKQF  C    I C     G   + S+ V+KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|AAL83431.1|</Hit_id>
+  <Hit_def>TMT opsin, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAL83431</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>1.83e-48</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>NFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFG-PIFMT-----IPAFFAKSAAIYNPVIYIMMNKQ</Hsp_qseq>
+      <Hsp_hseq>NLLVLVLFGRYKVLRSPINFLLVNICLSDLLVCVLGTPFSFAASTQGRWLIGDTGCVWYGFANSLLGIVSPISLAVLSYERYCTMMGSTEADATNYKKVIGGVLMSWIYSLIWTLPPLFGWSRYGPEGPGTTCSVDWTT--KTANNISYIICLFIFCLIVPFLVIIFCYGKLLHAIKQVSSVN--TSVSRKREHRVLLMVITMVVFYLLCWLPYGIMALL------ATFGAPGLVTAEASIVPSILAKSSTVINPVIYIFMNKQ</Hsp_hseq>
+      <Hsp_midline>N L L +  ++K LR+P+N++L+N+ ++DL + + G   +   S  G ++ G TGC   GF  +L G ++  SL VL+ ERY  +              I GV  +W+ +L    PPL GWSRY PEG   +C +D+ T     NN S++I +F+    +P ++I FCYG+L+  +K+ ++    ++ ++K E  V  MVI MV+ +L+CW+PY  +A        + FG P  +T     +P+  AKS+ + NPVIYI MNKQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|AAX73256.1|</Hit_id>
+  <Hit_def>mammalian-like melanopsin, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAX73256</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>1.97004e-48</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFR-FGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCY---GQLVFTVKEAAAQ-----QQESAT---TQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFR-------NCMLTTICCGKNPLGDDEAS--ATVSKTETSQ</Hsp_qseq>
+      <Hsp_hseq>ITGMLGNFLVIYAFSRSRTLRTPANLFIINLAITDFLMCATQAPIFFTTSMHKRWIFGEKGCELYAFCGALFGICSMITLMVIAVDRYFVITRPLASIGVLSQKRALLILLVAWVYSLGWSLPPFFGWSAYVPEGLLTSCTWDYMTFTPSVRAYTMLLFIFV--FFIPLIVIIYCYFFIFRSIRTTNEAVGKINGDNKRDSMKRFQRLKNEWKMAKIALIVILMYVISWSPYSTVALTAFAGYSDFLTPYMNSVPAVIAKASAIHNPIIYAITHPKYRLAIAKYIPCLRLLLCVPKRDLHSFHSSLMSTRRSTVTSQ</Hsp_hseq>
+      <Hsp_midline>+ G   NFL +Y   + + LRTP N  ++NLA+ D  M          TS+H  ++FG  GC L  F   L G  ++ +L+V+A++RY V+ +P+++     +  A++ +   WV +L  + PP  GWS Y+PEGL  SC  DY T  P V   + ++++FV  F IP+I+I +CY    + + T  EA  +     +++S       K E ++ ++ +I+++ ++I W PY++VA   F        P   ++PA  AK++AI+NP+IY + + ++R        C+   +C  K  L    +S  +T   T TSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|NP_001299608.2|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001299608</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.3381e-48</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>GFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY-IFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDD-EASATVSKT</Hsp_qseq>
+      <Hsp_hseq>GFLNNTLVLVLFCRYKVLRSPMNCLLISISVSDLLVCVLGTPFSFAASTQGRWLIGRAGCVWYGFINSFLGVVSLISLAVLSYERYCTMMGSTQADSTNYRKVVIGIAFSWIYSMVWTLPPLFGWSCYGPEGPGTTCSVNWAARTP--NNVSYIVCLFVFCLILPFIVIVYSYGRLLQAITQVS--RINTVVSRKREQRVLFMVVTMVVCYLLCWLPYGIMALLATFGHPGL-VTPAASIVPSLLAKSSTVINPIIYIFMNKQFCRCFHALIMCTTPERGSSFKNSSKVTKT</Hsp_hseq>
+      <Hsp_midline>GF  N L L +  ++K LR+P+N +L++++V+DL + + G   +   S  G ++ G  GC   GF  +  G ++L SL VL+ ERY  +              ++G+AF+W+ ++    PPL GWS Y PEG   +C +++    P  NN S+++ +FV    +P I+I + YG+L+  + + +  +  +  ++K E+ V  MV+ MV+ +L+CW+PY  +A    F H G    P    +P+  AKS+ + NP+IYI MNKQF  C    I C     G   + S+ V+KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|NP_001268434.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin 2a [Danio rerio] &gt;gb|AGK24997.1| teleost multiple tissue opsin 2a [Danio rerio] &gt;gb|ALG92547.1| teleost multiple tissue opsin-1a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001268434</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>2.36194e-48</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>SMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGE-NHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEAS</Hsp_qseq>
+      <Hsp_hseq>NVVAVILGSILIFGTLNNLVVLVLFCKFKTLRTPVNMLLLNISVSDMLVCLFGTTLSFAASIRGRWLVGRHGCMWYGFVNSCFGIVSLISLAILSYDRYSTL--TVYNKRAPDYSKPLLAVGGSWLYSLFWTVPPLLGWSSYGLEGAGTSCSVTWTANTPQ--SHSYIICLFIFCLGIPVLVMVYCYSRLICAVKQVGRIRKTAA--RRREYHILFMVITTVVCYLLCWMPYGVVAMMATFGRPGIISPIASVVPSLLAKSSTVINPLIYILMNKQFYRCFLILIHCKHSSLENGQSS</Hsp_hseq>
+      <Hsp_midline>+++A  +  +++ G   N + L +  + K LRTP+N +LLN++V+D+ + L G T +   S+ G ++ G  GC   GF  +  G ++L SL +L+ +RY  +   + N R  + +  ++ V  +W+ +L    PPL GWS Y  EG   SC + +    P+  + S++I +F+    IP++++ +CY +L+  VK+    ++ +A  ++ E  +  MVI  V+ +L+CW+PY  VA      +     PI   +P+  AKS+ + NP+IYI+MNKQF  C L  I C  + L + ++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_073798480.1|</Hit_id>
+  <Hit_def>parietopsin isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073798480</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>2.7276e-48</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKE--AAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQ</Hsp_qseq>
+      <Hsp_hseq>YSILSYLMFINTTLSVFNNVLVIAVMVKNLHFLNAMTVIIFSLAVSDLLIATCGSAIVTVTNYEGSFFLGDAFCVFQGFAVNYFGLVSLCTLTLLAYERYNVVCKPMAGFKLNVGRSCQGLLLVWLYCLFWAVAPLLGWSSYGPEGVQTSCSLGWE--ERSWRNYSYLILYTLMCFILPTVIITYCYSNVLLTMRKINKSIECQGGKNCAEDNEHAVRMVLAMIIAFFVCWLPYTAISVLVVVNPEISIPPLIATMPMYFAKTSPVYNPIIYFLTNKR</Hsp_hseq>
+      <Hsp_midline>+S+L+  MF+   L    N L + V V++      +  I+ +LAV+DL +   G      T+  G F  G   C  +GF     G ++L +L +LA ERY VVCKPM+ F+     +  G+   W+  L  A  PL GWS Y PEG+Q SC + +   +    N S++I   ++ F +P +II +CY  ++ T+++   + + Q      +  +   RMV+ M+IAF +CW+PY +++  +  +   +  P+  T+P +FAK++ +YNP+IY + NK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|NP_001269303.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin 3a [Danio rerio] &gt;gb|AGK24999.1| teleost multiple tissue opsin 3a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001269303</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>4.91273e-47</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCK----PMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>ILLLGCLNNLFVLLVFARFRSLWTPINLILLNISVSDILVCLFGTPFSFASSLYGKWLLGHHGCKWYGFANSLFGIVSLMSLSILSYERYAALLRATKADVSDFR----RAWLCVAGSWLYSLLWTLPPFLGWSNYGPEGPGTTCSVQWHL--RSTSSISYVMCLFIFCLLLPLVLMIFCYGKILLLIK--GVTKINLLTAQRRENHILLMVVTMVSCYLLCWMPYGVVALLATFGRTGLITPVTSIVPSVLAKSSTVVNPVIYVLFNNQFYRCFVAFLKCQGEPSVHGQNPQHSSKEDPHVFRP</Hsp_hseq>
+      <Hsp_midline>+++LG   N   L V  + + L TP+N ILLN++V+D+ + L G   +  +SL+G ++ G  GC   GF  +L G ++L SL +L+ ERY  + +     +S+FR     A + VA +W+ +L    PP  GWS Y PEG   +C + ++      ++ S+V+ +F+    +P++++ FCYG+++  +K     +    T Q+ E  +  MV+ MV  +L+CW+PY  VA      +     P+   +P+  AKS+ + NPVIY++ N QF  C +  + C   P    +     SK +     P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|ALG92550.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin-2b [Danio rerio]</Hit_def>
+  <Hit_accession>ALG92550</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>5.0705e-47</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCK----PMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>ILLLGCLNNLFVLLVFARFRTLWTPINLILLNISVSDILVCLFGTPFSFASSLYGKWLLGHHGCKWYGFANSLFGIVSLMSLSILSYERYAALLRATKADVSDFR----RAWLCVAGSWLYSLLWTLPPFLGWSNYGPEGPGTTCSVQWHL--RSTSSISYVMCLFIFCLLLPLVLMIFCYGKILLLIK--GVTKINLLTAQRRENHILLMVVTMVSCYLLCWMPYGVVALLATFGRTGLITPVTSIVPSVLAKSSTVVNPVIYVLFNNQFYRCFVAFLKCQGEPSVHGQNPQHSSKEDPHVFRP</Hsp_hseq>
+      <Hsp_midline>+++LG   N   L V  + + L TP+N ILLN++V+D+ + L G   +  +SL+G ++ G  GC   GF  +L G ++L SL +L+ ERY  + +     +S+FR     A + VA +W+ +L    PP  GWS Y PEG   +C + ++      ++ S+V+ +F+    +P++++ FCYG+++  +K     +    T Q+ E  +  MV+ MV  +L+CW+PY  VA      +     P+   +P+  AKS+ + NPVIY++ N QF  C +  + C   P    +     SK +     P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_073775997.1|</Hit_id>
+  <Hit_def>melanopsin-A isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073775997</Hit_accession>
+  <Hit_len>545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>1.64061e-46</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFR-FGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCY---GQLVFTVKEAAAQ-----QQESAT---TQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFR-------NCMLTTICCGKNPLGDDEAS--ATVSKTETSQ</Hsp_qseq>
+      <Hsp_hseq>IGAVILTVGITGMLGNFLVIYAFSRSRTLRTPANLFIINLAITDFLMCATQAPIFFTTSMHKRWIFGEKGCELYAFCGALFGICSMITLMVIAVDRYFVITRPLASIGVLSQKRALLILLVAWVYSLGWSLPPFFGWSAYVPEGLLTSCTWDYMTFTPSVRAYTMLLFIFV--FFIPLIVIIYCYFFIFRSIRTTNEAVGKINGDNKRDSMKRFQRLKNEWKMAKIALIVILMYVISWSPYSTVALTAFAGYSDFLTPYMNSVPAVIAKASAIHNPIIYAITHPKYRLAIAKYIPCLRLLLCVPKRDLHSFHSSLMSTRRSTVTSQ</Hsp_hseq>
+      <Hsp_midline>+ A +  + + G   NFL +Y   + + LRTP N  ++NLA+ D  M          TS+H  ++FG  GC L  F   L G  ++ +L+V+A++RY V+ +P+++     +  A++ +   WV +L  + PP  GWS Y+PEGL  SC  DY T  P V   + ++++FV  F IP+I+I +CY    + + T  EA  +     +++S       K E ++ ++ +I+++ ++I W PY++VA   F        P   ++PA  AK++AI+NP+IY + + ++R        C+   +C  K  L    +S  +T   T TSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_073769545.1|</Hit_id>
+  <Hit_def>opsin 4xa isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073769545</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>1.79094e-46</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>MLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGE-NHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQ--------------QQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETS</Hsp_qseq>
+      <Hsp_hseq>IVAFFVAVIGALGVIGNLLVMYAFFSNKKLRTPPNYFIMNLAVSDFLMAITQSPIFFINCMYKEWVFGEMGCKMYAFCGALFGITSMINLLAISIDRYIVITKPLQAIRWTSGRRTLIIILVVWIYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVTSTPA--NKSYTLMLCCFVFFIPLGIISYCYFFMFLAIRSASRDVEKLGSHVRKTTLIQQQSI---KTEWKLAKIAFVVIIVFVLSWSPYACVTLIAWAGYSHVLSPYSKAVPAVIAKASAIYNPFIYAIIRSKYRDTLAEKVPCLHFLAQSSRKDVSVSNSESS</Hsp_hseq>
+      <Hsp_midline>++A ++ ++  LG   N L +Y    +KKLRTP NY ++NLAV+D  M +          ++  +VFG  GC +  F   L G  ++ +L+ ++I+RY+V+ KP+   R+      ++ +   W+ +LA +  PL GWS YIPEGL  SC  DY T  P   N+S+ + +    F IP+ II +CY  +   ++ A+                QQ+S    K E ++ ++  +++I F++ W PYA V    +        P    +PA  AK++AIYNP IY ++  ++R+ +   + C            +VS +E+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|XP_073769546.1|</Hit_id>
+  <Hit_def>opsin 4xa isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073769546</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>1.85481e-46</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>MLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGE-NHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQ--------------QQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETS</Hsp_qseq>
+      <Hsp_hseq>IVAFFVAVIGALGVIGNLLVMYAFFSNKKLRTPPNYFIMNLAVSDFLMAITQSPIFFINCMYKEWVFGEMGCKMYAFCGALFGITSMINLLAISIDRYIVITKPLQAIRWTSGRRTLIIILVVWIYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVTSTPA--NKSYTLMLCCFVFFIPLGIISYCYFFMFLAIRSASRDVEKLGSHVRKTTLIQQQSI---KTEWKLAKIAFVVIIVFVLSWSPYACVTLIAWAGYSHVLSPYSKAVPAVIAKASAIYNPFIYAIIRSKYRDTLAEKVPCLHFLAQSSRKDVSVSNSESS</Hsp_hseq>
+      <Hsp_midline>++A ++ ++  LG   N L +Y    +KKLRTP NY ++NLAV+D  M +          ++  +VFG  GC +  F   L G  ++ +L+ ++I+RY+V+ KP+   R+      ++ +   W+ +LA +  PL GWS YIPEGL  SC  DY T  P   N+S+ + +    F IP+ II +CY  +   ++ A+                QQ+S    K E ++ ++  +++I F++ W PYA V    +        P    +PA  AK++AIYNP IY ++  ++R+ +   + C            +VS +E+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gb|ADN39430.1|</Hit_id>
+  <Hit_def>melanopsin opn4m1 [Danio rerio] &gt;gb|ALG92568.1| mammalian-like melanopsin-1 [Danio rerio]</Hit_def>
+  <Hit_accession>ADN39430</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>4.15802e-46</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFR-FGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCY---GQLVFTVKEAAAQ-----QQESAT---TQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFR-------NCMLTTICCGKNPLGDDEAS--ATVSKTETSQ</Hsp_qseq>
+      <Hsp_hseq>IGAVILTVGITGMLGNFLVIYAFSRSRTLRTPANLFIINLAITDFLMCATQAPIFFTTSMHKRWIFGEKGCELYAFCGALFGICSMITLMVIAVDRYFVITRPLASIGVLSQKRALLILLVAWVYSLGWSLPPFFGWSAYVPEGLLTSCTWDYMTFTPSVRAYTMLLFIFV--FFIPLIVIIYCYFFIFRSIRTTNEAVGKINGDNKRDSMKRFQRLKNEWKMAKIALIVILMYVISWSPYSTVALTAFAGYSDFLTPYMNSVPAVIAKASAIHNPIIYAITHPKYRLAIAKYIPCLRLLLCVPKRDLHSFHSSLMSTRRSTVTSQ</Hsp_hseq>
+      <Hsp_midline>+ A +  + + G   NFL +Y   + + LRTP N  ++NLA+ D  M          TS+H  ++FG  GC L  F   L G  ++ +L+V+A++RY V+ +P+++     +  A++ +   WV +L  + PP  GWS Y+PEGL  SC  DY T  P V   + ++++FV  F IP+I+I +CY    + + T  EA  +     +++S       K E ++ ++ +I+++ ++I W PY++VA   F        P   ++PA  AK++AI+NP+IY + + ++R        C+   +C  K  L    +S  +T   T TSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|NP_001122233.2|</Hit_id>
+  <Hit_def>melanopsin-A [Danio rerio] &gt;sp|Q2KNE5.3| RecName: Full=Melanopsin-A; AltName: Full=Mammalian-like melanopsin; AltName: Full=Melanopsin-M; AltName: Full=Opsin-4-A; AltName: Full=Opsin-4M [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001122233</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>4.29818e-46</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFR-FGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCY---GQLVFTVKEAAAQ-----QQESAT---TQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFR-------NCMLTTICCGKNPLGDDEAS--ATVSKTETSQ</Hsp_qseq>
+      <Hsp_hseq>IGAVILTVGITGMLGNFLVIYAFSRSRTLRTPANLFIINLAITDFLMCATQAPIFFTTSMHKRWIFGEKGCELYAFCGALFGICSMITLMVIAVDRYFVITRPLASIGVLSQKRALLILLVAWVYSLGWSLPPFFGWSAYVPEGLLTSCTWDYMTFTPSVRAYTMLLFIFV--FFIPLIVIIYCYFFIFRSIRTTNEAVGKINGDNKRDSMKRFQRLKNEWKMAKIALIVILMYVISWSPYSTVALTAFAGYSDFLTPYMNSVPAVIAKASAIHNPIIYAITHPKYRLAIAKYIPCLRLLLCVPKRDLHSFHSSLMSTRRSTVTSQ</Hsp_hseq>
+      <Hsp_midline>+ A +  + + G   NFL +Y   + + LRTP N  ++NLA+ D  M          TS+H  ++FG  GC L  F   L G  ++ +L+V+A++RY V+ +P+++     +  A++ +   WV +L  + PP  GWS Y+PEGL  SC  DY T  P V   + ++++FV  F IP+I+I +CY    + + T  EA  +     +++S       K E ++ ++ +I+++ ++I W PY++VA   F        P   ++PA  AK++AI+NP+IY + + ++R        C+   +C  K  L    +S  +T   T TSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gb|AAI62681.1|</Hit_id>
+  <Hit_def>Opsin 4a (melanopsin) [Danio rerio]</Hit_def>
+  <Hit_accession>AAI62681</Hit_accession>
+  <Hit_len>593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>4.43153e-46</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFR-FGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCY---GQLVFTVKEAAAQ-----QQESAT---TQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFR-------NCMLTTICCGKNPLGDDEAS--ATVSKTETSQ</Hsp_qseq>
+      <Hsp_hseq>IGAVILTVGITGMLGNFLVIYAFSRSRTLRTPANLFIINLAITDFLMCATQAPIFFTTSMHKRWIFGEKGCELYAFCGALFGICSMITLMVIAVDRYFVITRPLASIGVLSQKRALLILLVAWVYSLGWSLPPFFGWSAYVPEGLLTSCTWDYMTFTPSVRAYTMLLFIFV--FFIPLIVIIYCYFFIFRSIRTTNEAVGKINGDNKRDSMKRFQRLKNEWKMAKIALIVILMYVISWSPYSTVALTAFAGYSDFLTPYMNSVPAVIAKASAIHNPIIYAITHPKYRLAIAKYIPCLRLLLCIPKRDLHSFHSSLMSTRRSTVTSQ</Hsp_hseq>
+      <Hsp_midline>+ A +  + + G   NFL +Y   + + LRTP N  ++NLA+ D  M          TS+H  ++FG  GC L  F   L G  ++ +L+V+A++RY V+ +P+++     +  A++ +   WV +L  + PP  GWS Y+PEGL  SC  DY T  P V   + ++++FV  F IP+I+I +CY    + + T  EA  +     +++S       K E ++ ++ +I+++ ++I W PY++VA   F        P   ++PA  AK++AI+NP+IY + + ++R        C+   +C  K  L    +S  +T   T TSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|NP_001243006.1|</Hit_id>
+  <Hit_def>opsin 4xa [Danio rerio] &gt;ref|XP_021334773.1| opsin 4xa isoform X1 [Danio rerio] &gt;ref|XP_073769544.1| opsin 4xa isoform X1 [Danio rerio] &gt;gb|ADN39433.1| melanopsin opn4x1 [Danio rerio] &gt;gb|ALG92571.1| Xenopus-like melanopsin-1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001243006</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>2.69806e-45</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>MLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGE-NHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQ--------------QQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETS</Hsp_qseq>
+      <Hsp_hseq>IVAFFVAVIGALGVIGNLLVMYAFFSNKKLRTPPNYFIMNLAVSDFLMAITQSPIFFINCMYKEWVFGEMGCKMYAFCGALFGITSMINLLAISIDRYIVITKPLQAIRWTSGRRTLIIILVVWIYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVTSTPA--NKSYTLMLCCFVFFIPLGIISYCYFFMFLAIRSASRDVEKLGSHVRKTTLIQQQSI---KTEWKLAKIAFVVIIVFVLSWSPYACVTLIAWAGYSHVLSPYSKAVPAVIAKASAIYNPFIYAIIRSKYRDTLAEKVPCLHFLAQSSRKDVSVSNSESS</Hsp_hseq>
+      <Hsp_midline>++A ++ ++  LG   N L +Y    +KKLRTP NY ++NLAV+D  M +          ++  +VFG  GC +  F   L G  ++ +L+ ++I+RY+V+ KP+   R+      ++ +   W+ +LA +  PL GWS YIPEGL  SC  DY T  P   N+S+ + +    F IP+ II +CY  +   ++ A+                QQ+S    K E ++ ++  +++I F++ W PYA V    +        P    +PA  AK++AIYNP IY ++  ++R+ +   + C            +VS +E+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|XP_073773406.1|</Hit_id>
+  <Hit_def>opsin 4b isoform X3 [Danio rerio] &gt;ref|XP_073773407.1| opsin 4b isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073773406</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>7.02887e-45</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFR-FGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKE---AAAQQQESATTQKAEKEVTRM---------VIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICC</Hsp_qseq>
+      <Hsp_hseq>ITGMVGNLLVMYAFCKSRSLRTPANMFIINLAVTDFLMCVTQTPIFFTTSLHKRWIFGEKGCELYAFCGALFGICSMITLMIIAVDRYFVITRPLASIGVMSRKRALLILSAAWAYSMGWSLPPFFGWSAYVPEGLLTSCSWDYMTFSPSVRAYTMLLFTFV--FFIPLFVIIYCYFFIFKAIRETNRAVGKINGEGGPRDSIKKIHRMKNEWKMAKIALIVILLYVISWSPYSCVALTAFAGYADMLTPYMNSVPAVIAKASAIHNPIIYAITHPKYRSAIAKYIPC</Hsp_hseq>
+      <Hsp_midline>+ G   N L +Y   + + LRTP N  ++NLAV D  M +        TSLH  ++FG  GC L  F   L G  ++ +L+++A++RY V+ +P+++        A++ ++  W  ++  + PP  GWS Y+PEGL  SC  DY T  P V   + +++ FV  F IP+ +I +CY  +   ++E   A  +       + + K++ RM          +I+++ ++I W PY+ VA   F        P   ++PA  AK++AI+NP+IY + + ++R+ +   I C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>emb|CAD43423.1|</Hit_id>
+  <Hit_def>novel opsin [Danio rerio]</Hit_def>
+  <Hit_accession>CAD43423</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>1.19755e-44</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATT-----------------QKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQ</Hsp_qseq>
+      <Hsp_hseq>FITLSLLMAVFSITSVVLNATVIVVTLRHKQLRQPLNFALVNLAVADLGTTLTGSVPSVVTNAVGYYIMGRIGCVLEGFCVAFFGISALCTVALIAVERLFVVCRPLGSITFQCRHAAGGLLSCWLWSLIWNTPPLLGWGSYQLEGAGTSCGPHWQS--RELRDVSYIICYFSVCFAVPFAIILVSYSWLLYTLRQVLLEMVNNLGTFGMLFSAYYDLGHIFKHYKHCNAALTLVLFFVVEYH--WLPYAALALTVVSKPEVQLAVLVKVLPIYMAKSSTVYNPLIYIYMNKQ</Hsp_hseq>
+      <Hsp_midline>F  L+  M +  +    +N   + VT++HK+LR PLN+ L+NLAVADL   L G   ++ T+  GY++ G  GC LEGF     G  AL ++ ++A+ER  VVC+P+ +  F   HA  G+   W+ +L    PPL GW  Y  EG   SCG  + +   E+ + S++I  F V F +P  II   Y  L++T+++   +   +  T                  K       +V+  V+ +   W+PYA++A  + +        +   +P + AKS+ +YNP+IYI MNKQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|XP_009304843.1|</Hit_id>
+  <Hit_def>opsin 4b isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009304843</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>5.43584e-44</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>VRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFR-FGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKE---AAAQQQESATTQKAEKEVTRM---------VIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICC</Hsp_qseq>
+      <Hsp_hseq>VRHPF--PTVDVPDHAHYT-IGSVILAVGITGMVGNLLVMYAFCKSRSLRTPANMFIINLAVTDFLMCVTQTPIFFTTSLHKRWIFGEKGCELYAFCGALFGICSMITLMIIAVDRYFVITRPLASIGVMSRKRALLILSAAWAYSMGWSLPPFFGWSAYVPEGLLTSCSWDYMTFSPSVRAYTMLLFTFV--FFIPLFVIIYCYFFIFKAIRETNRAVGKINGEGGPRDSIKKIHRMKNEWKMAKIALIVILLYVISWSPYSCVALTAFAGYADMLTPYMNSVPAVIAKASAIHNPIIYAITHPKYRSAIAKYIPC</Hsp_hseq>
+      <Hsp_midline>VR PF  P   + +   ++ + + +  + + G   N L +Y   + + LRTP N  ++NLAV D  M +        TSLH  ++FG  GC L  F   L G  ++ +L+++A++RY V+ +P+++        A++ ++  W  ++  + PP  GWS Y+PEGL  SC  DY T  P V   + +++ FV  F IP+ +I +CY  +   ++E   A  +       + + K++ RM          +I+++ ++I W PY+ VA   F        P   ++PA  AK++AI+NP+IY + + ++R+ +   I C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|NP_001245153.1|</Hit_id>
+  <Hit_def>opsin 4b [Danio rerio] &gt;gb|ADN39432.1| melanopsin opn4m3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001245153</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>5.85433e-44</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>VRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFR-FGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKE---AAAQQQESATTQKAEKEVTRM---------VIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICC</Hsp_qseq>
+      <Hsp_hseq>VRHPF--PTVDVPDHAHYT-IGSVILAVGITGMVGNLLVMYAFCKSRSLRTPANMFIINLAVTDFLMCVTQTPIFFTTSLHKRWIFGEKGCELYAFCGALFGICSMITLMIIAVDRYFVITRPLASIGVMSRKRALLILSAAWAYSMGWSLPPFFGWSAYVPEGLLTSCSWDYMTFSPSVRAYTMLLFTFV--FFIPLFVIIYCYFFIFKAIRETNRAVGKINGEGGPRDSIKKIHRMKNEWKMAKIALIVILLYVISWSPYSCVALTAFAGYADMLTPYMNSVPAVIAKASAIHNPIIYAITHPKYRSAIAKYIPC</Hsp_hseq>
+      <Hsp_midline>VR PF  P   + +   ++ + + +  + + G   N L +Y   + + LRTP N  ++NLAV D  M +        TSLH  ++FG  GC L  F   L G  ++ +L+++A++RY V+ +P+++        A++ ++  W  ++  + PP  GWS Y+PEGL  SC  DY T  P V   + +++ FV  F IP+ +I +CY  +   ++E   A  +       + + K++ RM          +I+++ ++I W PY+ VA   F        P   ++PA  AK++AI+NP+IY + + ++R+ +   I C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|XP_073773405.1|</Hit_id>
+  <Hit_def>opsin 4b isoform X1 [Danio rerio] &gt;gb|ALG92570.1| mammalian-like melanopsin-3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073773405</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>6.28684e-44</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>VRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFR-FGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKE---AAAQQQESATTQKAEKEVTRM---------VIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICC</Hsp_qseq>
+      <Hsp_hseq>VRHPF--PTVDVPDHAHYT-IGSVILAVGITGMVGNLLVMYAFCKSRSLRTPANMFIINLAVTDFLMCVTQTPIFFTTSLHKRWIFGEKGCELYAFCGALFGICSMITLMIIAVDRYFVITRPLASIGVMSRKRALLILSAAWAYSMGWSLPPFFGWSAYVPEGLLTSCSWDYMTFSPSVRAYTMLLFTFV--FFIPLFVIIYCYFFIFKAIRETNRAVGKINGEGGPRDSIKKIHRMKNEWKMAKIALIVILLYVISWSPYSCVALTAFAGYADMLTPYMNSVPAVIAKASAIHNPIIYAITHPKYRSAIAKYIPC</Hsp_hseq>
+      <Hsp_midline>VR PF  P   + +   ++ + + +  + + G   N L +Y   + + LRTP N  ++NLAV D  M +        TSLH  ++FG  GC L  F   L G  ++ +L+++A++RY V+ +P+++        A++ ++  W  ++  + PP  GWS Y+PEGL  SC  DY T  P V   + +++ FV  F IP+ +I +CY  +   ++E   A  +       + + K++ RM          +I+++ ++I W PY+ VA   F        P   ++PA  AK++AI+NP+IY + + ++R+ +   I C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|XP_073769572.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin 3b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073769572</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>2.01241e-42</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERY-VVVCK---PMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNP</Hsp_qseq>
+      <Hsp_hseq>YTVVAVILGIIFVFGFLCNFIVLLVFARFHVLRTPINLILLNIIVSDMLVCLFGTPLSFAASVHGRWLTGVHGCRWYGFANALFGIVSLVSLAVLSYERYSTILCSSKADASDYR----KAWLFITGCWLYSLLWTVPPLLGWSSYGPEGPGTTCSVQWNKRSPE--TRSYVICLFVFCLLLPLLLMVYCYGKILIAIHGVAKINQTAA--QRRETHVLVMVVSMVSCYLLCWMPYGVMAL-LGTFSAGITSPTASVVSSLLAKSSTVLNPIIYVLFNNQFYRCFIALVRSGAEP</Hsp_hseq>
+      <Hsp_midline>++++A  + ++ V GF  NF+ L V  +   LRTP+N ILLN+ V+D+ + L G   +   S+HG ++ G  GC   GF   L G ++L SL VL+ ERY  ++C      S++R     A + +   W+ +L    PPL GWS Y PEG   +C + +    PE    S+VI +FV    +P++++ +CYG+++  +   A   Q +A  Q+ E  V  MV+ MV  +L+CW+PY  +A  + T       P    + +  AKS+ + NP+IY++ N QF  C +  +  G  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gb|ALG92549.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin-2a [Danio rerio]</Hit_def>
+  <Hit_accession>ALG92549</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>2.0569e-42</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERY-VVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNP</Hsp_qseq>
+      <Hsp_hseq>YTVVAVILGIIFVFGFLCNFVVLLVFARFHVLRTPINLILLNIIVSDMLVCLFGTPLSFAASVHGRWLTGVHGCRWYGFANALFGIVSLVSLAVLSYERYSTILCSSKADAS-DYRKAWLFITGCWLYSLLWTVPPLLGWSSYGPEGPGTTCSVQWNKRSPE--TRSYVICLFVFCLLLPLLLMVYCYGKILIAIHGVAKINQTAA--QRRETHVLVMVVSMVSCYLLCWMPYGVMAL-LGTFSAGITSPTASVVSSLLAKSSTVLNPIIYVLFNNQFYRCFIALVRSGAEP</Hsp_hseq>
+      <Hsp_midline>++++A  + ++ V GF  NF+ L V  +   LRTP+N ILLN+ V+D+ + L G   +   S+HG ++ G  GC   GF   L G ++L SL VL+ ERY  ++C   ++       A + +   W+ +L    PPL GWS Y PEG   +C + +    PE    S+VI +FV    +P++++ +CYG+++  +   A   Q +A  Q+ E  V  MV+ MV  +L+CW+PY  +A  + T       P    + +  AKS+ + NP+IY++ N QF  C +  +  G  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|NP_001269304.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin 3b [Danio rerio] &gt;gb|AGK25000.1| teleost multiple tissue opsin 3b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001269304</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>3.52259e-42</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>FSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERY-VVVCK---PMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNP</Hsp_qseq>
+      <Hsp_hseq>YTVVAVILGIIFVFGFLCNFVVLLVFARFHVLRTPINLILLNIIVSDMLVCLFGTPLSFAASVHGRWLTGVHGCRWYGFANALFGIVSLVSLAVLSYERYSTILCSSKADASDYR----KAWLFITGCWLYSLLWTVPPLLGWSSYGPEGPGTTCSVQWNKRSPE--TRSYVICLFVFCLLLPLLLMVYCYGKILIAIHGVAKINQTAA--QRRETHVLVMVVSMVSCYLLCWMPYGVMAL-LGTFSAGITSPTASVVSSLLAKSSTVLNPIIYVLFNNQFYRCFIALVRSGAEP</Hsp_hseq>
+      <Hsp_midline>++++A  + ++ V GF  NF+ L V  +   LRTP+N ILLN+ V+D+ + L G   +   S+HG ++ G  GC   GF   L G ++L SL VL+ ERY  ++C      S++R     A + +   W+ +L    PPL GWS Y PEG   +C + +    PE    S+VI +FV    +P++++ +CYG+++  +   A   Q +A  Q+ E  V  MV+ MV  +L+CW+PY  +A  + T       P    + +  AKS+ + NP+IY++ N QF  C +  +  G  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gb|ALG92572.1|</Hit_id>
+  <Hit_def>Xenopus-like melanopsin-2 [Danio rerio]</Hit_def>
+  <Hit_accession>ALG92572</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>7.57982e-41</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>AYMFLLI-VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAI-MGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAA------AQQQESATTQ---KAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTI---CCGKNPLGDDEASATVSK</Hsp_qseq>
+      <Hsp_hseq>AFLILIIGTLGVSGNALVMFAFYSNKKLRSLPNYFIMNLAVSDFLMAITQSPIFFINCLYKEWMFGELGCKIYAFCGALFGITSMINLLAISIDRYLVITKPLQTIQWNSKRRTGLAILCIWLYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVS--PSPANKSYTMMLCCFVFFIPLSIILYCYLFMFLSVRQASRDLEMLSSQKSSFVKQQSMRSEWKLAKIAAVVIVVYVLSWAPYACVTLVAWAGHQDVLTPYSKTLPAVLAKSSAIYNPFIYAIIHNKYRATLAEKVPGLSCLSRSQKDGLSSSTNSD</Hsp_hseq>
+      <Hsp_midline>A++ L+I  LG   N L ++    +KKLR+  NY ++NLAV+D  M +          L+  ++FG  GC +  F   L G  ++ +L+ ++I+RY+V+ KP+   ++       + +   W+ +LA +  PL GWS YIPEGL  SC  DY +  P   N+S+ + +    F IP+ II +CY  +  +V++A+      + Q+ S   Q   ++E ++ ++  ++++ +++ W PYA V    +        P   T+PA  AKS+AIYNP IY +++ ++R  +   +    C      D  +S+T S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|NP_001245152.1|</Hit_id>
+  <Hit_def>opsin 4xb [Danio rerio] &gt;gb|ADN39434.1| melanopsin opn4x2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001245152</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>8.14634e-41</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>AYMFLLI-VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAI-MGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAA------AQQQESATTQ---KAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTI---CCGKNPLGDDEASATVSK</Hsp_qseq>
+      <Hsp_hseq>AFLILIIGTLGVSGNALVMFAFYSNKKLRSLPNYFIMNLAVSDFLMAITQSPIFFINCLYKEWMFGELGCKIYAFCGALFGITSMINLLAISIDRYLVITKPLQTIQWNSKRRTGLAILCIWLYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVS--PSPANKSYTMMLCCFVFFIPLSIILYCYLFMFLSVRQASRDLEMLSSQKSSFVKQQSMRSEWKLAKIAAVVIVVYVLSWAPYACVTLVAWAGHQDVLTPYSKTLPAVLAKSSAIYNPFIYAIIHNKYRATLAERVPGLSCLSRSQKDGLSSSTNSD</Hsp_hseq>
+      <Hsp_midline>A++ L+I  LG   N L ++    +KKLR+  NY ++NLAV+D  M +          L+  ++FG  GC +  F   L G  ++ +L+ ++I+RY+V+ KP+   ++       + +   W+ +LA +  PL GWS YIPEGL  SC  DY +  P   N+S+ + +    F IP+ II +CY  +  +V++A+      + Q+ S   Q   ++E ++ ++  ++++ +++ W PYA V    +        P   T+PA  AKS+AIYNP IY +++ ++R  +   +    C      D  +S+T S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|XP_073806758.1|</Hit_id>
+  <Hit_def>opsin 4xb isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073806758</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.93922e-40</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>AYMFLLI-VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAI-MGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAA------AQQQESATTQ---KAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTI---CCGKNPLGDDEASATVSK</Hsp_qseq>
+      <Hsp_hseq>AFLILIIGTLGVSGNALVMFAFYSNKKLRSLPNYFIMNLAVSDFLMAITQSPIFFINCLYKEWMFGELGCKIYAFCGALFGITSMINLLAISIDRYLVITKPLQTIQWNSKRRTGLAILCIWLYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVS--PSPANKSYTMMLCCFVFFIPLSIILYCYLFMFLSVRQASRDLEMLSSQKSSFVKQQSMRSEWKLAKIAAVVIVVYVLSWAPYACVTLVAWAGHQDVLTPYSKTLPAVLAKSSAIYNPFIYAIIHNKYRATLAEKVPGLSCLSRSQKDGLSSSTNSD</Hsp_hseq>
+      <Hsp_midline>A++ L+I  LG   N L ++    +KKLR+  NY ++NLAV+D  M +          L+  ++FG  GC +  F   L G  ++ +L+ ++I+RY+V+ KP+   ++       + +   W+ +LA +  PL GWS YIPEGL  SC  DY +  P   N+S+ + +    F IP+ II +CY  +  +V++A+      + Q+ S   Q   ++E ++ ++  ++++ +++ W PYA V    +        P   T+PA  AKS+AIYNP IY +++ ++R  +   +    C      D  +S+T S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|NP_001004654.3|</Hit_id>
+  <Hit_def>visual pigment-like receptor peropsin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001004654</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>6.044e-40</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>QFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIY---MFVVHFTIPMIIIFFCYGQLVFTVKE-AAAQQQESATTQKAEK-EVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICC</Hsp_qseq>
+      <Hsp_hseq>EHNIVAAYLITAGVISLSSNIVVLLMFVKFRELRTATNAIIINLAFTDIGVAGIGYPMSAASDLHGSWKFGYMGCQIYAALNIFFGMASIGLLTVVAIDRYLTICRPDIGQKLTTRSYTLLIVAAWLNAVFWSSMPIVGWAGYAPDPTGATCTINWRN-----NDTSFVSYTMTVITVNFIIPLSVMFYCYYNVSATVKRFKASNCLDSINMDWSDQMDVTKMSVIMIVMFLAAWSPYSIVCLWASFGDPQKIPAPMAIIAPLFAKSSTFYNPCIYVIANKKFRRAIIGMIRC</Hsp_hseq>
+      <Hsp_midline>+ +++AAY+    V+    N + L + V+ ++LRT  N I++NLA  D+ +   G+  +  + LHG + FG  GC +        G  ++  L V+AI+RY+ +C+P    +       + +   W+ A+  ++ P+ GW+ Y P+    +C I++       N+ SFV Y   +  V+F IP+ ++F+CY  +  TVK   A+   +S     +++ +VT+M +IM++ FL  W PY+ V  +               I   FAKS+  YNP IY++ NK+FR  ++  I C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|AAH81524.1|</Hit_id>
+  <Hit_def>Retinal pigment epithelium-derived rhodopsin homolog [Danio rerio] &gt;gb|AAI64135.1| Rrh protein [Danio rerio] &gt;gb|ALG92565.1| retinal pigment epithelium rhodopsin homolog/peropsin [Danio rerio]</Hit_def>
+  <Hit_accession>AAH81524</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>2.67771e-39</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>QFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIY---MFVVHFTIPMIIIFFCYGQLVFTVKE-AAAQQQESATTQKAEK-EVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICC</Hsp_qseq>
+      <Hsp_hseq>EHNIVAAYLITAGVISLSSNIVVLLMFVKFRELRTATNAIIINLAFTDIGVAGIGYPMSAASDLHGSWKFGYMGCQIYAALNIFFGMASIGLLTVVAIDRYLTICRPDIGQKLTTRSYTLLIVAAWLNAVFWSSMPIVGWAGYAPDPTGATCTINWRN-----NDTSFVSYTMTVITVNFIIPLSVMFYCYYNVSATVKRFKASNCLDSINMDWSDQMDVTKMSVIMIVMFLAAWSPYSIVCLWASFGDPQKIPAPMAIIAPLLAKSSTFYNPCIYVIANKKFRRAIIGMIRC</Hsp_hseq>
+      <Hsp_midline>+ +++AAY+    V+    N + L + V+ ++LRT  N I++NLA  D+ +   G+  +  + LHG + FG  GC +        G  ++  L V+AI+RY+ +C+P    +       + +   W+ A+  ++ P+ GW+ Y P+    +C I++       N+ SFV Y   +  V+F IP+ ++F+CY  +  TVK   A+   +S     +++ +VT+M +IM++ FL  W PY+ V  +               I    AKS+  YNP IY++ NK+FR  ++  I C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|NP_840074.2|</Hit_id>
+  <Hit_def>melanopsin-like [Danio rerio] &gt;sp|Q1JPS6.1| RecName: Full=Melanopsin-like; AltName: Full=Melanopsin; AltName: Full=Opsin-4-like [Danio rerio] &gt;gb|AAI16615.1| Opsin 4, like [Danio rerio] &gt;gb|ADN39431.1| melanopsin opn4m2 [Danio rerio] &gt;gb|ALG92569.1| mammalian-like melanopsin-2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_840074</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>1.34149e-38</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNF-RFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQE--SATTQKA------EKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFR</Hsp_qseq>
+      <Hsp_hseq>IIGSVILIVGITGVIGNALVVYVFCRSRTLRTAGNMFIVNLAVADFLMSVTQSPVFFAASLHRRWVFGERPCELYAFCGALFGICSMMTLTAIAADRCLAITQPLALVSRVSRRKAGAVLVVVWLYSLGWSLPPFFGWSAYVPEGLQTSCSWDYMTFTPSV--RAYTILLFVFVFFIPLGIIGSCYFAIFQTIRAAGKEIRELDCGETHKVYERMQNEWKMAKVALVVIVLFIISWSPYSVVALTATAGYSHFLTPYMNSVPAVIAKASAIHNPIIYAITHPKYR</Hsp_hseq>
+      <Hsp_midline>++ + + ++ + G   N L +YV  + + LRT  N  ++NLAVAD  M +         SLH  +VFG   C L  F   L G  ++ +L  +A +R + + +P++   R     A   +   W+ +L  + PP  GWS Y+PEGLQ SC  DY T  P V   ++ I +FV  F IP+ II  CY  +  T++ A  + +E     T K       E ++ ++ +++++ F+I W PY+ VA            P   ++PA  AK++AI+NP+IY + + ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gb|AAL82577.1|</Hit_id>
+  <Hit_def>melanopsin [Danio rerio]</Hit_def>
+  <Hit_accession>AAL82577</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>5.46403e-38</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNF-RFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQE--SATTQKA------EKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFR</Hsp_qseq>
+      <Hsp_hseq>IIGSVILIVGITGVIGNALVVYVFCRSRTLRTAGNMFIVNLAVADFLMSVTQSPVFFAASLHRRWVFGERPCELYAFCGALFGICSMMTLTAIAADRCLAITQPLALVSRVSRRKAGAVFVVVWLYSLGWSLPPFFGWSAYVPEGLQTSCSWDYMTFTPSV--RAYTILLFVFVFFIPLGIIGSCYFAIFQTIRAAGKEIRELDCGETHKVYERMQNEWKMAKVALVVILLFIISWSPYSVVALTATAGYSHFLTPYMNSVPAVIAKASAIHNPIIYAITHPKYR</Hsp_hseq>
+      <Hsp_midline>++ + + ++ + G   N L +YV  + + LRT  N  ++NLAVAD  M +         SLH  +VFG   C L  F   L G  ++ +L  +A +R + + +P++   R     A       W+ +L  + PP  GWS Y+PEGLQ SC  DY T  P V   ++ I +FV  F IP+ II  CY  +  T++ A  + +E     T K       E ++ ++ +++++ F+I W PY+ VA            P   ++PA  AK++AI+NP+IY + + ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|NP_001303877.1|</Hit_id>
+  <Hit_def>opsin 7, group member a [Danio rerio] &gt;ref|XP_073789209.1| opsin 7, group member a isoform X1 [Danio rerio] &gt;gb|ALG92557.1| novopsin-3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001303877</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>2.56467e-37</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>NFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEA--AAQQQESATTQKAEKE--VTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRN</Hsp_qseq>
+      <Hsp_hseq>NSMLLYVSYKKKHLLKPAEFFIVNLAISDLGMTLSLYPLAVTSSIAHRWLYGRTVCVIYAFCGVLFGICSLTTLTILSTVCCLKVCYPLHGNRFSYEHGRMLIVCAWAYSLVFACSPLAHWGQYGPEPYGTACCIDWAWSNQNSVARSYTTVLFIACYLVPCVIIIISYTRILITVRESRRAVEQHVSAQTRMGNIQTIIVKLSVAVCIGFFTAWSPYALVSMWAAFGHFDDIPPMAFAVPAMFAKSSTLYNPLIYLLLKPNFRH</Hsp_hseq>
+      <Hsp_midline>N + LYV+ + K L  P  + ++NLA++DL M L  +   + +S+   +++G T C +  F   L G  +L +L +L+    + VC P+   RF   H  M +   W  +L  A  PLA W +Y PE    +C ID+          S+   +F+  + +P +II   Y +++ TV+E+  A +Q  SA T+    +  + ++ + + I F   W PYA V+ +       +  P+   +PA FAKS+ +YNP+IY+++   FR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|NP_001073125.2|</Hit_id>
+  <Hit_def>opsin 6, group member a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001073125</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>4.85398e-36</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>SMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLH-----GYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQE---SATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY-IFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>TIIGVYLLILGWLSWFGNSIVIFVLFRQRSTLQPTDYLTLNLAVSDASISVFGYSRGILEIFNIFKDSGYIISSVWTCQVDGFFTLVFGLSSINTLTVISITRFIKGCHPHKAHCITNSTVAVCVVFIWIGAFFWSAAPVLGWGSYTDRGYG-TCEIDWVKANYSTIHKSYIISIFIFCFLVPVLLMLFCYISIINTVKRGNAMNADGDLSDRQRKIERDVTIVSIVICTAFILAWSPYAVVSMWSAWGFHVPNLTSIFTRL---FAKSASFYNPLIYFGLSSKFRKDVSVLLPCGRE--GRDPVRLKRFKRLRGRAEP</Hsp_hseq>
+      <Hsp_midline>+++  Y+ +L  L +  N + ++V  + +    P +Y+ LNLAV+D  + + G++  +    +     GY +     C ++GFF  + G  ++ +L V++I R++  C P        +   + V F W+ A   +A P+ GW  Y   G   +C ID+        ++S++I +F+  F +P++++ FCY  ++ TVK   A   +   S   +K E++VT + I++  AF++ W PYA V+ +  +     N   IF  +   FAKSA+ YNP+IY  ++ +FR  +   + CG+   G D       K    +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gb|AAI27587.1|</Hit_id>
+  <Hit_def>Zgc:158340 [Danio rerio] &gt;gb|ALG92555.1| novopsin-1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAI27587</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>5.37784e-36</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>SMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLH-----GYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQE---SATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY-IFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>TIIGVYLLILGWLSWFGNSIVIFVLFRQRSTLQPTDYLTLNLAVSDASISVFGYSRGILEIFNIFKDSGYIISSVWTCQVDGFFTLVFGLSSINTLTVISITRFIKGCHPHKAHCITNSTVAVCVVFIWIGAFFWSAAPVLGWGSYTDRGYG-TCEIDWVKANYSTIHKSYIISIFIFCFLVPVLLMLFCYISIINTVKRGNAMNADGDLSDRQRKIERDVTIVSIVICTAFILAWSPYAVVSMWSAWGFHVPNLTSIFTRL---FAKSASFYNPLIYFGLSSKFRKDVSVLLPCGRE--GRDPVRLKRFKRLRGRAEP</Hsp_hseq>
+      <Hsp_midline>+++  Y+ +L  L +  N + ++V  + +    P +Y+ LNLAV+D  + + G++  +    +     GY +     C ++GFF  + G  ++ +L V++I R++  C P        +   + V F W+ A   +A P+ GW  Y   G   +C ID+        ++S++I +F+  F +P++++ FCY  ++ TVK   A   +   S   +K E++VT + I++  AF++ W PYA V+ +  +     N   IF  +   FAKSA+ YNP+IY  ++ +FR  +   + CG+   G D       K    +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|XP_073767624.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin 2b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073767624</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>4.30669e-35</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>IALWSLVVLAIERY---VVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQV</Hsp_qseq>
+      <Hsp_hseq>VSLISLVVLSYDRYSTLTVYHKRAPDYR----KPLLAVGGSWLYSLIWTVPPLLGWSSYGLEGAGTSCSVSWTQRTAE--SHAYIICLFVFCLGLPVLVMVYCYGRLLYAVKQVGKIRKTAA--RKREYHVLFMVITTVVCYLLCWMPYGVVAMMATFGRPGIISPVASVVPSLLAKSSTVINPLIYILMNKQFYRCFRILFCCQRSLLQNGHSSMP-SKTTVIQL</Hsp_hseq>
+      <Hsp_midline>++L SLVVL+ +RY    V  K   ++R      ++ V  +W+ +L    PPL GWS Y  EG   SC + +     E  + +++I +FV    +P++++ +CYG+L++ VK+    ++ +A  +K E  V  MVI  V+ +L+CW+PY  VA      +     P+   +P+  AKS+ + NP+IYI+MNKQF  C     CC ++ L +  +S   SKT   Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|NP_001186975.1|</Hit_id>
+  <Hit_def>opsin-5 [Danio rerio] &gt;gb|AAS75321.1| opsin 5 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001186975</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.67567e-34</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>SMLAAYMFLLI-VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKA----EKEVTRMVIIMVIAFLICWVPYASVA-FYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMN</Hsp_qseq>
+      <Hsp_hseq>DIVAAFYILVIGILSATGNGYVMYMTFKRKTKLKPPEIMTLNLAIFDFGISVSGKPFFIVSSFSHRWLFGWQGCRYYGWAGFFFGCGSLITMTVVSFDRYLKICHLRYGTWLKRHHAFLSVVFIWAYAAFWATMPVVGWGNYAPEPFGTSCTLDWWLTQASVSGQSFVMCMLFFCLIFPTVIIVFSYVMIIFKVKSSAKEVSHFDTRNKNNHSLEMKLTKVAMLICAGFLIAWIPYAVVSVMSAFGEPDSVPIPV-SVVPTLLAKSSAMYNPIIYQVID</Hsp_hseq>
+      <Hsp_midline> ++AA+  L+I +L    N   +Y+T + K    P   + LNLA+ D  + + G    + +S    ++FG  GC   G+     G  +L ++ V++ +RY+ +C          +HA + V F W  A   A  P+ GW  Y PE    SC +D++  +  V+ +SFV+ M       P +II F Y  ++F VK +A +     T  K     E ++T++ +++   FLI W+PYA V+    F    S   P+   +P   AKS+A+YNP+IY +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|ALG92554.1|</Hit_id>
+  <Hit_def>teleost neuropsin [Danio rerio]</Hit_def>
+  <Hit_accession>ALG92554</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.77318e-34</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>SMLAAYMFLLI-VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKA----EKEVTRMVIIMVIAFLICWVPYASVA-FYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMN</Hsp_qseq>
+      <Hsp_hseq>DIVAAFYILVIGILSATGNGYVMYMTFKRKTKLKPPEIMTLNLAIFDFGISVSGKPFFIVSSFSHRWLFGWQGCRYYGWAGFFFGCGSLITMTVVSFDRYLKICHLRYGTWLKRHHAFLSVVFIWAYAAFWATMPVVGWGNYAPEPFGTSCTLDWWLTQASVSGQSFVMCMLFFCLIFPTVIIVFSYVMIIFKVKSSAKEVSHFDTRNKNNHSLEMKLTKVAMLICAGFLIAWIPYAVVSVMSAFGEPDSVPIPV-SVVPTLLAKSSAMYNPIIYQVID</Hsp_hseq>
+      <Hsp_midline> ++AA+  L+I +L    N   +Y+T + K    P   + LNLA+ D  + + G    + +S    ++FG  GC   G+     G  +L ++ V++ +RY+ +C          +HA + V F W  A   A  P+ GW  Y PE    SC +D++  +  V+ +SFV+ M       P +II F Y  ++F VK +A +     T  K     E ++T++ +++   FLI W+PYA V+    F    S   P+   +P   AKS+A+YNP+IY +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|XP_009293041.2|</Hit_id>
+  <Hit_def>opsin-5 isoform X1 [Danio rerio] &gt;ref|XP_073788977.1| opsin-5 isoform X1 [Danio rerio] &gt;ref|XP_073788978.1| opsin-5 isoform X1 [Danio rerio] &gt;ref|XP_073788979.1| opsin-5 isoform X1 [Danio rerio] &gt;ref|XP_073788980.1| opsin-5 isoform X1 [Danio rerio] &gt;ref|XP_073788981.1| opsin-5 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009293041</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>6.92011e-34</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>SMLAAYMFLLI-VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKA----EKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMN</Hsp_qseq>
+      <Hsp_hseq>DIVAAFYILVIGILSATGNGYVMYMTFKRKTKLKPPEIMTLNLAIFDFGISVSGKPFFIVSSFSHRWLFGWQGCRYYGWAGFFFGCGSLITMTIVSFDRYLKICHLRYGTWLKRHHAFLSVVFIWAYAAFWATMPVVGWGNYAPEPFGTSCTLDWWLTQASVSGQSFVMCMLFFCLIFPTVIIVFSYVMIIFKVKSSAKEVSHFDTRNKNNHSLEMKLTKVAMLICAGFLIAWIPYAVVSVVSAFGEPDSVPIPVSVVPTLLAKSSAMYNPIIYQVID</Hsp_hseq>
+      <Hsp_midline> ++AA+  L+I +L    N   +Y+T + K    P   + LNLA+ D  + + G    + +S    ++FG  GC   G+     G  +L ++ +++ +RY+ +C          +HA + V F W  A   A  P+ GW  Y PE    SC +D++  +  V+ +SFV+ M       P +II F Y  ++F VK +A +     T  K     E ++T++ +++   FLI W+PYA V+      +  +       +P   AKS+A+YNP+IY +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|XP_073806759.1|</Hit_id>
+  <Hit_def>opsin 4xb isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073806759</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.56677e-32</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>LAEPWQFSMLAAYMFLLI-VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAI-MGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTI---CCGKNPLGDDEASATVSK</Hsp_qseq>
+      <Hsp_hseq>LDVPDHVHYIIAFLILIIGTLGVSGNALVMFAFYSNKKLRSLPNYFIMNLAVSDFLMAITQSPIFFINCLYKEWMFGELGCKIYAFCGALFGITSMINLLAISIDRYLVITKPLQTIQWNSKRRTGLAILCIWLYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVS--PSPANKSYTMMLCCFVFFIPLSIILYCYLFMFLSVRQASRHQD-------------------------VLTPYSK------------------TLPAVLAKSSAIYNPFIYAIIHNKYRATLAEKVPGLSCLSRSQKDGLSSSTNSD</Hsp_hseq>
+      <Hsp_midline>L  P     + A++ L+I  LG   N L ++    +KKLR+  NY ++NLAV+D  M +          L+  ++FG  GC +  F   L G  ++ +L+ ++I+RY+V+ KP+   ++       + +   W+ +LA +  PL GWS YIPEGL  SC  DY +  P   N+S+ + +    F IP+ II +CY  +  +V++A+  Q                             PY+                   T+PA  AKS+AIYNP IY +++ ++R  +   +    C      D  +S+T S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|XP_073777232.1|</Hit_id>
+  <Hit_def>teleost multiple tissue opsin 3a isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777232</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>5.32416e-32</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>GGEIALWSLVVLAIERYVVVCK----PMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>AGIVSLMSLSILSYERYAALLRATKADVSDFR----RAWLCVAGSWLYSLLWTLPPFLGWSNYGPEGPGTTCSVQWHLR--STSSISYVMCLFIFCLLLPLVLMIFCYGKILLLIK--GVTKINLLTAQRRENHILLMVVTMVSCYLLCWMPYGVVALLATFGRTGLITPVTSIVPSVLAKSSTVVNPVIYVLFNNQFYRCFVAFLKCQGEPSVHGQNPQHSSKEDPHVFRP</Hsp_hseq>
+      <Hsp_midline> G ++L SL +L+ ERY  + +     +S+FR     A + VA +W+ +L    PP  GWS Y PEG   +C + ++      ++ S+V+ +F+    +P++++ FCYG+++  +K     +    T Q+ E  +  MV+ MV  +L+CW+PY  VA      +     P+   +P+  AKS+ + NPVIY++ N QF  C +  + C   P    +     SK +     P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|NP_001303874.1|</Hit_id>
+  <Hit_def>opsin 8, group member b [Danio rerio] &gt;gb|ALG92562.1| novopsin-8 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001303874</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.14321e-29</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>NFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMS-NFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMV---IAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRN--------CMLTTIC------------------CGKNPLGDDEASATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>NLMVLVMAYKRSNHMKPPELLSVNLAVTDLGAAVTMYPLAVASAWNHHWIGGDVSCVYYGLMGFLFGAASMMTLTIMAIVRFIVSLTLQSPKEKISKRNAKILVATTWLYALLWAIFPLIGWGKYGPEPFGLSCTLDWRDMKE--HSQSFVITIFLMNLILPAIIIVSCYCGIALRLYVTYKSMDDSNHVPNMIKMQRRLMVIAVLISIGFVGCWAPYGIVSLWSIYRPGDSIPAEVSMLPCLFAKTSTVYNPFIYYIFSKTFKREVNQLSRFCGRSNICRPTDAKNRPENTIYLVCDVNKSKPGVEDLSLARSKENETQMLP</Hsp_hseq>
+      <Hsp_midline>N + L +  +      P   + +NLAV DL   +  +   + ++ + +++ G   C   G    L G  ++ +L ++AI R++V     S   +  + +A + VA TW+ AL  A  PL GW +Y PE    SC +D+  +K   +++SFVI +F+++  +P III  CY  +   +        +S       K   R+++I V   I F+ CW PY  V+ +     G +       +P  FAK++ +YNP IY + +K F+         C  + IC                    K+  G ++ S   SK   +Q+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|NP_001303879.1|</Hit_id>
+  <Hit_def>opsin 6, group member b [Danio rerio] &gt;gb|ALG92556.1| novopsin-2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001303879</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>2.02634e-29</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>SMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSL-----HGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQE---SATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICC</Hsp_qseq>
+      <Hsp_hseq>TAIGVYLVILGWLSWIGNGTVILLLTKQRKALEPQDFLTLNLAISDASISIFGYSRGILEVFDVFRDEGYLIKTFWTCKVDGFLILLFGLISINTLTAISVIRYIKGCHPHHAHHINKRNICLVITAVWLFCLFWAGAPLLGWGSYRARGYG-TCEIDWTRALYSIPFKLYVIGIFFFNFFVPLFIIVFAYVSIIRTVNSSHKSSQGGDVSERQKKIERSITRVSLILCAAFLLAWSPYAVISMW--SALGYQIPTLNGILASLFAKSASFYNPFIYIGMSSKFRKDLQALFYC</Hsp_hseq>
+      <Hsp_midline>+ +  Y+ +L  L +  N   + +  + +K   P +++ LNLA++D  + + G++  +          GY +     C ++GF   L G I++ +L  +++ RY+  C P       + +  + +   W+  L  A  PL GW  Y   G   +C ID+      +  + +VI +F  +F +P+ II F Y  ++ TV  +    Q    S   +K E+ +TR+ +I+  AFL+ W PYA ++ +  +  G     +   + + FAKSA+ YNP IYI M+ +FR  +     C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|NP_001038457.1|</Hit_id>
+  <Hit_def>opsin 7, group member c [Danio rerio] &gt;gb|ALG92559.1| novopsin-5 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001038457</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>3.00873e-29</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>FLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVK--EAAAQQQESATTQ--KAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCM</Hsp_qseq>
+      <Hsp_hseq>FVLSLLG---NGMLLFVAYRKRSSLKPAEFFVVNLSVSDLGMTLSLFPLAIPSALAHRWLFGEITCLCYAVCGVLFGLCSLTNLTALSSVCCLKVCFPNYGNKFSSSHACVMVIGVWCYASVFAVGPLVHWGSFGPEPYGTACCINWYTPSHDALAMSYIISLFIFCYVVPCTIIILSYTFILVTVRGSQQAVQQHVSPQTKVTNAHALIVKLSVAVCIGFLTAWSPYAIVAMWAAFSANEQVPPTAFALAAIMAKSSTIYNPMVYLLFKPNFRKSL</Hsp_hseq>
+      <Hsp_midline>F+L +LG   N + L+V  + +    P  + ++NL+V+DL M L  F   + ++L   ++FG   C        L G  +L +L  L+    + VC P    +F  +HA + V   W  A   A  PL  W  + PE    +C I++YT   +    S++I +F+  + +P  II   Y  ++ TV+  + A QQ  S  T+   A   + ++ + + I FL  W PYA VA +          P    + A  AKS+ IYNP++Y++    FR  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|NP_001303876.1|</Hit_id>
+  <Hit_def>opsin 8, group member a [Danio rerio] &gt;ref|XP_068071459.1| opsin 8, group member a isoform X1 [Danio rerio] &gt;gb|ALG92561.1| novopsin-7 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001303876</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.48692e-28</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>QHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKP-MSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESA---TTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY-IFTHQGSN-FGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCM-LTTICC</Hsp_qseq>
+      <Hsp_hseq>RHSVLKAP-ELLTVNLAVTDIGMALSMYPLSIASAFNHAWIGGDPSCLYYGLMGMIFSVASIMTLAVMGLVRYLVTGNPPKSGSKFRRKTISILIGVIWMYSLLWAVFPILGWGGYGPEPFGLACSVDWMGYQHSLNRSSFIMALAILCTLMPCVVILFSYSGIAWKLHKAYQSIQSNDNLPNSGAVERKVTLMGILISTGFIVSWAPYVFVSLWTMFRSEGEDSVVPIVSLLPCLFAKCSTVYNPLVYYVFRKSFRREIHQIRICC</Hsp_hseq>
+      <Hsp_midline>+H  L+ P   + +NLAV D+ M L  +  ++ ++ +  ++ G   C   G    +    ++ +L V+ + RY+V   P  S  +F      + +   W+ +L  A  P+ GW  Y PE    +C +D+   +  +N  SF++ + ++   +P ++I F Y  + + + +A    Q +     +   E++VT M I++   F++ W PY  V+ + +F  +G +   PI   +P  FAK + +YNP++Y +  K FR  +    ICC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|NP_001303878.1|</Hit_id>
+  <Hit_def>opsin 7, group member b [Danio rerio] &gt;gb|ALG92558.1| novopsin-4 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001303878</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.00969e-26</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIA----FLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRN--CMLTTIC</Hsp_qseq>
+      <Hsp_hseq>VLSLMGNSTLLFVAYRKKSSLKPAELFIINLSISDLGMTVFLFPFAIPSAFAHKWLFTEVMCMCYAFCGVLFGLCSLSNLTVLSCVCWLKVCCPNYGNKFSSCHARLLVVGVWCYAAVFAVGPLSGWGQYGSEPYGTACCIDWHAPSSSTPAMIYIVCLFFFCYIVPCCVIILSYSLILVTVRGAQHAVQQHVSPQNKISNVQTLLVKLSVAVCFGFLMAWSPYAVVSMWAAFTEPDLVPPIAFALAAMFAKSSTLYNPMVYLVFKPSFRKSLCRDATKC</Hsp_hseq>
+      <Hsp_midline>VL    N   L+V  + K    P    ++NL+++DL M +  F   + ++    ++F    C    F   L G  +L +L VL+   ++ VC P    +F   HA + V   W  A   A  PL+GW +Y  E    +C ID++          +++ +F   + +P  +I   Y  ++ TV+ A    Q+  + Q     V  +++ + +A    FL+ W PYA V+ +    +     PI   + A FAKS+ +YNP++Y++    FR   C   T C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|XP_021325391.2|</Hit_id>
+  <Hit_def>opsin 7, group member b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021325391</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.09129e-26</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIA----FLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRN--CMLTTIC</Hsp_qseq>
+      <Hsp_hseq>VLSLMGNSTLLFVAYRKKSSLKPAELFIINLSISDLGMTVFLFPFAIPSAFAHKWLFTEVMCMCYAFCGVLFGLCSLSNLTVLSCVCWLKVCCPNYGNKFSSCHARLLVVGVWCYAAVFAVGPLSGWGQYGSEPYGTACCIDWHAPSSSTPAMIYIVCLFFFCYIVPCCVIILSYSLILVTVRGAQHAVQQHVSPQNKISNVQTLLVKLSVAVCFGFLMAWSPYAVVSMWAAFTEPDLVPPIAFALAAMFAKSSTLYNPMVYLVFKPSFRKSLCRDATKC</Hsp_hseq>
+      <Hsp_midline>VL    N   L+V  + K    P    ++NL+++DL M +  F   + ++    ++F    C    F   L G  +L +L VL+   ++ VC P    +F   HA + V   W  A   A  PL+GW +Y  E    +C ID++          +++ +F   + +P  +I   Y  ++ TV+ A    Q+  + Q     V  +++ + +A    FL+ W PYA V+ +    +     PI   + A FAKS+ +YNP++Y++    FR   C   T C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|NP_001303875.1|</Hit_id>
+  <Hit_def>opsin 7, group member d [Danio rerio] &gt;ref|XP_001340602.2| opsin 7, group member d isoform X2 [Danio rerio] &gt;gb|ALG92560.1| novopsin-6 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001303875</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>4.11351e-26</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>PLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVK--EAAAQQQESATTQKAEKEV--TRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRN</Hsp_qseq>
+      <Hsp_hseq>PAEFFIVNLSFSDLGMTVSLFPLAIPSAFAHKWLFGELTCLCYAVCGVLFGLSSLTNLTALSSVCCLKVCFPNYGNKFSYSHACLMIVGVWCYAMVFAVGPLANWGHYGPEPYGTACCIDWYAPGQDALSMSYIICLFLLCYALPLGIILLSYILILITVRGSRQAVQQHVSPQTKTTNAHILIVKLSVAVCIGFLTAWSPYAVVAMWAAFGEPDNVPPMAFALAAIFAKSSTIYNPVVYLVFKPNFRK</Hsp_hseq>
+      <Hsp_midline>P  + ++NL+ +DL M +  F   + ++    ++FG   C        L G  +L +L  L+    + VC P    +F  +HA + +   W  A+  A  PLA W  Y PE    +C ID+Y    +  + S++I +F++ + +P+ II   Y  ++ TV+    A QQ  S  T+     +   ++ + + I FL  W PYA VA +    +  N  P+   + A FAKS+ IYNPV+Y++    FR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|XP_073765023.1|</Hit_id>
+  <Hit_def>opsin 7, group member d isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073765023</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>8.05184e-26</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>PLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVK--EAAAQQQESATTQKAEKEV--TRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRN</Hsp_qseq>
+      <Hsp_hseq>PAEFFIVNLSFSDLGMTVSLFPLAIPSAFAHKWLFGELTCLCYAVCGVLFGLSSLTNLTALSSVCCLKVCFPNYGNKFSYSHACLMIVGVWCYAMVFAVGPLANWGHYGPEPYGTACCIDWYAPGQDALSMSYIICLFLLCYALPLGIILLSYILILITVRGSRQAVQQHVSPQTKTTNAHILIVKLSVAVCIGFLTAWSPYAVVAMWAAFGEPDNVPPMAFALAAIFAKSSTIYNPVVYLVFKPNFRK</Hsp_hseq>
+      <Hsp_midline>P  + ++NL+ +DL M +  F   + ++    ++FG   C        L G  +L +L  L+    + VC P    +F  +HA + +   W  A+  A  PLA W  Y PE    +C ID+Y    +  + S++I +F++ + +P+ II   Y  ++ TV+    A QQ  S  T+     +   ++ + + I FL  W PYA VA +    +  N  P+   + A FAKS+ IYNPV+Y++    FR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|XP_017210358.2|</Hit_id>
+  <Hit_def>somatostatin receptor type 2 [Danio rerio] &gt;ref|XP_073801378.1| somatostatin receptor type 2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017210358</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.41263e-25</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>FLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVAD-LFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAF-TWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVN---NESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGS----NFGPIFMTIPAF-----FAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQV</Hsp_qseq>
+      <Hsp_hseq>FLVCVVGLCGNALVIYVILRYAKMKTVTNIYILNLAVADILFMLSLPFIAIQLAMVH--WPFGATMCHVVITIDSLNQFTSIFCLMVMSIDRYLAVVHPMKSIKWRKPQVAKATNVAVWVVSLLVILP-VVFYSGLITKAEGCFCSIVW----PDPQGAYQTAFMIYTFLLGFFLPLMVICLCYLLIIIKVKSSGIKV-SSSKRRYSEKKVTRLVSVVVLVFVFCWLP-----FYIFNMTSVTGTISDTPFLRSVFAFVVVLGYANSCA--NPILYAFLSENFRKSFQNVLCFKKEALSD--AARSNSRLDRPQI</Hsp_hseq>
+      <Hsp_midline>FL+ V+G   N L +YV +++ K++T  N  +LNLAVAD LFM+   F +     +H  + FG T C++     +L    +++ L+V++I+RY+ V  PM + ++ +           WV++L    P +  +S  I +   C C I +    P+       +F+IY F++ F +P+++I  CY  ++  VK +  +   S+  + +EK+VTR+V ++V+ F+ CW+P     FYIF         +  P   ++ AF     +A S A  NP++Y  +++ FR      +C  K  L D  A+ + S+ +  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|XP_017213239.2|</Hit_id>
+  <Hit_def>cholecystokinin receptor isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017213239</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.41181e-24</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>82</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>MLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFG-ENHAIMGVAFTWVMALACAAP-PLAGWSRYIPEGLQCS---CGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLV--------FTVKEAAAQ---------------------------------------------QQESATTQKA----EKEVTRMVIIMVIAFLICWVPYASV----AFYIFT-HQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPL-------GDDEASAT</Hsp_qseq>
+      <Hsp_hseq>LLYCLIFLLSVFG---NLLIIVVLMVNKRMRTVTNSFLLSLAISDLMMAVVCMPFTLIPNLMGDFIFGAAMCKIVAYLMGISVCISTFSLVAIAIERYSAICNPLKSRAWQTRSHAYKVIASTWVVSFLIMTPYPIFSTLVEFTKNNNITGHMCRHDW--MNSEVEKAWCILLLFVLFF-IPGVVMIIAYGLISRELYRGIQFELEQKKGQCGMKNGISATVLISSDDGDGCYIQVSKRPNSMEMSALTPTGSAKVDRPRSNTSEAKLMAKKRVIRMLIVIVAMFFICWMPVYSVNTWKAFDLASAHRALSGAPI--SFIHLLSYTSACVNPIIYCFMNKRFRKALLATFSCCCWPCRKRGFREGDDEVTAT</Hsp_hseq>
+      <Hsp_midline>+L   +FLL V G   N L + V + +K++RT  N  LL+LA++DL M +     TL  +L G F+FG   C +  +   +   I+ +SLV +AIERY  +C P+ +  +   +HA   +A TWV++     P P+        +    +   C  D+  +  EV     ++ +FV+ F IP +++   YG +         F +++   Q                                              +  + T +A    +K V RM+I++V  F ICW+P  SV    AF + + H+  +  PI  +     + ++A  NP+IY  MNK+FR  +L T  C   P        GDDE +AT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|NP_998462.1|</Hit_id>
+  <Hit_def>somatostatin receptor type 5 [Danio rerio] &gt;gb|AAH68356.1| Zgc:85682 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_998462</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>4.3209e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>GTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAP-PLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY--IFTHQGSNF--GPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGK-NPLGDDEAS-ATVSKTE</Hsp_qseq>
+      <Hsp_hseq>ATQEPIYNTSLSNQT--TNSSIDPNENLLAEEESTKALAVIYLVVFIVGLTGNSLAIFVVLRYTKMKTVTNMYILNLAVADELYILGLPFLTTHNVL-SYWPFGNFLCRILMWADSISQFTSTFCLTVMSIDRYMAVVHPIRSARW-RRPSVAKVINSMVWALSCLLTLPVIIYCDVQP-GLN-TCNLSWPEPR-DVWSTAFILYTAILGFFCPLLVICLCYLLIVIKVKSASARAGLSKR-RKSEKKVTRMVVIIVVVFVICWLPFFMLNIFNLVVTLPENNIITGVYFLTVILTYVNSCA--NPLLYGFLSDNFKRSFQKVLCIHRVNGVSDEHPNRARISRNH</Hsp_hseq>
+      <Hsp_midline> T+ P +    SN T    S  +  +  LAE      LA    ++ ++G   N L ++V +++ K++T  N  +LNLAVAD   +LG    T +  L  Y+ FG   C +  +  ++    + + L V++I+RY+ V  P+ + R+    ++  V  + V AL+C    P+  +    P GL  +C + +   + +V + +F++Y  ++ F  P+++I  CY  +V  VK A+A+   S   +K+EK+VTRMV+I+V+ F+ICW+P+  +  +  + T   +N   G  F+T+   +  S A  NP++Y  ++  F+      +C  + N + D+  + A +S+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|XP_073772907.1|</Hit_id>
+  <Hit_def>neuromedin-U receptor 2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073772907</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>1.208e-23</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>GVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGY-FVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPM-SNFRFGENHAIMGVAFTWVMALACAAP--PLAGWS-RYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQ------------KAEKEVTRMVIIMVIAFLICWVPYA-SVAFYIF-----THQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTIC</Hsp_qseq>
+      <Hsp_hseq>GPRRSPFFFP---------VTCTYILIFMTGVLG---NLLTCAVITKDRKMQTPTNLYLFSLAISDLLVLLFGMPLEIYELWQNYPFPFGESICCFKIFLFETVCFASVLNVTVLSVERYIAVIHPLKTRYAITNKHARRVIAGVWAMSLLCAVPNTSLHGLQYQYLPERVQESATCNL--LKPKWMYNLVIQITTVLFYFVPMMMISVLYLMIGLTLGRGQKQRKDKLGSNHSNDSWKIHLDSRRRRQVTKMHFVVVLVFAICWAPFHIDRLLWSFITSWTDHMHNIFEYVHIISGVLFYLSSAV-NPIIYNLLSSRFRERFQALVC</Hsp_hseq>
+      <Hsp_midline>G  RSPF +P          +     +F+  VLG   N LT  V  + +K++TP N  L +LA++DL ++L G    +Y     Y F FG + C  + F        ++ ++ VL++ERY+ V  P+ + +     HA   +A  W M+L CA P   L G   +Y+PE +Q S   +   LKP+      +    V+ + +PM++I   Y  +  T+     Q+++   +             +  ++VT+M  ++V+ F ICW P+      + F      H  + F  + +     F  S+A+ NP+IY +++ +FR      +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|XP_005164490.2|</Hit_id>
+  <Hit_def>somatostatin receptor type 5 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005164490</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>1.2953e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>GTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAP-PLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY--IFTHQGSNF--GPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGK-NPLGDDEAS-ATVSKTE</Hsp_qseq>
+      <Hsp_hseq>ATQEPIYNTSLSNQT--TNSSGDPNENLLAEEESTKALAVIYLVVFIVGLTGNSLAIFVVLRYTKMKTVTNMYILNLAVADELYILGLPFLTTHNVL-SYWPFGNFLCRILMWADSISQFTSTFCLTVMSIDRYMAVVHPIRSARW-RRPSVAKVINSMVWALSCLLTLPVIIYCDVQP-GLN-TCNLSWPEPR-DVWSTAFILYTAILGFFCPLLVICLCYLLIVIKVKSASARAGLSKR-RKSEKKVTRMVVIIVVVFVICWLPFFMLNIFNLVVTLPENNIITGVYFLTVILTYVNSCA--NPLLYGFLSDNFKRSFQKVLCIHRVNGVSDEHPNRARISRNH</Hsp_hseq>
+      <Hsp_midline> T+ P +    SN T    S  +  +  LAE      LA    ++ ++G   N L ++V +++ K++T  N  +LNLAVAD   +LG    T +  L  Y+ FG   C +  +  ++    + + L V++I+RY+ V  P+ + R+    ++  V  + V AL+C    P+  +    P GL  +C + +   + +V + +F++Y  ++ F  P+++I  CY  +V  VK A+A+   S   +K+EK+VTRMV+I+V+ F+ICW+P+  +  +  + T   +N   G  F+T+   +  S A  NP++Y  ++  F+      +C  + N + D+  + A +S+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|XP_005164491.2|</Hit_id>
+  <Hit_def>somatostatin receptor type 5 isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005164491</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>1.3211e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>GTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAP-PLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY--IFTHQGSNF--GPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGK-NPLGDDEAS-ATVSKTE</Hsp_qseq>
+      <Hsp_hseq>ATQEPIYNTSLSNQT--TNSSGDPNENLLAEEESTKALAVIYLVVFIVGLTGNSLAIFVVLRYTKMKTVTNMYILNLAVADELYILGLPFLTTHNVL-SYWPFGNFLCRILMWADSISQFTSTFCLTVMSIDRYMAVVHPIRSARW-RRPSVAKVINSMVWALSCLLTLPVIIYCDVQP-GLN-TCNLSWPEPR-DVWSTAFILYTAILGFFCPLLVICLCYLLIVIKVKSASARAGLSKR-RKSEKKVTRMVVIIVVVFVICWLPFFMLNIFNLVVTLPENNIITGVYFLTVILTYVNSCA--NPLLYGFLSDNFKRSFQKVLCIHRVNGVSDEHPNRARISRNH</Hsp_hseq>
+      <Hsp_midline> T+ P +    SN T    S  +  +  LAE      LA    ++ ++G   N L ++V +++ K++T  N  +LNLAVAD   +LG    T +  L  Y+ FG   C +  +  ++    + + L V++I+RY+ V  P+ + R+    ++  V  + V AL+C    P+  +    P GL  +C + +   + +V + +F++Y  ++ F  P+++I  CY  +V  VK A+A+   S   +K+EK+VTRMV+I+V+ F+ICW+P+  +  +  + T   +N   G  F+T+   +  S A  NP++Y  ++  F+      +C  + N + D+  + A +S+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|XP_073794518.1|</Hit_id>
+  <Hit_def>somatostatin receptor type 5 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073794518</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>1.36799e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>GTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAP-PLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY--IFTHQGSNF--GPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGK-NPLGDDEAS-ATVSKTETSQVAP</Hsp_qseq>
+      <Hsp_hseq>ATQEPIYNTSLSNQT--TNSSGDPNENLLAEEESTKALAVIYLVVFIVGLTGNSLAIFVVLRYTKMKTVTNMYILNLAVADELYILGLPFLTTHNVL-SYWPFGNFLCRILMWADSISQFTSTFCLTVMSIDRYMAVVHPIRSARW-RRPSVAKVINSMVWALSCLLTLPVIIYCDVQP-GLN-TCNLSWPEPR-DVWSTAFILYTAILGFFCPLLVICLCYLLIVIKVKSASARAGLSKR-RKSEKKVTRMVVIIVVVFVICWLPFFMLNIFNLVVTLPENNIITGVYFLTVILTYVNSCA--NPLLYGFLSDNFKRSFQKVLCIHRVNGVSDEHPNRARISRNHQEPFFP</Hsp_hseq>
+      <Hsp_midline> T+ P +    SN T    S  +  +  LAE      LA    ++ ++G   N L ++V +++ K++T  N  +LNLAVAD   +LG    T +  L  Y+ FG   C +  +  ++    + + L V++I+RY+ V  P+ + R+    ++  V  + V AL+C    P+  +    P GL  +C + +   + +V + +F++Y  ++ F  P+++I  CY  +V  VK A+A+   S   +K+EK+VTRMV+I+V+ F+ICW+P+  +  +  + T   +N   G  F+T+   +  S A  NP++Y  ++  F+      +C  + N + D+  + A +S+       P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|NP_001017877.1|</Hit_id>
+  <Hit_def>retinal G protein coupled receptor a [Danio rerio] &gt;gb|AAH92971.1| Zgc:110660 [Danio rerio] &gt;gb|AAI65377.1| Zgc:110660 protein [Danio rerio] &gt;gb|ALG92566.1| retinal pigment epithelium retinal G protein receptor-1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001017877</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>8.95873e-23</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRN</Hsp_qseq>
+      <Hsp_hseq>LLGFFLNAVTVIAFLKIRELRTPSNFLVFSLAMADMGISTNA-TVAAFSSFLRYWPYGSDGCQTHGFQGFMTALASIHFIAAIAWDRYHQYC---TRTKLQWSSAITLVLFTWLFTAFWAAMPLFGWGEYDYEPLRTCCTLDYS--KGDRNYVSYLIPMSIFNMGIQVFVVLSSYQSIDKKFKKTGQAKFNCGTPLK--------------TMLFCWGPYGILAFYAAVENATLVSPKLRMIAPILAKTSPTFNVFVYALGNENYRG</Hsp_hseq>
+      <Hsp_midline>+LGF +N +T+   ++ ++LRTP N+++ +LA+AD+ +     T   ++S   Y+ +G  GC   GF   +    ++  +  +A +RY   C   +  +   + AI  V FTW+     AA PL GW  Y  E L+  C +DY   K + N  S++I M + +  I + ++   Y  +    K+    +    T  K                L CW PY  +AFY      +   P    I    AK++  +N  +Y + N+ +R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|NP_001304693.1|</Hit_id>
+  <Hit_def>opsin 8, group member c [Danio rerio] &gt;gb|ALG92563.1| novopsin-9 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001304693</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>2.82848e-22</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>LLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTV---KEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNF-GPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRN</Hsp_qseq>
+      <Hsp_hseq>ILSVLG---NGVVLVISYRRRKKIAGSELLCVNLAVVDFLCCICFYPLSILSSFSHVWLGRHITCVYYGLGCYIFGLCGMFTIAAISVIRYIKTCYAI--WLEGVNIRLVCVA-TWLIAAVWSSFPLFGWGEYVPEPYGISCTIAWRRYHTSTKDAIYVICSFACFVLLPVLLIMVSQCKILLKIYRFSRTLSARGIHCNLRHAEKHLSVMFFCISLGFILAWAPYAVVSFLFIFHKDAQYMAPEGFIFPALFAKSSHVYNPFIYFYFNKAFRQ</Hsp_hseq>
+      <Hsp_midline>+L VLG   N + L ++ + +K       + +NLAV D    +  +  ++ +S    ++     C   G    + G   ++++  +++ RY+  C  +  +  G N  ++ VA TW++A   ++ PL GW  Y+PE    SC I +        +  +VI  F     +P+++I     +++  +       + +      + AEK ++ M   + + F++ W PYA V+F    H+ + +  P     PA FAKS+ +YNP IY   NK FR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|XP_073789197.1|</Hit_id>
+  <Hit_def>opsin 8, group member b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073789197</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>3.52413e-22</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>RFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMV---IAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRN--------CMLTTIC</Hsp_qseq>
+      <Hsp_hseq>KISKRNAKILVATTWLYALLWAIFPLIGWGKYGPEPFGLSCTLDWRDMKE--HSQSFVITIFLMNLILPAIIIVSCYCGIALRLYVTYKSMDDSNHVPNMIKMQRRLMVIAVLISIGFVGCWAPYGIVSLWSIYRPGDSIPAEVSMLPCLFAKTSTVYNPFIYYIFSKTFKREVNQLSRFCGRSNIC</Hsp_hseq>
+      <Hsp_midline>+  + +A + VA TW+ AL  A  PL GW +Y PE    SC +D+  +K   +++SFVI +F+++  +P III  CY  +   +        +S       K   R+++I V   I F+ CW PY  V+ +     G +       +P  FAK++ +YNP IY + +K F+         C  + IC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|XP_697493.2|</Hit_id>
+  <Hit_def>cholecystokinin receptor type A [Danio rerio]</Hit_def>
+  <Hit_accession>XP_697493</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>3.94174e-20</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>LLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFG-ENHAIMGVAFTWVMALACAAPPLAGWSRYIP-EGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYG----------QLVFTVKEAAAQQQESATTQK------------------------------------------AEKEVTRMVIIMVIAFLICWVP-YASVAFYIFTHQGSNF----GPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGD</Hsp_qseq>
+      <Hsp_hseq>LIFILSFLGNSLIIAVLLRNRRMRTVTNLFLLSLAVSDLMLCVFCMPFTLIPNLMKDFIFGSGMCKVATYFMGISVSVSTLNLVAISLERYSAICNPLKSRAWQTKSHAVKVISATWVVSFLLMLPYPIG-STLVPFIRSNNSTGNMCRLVWPSDVMQTWYIFLLLTLFLVPGIIMMTAYGLTSLELYRGIRFEMTNRKSNREKEYGTSSLKNGDSDGCYFQPSKKKRSEPVMPSHPKSKLRRVCSNSPTANLMAKKRVIRMLLVIVGLFFLCWTPVFVVNAWRAFDRRSADSLLSGAPI--SFIHLLSYTSACVNPIVYCFMNKRFRQGILSTFSCCRGDVDE</Hsp_hseq>
+      <Hsp_midline>L+ +L F  N L + V ++++++RT  N  LL+LAV+DL + +     TL  +L   F+FG   C +  +F  +   ++  +LV +++ERY  +C P+ +  +  ++HA+  ++ TWV++     P   G S  +P      S G     + P    +++ I++ +  F +P II+   YG          +   T +++  +++   ++ K                                          A+K V RM++++V  F +CW P +   A+  F  + ++      PI  +     + ++A  NP++Y  MNK+FR  +L+T  C +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|XP_005157996.2|</Hit_id>
+  <Hit_def>opsin 9 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005157996</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>4.5116e-20</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>GVVRSPFEYPQYYLAEPWQFSMLAAYMFLLI--VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGC---NLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGE----NHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEA----AAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY</Hsp_qseq>
+      <Hsp_hseq>GSVSVPSSIPHAFRSQLSPSADLSIAVFLIITGVVSVFGNGLVLLVYGQRRKKLRAHELMTINLAVCDFGYSLLGAPCIIISSLSHAWIFGETGCIWYGIQGFVFGIG---SLITTCLISLDRCFKIC----SFRYGQWVERKHASLSVTLVWIYTLFWASLPMFGFGSYGPEPFGTSCTINWWRMNSSLTDRIYIFLILSLCFGVPTLIIIASYLAIVIRVYWSSHILASIPSSNVTHNSKDLRLTKIAAVVCSSFLIAWTPYAIVSLY</Hsp_hseq>
+      <Hsp_midline>G V  P   P  + ++    + L+  +FL+I  V+    N L L V  Q +K       + +NLAV D    L G    + +SL   ++FG TGC    ++GF   +G   +L +  +++++R   +C    +FR+G+     HA + V   W+  L  A+ P+ G+  Y PE    SC I+++ +   + +  ++  +  + F +P +II   Y  +V  V  +    A+    + T    +  +T++  ++  +FLI W PYA V+ Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.0017342</Hsp_evalue>
+      <Hsp_query-from>285</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>PIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICC-GKNPLGDDEASATVSKTETS</Hsp_qseq>
+      <Hsp_hseq>PEFSLIPAIFAKSHCMINPFIYQIMNRDFREDVYDLLCMRGKD--GERRRSRSTDGSDSD</Hsp_hseq>
+      <Hsp_midline>P F  IPA FAKS  + NP IY +MN+ FR  +   +C  GK+  G+   S +   +++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|NP_001304680.1|</Hit_id>
+  <Hit_def>opsin 9 [Danio rerio] &gt;gb|ALG92564.1| novopsin-10 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001304680</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>4.90767e-20</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>GVVRSPFEYPQYYLAEPWQFSMLAAYMFLLI--VLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGC---NLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGE----NHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEA----AAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFY</Hsp_qseq>
+      <Hsp_hseq>GSVSVPSSIPHAFRSQLSPSADLSIAVFLIITGVVSVFGNGLVLLVYGQRRKKLRAHELMTINLAVCDFGYSLLGAPCIIISSLSHAWIFGETGCIWYGIQGFVFGIG---SLITTCLISLDRCFKIC----SFRYGQWVERKHASLSVTLVWIYTLFWASLPMFGFGSYGPEPFGTSCTINWWRMNSSLTDRIYIFLILSLCFGVPTLIIIASYLAIVIRVYWSSHILASIPSSNVTHNSKDLRLTKIAAVVCSSFLIAWTPYAIVSLY</Hsp_hseq>
+      <Hsp_midline>G V  P   P  + ++    + L+  +FL+I  V+    N L L V  Q +K       + +NLAV D    L G    + +SL   ++FG TGC    ++GF   +G   +L +  +++++R   +C    +FR+G+     HA + V   W+  L  A+ P+ G+  Y PE    SC I+++ +   + +  ++  +  + F +P +II   Y  +V  V  +    A+    + T    +  +T++  ++  +FLI W PYA V+ Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00152018</Hsp_evalue>
+      <Hsp_query-from>285</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>PIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICC-GKNPLGDDEASATVSKTETS</Hsp_qseq>
+      <Hsp_hseq>PEFSLIPAIFAKSHCMINPFIYQIMNRDFREDVYDLLCMRGKD--GERRRSRSTDGSDSD</Hsp_hseq>
+      <Hsp_midline>P F  IPA FAKS  + NP IY +MN+ FR  +   +C  GK+  G+   S +   +++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

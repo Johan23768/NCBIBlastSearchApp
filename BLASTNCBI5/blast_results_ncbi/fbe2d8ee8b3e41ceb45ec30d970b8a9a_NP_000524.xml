@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7389215</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000524.3 myelin proteolipid protein isoform 1 [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>277</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7389215</Iteration_query-ID>
+  <Iteration_query-def>NP_000524.3 myelin proteolipid protein isoform 1 [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>277</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_783166.1|</Hit_id>
+  <Hit_def>proteolipid protein 1a [Danio rerio] &gt;gb|AAH95297.1| Proteolipid protein 1a [Danio rerio] &gt;gb|AAI65098.1| Plp1a protein [Danio rerio] &gt;gb|AAL59885.1| DMalpha1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_783166</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>5.81075e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>MGLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGR</Hsp_qseq>
+      <Hsp_hseq>MGCYECCMRCLGGVPYVSLAATLLCFSGIALFCGCGHQALTESERLIETYFARDNQDYYTLVYLIEYFQYIIYGLASFFFLYCIVLLAEGFYTTSAVRQSLGEFRSTVCGRCLSTT-----------------------------------FIVITYFLVVVWLLVFSLSAFPVYFFYNMAKTCQTINFLSETPSSINQLCIDARQYGLLPWTAIPGKACGMTLSNVCKTREFSLTYNLYIAAFAGAGMTVLALLTYTVSTTYNFAVLRYLGR</Hsp_hseq>
+      <Hsp_midline>MG  ECC RCL G P+ SL AT LCF G+ALFCGCGH+ALT +E+LIETYF+++ QDY  L+ +I  FQY+IYG ASFFFLY  +LLAEGFYTT AVRQ  G++++T+CG+ LS T                                   F+ ITY L VVWLLVF+ SA PVY ++N   TCQ+I F S+T +SI  LC DAR YG+LPW A PGK CG  L ++CKT EF +T++L+IAAF GA  T+++LLT+ ++ TYNFAVL+ +GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_001349483.1|</Hit_id>
+  <Hit_def>glycoprotein M6Bb isoform 3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001349483</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>7.9122e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>MGLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGR</Hsp_qseq>
+      <Hsp_hseq>MGCFECCIKCLGGVPYASLVATILCFSGVALFCGCGHVALTGTMTILENHFSRITADHAMLTDIVQLMQYVIYGIASFFFLYGIILLAEGFYTTSAVKELHSEFKTTVCGRCISG-----------------------------------MFVFLTYILGIAWLGVFGFSAVPVFLFYNMWSTCAAMRSPVANLTSIDSICVDVRQYGIIPWNATPGKACGSTLGDICNTNEFYLSYHLYIVACAGAGATVIALLIYMMATTYNFAVLKFKSR</Hsp_hseq>
+      <Hsp_midline>MG  ECC +CL G P+ASLVAT LCF GVALFCGCGH ALTGT  ++E +FS+   D+  L +++   QYVIYG ASFFFLYG +LLAEGFYTT AV+++  ++KTT+CG+ +S                                     FV +TY L + WL VF  SAVPV++++N W+TC ++  P     SI S+C D R YG++PWNA PGK CGS L  IC T EF +++HL+I A  GA AT+++LL +M+A TYNFAVLK   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_068079472.1|</Hit_id>
+  <Hit_def>glycoprotein M6Bb isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068079472</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>5.23916e-87</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGR</Hsp_qseq>
+      <Hsp_hseq>GCFECCIKCLGGVPYASLVATILCFSGVALFCGCGHVALTGTMTILENHFSRITADHAMLTDIVQLMQYVIYGIASFFFLYGIILLAEGFYTTSAVKELHSEFKTTVCGRCISG-----------------------------------MFVFLTYILGIAWLGVFGFSAVPVFLFYNMWSTCAAMRSPVANLTSIDSICVDVRQYGIIPWNATPGKACGSTLGDICNTNEFYLSYHLYIVACAGAGATVIALLIYMMATTYNFAVLKFKSR</Hsp_hseq>
+      <Hsp_midline>G  ECC +CL G P+ASLVAT LCF GVALFCGCGH ALTGT  ++E +FS+   D+  L +++   QYVIYG ASFFFLYG +LLAEGFYTT AV+++  ++KTT+CG+ +S                                     FV +TY L + WL VF  SAVPV++++N W+TC ++  P     SI S+C D R YG++PWNA PGK CGS L  IC T EF +++HL+I A  GA AT+++LL +M+A TYNFAVLK   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|NP_001013352.2|</Hit_id>
+  <Hit_def>glycoprotein M6Bb isoform 2 [Danio rerio] &gt;gb|AAL59893.1| DMgamma2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001013352</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.366</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>2.17182e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MGLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLK</Hsp_qseq>
+      <Hsp_hseq>MGCFECCIKCLGGVPYASLVATILCFSGVALFCGCGHVALTGTMTILENHFSRITADHAMLTDIVQLMQYVIYGIASFFFLYGIILLAEGFYTTSAVKELHSEFKTTVCGRCISGM-----------------------------------FVFLTYILGIAWLGVFGFSAVPVFLFYNMWSTCAAMRSPVANLTSIDSICVDVRQYGIIPWNATPGKACGSTLGDICNTNEFYLSYHLYIVACAGAGATVIALIHFLMILSANWAYLK</Hsp_hseq>
+      <Hsp_midline>MG  ECC +CL G P+ASLVAT LCF GVALFCGCGH ALTGT  ++E +FS+   D+  L +++   QYVIYG ASFFFLYG +LLAEGFYTT AV+++  ++KTT+CG+ +S                                     FV +TY L + WL VF  SAVPV++++N W+TC ++  P     SI S+C D R YG++PWNA PGK CGS L  IC T EF +++HL+I A  GA AT+++L+ F++  + N+A LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAH90796.1|</Hit_id>
+  <Hit_def>Glycoprotein M6Bb [Danio rerio] &gt;gb|AAI64613.1| Gpm6bb protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH90796</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>8.37884e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MGLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLK</Hsp_qseq>
+      <Hsp_hseq>MGCFECCIKCLGGVPYASLVATILCFSGVALFCGCGHVALTGTMTILENHFSRITADHAMLTDIVQLMQYVIYGIASFFFLYGIILLAEGFYTTSAVKELHSEFKTTVCGRCISGM-----------------------------------FVFLTYILGIAWLGVFGFSAVPVFLFYNMWSTCAAMRSPVANLTSIDSICVDVRQYGIIPWNATPGKACGSTLGDICNTNEFYLSYHLYIVACAGAGATVIALTHFLMILSANWAYLK</Hsp_hseq>
+      <Hsp_midline>MG  ECC +CL G P+ASLVAT LCF GVALFCGCGH ALTGT  ++E +FS+   D+  L +++   QYVIYG ASFFFLYG +LLAEGFYTT AV+++  ++KTT+CG+ +S                                     FV +TY L + WL VF  SAVPV++++N W+TC ++  P     SI S+C D R YG++PWNA PGK CGS L  IC T EF +++HL+I A  GA AT+++L  F++  + N+A LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_001349482.1|</Hit_id>
+  <Hit_def>glycoprotein M6Bb isoform 1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001349482</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>1.73953e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLK</Hsp_qseq>
+      <Hsp_hseq>GCFECCIKCLGGVPYASLVATILCFSGVALFCGCGHVALTGTMTILENHFSRITADHAMLTDIVQLMQYVIYGIASFFFLYGIILLAEGFYTTSAVKELHSEFKTTVCGRCISGM-----------------------------------FVFLTYILGIAWLGVFGFSAVPVFLFYNMWSTCAAMRSPVANLTSIDSICVDVRQYGIIPWNATPGKACGSTLGDICNTNEFYLSYHLYIVACAGAGATVIALIHFLMILSANWAYLK</Hsp_hseq>
+      <Hsp_midline>G  ECC +CL G P+ASLVAT LCF GVALFCGCGH ALTGT  ++E +FS+   D+  L +++   QYVIYG ASFFFLYG +LLAEGFYTT AV+++  ++KTT+CG+ +S                                     FV +TY L + WL VF  SAVPV++++N W+TC ++  P     SI S+C D R YG++PWNA PGK CGS L  IC T EF +++HL+I A  GA AT+++L+ F++  + N+A LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|NP_982251.1|</Hit_id>
+  <Hit_def>glycoprotein M6Ba [Danio rerio] &gt;gb|AAI62390.1| Glycoprotein M6Ba [Danio rerio] &gt;gb|AAI62408.1| Glycoprotein M6Ba [Danio rerio] &gt;gb|AAL59891.1| DMgamma1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_982251</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>4.43478e-79</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLK</Hsp_qseq>
+      <Hsp_hseq>GCFECCIKCLGGVPYASLVATILCFSGVALFCGCGHVALTGTVTMVENHFSRISSDHAALTDVVQILQYIIYGIACLFFLYGIILLAEGFYTTSAVKEMHSEFKTTVCGRCISAM-----------------------------------FVFLTYILGLGWLGIFGFSAVPVFLFYNMWTTCGAMKSPIANLTSVDNICVDVRQYGIIPWNANPGKACGSTLSDICNTSEFYLSYHLYIVACAGAGATVIALIHYLMILAANWAYLK</Hsp_hseq>
+      <Hsp_midline>G  ECC +CL G P+ASLVAT LCF GVALFCGCGH ALTGT  ++E +FS+   D+  L +V+   QY+IYG A  FFLYG +LLAEGFYTT AV+++  ++KTT+CG+ +SA                                    FV +TY L + WL +F  SAVPV++++N WTTC ++  P     S+ ++C D R YG++PWNA PGK CGS L  IC T+EF +++HL+I A  GA AT+++L+ +++    N+A LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_005165181.1|</Hit_id>
+  <Hit_def>proteolipid protein 1b isoform X4 [Danio rerio] &gt;gb|AAL59886.1| DMalpha2a [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005165181</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>1.72341e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MGLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTS--ASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGR</Hsp_qseq>
+      <Hsp_hseq>MGCYDCCIRCLGAVPYTSLVATLLCYAGVGLFCGAGHEALTHTHTFVELHFARDVQDFTVMADFIKYFQYVIYGLASFFFLYGLLLLAEGFYTTSAVKQTFGEFRSTQFGRCISLT-----------------------------------FIILTYVLALIWLIVFGFTAVPVLFFINMKSSCHTVNVLSETTLFNQQSRVCMDARMYGFLSWNAMPGVVCGNALANICKAPEFHVTYDLYICAFAGAGITLLALFVYMVATTYNYAILRFLGR</Hsp_hseq>
+      <Hsp_midline>MG  +CC RCL   P+ SLVAT LC+ GV LFCG GHEALT T   +E +F+++ QD+  + + I  FQYVIYG ASFFFLYG LLLAEGFYTT AV+Q FG++++T  G+ +S T                                   F+ +TY L ++WL+VF  +AVPV  + N  ++C ++   S+T+       +C DARMYG L WNA PG VCG+ L +ICK  EF +T+ L+I AF GA  TL++L  +M+A TYN+A+L+ +GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|NP_001005586.1|</Hit_id>
+  <Hit_def>proteolipid protein 1b [Danio rerio] &gt;ref|XP_073806043.1| proteolipid protein 1b isoform X3 [Danio rerio] &gt;ref|XP_073806044.1| proteolipid protein 1b isoform X3 [Danio rerio] &gt;gb|AAH81573.1| Proteolipid protein 1b [Danio rerio] &gt;gb|AAL59889.1| DMalpha2c [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001005586</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>1.15009e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MGLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTS--ASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGR</Hsp_qseq>
+      <Hsp_hseq>LGCYDCCIRCLGAVPYTSLVATLLCYAGVGLFCGAGHEALTHTHTFVELHFARDVQDFTVMADFIKYFQYVIYGLASFFFLYGLLLLAEGFYTTSAVKQTFGEFRSTQFGRCISLT-----------------------------------FIILTYVLALIWLIVFGFTAVPVLFFINMKSSCHTVNVLSETTLFNQQSRVCMDARMYGFLSWNAMPGVVCGNALANICKAPEFHVTYDLYICAFAGAGITLLALFVYMVATTYNYAILRFLGR</Hsp_hseq>
+      <Hsp_midline>+G  +CC RCL   P+ SLVAT LC+ GV LFCG GHEALT T   +E +F+++ QD+  + + I  FQYVIYG ASFFFLYG LLLAEGFYTT AV+Q FG++++T  G+ +S T                                   F+ +TY L ++WL+VF  +AVPV  + N  ++C ++   S+T+       +C DARMYG L WNA PG VCG+ L +ICK  EF +T+ L+I AF GA  TL++L  +M+A TYN+A+L+ +GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_005165180.1|</Hit_id>
+  <Hit_def>proteolipid protein 1b isoform X2 [Danio rerio] &gt;gb|AAL59888.1| DMalpha2b [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005165180</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>1.7882e-69</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTS--ASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGR</Hsp_qseq>
+      <Hsp_hseq>GCYDCCIRCLGAVPYTSLVATLLCYAGVGLFCGAGHEALTHTHTFVELHFARDVQDFTVMADFIKYFQYVIYGLASFFFLYGLLLLAEGFYTTSAVKQTFGEFRSTQFGRCISLT-----------------------------------FIILTYVLALIWLIVFGFTAVPVLFFINMKSSCHTVNVLSETTLFNQQSRVCMDARMYGFLSWNAMPGVVCGNALANICKAPEFHVTYDLYICAFAGAGITLLALFVYMVATTYNYAILRFLGR</Hsp_hseq>
+      <Hsp_midline>G  +CC RCL   P+ SLVAT LC+ GV LFCG GHEALT T   +E +F+++ QD+  + + I  FQYVIYG ASFFFLYG LLLAEGFYTT AV+Q FG++++T  G+ +S T                                   F+ +TY L ++WL+VF  +AVPV  + N  ++C ++   S+T+       +C DARMYG L WNA PG VCG+ L +ICK  EF +T+ L+I AF GA  TL++L  +M+A TYN+A+L+ +GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_005165179.1|</Hit_id>
+  <Hit_def>proteolipid protein 1b isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005165179</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>2.16954e-69</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTS--ASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGR</Hsp_qseq>
+      <Hsp_hseq>GCYDCCIRCLGAVPYTSLVATLLCYAGVGLFCGAGHEALTHTHTFVELHFARDVQDFTVMADFIKYFQYVIYGLASFFFLYGLLLLAEGFYTTSAVKQTFGEFRSTQFGRCISLT-----------------------------------FIILTYVLALIWLIVFGFTAVPVLFFINMKSSCHTVNVLSETTLFNQQSRVCMDARMYGFLSWNAMPGVVCGNALANICKAPEFHVTYDLYICAFAGAGITLLALFVYMVATTYNYAILRFLGR</Hsp_hseq>
+      <Hsp_midline>G  +CC RCL   P+ SLVAT LC+ GV LFCG GHEALT T   +E +F+++ QD+  + + I  FQYVIYG ASFFFLYG LLLAEGFYTT AV+Q FG++++T  G+ +S T                                   F+ +TY L ++WL+VF  +AVPV  + N  ++C ++   S+T+       +C DARMYG L WNA PG VCG+ L +ICK  EF +T+ L+I AF GA  TL++L  +M+A TYN+A+L+ +GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AAI15158.1|</Hit_id>
+  <Hit_def>Zgc:136505 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI15158</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>3.8946e-67</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>LCFFGVALFCGCGHEALTGTEKLIETYFSKNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGSNLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLK</Hsp_qseq>
+      <Hsp_hseq>LVFSGVALFCGCGHVALTGTVTMVENHFSRISSDHAALTDVVQILQYIIYGIACLFFLYGIILLAEGFYTTSAVKEMHSEFKTTVCGRCISAM-----------------------------------FVFLTYILGLGWLGIFGFSAVPVFLFYNMWTTCGAMKSPIANLTSVDNICVDVRQYGIIPWNANPGKACGSTLSDICNTSEFYLSYHLYIVACAGAGATVIALIHYLMILAANWAYLK</Hsp_hseq>
+      <Hsp_midline>L F GVALFCGCGH ALTGT  ++E +FS+   D+  L +V+   QY+IYG A  FFLYG +LLAEGFYTT AV+++  ++KTT+CG+ +SA                                    FV +TY L + WL +F  SAVPV++++N WTTC ++  P     S+ ++C D R YG++PWNA PGK CGS L  IC T+EF +++HL+I A  GA AT+++L+ +++    N+A LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_005160039.1|</Hit_id>
+  <Hit_def>glycoprotein M6Ab isoform X2 [Danio rerio] &gt;gb|AAL59890.1| DMbeta2b [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005160039</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>3.9802e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MGLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFS--KNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAF--PSKTSASIGSLCADARMYGVLPWNAFPGKVCGS--NLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGRGTKF</Hsp_qseq>
+      <Hsp_hseq>MGCSECCLKCLSGIPYASLIATILLYAGVALFCGCGHEALSGTVTILQTYFDVVRSPVDALDVFTMIDIFKYVIYGVAAAFFVYGILLMVEGFFTTGAIRDLYGDFKITTCGR-----------------------------CVSAW------FIMLTYIFMLAWLGVTAFTSLPVFMYFNIWNTCQNMTLLEGSLSSANSANLCFDLRQYGIVSIGE-EKRLCADNENFKKMCESNELDLTFHLFVCALAGAGAAVIAMVHYLMVLSANWAYVKDACRMQKY</Hsp_hseq>
+      <Hsp_midline>MG  ECC +CL G P+ASL+AT L + GVALFCGCGHEAL+GT  +++TYF   ++  D   +  +I  F+YVIYG A+ FF+YG LL+ EGF+TTGA+R ++GD+K T CG+                             C+  W      F+ +TY   + WL V A +++PV++YFN W TCQ++     S +SA+  +LC D R YG++       ++C    N   +C++ E  +TFHLF+ A  GA A +++++ +++  + N+A +K   R  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_005160038.1|</Hit_id>
+  <Hit_def>glycoprotein M6Ab isoform X1 [Danio rerio] &gt;gb|AAH75774.1| Gpm6ab protein [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005160038</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>2.63676e-60</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFS--KNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAF--PSKTSASIGSLCADARMYGVLPWNAFPGKVCGS--NLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGRGTKF</Hsp_qseq>
+      <Hsp_hseq>GCSECCLKCLSGIPYASLIATILLYAGVALFCGCGHEALSGTVTILQTYFDVVRSPVDALDVFTMIDIFKYVIYGVAAAFFVYGILLMVEGFFTTGAIRDLYGDFKITTCGR-----------------------------CVSAW------FIMLTYIFMLAWLGVTAFTSLPVFMYFNIWNTCQNMTLLEGSLSSANSANLCFDLRQYGIVSIGE-EKRLCADNENFKKMCESNELDLTFHLFVCALAGAGAAVIAMVHYLMVLSANWAYVKDACRMQKY</Hsp_hseq>
+      <Hsp_midline>G  ECC +CL G P+ASL+AT L + GVALFCGCGHEAL+GT  +++TYF   ++  D   +  +I  F+YVIYG A+ FF+YG LL+ EGF+TTGA+R ++GD+K T CG+                             C+  W      F+ +TY   + WL V A +++PV++YFN W TCQ++     S +SA+  +LC D R YG++       ++C    N   +C++ E  +TFHLF+ A  GA A +++++ +++  + N+A +K   R  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|NP_998365.1|</Hit_id>
+  <Hit_def>glycoprotein M6Aa [Danio rerio] &gt;ref|XP_056328045.1| glycoprotein M6Aa [Danio aesculapii] &gt;gb|AAH64281.1| Glycoprotein M6Aa [Danio rerio] &gt;gb|AAL59887.1| DMbeta1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_998365</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>1.10793e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFS--KNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGS-NLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGRGTKF</Hsp_qseq>
+      <Hsp_hseq>GCMECCLKCLGGIPYPSLIATILLYAGVALFCGCGHEALSGTVTILQNYFEVIRGPGDGLDVFTIIDIIKYVIYGIASAFFVYGILLMVEGFFTSGAIKDLYGDFKITTCGR-----------------------------CVSAW------FIMLTYIFMLAWLGVTAFTSLPVFIYFNIWTICQ-----NTTVLQGASLCLDPRQFGVVPIGEEKTLCVGSENFFKMCESNELDMTFHLFVCALAGAGAAVIAMIHYLMVLSANWAYVKDACKMQKY</Hsp_hseq>
+      <Hsp_midline>G +ECC +CL G P+ SL+AT L + GVALFCGCGHEAL+GT  +++ YF   +   D   +  +I   +YVIYG AS FF+YG LL+ EGF+T+GA++ ++GD+K T CG+                             C+  W      F+ +TY   + WL V A +++PV+IYFN WT CQ     + T     SLC D R +GV+P         GS N   +C++ E  MTFHLF+ A  GA A +++++ +++  + N+A +K   +  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_073777347.1|</Hit_id>
+  <Hit_def>glycoprotein M6Aa isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073777347</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>1.68216e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFS--KNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGS-NLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGRGTKF</Hsp_qseq>
+      <Hsp_hseq>GCMECCLKCLGGIPYPSLIATILLYAGVALFCGCGHEALSGTVTILQNYFEVIRGPGDGLDVFTIIDIIKYVIYGIASAFFVYGILLMVEGFFTSGAIKDLYGDFKITTCGR-----------------------------CVSAW------FIMLTYIFMLAWLGVTAFTSLPVFIYFNIWTICQ-----NTTVLQGASLCLDPRQFGVVPIGEEKTLCVGSENFFKMCESNELDMTFHLFVCALAGAGAAVIAMIHYLMVLSANWAYVKDACKMQKY</Hsp_hseq>
+      <Hsp_midline>G +ECC +CL G P+ SL+AT L + GVALFCGCGHEAL+GT  +++ YF   +   D   +  +I   +YVIYG AS FF+YG LL+ EGF+T+GA++ ++GD+K T CG+                             C+  W      F+ +TY   + WL V A +++PV+IYFN WT CQ     + T     SLC D R +GV+P         GS N   +C++ E  MTFHLF+ A  GA A +++++ +++  + N+A +K   +  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AAI50456.1|</Hit_id>
+  <Hit_def>Glycoprotein M6Aa [Danio rerio]</Hit_def>
+  <Hit_accession>AAI50456</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>4.34813e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFS--KNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAFPSKTSASIGSLCADARMYGVLPWNAFPGKVCGS-NLLSICKTAEFQMTFHLFIAAFVGAAATLVSLLTFMIAATYNFAVLKLMGRGTKF</Hsp_qseq>
+      <Hsp_hseq>GCMECCLKCLGGIPYPSLIATILLYAGVALFCGCGHEALSGTVTILQNYFEVIRGPGDGLDVFTIIDIIKYVIYGIASAFFVYGILLMVEGFFTSGAIKDLYGDFKITTCGR-----------------------------CVSAW------FIMLTYIFMLAWLGVTAFTSLPVFIYFNIWTICQ-----NTTVLQGASLCLDPRQFGVVLIGEEKTLCVGSENFFKMCESNELDMTFHLFVCALAGAGAAVIAMIHYLMVLSANWAYVKDACKMQKY</Hsp_hseq>
+      <Hsp_midline>G +ECC +CL G P+ SL+AT L + GVALFCGCGHEAL+GT  +++ YF   +   D   +  +I   +YVIYG AS FF+YG LL+ EGF+T+GA++ ++GD+K T CG+                             C+  W      F+ +TY   + WL V A +++PV+IYFN WT CQ     + T     SLC D R +GV+          GS N   +C++ E  MTFHLF+ A  GA A +++++ +++  + N+A +K   +  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|NP_999852.1|</Hit_id>
+  <Hit_def>glycoprotein M6Ab [Danio rerio] &gt;gb|AAL59892.1| DMbeta2a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_999852</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>8.7289e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MGLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFS--KNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAF--PSKTSASIGSLCADARMYGVLPWNAFPGKVCGS--NLLSICKTAEFQMTFHLFIAAFVG</Hsp_qseq>
+      <Hsp_hseq>MGCSECCLKCLSGIPYASLIATILLYAGVALFCGCGHEALSGTVTILQTYFDVVRSPVDALDVFTMIDIFKYVIYGVAAAFFVYGILLMVEGFFTTGAIRDLYGDFKITTCGR-----------------------------CVSAW------FIMLTYIFMLAWLGVTAFTSLPVFMYFNIWNTCQNMTLLEGSLSSANSANLCFDLRQYGIVSIGE-EKRLCADNENFKKMCESNELDLTFHLFVCALAG</Hsp_hseq>
+      <Hsp_midline>MG  ECC +CL G P+ASL+AT L + GVALFCGCGHEAL+GT  +++TYF   ++  D   +  +I  F+YVIYG A+ FF+YG LL+ EGF+TTGA+R ++GD+K T CG+                             C+  W      F+ +TY   + WL V A +++PV++YFN W TCQ++     S +SA+  +LC D R YG++       ++C    N   +C++ E  +TFHLF+ A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_068073267.1|</Hit_id>
+  <Hit_def>glycoprotein M6Ab isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068073267</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>5.34958e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>GLLECCARCLVGAPFASLVATGLCFFGVALFCGCGHEALTGTEKLIETYFS--KNYQDYEYLINVIHAFQYVIYGTASFFFLYGALLLAEGFYTTGAVRQIFGDYKTTICGKGLSATVTGGQKGRGSRGQHQAHSLERVCHCLGKWLGHPDKFVGITYALTVVWLLVFACSAVPVYIYFNTWTTCQSIAF--PSKTSASIGSLCADARMYGVLPWNAFPGKVCGS--NLLSICKTAEFQMTFHLFIAAFVG</Hsp_qseq>
+      <Hsp_hseq>GCSECCLKCLSGIPYASLIATILLYAGVALFCGCGHEALSGTVTILQTYFDVVRSPVDALDVFTMIDIFKYVIYGVAAAFFVYGILLMVEGFFTTGAIRDLYGDFKITTCGR-----------------------------CVSAW------FIMLTYIFMLAWLGVTAFTSLPVFMYFNIWNTCQNMTLLEGSLSSANSANLCFDLRQYGIVSIGE-EKRLCADNENFKKMCESNELDLTFHLFVCALAG</Hsp_hseq>
+      <Hsp_midline>G  ECC +CL G P+ASL+AT L + GVALFCGCGHEAL+GT  +++TYF   ++  D   +  +I  F+YVIYG A+ FF+YG LL+ EGF+TTGA+R ++GD+K T CG+                             C+  W      F+ +TY   + WL V A +++PV++YFN W TCQ++     S +SA+  +LC D R YG++       ++C    N   +C++ E  +TFHLF+ A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_073779334.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X10 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779334</Hit_accession>
+  <Hit_len>1458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.87471</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1415</Hsp_hit-from>
+      <Hsp_hit-to>1442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_073779333.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X9 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779333</Hit_accession>
+  <Hit_len>1467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.87786</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1424</Hsp_hit-from>
+      <Hsp_hit-to>1451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_073779332.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X8 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779332</Hit_accession>
+  <Hit_len>1474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.88028</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1431</Hsp_hit-from>
+      <Hsp_hit-to>1458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_073779330.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X6 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779330</Hit_accession>
+  <Hit_len>1500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.88907</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1457</Hsp_hit-from>
+      <Hsp_hit-to>1484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_073779329.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X5 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779329</Hit_accession>
+  <Hit_len>1509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.89204</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1466</Hsp_hit-from>
+      <Hsp_hit-to>1493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|NP_571708.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 precursor [Danio rerio] &gt;gb|AAK58427.1| roundabout2 [Danio rerio] &gt;emb|CAP71964.1| robo2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571708</Hit_accession>
+  <Hit_len>1513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.89335</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1470</Hsp_hit-from>
+      <Hsp_hit-to>1497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_073779328.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X4 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779328</Hit_accession>
+  <Hit_len>1516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.89433</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1473</Hsp_hit-from>
+      <Hsp_hit-to>1500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_073779327.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779327</Hit_accession>
+  <Hit_len>1520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.89563</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1477</Hsp_hit-from>
+      <Hsp_hit-to>1504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_073779326.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779326</Hit_accession>
+  <Hit_len>1525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.89724</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1482</Hsp_hit-from>
+      <Hsp_hit-to>1509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_073779325.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779325</Hit_accession>
+  <Hit_len>1540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.90202</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1497</Hsp_hit-from>
+      <Hsp_hit-to>1524</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_073779331.1|</Hit_id>
+  <Hit_def>roundabout homolog 2 isoform X7 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779331</Hit_accession>
+  <Hit_len>1617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.92514</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1552</Hsp_hit-from>
+      <Hsp_hit-to>1579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>GKGLSATVTGGQKGRGSRGQHQAHSLER</Hsp_qseq>
+      <Hsp_hseq>GTASSKGSTGPRKGEGTRGQHQRSTTEQ</Hsp_hseq>
+      <Hsp_midline>G   S   TG +KG G+RGQHQ  + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

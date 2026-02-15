@@ -1,0 +1,2842 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_198735</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000520.1 adrenocorticotropic hormone receptor [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>297</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_198735</Iteration_query-ID>
+  <Iteration_query-def>NP_000520.1 adrenocorticotropic hormone receptor [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>297</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_073780789.1|</Hit_id>
+  <Hit_def>adrenocorticotropic hormone receptor isoform X1 [Danio rerio] &gt;ref|XP_073780790.1| adrenocorticotropic hormone receptor isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073780789</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>2.59909e-98</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>NSDCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP-------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>HTDCAEVQVPGQVFLVIAVASLSENLLVIVAVIKNKNLHSPMYCFICNLAVFNTISSFSKALENILLLFKDAGRLNSRGPFELKIDDIMDSLLCMCFLGSIFSILAIAVDRYISIFHALRYHMLMTMRRVLIILFTIWVLCGTSGALMVGFFEAATVKIFFIVLFFTALLLILLLYVHMFLLARHHANRIASMPGAQAQHRKSGLRGALTLTILIGVFVACWAPFSLHLLIMMICPENPYCECYRSLFQLHVVLLVSHAVIDPAIYAFRSVELRNTYKKMLLSS</Hsp_hseq>
+      <Hsp_midline>++DC  V +P ++F  I++  + ENL+V++AV KNKNL +PMY FIC+LA+ + + S  K LENIL++ ++ G L  RG FE   DDI+DSL  +  LGSIFS+  IA DRYI+IFHALRYH ++TMRR +++L  IW  C  +G  MV F       I F  LF   L+ IL LYVHMFLLAR H  +I+++P       ++ ++GA+TLTIL+GVF+ CWAPF LH+L+M  CP NPYC CY SLFQ++ +L++ +AVIDP IYAFRS ELR+ +KKM+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|B0V1P1.1|</Hit_id>
+  <Hit_def>RecName: Full=Melanocortin receptor 4; Short=MC4-R [Danio rerio]</Hit_def>
+  <Hit_accession>B0V1P1</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>6.30726e-97</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>SDC-PRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP-------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>SGCYEQLLISTEIFLTLGLVSLLENILVIAAIVKNKNLHSPMYFFICSLAVADLLVSVSNASETVVMALITGGNLTNRESIIKNMDNVFDSMICSSLLASIWSLLAIAVDRYITIFYALRYHNIMTQRRAGTIITCIWTFCTVSGVLFIVYSESTTVLICLISMFFTMLALMASLYVHMFLLARLHMKRIAALPGNGPIWQAANMKGAITITILLGVFVVCWAPFFLHLILMISCPRNPYCVCFMSHFNMYLILIMCNSVIDPLIYAFRSQEMRKTFKEICCC</Hsp_hseq>
+      <Hsp_midline>S C  ++++  EIF T+ +V +LEN++V+ A+ KNKNL +PMYFFICSLA++D+L S+    E +++ L   G L  R S     D++ DS+   SLL SI+SL  IA DRYITIF+ALRYH+I+T RR   ++T IWTFCT +G+  +++S     +I   S+F  ML  +  LYVHMFLLAR H ++I+ LP        ANMKGAIT+TILLGVF+ CWAPF LH++LM  CP NPYC C+MS F +  +LIMCN+VIDP IYAFRS E+R  FK++  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_775385.1|</Hit_id>
+  <Hit_def>melanocortin receptor 4 [Danio rerio] &gt;gb|AAI63219.1| Melanocortin 4 receptor [Danio rerio] &gt;gb|AAI63227.1| Melanocortin 4 receptor [Danio rerio] &gt;gb|AAL85494.1| melanocortin 4 receptor [Danio rerio] &gt;gb|AAO24745.1| melanocortin 4 receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_775385</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>9.53965e-97</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>SDC-PRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP-------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>SGCYEQLLISTEVFLTLGLVSLLENILVIAAIVKNKNLHSPMYFFICSLAVADLLVSVSNASETVVMALITGGNLTNRESIIKNMDNVFDSMICSSLLASIWSLLAIAVDRYITIFYALRYHNIMTQRRAGTIITCIWTFCTVSGVLFIVYSESTTVLICLISMFFTMLALMASLYVHMFLLARLHMKRIAALPGNGPIWQAANMKGAITITILLGVFVVCWAPFFLHLILMISCPRNPYCVCFMSHFNMYLILIMCNSVIDPLIYAFRSQEMRKTFKEICCC</Hsp_hseq>
+      <Hsp_midline>S C  ++++  E+F T+ +V +LEN++V+ A+ KNKNL +PMYFFICSLA++D+L S+    E +++ L   G L  R S     D++ DS+   SLL SI+SL  IA DRYITIF+ALRYH+I+T RR   ++T IWTFCT +G+  +++S     +I   S+F  ML  +  LYVHMFLLAR H ++I+ LP        ANMKGAIT+TILLGVF+ CWAPF LH++LM  CP NPYC C+MS F +  +LIMCN+VIDP IYAFRS E+R  FK++  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_005158226.1|</Hit_id>
+  <Hit_def>melanocortin 5b receptor isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005158226</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>3.13877e-95</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>SYENINNTARNNSDCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP--------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>SDESSRPKTSASAACEQVHIAPEVFLTLGLISLLENILVILAIVKNKNLHSPMYFFVCSLAVADMLVSVSNAWETIVIHLLANRSLVIEDHFIRQMDNVFDSLICISVVGSMWSLLAIAVDRYVTIFYALRYHNIMTVRRAGILIGSIWTFSTSCGIIFIIYSDTQPVVVCLVAMFFAMLLMMASLYSHMFLLARSHVKRMAALPGYNANIRQRASMKGAVTLTILLGIFIVCWAPFFLHLILMISCPRNIYCVCFMSHFNMYLILIMCNSVIDPLIYALRSQEMRKTFKEIVCCE</Hsp_hseq>
+      <Hsp_midline>S E+       ++ C +V +  E+F T+ ++ +LEN++V+LA+ KNKNL +PMYFF+CSLA++DML S+    E I+I L     L     F    D++ DSL  +S++GS++SL  IA DRY+TIF+ALRYH+I+T+RR  +++  IWTF T  GI  +I+S   P V+   ++F  ML+ +  LY HMFLLARSH ++++ LP        RA+MKGA+TLTILLG+FI CWAPF LH++LM  CP N YC C+MS F +  +LIMCN+VIDP IYA RS E+R  FK+++ C </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_775387.1|</Hit_id>
+  <Hit_def>melanocortin 5b receptor [Danio rerio] &gt;gb|AAI63224.1| Melanocortin 5b receptor [Danio rerio] &gt;gb|AAI63233.1| Melanocortin 5b receptor [Danio rerio] &gt;gb|AAL85496.1| melanocortin 5b receptor [Danio rerio] &gt;gb|AAO24746.1| melanocortin 5a receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_775387</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>4.49521e-95</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>SYENINNTARNNSDCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP--------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>SDESSRPKTSASAACEQVHIAPEVFLTLGLISLLENILVILAIVKNKNLHSPMYFFVCSLAVADMLVSVSNAWETIVIHLLANRSLVIEDHFIRQMDNVFDSLICISVVGSMWSLLAIAVDRYVTIFYALRYHNIMTVRRAGILIGSIWTFSTSCGIIFIIYSDTKPVVVCLVAMFFAMLLMMASLYSHMFLLARSHVKRMAALPGYNANIRQRASMKGAVTLTILLGIFIVCWAPFFLHLILMISCPRNIYCVCFMSHFNMYLILIMCNSVIDPLIYALRSQEMRKTFKEIVCCE</Hsp_hseq>
+      <Hsp_midline>S E+       ++ C +V +  E+F T+ ++ +LEN++V+LA+ KNKNL +PMYFF+CSLA++DML S+    E I+I L     L     F    D++ DSL  +S++GS++SL  IA DRY+TIF+ALRYH+I+T+RR  +++  IWTF T  GI  +I+S   P V+   ++F  ML+ +  LY HMFLLARSH ++++ LP        RA+MKGA+TLTILLG+FI CWAPF LH++LM  CP N YC C+MS F +  +LIMCN+VIDP IYA RS E+R  FK+++ C </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_775386.1|</Hit_id>
+  <Hit_def>melanocortin 5a receptor [Danio rerio] &gt;gb|AAI62797.1| Melanocortin 5a receptor [Danio rerio] &gt;gb|AAI62815.1| Melanocortin 5a receptor [Danio rerio] &gt;gb|AAL85495.1| melanocortin 5a receptor [Danio rerio] &gt;gb|AAO24747.1| melanocortin 5b receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_775386</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>6.76213e-95</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>NINNTARNNS--DCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP-------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>NATETPSHNKPKACEQLNIATEVFLILGIVSLLENILVICAIVKNKNLHSPMYFFVCSLAVADMLVSVSNAWETIVIYLLTNRQLVVEDHFIRQMDNVFDSMICISVVASMCSLLAIAVDRYVTIFYALRYHNIMTVRRAALIIGGIWTFCTGCGIVFIIYSDNTSVIVCLVSMFFIMLALMASLYSHMFMLARSHVKRIAALPGYNSIHQRASMKAAVTLTILLGIFIVCWAPFFLHLILMISCPRNLYCMCFMSHFNMYLILIMCNSVIDPLIYAFRSQEMRKTLKEIICC</Hsp_hseq>
+      <Hsp_midline>N   T  +N    C ++ +  E+F  + IV +LEN++V+ A+ KNKNL +PMYFF+CSLA++DML S+    E I+I L     L     F    D++ DS+  +S++ S+ SL  IA DRY+TIF+ALRYH+I+T+RR  +++  IWTFCTG GI  +I+S +   ++   S+F +ML  +  LY HMF+LARSH ++I+ LP       RA+MK A+TLTILLG+FI CWAPF LH++LM  CP N YC C+MS F +  +LIMCN+VIDP IYAFRS E+R   K++I C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_005159638.1|</Hit_id>
+  <Hit_def>melanocortin 5a receptor isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005159638</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.83018e-94</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>NINNTARNNS--DCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP-------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>NATETPSHNKPKACEQLNIATEVFLILGIVSLLENILVICAIVKNKNLHSPMYFFVCSLAVADMLVSVSNAWETIVIYLLTNRQLVVEDHFIRQMDNVFDSMICISVVASMCSLLAIAVDRYVTIFYALRYHNIMTVRRAALIIGGIWTFCTGCGIVFIIYSDNTSVIVCLVSMFFIMLALMASLYSHMFMLARSHVKRIAALPGYNSIHQRASMKAAVTLTILLGIFIVCWAPFFLHLILMISCPRNLYCMCFMSHFNMYLILIMCNSVIDPLIYAFRSQEMRKTLKEIICC</Hsp_hseq>
+      <Hsp_midline>N   T  +N    C ++ +  E+F  + IV +LEN++V+ A+ KNKNL +PMYFF+CSLA++DML S+    E I+I L     L     F    D++ DS+  +S++ S+ SL  IA DRY+TIF+ALRYH+I+T+RR  +++  IWTFCTG GI  +I+S +   ++   S+F +ML  +  LY HMF+LARSH ++I+ LP       RA+MK A+TLTILLG+FI CWAPF LH++LM  CP N YC C+MS F +  +LIMCN+VIDP IYAFRS E+R   K++I C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|NP_851302.1|</Hit_id>
+  <Hit_def>adrenocorticotropic hormone receptor [Danio rerio] &gt;gb|AAO24743.1| melanocortin 2 receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_851302</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.37832e-92</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>NSDCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP-------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>HTDCAEVQVPGQVFLVIAVASLSENLLVIVAVIKNKNLHSPMYCFICNLAVFNTISSFSKALENILLLFKDAGRLNLRGPFELKIDDIMDSLLCMCFLSSIFSILAIAVDRYISIFHALRYHMLMTMRRVLIILFTIWVLCGTSGALMVGFFEAATVTIFFIVLFFTALLLILLLYVHMFLLARHHANRIASMPGAQAQHRKSGLRGALTLTIKKGVFVACWAPFSLHLLIMMICPENQYCECYRSLFQLHVVLLVSHAVIDPAINAFRSVELRNTYKKQLLSS</Hsp_hseq>
+      <Hsp_midline>++DC  V +P ++F  I++  + ENL+V++AV KNKNL +PMY FIC+LA+ + + S  K LENIL++ ++ G L  RG FE   DDI+DSL  +  L SIFS+  IA DRYI+IFHALRYH ++TMRR +++L  IW  C  +G  MV F       I F  LF   L+ IL LYVHMFLLAR H  +I+++P       ++ ++GA+TLTI  GVF+ CWAPF LH+L+M  CP N YC CY SLFQ++ +L++ +AVIDP I AFRS ELR+ +KK +  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AAI62747.1|</Hit_id>
+  <Hit_def>Mc3r protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI62747</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>2.70398e-88</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>CPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTL-------------PRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>CEQVQIQAEVFLTLGIVSLLENILVISAVVKNKNLHSPMYFFLCSLAAADMLVSVSNSLETIVIAVLNSRLLVASDQFVRLMDNVCDSMICISLVASICNLLAIAVDRYVTIFYALRYHSIVTVRRALVAIAVIWLVCVVCGIVFIVYSESKTVIVCLITMFFAMLVLMATLYVHMFLLARLHVQRIAALPPAAPGAGNPAPRQRSCMKGAVTISILLGVFVCCWAPFFLHLILLVSCPHHPLCLCYMSHFTTYLVLIMCNSVIDPLIYACRSLEMRKTFKEILCC</Hsp_hseq>
+      <Hsp_midline>C +V +  E+F T+ IV +LEN++V+ AV KNKNL +PMYFF+CSLA +DML S+   LE I+I + N   L     F    D++ DS+  +SL+ SI +L  IA DRY+TIF+ALRYHSIVT+RR +V + VIW  C   GI  +++S     ++   ++F  MLV +  LYVHMFLLAR H ++I+ L              R+ MKGA+T++ILLGVF+ CWAPF LH++L+  CP +P C CYMS F    +LIMCN+VIDP IYA RS E+R  FK+++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|NP_851303.2|</Hit_id>
+  <Hit_def>melanocortin receptor 3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_851303</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>7.84545e-88</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>CPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTL-------------PRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>CEQVQIQAEVFLTLGIVSLLENILVISAVVKNKNLHSPMYFFLCSLAAADMLVSVSNSLETIVIAVLNSRLVVASDQFVRLMDNVCDSMICISLVASICNLLAIAVDRYVTIFYALRYHSIVTVRRALVAIAVIWLVCVVCGIVFIVYSESKTVIVCLITMFFAMLVLMATLYVHMFLLARLHVQRIAALPPAAPGAGNPAPRQRSCMKGAVTISILLGVFVCCWAPFFLHLILLVSCPHHPLCLCYMSHFTTYLVLIMCNSVIDPLIYACRSLEMRKTFKEILCC</Hsp_hseq>
+      <Hsp_midline>C +V +  E+F T+ IV +LEN++V+ AV KNKNL +PMYFF+CSLA +DML S+   LE I+I + N   +     F    D++ DS+  +SL+ SI +L  IA DRY+TIF+ALRYHSIVT+RR +V + VIW  C   GI  +++S     ++   ++F  MLV +  LYVHMFLLAR H ++I+ L              R+ MKGA+T++ILLGVF+ CWAPF LH++L+  CP +P C CYMS F    +LIMCN+VIDP IYA RS E+R  FK+++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AAO24744.1|</Hit_id>
+  <Hit_def>melanocortin 3 receptor [Danio rerio]</Hit_def>
+  <Hit_accession>AAO24744</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.077</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>3.63559e-86</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>CPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTL-------------PRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>CEQVQIQAEVFLTLGIVSLLENILVISAVVKNKNLHSPMYFFLCSLAAADMLVSVSNSLETIVIAVLNSRLLVASDQLCRLMHNVCDSMICISLVASICNLLAIAVDRYVTIFYALRYHSIVTVRRALVAIAVIWLVCVVCGIVFIVYSESKTVIVCLITMFFAMLVLMATLYVHMFLLARLHVQRIAALPPAAPGAGNPAPRQRSCMKGAVTISILLGVFVCCWAPFFLHLILLVSCPHHPLCLCYMSHFTTYLVLIMCNSVIDPLIYACRSLEMRKTFKEILCC</Hsp_hseq>
+      <Hsp_midline>C +V +  E+F T+ IV +LEN++V+ AV KNKNL +PMYFF+CSLA +DML S+   LE I+I + N   L           ++ DS+  +SL+ SI +L  IA DRY+TIF+ALRYHSIVT+RR +V + VIW  C   GI  +++S     ++   ++F  MLV +  LYVHMFLLAR H ++I+ L              R+ MKGA+T++ILLGVF+ CWAPF LH++L+  CP +P C CYMS F    +LIMCN+VIDP IYA RS E+R  FK+++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|NP_851301.1|</Hit_id>
+  <Hit_def>melanocyte-stimulating hormone receptor [Danio rerio] &gt;ref|XP_005159236.1| melanocyte-stimulating hormone receptor isoform X1 [Danio rerio] &gt;gb|AAI62836.1| Melanocortin 1 receptor [Danio rerio] &gt;gb|AAI62848.1| Melanocortin 1 receptor [Danio rerio] &gt;gb|AAO24742.1| melanocortin 1 receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_851301</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.3639e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MKHIINSYENINNTARNNSDCP---------RVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPRA-----NMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>MKHMDYMYNADNNITLNSNSTASDINVTGIAQIMIPQELFLMLGLISLVENILVVVAIIKNRNLHSPMYYFICCLAVADMLVSVSNVVETLFMLLTEHGLLLVTAKMLQHLDNVIDIMICSSVVSSLSFLCTIAADRYITIFYALRYHSIMTTQRAVGIILVVWLASITSSSLFIVYHTDNAVIACLVTFFGVTLVFTAVLYLHMFILAHVHSRRITALHKSRRQTTSMKGAITLTILLGVFILCWGPFFLHLILILTCPTNPYCKCYFSHFNLFLILIICNSLIDPLIYAYRSQELRKTLKELIFCS</Hsp_hseq>
+      <Hsp_midline>MKH+   Y   NN   N++            ++++P+E+F  + ++ ++EN++V++A+ KN+NL +PMY+FIC LA++DML S+  ++E + ++L   G L          D++ID +   S++ S+  L  IAADRYITIF+ALRYHSI+T +R V ++ V+W     +    +++      +    + F + LVF   LY+HMF+LA  H+R+I+ L ++     +MKGAITLTILLGVFI CW PF LH++L+  CP+NPYC CY S F +  +LI+CN++IDP IYA+RS ELR   K++IFCS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|APY16378.1|</Hit_id>
+  <Hit_def>melanocortin 1 receptor protein, partial [Danio rerio] &gt;gb|APY16379.1| melanocortin 1 receptor protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>APY16378</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>6.41411e-45</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>ILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPRA-----NMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNA</Hsp_qseq>
+      <Hsp_hseq>VVETLFMLLTEHGLLLVTAKMLQHLDNVIDIMICSSVVSSLSFLCTIAADRYITIFYALRYHSIMTTQRAVGIILVVWLASITSSSLFIVYHTDNAVIACLVTFFGVTLVFTAVLYLHMFILAHVHSRRITALHKSRRQTTSMKGAITLTILLGVFILCWGPFFLHLILILTCPTNPYCKCYFSHFNLFLILIICNS</Hsp_hseq>
+      <Hsp_midline>++E + ++L   G L          D++ID +   S++ S+  L  IAADRYITIF+ALRYHSI+T +R V ++ V+W     +    +++      +    + F + LVF   LY+HMF+LA  H+R+I+ L ++     +MKGAITLTILLGVFI CW PF LH++L+  CP+NPYC CY S F +  +LI+CN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|NP_001076394.2|</Hit_id>
+  <Hit_def>sphingosine 1-phosphate receptor 3a [Danio rerio] &gt;ref|XP_005170558.2| sphingosine 1-phosphate receptor 3a isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076394</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.15682e-21</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCT------GTGITMVIFSHHVPTVITF---------TSLFPLMLVFILCLYVHMFLLARSHTRKISTLPRANMKGAI-TLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMC--NAVIDPFIYAFRSPELRDAFKKMIFCSR</Hsp_qseq>
+      <Hsp_hseq>VIENITVLLALWRNKRFHSRMYFLIGNLALSDLLAGVAYVV-NIFTSGRNTFFLSP-GQWLLREG----SMFV-ALSASTFSLLAIGIERHMTMVR-LRPCETAGRGRLLALLGACWAVSVLLSALPSLGWNCLDRVHTCSTVLPLYDKSYIAFCISVFTALLAAIVVLYVRIYQLVTSSGRRVSSRPSDRSLALLRTVVIVLGVFVACWAPLFSLLLLDVGC-SPEQCPI---LYKVDWFIALAVLNSALNPLIYTFSSREMRTAFLRVLCCCQ</Hsp_hseq>
+      <Hsp_midline>V+EN+ VLLA+++NK   + MYF I +LA+SD+L  +  ++ NI    RN  +L P G +         S+FV +L  S FSL  I  +R++T+   LR        R + +L   W            G   +   H   TV+            S+F  +L  I+ LYV ++ L  S  R++S+ P       + T+ I+LGVF+ CWAP    +LL   C S   C     L++V+  + +   N+ ++P IY F S E+R AF +++ C +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_005173925.1|</Hit_id>
+  <Hit_def>sphingosine 1-phosphate receptor 3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005173925</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>2.21465e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>KHIINSYENINNTARNNSDCPRVVLPEEI--FFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPL---------------MLVFILCLYVHMFLLARSHTRKISTLPRANMKGAI--TLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>QHIYNHY-NFTGKLDNRNETKGAPMDPKIMAFYVVCSLIVLENLIVLVAIWRNHKFHNRMYFFIANLALCDLLAGVAYI-ANILMSGQRTLHLSPAEWFIREG-----SMFV-ALGASIFSLLAIAIERHLTMIK-MRPYDANKNYRVFLLIGTCWLIAITLGSLPILGWNCLEDLPQCSTILPLYSKNYVAFCITIFISLLLAISILYARIYVLVKSSSRKVTKHSNCERSMALLRTVSIVVGVFIACWTPIFVLLLIDVACGPK-RCPVLLKADWFVALAVL-NSAMNPVIYTLASREMRRAFYKLI</Hsp_hseq>
+      <Hsp_midline>+HI N Y N      N ++     +  +I  F+ +  + VLENLIVL+A+++N      MYFFI +LA+ D+L  +  I  NIL+  +   +L P   F         S+FV +L  SIFSL  IA +R++T+   +R +      R  +++   W      G   ++  + +  +   +++ PL               +L+ I  LY  +++L +S +RK++         A+  T++I++GVFI CW P  + +L+   C     C   +       + ++ N+ ++P IY   S E+R AF K+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|NP_001410414.1|</Hit_id>
+  <Hit_def>adenosine A2c receptor [Danio rerio] &gt;gb|ARQ18773.1| adenosine receptor A2c [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001410414</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>3.88464e-21</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>ISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDM-LGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVP--------------TVITFTSLF-----PLMLVFILCLYVHMFLLARSHTRKISTLP------------RANMKGAITLTILLGVFIFCWAPFVLHVL--LMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCSR</Hsp_qseq>
+      <Hsp_hseq>IALLSTVGNLLVCVAVGLNRKLQTVTNYFLVSLAVADICVGALAIPCA----IMTDLGI--PRHNLYLCL--LMLSVLIMLTQSSIFSLLAVAVERYVAIFMPFQYHRLMTPRNAVLILCVTWTLAFLIGLVPLMGWHKPPPESGYCFFVFVVDMTYMVYFNFFACVLAPLVVMFL--IYAQIFVTVKRQMRRIAAERGGAGNTEGTAKMKKEMKMATSLFLVLFLFTSCWIP--LHIINCFLLLCPS---CPVPLPLLLTAIILSHANSAVNPFLYAYKMKTFRNAFKSIFMCCR</Hsp_hseq>
+      <Hsp_midline>I+++  + NL+V +AV  N+ LQ    +F+ SLA++D+ +G+L         I+ ++G   PR +       ++ S+ ++    SIFSL  +A +RY+ IF   +YH ++T R  V++L V WT     G+  ++  H  P              T + + + F     PL+++F+  +Y  +F+  +   R+I+               +  MK A +L ++L +F  CW P  LH++   +  CPS   C   + L     +L   N+ ++PF+YA++    R+AFK +  C R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|NP_001153442.1|</Hit_id>
+  <Hit_def>sphingosine 1-phosphate receptor 2 [Danio rerio] &gt;sp|Q9I8K8.1| RecName: Full=Sphingosine 1-phosphate receptor 2; Short=S1P receptor 2; Short=S1P2; AltName: Full=Sphingosine 1-phosphate receptor Edg-5; Short=S1P receptor Edg-5 [Danio rerio] &gt;gb|AAF88001.1| EDG-5-related protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001153442</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>7.98357e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>HIINSYENINNTARNNSDCPRVVLPEEIFFTI--SIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDML-GSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPL---------------MLVFILCLYVHMFLLAR-SHTRKISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLL-----MTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>HYLTAKEMTAEELRDRIESKQSLSSLNILFVVICSII-ILENLLVLIAVFRNKKFHSAMFFFIGNLAFSDLLAGSAY--IANIFLSGPRTFHLTPVQWF------IREGTAFIALSASVFSLLAIAIERYIAITKVKVYGSNKTC-RMFLLIGACWVMSILLGGLPIIGWNCINNLDDCSAVLPLNTRYYIRFVVTIFSIILLSIVILYVRIYLIVRTSHQEATNSPAYALLK---TVTIVLGVFIICWLPAFTILLLDTSCKMKQCPILNNAGIFFSFATLNSAL-------NPLIYTLRSKDMRKEFLRVLCC</Hsp_hseq>
+      <Hsp_midline>H + + E      R+  +  + +    I F +  SI+ +LENL+VL+AVF+NK   + M+FFI +LA SD+L GS Y  + NI +      +L P   F      I +    ++L  S+FSL  IA +RYI I     Y S  T  R  +++   W      G   +I  + +  +   +++ PL               +L+ I+ LYV ++L+ R SH    ++   A +K   T+TI+LGVFI CW P    +LL     M  CP       + S   +N  L       +P IY  RS ++R  F +++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_017208422.1|</Hit_id>
+  <Hit_def>G-protein coupled receptor 12 [Danio rerio] &gt;gb|QVY47445.1| G-protein coupled receptor 12-like a [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017208422</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>5.66758e-20</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>ENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPL------------MLVF--ILCLYVHMFLLARSHTRKISTLPR--------ANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFK</Hsp_qseq>
+      <Hsp_hseq>ENAVVIALIAYTPTLRAPMFVLIGSLAFADLLAGLGLILNFIITYIIDSGLVTLLSA----------GLLITAFSASVLNILAITVDRYLSLYNALTYHTERTMTFTYVTLIFMWIISAALGSLPVLGWNCLEDESTCSICRPVNKNNAAALAVSFLLVFALILQLYLQICKIAFRHAQQIAVQRQFMTASHASSTTKGVSTLTTILGTFAFCWIPLAMYSLVAD--TRSPVIYTY-----VTALPAICHSIINPMVYAFRNPEILRSLR</Hsp_hseq>
+      <Hsp_midline>EN +V+  +     L+APM+  I SLA +D+L  L  IL  I+  + + G +    +           L + +   S+ ++  I  DRY+++++AL YH+  TM  T V L  +W      G   V+  + +    T +   P+            +LVF  IL LY+ +  +A  H ++I+   +        +  KG  TLT +LG F FCW P  ++ L+      +P    Y     V  +  +C+++I+P +YAFR+PE+  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_005172376.1|</Hit_id>
+  <Hit_def>G-protein coupled receptor 12 [Danio rerio] &gt;gb|QVY47446.1| G-protein coupled receptor 12-like b [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005172376</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.29404e-19</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>PRVVLPEEIFFTISIVGVL---ENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIF------------------SHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPR----ANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAF</Hsp_qseq>
+      <Hsp_hseq>PLPVSPWDI--ALCVTGTLISCENAIVIAILFYTPTLRAPMFILIGSLAFADLLAGLGLILNFVFIYMLNTEFVT----------LISVGMLIAAFSASVLNILAITVDRYLSLYNALTYHTERTVTFTYVVVVLIWLVCITLGLLPVLGWNCLRDEASCSICRPVTKNNAVVLAVTFLLVFALMMQ----LYLQICKIAFRHAQQIAVQHQFMAISTTKGVSTLSVILCTFAVCWMPFAMYSIVAD--SSYPMIYTYATVLPAT-----CNSVINPIIYAYRNPDIQKSL</Hsp_hseq>
+      <Hsp_midline>P  V P +I   + + G L   EN IV+  +F    L+APM+  I SLA +D+L  L  IL  + I + N  ++            I   + + +   S+ ++  I  DRY+++++AL YH+  T+  T VV+ +IW  C   G+  V+                   ++ V   +TF  +F LM+     LY+ +  +A  H ++I+   +    +  KG  TL+++L  F  CW PF ++ ++     S P    Y ++         CN+VI+P IYA+R+P+++ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|NP_001034904.1|</Hit_id>
+  <Hit_def>adenosine A2a receptor a [Danio rerio] &gt;ref|XP_005167233.1| adenosine A2a receptor a isoform X1 [Danio rerio] &gt;gb|AAI63368.1| Zgc:194773 [Danio rerio] &gt;gb|AAI63378.1| Zgc:194773 [Danio rerio] &gt;gb|AAX63345.1| adenosine receptor A2a.1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001034904</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>4.19154e-19</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>ISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLL-GSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHH------------------------VPTVITFTSLFPLMLV---FILCLYVHMFLLARSHTRKIST--LP---------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPS---NPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>IALLSVLGNVLVCWAVGLNSNLQSITNFFVVSLAVADIAVGVLAIPFSIVI---------STGFCANFYGCLFIACFVLVLTQSSIFSLLAIAIDRYIAIKIPLRYNSLVTGQRARGIIAICWVLSVIIGLTPMLGWHKARLQEGHNGTCPPGMMECLFEEVVVMDYMVYFNFFACVLVPLLLMLAIYLRIFMAARHQLKCIESKAIPCELKSRSTLQKEVHAAKSLAIIVGLFAVCWLPLHIINCFTLFCPECERPPALIMYLAI-----ILSHANSVVNPFIYAYRIREFRHTFRKIV</Hsp_hseq>
+      <Hsp_midline>I+++ VL N++V  AV  N NLQ+   FF+ SLA++D+   +  I  +I+I           G        +  + FVL L   SIFSL  IA DRYI I   LRY+S+VT +R   ++ + W      G+T ++  H                         V   + + + F  +LV    +L +Y+ +F+ AR   + I +  +P         +  +  A +L I++G+F  CW P  +      FCP     P    Y+++     +L   N+V++PFIYA+R  E R  F+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|NP_001076384.1|</Hit_id>
+  <Hit_def>G protein-coupled receptor 3 [Danio rerio] &gt;gb|QVY47449.1| G-protein coupled receptor 3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076384</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>5.22391e-19</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>VVLPEEIFFTISIVGVL---ENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFI--LC-----------------------------LYVHMFLLARSHTRKISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>VMTPWDI--TLCVSGVLICCENAIVVATIFSSSSLRAPMFLLIGSLAWADFLAGVGLLLH----------FLSRRCVYSEALELGSVGLLVSALSASVFSLLGITLDRFLSLHHALTYGSQRTHTQTRCALAVGWTLAGLQGALPALGWNCLHDGDSCSVLRPLTRVHLATLCGGFLLTLALLLQLNARICRVVLRHSHQIALQRHTLPSARTHTRR-----RVH-----TLALILATFASCWIPFALYGLLGDG--SSPALYTYATLVPVTG-----NSLLNPLIYAYRNTHIQRVLRQTVCC</Hsp_hseq>
+      <Hsp_midline>V+ P +I  T+ + GVL   EN IV+  +F + +L+APM+  I SLA +D L  +  +L           +L  R  +    +     L V +L  S+FSL  I  DR++++ HAL Y S  T  +T   L V WT     G    +  + +    + + L PL  V +  LC                             L  H    AR+HTR+     R +     TL ++L  F  CW PF L+ LL     S+P    Y +L  V G     N++++P IYA+R+  ++   ++ + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_697043.2|</Hit_id>
+  <Hit_def>alpha-1D adrenergic receptor [Danio rerio]</Hit_def>
+  <Hit_accession>XP_697043</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>3.02729e-18</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>IFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGS--FETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVIT-------------FTSLFP--LMLVFILCLYVHMFLLARSHTRKIS--------------------TLPRAN-------------------------MKGAITLTILLGVFIFCWAPFVLHVLLMTFCPS-NPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAF</Hsp_qseq>
+      <Hsp_hseq>IFISVAIVG---NILVILSVLCNKHLQTVTNFFIVNLAIADLLLSI--------IVLPFSASLEVLGCWVFGRVFCNIWAAVDVLCCTASILSLCVISIDRYIGVKHCLKYPTIMTERKAGVILVLVWVSSMVISIGPLLGWKEPPPSDESICRITEEPGYALFSSLFSFYLPLMVILVMYIRVYIVARRTTKSLEAGVKRERDKSMEVVLRIHCRSMPEDSSTSSKTKNHPFRSSLSVRLMKFSREKKAAKTLAIVVGMFILCWLPFFFVLPLGSFFPALKPSDMVFKVIFWLGYF----NSCINPIIYPCSSKEFQRAF</Hsp_hseq>
+      <Hsp_midline>IF +++IVG   N++V+L+V  NK+LQ    FFI +LAI+D+L S+        I+L     L+  G   F     +I  ++ VL    SI SL VI+ DRYI + H L+Y +I+T R+  V+L ++W       I  ++     P                 F+SLF   L L+ IL +Y+ ++++AR  T+ +                     ++P  +                          K A TL I++G+FI CW PF   + L +F P+  P    +  +F +       N+ I+P IY   S E + AF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|ACD36667.1|</Hit_id>
+  <Hit_def>htr1aa, partial [Danio rerio]</Hit_def>
+  <Hit_accession>ACD36667</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>8.0389e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>354</Hsp_align-len>
+      <Hsp_qseq>ENINNTARNNSDCPRVVLPEEIFFTISIVG-----------VLENLIVLLAVFKNKNLQAPMYFFICSLAISDML--------GSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGI----------------TMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKI------------------STLPRA-------------NMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMS--LFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>ESYNNTTESQDWSGNATSVSEVALSYQIIGSLFLAALILFAILGNACVIAAIALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLN--------------KWTLGQEMCDIFISLDVLCCTSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAILISLTWLIGFSISIPPMLGWRKPEDRADPDACTISQDHGYTIYSTFGAFYIPLILMLVLYGRIFRAARFRIRKTVKKTEKAKIADKCLAVSPALFPRKANGEVGKTWRRSVERKTVKTLGIIMGTFIFCWLPFFIVALVLPFCQD-----CFMPEWLGAVINWLGYSNSLLNPVIYAYFNKDFQNAFKKILKCK</Hsp_hseq>
+      <Hsp_midline>E+ NNT  +           E+  +  I+G           +L N  V+ A+   ++LQ    + I SLA++D++         +LY++L               + +      DI  SL VL    SI  L  IA DRY  I   + Y +  T RR  +++++ W       I                   I   H  T+ +    F + L+ +L LY  +F  AR   RK                   +  PR                K   TL I++G FIFCW PF +  L++ FC       C+M   L  V   L   N++++P IYA+ + + ++AFKK++ C </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|NP_001035125.1|</Hit_id>
+  <Hit_def>adenosine A2a receptor b [Danio rerio] &gt;ref|XP_005161155.1| adenosine A2a receptor b isoform X1 [Danio rerio] &gt;gb|AAI62239.1| Adenosine receptor A2a.2 [Danio rerio] &gt;gb|AAI62249.1| Adenosine receptor A2a.2 [Danio rerio] &gt;gb|AAX63346.1| adenosine receptor A2a.2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001035125</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>3.03593e-17</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>ISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLL-GSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW----------------TFCTGT------GITMVIFSHHVP-TVITFTSLFPLMLV---FILCLYVHMFLLAR--------------SHTRKISTLPRANMK----GAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>IAVLAVAGNVLVCWAVCLNSNLQSITNFFVVSLAVADIAVGVLAIPFAVTI---SIGFCS---NFHGC---LFIACFVLVLTQSSVFSLLAIAVDRYIAIKIPLRYNSLVTGRRAKGIIAVCWILSVVIGLTPMFGWNTSIDAGTNSSCPQGMTECLFEKVVTMGYMVYFNFFGCILIPLFAMLAIYTWIFTAARRQLRQMEQKLAHLQGHAHKEGSSSRSTLQKEVHAAKSLAIIVGLFAVCWLPLHIINCFTLFCPQCDRPQDWVMYLAI--ILSHANSVVNPFIYAYRIRDFRQTFRRII</Hsp_hseq>
+      <Hsp_midline>I+++ V  N++V  AV  N NLQ+   FF+ SLA++D+   +  I   + I   ++G+     +F      +  + FVL L   S+FSL  IA DRYI I   LRY+S+VT RR   ++ V W                +   GT      G+T  +F   V    + + + F  +L+    +L +Y  +F  AR               H  K  +  R+ ++     A +L I++G+F  CW P  +      FCP       ++    +  +L   N+V++PFIYA+R  + R  F+++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|AAH85656.1|</Hit_id>
+  <Hit_def>Zgc:92296 [Danio rerio] &gt;dbj|BAN78702.1| hypothetical protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH85656</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>8.64073e-17</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>PEEI-FFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILE------NILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMV--------------IFSHHVPTVITF-TSLFPLMLVFILCLYVHMFLLARSHTRKIS------TLPRANMKGAI---TLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGML--IMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>PEAIAFLIICLLIVVENAIVLVAIWKNKKFHMPMYYLLGSLTLSDLLAGFTYMVNIVTSGANTLKMTPVLWFLREGGVF-------------ITLAASVISLLAIAIERHVTMVRMKPYQG-AKRGRMFGLIGASWLLSILLGILPIMGWNCIGNLDECSTVLPLYAKSFILFCITVFTLVLMSIVVLYVRIFRIVKSNTQRLGFGTQRKGLARKSQKYLALLKTVTIVLGVFIACWLPLFVLLLLDFSCPAQ---SCEV-LFKADYFLGIAMINSLLNPIIYTLTSKDMRRAILRLV-CS</Hsp_hseq>
+      <Hsp_midline>PE I F  I ++ V+EN IVL+A++KNK    PMY+ + SL +SD+L     ++       N L +   + +L+  G F             ++L  S+ SL  IA +R++T+     Y       R   ++   W      GI  +              +   +  + I F  ++F L+L+ I+ LYV +F + +S+T+++        L R + K      T+TI+LGVFI CW P  + +LL   CP+    +C + LF+ +  L   M N++++P IY   S ++R A  +++ CS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|NP_001007317.2|</Hit_id>
+  <Hit_def>sphingosine 1-phosphate receptor 5a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001007317</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.02486e-16</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>PEEI-FFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILE------NILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMV--------------IFSHHVPTVITF-TSLFPLMLVFILCLYVHMFLLARSHTRKIS------TLPRANMKGAI---TLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGML--IMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>PEAIAFLIICLLIVVENAIVLVAIWKNKKFHMPMYYLLGSLTLSDLLAGFTYMVNIVTSGANTLKMTPVLWFLREGGVF-------------ITLAASVISLLAIAIERHVTMVRMKPYQG-AKRGRMFGLIGASWLLSILLGILPIMGWNCIGNLDECSTVLPLYAKSFILFCITVFTLVLMSIVVLYVRIFRIVKSNTQRLGFGTQRKGLARKSQKYLALLKTVTIVLGVFIACWLPLFVLLLLDFSCPAQ---SCEV-LFKADYFLGIAMINSLLNPIIYTLTSKDMRRAILRLV-CS</Hsp_hseq>
+      <Hsp_midline>PE I F  I ++ V+EN IVL+A++KNK    PMY+ + SL +SD+L     ++       N L +   + +L+  G F             ++L  S+ SL  IA +R++T+     Y       R   ++   W      GI  +              +   +  + I F  ++F L+L+ I+ LYV +F + +S+T+++        L R + K      T+TI+LGVFI CW P  + +LL   CP+    +C + LF+ +  L   M N++++P IY   S ++R A  +++ CS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|NP_001076578.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076578</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.27755e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>KHIINSYENINNTARNN---------SDCPR------VVLPEEIFFTISIVG-VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSL---YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC------------TGTGITMVIFSHH-VPTVITF----TSLFPLMLVFIL-----CLYVHMFLLARSHTRKISTLPRANMK----------GAITLTILLGVFIFCWAPFVLHVLL---MTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIF</Hsp_qseq>
+      <Hsp_hseq>KKIIQDVMTSNQTQTENILLCYPLLSNSCPKLHRLAVVQVGLYVFLLLMILTTVFGNLMIIISISHFKHLQSPTHLIVQSLAACDCLMGSLVMPYSMVRSV----EGCWYL---GDVVCKVHFSFDVTFCIS---SLLHLCLISVDRYLAICDPLRYKIRVTNTTMTVFIIFIWLFSVVYSFSIVFSGITAVGLEMLILQTYCVGSCVLFFNKEWAVYPFLTFFITGAIMSSLYMKIFHVARKHAKVMSERVKGGLKSQRSAQRERKAAKTLAIVMGVFMFCWLPYCAFTALYPFFTFLNSA-------EVFDVLFWFAYFNSSCNPLIYGFFYPCFQKAFKILIF</Hsp_hseq>
+      <Hsp_midline>K II      N T   N         + CP+      V +   +F  + I+  V  NL++++++   K+LQ+P +  + SLA  D ++GSL   Y ++ ++        YL   G          D  F +S   S+  L +I+ DRY+ I   LRY   VT     V +  IW F             T  G+ M+I   + V + + F     +++P +  FI       LY+ +F +AR H + +S   +  +K           A TL I++GVF+FCW P+     L    TF  S         +F V       N+  +P IY F  P  + AFK +IF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|NP_001076573.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12b [Danio rerio] &gt;gb|AAI63646.1| Trace amine associated receptor 69 [Danio rerio] &gt;gb|AAI63648.1| Trace amine associated receptor 69 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076573</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>6.74501e-15</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSL---YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC------------TGTGITMVIFSHHV--PTVITFT---SLFPLMLVFIL-----CLYVHMFLLARSHTR----------KISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLL---MTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>VFGNLLIIISISHFKHLQSPTHLIVQSLAACDCLMGSLVMPYSMVRSV----EGCWYL---GDVVCKVHSSLDMTFCMS---SLLHLGLISVDRYWAICDPLRYRLRVTNTTVTVFIIVIWLFSFIYNFSIVFSGITAVGLEMLILQTYCVGSCIVLFNKEWAVYPFLTFFITGAIMSSLYMKIFHVAQKHAKVMSERVTGGLKSQSSAQRERKAAKTLAIVMGVFMFCWLPYCAFTALYPFFTFLNS-------AEVFDVLFWFAYFNSSCNPVIYGFFYPCFQKAFKILI</Hsp_hseq>
+      <Hsp_midline>V  NL++++++   K+LQ+P +  + SLA  D ++GSL   Y ++ ++        YL   G         +D  F +S   S+  L +I+ DRY  I   LRY   VT     V + VIW F             T  G+ M+I   +     ++ F    +++P +  FI       LY+ +F +A+ H +          K  +  +   K A TL I++GVF+FCW P+     L    TF  S         +F V       N+  +P IY F  P  + AFK +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_009298048.1|</Hit_id>
+  <Hit_def>lysophosphatidic acid receptor 2a isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009298048</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>6.79411e-15</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFET---TADDIIDSLFV------LSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTF---------------CTGTGITMV--IFSHHVPTVITFTSLFPLMLVFIL-CLYVHMFLLARSHTRKIS--TLPRANMKGAI----TLTILLGVFIFCWAPFVLHVLLMTFCPSNPYC-ACYMSLFQVNGM-LIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>ILANMLVIAAIIVNRKFHFPIYYLLGNMAAADLFAGI------------SYSYL----VFHTGPWTINLTIKEWFVRGALINMSLTASVVNLLAVAVERHQTIF-TMQLHTTMTRRRVVMLIVTIWVVAVVMGLVPTMGWNCVCDQLGCSTVAPLYSR---SFLVFWAILNLMAFFIMVAVYTHIFIYVRRRSQVMSPHTDQPSNNQTVISLMKTMSMILGAFVICWTPGLVILLLDGL-----KCIECHVLKYEKYCLVLAECNSLVNPIIYSFRDEDMRTTYKRIL</Hsp_hseq>
+      <Hsp_midline>+L N++V+ A+  N+    P+Y+ + ++A +D+   +            +  YL     F T   T +  I   FV      +SL  S+ +L  +A +R+ TIF  ++ H+ +T RR V+++  IW                 C   G + V  ++S    + + F ++  LM  FI+  +Y H+F+  R  ++ +S  T   +N +  I    T++++LG F+ CW P ++ +LL         C  C++  ++   + L  CN++++P IY+FR  ++R  +K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_005162795.1|</Hit_id>
+  <Hit_def>G-protein coupled receptor 12 [Danio rerio] &gt;gb|QVY47447.1| G-protein coupled receptor 12 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005162795</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>1.25718e-14</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>ENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILE-NILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW--TFCTG----TGIT--------MVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKI-------STLPR--ANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAF</Hsp_qseq>
+      <Hsp_hseq>ENALVVLVIWQNPALRAPMFLLIGSLALADLLAGLGLVLHFTFAYLLRS-----------DSAQLLTVGLVVASFSASVFSLLAITIDRYLSLYYALTYNSERTAAFTYTMLVLLWGVSLCLGLLPVTGVNCLGQEVNCSVVWPLTKNNVAVLSVSFLLLFGLMLQLYVQICKIVMRHAHQIALQHHFLAASPHYVTTRKGVSTLAIILGTFAACWMPFTVYSLIADY--TYPPLYTYATLVPAT-----YNSVINPVIYAFRNQEIQKAL</Hsp_hseq>
+      <Hsp_midline>EN +V+L +++N  L+APM+  I SLA++D+L  L  +L      +LR+            +A  +   L V S   S+FSL  I  DRY+++++AL Y+S  T   T  +L ++W  + C G    TG+          V++      V   +  F L+   +L LYV +  +   H  +I       +  P      KG  TL I+LG F  CW PF ++ L+  +  + P    Y +L          N+VI+P IYAFR+ E++ A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|NP_001154956.1|</Hit_id>
+  <Hit_def>melatonin receptor type 1C [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001154956</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>1.41624e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>INSYENINN--TARNNSDCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW---------TFCTGT----------GITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLL-ARSHTRKISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFK</Hsp_qseq>
+      <Hsp_hseq>LDSLSQGNNCLTARSTSPGVAATLAGVLIFT-TVADIVGNLLVILSVYRNKKLRNAGNIFVVSLSVADLVVALYPYPLALIAIFHNDWTM---GSLHCQLSGFIMGL---SVIGSVFNITAIAINRYCYICHSLRYDRLYSRRNTCLYLLLTWMLTALATVPNFLVGSLKYDPRVFSCTFTQTASSSYTVCVVLIHFLVPLGVVSFCYLRIWTLVIRVKGRVRPNPKVRAADLRNFLTMFVVFVLFAVCWAPLNFIGLAVAINPAKVAPNIPEWLFVTSYFMAYFNSCLNAVVYGLLNQNFRQEYK</Hsp_hseq>
+      <Hsp_midline>++S    NN  TAR+ S      L   + FT ++  ++ NL+V+L+V++NK L+     F+ SL+++D++ +LY     ++ I  N   +   GS        I  L   S++GS+F+++ IA +RY  I H+LRY  + + R T + L + W          F  G+            T    S +   V+    L PL +V    L +   ++  +   R    +  A+++  +T+ ++  +F  CWAP     L +   P+         LF  +  +   N+ ++  +Y   +   R  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_073774234.1|</Hit_id>
+  <Hit_def>D(5)-like dopamine receptor [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073774234</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>5.02854e-14</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMY-FFICSLAISDMLGSL----YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHH--------VPTVITFTSL------------FPLMLVFILCLYVHMFLLARSHTRKISTLPRA----------------------NMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMS-LFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCSR</Hsp_qseq>
+      <Hsp_hseq>LLGNTLVCAAVIKFRHLRSKVTNFFVISLAVSDLFVAVLVMPWKAVSEVAGCWLFGGFCDTWIAFD-----------IMCSTASILNLCIISLDRYWAISSPFRYERKMTQRMAFIMIGMAWTLSVLISFIPVKLNWHRAVDHNLTVPSEDCTASLNRTYAIASSLISFYIPVIIMIGTYTRIYRIAQTQIRRISILERAAGHAQSQQDCASEQSLKSTFKKETKVLKTLSIIMGVFVFCWLPFFVLNCIVPFCDTLGDSPCVSSTTFNIFVWFGWANSSLNPVIYAFNA-DFRKAFSTILGCNR</Hsp_hseq>
+      <Hsp_midline>+L N +V  AV K ++L++ +  FF+ SLA+SD+  ++    +K +  +       G+     +F+           ++    SI +L +I+ DRY  I    RY   +T R   +++ + WT         V  + H        VP+     SL            F + ++ ++  Y  ++ +A++  R+IS L RA                        K   TL+I++GVF+FCW PF +   ++ FC +     C  S  F +       N+ ++P IYAF + + R AF  ++ C+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|NP_001003578.1|</Hit_id>
+  <Hit_def>lysophosphatidic acid receptor 2a [Danio rerio] &gt;gb|AAH78264.1| Zgc:101053 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001003578</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>7.72612e-14</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFET---TADDIIDSLFV------LSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTF---------------CTGTGITMV--IFSHHVPTVITFTSLFPLMLVFIL-CLYVHMFLLARSHTRKIS--TLPRANMKGAI----TLTILLGVFIFCWAPFVLHVLLMTFCPSNPYC-ACYMSLFQVNGM-LIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>ILANMLVIAAIIVNRKFHFPIYYLLGNMAAADLFAGI------------SYSYL----VFHTGPWTINLTIKEWFVRGALINMSLTASVVNLLAVAVERHQTIF-TMQLHTTMTRWRVVMLIVTIWVVAVVMGLVPTMGWNCVCDQLGCSTVAPLYSR---SFLVFWAILNLMAFFIMVAVYTHIFIYVRRRSQVMSPHTDQPSNNQTVISLMKTMSMILGAFVICWTPGLVILLLDGL-----KCIECHVLKYEKYCLVLAECNSLVNPIIYSFRDEDMRTTYKRIL</Hsp_hseq>
+      <Hsp_midline>+L N++V+ A+  N+    P+Y+ + ++A +D+   +            +  YL     F T   T +  I   FV      +SL  S+ +L  +A +R+ TIF  ++ H+ +T  R V+++  IW                 C   G + V  ++S    + + F ++  LM  FI+  +Y H+F+  R  ++ +S  T   +N +  I    T++++LG F+ CW P ++ +LL         C  C++  ++   + L  CN++++P IY+FR  ++R  +K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AAO23296.1|</Hit_id>
+  <Hit_def>melatonin receptor Mel1c Z2.3k-5, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAO23296</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>8.24292e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>INSYENINN--TARNNSDCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW---------TFCTGT----------GITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLL-ARSHTRKISTLPRANMKGAITLTILLGVFIFCWAPF</Hsp_qseq>
+      <Hsp_hseq>LDSLSQGNNCLTARSTSPGVAATLAGVLIFT-TVADIVGNLLVILSVYRNKKLRNAGNIFVVSLSVADLVVALYPYPLALIAIFHNDWTM---GSLHCQLSGFIMGL---SVIGSVFNITAIAINRYCYICHSLRYDRLYSRRNTCLYLLLTWMLTALATVPNFLVGSLKYDPRVFSCTFTQTASSSYTVCVVLIHFLVPLGVVSFCYLRIWTLVIRVKGRVRPNPKVRAADLRNFLTMFVVFVLFAVCWAPL</Hsp_hseq>
+      <Hsp_midline>++S    NN  TAR+ S      L   + FT ++  ++ NL+V+L+V++NK L+     F+ SL+++D++ +LY     ++ I  N   +   GS        I  L   S++GS+F+++ IA +RY  I H+LRY  + + R T + L + W          F  G+            T    S +   V+    L PL +V    L +   ++  +   R    +  A+++  +T+ ++  +F  CWAP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|NP_001112363.1|</Hit_id>
+  <Hit_def>sphingosine 1-phosphate receptor 4 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001112363</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.26672e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>ENINNTARNNSDCPR---VVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFIC--SLAISDML-GSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW--TFCTG----TGITMVIFSHHVPTVITFTS----LFPLMLVFIL-----CLYVHMFLLARSHTRKISTLPRAN----MKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>EHYNYTGRLHHRKPSKKSVSAVTVLFLCFSVFIILENLMVLLAVLFRVRLRH-RWIFICIANIALSDLLTGTSYVV--NICMSGEQTFRLTP------ILWLFREGLLFVALAASIFSLLLIAVERYATMMKPVHQKTATKTYRVYIMMLLCWITAFIIGFLPLMGWNCVCDLRSCSTLLPLYSKSYILFALVIFFIILLTIGVLYFAIYCHVRSSTETISARSRKRSLRLLKAVIS---IVGVFMVCWGPLFILLLVDFFCYSRS-CSPLFNPEWVIALAVL-NSAMNPLIYSFGSLELRKAIATLLCCS</Hsp_hseq>
+      <Hsp_midline>E+ N T R +   P    V     +F   S+  +LENL+VLLAV     L+   + FIC  ++A+SD+L G+ Y +  NI +       L P            + L  ++L  SIFSL +IA +RY T+   +   +     R  +++ + W   F  G     G   V       T++   S    LF L++ FI+      LY  ++   RS T  IS   R      +K  I+   ++GVF+ CW P  + +L+  FC S   C+   +   V  + ++ N+ ++P IY+F S ELR A   ++ CS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_017213581.1|</Hit_id>
+  <Hit_def>trace amine-associated receptor 13c-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017213581</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.79127e-13</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>RNNSDCPRVVLPEEIFF-------TISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTF---------------------CTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP----RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGM-LIMC-NAVIDPFIYA</Hsp_qseq>
+      <Hsp_hseq>NNNLSCTRNVKPGAEFIFVYIFISTVSVLTVFLNLLVIISIAHFHQLHSPTNVLIFSLAMADLIVGL------ILMPVHGLKLIEPCWYFGEIFCSIFPFIFYVVVTASLGNLIIISVDRYIAVNDPLRYTTRVDTNRAVFSIVVNWVFSSIYSFLILYESVLYPEKNHTCIGECILFIKLEYIITDVLV-TLVTPCCL--IIYLYLKIFFLAKHQAEHINALTDKKVKSEKKAAKSLGVVVMIYLLCWIPYYIAALTLGQDTGDS--------LVINIMYWILCMNSLMNPLIYA</Hsp_hseq>
+      <Hsp_midline> NN  C R V P   F        T+S++ V  NL+V++++     L +P    I SLA++D++  L      IL+ +  +  ++P   F      I   +F + +  S+ +L +I+ DRYI +   LRY + V   R V  + V W F                     C G  I  +   + +  V+  T + P  L  I+ LY+ +F LA+     I+ L     ++  K A +L +++ +++ CW P+ +  L +     +           +N M  I+C N++++P IYA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|AAH66587.1|</Hit_id>
+  <Hit_def>Im:6805837 protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAH66587</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.86797e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>ENINNTARNNSDCPR---VVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFIC--SLAISDML-GSLYKILENILIILRNMGYLKPRGSFETTADDII----DSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW--TFCTG----TGITMVIFSHHVPTVITFTS----LFPLMLVFIL-----CLYVHMFLLARSHTRKISTLPRAN----MKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>EHYNYTGRLHHRKPSKKSVSAVTVLFLCFSVFIILENLMVLLAVLFRVRLRH-RWIFICIANIALSDLLTGTSYVV--NICMSGEQTFRLTP----------ILWLFREGLLFVALAASIFSLLLIAVERYATMMKPVHQKTATKTYRVYIMMLLCWITAFIIGFLPLMGWNCVCDLRSCSTLLPLYSKSYILFALVIFFIILLTIGALYFAIYCHVRSSTETISVRSRKRSLRLLKAVIS---IVGVFMVCWGPLFILLLVDFFCYSRS-CSPLFNPEWVIALAVL-NSAMNPLIYSFGSLELRKAIATLLCCS</Hsp_hseq>
+      <Hsp_midline>E+ N T R +   P    V     +F   S+  +LENL+VLLAV     L+   + FIC  ++A+SD+L G+ Y +  NI +       L P          I+    + L  ++L  SIFSL +IA +RY T+   +   +     R  +++ + W   F  G     G   V       T++   S    LF L++ FI+      LY  ++   RS T  IS   R      +K  I+   ++GVF+ CW P  + +L+  FC S   C+   +   V  + ++ N+ ++P IY+F S ELR A   ++ CS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|AAH56518.1|</Hit_id>
+  <Hit_def>Im:6805837 protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAH56518</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>2.13286e-13</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>ENINNTARNNSDCPR---VVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFIC--SLAISDML-GSLYKILENILIILRNMGYLKPRGSFETTADDII----DSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW--TFCTG----TGITMVIFSHHVPTVITFTS----LFPLMLVFIL-----CLYVHMFLLARSHTRKISTLPRAN----MKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>EHYNYTGRLHHRKPSKKSVSAVTVLFLCFSVFIILENLMVLLAVLFRVRLRH-RWIFICIANIALSDLLTGTSYVV--NICMSGEQTFRLTP----------ILWLFREGLLFVALAASIFSLLLIAVERYATMMKPVHQKTATKTYRVYIMMLLCWITAFIIGFLPLMGWNCVCDLRSCSTLLPLYSKSYILFALVIFFIILLTIGVLYFAIYCHVRSSTETISARSRKRSLRLLKAVIS---IVGVFMVCWGPLFILLLVDFFCYSRS-CSPLFNPEWVIALAVL-NSAMNPLIYSFGSLELRKAIATLLCCS</Hsp_hseq>
+      <Hsp_midline>E+ N T R +   P    V     +F   S+  +LENL+VLLAV     L+   + FIC  ++A+SD+L G+ Y +  NI +       L P          I+    + L  ++L  SIFSL +IA +RY T+   +   +     R  +++ + W   F  G     G   V       T++   S    LF L++ FI+      LY  ++   RS T  IS   R      +K  I+   ++GVF+ CW P  + +L+  FC S   C+   +   V  + ++ N+ ++P IY+F S ELR A   ++ CS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|NP_001076377.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12g [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076377</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>3.20936e-13</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC------------TGTGITMVIFSHHV--PTVITFTSLFPLM---LVFIL------CLYVHMFLLARSHTRKIS----------TLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIF</Hsp_qseq>
+      <Hsp_hseq>VFGNLLIIISISHFKHLQSPTHLIVRSLAACDCLLGSL--VMPNSMV--RSVEGCWYLGDVVCKVHSSLDMTLCIS---SLLHLGLISVDRYLAICDPLRYRIRVTNTTVTVFTVFIWLFSVVYSFYVKFSGITAVGLEMLILQTYCVGRCVVFFNKQWGLICPVLAFFLPGAIMSSLYMKIFHVARKQAKVISERVTGGLKSQSSAQRERKAAKTLAIVMGVFLFCWMPFFTLTALDPFFNFLSSADVFDALFWFAYL----NSACNPLIYGFFYPCFQKAFKILIF</Hsp_hseq>
+      <Hsp_midline>V  NL++++++   K+LQ+P +  + SLA  D +LGSL  ++ N ++  R++      G         +D    +S   S+  L +I+ DRY+ I   LRY   VT     V    IW F             T  G+ M+I   +     V+ F   + L+   L F L       LY+ +F +AR   + IS          +  +   K A TL I++GVF+FCW PF     L  F         + +LF    +    N+  +P IY F  P  + AFK +IF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_021330044.2|</Hit_id>
+  <Hit_def>D(1)-like dopamine receptor [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021330044</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>4.16392e-13</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>IFFTISIVGVLENLIVLLAVFKNKNLQAPMY-FFICSLAISDM-LGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC-------------------TGTGITMVIFSHHVPTVITFT-----SL--FPLMLVFILCLYVHMFLLARSHTRKISTLPRA-------------------------NMKGAITLTILLGVFIFCWAP-FVLHVLLMTFCPSNPYCACYM-SLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCSR</Hsp_qseq>
+      <Hsp_hseq>VLFLLIVSTLLGNTLVCAAVVKFRHLRSKVTNFFVISLAVSDLFVAVLVMPWEAISAVAGTWLFGRFCG--------IWIAFDIMCSTASILNLCIISVDRYWAIASPFRYERKMTHRVAFMMIGVAWTLSILISFIPVQLNWHMADDDEEGAGGNGTDYSDNCKANLNRTYAISSSLISFYIPVIIMIATYTRIFRIAQTQIRRISSLERAVEHAQNHHQSNDCSNENSLKTTFKKETKVLKTLSIIMGVFVFCWLPFFVLNCMV-------PFCQCVSDTTFTIFVWFGWANSSLNPVIYAFNA-DFRKAFSSILGCNK</Hsp_hseq>
+      <Hsp_midline>+ F + +  +L N +V  AV K ++L++ +  FF+ SLA+SD+ +  L    E I  +     + +  G        I  +  ++    SI +L +I+ DRY  I    RY   +T R   +++ V WT                      G G     +S +    +  T     SL  F + ++ ++  Y  +F +A++  R+IS+L RA                           K   TL+I++GVF+FCW P FVL+ ++       P+C C   + F +       N+ ++P IYAF + + R AF  ++ C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|NP_571468.1|</Hit_id>
+  <Hit_def>melatonin receptor type 1A-A [Danio rerio] &gt;gb|AAH92957.1| Melatonin receptor 1A a [Danio rerio] &gt;gb|AAI64166.1| Mtnr1aa protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571468</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>6.02048e-13</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYK---ILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIF--------------------SHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPR---ANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>FTI-VVDILGNLLVIFSVYRNKKLQNAGNIFVVSLAVADLVVAIYPYPLVLTSIFHRGWNLGYMHCQ---------ISGFLMGVSVIGSIFNITGIAINCYCYICHSLKYDKLYSDKNSVCYVLLIWAL-TVLAIVPNLFVGSLQYDPRVYSCTFEQSASSAYTIAVVFFHFILPIMIVTYCYLRIWVLVIQVRRRVKPDNRPKITPHDVRNFVTMFVVFVLFAVCWAPLNFIGLAVAISPERVVPLIPEWLFVASYFMAYFNSCLNAIVYGVLNQNFRREYKRIV</Hsp_hseq>
+      <Hsp_midline>FTI +V +L NL+V+ +V++NK LQ     F+ SLA++D++ ++Y    +L +I     N+GY+  +         I   L  +S++GSIF+++ IA + Y  I H+L+Y  + + + +V  + +IW   T   I   +F                    S +   V+ F  + P+M+V    L + + ++      K    P+    +++  +T+ ++  +F  CWAP     L +   P          LF  +  +   N+ ++  +Y   +   R  +K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|NP_001076563.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12e [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076563</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>6.08715e-13</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC-------TGTGITMVIFSHHV-------PTVITFTSLFPLM---LVFIL------CLYVHMFLLARSHTR----------KISTLPRANMKGAITLTILLGVFIFCWAPF----VLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIF</Hsp_qseq>
+      <Hsp_hseq>VFGNLLIIISISHFKHLQSPTHLIVRSLAACDCLLGLLVMPYSMVRSVEGCWYL---GDVVCKVHSSLDMTFCIS---SLLHLGLISVDRYWAICDPLRYRLRVTNITVTVFIVFIWLFSFVYSFYVVFSGVNTVGLETFIMQVYCVGSCVLYFNKQWGLICPILVFFLPGAIMSSLYMKIFHVARKHAKVMSERVTGGLKSQSSAQRERKAAKILAIVMGVFLFCWLPFFTVNALDPFFNFFTPAD--------IFDAVIWFAYLNSTCNPLIYGFFYPCFQKAFKILIF</Hsp_hseq>
+      <Hsp_midline>V  NL++++++   K+LQ+P +  + SLA  D L  L  +  +++  +    YL   G         +D  F +S   S+  L +I+ DRY  I   LRY   VT     V +  IW F          +G+  V     +         V+ F   + L+   LVF L       LY+ +F +AR H +          K  +  +   K A  L I++GVF+FCW PF     L      F P++        +F         N+  +P IY F  P  + AFK +IF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|P51046.2|</Hit_id>
+  <Hit_def>RecName: Full=Melatonin receptor type 1A-A; Short=Mel-1A-R-A; Short=Mel1a receptor A; AltName: Full=Melatonin receptor Mel1a Z1.7-4; AltName: Full=zMel1a1 [Danio rerio]</Hit_def>
+  <Hit_accession>P51046</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>6.61484e-13</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYK---ILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIF--------------------SHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPR---ANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>FTI-VVDILGNLLVIFSVYRNKKLQNAGNIFVVSLAVADLVVAIYPYPLVLTSIFHRGWNLGYMHCQ---------ISGFLMGVSVIGSIFNITGIAINCYCYICHSLKYDKLYSDKNSVCYVLLIWAL-TVLAIVPNLFVGSLQYDPRVYSCTFEQSASSAYTIAVVFFHFILPIMIVTYCYLRIWVLVIQVRRRVKNDNRPKITPHDVRNFVTMFVVFVLFAVCWAPLNFIGLAVAISPERVVPLIPEWLFVASYFMAYFNSCLNAIVYGVLNQNFRREYKRIV</Hsp_hseq>
+      <Hsp_midline>FTI +V +L NL+V+ +V++NK LQ     F+ SLA++D++ ++Y    +L +I     N+GY+  +         I   L  +S++GSIF+++ IA + Y  I H+L+Y  + + + +V  + +IW   T   I   +F                    S +   V+ F  + P+M+V    L + + ++      K    P+    +++  +T+ ++  +F  CWAP     L +   P          LF  +  +   N+ ++  +Y   +   R  +K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_068079971.2|</Hit_id>
+  <Hit_def>trace amine-associated receptor 13c-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068079971</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>6.9336e-13</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>YENINNTARNNSDCPRVVLPEEIFFTI-SIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVP-----------------TVITFTSLFPLMLVFILCLYVHMFLLARSHTRKI-------------STLPRANMKGAITLTILLGVFIFCWAPFVLHVLL--MTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>FPDINSSCVKGERSSYEYYSMYVFFSLLSAWTVFLNLLVIISISHFKKLHTPTNMLILSLAVNDLLVGL------IVMPIEAIKLIGTCWYFGDTLCDLFLIIMGLLLSTSLCNLVLIAVDRYVAVCHPLLYTQKITMTRTLFIVCICWVFTSSYNIAIVRSTSHRTSGCYGECNVKLSLEWRVTDLIFSFLLPCTV--IITLHLRIFYAVHQQVKVINSQMKRGKVAIGGSVKKKTESKAALSLGIIVAIHLLCWIPYFILTLTDNMAIPPTVLYCLIWV---------LYINSCLDPLFYAFFYTWFRKSIKHIL</Hsp_hseq>
+      <Hsp_midline>+ +IN++               +FF++ S   V  NL+V++++   K L  P    I SLA++D+L  L      I++ +  +  +     F  T  D+   +  L L  S+ +L +IA DRY+ + H L Y   +TM RT+ ++ + W F +   I +V  + H                   T + F+ L P  +  I+ L++ +F       + I             S   +   K A++L I++ + + CW P+ +  L   M   P+  YC  ++         +  N+ +DP  YAF     R + K ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_073769546.1|</Hit_id>
+  <Hit_def>opsin 4xa isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073769546</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>8.69892e-13</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>ISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVI-FSHHVP------------TVITFTSLFPLML---VFILCL------YVHMFLLAR----------SHTRKISTLPRANMKGAITLT----ILLGVFIFCWAPFVLHVLLMTFCPS---NPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>IGALGVIGNLLVMYAFFSNKKLRTPPNYFIMNLAVSDFLMA---ITQSPIFFINCMYKEWVFGEMGCKMYAFCGALFGIT---SMINLLAISIDRYIVITKPLQAIRWTSGRRTLIIILVVWIYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVTSTPANKSYTLMLCCFVFFIPLGIISYCYFFMFLAIRSASRDVEKLGSHVRKTTLIQQQSIKTEWKLAKIAFVVIIVFVLSWSPYACVTLIAWAGYSHVLSPYSKA------VPAVIAKASAIYNPFIYAIIRSKYRDTLAEKVPC</Hsp_hseq>
+      <Hsp_midline>I  +GV+ NL+V+ A F NK L+ P  +FI +LA+SD L +   I ++ +  +  M      G           +LF ++   S+ +L  I+ DRYI I   L+     + RRT++++ V+W +     +  +I +S ++P            T       + LML   VF + L      Y  MFL  R          SH RK + + + ++K    L     +++ VF+  W+P+    L+     S   +PY         V  ++   +A+ +PFIYA    + RD   + + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_017212270.1|</Hit_id>
+  <Hit_def>adenosine receptor A1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017212270</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>8.85016e-13</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>TISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDM-LGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHH--------VPTVITFTSLFPL--------------MLVFILCLYVHMF-LLARSHTRKI------STLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>TIALASVIGNVLVVLVVCLNQGLRDPTFCFIVSLALADIAVGVLVIPLAVVLSLGLNT-------QFYTCL--FISCLLVMITQSSILSLLAIAIDRFLRVKIPTRYNIIVTQRRAWAAVGLCWLISFLTGLVPMAGWHRSPPGNVSTTPIQCQFTNVMRMDYMVYFNFFVWVVVPLTIMIGLYAEIFRVICRQLNRRAEATCDSSKYYRKELKLAKSLALVLFLFAVCWLPLHIMNSIVFFCPT---CNVPKSAFYVGIFMSHINSALNPLVYAFRIQRFRDTLIHII</Hsp_hseq>
+      <Hsp_midline>TI++  V+ N++V+L V  N+ L+ P + FI SLA++D+ +G L   L  +L +  N         F T     I  L V+    SI SL  IA DR++ +    RY+ IVT RR    + + W     TG+  +   H          P    FT++  +               L  ++ LY  +F ++ R   R+       S   R  +K A +L ++L +F  CW P  +   ++ FCP+   C    S F V   +   N+ ++P +YAFR    RD    +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_073769545.1|</Hit_id>
+  <Hit_def>opsin 4xa isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073769545</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>9.67245e-13</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>ISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVI-FSHHVP------------TVITFTSLFPLML---VFILCL------YVHMFLLAR----------SHTRKISTLPRANMKGAITLT----ILLGVFIFCWAPFVLHVLLMTFCPS---NPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>IGALGVIGNLLVMYAFFSNKKLRTPPNYFIMNLAVSDFLMA---ITQSPIFFINCMYKEWVFGEMGCKMYAFCGALFGIT---SMINLLAISIDRYIVITKPLQAIRWTSGRRTLIIILVVWIYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVTSTPANKSYTLMLCCFVFFIPLGIISYCYFFMFLAIRSASRDVEKLGSHVRKTTLIQQQSIKTEWKLAKIAFVVIIVFVLSWSPYACVTLIAWAGYSHVLSPYSKA------VPAVIAKASAIYNPFIYAIIRSKYRDTLAEKVPC</Hsp_hseq>
+      <Hsp_midline>I  +GV+ NL+V+ A F NK L+ P  +FI +LA+SD L +   I ++ +  +  M      G           +LF ++   S+ +L  I+ DRYI I   L+     + RRT++++ V+W +     +  +I +S ++P            T       + LML   VF + L      Y  MFL  R          SH RK + + + ++K    L     +++ VF+  W+P+    L+     S   +PY         V  ++   +A+ +PFIYA    + RD   + + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|NP_001153381.1|</Hit_id>
+  <Hit_def>melatonin receptor type 1A-like [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001153381</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.64421e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>INNTARNNSDCPRVVLP------EEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFS---HHVPTVITFT------SLFPLMLV---FILCL------YVHMFLLARSHTRKISTLPRANMK-----GAITLTILLGVFIFCWAPF-------VLHVLLMTFCPSNPYCACY-MSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>LKNISTGNRDIKYLSFPWVVTLLSSVLITTIVVDVLGNLLVIVSVFRNRKLRKAGNAFVVSLAIADLLVAIYPYPLVLTAIFHD------RWIAGDIHCQISGFLMGLSVIGSIFNITGIAINRYCYICHSLKYDKLFSNKNTVCYVILVWAL-TVLAIVPNWFVESLQYDPRVFSCTFAQSVSSLYTIMVVVVHFIVPIGIVTYCYLRIWILVIQVRRRVKPDSRPKIKPHDFRNFLTMFVVFVLFAVCWAPLNFIGLAVAIHPRLGQSIPEWLFTASYFMAYF---------NSCLNGVIYGVLNHNFRKEYKRIV</Hsp_hseq>
+      <Hsp_midline>+ N +  N D   +  P        +  T  +V VL NL+V+++VF+N+ L+     F+ SLAI+D+L ++Y     +  I  +      R         I   L  LS++GSIF+++ IA +RY  I H+L+Y  + + + TV  + ++W   T   I    F     + P V + T      SL+ +M+V   FI+ +      Y+ +++L     R++    R  +K       +T+ ++  +F  CWAP         +H  L    P   + A Y M+ F         N+ ++  IY   +   R  +K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|NP_001243006.1|</Hit_id>
+  <Hit_def>opsin 4xa [Danio rerio] &gt;ref|XP_021334773.1| opsin 4xa isoform X1 [Danio rerio] &gt;ref|XP_073769544.1| opsin 4xa isoform X1 [Danio rerio] &gt;gb|ADN39433.1| melanopsin opn4x1 [Danio rerio] &gt;gb|ALG92571.1| Xenopus-like melanopsin-1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001243006</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.74844e-12</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>ISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVI-FSHHVP------------TVITFTSLFPLML---VFILCL------YVHMFLLAR----------SHTRKISTLPRANMKGAITLT----ILLGVFIFCWAPFVLHVLLMTFCPS---NPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>IGALGVIGNLLVMYAFFSNKKLRTPPNYFIMNLAVSDFLMA---ITQSPIFFINCMYKEWVFGEMGCKMYAFCGALFGIT---SMINLLAISIDRYIVITKPLQAIRWTSGRRTLIIILVVWIYSLAWSLAPLIGWSSYIPEGLMTSCTWDYVTSTPANKSYTLMLCCFVFFIPLGIISYCYFFMFLAIRSASRDVEKLGSHVRKTTLIQQQSIKTEWKLAKIAFVVIIVFVLSWSPYACVTLIAWAGYSHVLSPYSKA------VPAVIAKASAIYNPFIYAIIRSKYRDTLAEKVPC</Hsp_hseq>
+      <Hsp_midline>I  +GV+ NL+V+ A F NK L+ P  +FI +LA+SD L +   I ++ +  +  M      G           +LF ++   S+ +L  I+ DRYI I   L+     + RRT++++ V+W +     +  +I +S ++P            T       + LML   VF + L      Y  MFL  R          SH RK + + + ++K    L     +++ VF+  W+P+    L+     S   +PY         V  ++   +A+ +PFIYA    + RD   + + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_021328498.1|</Hit_id>
+  <Hit_def>melatonin receptor type 1A-A [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021328498</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>2.89096e-12</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYK---ILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW---------TFCTGT-----GITMVIFSHHVPTVITFTSLF-----PLMLVFILCLYVHMFLLARSHTRKIS-----TLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>FTI-VVDILGNLLVIFSVYRNKKLRNAGNIFVVSLAVADLVVAIYPYPLVLVSIFHNGWNLGFVHCQ---------ISGFLMGLSVIGSIFNITGIAINRYCYICHSLKYDKLYSDKNSLCYVLLIWILTVVAIVPNFYVGSLQYDPRVYSCTFAQSASSAYTIAVVFFHFILPIMIV-TYC-YLRIWILVIQVRRRVKPEFRPKLTPHDIRNFVTMFVVFVLFAVCWAPLNFIGLAVAINPDQVAPLIPEWFFVSSYFMAYFNSCLNAIVYGLLNQNFRREYKKII</Hsp_hseq>
+      <Hsp_midline>FTI +V +L NL+V+ +V++NK L+     F+ SLA++D++ ++Y    +L +I     N+G++  +         I   L  LS++GSIF+++ IA +RY  I H+L+Y  + + + ++  + +IW          F  G+      +    F+    +  T   +F     P+M+V   C Y+ +++L     R++       L   +++  +T+ ++  +F  CWAP     L +   P           F  +  +   N+ ++  +Y   +   R  +KK+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gb|AAO23295.1|</Hit_id>
+  <Hit_def>melatonin receptor Mel1a Z1.7-4, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAO23295</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.18762e-12</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYK---ILENILIILRNMGYLKPR-GSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIF--------------------SHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPR---ANMKGAITLTILLGVFIFCWAP</Hsp_qseq>
+      <Hsp_hseq>FTI-VVDILGNLLVIFSVYRNKKLRNAGNIFVVSLAVADLVVAIYPYPLVLTSIFHRGWNLGYMHCQIGGF----------LMGVSVIGSIFNITGIAINRYCYICHSLKYDKLYSDKNSVCYVLLIWAL-TVLAIVPNLFVGSLQYDPRVYSCTFEQSASSAYTIAVVFFHFILPIMIVTYCYLRIWVLVIQVRRRVKNDNRPKITPHDVRNFVTMFVVFVLFAVCWAP</Hsp_hseq>
+      <Hsp_midline>FTI +V +L NL+V+ +V++NK L+     F+ SLA++D++ ++Y    +L +I     N+GY+  + G F          L  +S++GSIF+++ IA +RY  I H+L+Y  + + + +V  + +IW   T   I   +F                    S +   V+ F  + P+M+V    L + + ++      K    P+    +++  +T+ ++  +F  CWAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|NP_001076564.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12c [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076564</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>7.99011e-12</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSL---YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC------------TGTGITMVIFSHHV--PTVITFTSLFPLM---LVFILC------LYVHMFLLARSHTR----------KISTLPRANMKGAITLTILLGVFIFCWAP-FVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>VFGNLLIIISISHFKHLQSPTHLIVRSLAASDCLLGSLVMPYSMVRSV----EGCWYL---GDVVCKVHSSLDMTFCIS---SLLHLGLISVDRYWAICDPLRYRLRVTNTTVTVFTVFIWLFAFVYSFSVVFSGIAAVGLEMLILQTYCVGSCVLFFNKEWGLICPILTFFLPGAIMSFLYMKIFHVARKHAKVMSERVTGGLKSQSSAQRERKAAKTLAIVMGVFMFCWLPYFTVTILGPFFNFATP-----ADVFDALVWFAYLNSTCNPLIYGFFYPCFQKAFHILI</Hsp_hseq>
+      <Hsp_midline>V  NL++++++   K+LQ+P +  + SLA SD +LGSL   Y ++ ++        YL   G         +D  F +S   S+  L +I+ DRY  I   LRY   VT     V    IW F                G+ M+I   +     V+ F   + L+   L F L       LY+ +F +AR H +          K  +  +   K A TL I++GVF+FCW P F + +L   F  + P       +F         N+  +P IY F  P  + AF  +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|NP_001314772.1|</Hit_id>
+  <Hit_def>galanin receptor type 1b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001314772</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>8.39639e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>IINSYENINNTARNNSDCPRVVLPEEIFFTISIVGVLENLIVLLAV--FKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW-------------------------TFCTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTL-PRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>VIWTEEHMDTNQTTDTFGPEVVIVPVIFGCIFFLGIIGNTLVMVVIGKIKSRRSRSTTNIFILNLSIADLSFLLFCVPFQATI------YSLPEWIFGAFLCKFVHYFVMVSMLVSIFTLVAMSVDRYIAVVLSKKSPCIRNRRNALIGVCVIWMLSFIFAVPVAQHQILTDHPKAPNSTFCWEIWTERVAKHTYKVTILVIGYLLPLLL--ITCCYAKVLYHLHKKIKNMSKKSERSKRKTAQTVLLVVAAFLICWMPHHIIAMWVEF-GQFPLNDASFAFRIISHCLAYGNSCVNPILYAFLSENFRKACKQVFTC</Hsp_hseq>
+      <Hsp_midline>+I + E+++     ++  P VV+   IF  I  +G++ N +V++ +   K++  ++    FI +L+I+D+   L+ +     I      Y  P   F       +    ++S+L SIF+L  ++ DRYI +  + +   I   R  ++ + VIW                         TFC       V    +  T++    L PL+L  I C Y  +        + +S    R+  K A T+ +++  F+ CW P  +  + + F    P      +   ++  L   N+ ++P +YAF S   R A K++  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|XP_021334893.1|</Hit_id>
+  <Hit_def>trace amine-associated receptor 13c-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021334893</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>9.93325e-12</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>NLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVI------FSHHVP----------------TVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTL-------------PRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGML--IMCNAVIDPFIYAFRSPELRDAFK</Hsp_qseq>
+      <Hsp_hseq>NLLVIISISHFKKLHTPTNMIILSLAVTDLLVGLVMPVEAIRLI-------ETCWYFGDTFCGLYIFFVSLLLSASLGNLVLIAVDRYVAVCHPLLYPQKITITKTLMSICLSWAGLTAYIITLVINNSYFDSSHRTDVCYGQCLYMISYSWILTELFMSFIFPCVL--IITLYLRIFYVVHQQVKVINSLMKGGKCVTEGSVKRKSESKAALTLGIIVSVYLLCWIPYFIYSLTVN------------SSTTINGLLFAVFANSGLNPLVYALFYPWFKKTAK</Hsp_hseq>
+      <Hsp_midline>NL+V++++   K L  P    I SLA++D+L  L   +E I +I       +    F  T   +      L L  S+ +L +IA DRY+ + H L Y   +T+ +T++ + + W   T   IT+VI       SH                   T +  + +FP +L  I+ LY+ +F +     + I++L              ++  K A+TL I++ V++ CW P+ ++ L +             S   +NG+L  +  N+ ++P +YA   P  +   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|NP_001107115.2|</Hit_id>
+  <Hit_def>dopamine receptor D7 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001107115</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.05685e-11</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>73</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>LENLIVLLAVFKNKNLQAPM-YFFICSLAISDMLGSL----YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHH-----------------------VPTVITFTSLFPLMLVFILCLYVHMFLLARSHTRKIS----------------TLPRANMKGAI--------TLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYM-----SLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCSR</Hsp_qseq>
+      <Hsp_hseq>LGNALVCTAVVRFRHLRSKVAYVFVVSLAVSDLLVATLVMPWKAAAEIV------GFW-PFGSF----CEVWIAFDIMCSTASILNLCIISVDRYWAIAIPLSYEQKMTRRVAFVMIGVAWTLSVLISFIPVQLSWHKSLDPIEDLAEKCDASLNRTYAITSSLISFYIPVSIMIV----TYSRIFLIAQRQIRRISMQECSIKHVQSCQSCNKAPEEKLKSSFRRETKVLKTLSMIMGVFVCCWLPFFILNCMVPFCDPGLHNAGQIPCVNKTTFDVFVWCGWANSTLNPVVYAFNA-EFRKAFSSILGCGK</Hsp_hseq>
+      <Hsp_midline>L N +V  AV + ++L++ + Y F+ SLA+SD+L +     +K    I+      G+  P GSF     ++  +  ++    SI +L +I+ DRY  I   L Y   +T R   V++ V WT         V  S H                         ++I+F     +M+V     Y  +FL+A+   R+IS                  P   +K +         TL++++GVF+ CW PF +   ++ FC    + A  +     + F V       N+ ++P +YAF + E R AF  ++ C +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|NP_001076380.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12j [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076380</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.46929e-11</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSL---YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVI-WTF--------------------------CTGTGITMVIFSHHVPTVITFTSLFPLMLVFILCLYVHMFLLARSHTR----------KISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCP-SNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>VFGNLLIIISISHFKQLQSPTHLIVRSLAASDCLLGSLVMPYSMVRSV----EGCWYL---GDVVCKVHSSLDMTFSIS---SLIHLSLVSVDRYWAICDPLRYRMRVT-NNTVIVFTVFTWLFSFVYSFSVVFSGVNRIGLETFIMQVYCVGSCV--LFFNKQWGLICSLLTFF-LPCTIMSSLYMKIFHVARKHAKVMSERVTGGLKSQSSAQREGKAAKTLAIVMGVFYLCWLPFFTATAVDPFLNFSTP-----VHVFDALVWFGYFNSTCNPLIYGFFYPRFQKAFNILI</Hsp_hseq>
+      <Hsp_midline>V  NL++++++   K LQ+P +  + SLA SD +LGSL   Y ++ ++        YL   G         +D  F +S   S+  LS+++ DRY  I   LRY   VT   TV+V TV  W F                          C G+ +  + F+     + +  + F L    +  LY+ +F +AR H +          K  +  +   K A TL I++GVF  CW PF     +  F   S P     + +F         N+  +P IY F  P  + AF  +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|NP_001076376.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12f [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076376</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.55963e-11</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSL---YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC-------TGTGITMVIFSHHV-------PTVITFTSLFPLM---LVFIL------CLYVHMFLLARSHTR----------KISTLPRANMKGAITLTILLGVFIFCWAPF----VLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>VFGNLLIIISISHFKHLQSPTHLIVRSLAACDCLLGSLVMPYSMVRSV----EGCWYL---GDVVCKVHSSLDMTFCIS---SLLHLGLISVDRYWAICDPLRYRLRVTNTTVTVFIVFIWLFSFVYSFYVVFSGVNTVGLETFIMQVYCVGNCVLYFNKQWGLICPILTFFLPGTIMSSLYMKIFHVARKHAKVMSERVTGGLKSQSSAQRERKAAKILAIVMGVFLFCWLPFFTVNALDPFFNFFTPAD--------IFDAVIWFAYLNSTCNPLIYGLFYPCFQKAFKILI</Hsp_hseq>
+      <Hsp_midline>V  NL++++++   K+LQ+P +  + SLA  D +LGSL   Y ++ ++        YL   G         +D  F +S   S+  L +I+ DRY  I   LRY   VT     V +  IW F          +G+  V     +         V+ F   + L+   L F L       LY+ +F +AR H +          K  +  +   K A  L I++GVF+FCW PF     L      F P++        +F         N+  +P IY    P  + AFK +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|NP_001430360.1|</Hit_id>
+  <Hit_def>D(1) dopamine receptor-like [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001430360</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.8118e-11</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>NLIVLLAVFKNKNLQAPMY-FFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFTSL------------------------FPLMLVFILCLYVHMFLLARSHTRKISTLPRANMK------GA----------------ITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>NFMVCAAVLRFRHLRGKVTNVFIVSLAMSDLLVAV------LVMPWKAATEVTGHWAFGSFCECWV-AFDIMCSTASILNLCVISLDRYWAISDPFQYERKMNRRVALVMVSVTWIVSVAISFVPVQLNWHRADLDTVNTSNWTTKEMCDSSLSRTYAISSSLISFYIPVAVMLVTYTRIYRIAQIQIKSISSLERAAERAQSCSAGARTCPLQHRAIRETKLFKTLSVIMGVFVCCWFPFFVLNCAVPFC-HKPDCV-SEATFNVFVWFGWCNSSLNPIIYAFNS-DFRDAFARLLCC</Hsp_hseq>
+      <Hsp_midline>N +V  AV + ++L+  +   FI SLA+SD+L ++      +++  +    +    +F +  +  + +  ++    SI +L VI+ DRY  I    +Y   +  R  +V+++V W          V  + H   + T  +                         F + +  +L  Y  ++ +A+   + IS+L RA  +      GA                 TL++++GVF+ CW PF +    + FC   P C    + F V      CN+ ++P IYAF S + RDAF +++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gb|AAI63065.1|</Hit_id>
+  <Hit_def>Si:dkey-7c18.19 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI63065</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.04367e-11</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSL---YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC-------TGTGITMVIFSHHV-------PTVITFTSLFPLM---LVFIL------CLYVHMFLLARSHTR----------KISTLPRANMKGAITLTILLGVFIFCWAPF----VLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>VFGNLLIIISISHFKHLQSPTHLIVRSLAASDCLLGSLVMPYSMVRSV----EGCWYL---GDVVCKVHSSLDMTLCIS---SLLHLGLISVDRYWAICDPLRYRLRVTNTTVTVFIVFIWLFSFVYSFYVVFSGVNTVGLETFIMQVYCVGNCVLYFNKQWGLICPILTFFLPGTIMSSLYMKIFHVARKHAKVMSERVTGGLKSQSSAQRERKAAKILAIVMGVFLFCWLPFFTVNALDPFFNFFTPAD--------IFDAVIWFAYLNSTCNPLIYGLFYPCFQKAFKILI</Hsp_hseq>
+      <Hsp_midline>V  NL++++++   K+LQ+P +  + SLA SD +LGSL   Y ++ ++        YL   G         +D    +S   S+  L +I+ DRY  I   LRY   VT     V +  IW F          +G+  V     +         V+ F   + L+   L F L       LY+ +F +AR H +          K  +  +   K A  L I++GVF+FCW PF     L      F P++        +F         N+  +P IY    P  + AFK +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|NP_001076367.1|</Hit_id>
+  <Hit_def>trace amine-associated receptor 10a [Danio rerio] &gt;ref|XP_073789345.1| trace amine-associated receptor 10a isoform X1 [Danio rerio] &gt;ref|XP_073789346.1| trace amine-associated receptor 10a isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076367</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>7.87148e-11</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>NNSDCPRVVLPEE-------IFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITF-------------------TSLFPLMLVFI-----LCLYVHMFLLARSHTRKISTLP---RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCP-SNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFK</Hsp_qseq>
+      <Hsp_hseq>SNRSCQKFVYPLDTRILLYMLFSISSIITIIGNLLVIITVVHFRQLHTPTNYLILSLAVADLLVGGVVMPPSMLRSIETCWYLGDLFC------KIHSSLDVTLCTASILNLCIISLDRYYAICHPFQYHSKMTSLATLIMIIICWTVSAVLGFGMIFMELNILGVEDFYYENIRCDGGCFVFQSKTGGTVFSLICFYIPAFVMLGVYLKILHEAQRQVQAIQSVNSELKKEGKATKTLAIIMGVFLTFWIPFFLCNLIDPLIGYSVP--SLVFDLFLWVGYY---NSTCNPIVYAFFYSWFRHAFR</Hsp_hseq>
+      <Hsp_midline>+N  C + V P +       +F   SI+ ++ NL+V++ V   + L  P  + I SLA++D+L     +  ++L  +    YL            I  SL V     SI +L +I+ DRY  I H  +YHS +T   T++++ + WT     G  M+    ++  V  F                    ++F L+  +I     L +Y+ +   A+   + I ++    +   K   TL I++GVF+  W PF L  L+      S P  +    LF   G     N+  +P +YAF     R AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|XP_073771303.1|</Hit_id>
+  <Hit_def>trace amine-associated receptor 13c-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073771303</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.00674e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>RNNSDCPRVVLP--EEIFF-----TISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCT-----------------GTGITMVIFSHHVPTVITFTSL-FPLMLVFILCLYVHMFLLARSHTRKISTLP----RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGM-LIMC-NAVIDPFIYAFRSPELRDAFK</Hsp_qseq>
+      <Hsp_hseq>NNNLSCTRNVKPGAEYIFVYIFISTVSVLTVFLNLLVIISIAHFHQLHTPTNVLIFSLAMSDLIVGL------ILMPVLGLKLIEPCWYFGEIFCSIFPFILYVVTTASLGNLIIISVDRYIAVNDPLRYTTRVDTNRAVYSIVVNWVFSSIYSLLIMYEAILYPEKNHTCIGECIFFIKLEYIITDALVCFVTPCCLIIYLYLKICFIAKHQAEHINALTDRKVKSEKKAAKSLGVVVMIYLLCWIPYYIAALTLGQDTNDS--------LVINIMYWILCMNSLMNPLIYAMYYKWFRISTK</Hsp_hseq>
+      <Hsp_midline> NN  C R V P  E IF      T+S++ V  NL+V++++     L  P    I SLA+SD++  L      IL+ +  +  ++P   F      I   +  +    S+ +L +I+ DRYI +   LRY + V   R V  + V W F +                  T I   IF   +  +IT   + F      I+ LY+ +  +A+     I+ L     ++  K A +L +++ +++ CW P+ +  L +    ++           +N M  I+C N++++P IYA      R + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|NP_001124286.1|</Hit_id>
+  <Hit_def>odorant receptor 124-3 [Danio rerio] &gt;gb|ABC43246.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001124286</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.4881e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>INSYENINNTARNNSDCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLG--SLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSL-LGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVP</Hsp_qseq>
+      <Hsp_hseq>ISSSHILTVTALNDWDWTSRILFFSFALLVYLVTIVLNATMIMIIAFEKALHEPMYIFLCNLCINDLCGITGFYP---------RALAYLLTERNVISHEECIVQDLVIIVYGVGEFTSLSVMAVDRYIAICRPLHYHSIMSPFTVLCLLFFIWVFSSSVGLMAISLTLKYP</Hsp_hseq>
+      <Hsp_midline>I+S   +  TA N+ D    +L       + +V ++ N  +++ +   K L  PMY F+C+L I+D+ G    Y          R + YL    +  +  + I+  L ++   +G   SLSV+A DRYI I   L YHSI++    + +L  IW F +  G+  +  +   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|XP_001337671.1|</Hit_id>
+  <Hit_def>5-hydroxytryptamine receptor 4 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_001337671</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>2.0413e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHH-----VP--------------TVITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLP---------------------RANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>VVGNFLVVLAIAYFKQLQCPTNSFVMSLAVADFLVGLVVMPYSMVRTVEGCWYFGP------TFCHLHSSLDVMLCTASIFHLSCIAFDRYYAVCNPLVYSFKMSRKRVGLLIVVCWAIPFLISFGPILFGLHKLGVDIPLPENMCVFLVNRIYAVMASLVAFYLPMVTMLVAYWKIYKAAKRQAMQISAMEAQMAAGVGKDSSKKQKHRNSIRRERKAAKTLGIIMGVFLLFWLPFFTVNIIDPFIEY----GTAVVIWDVFLWLGYINSSLNPFLYGFFNRSFRRAFLMIMGC</Hsp_hseq>
+      <Hsp_midline>V+ N +V+LA+   K LQ P   F+ SLA++D L  L  +  +++  +    Y  P      T   +  SL V+    SIF LS IA DRY  + + L Y   ++ +R  +++ V W          ++F  H     +P               V+     F L +V +L  Y  ++  A+    +IS +                      R   K A TL I++GVF+  W PF    ++  F          + ++ V   L   N+ ++PF+Y F +   R AF  ++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|NP_001076378.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12h [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076378</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>2.08306e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSL---YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC-------TGTGITMVIFSHHVPTVITFTS----------LFPLMLVFIL------CLYVHMFLLARSHTR----KISTLPRAN----------MKGAITLTILLGVFIFCWAPFVLHVLLMTFCP-SNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>VFGNLLVIISISHFKQLQSPTHLIVQSLAACDCLLGSLVMPYSMVRSV----EGCWYL---GTVVCKVHSSLDMTFSIS---SILHLSLIAIDRFWAISDPLRYKMRVTNTTVAGFITFTWLFSFVYSFSVVFTGVNNVGLEELILQISCFGGCVLFFNKEWGLICALFVFLIPGTIMSSLYMSIFNVVKRHAKVMSEKVSAAATAGSHFQTSSHRERKAAKTLAIVMGVFYLCWLPFFTATAVDPFLNFSTP-----GDVFDALVWFGYFNSTCNPLIYGFFYPRFQKAFKILI</Hsp_hseq>
+      <Hsp_midline>V  NL+V++++   K LQ+P +  + SLA  D +LGSL   Y ++ ++        YL   G+        +D  F +S   SI  LS+IA DR+  I   LRY   VT       +T  W F          TG+  V     +  +  F            L   + VF++       LY+ +F + + H +    K+S    A            K A TL I++GVF  CW PF     +  F   S P       +F         N+  +P IY F  P  + AFK +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|NP_001243280.1|</Hit_id>
+  <Hit_def>odorant receptor 106-4 [Danio rerio] &gt;gb|ABC43254.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001243280</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.71318e-10</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFV-LSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVP----------------------------TVITFTSLFPL--MLVFILCLYVHMFLLARSHTRKISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAV---IDPFIYAFRSPELRDAFKKMI</Hsp_qseq>
+      <Hsp_hseq>LLGNGINLCIISTNRHLHKPMYILICNLALADII---YTTISSATMISVLLAEVKTVSYYSC----ILRMYFYHLGDLTECMALTLMAIDRVIAIRLPLRYHSIVTNSRILWLIFLTWMFCFAAIGYLILLADSLPYCQPVIKYIYCSYAAVVRAACVDPEPYFAISTIYSMVPLCGQFPFILCTYA---VLAYSVT-KLSNSSRKQMIN--TCLSHLIVLLCCYAPKVVSYLLTRI-------GVVLTLTERNAILIVVSLVPSLINPIVYCSRTKEIRKILSDVL</Hsp_hseq>
+      <Hsp_midline>+L N I L  +  N++L  PMY  IC+LA++D++   Y  + +  +I   +  +K    +      I+   F  L  L    +L+++A DR I I   LRYHSIVT  R + ++ + W FC      +++ +  +P                             + T  S+ PL     FILC Y    +LA S T K+S   R  M    T    L V + C+AP V+  LL             ++L + N +LI+ + V   I+P +Y  R+ E+R     ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|NP_001139238.1|</Hit_id>
+  <Hit_def>5-hydroxytryptamine (serotonin) receptor 1A b [Danio rerio] &gt;gb|ACD36668.1| htr1ab [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001139238</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.31223e-09</Hsp_evalue>
+      <Hsp_query-from>216</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>324</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>KGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>KTVKTLGIIMGTFILCWLPFFIKALVMPFCPT---CVMPLWLQDVINWLGYSNSLLNPIIYAYFNKDFQSAFKKIIKC</Hsp_hseq>
+      <Hsp_midline>K   TL I++G FI CW PF +  L+M FCP+   C   + L  V   L   N++++P IYA+ + + + AFKK+I C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|XP_068071461.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12i isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068071461</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.70799e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSL---YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC-------TGTGITMVIFSHHVPTVITFTS--LF---------PLMLVFI-----LCLYVHMFLLARSHTR----------KISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTF----CPSNPYCAC-YMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFK</Hsp_qseq>
+      <Hsp_hseq>VFGNLLIIISISHFKHLQSPTHLIVRSLAASDCLLGSLVMPYSMVRSV----EGCWYL---GDVVCKVHSSLDMTFCIS---SLLHLGLVSIDRYWAICDPLRYRIRVTNTTVTLYTIFIWLFSFLYSFVIVFSGVNRIGLETFIMQVYCVGSCVLFFNKEWGLICPVLTFFIPGAIMSSLYMKIFHVARKHAKVMSERVTGGLKSQSSAQRERKAAKTLAIVMGVFLLCWTPIFIASIIDSFLNFVTPAGVFDALIWFGYF---------NSTCNPLIYGFFYSCFQKAFK</Hsp_hseq>
+      <Hsp_midline>V  NL++++++   K+LQ+P +  + SLA SD +LGSL   Y ++ ++        YL   G         +D  F +S   S+  L +++ DRY  I   LRY   VT     +    IW F          +G+  +     +  V    S  LF         P++  FI       LY+ +F +AR H +          K  +  +   K A TL I++GVF+ CW P  +  ++ +F     P+  + A  +   F         N+  +P IY F     + AFK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|NP_001076554.1|</Hit_id>
+  <Hit_def>trace amine associated receptor 12i [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001076554</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>2.0657e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISD-MLGSL---YKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC-------TGTGI------TMVIFSHHVPTVITFTS-----LFPLMLVFI-----LCLYVHMFLLARSHTR----------KISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFK</Hsp_qseq>
+      <Hsp_hseq>VFGNLLIIISISHFKHLQSPTHLIVRSLAASDCLLGSLVMPYSMVRSV----EGCWYL---GDVVCKVHSSLDMTFCIS---SLLHLGLVSIDRYWAICDPLRYRIRVTNTTVTLYTIFIWLFSFLYSFVIVFSGVNRIGLETFIMQVYCVGSCVLFFNKEWGLICPVLTFFIPGAIMSSLYMKIFHVARKHAKVMSERVTGGLKSQSSAQRERKAAKTLAIVMGVFLLCWTPIFIASIIDSFLNFVTPAGVFDALIWFGYF----NSTCNPLIYGFFYSCFQKAFK</Hsp_hseq>
+      <Hsp_midline>V  NL++++++   K+LQ+P +  + SLA SD +LGSL   Y ++ ++        YL   G         +D  F +S   S+  L +++ DRY  I   LRY   VT     +    IW F          +G+      T ++  + V + + F +     + P++  FI       LY+ +F +AR H +          K  +  +   K A TL I++GVF+ CW P  +  ++ +F         + +L          N+  +P IY F     + AFK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|XP_073771292.1|</Hit_id>
+  <Hit_def>trace amine-associated receptor 13c-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073771292</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>2.39088e-09</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>VLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPT-------------VITFTSL---------FPLMLVFILCLYVHMFLLARSHTRKISTLPRANM-------------KGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFK</Hsp_qseq>
+      <Hsp_hseq>VFLNLLVIISISHFKKLHTPTNMIILSLAVNDLFIGL-------IIPIEAIRQIETCWYFGDTFCGLYLLFVSLLLAASLGNLVIIAVDRYVAVCHPLLYPQKITITNMLKSICLSWVCFSAYCITFIINNGSFDTSHRTDVCYGQCLMIISFSCLIIDLFMSFIFPCLL--IITLYLRIFYVVHQQVKVINSLMKAGKCVTEGSVKRKSESKAALTLGIIVSVFLLCWIPYYICSLTV-----NSYTAINVLIFGVHA-----SSGLNPLVYALFYPWFKKTAK</Hsp_hseq>
+      <Hsp_midline>V  NL+V++++   K L  P    I SLA++D+   L       +I +  +  ++    F  T   +      L L  S+ +L +IA DRY+ + H L Y   +T+   +  + + W   +   IT +I +    T             +I+F+ L         FP +L  I+ LY+ +F +     + I++L +A               K A+TL I++ VF+ CW P+ +  L +     N Y A  + +F V+      ++ ++P +YA   P  +   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|NP_001121875.1|</Hit_id>
+  <Hit_def>odorant receptor 124-1 [Danio rerio] &gt;gb|ABC43359.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121875</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.74205e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>INSYENINNTARNNSDCPRVVLPEEIFFTISIVG----VLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLG--SLYKILENILIILRNMGYLKPRGSFETTADDIIDSL-FVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVP</Hsp_qseq>
+      <Hsp_hseq>ISSSHILTVTALNDWDWTSRIL----FFSFALPGYLLTIILNATLIMIIAFEKALHEPMYIFLCNLCINDLCGITGFYP---------RALTYLLTERNVISHEECIVQGLVIVIYATGEFTSLSVMAVDRYIAICRPLHYHRIMSSFTVLSLVTFIWVFSCFVGLMAISLTLKYP</Hsp_hseq>
+      <Hsp_midline>I+S   +  TA N+ D    +L    FF+ ++ G    ++ N  +++ +   K L  PMY F+C+L I+D+ G    Y          R + YL    +  +  + I+  L  V+   G   SLSV+A DRYI I   L YH I++    + ++T IW F    G+  +  +   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|XP_021336543.1|</Hit_id>
+  <Hit_def>pyroglutamylated RF-amide peptide receptor [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021336543</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>4.93308e-09</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>IFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIF------------SHHV----------------PTVITFTSLFPLMLVFILCLYVHMFLLARSH-----------TRKISTLPRANMKGAITLTILLGVFIFCWAPF-VLHVLLMTFCPSNPYCACYMSL-FQVNGMLIMCNAVIDPFIYAFRSPELRDAFKK</Hsp_qseq>
+      <Hsp_hseq>VIFLLALVG---NSVVVYIVLRKRGIQTATNIFICSLAVSDLLISFFCIP---FTLLQNISSEWFGGVLVCKTVPFVQTTAVVT---GILTMTCIAVERYQGIVHPLKIKRQCTPQRAYRMLGVVWIAAMMVGSPMLFVQQLEVKYDFLYDNHHVCCQERWRSSAHRKRYATFILVFLFLLPLAAMLILYTRIGIELWIRKQVGDSSVLNAMNQREVSKIARKKRRAIKMMVTIVVLFTVCWAPFHTVHILFEYSYLNKKYDDVTVNMIIAVAQAIGFSNSFNNPIIYAF----MNENFQK</Hsp_hseq>
+      <Hsp_midline>+ F +++VG   N +V+  V + + +Q     FICSLA+SD+L S + I      +L+N+      G         + +  V++    I +++ IA +RY  I H L+     T +R   +L V+W      G  M+              +HHV                  ++ F  L PL  + IL   + + L  R              R++S + R   +    +  ++ +F  CWAPF  +H+L      +  Y    +++   V   +   N+  +P IYAF    + + F+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|NP_001124241.1|</Hit_id>
+  <Hit_def>G protein-coupled receptor 8 [Danio rerio] &gt;gb|AAR88325.1| Gpr8 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001124241</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.41391e-08</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>NINNTARNNSDC----PRVVLPE------EIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITI----------FHALRYHSIVTMRRTVVVLTVIWTFCTGTGITM----------VIFSHHVPTVITFTS--LFPLMLVFIL-----CLYVHMFLLARSHTRKIS---TLPRANMKGAITLTILLGVFIFCWAPFVLH--VLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>NLASPVYNQSNCTVSPPWMFHPDLYIWLPVIYSIICAVGLTGNSAVIYVILKAPKMKTVTNLFILNLAIAD---DLFTLVLPINIAEHLLNY----WPFGEILCKVILSIDHYNIFSSIFFLTVMSVDRYLVVVSTLGSKRMPYRTYRLAKTVSLSVWALVILVVMPFTVFASVYVSPDDAESRKSCVLSFPSPESFWFKASRIYTLVLGFVIPVSTICILYTVMLFRLRRTRLSSNGKALDKAKKRVTVMVFIVLAVCLFCWTPFHLSTVVALTSDLPTTPLVIG-ISYF-ITG-LSYANSCLNPFLYAFLDDSFRRAFKKLLEC</Hsp_hseq>
+      <Hsp_midline>N+ +   N S+C    P +  P+       I+  I  VG+  N  V+  + K   ++     FI +LAI+D    L+ ++  I I    + Y      F      +I S+   ++  SIF L+V++ DRY+ +          +   R    V++    +V+ V+  F     + +           + S   P    F +  ++ L+L F++     C+   + L     TR  S    L +A  +  + + I+L V +FCW PF L   V L +  P+ P     +S F + G L   N+ ++PF+YAF     R AFKK++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|XP_005162381.1|</Hit_id>
+  <Hit_def>G protein-coupled receptor 8 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005162381</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.61734e-08</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>NINNTARNNSDC----PRVVLPE------EIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHAL----------RYHSIVTMRRTVVVLTVIWTFCTGTGITM----------VIFSHHVPTVITFTS--LFPLMLVFIL-----CLYVHMFLLARSHTRKIS---TLPRANMKGAITLTILLGVFIFCWAPFVLH--VLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>NLASPVYNQSNCTVSPPWMFHPDLYIWLPVIYSIICAVGLTGNSAVIYVILKAPKMKTVTNLFILNLAIAD---DLFTLVLPINIAEHLLNYWP----FGEILCKVILSIDHYNIFSSIFFLTVMSVDRYLVVVSTLGSKRMPYRTYRLAKTVSLSVWALVILVVMPFTVFASVYVSPDDAESRKSCVLSFPSPESFWFKASRIYTLVLGFVIPVSTICILYTVMLFRLRRTRLSSNGKALDKAKKRVTVMVFIVLAVCLFCWTPFHLSTVVALTSDLPTTPLVIG-ISYF-ITG-LSYANSCLNPFLYAFLDDSFRRAFKKLLEC</Hsp_hseq>
+      <Hsp_midline>N+ +   N S+C    P +  P+       I+  I  VG+  N  V+  + K   ++     FI +LAI+D    L+ ++  I I    + Y      F      +I S+   ++  SIF L+V++ DRY+ +   L          R    V++    +V+ V+  F     + +           + S   P    F +  ++ L+L F++     C+   + L     TR  S    L +A  +  + + I+L V +FCW PF L   V L +  P+ P     +S F + G L   N+ ++PF+YAF     R AFKK++ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|NP_001124277.1|</Hit_id>
+  <Hit_def>odorant receptor 123-1 [Danio rerio] &gt;gb|ABC43360.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001124277</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.86849e-08</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>NSYENINNTARNNSDCPRVVLPEEIFFTISIVG----VLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGS--LYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSL-LGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVI</Hsp_qseq>
+      <Hsp_hseq>SSFSMFSLTALNGSRSSRITI-----FSFALPGYFLTIFVNTLLILIIVLEKVLHQPMYIFLCNLCINGLYGATGFYPPL---------LYYLLSESNVISLKECAIQSFAIFTYAIGEFTNLSVMAFDRYLAICRPLYYHNIMTTVTVWRLLTFIWMFPCCTAILLILMTLRFPICI</Hsp_hseq>
+      <Hsp_midline>+S+   + TA N S   R+ +     F+ ++ G    +  N +++L +   K L  PMY F+C+L I+ + G+   Y  L         + YL    +  +  +  I S  + +  +G   +LSV+A DRY+ I   L YH+I+T      +LT IW F   T I +++ +   P  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gb|ABC43302.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43302</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>2.53292e-08</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>NLIVLLAVFKNKNLQAPMYFFICSLAISDMLGS-------LYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLS-LLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW</Hsp_qseq>
+      <Hsp_hseq>NVTILYAVMMHKKLHEPMFFFICNLCVNALYGTVGFYPKFLYDLLSQDHVI--------------TYAGCLIQIFIIYSSVLCDISTLTVMAYDRYVAICRPLEYHSIMTDQRIVECILFCW</Hsp_hseq>
+      <Hsp_midline>N+ +L AV  +K L  PM+FFIC+L ++ + G+       LY +L    +I              T A  +I    + S +L  I +L+V+A DRY+ I   L YHSI+T +R V  +   W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|XP_001920649.2|</Hit_id>
+  <Hit_def>olfactory receptor 6N1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_001920649</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.49618e-08</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>NLIVLLAVFKNKNLQAPMYFFICSLAISDMLGS-------LYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLS-LLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW</Hsp_qseq>
+      <Hsp_hseq>NVTILYAVMLHKKLHEPMFFFICNLCVNALYGTVGFYPKFLYDLLSQDHVI--------------TYAGCLIQIFIIYSSVLCDISTLTVMAYDRYVAICRPLEYHSIMTDQRIVECILFCW</Hsp_hseq>
+      <Hsp_midline>N+ +L AV  +K L  PM+FFIC+L ++ + G+       LY +L    +I              T A  +I    + S +L  I +L+V+A DRY+ I   L YHSI+T +R V  +   W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>emb|CAA04862.1|</Hit_id>
+  <Hit_def>opioid receptor homologue [Danio rerio]</Hit_def>
+  <Hit_accession>CAA04862</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>3.56044e-08</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>IFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPT-------------------------VITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPRANMKGAITLT-ILLGVFIFCWAP---FVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>LYSVICVVGLLGNILVMYGVVRYTKLKTATNIYIFNLALADALATS-------TLPFQSTKYLMNTWPFGELLCKVVIAIDYYNMFTSIFTLTMMSVDRYIAVCHPVRALEFRTPIKAKIINVCIWILSSAVGVPIMIMAVTRVTNQNTTVCMLKFPDPDWYWDTVTKICVFIFAFVVPV-LVITICYGLMILRLKSVRLLSGSKEKDRNMRRITRMVLVVVAAFIICWTPIHIFIIEKTLVDINQKNPFVIASWHLHRTG----YTNSSLNPVLYAFLDENFKRCFRD--FC</Hsp_hseq>
+      <Hsp_midline>++  I +VG+L N++V+  V +   L+     +I +LA++D L +         +  ++  YL     F      ++ ++   ++  SIF+L++++ DRYI + H +R     T  +  ++   IW   +  G+ ++I +    T                         V  F  + P+ LV  +C  + +  L        S     NM+    +  +++  FI CW P   F++   L+     NP+      L +        N+ ++P +YAF     +  F+   FC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|XP_017208546.1|</Hit_id>
+  <Hit_def>olfactory receptor 8G17 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_017208546</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.56114e-08</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>PRVVLPEEIFFTISIV-GVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSI-FSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWT</Hsp_qseq>
+      <Hsp_hseq>PQSSQPVFIMFLLAYVFAMISNAGLIFLISTDKNLHEPMHFLFCNLPLNDIIGTTVVMPRLLLDILR-----ETSERFISYAECVVQAYFVHIFTAACHYVLMIMAFDRYVAICNPLRYTAIMTNKMVIVLSAIVWS</Hsp_hseq>
+      <Hsp_midline>P+   P  I F ++ V  ++ N  ++  +  +KNL  PM+F  C+L ++D++G+   +   +L ILR     +    F + A+ ++ + FV     +  + L ++A DRY+ I + LRY +I+T +  +V+  ++W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|XP_073784295.1|</Hit_id>
+  <Hit_def>somatostatin receptor type 1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073784295</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>4.43516e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>NNTARNNSDCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTV---IWTFCTGTGITMVIFSHHVPT-----------------------VITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPRANMKGAITLTILLGVFI--FCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCSRYW</Hsp_qseq>
+      <Hsp_hseq>NETHNGDAHGSSAIFISFIYSVVCLVGLCGNSMVIYVIFRYAKMKTATNIYILNLAIADEL----LMLSVPFLVTSSLLHHWPFGSLLCR---LVLSVDAINMFTSIYCLTVLSIDRYISVVHPIK---AARYRRPTIAKMVNLAVWMFSILVILPIIIFSTTAPNSDGSVACNMQMPEPERQWMAVFVIYAFLMGFLFPVIAICMCYILIIVKMRVVALKAGWQQRKKSERKITLMVMMVVTVFVICWMPFHIVQLVSVFVQQHN-----ATLSQLAVILGYANSCANPILYGFLSDNFRRSFQR-ILCLRWW</Hsp_hseq>
+      <Hsp_midline>N T   ++     +    I+  + +VG+  N +V+  +F+   ++     +I +LAI+D L     +L    ++  ++ +  P GS       ++ S+  +++  SI+ L+V++ DRYI++ H ++       RR  +   V   +W F     + ++IFS   P                        +  F   F   ++ I   Y+ + +  R    K     R   +  ITL +++ V +   CW PF +  L+  F   +       +L Q+  +L   N+  +P +Y F S   R +F++ I C R+W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|NP_001121893.1|</Hit_id>
+  <Hit_def>odorant receptor 124-2 [Danio rerio] &gt;gb|ABC43358.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121893</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>4.93538e-08</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>ENINN------TARNNSDCPRVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGS--LYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSL-LGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTG</Hsp_qseq>
+      <Hsp_hseq>ENISSSHILIVTALNDWDWTSRILFFSFALPCYLLTIVLNATLIMIIAFEKALHEPMYIFLCNLCINDLCGTTGFYP---------RALTYLLTERNVILHAECIVQGFVIIVFSIGEFTNLSVMAVDRYIAICRPLHYHRIMSPFTVLSLVTFIWVFPCSVG</Hsp_hseq>
+      <Hsp_midline>ENI++      TA N+ D    +L         ++ ++ N  +++ +   K L  PMY F+C+L I+D+ G+   Y          R + YL    +    A+ I+    ++   +G   +LSV+A DRYI I   L YH I++    + ++T IW F    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|NP_001243278.1|</Hit_id>
+  <Hit_def>odorant receptor 106-6 [Danio rerio] &gt;gb|ABC43256.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001243278</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>5.45643e-08</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>NLIVLLAVFKNKNLQAPMYFFICSLAISDML---GSLYKILENILIILRNMGYLK--PRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVP----------------------------TVITFTSLFPL--MLVFILCLYVHMFLLARSHTRKISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAV---IDPFIYAFRSPELRDAFKKMIFCSR</Hsp_qseq>
+      <Hsp_hseq>NGINLCVISTNRHLHKPMYILICNLAVVDIMYTSACSTTMISVLLAEIKTVSYYSCISRMFFYTLGD-----------LTECMALTLMAIDRVIAIRLPLRYHSIVTNSRILWLIFLTWMFCFAAIGYLILLADSLPYCQPVIKYIYCSYAAVVRAACVDPEPYFAITTIYSMVPLCGQFPFILCTYA---VLAYSVTKLSNSSRKQMINTCLSHIIVLLSF---YVPKIVYILLTRI-------GVVLTLTERNAIAIVSSLVPPLINPTVYCTRTKEIRKRVSDVFLHSK</Hsp_hseq>
+      <Hsp_midline>N I L  +  N++L  PMY  IC+LA+ D++        ++  +L  ++ + Y     R  F T  D           L    +L+++A DR I I   LRYHSIVT  R + ++ + W FC      +++ +  +P                             + T  S+ PL     FILC Y    +LA S T+  ++  +  +   ++  I+L  F   + P ++++LL             ++L + N + I+ + V   I+P +Y  R+ E+R     +   S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|NP_001116793.1|</Hit_id>
+  <Hit_def>5-hydroxytryptamine (serotonin) receptor 1A a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001116793</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>7.84578e-08</Hsp_evalue>
+      <Hsp_query-from>216</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>319</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>KGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMS--LFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>KTVKTLGIIMGTFIFCWLPFFIVALVLPFCQD-----CFMPEWLGAVINWLGYSNSLLNPVIYAYFNKDFQNAFKKILKCK</Hsp_hseq>
+      <Hsp_midline>K   TL I++G FIFCW PF +  L++ FC       C+M   L  V   L   N++++P IYA+ + + ++AFKK++ C </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|NP_571333.2|</Hit_id>
+  <Hit_def>opioid receptor, delta 1a [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571333</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.14384e-07</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>ARNNSDCPRVVLPEEIFFTISI---------VGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPT-------------------------VITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPRANMKGAITLT-ILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>GRNYTEPNPVKSPAGIIIAISITALYSVICVVGLLGNILVMYGVVRYTKLKTATNIYIFNLALADALATS-------TLPFQSTKYLMNTWPFGELLCKVVIAIDYYNMFTSIFTLTMMSVDRYIAVCHPVRALEFRTPIKAKIINVCIWILSSAVGVPIMIMAVTRVTNQNTTVCMLKFPDPDWYWDTVTKICVFIFAFVVPV-LVITICYGLMILRLKSVRLLSGSKEKDRNMRRITRMVLVVVAAFIICWTPIHIFIIVKTLVDINQKNPFVIASWHLCIALGYTNSSLNPVLYAFLDENFKRCFRD--FC</Hsp_hseq>
+      <Hsp_midline> RN ++   V  P  I   ISI         VG+L N++V+  V +   L+     +I +LA++D L +         +  ++  YL     F      ++ ++   ++  SIF+L++++ DRYI + H +R     T  +  ++   IW   +  G+ ++I +    T                         V  F  + P+ LV  +C  + +  L        S     NM+    +  +++  FI CW P  + +++ T    N      ++ + +   L   N+ ++P +YAF     +  F+   FC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|XP_021328259.3|</Hit_id>
+  <Hit_def>galanin receptor 2a-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021328259</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.1772e-07</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>IFFTISIVGVLENLIVLLAVFKNKNLQAP-MYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC----------------TGTGITMVIFS-HHVPTV----ITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPRANMKGAITLTILLGV-FIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>IFSMIFLVGTVGNCLVLAVLIRNGQMNTKSTNLFILNLGLADLCFIVF------CVPLQATIYTMDEWVFGAFVCKAVHFIIYLTMYASIFTLAAVSLDRYLAIRYPLRSRETRTPRNALTSISLVWALSLFFSSPYLSYYQQMDLDGTTVCIPAWSVHHRQAMDICTFIFGYLIPVLILGITYARTIRYLWTSVDPMQDMSESRKAKRKVTKMIIIVAVLFCLCWLPHHLVILCMWF-GHFPLNHTTYVLRILSHLVAYANSCLNPIVYALVSKHFRKGFKKVFGCA</Hsp_hseq>
+      <Hsp_midline>IF  I +VG + N +VL  + +N  +       FI +L ++D+   ++       + L+   Y      F       +  +  L++  SIF+L+ ++ DRY+ I + LR     T R  +  ++++W                    GT + +  +S HH   +      F  L P++++ I       +L       +  +  R   +    + I++ V F  CW P  L +L M F    P       L  ++ ++   N+ ++P +YA  S   R  FKK+  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|NP_001429445.1|</Hit_id>
+  <Hit_def>5-hydroxytryptamine (serotonin) receptor 7b [Danio rerio] &gt;ref|XP_693673.3| 5-hydroxytryptamine receptor 7-like [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001429445</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.18264e-07</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>SHTRKISTLPRANMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPY-----CACY-MSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCSRY</Hsp_qseq>
+      <Hsp_hseq>NRERRSASIFRREQKAATTLGVIMGVFSFCWLPFFL------FTTARPFICGLLCNCAPVWLERVLLWLGYTNSLMNPFIYAFFNRDLRSTYKDLLRC-RY</Hsp_hseq>
+      <Hsp_midline>+  R+ +++ R   K A TL +++GVF FCW PF L      F  + P+     C C  + L +V   L   N++++PFIYAF + +LR  +K ++ C RY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>sp|F1R332.2|</Hit_id>
+  <Hit_def>RecName: Full=Galanin receptor 2a [Danio rerio]</Hit_def>
+  <Hit_accession>F1R332</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.18762e-07</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>IFFTISIVGVLENLIVLLAVFKNKNLQAP-MYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFC----------------TGTGITMVIFS-HHVPTV----ITFTSLFPLMLVFILCLYVHMFLLARSHTRKISTLPRANMKGAITLTILLGV-FIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>IFSMIFLVGTVGNCLVLAVLIRNGQMNTKSTNLFILNLGLADLCFIVF------CVPLQATIYTMDEWVFGAFVCKAVHFIIYLTMYASIFTLAAVSLDRYLAIRYPLRSRETRTPRNALTSISLVWALSLFFSSPYLSYYQQMDLDGTTVCIPAWSVHHRQAMDICTFIFGYLIPVLILGITYARTIRYLWTSVDPMQDMSESRKAKRKVTKMIIIVAVLFCLCWLPHHLVILCMWF-GHFPLNHTTYVLRILSHLVAYANSCLNPIVYALVSKHFRKGFKKVFGCA</Hsp_hseq>
+      <Hsp_midline>IF  I +VG + N +VL  + +N  +       FI +L ++D+   ++       + L+   Y      F       +  +  L++  SIF+L+ ++ DRY+ I + LR     T R  +  ++++W                    GT + +  +S HH   +      F  L P++++ I       +L       +  +  R   +    + I++ V F  CW P  L +L M F    P       L  ++ ++   N+ ++P +YA  S   R  FKK+  C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|XP_021333088.1|</Hit_id>
+  <Hit_def>somatostatin receptor type 5 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021333088</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.48892e-07</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>IFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTV------------------ITFTS---LFPLMLVFILCLYVHMFLLARSHTR-KISTLPRANMKGAITLTILLGVFIFCWAPF--VLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCSR</Hsp_qseq>
+      <Hsp_hseq>ISFTVFIVGLTGNTLAIYVVLRYAKMKTVTNIYILNLAVADEL----YILGLPFLTTQNVLSYWPFGSFLCRVVMTADSL---NQFTSIFCLTVMSIDRYLAVVHPIRSTRWRRPRVAKAVSAAVWAFSFIVVLPVVIFSDVQDTFNSCNMSWPEPRDIWSTAFILYTATLGFFGPLLVICMCYLLIVVKVKSSGARAGFTKRRRSERKVTRMVVVIVVVFVLCWLPFYIINIVNLVIILPENSWMAG-VYFFAV--ILSYANSCANPLLYGFLSDNFKQSFRK-VLCVR</Hsp_hseq>
+      <Hsp_midline>I FT+ IVG+  N + +  V +   ++     +I +LA++D L     IL    +  +N+    P GSF        DSL   +   SIF L+V++ DRY+ + H +R       R    V   +W F     + +VIFS    T                   I +T+    F  +LV  +C  + +  +  S  R   +   R+  K    + +++ VF+ CW PF  +  V L+   P N + A  +  F V  +L   N+  +P +Y F S   + +F+K + C R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gb|AAC60257.1|</Hit_id>
+  <Hit_def>olfactory receptor protein 2.3 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60257</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.54847e-07</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENIL-IILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSI--FSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMV</Hsp_qseq>
+      <Hsp_hseq>FVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALAD-IGETNALIPNMMKTFLFNSQYISYNGC--------MANMFFVVLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMV</Hsp_hseq>
+      <Hsp_midline>F +  + V+ N +VLL +  +++L +P Y  + +LA++D +G    ++ N++   L N  Y+   G         + ++F + L  SI  F+L  +A DR+I I   LRYH+IV     +++   IW F +    +MV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|XP_696215.1|</Hit_id>
+  <Hit_def>galanin receptor type 1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_696215</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.79463e-07</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>RNNSDCPR------VVLPEEIFFTISI--------------VGVLEN--LIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVPTVITFT---SLFP---LMLVFILCLYVHMF-----LLARSHTRKISTLPRA-----------NMKGAITLTILLGVFIFCWAPFVLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCS</Hsp_qseq>
+      <Hsp_hseq>QNNSDLDRPRSNIDLEAPEKNLFGIGTDNLVTLLIFGLIFTLGVLGNSLVITVLAQRKPGQQRSTTNIFILNLSVADLSYLLF------CIPFQSTVYMLPTWILGAFICKFIHYFFTVSMLVSIFTLSAMSVDRYIAIVHCRKSSSIRVARHALIGVLVIWVLSFAMATPVAYYQGIVESEDNSTFCWEVWPDHDRRKIYVVCTFVFGYVLPLILISFCYAKVLNHLHKKLRNVSKKSEASKKKTAQTVLVVVVVFCLSWLPHHVVHLWVEF-GSFPLNQASFVLRVAAHCLAYSNSSVNPVIYAFLSENFRQAYKQVFRCQ</Hsp_hseq>
+      <Hsp_midline>+NNSD  R      +  PE+  F I                +GVL N  +I +LA  K    ++    FI +L+++D+   L+       I  ++  Y+ P           I   F +S+L SIF+LS ++ DRYI I H  +  SI   R  ++ + VIW         +  +   V +    T    ++P      ++++C +V  +     L++  + + ++ L +              K A T+ +++ VF   W P  +  L + F  S P       L      L   N+ ++P IYAF S   R A+K++  C </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gb|AAC60265.1|</Hit_id>
+  <Hit_def>olfactory receptor protein 2.3 [Danio rerio] &gt;gb|AAF27273.1| odorant receptor 2.3 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60265</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.91055e-07</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENIL-IILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSI--FSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMV</Hsp_qseq>
+      <Hsp_hseq>FVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALAD-IGETNALIPNMMKTFLFNSQYISYNGC--------MANMFFVFLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMV</Hsp_hseq>
+      <Hsp_midline>F +  + V+ N +VLL +  +++L +P Y  + +LA++D +G    ++ N++   L N  Y+   G         + ++F + L  SI  F+L  +A DR+I I   LRYH+IV     +++   IW F +    +MV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gb|ABC43292.1|</Hit_id>
+  <Hit_def>odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>ABC43292</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.91173e-07</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVP</Hsp_qseq>
+      <Hsp_hseq>KIVLP--IFFTVYVSVLSGNSMIIYLVRTDPKLDTPMYFFLHNLSFSDIVYTSVTIPKMLSVFLTGDKTISKTGCFMQ-----IQFVLWMGLTGRGL-LTAMAFDRYVAICNPLRYTTIMTRKLCVLLIFASWTYGALIVLPPVIWATQLP</Hsp_hseq>
+      <Hsp_midline>++VLP  IFFT+ +  +  N +++  V  +  L  PMYFF+ +L+ SD++ +   I + + + L     +   G F       I  +  + L G    L+ +A DRY+ I + LRY +I+T +  V+++   WT+     +  VI++  +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gb|AAI07995.1|</Hit_id>
+  <Hit_def>Odorant receptor, family D, subfamily 111, member 3 [Danio rerio]</Hit_def>
+  <Hit_accession>AAI07995</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.92808e-07</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENIL-IILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSI--FSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMV</Hsp_qseq>
+      <Hsp_hseq>FVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALAD-IGETNALIPNMMKTFLFNSQYISYNGC--------MANMFFVFLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMV</Hsp_hseq>
+      <Hsp_midline>F +  + V+ N +VLL +  +++L +P Y  + +LA++D +G    ++ N++   L N  Y+   G         + ++F + L  SI  F+L  +A DR+I I   LRYH+IV     +++   IW F +    +MV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|NP_571823.3|</Hit_id>
+  <Hit_def>odorant receptor 111-3 [Danio rerio] &gt;gb|ABC43336.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571823</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.07422e-07</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENIL-IILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSI--FSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMV</Hsp_qseq>
+      <Hsp_hseq>FVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALAD-IGETNALIPNMMKTFLFNSQYISYNGC--------MANMFFVFLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMV</Hsp_hseq>
+      <Hsp_midline>F +  + V+ N +VLL +  +++L +P Y  + +LA++D +G    ++ N++   L N  Y+   G         + ++F + L  SI  F+L  +A DR+I I   LRYH+IV     +++   IW F +    +MV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|XP_021333086.1|</Hit_id>
+  <Hit_def>somatostatin receptor type 5 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021333086</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>2.11017e-07</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>IFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSH------------HVPTVITFTSL---------FPLMLVFILCLYVHMFLLARSHTRK-ISTLPRANMKGAITLTILLGVFIFCWAPF--VLHVLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFCSR</Hsp_qseq>
+      <Hsp_hseq>ISFTVFIVGLTGNTLAIYVVLRYAKMKTVTNIYILNLAVADEL----YILGLPFLTTQNVLSYWPFGSFLCRVVMTADSL---NQFTSIFCLTVMSIDRYLAVVHPIRSTRWRRPRVAKAVSAAVWAFSFIVVLPVVIFSDVQDTFNSCNMSWPEPRDIWSTAFILYTATLGFFGPLLVICMCYLLIVVKVKSSGARAGFTKRRRSERKVTRMVVVIVVVFVLCWLPFYIINIVNLVIILPENSWMAG-VYFFAV--ILSYANSCANPLLYGFLSDNFKQSFRK-VLCVR</Hsp_hseq>
+      <Hsp_midline>I FT+ IVG+  N + +  V +   ++     +I +LA++D L     IL    +  +N+    P GSF        DSL   +   SIF L+V++ DRY+ + H +R       R    V   +W F     + +VIFS               P  I  T+          F  +LV  +C  + +  +  S  R   +   R+  K    + +++ VF+ CW PF  +  V L+   P N + A  +  F V  +L   N+  +P +Y F S   + +F+K + C R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|XP_073779465.1|</Hit_id>
+  <Hit_def>odorant receptor 111-3 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073779465</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.19263e-07</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENIL-IILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSI--FSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMV</Hsp_qseq>
+      <Hsp_hseq>FVVYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALAD-IGETNALIPNMMKTFLFNSQYISYNGC--------MANMFFVFLFNSIQSFTLVALAYDRFIAICLPLRYHAIVNNTSMILIFLAIWAFNSSVVASMV</Hsp_hseq>
+      <Hsp_midline>F +  + V+ N +VLL +  +++L +P Y  + +LA++D +G    ++ N++   L N  Y+   G         + ++F + L  SI  F+L  +A DR+I I   LRYH+IV     +++   IW F +    +MV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|XP_009293936.1|</Hit_id>
+  <Hit_def>olfactory receptor 6C75 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_009293936</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.21308e-07</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVP</Hsp_qseq>
+      <Hsp_hseq>KIVLP--IFFTVYVSVLSGNSMIIYLVRTDPKLDTPMYFFLHNLSFSDIVYTSVTIPKMLSVFLTGDKTISKTGCFMQ-----IQFVLWMGLTGRGL-LTAMAFDRYVAICNPLRYTTIMTRKLCVLLIFASWTYGALIVLPPVIWATQLP</Hsp_hseq>
+      <Hsp_midline>++VLP  IFFT+ +  +  N +++  V  +  L  PMYFF+ +L+ SD++ +   I + + + L     +   G F       I  +  + L G    L+ +A DRY+ I + LRY +I+T +  V+++   WT+     +  VI++  +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|NP_571822.1|</Hit_id>
+  <Hit_def>odorant receptor 111-4 [Danio rerio] &gt;ref|XP_073779464.1| odorant receptor 111-4 isoform X1 [Danio rerio] &gt;gb|AAC60269.1| olfactory receptor protein 2.7 [Danio rerio] &gt;gb|AAF27272.1| odorant receptor 2.7 [Danio rerio] &gt;gb|AAI63798.1| Odorant receptor, family D, subfamily 111, member 4 [Danio rerio] &gt;gb|AAI63801.1| Odorant receptor, family D, subfamily 111, member 4 [Danio rerio] &gt;gb|ABC43337.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571822</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.25188e-07</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>FTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENIL-IILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSI--FSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMV</Hsp_qseq>
+      <Hsp_hseq>FVIYFISVIGNSVVLLIIAVDRSLHSPKYIGVFNLALAD-IGETNALIPNMMKTFLFDSQYI--------SYNACLANMFFVFLFSSVQSFTLVALAYDRFIAICLPLRYHAIVTNTSMILIFSTIWVFNSSVVASMV</Hsp_hseq>
+      <Hsp_midline>F I  + V+ N +VLL +  +++L +P Y  + +LA++D +G    ++ N++   L +  Y+        + +  + ++F + L  S+  F+L  +A DR+I I   LRYH+IVT    +++ + IW F +    +MV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gb|ABD85040.1|</Hit_id>
+  <Hit_def>odorant receptor 11.1, partial [Danio rerio]</Hit_def>
+  <Hit_accession>ABD85040</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.34742e-07</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>RVVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIWTFCTGTGITMVIFSHHVP</Hsp_qseq>
+      <Hsp_hseq>KIVLP--IFFTVYVSVLSGNSMIIYLVRTDPKLDTPMYFFLHNLSFSDIVYTSVTIPKMLSVFLTGDKTISKTGCFMQ-----IQFVLWMGLTGRGL-LTAMAFDRYVAICNPLRYTTIMTRKLCVLLIFASWTYGALIVLPPVIWATQLP</Hsp_hseq>
+      <Hsp_midline>++VLP  IFFT+ +  +  N +++  V  +  L  PMYFF+ +L+ SD++ +   I + + + L     +   G F       I  +  + L G    L+ +A DRY+ I + LRY +I+T +  V+++   WT+     +  VI++  +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|NP_001121869.1|</Hit_id>
+  <Hit_def>odorant receptor 126-2 [Danio rerio] &gt;gb|ABC43312.1| odorant receptor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001121869</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.85692e-07</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDS-------LFVL--SLLGSIFSLSVIAADRYITIFHALRYHSIVTMRRTVVVLTVIW</Hsp_qseq>
+      <Hsp_hseq>NVTVIFTIISHKKLHEPMYVFICSLCVNGLFGTV--------------GFY-PKFLYDLLSQDQVISYVGCLIQIFVIYSSLLCDFSTLTVMAYDRYVAICRPLEYHSVMTARMVFKCILFCW</Hsp_hseq>
+      <Hsp_midline>N+ V+  +  +K L  PMY FICSL ++ + G++              G+  P+  ++  + D + S       +FV+  SLL    +L+V+A DRY+ I   L YHS++T R     +   W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|NP_001025429.1|</Hit_id>
+  <Hit_def>neuropeptides B/W receptor type 2b [Danio rerio] &gt;ref|XP_005161996.1| neuropeptides B/W receptor type 2b isoform X1 [Danio rerio] &gt;ref|XP_005161997.1| neuropeptides B/W receptor type 2b isoform X1 [Danio rerio] &gt;gb|AAR88324.1| Gpr7 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001025429</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.89396e-07</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>VVLPEEIFFTISIVGVLENLIVLLAVFKNKNLQAPMYFFICSLAISDMLGSLYKILENILIILRNMGYLKPRGSFETTADDIIDSLFVLSLLGSIFSLSVIAADRYITI----------FHALRYHSIVTMRRTVVVLTVIWTFCTGTGITM---------VIFSHHVPTVITFTS--LFPLMLVF------ILCLYVHMFLLARSHTRKISTLPRANMKGAITLT--ILLGVFIFCWAPFVLH--VLLMTFCPSNPYCACYMSLFQVNGMLIMCNAVIDPFIYAFRSPELRDAFKKMIFC</Hsp_qseq>
+      <Hsp_hseq>VVLPV-IYSVICAVGLTGNTAVIYVILKAPKMKTVTNMFILNLAIADDLFTLVLPIN----IAEHLLHYWPFGEVLC---KIILSIDHYNIFSSIYFLTVMSVDRYLVVLSTVRSKRMPYRTYRAAKIVSLCVWLLVILIVMPFSVFAGVYISPDDTERKSCVLSFPSPESLWFKASRIYTLILGFAIPVSTICILYTMMLYKLRNMRLNTNAKALDKAKKKVTIMVFIVLAVCLFCWTPFHLSTIVALTTDLRTTPLLIG-ISYFITS--LSYANSCLNPFLYAFLDDSFRKAFKKMLEC</Hsp_hseq>
+      <Hsp_midline>VVLP  I+  I  VG+  N  V+  + K   ++     FI +LAI+D L +L   +     I  ++ +  P G        II S+   ++  SI+ L+V++ DRY+ +          +   R   IV++   ++V+ ++  F    G+ +          + S   P  + F +  ++ L+L F      I  LY  M    R+     +       K  +T+   I+L V +FCW PF L   V L T   + P     +S F  +  L   N+ ++PF+YAF     R AFKKM+ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

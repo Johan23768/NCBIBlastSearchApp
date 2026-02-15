@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3647407</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_001243.1 CD70 antigen isoform 1 [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>193</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3647407</Iteration_query-ID>
+  <Iteration_query-def>NP_001243.1 CD70 antigen isoform 1 [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>193</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_001243.1|</Hit_id>
+  <Hit_def>CD70 antigen isoform 1 [Homo sapiens] &gt;ref|XP_003819393.1| CD70 antigen [Pan paniscus] &gt;ref|XP_054178722.1| CD70 antigen isoform X1 [Homo sapiens] &gt;ref|XP_054178723.1| CD70 antigen isoform X1 [Homo sapiens] &gt;ref|XP_055227429.1| CD70 antigen [Gorilla gorilla gorilla] &gt;ref|XP_063657146.1| CD70 antigen isoform X3 [Pan troglodytes] &gt;ref|XP_063657147.1| CD70 antigen isoform X3 [Pan troglodytes] &gt;sp|P32970.2| RecName: Full=CD70 antigen; AltName: Full=CD27 ligand; Short=CD27-L; AltName: Full=Tumor necrosis factor ligand superfamily member 7; AltName: CD_antigen=CD70 [Homo sapiens] &gt;gb|AAX32291.1| tumor necrosis factor superfamily member 7 [synthetic construct] &gt;emb|SJX30110.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAB30121.1| surface antigen CD70 [Homo sapiens] &gt;gb|AAH00725.1| CD70 molecule [Homo sapiens] &gt;gb|AAP35875.1| tumor necrosis factor (ligand) superfamily, member 7 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001243</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.889</Hsp_bit-score>
+      <Hsp_score>1008</Hsp_score>
+      <Hsp_evalue>1.37868e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQGCTIASQRLTPLARGDTLCTNLTGTLLPSRNTDETFFGVQWVRP</Hsp_qseq>
+      <Hsp_hseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQGCTIASQRLTPLARGDTLCTNLTGTLLPSRNTDETFFGVQWVRP</Hsp_hseq>
+      <Hsp_midline>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQGCTIASQRLTPLARGDTLCTNLTGTLLPSRNTDETFFGVQWVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAA36175.1|</Hit_id>
+  <Hit_def>CD27 ligand [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA36175</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>5.67867e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQGCTIASQRLTPLARGDTLCTNLTGTLLPSRNTDETFFGVQWVRP</Hsp_qseq>
+      <Hsp_hseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQGCTIVSQRLTPLARGDTLCTNLTGTLLPSRNTDETFFGVQWVRP</Hsp_hseq>
+      <Hsp_midline>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQGCTI SQRLTPLARGDTLCTNLTGTLLPSRNTDETFFGVQWVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|7KX0|A</Hit_id>
+  <Hit_def>Chain A, CD70 antigen [Homo sapiens] &gt;pdb|7KX0|B Chain B, CD70 antigen [Homo sapiens] &gt;pdb|7KX0|C Chain C, CD70 antigen [Homo sapiens]</Hit_def>
+  <Hit_accession>7KX0_A</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>2.27895e-106</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>QRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQGCTIASQRLTPLARGDTLCTNLTGTLLPSRNTDETFFGVQWVRP</Hsp_qseq>
+      <Hsp_hseq>HHHGSGQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQGCTIASQRLTPLARGDTLCTNLTGTLLPSRNTDETFFGVQWVRP</Hsp_hseq>
+      <Hsp_midline>      QQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQGCTIASQRLTPLARGDTLCTNLTGTLLPSRNTDETFFGVQWVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|NP_001317261.1|</Hit_id>
+  <Hit_def>CD70 antigen isoform 2 [Homo sapiens] &gt;gb|KAI2588258.1| CD70 molecule [Homo sapiens] &gt;gb|KAI4039928.1| CD70 molecule [Homo sapiens] &gt;dbj|BAG60680.1| unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001317261</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>2.06237e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQG</Hsp_qseq>
+      <Hsp_hseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQG</Hsp_hseq>
+      <Hsp_midline>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTGPQQDPRLYWQGGPALGRSFLHGPELDKGQLRIHRDGIYMVHIQVTLAICSSTTASRHHPTTLAVGICSPASRSISLLRLSFHQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|EAW69075.1|</Hit_id>
+  <Hit_def>tumor necrosis factor (ligand) superfamily, member 7, isoform CRA_b [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW69075</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>2.35689e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTG</Hsp_qseq>
+      <Hsp_hseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTG</Hsp_hseq>
+      <Hsp_midline>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHTG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|KAI2588260.1|</Hit_id>
+  <Hit_def>CD70 molecule, partial [Homo sapiens] &gt;gb|KAI4039930.1| CD70 molecule, partial [Homo sapiens] &gt;gb|PNI25486.1| CD70 isoform 3, partial [Pan troglodytes]</Hit_def>
+  <Hit_accession>KAI2588260</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.10505e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHT</Hsp_qseq>
+      <Hsp_hseq>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHT</Hsp_hseq>
+      <Hsp_midline>MPEEGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESLGWDVAELQLNHT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|KAI4085716.1|</Hit_id>
+  <Hit_def>hypothetical protein G5576_003410, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI4085716</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.02785</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>EGSGCSVRRRPYGCVLRAALVPLVAGLVICLVVCIQRFAQAQQQLPLESL</Hsp_qseq>
+      <Hsp_hseq>ESNGTSCRGKPWKCYEEEQCVFLVAELKNGLLVCISSFQWLRHEYLQETI</Hsp_hseq>
+      <Hsp_midline>E +G S R +P+ C      V LVA L   L+VCI  F   + +   E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>2278835</Statistics_db-num>
+      <Statistics_db-len>223971059</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

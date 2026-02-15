@@ -1,0 +1,2730 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7085807</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_000548.2 growth/differentiation factor 5 preproprotein [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>501</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7085807</Iteration_query-ID>
+  <Iteration_query-def>NP_000548.2 growth/differentiation factor 5 preproprotein [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>501</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_002662587.2|</Hit_id>
+  <Hit_def>growth/differentiation factor 5 isoform X1 [Danio rerio] &gt;ref|XP_073810845.1| growth/differentiation factor 5 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_002662587</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>499.204</Hsp_bit-score>
+      <Hsp_score>1284</Hsp_score>
+      <Hsp_evalue>1.09737e-173</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>PSSFLLKKAREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>PSHLRMKSAVKLENSEEPKHPL----VIPHDYMLSLYWSLTSGD---VNTSVLHEAGMANTITSFVDRGQDERAPLLRRQRYLFNISSMEKEGLLGAELRILRKKHMDSRKATFSEG--MAVLRLFTCASGKNAAVLLQARPFDSHSASYWEVFDIWKVFKNFRNTPQLCLELDAVDHGRPLDLRLLGLSRAGRQTKEKAFFVVFGRTKKRGLFYNEIKARSGHDNKTVYEYLFTQRRMRRAPLP--RGKKPIKNPKQRCNRKQLHVNFKEMGWDDWIIAPLEYEAFHCDGVCDFPIRSHLEPTNHAIIQTLMNSMDPRSTPPTCCVPTRLSPISILYIDSANNVVYKQYEDMVVESCGCR</Hsp_hseq>
+      <Hsp_midline>PS   +K A +     EPK P     + PH+YMLSLY +L+  D    N+SV  EAG+ANTITSF+D+GQD+R P++R+QRY+F+IS++EK+GLLGAELRILRKK  D+ K     G   A L+L +C SG+  A LL  R       S WEVFDIWK+F+NF+N+ QLCLEL+A + GR +DLR LG  RA RQ  EKA F+VFGRTKKR LF+NEIKARSG D+KTVYEYLF+QRR RRAPL   +GK+P KN K RC+RK LHVNFK+MGWDDWIIAPLEYEAFHC+G+C+FP+RSHLEPTNHA+IQTLMNSMDP STPPTCCVPTRLSPISIL+IDSANNVVYKQYEDMVVESCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_073810846.1|</Hit_id>
+  <Hit_def>growth/differentiation factor 5 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073810846</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>9.25929e-143</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>LEKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>MEKEGLLGAELRILRKKHMDSRKATFSEG--MAVLRLFTCASGKNAAVLLQARPFDSHSASYWEVFDIWKVFKNFRNTPQLCLELDAVDHGRPLDLRLLGLSRAGRQTKEKAFFVVFGRTKKRGLFYNEIKARSGHDNKTVYEYLFTQRRMRRAPLP--RGKKPIKNPKQRCNRKQLHVNFKEMGWDDWIIAPLEYEAFHCDGVCDFPIRSHLEPTNHAIIQTLMNSMDPRSTPPTCCVPTRLSPISILYIDSANNVVYKQYEDMVVESCGCR</Hsp_hseq>
+      <Hsp_midline>+EK+GLLGAELRILRKK  D+ K     G   A L+L +C SG+  A LL  R       S WEVFDIWK+F+NF+N+ QLCLEL+A + GR +DLR LG  RA RQ  EKA F+VFGRTKKR LF+NEIKARSG D+KTVYEYLF+QRR RRAPL   +GK+P KN K RC+RK LHVNFK+MGWDDWIIAPLEYEAFHC+G+C+FP+RSHLEPTNHA+IQTLMNSMDP STPPTCCVPTRLSPISIL+IDSANNVVYKQYEDMVVESCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>emb|CAA72733.1|</Hit_id>
+  <Hit_def>contact, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAA72733</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.119</Hsp_bit-score>
+      <Hsp_score>1006</Hsp_score>
+      <Hsp_evalue>5.96191e-135</Hsp_evalue>
+      <Hsp_query-from>241</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>ILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>ILRKKHMDSRKATFSEG--MAVLRLFTCASGKNAAVLLQARPFDSHSASYWEVFDIWKVFKNFRNTPQLCLELDAVDHGRPLDLRLLGLSRAGRQTKEKAFFVVFGRTKKRGLFYNEIKARSGHDNKTVYEYLFTQRRMRRAPLP--RGKKPIKNPKQRCNRKQLHVNFKEMGWDDWIIAPLEYEAFHCDGVCDFPIRSHLEPTNHAIIQTLMNSMDPRSTPPTCCVPTRLSPISILYIDSANNVVYKQYEDMVVESCGCR</Hsp_hseq>
+      <Hsp_midline>ILRKK  D+ K     G   A L+L +C SG+  A LL  R       S WEVFDIWK+F+NF+N+ QLCLEL+A + GR +DLR LG  RA RQ  EKA F+VFGRTKKR LF+NEIKARSG D+KTVYEYLF+QRR RRAPL   +GK+P KN K RC+RK LHVNFK+MGWDDWIIAPLEYEAFHC+G+C+FP+RSHLEPTNHA+IQTLMNSMDP STPPTCCVPTRLSPISIL+IDSANNVVYKQYEDMVVESCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAB34226.1|</Hit_id>
+  <Hit_def>TGF-beta=transforming growth factor beta/Radar product [Danio rerio=zebrafish, embryos, Peptide, 354 aa] [Danio rerio]</Hit_def>
+  <Hit_accession>AAB34226</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.999</Hsp_bit-score>
+      <Hsp_score>933</Hsp_score>
+      <Hsp_evalue>2.4303e-122</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>AREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPV-VRKQRYVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDG--SGWEVFDIWKLFRNFKNSAQLCLELEAW--ERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKAR---SGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>ASSPGASR--RDDFKDP-VLPHDYMISIYRTYSAAEKLGLNASFFRSSKSANTITSFVDKGKDDLTLSPLRRQTYLFDVSTLSDKEELVGAELRIFRKSPGD-VQPSPSG---VYNLHLLSCRSERPLAS----RSIDLQDSRKAEWEVLDVWGIFKHRHQENQLCLQLKVTYGKSDTEIDLKQLGFHRHSRTQQERAILVVYTRSKKRENLFNEMKEKIKSRGDDDEEESALQFKARRRRRTALNNRHGKRHGKKSKSRCSKKALHVNFKELGWDDWIIAPLDYEAYHCEGVCDFPLRSHLEPTNHAIIQTLMNSMDPNSTPPSCCVPTKLSPISILYIDSGNNVVYKQYEDMVVEQCGCR</Hsp_hseq>
+      <Hsp_midline>A  PG  R  ++ F+ P + PH+YM+S+YRT S A++ G N+S    +  ANTITSF+DKG+DD     +R+Q Y+FD+S L +K+ L+GAELRI RK P D  +P+  G      L L SC S R  A+    RS+   D   + WEV D+W +F++     QLCL+L+    +    +DL+ LGF R +R   E+A+ +V+ R+KKR+  FNE+K +    G DD+      F  RR+RR  L  R GKR  K  K+RCS+KALHVNFK++GWDDWIIAPL+YEA+HCEG+C+FPLRSHLEPTNHA+IQTLMNSMDP STPP+CCVPT+LSPISIL+IDS NNVVYKQYEDMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_001153466.2|</Hit_id>
+  <Hit_def>growth/differentiation factor 6-A precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001153466</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.999</Hsp_bit-score>
+      <Hsp_score>933</Hsp_score>
+      <Hsp_evalue>1.01024e-121</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>AREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPV-VRKQRYVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDG--SGWEVFDIWKLFRNFKNSAQLCLELEAW--ERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKAR---SGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>ASSPGASR--RDDFKDP-VVPHDYMISIYRTYSAAEKLGLNASFFRSSKSANTITSFVDKGKDDLTLSPLRRQTYLFDVSTLSDKEELVGAELRIFRKSPGDV-QPSPSG---VYNLHLLSCRSERPLAS----RSIDLQDSRKAEWEVLDVWGIFKHRHQENQLCLQLKVTYGKSDTEIDLKQLGFHRHSRTQQERAILVVYTRSKKRENLFNEMKEKIKSRGDDDEEESALQFKARRRRRTALNNRHGKRHGKKSKSRCSKKALHVNFKELGWDDWIIAPLDYEAYHCEGVCDFPLRSHLEPTNHAIIQTLMNSMDPNSTPPSCCVPTKLSPISILYIDSGNNVVYKQYEDMVVEQCGCR</Hsp_hseq>
+      <Hsp_midline>A  PG  R  ++ F+ P + PH+YM+S+YRT S A++ G N+S    +  ANTITSF+DKG+DD     +R+Q Y+FD+S L +K+ L+GAELRI RK P D  +P+  G      L L SC S R  A+    RS+   D   + WEV D+W +F++     QLCL+L+    +    +DL+ LGF R +R   E+A+ +V+ R+KKR+  FNE+K +    G DD+      F  RR+RR  L  R GKR  K  K+RCS+KALHVNFK++GWDDWIIAPL+YEA+HCEG+C+FPLRSHLEPTNHA+IQTLMNSMDP STPP+CCVPT+LSPISIL+IDS NNVVYKQYEDMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|P85857.1|</Hit_id>
+  <Hit_def>RecName: Full=Growth/differentiation factor 6-A; Short=GDF-6-A; AltName: Full=Growth differentiation factor 6A; AltName: Full=Protein radar; Flags: Precursor [Danio rerio]</Hit_def>
+  <Hit_accession>P85857</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.999</Hsp_bit-score>
+      <Hsp_score>933</Hsp_score>
+      <Hsp_evalue>1.1382e-121</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>AREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPV-VRKQRYVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDG--SGWEVFDIWKLFRNFKNSAQLCLELEAW--ERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKAR---SGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>ASSPGASR--RDDFKDP-VVPHDYMISIYRTYSAAEKLGLNASFFRSSKSANTITSFVDKGKDDLTLSPLRRQTYLFDVSTLSDKEELVGAELRIFRKSPGDV-QPSPSG---VYNLHLLSCRSERPLAS----RSIDLQDSRKAEWEVLDVWGIFKHRHQENQLCLQLKVTYGKSDTEIDLKQLGFHRHSRTQQERAILVVYTRSKKRENLFNEMKEKIKSRGDDDEEESALQFKARRRRRTALNNRHGKRHGKKSKSRCSKKALHVNFKELGWDDWIIAPLDYEAYHCEGVCDFPLRSHLEPTNHAIIQTLMNSMDPNSTPPSCCVPTKLSPISILYIDSGNNVVYKQYEDMVVEQCGCR</Hsp_hseq>
+      <Hsp_midline>A  PG  R  ++ F+ P + PH+YM+S+YRT S A++ G N+S    +  ANTITSF+DKG+DD     +R+Q Y+FD+S L +K+ L+GAELRI RK P D  +P+  G      L L SC S R  A+    RS+   D   + WEV D+W +F++     QLCL+L+    +    +DL+ LGF R +R   E+A+ +V+ R+KKR+  FNE+K +    G DD+      F  RR+RR  L  R GKR  K  K+RCS+KALHVNFK++GWDDWIIAPL+YEA+HCEG+C+FPLRSHLEPTNHA+IQTLMNSMDP STPP+CCVPT+LSPISIL+IDS NNVVYKQYEDMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_073781295.1|</Hit_id>
+  <Hit_def>growth/differentiation factor 6-A isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073781295</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>3.8381e-113</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>RTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPV-VRKQRYVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDG--SGWEVFDIWKLFRNFKNSAQLCLELEAW--ERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKAR---SGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>RTYSAAEKLGLNASFFRSSKSANTITSFVDKGKDDLTLSPLRRQTYLFDVSTLSDKEELVGAELRIFRKSPGDV-QPSPSG---VYNLHLLSCRSERPLAS----RSIDLQDSRKAEWEVLDVWGIFKHRHQENQLCLQLKVTYGKSDTEIDLKQLGFHRHSRTQQERAILVVYTRSKKRENLFNEMKEKIKSRGDDDEEESALQFKARRRRRTALNNRHGKRHGKKSKSRCSKKALHVNFKELGWDDWIIAPLDYEAYHCEGVCDFPLRSHLEPTNHAIIQTLMNSMDPNSTPPSCCVPTKLSPISILYIDSGNNVVYKQYEDMVVEQCGCR</Hsp_hseq>
+      <Hsp_midline>RT S A++ G N+S    +  ANTITSF+DKG+DD     +R+Q Y+FD+S L +K+ L+GAELRI RK P D  +P+  G      L L SC S R  A+    RS+   D   + WEV D+W +F++     QLCL+L+    +    +DL+ LGF R +R   E+A+ +V+ R+KKR+  FNE+K +    G DD+      F  RR+RR  L  R GKR  K  K+RCS+KALHVNFK++GWDDWIIAPL+YEA+HCEG+C+FPLRSHLEPTNHA+IQTLMNSMDP STPP+CCVPT+LSPISIL+IDS NNVVYKQYEDMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_073786594.1|</Hit_id>
+  <Hit_def>growth/differentiation factor 6-B isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073786594</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.775</Hsp_bit-score>
+      <Hsp_score>813</Hsp_score>
+      <Hsp_evalue>9.29252e-104</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>ITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDR--GPVVRKQRYVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSG--WEVFDIWKLFR---NFKNSAQLCLELEAWERG--RAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARS---GQDDKTVYEYLFSQ-RRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>IEPHDYMISIYKTFSAAEKLGLNASFFRSSKAANTITSFVDEGQDDHLNSPLWR-QKYLFDVSTLSENVEILGAELRIY-TKISGSFRASETG---PVEIQLLSC----QSHTVLDSQTLDLEDAHKPKWEVFDVWEIFKERQHHSHGTRFCLELRATLDNPEREIDLQYLGFHRHGRPQLKKAILVVFTRSKKRQSLFYEKREKIKLWGLDSIGKERRSHSKTRRSRRTALPNRHGKRHGKKSKSRCSKKPLHVNFRELGWDDWVIAPLDYEAYHCEGMCDFPLRSHLEPTNHAIIQTLMNSMNPSNMPPSCCVPSKLSPISILYIDAGNNVVYKQYEDMVVESCGCR</Hsp_hseq>
+      <Hsp_midline>I PH+YM+S+Y+T S A++ G N+S    +  ANTITSF+D+GQDD    P+ R Q+Y+FD+S L E   +LGAELRI   K S + + +  G     +++L SC    Q   +LD +++   D     WEVFD+W++F+   +  +  + CLEL A      R +DL+ LGF R  R   +KA+ +VF R+KKR   F E + +    G D         S+ RR RR  L  R GKR  K  K+RCS+K LHVNF+++GWDDW+IAPL+YEA+HCEG+C+FPLRSHLEPTNHA+IQTLMNSM+P + PP+CCVP++LSPISIL+ID+ NNVVYKQYEDMVVESCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|A8E7N9.1|</Hit_id>
+  <Hit_def>RecName: Full=Growth/differentiation factor 6-B; Short=GDF-6-B; AltName: Full=Growth differentiation factor 6b; AltName: Full=Protein dynamo; Flags: Precursor [Danio rerio] &gt;gb|AAI63352.1| Gdf6b protein [Danio rerio] &gt;gb|AAI63367.1| Gdf6b protein [Danio rerio]</Hit_def>
+  <Hit_accession>A8E7N9</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.775</Hsp_bit-score>
+      <Hsp_score>813</Hsp_score>
+      <Hsp_evalue>1.63554e-103</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>ITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDR--GPVVRKQRYVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSG--WEVFDIWKLFR---NFKNSAQLCLELEAWERG--RAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARS---GQDDKTVYEYLFSQ-RRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>IEPHDYMISIYKTFSAAEKLGLNASFFRSSKAANTITSFVDEGQDDHLNSPLWR-QKYLFDVSTLSENVEILGAELRIY-TKISGSFRASETG---PVEIQLLSC----QSHTVLDSQTLDLEDAHKPKWEVFDVWEIFKERQHHSHGTRFCLELRATLDNPEREIDLQYLGFHRHGRPQLKKAILVVFTRSKKRQSLFYEKREKIKLWGLDSIGKERRSHSKTRRSRRTALPNRHGKRHGKKSKSRCSKKPLHVNFRELGWDDWVIAPLDYEAYHCEGMCDFPLRSHLEPTNHAIIQTLMNSMNPSNMPPSCCVPSKLSPISILYIDAGNNVVYKQYEDMVVESCGCR</Hsp_hseq>
+      <Hsp_midline>I PH+YM+S+Y+T S A++ G N+S    +  ANTITSF+D+GQDD    P+ R Q+Y+FD+S L E   +LGAELRI   K S + + +  G     +++L SC    Q   +LD +++   D     WEVFD+W++F+   +  +  + CLEL A      R +DL+ LGF R  R   +KA+ +VF R+KKR   F E + +    G D         S+ RR RR  L  R GKR  K  K+RCS+K LHVNF+++GWDDW+IAPL+YEA+HCEG+C+FPLRSHLEPTNHA+IQTLMNSM+P + PP+CCVP++LSPISIL+ID+ NNVVYKQYEDMVVESCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|NP_571062.1|</Hit_id>
+  <Hit_def>growth/differentiation factor 6-B precursor [Danio rerio] &gt;emb|CAA68102.1| Dynamo protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571062</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>3.22772e-103</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>ITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDR--GPVVRKQRYVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSG--WEVFDIWKLFRNFKNSAQ---LCLELEAWERG--RAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARS---GQDDKTVYEYLFSQ-RRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>IEPHDYMISIYKTFSAAEKLGLNASFFRSSKAANTITSFVDEGQDDHLNSPLWR-QKYLFDVSTLSENVEILGAELRIY-TKISGSFRASETG---PVEIQLLSC----QSHTVLDSQTLDLEDAHKPKWEVFDVWEIFKERQHHSHGNRFCLELRATLDNPEREIDLQYLGFHRHGRPQLKKAILVVFTRSKKRQSLFYEKREKIKLWGLDSIGKERRSHSKTRRSRRTALPNRHGKRHGKKSKSRCSKKPLHVNFRELGWDDWVIAPLDYEAYHCEGMCDFPLRSHLEPTNHAIIQTLMNSMNPSNMPPSCCVPSKLSPISILYIDAGNNVVYKQYEDMVVESCGCR</Hsp_hseq>
+      <Hsp_midline>I PH+YM+S+Y+T S A++ G N+S    +  ANTITSF+D+GQDD    P+ R Q+Y+FD+S L E   +LGAELRI   K S + + +  G     +++L SC    Q   +LD +++   D     WEVFD+W++F+  ++ +     CLEL A      R +DL+ LGF R  R   +KA+ +VF R+KKR   F E + +    G D         S+ RR RR  L  R GKR  K  K+RCS+K LHVNF+++GWDDW+IAPL+YEA+HCEG+C+FPLRSHLEPTNHA+IQTLMNSM+P + PP+CCVP++LSPISIL+ID+ NNVVYKQYEDMVVESCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_694563.3|</Hit_id>
+  <Hit_def>growth/differentiation factor 6-A [Danio rerio]</Hit_def>
+  <Hit_accession>XP_694563</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>8.94614e-97</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>YMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEK-DGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSC--PSGRQPAALLDVRSVPGLDGSG--WEVFDI-------WKLFRNFKNSAQLCLELEAWE--RGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAP---------LATRQGKRP-------SKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>YMISLYRTLSELDRRTGNGSHTRSRRYANTVTSFMDLGQDEPS-LMFQQQYTFNLSGLSRLDELMEVELRVLRRPPQDVLSLLSYGGN-LYRLLLHTCSLPGSLHQPLLLSSRTIDLLDTSSATWDVFDVGPIIKTPLKQHRTAEDTRLLCLSISAVSDSNNEAVHPGMLGLSREDQQTHEKALLVAFSQARRKENLFREIREKIRAMKSRKFSNPTPEHSIKGHPRHRRRRRTALAGRPGVGPITSGGKGGGRRRTRCSRKPLHVNFKELGWDDWIIAPLDYEAYHCEGLCDFPLRSHLEPTNHAIIQTLMNSMDPESTPPSCCVPSKLSPISILYIDSGNNVVYKQYEDMVVESCGCR</Hsp_hseq>
+      <Hsp_midline>YM+SLYRTLS+ DR+ GN S       ANT+TSF+D GQD+   ++ +Q+Y F++S L + D L+  ELR+LR+ P D     + GG    +L L +C  P       LL  R++  LD S   W+VFD+        K  R  +++  LCL + A       AV    LG  R  +Q HEKAL + F + ++++  F EI+ +        +     +   +  P         LA R G  P           + RCSRK LHVNFK++GWDDWIIAPL+YEA+HCEGLC+FPLRSHLEPTNHA+IQTLMNSMDPESTPP+CCVP++LSPISIL+IDS NNVVYKQYEDMVVESCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AAD20829.1|</Hit_id>
+  <Hit_def>growth/differentiation factor 7, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD20829</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>4.64148e-71</Hsp_evalue>
+      <Hsp_query-from>270</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>SGRQPAALLDVRSVPGLD-----GSGWEVFDI-------WKLFRNFKNSAQLCLELEAWE--RGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAP---------LATRQGKRP-------SKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>SLHQPL-LLSSRTIDLLDLLDTSSATWDVFDVGPIIKTPLKQHRTAEDTRLLCLSISAVSDSNNEAVHPGMLGLSREDQQTHERALLVAFSQARRKENLFREIREKIRAMKSRKFSNPTPEHSIKGHPRHRRRRRTALAGRPGVGPITSGGKGGGRRRTRCSRKPLHVNFKELGWDDWIIAPLDYEAYHCEGLCDFPLRSHLEPTNHAIIQTLMNSMDPESTPPSCCVPSKLSPISILYIDSGNNVVYKQYEDMVVESCGCR</Hsp_hseq>
+      <Hsp_midline>S  QP  LL  R++  LD      + W+VFD+        K  R  +++  LCL + A       AV    LG  R  +Q HE+AL + F + ++++  F EI+ +        +     +   +  P         LA R G  P           + RCSRK LHVNFK++GWDDWIIAPL+YEA+HCEGLC+FPLRSHLEPTNHA+IQTLMNSMDPESTPP+CCVP++LSPISIL+IDS NNVVYKQYEDMVVESCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|AJF23293.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 2a [Danio rerio]</Hit_def>
+  <Hit_accession>AJF23293</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>2.09817e-45</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>RPPP----ITPHEYMLSLYRTLSDADRKGGNSSVKL------EAGLANTITSFI-DKGQDD--RGPVVRKQRYVFDISALEKDGLL-GAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSG--RQPAA-LLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQ----LCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>RPTPSSSAVVP-QYMLDLYSAHSVNAEQVSRPRAHLGKGSERSASRANTIRSFHHDESTEDLSSSSVRTTQRFLFNLTSIPDEELVTSAELRVFREQIVSSLNNASAGFHRINVHEIIR-PSGSLQEPITRLLDTRLVQH-SLSKWESFDVTPAVLKWTTDGHPNHGILVEISHPDQDSRKHVR------VSRSLHNNE----DTWSQMRPLLVTYSHDGKGN--------VLHSREKRQA----RNNKQRKKH-KANCRRHSLYVDFSDVGWNDWIVAPPGYHAFYCQGECPFPLADHLNPTNHAIVQTLVNSVN-SNIPRACCVPTDLSPVSLLYLDEYERVILKNYQDMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>RP P    + P +YML LY   S    +       L       A  ANTI SF  D+  +D     V   QR++F+++++  + L+  AELR+ R++   +   A+ G  R    ++   PSG  ++P   LLD R V     S WE FD+      +         + +E+   ++     +R       +R +H          ++ R L         G         +   R KR+A    R  K+  K+ KA C R +L+V+F D+GW+DWI+AP  Y AF+C+G C FPL  HL PTNHA++QTL+NS++  + P  CCVPT LSP+S+L++D    V+ K Y+DMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|NP_571417.2|</Hit_id>
+  <Hit_def>bone morphogenetic protein 4 precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571417</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>2.47261e-45</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>EYMLSLYRTLSDADRKGGNSSVKLE-----AGLANTITSF-----IDKGQDDRGPVVRKQRYVFDISALEKDGLLG-AELRILRKKP----SDTAKPAAPGGGRAAQLKLSSCP-SGRQPAALLDVRSVPGLDGSGWEVFDI----WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVH---------EKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>QYLLDLYRLQSGELEEAGAQHVSFDYPERSTSRANTVRGFHHEEHLEELQSD-GSQETPLRFVFNLSSIPEDELISTAELRIYRQQIDDAFSDPDQTGDHGLHRINIYEVLKAPREGQLITQLLDTRLVRH-NTSKWESFDVSPAVLRWTQEKRSNHGLAVEVVQMKRNPVQKGRHV---RVSRSVHPLPNEEWDQLRPLLVTFGHDGKSHPL---------------------TRRAKRSP--KQRGRKRNRN----CRRHALYVDFSDVGWNDWIVAPPGYQAYYCHGECPFPLADHLNSTNHAIVQTLVNSVNT-NIPKACCVPTELSAISMLYLDETDRVVLKNYQEMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>+Y+L LYR  S    + G   V  +        ANT+  F     +++ Q D G      R+VF++S++ +D L+  AELRI R++     SD  +    G  R    ++   P  G+    LLD R V   + S WE FD+     +  +  +++  L +E+   +R      R +   R +R VH          + L + FG   K                          RR +R+P   ++G++ ++N    C R AL+V+F D+GW+DWI+AP  Y+A++C G C FPL  HL  TNHA++QTL+NS++  + P  CCVPT LS IS+L++D  + VV K Y++MVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|AAC13302.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 4 precursor [Danio rerio] &gt;gb|AAH78423.1| Bone morphogenetic protein 4 [Danio rerio] &gt;gb|AJF23295.1| bone morphogenetic protein 4 [Danio rerio] &gt;dbj|BAA24407.1| bone genetic protein 4 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC13302</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>4.34915e-45</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>EYMLSLYRTLSDADRKGGNSSVKLE-----AGLANTITSF-----IDKGQDDRGPVVRKQRYVFDISALEKDGLLG-AELRILRKKP----SDTAKPAAPGGGRAAQLKLSSCP-SGRQPAALLDVRSVPGLDGSGWEVFDI----WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVH---------EKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>QYLLDLYRLQSGELEEAGAQHVSFDYPERSTSRANTVRGFHHEEHLEELQSD-GSQETPLRFVFNLSSIPEDELISTAELRVYRQQIDDAFSDPDQTGDHGLHRINIYEVLKAPREGQLITQLLDTRLVRH-NTSKWESFDVSPAVLRWTQEKRSNHGLAVEVVQMKRNPVQKGRHV---RVSRSVHPLPDEEWDQLRPLLVTFGHDGKSHPL---------------------TRRAKRSP--KQRGRKRNRN----CRRHALYVDFSDVGWNDWIVAPPGYQAYYCHGECPFPLADHLNSTNHAIVQTLVNSVNT-NIPKACCVPTELSAISMLYLDETDRVVLKNYQEMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>+Y+L LYR  S    + G   V  +        ANT+  F     +++ Q D G      R+VF++S++ +D L+  AELR+ R++     SD  +    G  R    ++   P  G+    LLD R V   + S WE FD+     +  +  +++  L +E+   +R      R +   R +R VH          + L + FG   K                          RR +R+P   ++G++ ++N    C R AL+V+F D+GW+DWI+AP  Y+A++C G C FPL  HL  TNHA++QTL+NS++  + P  CCVPT LS IS+L++D  + VV K Y++MVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>emb|CAC50881.1|</Hit_id>
+  <Hit_def>anti-dorsalizing morphogenetic protein [Danio rerio]</Hit_def>
+  <Hit_accession>CAC50881</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>1.4008e-44</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>PHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEK-DGLLGAELRI--LRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWER---GRAVDLRGLGFDRAARQVHEKA-LFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPT-CCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>PPQYMLDLYNTIADVD--GVTKDPTLLEG--NTVRSFFDKLHSER------IEYLFNMSTVAKSEKILTAELHLFKLRPKTSIVLNRHHFCQVSVYQVLDSGKKNVSQGKKLLSSRLVP-IHSTGWEVFTITQAVRSWMSDEGSNLGLLVSVRTLAGSQMDLKMVRFASGRDHHHSKQPMLVLFTDDGRRAASLEATSKGSDVSPGSPSQPLPSVPASRRSPRSVDYDERGEK---MACQRQPLYVDFEEIGWSGWIVSPKGYNAYHCKGSCIFPLSQNMRPTNHAIVQSIINTLKLNKGIQTPCCVPDKLYSISLLYFDDDENVVLKQYDDMVAGSCGCR</Hsp_hseq>
+      <Hsp_midline>P +YML LY T++D D  G      L  G  NT+ SF DK   +R        Y+F++S + K + +L AEL +  LR K S              Q+  S   +  Q   LL  R VP +  +GWEVF I +  R++ +     L L    R   G  +DL+ + F       H K  + ++F    +R          S     +  + L S    RR+P +    +R  K     C R+ L+V+F+++GW  WI++P  Y A+HC+G C FPL  ++ PTNHA++Q+++N++       T CCVP +L  IS+L+ D   NVV KQY+DMV  SCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AAI63036.1|</Hit_id>
+  <Hit_def>Bmp2a protein [Danio rerio] &gt;gb|AAI63048.1| Bmp2a protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI63036</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>2.97327e-44</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>RPPP----ITPHEYMLSLYRTLSDADRKGGNSSVKL------EAGLANTITSFI-DKGQDD--RGPVVRKQRYVFDISALEKDGLL-GAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSG--RQPAA-LLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQ----LCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>RPTPSSSAVVP-QYMLDLYSAHSVNAEQVSRPRAHLGKGSERSASRANTIRSFHHDESTEDLSSSSVRTTQRFLFNLTSIPDEELVTSAELRVFREQIVSSLNNASAGFHRINVHEIIR-PSGSLQEPITRLLDTRLVQH-SLSKWESFDVTPAVLKWTTDGHPNHGILVEISHPDQDSRKHVR------VSRSLHNNE----DTWSQMRPLLVTYSHDGKGN--------VLHSREKRQA----RNNKQRKKH-KANCRRHSLYVDFSDVGWNDWIVAPPGYHAFYCQGECPFPLADHLNSTNHAIVQTLVNSVN-SNIPRACCVPTDLSPVSLLYLDEYERVILKNYQDMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>RP P    + P +YML LY   S    +       L       A  ANTI SF  D+  +D     V   QR++F+++++  + L+  AELR+ R++   +   A+ G  R    ++   PSG  ++P   LLD R V     S WE FD+      +         + +E+   ++     +R       +R +H          ++ R L         G         +   R KR+A    R  K+  K+ KA C R +L+V+F D+GW+DWI+AP  Y AF+C+G C FPL  HL  TNHA++QTL+NS++  + P  CCVPT LSP+S+L++D    V+ K Y+DMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AAL49502.1|</Hit_id>
+  <Hit_def>anti-dorsalizing morphogenetic protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAL49502</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>4.46483e-44</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>PHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEK-DGLLGAELRI--LRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWER---GRAVDLRGLGFDRAARQVHEKA-LFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPT-CCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>PPQYMLDLYNTIADVD--GVTKDPTLLEG--NTVRSFFDKLHSER------IEYLFNMSTVAKSEKILTAELHLFKLRPKTSIVLNRHHFCQVSVYQVLDSSKKNVSQGKKLLSSRLVP-IHSTGWEVFTITQAVRSWMSDEGSNLGLLVSVRTLAGSQMDLKMVRFASGRDHHHSKQPMLVLFTDDGRRAASLEATSKGSDVSPGGXSQPLPSVPASRRS---SRSVDYDERGEKMACQRQPLYVDFEEIGWSGWIVSPKGYNAYHCKGSCIFPLSQNMRPTNHAIVQSIINTLKLNKGIQTPCCVPDKLYSISLLYFDDDENVVLKQYDDMVAGSCGCR</Hsp_hseq>
+      <Hsp_midline>P +YML LY T++D D  G      L  G  NT+ SF DK   +R        Y+F++S + K + +L AEL +  LR K S              Q+  SS  +  Q   LL  R VP +  +GWEVF I +  R++ +     L L    R   G  +DL+ + F       H K  + ++F    +R          S        + L S    RR+   +R      +  K  C R+ L+V+F+++GW  WI++P  Y A+HC+G C FPL  ++ PTNHA++Q+++N++       T CCVP +L  IS+L+ D   NVV KQY+DMV  SCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|NP_571951.4|</Hit_id>
+  <Hit_def>anti-dorsalizing morphogenic protein precursor [Danio rerio] &gt;gb|AAL60179.1| anti-dorsalizing morphogenetic protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571951</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>4.74809e-44</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>PHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEK-DGLLGAELRI--LRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWER---GRAVDLRGLGFDRAARQVHEKA-LFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPT-CCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>PPQYMLDLYNTIADVD--GVTKDPTLLEG--NTVRSFFDKLHSER------IEYLFNMSTVAKSEKILTAELHLFKLRPKTSIVLNRHHFCQVSVYQVLDSSKKNVSQGKKLLSSRLVP-IHSTGWEVFTITQAVRSWMSDEGSNLGLLVSVRTLAGSQMDLKMVRFASGRDHHHSKQPMLVLFTDDGRRAASLEATSKGSDVSPGGSSQPLPSVPASRRS---SRSVDYDERGEKMACQRQPLYVDFEEIGWSGWIVSPKGYNAYHCKGSCIFPLSQNMRPTNHAIVQSIINTLKLNKGIQTPCCVPDKLYSISLLYFDDDENVVLKQYDDMVAGSCGCR</Hsp_hseq>
+      <Hsp_midline>P +YML LY T++D D  G      L  G  NT+ SF DK   +R        Y+F++S + K + +L AEL +  LR K S              Q+  SS  +  Q   LL  R VP +  +GWEVF I +  R++ +     L L    R   G  +DL+ + F       H K  + ++F    +R          S        + L S    RR+   +R      +  K  C R+ L+V+F+++GW  WI++P  Y A+HC+G C FPL  ++ PTNHA++Q+++N++       T CCVP +L  IS+L+ D   NVV KQY+DMV  SCGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|NP_957345.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 5 precursor [Danio rerio] &gt;gb|AAH54647.1| Bone morphogenetic protein 5 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_957345</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.92993e-43</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>ANTITSFIDKGQDDRGPVVRKQRYV---FDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDI------WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGF-DRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>ADMVMSFVNLVERDKDFSHHRRHYREFRFDLTQIPEGEAVTAAEFRIYKDQSHIRYENITLKVTIYQVIK--EYPNRDPDTFLLDWKKIRATDG-GWLVFDITATSNHWVLNPQQNMGLQLCVETTD---GRSINMKSAGIIGRNGPQSKQPFLVAFF---KASEVLLRSVRATGSK--KKSHNRNKSKTQVKSTP-ALKSGDQNTSEQRQACKKHELYVSFRDLGWQDWIIAPEGYAAFYCDGECSFPLNAHMNATNHAIVQTLVHLMFPDNVPKPCCAPTKLNAISVLYFDDSSNVILKKYRNMVVRSCGCH</Hsp_hseq>
+      <Hsp_midline>A+ + SF++  + D+     ++ Y    FD++ + E + +  AE RI + +     +           +K    P+      LLD + +   DG GW VFDI      W L        QLC+E      GR+++++  G   R   Q  +  L   F   K  ++    ++A   +  K  +    S+ + +  P A + G + +   +  C +  L+V+F+D+GW DWIIAP  Y AF+C+G C FPL +H+  TNHA++QTL++ M P++ P  CC PT+L+ IS+L+ D ++NV+ K+Y +MVV SCGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|AAC60285.1|</Hit_id>
+  <Hit_def>BMP4 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60285</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>5.92805e-43</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>EYMLSLYRTLSDADRKGGNSSVKLE-----AGLANTITSF-----IDKGQDDRGPVVRKQRYVFDISALEKDGLLG-AELRILRKKP----SDTAKPAAPGGGRAAQLKLSSCP-SGRQPAALLDVRSVPGLDGSGWEVFDI----WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQV------HEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>QYLLDLYRLQSGELEEAGAQHVSFDYPERSTSRASTVRGFHHEEHLEELQSD-GSQETPLRFVFNLSSIPEDELISTADVRIYRQQIDDAFSDPDQTGDHGLHRINIYEVLKAPREGQLITQLLDTRLVRP-NTSKWESFDVSPAVLRWTQEKRSNHGLAVEVVQMKRNPVQKGRHARVSRSVHPLPNEEWDHVRPLLVTFGHDGKSHPL---------------------TRRAKRSP--KQRGRKRNRN----CRRHALYVDFSDVGWNDWIVAPPGYQAYYCHGECPFPLADHLNSTNHAIVQTLVNSVNT-NIPKWCCVPTELSAISMLYLDETDRVVLKNYQEMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>+Y+L LYR  S    + G   V  +        A+T+  F     +++ Q D G      R+VF++S++ +D L+  A++RI R++     SD  +    G  R    ++   P  G+    LLD R V   + S WE FD+     +  +  +++  L +E+   +R      R     R+   +      H + L + FG   K                          RR +R+P   ++G++ ++N    C R AL+V+F D+GW+DWI+AP  Y+A++C G C FPL  HL  TNHA++QTL+NS++  + P  CCVPT LS IS+L++D  + VV K Y++MVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|NP_571435.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 2b precursor [Danio rerio] &gt;gb|AAC25595.1| bone morphogenetic protein 2 [Danio rerio] &gt;gb|AAI14257.1| Bone morphogenetic protein 2b [Danio rerio] &gt;gb|AJF23294.1| bone morphogenetic protein 2b [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571435</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>3.87286e-42</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>EYMLSLYRTLSDAD-------RKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVR---KQRYVFDISALEKDGLL-GAELRILRKKPSDTAKPAAPGGGRAAQLKL---SSCPSGRQPAALLDVRSVPGLDGSGWEVFDI------WKLFRNFKNSAQLCLEL---EAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSK--NLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>QYMLDLYYMHSENDDPNIRRPRSTMGKHVERAASRANTIRSFHHEEAFEALSSLKGKTTQQFFFNLTSIPGEELISAAELRIFRDQVLGDA--STSGFHRINIYEVFRPALAPSKEPLTRLLDTRLVQD-SHTRWESFDVGSAVARWA--RESQHNHGLLVEVLHPKESEVSEEAESNRRKHVRVSRSLHADE----DSWAQARPLLVT--YSHDGQGTAV----LHSNREKRQA----RRGQKPRRKHHQRSNCRRHALYVDFSDVGWNEWIVAPPGYHAFYCHGECPFPLPDHLNSTNHAIVQTLVNSVN-SNIPKACCIPTELSPISLLYLDEYEKVILKNYQDMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>+YML LY   S+ D       R      V+  A  ANTI SF  +   +    ++    Q++ F+++++  + L+  AELRI R +    A  +  G  R    ++   +  PS      LLD R V     + WE FD+      W   R  +++  L +E+   +  E     +       R +R +H           + R L      +  GQ        L S R KR+A    R+G++P +  + ++ C R AL+V+F D+GW++WI+AP  Y AF+C G C FPL  HL  TNHA++QTL+NS++  + P  CC+PT LSPIS+L++D    V+ K Y+DMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|NP_571434.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 2 precursor [Danio rerio] &gt;gb|AAC60287.1| BMP2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571434</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>2.84021e-41</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>RPPPITPH---EYMLSLYRTLSDADRKGGNSSVKL------EAGLANTITSFI-DKGQDD--RGPVVRKQRYVFDISALEKDGLL-GAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSG--RQPAA-LLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQ----LCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>RPTPSTSAVVPQYMLDLYSAHSVNAEQVSRPRAHLGKGSERSASRANTIRSFHHDESTEDPSSSSVRTTQRFLFNLTSIPDEELVTSADVRVFREQIVSSLNNASAGFHRINVHEIIR-PSGSLQEPITRLLDTRLVQH-SLSKWESFDVTPAVLKWTTDGHPNHGILVEISHPDQDSRKHVR------VSRSLHNNE----DTWSQMRPLLVTYSHDGKGN--------VLHSREKRQA----RNNKQRKKH-KANCRRHSLYVDFSDVGWNDWIVAPPGYHAFYCQGECPFPLADHLNSTTNAMVQTLVNSVN-SNIPRACCVPTDLSPVSLLYLDEYERVILKNYQDMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>RP P T     +YML LY   S    +       L       A  ANTI SF  D+  +D     V   QR++F+++++  + L+  A++R+ R++   +   A+ G  R    ++   PSG  ++P   LLD R V     S WE FD+      +         + +E+   ++     +R       +R +H          ++ R L         G         +   R KR+A    R  K+  K+ KA C R +L+V+F D+GW+DWI+AP  Y AF+C+G C FPL  HL  T +A++QTL+NS++  + P  CCVPT LSP+S+L++D    V+ K Y+DMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>dbj|BAA24406.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein [Danio rerio]</Hit_def>
+  <Hit_accession>BAA24406</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>3.08044e-41</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>EYMLSLYRTLSDAD-------RKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVR---KQRYVFDISALEKDGLL-GAELRILRKKPSDTAKPAAPGGGRAAQLKL---SSCPSGRQPAALLDVRSVPGLDGSGWEVFDI------WKLFRNFKNSAQLCLEL---EAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSK--NLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>QYMLDLYYMHSENDDPNIRRPRSTMGKHVERAASRANTIRSFHHEEAFEALSSLKGKTTQQFFFNLTSIPGEELISAADVRIFRDQVLGDA--STSGFHRINIYEVFRPALAPSKEPLTRLLDTRLVQD-SHTRWESFDVGSAVARWA--RESQHNHGLLVEVLHPKESEVSEEAESNRRKHVRVSRSLHADE----DSWAQARPLLVT--YSHDGQGTAV----LHSNREKRQA----RRGQKPRRKHHQRSNCRRHALYVDFSDVGWNEWIVAPPGYHAFYCHGECPFPLPDHLNSTNHAIVQTLVNSVN-SNIPKACCIPTELSPISLLYLDEYEKVILKNYQDMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>+YML LY   S+ D       R      V+  A  ANTI SF  +   +    ++    Q++ F+++++  + L+  A++RI R +    A  +  G  R    ++   +  PS      LLD R V     + WE FD+      W   R  +++  L +E+   +  E     +       R +R +H           + R L      +  GQ        L S R KR+A    R+G++P +  + ++ C R AL+V+F D+GW++WI+AP  Y AF+C G C FPL  HL  TNHA++QTL+NS++  + P  CC+PT LSPIS+L++D    V+ K Y+DMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|AAB49985.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein-4, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAB49985</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>6.76007e-39</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>EYMLSLYRTLSDADRKGGNSSVKLE-----AGLANTITSF-----IDKGQDDRGPVVRKQRYVFDISALEKDGLLG-AELRILRKKP----SDTAKPAAPGGGRAAQLKLSSCP-SGRQPAALLDVRSVPGLDGSGWEVFDI----WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVH---------EKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDM</Hsp_qseq>
+      <Hsp_hseq>QYLLDLYRLQSGELEDAGAQHVSFDYPERSTSRANTVRGFHHEEHLEELQSD-GSQETPLRFVFNLSSIPEDELISTAELRVYRQQIDDAFSDPDQTGDHGLHRINIYEVLKAPREGQLITQLLDTRLVRH-NTSKWESFDVSPAVLRWTQEKRSNHGLAVEVVQMKRNPVQKGRHV---RVSRSVHPLPDEEWDQLRPLLVTFGHDGKSHPL---------------------TRRAKRSP--KQRGRKRNRN----CRRHALYVDFSDVGWNDWIVAPPGYQAYYCHGECPFPLADHLNSTNHAIVQTLVNSVNT-NIPKACCVPTELSAISMLYLDETDRVVLKNYQEM</Hsp_hseq>
+      <Hsp_midline>+Y+L LYR  S      G   V  +        ANT+  F     +++ Q D G      R+VF++S++ +D L+  AELR+ R++     SD  +    G  R    ++   P  G+    LLD R V   + S WE FD+     +  +  +++  L +E+   +R      R +   R +R VH          + L + FG   K                          RR +R+P   ++G++ ++N    C R AL+V+F D+GW+DWI+AP  Y+A++C G C FPL  HL  TNHA++QTL+NS++  + P  CCVPT LS IS+L++D  + VV K Y++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AAC60286.1|</Hit_id>
+  <Hit_def>BMP2-4 [Danio rerio]</Hit_def>
+  <Hit_accession>AAC60286</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>7.51455e-38</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LFSQRRKRRAPLATRQGKRPSK--NLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>LHSNREKRQA----RRGQKPRRKHHQRSNCRRHALYVDFSDVGWNEWIVAPPGYHAFYCHGECPFPLPDHLNSTNHAIVQTLVNSVN-SNIPKACCIPTELSPISLLYLDEYEKVILKNYQDMVVEGCGC</Hsp_hseq>
+      <Hsp_midline>L S R KR+A    R+G++P +  + ++ C R AL+V+F D+GW++WI+AP  Y AF+C G C FPL  HL  TNHA++QTL+NS++  + P  CC+PT LSPIS+L++D    V+ K Y+DMVVE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|AAI24216.1|</Hit_id>
+  <Hit_def>Bone morphogenetic protein 7b [Danio rerio]</Hit_def>
+  <Hit_accession>AAI24216</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>2.14355e-37</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>ANTITSFIDKGQDDRG--PVVRKQR-YVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQ------PAALLDVRSVPGLDGSGWEVFDI------WKLFRNFKNSAQLCLELEAWERGRAVD--LRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQ--------GKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>ADMVMSFVNLVEHDKGFLPVRRHHREFRFDLSKIPEGEAVTAAEFRIY--------KDFVPEHFDNETFRISIYQVLEEHLDRDSDLFLLDSRVIWAAE-EGWLVFDITVTSNHWVL--NPGRNLGLQLALDSLD-GQSVNPWVAGL-VGRSGPQSKQPFMVAFF---KATEVHIRSIRSAQGGN---------KQRNPNRSKTAKGQEALRVANIAENSSADQKQACKKHELYVSFRDLGWQDWIIAPEGYAAYYCMGECAFPLNSYMNATNHAIVQTLVHFINPETVPKPCCAPTQLHAISVLYFDDSSNVILKKYRNMVVRACGCH</Hsp_hseq>
+      <Hsp_midline>A+ + SF++  + D+G  PV R  R + FD+S + E + +  AE RI         K   P        ++S      +         LLD R +   +  GW VFDI      W L  N   +  L L L++ + G++V+  + GL   R+  Q  +  +   F   K  ++    I++  G +          QR   R+  A  Q         +  S + K  C +  L+V+F+D+GW DWIIAP  Y A++C G C FPL S++  TNHA++QTL++ ++PE+ P  CC PT+L  IS+L+ D ++NV+ K+Y +MVV +CGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|AAF17558.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 7 [Danio rerio]</Hit_def>
+  <Hit_accession>AAF17558</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>2.17847e-37</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>432</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>PFRPPPITPHE-------YMLSLYR-TLSDADRKGG--------------------NSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALE-KDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDI------WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKR---PSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>PQRPRPLL-HERHTAAPMYMLDLYNAILEDGDRRGGLVYSYEPAYTTPGPPLVTQQDSRFLSDADMVMSFANTVDPEEDLQLYHQHRREFRFDLSRIPPGETVTAAEFRIYK----DFVRERYENETFHVSVFQVLQQQHRRELYLLDSRVVWAAE-EGWLVFDLTVTSNHWVINPGQNLGLQLLVETS---HGARMNPRRAGLVGSSGAQNKQPFMVAF--LKASGIHLRSVRSASGGKQKGHHRTKNAKPGAAHSQVALKTAEATEGASIDPKQGCKKHELYVSFRDLGWQDWIIAPEGYAAYYCEGECVFPLNSYMNATNHAIVQTLVHFINPETVPKPCCAPTQLHGISVLYFDDSSNVILKKYRNMVVRACGCH</Hsp_hseq>
+      <Hsp_midline>P RP P+  HE       YML LY   L D DR+GG                    +S    +A +  +  + +D  +D +     ++ + FD+S +   + +  AE RI +    D  +           +        R+   LLD R V   +  GW VFD+      W +        QL +E      G  ++ R  G   ++   +++   + F   K   +    +++ SG   K  +    ++     + +A +  +     S + K  C +  L+V+F+D+GW DWIIAP  Y A++CEG C FPL S++  TNHA++QTL++ ++PE+ P  CC PT+L  IS+L+ D ++NV+ K+Y +MVV +CGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|NP_571396.2|</Hit_id>
+  <Hit_def>bone morphogenetic protein 7a precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571396</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>2.91126e-37</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>432</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>PFRPPPITPHE-------YMLSLYR-TLSDADRKGG--------------------NSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALE-KDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDI------WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKR---PSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>PQRPRPLL-HERHTAAPMYMLDLYNAILEDGDRRGGLVYSYEPAYTTPGPPLVTQQDSRFLSDADMVMSFANTVDPEEDLQLYHQHRREFRFDLSRIPPGETVTAAEFRIYK----DFVRERYENETFHVSVFQVLQQQHRRELYLLDSRVVWAAE-EGWLVFDLTVTSNHWVINPGQNLGLQLLVETS---HGARMNPRRAGLVGGSGAQNKQPFMVAF--LKASGIHLRSVRSASGGKQKGHHRTKNAKPGAAHSQVALKTAEATEGASIDPKQGCKKHELYVSFRDLGWQDWIIAPEGYAAYYCEGECVFPLNSYMNATNHAIVQTLVHFINPETVPKPCCAPTQLHGISVLYFDDSSNVILKKYRNMVVRACGCH</Hsp_hseq>
+      <Hsp_midline>P RP P+  HE       YML LY   L D DR+GG                    +S    +A +  +  + +D  +D +     ++ + FD+S +   + +  AE RI +    D  +           +        R+   LLD R V   +  GW VFD+      W +        QL +E      G  ++ R  G    +   +++   + F   K   +    +++ SG   K  +    ++     + +A +  +     S + K  C +  L+V+F+D+GW DWIIAP  Y A++CEG C FPL S++  TNHA++QTL++ ++PE+ P  CC PT+L  IS+L+ D ++NV+ K+Y +MVV +CGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|NP_001070614.2|</Hit_id>
+  <Hit_def>bone morphogenetic protein 7b precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001070614</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>2.82168e-36</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>ANTITSFIDKGQDDRG--PVVRKQR-YVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQ------PAALLDVRSVPGLDGSGWEVFDI------WKLFRNFKNSAQLCLELEAWERGRAVD--LRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQ--------GKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>ADMVMSFVNLVEHDKEFLPVRRHHREFRFDLSKIPEGEAVTAAEFRIY--------KDFVPEHFDNETFRISIYQVLEEHLDRDSDLFLLDSRVIWAAE-EGWLVFDITVTSNHWVL--NPGRNLGLQLALDSLD-GQSVNPWVAGL-VGRSGPQSKQPFMVAFF---KATEVHIRSIRSAQGGN---------KQRNPNRSKTAKGQEALRVANIAENSSADQKQACKKHELYVSFRDLGWQDWIIAPEGYAAYYCMGECAFPLNSYMNATNHAIVQTLVHFINPETVPKPCCAPTQLHAISVLYFDDSSNVILKKYRNMVVRACGCH</Hsp_hseq>
+      <Hsp_midline>A+ + SF++  + D+   PV R  R + FD+S + E + +  AE RI         K   P        ++S      +         LLD R +   +  GW VFDI      W L  N   +  L L L++ + G++V+  + GL   R+  Q  +  +   F   K  ++    I++  G +          QR   R+  A  Q         +  S + K  C +  L+V+F+D+GW DWIIAP  Y A++C G C FPL S++  TNHA++QTL++ ++PE+ P  CC PT+L  IS+L+ D ++NV+ K+Y +MVV +CGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|AJF23296.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 16 [Danio rerio]</Hit_def>
+  <Hit_accession>AJF23296</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>3.05958e-36</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>KGQLPGGKAPPKAGSVPSSFL--LKKAREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDA-----DRKGGNSSVKLEAGLANTITSFIDKGQ------DDRGPVVRKQRYVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSG--WEVFDI-WKLFRNF-KNSAQLCLELEAWERGRAVDL----RGLGFDRAARQ-----VHEKALFLVFGRTKKRDLFFN--------------EIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>HGKLDSLLEPSLAHTIQNLLLTRLGLQSHPNPSTEAQVP---------QYLLDLYRFHTQQYHLIEDPEFSYPSKHVQG--ANTVRCFHHTDSPTPSLPEEQKTTVDGIHIGFNLSSIPSEESVVSAELRLLHEGSS--------GGSHVASLYLSNHDPSSKPI-LLHSRQLTRDRKSAQLWETFPLDREVFQNLSKTSGSLSFILDVIPDNNSSSTLPKDRHLRVRRSTLQDGPTWERQRPLLVTYSHDGRSEPFVNLNKRKSSRSRSRWTRFKGDRGQGSD------WNERRVKRNNRRAAKLKRLSR---ARCRRHPLYVDFKDVGWNKWIIAPSGYDAFFCLGECRFPLADHMNSSSHAMVQTLVSSVN-GAVPRPCCVPTALSPIALLFLDQEERVVLKNYQDMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline> G+L     P  A ++ +  L  L     P P  E + P         +Y+L LYR  +       D +    S  ++   ANT+  F           +++   V      F++S++  ++ ++ AELR+L +  S        GG   A L LS+     +P  LL  R +     S   WE F +  ++F+N  K S  L   L+      +       R L   R+  Q       ++ L + +    + + F N                K   GQ         +++RR +R      + KR S+   ARC R  L+V+FKD+GW+ WIIAP  Y+AF C G C FPL  H+  ++HA++QTL++S++  + P  CCVPT LSPI++LF+D    VV K Y+DMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|NP_001165247.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 16 precursor [Danio rerio] &gt;emb|CAZ64537.1| bone morphogenetic protein 16 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001165247</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>4.25374e-36</Hsp_evalue>
+      <Hsp_query-from>224</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>FDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSG--WEVFDI-WKLFRNF-KNSAQLCLELEAWERGRAVDL----RGLGFDRAARQ-----VHEKALFLVFGRTKKRDLFFN--------------EIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>FNLSSIPSEESVVSAELRLLHEGSS--------GGSHVASLYLSNHDPSSKPI-LLHSRQLTRDRKSAQLWETFPLDREVFQNLSKTSGSLSFILDVIPDSNSSSTLPKDRHLRVRRSTLQDGPTWERQRPLLVTYSHDGRSEPFVNLNKRKSSRSRSRWTRFKGDRGQGSD------WNERRVKRNNRRAAKLKRLSR---ARCRRHPLYVDFKDVGWNKWIIAPSGYDAFFCLGECRFPLADHMNSSSHAMVQTLVSSVN-GAVPRPCCVPTALSPIALLFLDQEERVVLKNYQDMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>F++S++  ++ ++ AELR+L +  S        GG   A L LS+     +P  LL  R +     S   WE F +  ++F+N  K S  L   L+      +       R L   R+  Q       ++ L + +    + + F N                K   GQ         +++RR +R      + KR S+   ARC R  L+V+FKD+GW+ WIIAP  Y+AF C G C FPL  H+  ++HA++QTL++S++  + P  CCVPT LSPI++LF+D    VV K Y+DMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_073771594.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 7a isoform X1 [Danio rerio] &gt;ref|XP_073771595.1| bone morphogenetic protein 7a isoform X1 [Danio rerio] &gt;ref|XP_073771596.1| bone morphogenetic protein 7a isoform X1 [Danio rerio] &gt;ref|XP_073771598.1| bone morphogenetic protein 7a isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073771594</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>6.54835e-36</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>KQGCKKHELYVSFRDLGWQDWIIAPEGYAAYYCEGECVFPLNSYMNATNHAIVQTLVHFINPETVPKPCCAPTQLHGISVLYFDDSSNVILKKYRNMVVRACGCH</Hsp_hseq>
+      <Hsp_midline>K  C +  L+V+F+D+GW DWIIAP  Y A++CEG C FPL S++  TNHA++QTL++ ++PE+ P  CC PT+L  IS+L+ D ++NV+ K+Y +MVV +CGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|NP_001013357.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 6 precursor [Danio rerio] &gt;gb|AAH90689.1| Bone morphogenetic protein 6 [Danio rerio] &gt;gb|AAI65212.1| Bmp6 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001013357</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>9.80636e-36</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>ANTITSFIDKGQDDRGPVVRKQR---YVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLS------SCPSGRQPAALLDVRSVPGLDGSGWEVFDI------WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRP------SKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>ADMVMSFVNLVENDRELSLQRRHHKEFKFNLSQIPEGEAITAAEFRIY--------KECVTSAFRNETFLLSVFQVVGEHPDRDADLFLLESRRLWGAE-QGWLEFDITATSNLWVMSPHHNLGLQISVETSS---GRSISPKDAGLVGRDGALERQPFMVAFFKV-------SEVRIRTSRSTGKQ-----RQRNRNRSNSPQEASKGPAHTDYNSSDQKTACRKHDLYVSFRELSWQDWIIAPEGYAANYCDGECSFPLNAHMNATNHAIVQTLVHLMNPENVPKPCCAPTKLHAISVLYYDDNSNVILKKYRNMVVRSCGCH</Hsp_hseq>
+      <Hsp_midline>A+ + SF++  ++DR   ++++    + F++S + E + +  AE RI         K       R     LS        P       LL+ R + G +  GW  FDI      W +  +     Q+ +E  +   GR++  +  G       +  +   + F +        +E++ R+ +           QR + R+       K P      S + K  C +  L+V+F+++ W DWIIAP  Y A +C+G C FPL +H+  TNHA++QTL++ M+PE+ P  CC PT+L  IS+L+ D  +NV+ K+Y +MVV SCGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_021322780.1|</Hit_id>
+  <Hit_def>protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_068070418.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_068070419.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_068070420.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_068070421.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783018.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783019.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783020.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783021.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783022.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783023.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783024.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783025.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783026.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783027.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783028.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783029.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783030.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783031.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783032.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783033.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783034.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783035.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783036.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783037.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783038.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783039.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783040.1| protein DVR-1 isoform X1 [Danio rerio] &gt;ref|XP_073783041.1| protein DVR-1 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021322780</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>2.04362e-35</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>221</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>CKPRRLYIDFKDVGWQDWIIAPQGYLANYCHGECPFPLSESLNGTNHAILQTLVHSFDPKGTPQPCCVPIKLSPISMLYYDNNDNVVLRHYEDMVVDECGCR</Hsp_hseq>
+      <Hsp_midline>C  + L+++FKD+GW DWIIAP  Y A +C G C FPL   L  TNHA++QTL++S DP+ TP  CCVP +LSPIS+L+ D+ +NVV + YEDMVV+ CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_073796441.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 6 isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073796441</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>4.2413e-35</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>ANTITSFIDKGQDDRGPVVRKQR---YVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPG-----LDGS--GWEVFDI------WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRP------SKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>ADMVMSFVNLVENDRELSLQRRHHKEFKFNLSQIPEGEAITAAEFRIYKECVT---------------------SAFRNETFLLSVFQVVGEHPDRLWGAEQGWLEFDITATSNLWVMSPHHNLGLQISVETSS---GRSISPKDAGLVGRDGALERQPFMVAFFKV-------SEVRIRTSRSTGKQ-----RQRNRNRSSSPQEASKGPAHTDYNSSDQKTACRKHDLYVSFRELSWQDWIIAPEGYAANYCDGECSFPLNAHMNATNHAIVQTLVHLMNPENVPKPCCAPTKLHAISVLYYDDNSNVILKKYRNMVVRSCGCH</Hsp_hseq>
+      <Hsp_midline>A+ + SF++  ++DR   ++++    + F++S + E + +  AE RI ++  +                      + R    LL V  V G     L G+  GW  FDI      W +  +     Q+ +E  +   GR++  +  G       +  +   + F +        +E++ R+ +           QR + R+       K P      S + K  C +  L+V+F+++ W DWIIAP  Y A +C+G C FPL +H+  TNHA++QTL++ M+PE+ P  CC PT+L  IS+L+ D  +NV+ K+Y +MVV SCGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|NP_571023.1|</Hit_id>
+  <Hit_def>protein DVR-1 precursor [Danio rerio] &gt;sp|P35621.1| RecName: Full=Protein DVR-1; Flags: Precursor [Danio rerio] &gt;gb|AAC27347.1| DVR-1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571023</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>5.10392e-35</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>CKPRRLYIDFKDVGWQDWIIAPQGYLANYCHGECPFPLSESLNGTNHAILQTLVHSFDPKGTPQPCCVPIKLSPISMLYYDNNDNVVLRHYEDMVVDECGCR</Hsp_hseq>
+      <Hsp_midline>C  + L+++FKD+GW DWIIAP  Y A +C G C FPL   L  TNHA++QTL++S DP+ TP  CCVP +LSPIS+L+ D+ +NVV + YEDMVV+ CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|AAH85547.1|</Hit_id>
+  <Hit_def>Dvr1 protein [Danio rerio] &gt;gb|AAI64172.1| Dvr1 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAH85547</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>6.96781e-35</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>CKPRRLYIDFKDVGWQDWIIAPQGYLANYCHGECPFPLSESLNGTNHAILQTLVHSFDPKGTPQPCCVPIKLSPISMLYYDNNDNVVLRHYEDMVVDECGCR</Hsp_hseq>
+      <Hsp_midline>C  + L+++FKD+GW DWIIAP  Y A +C G C FPL   L  TNHA++QTL++S DP+ TP  CCVP +LSPIS+L+ D+ +NVV + YEDMVV+ CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_073796443.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 6 isoform X3 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073796443</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>7.50432e-35</Hsp_evalue>
+      <Hsp_query-from>376</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>QRRKRRAPLATRQGKRP------SKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>QRNRNRSSSPQEASKGPAHTDYNSSDQKTACRKHDLYVSFRELSWQDWIIAPEGYAANYCDGECSFPLNAHMNATNHAIVQTLVHLMNPENVPKPCCAPTKLHAISVLYYDDNSNVILKKYRNMVVRSCGCH</Hsp_hseq>
+      <Hsp_midline>QR + R+       K P      S + K  C +  L+V+F+++ W DWIIAP  Y A +C+G C FPL +H+  TNHA++QTL++ M+PE+ P  CC PT+L  IS+L+ D  +NV+ K+Y +MVV SCGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_073796442.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 6 isoform X2 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073796442</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>8.68369e-35</Hsp_evalue>
+      <Hsp_query-from>376</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>QRRKRRAPLATRQGKRP------SKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>QRNRNRSSSPQEASKGPAHTDYNSSDQKTACRKHDLYVSFRELSWQDWIIAPEGYAANYCDGECSFPLNAHMNATNHAIVQTLVHLMNPENVPKPCCAPTKLHAISVLYYDDNSNVILKKYRNMVVRSCGCH</Hsp_hseq>
+      <Hsp_midline>QR + R+       K P      S + K  C +  L+V+F+++ W DWIIAP  Y A +C+G C FPL +H+  TNHA++QTL++ M+PE+ P  CC PT+L  IS+L+ D  +NV+ K+Y +MVV SCGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|ACA57846.1|</Hit_id>
+  <Hit_def>BMP9 [Danio rerio]</Hit_def>
+  <Hit_accession>ACA57846</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>1.06703e-34</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>LLKKAREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRA-ARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRK--RRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>FLRKLNLSGVPQEHRK------VQPPQFMIELYNRYA-SDKNSIPRSDVIRSFVVQDVIYSIRQGNK------TQHRLLFNVSIPNHEEITSVQLRLF--TLWHRHKPACDDLFTSINVYDVEYEQNAKILHLLDGRDVRE-SINTWEAFDVTGAVRIWHESGRGAGEIQV-EVQHSCD----SFDISLSLEDNSSAVVIVF--------FSDDLGNRKEESMRKVKEMLVREQQQVGNQAPVSNRHRRRKRKAKNNYCRRTSLKVNFKDIGWDKWIVAPPEYDAYECKGVCYFPLTDDVSPSRHAVIQTLVNLSNPKKANMACCVPTKLDPIAVMYQEKGVITVRHLYEEMKVAKCGCR</Hsp_hseq>
+      <Hsp_midline> L+K    G P+E ++      + P ++M+ LY   + +D+     S  + + +   +   I +G         + R +F++S    + +   +LR+         KPA      +  +         +   LLD R V     + WE FD+    R +  S +   E++  E   + D     FD + + + +  A+ +VF        F +++  R  +  + V E L  ++++   +AP++ R  +R  K     C R +L VNFKD+GWD WI+AP EY+A+ C+G+C FPL   + P+ HAVIQTL+N  +P+     CCVPT+L PI++++ +     V   YE+M V  CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|NP_001124072.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 10 [Danio rerio] &gt;gb|AAI63861.1| Si:dkey-13n15.5 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001124072</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.5577e-34</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFI--DKGQDDRGPV-VRKQRYVFDISALEKDGLLGAELRILRKKPSDTAKPAAPG------------GGRAAQLKLSSCPSGRQPAAL----LDVRSVPGLDGSGWEVFDIW---KLFR--NFKNSAQLCLELEAWERGRAVDLRGLG--------FDRAARQVHEKALFLVFGRTKKRDL------------------------------FFNEIKARSG-QDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYK-QYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>VEPPEYMLELYNRFAN-DRTAMPS--------ANIIRSFKNEDSSSYSMGPSGVRRHPLLFNVSIPHHERVTTAELRLYTLVQTDRNKYAGVDRKVTIYEVKLLETNSSQQVRGDDVDGGDQASKTELVELASRQVYGTD-NAWESFDMTAAVHLWRKSDYGTTHKLEVHIASLDSQSVAEGENISNAIGGDMDIDTSPEDKH-KPLMIVYSDDQSRDHRGAKRELNELIQHETNRPGLQDNLELEMTGLWGDLGQKDGIEEDEQSEEALLQMRSNLIYDTASRIRRNAKGN---QCKKSSLYVDFKDIGWDSWILAPTGYEAFECTGVCTYPLTKDVTPTKHAVIQTLVSLKSPQVVSRACCVPTELDPISLLYLDDAGVVTYQYKFEGMVVAKCGCR</Hsp_hseq>
+      <Hsp_midline>+ P EYML LY   ++ DR    S        AN I SF   D      GP  VR+   +F++S    + +  AELR+     +D  K A                  + Q++      G Q +      L  R V G D + WE FD+     L+R  ++  + +L + + + +     +   +          D +    H K L +V+   + RD                                + ++  + G ++D+   E L   R       A+R  +    N   +C + +L+V+FKD+GWD WI+AP  YEAF C G+C +PL   + PT HAVIQTL++   P+     CCVPT L PIS+L++D A  V Y+ ++E MVV  CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_073770419.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 10-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073770419</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>2.67209e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>366</Hsp_align-len>
+      <Hsp_qseq>EYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVV---RKQRYVFDISALEKDGLLGAELRI---LRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKN------SAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRD-------------LFFNEIKARSGQDDKTVYE-------YLFSQRRKRRAPLATRQGKRPSKNLKAR-CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVY--KQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>EYMMELYKKFS-SDRSA--------APAANIIRSFRNQEHSSGSVLSSGVRTQRLQFNISIPQQEMVVSAELRIHMFLHRK----SHTADAWTVRIFDTQRSD-TRYREPLA---SKHIHRKDIS-WEVFDMTNAIRNWRKVGIETPNLEVCIQ-KAFRNTNDWRYVGLDIDRDPDGKHEPVM-IVFSNDQTEDQIGDGNKDQKETQMHSNIIHEDGGEDPQMISDERQWTDGNKDQKETQMQSNIIYEDGARVRRSAKVEDCRIAEMYVDFKDIGWDSFILAPSGYQAFTCRGVCSYPLTQKVTPTKHAIVQTLLNLKSPQRAAQTCCVPTELKPISLLY-ENENGVVVLDNKYGGMVVKECGCR</Hsp_hseq>
+      <Hsp_midline>EYM+ LY+  S +DR          A  AN I SF ++       +    R QR  F+IS  +++ ++ AELRI   L +K    +  A     R    + S     R+P A    + +   D S WEVFD+    RN++       + ++C++ +A+         GL  DR     HE  + +VF   +  D             +  N I    G+D + + +           +  + ++ +    G R  ++ K   C    ++V+FKD+GWD +I+AP  Y+AF C G+C +PL   + PT HA++QTL+N   P+    TCCVPT L PIS+L+ ++ N VV    +Y  MVV+ CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|NP_001165057.2|</Hit_id>
+  <Hit_def>growth/differentiation factor 2 preproprotein [Danio rerio] &gt;sp|F1QWZ4.1| RecName: Full=Growth/differentiation factor 2; Short=GDF-2; AltName: Full=Bone morphogenetic protein 9; Short=BMP-9; Flags: Precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001165057</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>6.95734e-34</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>LLKKAREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRA-ARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRK--RRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>FLRKLNLSGVPQEHRK------VQPPQFMIELYNRYA-SDKNSIPRSDVIRSFVVQDVIYSIRQGNK------TQHRLLFNVSIPNHEEITSVQLRLF--TLWHRHKPACDDLFTSINVYDVEYEQNAKILHLLDGRDVRE-SINTWEAFDVTGAVRIWHESRRGAGEIQV-EVQHSCD----SFDISLSLEDNSSAVVIVFS---------DDLGNRKEESMRKVKEMLVREQQQVGNQAPVSNRHRRRKRKAKNNYCRRTSLKVNFKDIGWDKWIVAPPEYDAYECKGVCYFPLTDDVSPSRHAVIQTLVNLSNPKKANMACCVPTKLDPIAVMYQEKGVITVRHLYEEMKVAKCGCR</Hsp_hseq>
+      <Hsp_midline> L+K    G P+E ++      + P ++M+ LY   + +D+     S  + + +   +   I +G         + R +F++S    + +   +LR+         KPA      +  +         +   LLD R V     + WE FD+    R +  S +   E++  E   + D     FD + + + +  A+ +VF          +++  R  +  + V E L  ++++   +AP++ R  +R  K     C R +L VNFKD+GWD WI+AP EY+A+ C+G+C FPL   + P+ HAVIQTL+N  +P+     CCVPT+L PI++++ +     V   YE+M V  CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_073787051.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 8A isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073787051</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.03613e-32</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>CKKHELYVSFSDLGWKDWVLAPTGYSAYYCDGECDYPLGSCMNATNHAMIQLLVHLLRPDEVPKACCAPTKLSPIAVLFYDDNNNVILKKQRNMVVKNCGC</Hsp_hseq>
+      <Hsp_midline>C +  L+V+F D+GW DW++AP  Y A++C+G C++PL S +  TNHA+IQ L++ + P+  P  CC PT+LSPI++LF D  NNV+ K+  +MVV++CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|NP_001038436.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 8A precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001038436</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>1.25153e-32</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>432</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>SVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISAL-EKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQ------PAALLDVRSVPGLDGSGWEVFDI------WKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKAR--CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>TVVSEADTVMSFVNLVEQEKDLLQPRPYWKEFRFDLTPLPQGETVTAAEFRIY--------KTLTMGWRFNHTLHISVYEILREKRHREPELVLLDMQSVPA-GQEGWLAFDVTSASNRWLLHPRSNLGIRLYVETEEDHRSWV----GLVGRRGPRS---KQPFMV--------TFFRASQAPCRPPRALKHTNQRKKKTKYDLPHPNRPGIFDQNHSSGRQACKKHELYVSFSDLGWKDWVLAPTGYSAYYCDGECDYPLGSCMNATNHAMIQLLVHLLRPDEVPKACCAPTKLSPIAVLFYDDNNNVILKKQRNMVVKNCGC</Hsp_hseq>
+      <Hsp_midline>+V  EA    +  + +++ +D   P    + + FD++ L + + +  AE RI         K    G      L +S     R+         LLD++SVP     GW  FD+      W L        +L +E E   R       GL   R  R    K  F+V         FF   +A         +     ++ K   P   R G     +   R  C +  L+V+F D+GW DW++AP  Y A++C+G C++PL S +  TNHA+IQ L++ + P+  P  CC PT+LSPI++LF D  NNV+ K+  +MVV++CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_691459.3|</Hit_id>
+  <Hit_def>growth/differentiation factor 10 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_691459</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.68283e-28</Hsp_evalue>
+      <Hsp_query-from>387</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>RQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMD-PESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>RQWKEPRS-----CSRRYLKVDFADIGWNEWILSPKSFDAFYCAGTCEFPIPKVVRPSNHATIQSIVKAVGIIPGIPEPCCVPEKMKPLSVLFVDESKNIVLKIYPNMSVETCACR</Hsp_hseq>
+      <Hsp_midline>RQ K P       CSR+ L V+F D+GW++WI++P  ++AF+C G CEFP+   + P+NHA IQ+++ ++      P  CCVP ++ P+S+LF+D + N+V K Y +M VE+C CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|NP_001071233.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 3 precursor [Danio rerio] &gt;gb|AAI25920.1| Zgc:153939 [Danio rerio] &gt;gb|AAI65587.1| Zgc:153939 protein [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001071233</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.94127e-26</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>335</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>ATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPE-STPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>TIKKARKKQWNEPRNCARRYLKVDFADIGWSEWIISPKSFDAYYCSGSCQFPMPKSLKPSNHATIQSIVRAVGVVPGIPEPCCVPEKMSSLSILFFDEDKNVVLKVYPNMTVDSCACR</Hsp_hseq>
+      <Hsp_midline>  ++ ++   N    C+R+ L V+F D+GW +WII+P  ++A++C G C+FP+   L+P+NHA IQ+++ ++      P  CCVP ++S +SILF D   NVV K Y +M V+SC CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_073774127.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 2-like [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073774127</Hit_accession>
+  <Hit_len>402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.18418e-25</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMN--SMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>CHRTNLYVDFSKIGWSGWIISPRGYNAYSCTGSCLFPLDRSLRATNHATVRSIMNVLKLTQEAGKP-CCVPDALHPISLLYFDEEENVVLKHYKDMVASSCGCH</Hsp_hseq>
+      <Hsp_midline>C R  L+V+F  +GW  WII+P  Y A+ C G C FPL   L  TNHA ++++MN   +  E+  P CCVP  L PIS+L+ D   NVV K Y+DMV  SCGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|ACA57845.1|</Hit_id>
+  <Hit_def>BMP3b [Danio rerio]</Hit_def>
+  <Hit_accession>ACA57845</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.34517e-25</Hsp_evalue>
+      <Hsp_query-from>379</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>KRRAPLATRQGKRPSKNL--------KAR---------CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPE-STPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>KQNKPLTDIEGSRGSQELTFDEKTMKKARRKQWSEPRVCTRRYLRVDFADIGWSEWILAPKAFDAYYCAGTCAFPIPKVVHPSNHATIQSIVRAVGIVPGVPDPCCVPDKMSSLAVLFLDSSRNMLVKIYPSMSVETCACR</Hsp_hseq>
+      <Hsp_midline>K+  PL   +G R S+ L        KAR         C+R+ L V+F D+GW +WI+AP  ++A++C G C FP+   + P+NHA IQ+++ ++      P  CCVP ++S +++LF+DS+ N++ K Y  M VE+C CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|XP_068080788.1|</Hit_id>
+  <Hit_def>growth/differentiation factor 10 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_068080788</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.40797e-25</Hsp_evalue>
+      <Hsp_query-from>379</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>KRRAPLATRQGKRPSKNL--------KAR---------CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPE-STPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>KQNKPLTDIEGSRGSQELTFDEKTMKKARRKQWSEPRVCTRRYLRVDFADIGWSEWILAPKAFDAYYCAGTCAFPIPKVVHPSNHATIQSIVRAVGIVPGVPDPCCVPDKMSSLAVLFLDSSRNMLLKIYPSMSVETCACR</Hsp_hseq>
+      <Hsp_midline>K+  PL   +G R S+ L        KAR         C+R+ L V+F D+GW +WI+AP  ++A++C G C FP+   + P+NHA IQ+++ ++      P  CCVP ++S +++LF+DS+ N++ K Y  M VE+C CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|NP_624359.1|</Hit_id>
+  <Hit_def>nodal-related 2 precursor [Danio rerio] &gt;gb|AAB95625.1| Znr-1 [Danio rerio] &gt;gb|AAC34361.2| cyclops precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_624359</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>3.50655e-25</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>CRRVDMHVDFNQIGWGSWIVFPKKYNAYRCEGACPNPLGEELRPTNHAYMQSLLKYHHPSRVPASCCAPTRTSALSMLYYENG-EMILRHHEDMQVEECGC</Hsp_hseq>
+      <Hsp_midline>C R  +HV+F  +GW  WI+ P +Y A+ CEG C  PL   L PTNHA +Q+L+    P   P +CC PTR S +S+L+ ++   ++ + +EDM VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gb|AJG06044.1|</Hit_id>
+  <Hit_def>Ndr2, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AJG06044</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>3.7776e-25</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>CRRVDMHVDFNQIGWGSWIVFPKKYNAYRCEGACPNPLGEELRPTNHAYMQSLLKYHHPSRVPASCCAPTRTSALSMLYYENG-EMILRHHEDMQVEECGC</Hsp_hseq>
+      <Hsp_midline>C R  +HV+F  +GW  WI+ P +Y A+ CEG C  PL   L PTNHA +Q+L+    P   P +CC PTR S +S+L+ ++   ++ + +EDM VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gb|AAB95254.1|</Hit_id>
+  <Hit_def>Znr-2 [Danio rerio]</Hit_def>
+  <Hit_accession>AAB95254</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>2.32627e-24</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>KPLCKKVDMWVDFDQIGWSDWIVYPKRYNAYRCEGSCPTPVDETFTPTNHAYMQSLLKLHHPDRVPCLSCVPTRLAPLSMLYYENG-KMVMRHHEGMVVAECGC</Hsp_hseq>
+      <Hsp_midline>K  C +  + V+F  +GW DWI+ P  Y A+ CEG C  P+     PTNHA +Q+L+    P+  P   CVPTRL+P+S+L+ ++   +V + +E MVV  CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|NP_571041.1|</Hit_id>
+  <Hit_def>nodal-related 1 precursor [Danio rerio] &gt;gb|AAC34360.1| squint precursor [Danio rerio] &gt;gb|AAC62002.1| nodal-related-2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571041</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>3.25386e-24</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>YMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALE-KDGLLGAELRI----LRKK-PSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVF---GRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNL-----------KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>YMMHLYRTLLTGDEKHF-SHENPTLYESDSVLSLVAKSCHQVGD---KFAVTFDMSSISASDDVQRAELRIRLPHLRSELEVDIYHASTPECER------SPCEEVRVHLGTLNANPINSTFRSSWRIFNITALLKYWLHQS----ERVPFEEPTQMPPMAEGHKSVHHPTANRVMMVVYSKQNRAKTSTLIRTAEHSKYVALDRAGGGSEPVPRRHRRNHRTDDRVRDAAAGMIPGVSHEGGEKKPLCKKVDMWVDFDQIGWSDWIVYPKRYNAYRCEGSCPTPVDETFTPTNHAYMQSLLKLHHPDRVPCLSCVPTRLAPLSMLYYENG-KMVMRHHEGMVVAECGCH</Hsp_hseq>
+      <Hsp_midline>YM+ LYRTL   D K   S        ++++ S + K     G    K    FD+S++   D +  AELRI    LR +   D    + P   R      S C   R     L+   +     S W +F+I  L + + + +    E   +E    +     G          + + +V+    R K   L      ++    D+         RR RR      + +  +  +           K  C +  + V+F  +GW DWI+ P  Y A+ CEG C  P+     PTNHA +Q+L+    P+  P   CVPTRL+P+S+L+ ++   +V + +E MVV  CGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gb|AAH97089.1|</Hit_id>
+  <Hit_def>Nodal-related 1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAH97089</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>4.40891e-24</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>YMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALE-KDGLLGAELRI----LRKK-PSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVF---GRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNL-----------KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>YMMHLYRTLLTGDEKHF-SHENPTLYESDSVLSLVAKSCHQVGD---KFAVTFDMSSISASDDVQRAELRIRLPHLRSELEVDIYHASTPECER------SPCEEVRVHLGTLNANPINSTFRSSWRIFNITALLKYWLHQS----ERVPFEEPTQMPPMAEGHKSVHHPTVNRVMMVVYSKQNRAKTSTLIRTAEHSKYVALDRAGGGSEPVPRRHRRNHRTDDRVRDAAAGMIPGVSHEGGEKKPLCKKVDMWVDFDQIGWSDWIVYPKRYNAYRCEGSCPTPVDETFTPTNHAYMQSLLKLHHPDRVPCLSCVPTRLAPLSMLYYENG-KMVMRHHEGMVVAECGCH</Hsp_hseq>
+      <Hsp_midline>YM+ LYRTL   D K   S        ++++ S + K     G    K    FD+S++   D +  AELRI    LR +   D    + P   R      S C   R     L+   +     S W +F+I  L + + + +    E   +E    +     G          + + +V+    R K   L      ++    D+         RR RR      + +  +  +           K  C +  + V+F  +GW DWI+ P  Y A+ CEG C  P+     PTNHA +Q+L+    P+  P   CVPTRL+P+S+L+ ++   +V + +E MVV  CGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|XP_073806025.1|</Hit_id>
+  <Hit_def>southpaw isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073806025</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>6.40134e-23</Hsp_evalue>
+      <Hsp_query-from>392</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>330</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>PSKNLKAR-CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>PSEEQQASLCRRVDMWVDFDQIGWDEWIVHPKRYNAYRCEGECPSPLDETYNPTNHAYMQSLLKLYQPERVSCPSCVPLRLSSLSMLYYE-GDGVVMRHHEDMIVEECGCH</Hsp_hseq>
+      <Hsp_midline>PS+  +A  C R  + V+F  +GWD+WI+ P  Y A+ CEG C  PL     PTNHA +Q+L+    PE      CVP RLS +S+L+ +  + VV + +EDM+VE CGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|NP_851298.1|</Hit_id>
+  <Hit_def>southpaw precursor [Danio rerio] &gt;gb|AAI63609.1| Southpaw [Danio rerio] &gt;gb|AAI63616.1| Southpaw [Danio rerio] &gt;gb|AAP22500.1| southpaw [Danio rerio]</Hit_def>
+  <Hit_accession>NP_851298</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>8.43502e-23</Hsp_evalue>
+      <Hsp_query-from>392</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>PSKNLKAR-CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>PSEEQQASLCRRVDMWVDFDQIGWDEWIVHPKRYNAYRCEGECPSPLDETYNPTNHAYMQSLLKLYQPERVSCPSCVPLRLSSLSMLYYE-GDGVVMRHHEDMIVEECGCH</Hsp_hseq>
+      <Hsp_midline>PS+  +A  C R  + V+F  +GWD+WI+ P  Y A+ CEG C  PL     PTNHA +Q+L+    PE      CVP RLS +S+L+ +  + VV + +EDM+VE CGC </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>emb|CAB43091.1|</Hit_id>
+  <Hit_def>activin beta A protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAB43091</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>3.88391e-20</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>KAR-CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRS----HLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCG</Hsp_qseq>
+      <Hsp_hseq>KARVCCKRQFYVNFKDIGWNDWIIAPSGYHANYCEGDCASNVASITGNSLSFRSTVISHYRIRGYSPFTNIKSCCVPTRLRAMSMLYYNEEQKIVKKDIQNMIVEECG</Hsp_hseq>
+      <Hsp_midline>KAR C ++  +VNFKD+GW+DWIIAP  Y A +CEG C   + S     L   +  +    +    P +   +CCVPTRL  +S+L+ +    +V K  ++M+VE CG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|XP_073796091.1|</Hit_id>
+  <Hit_def>inhibin subunit beta Aa isoform X1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073796091</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>4.00883e-20</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>KAR-CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRS----HLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>KARVCCKRQFYVNFKDIGWNDWIIAPSGYHANYCEGDCASNVASITGNSLSFHSTVISHYRIRGYSPFTNIKSCCVPTRLRAMSMLYYNEEQKIVKKDIQNMIVEECGC</Hsp_hseq>
+      <Hsp_midline>KAR C ++  +VNFKD+GW+DWIIAP  Y A +CEG C   + S     L   +  +    +    P +   +CCVPTRL  +S+L+ +    +V K  ++M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|NP_001349183.1|</Hit_id>
+  <Hit_def>inhibin subunit beta Aa [Danio rerio] &gt;gb|AAH56742.1| Inhibin, beta Aa [Danio rerio] &gt;gb|AAH66402.1| Inhibin, beta Aa [Danio rerio] &gt;gb|AAL85328.1| activin beta A subunit [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001349183</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>2.24252e-19</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>KAR-CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRS----HLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>KARVCCKRQFYVNFKDIGWNDWIIAPSGYHANYCEGDCASNVASITGNSLSFHSTVISHYRIRGYSPFTNIKSCCVPTRLRAMSMLYYNEEQKIVKKDIQNMIVEECGC</Hsp_hseq>
+      <Hsp_midline>KAR C ++  +VNFKD+GW+DWIIAP  Y A +CEG C   + S     L   +  +    +    P +   +CCVPTRL  +S+L+ +    +V K  ++M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gb|AAI15086.1|</Hit_id>
+  <Hit_def>Bmp15 protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAI15086</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>4.3211e-19</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>SKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>SRVTKNNCKLYSSSVDFKDLGWDHWVIAPHKYNPGYCMGDCPRILHYGYNSPNHAIMQTFISELGVADIPLPSCVPYKYKRMSMLVMGSNGQIDYKEYEDMIADSCTCR</Hsp_hseq>
+      <Hsp_midline>S+  K  C   +  V+FKD+GWD W+IAP +Y   +C G C   L       NHA++QT ++ +     P   CVP +   +S+L + S   + YK+YEDM+ +SC CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>emb|CAZ64536.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 16, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAZ64536</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>4.7768e-19</Hsp_evalue>
+      <Hsp_query-from>435</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>FPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>FPLADHMNSSSHAMVQTLVSSVN-GAVPRPCCVPTALSPIALLFLDQEERVVLKNYQDMVVEGCGCR</Hsp_hseq>
+      <Hsp_midline>FPL  H+  ++HA++QTL++S++  + P  CCVPT LSPI++LF+D    VV K Y+DMVVE CGCR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>emb|CAB43092.1|</Hit_id>
+  <Hit_def>activin beta B protein, partial [Danio rerio]</Hit_def>
+  <Hit_accession>CAB43092</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>5.58987e-19</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRS---HLEPTNHAVI-QTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>CCRQQFYIDFRLIGWNDWIIAPAGYYGNYCEGSCPAYMAGVPGSASSFHTAVVNQYRMRGMSPGSVN-SCCIPTKLSTMSMLYFDDEYNIVKRDVPNMIVEECGC</Hsp_hseq>
+      <Hsp_midline>C R+  +++F+ +GW+DWIIAP  Y   +CEG C   +          + AV+ Q  M  M P S   +CC+PT+LS +S+L+ D   N+V +   +M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|NP_001018320.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 15 precursor [Danio rerio] &gt;gb|AAX55680.1| bone morphogenetic protein-15 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001018320</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>5.91904e-19</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>KNNCKLYSSSVDFKDLGWDHWVIAPHKYNPGYCMGDCPRILHYGYNSPNHAIMQTFISELGVADIPLPSCVPYKYKRMSMLVMGSNGQIDYKEYEDMIADSCTCR</Hsp_hseq>
+      <Hsp_midline>K  C   +  V+FKD+GWD W+IAP +Y   +C G C   L       NHA++QT ++ +     P   CVP +   +S+L + S   + YK+YEDM+ +SC CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gb|AAI24107.1|</Hit_id>
+  <Hit_def>Bone morphogenetic protein 15 [Danio rerio] &gt;gb|AAI64703.1| Bmp15 protein [Danio rerio]</Hit_def>
+  <Hit_accession>AAI24107</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>6.73694e-19</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>KNNCKLYSSSVDFKDLGWDHWVIAPHKYNPGYCMGDCPRILHYGYNSPNHAIMQTFISELGVADIPLPSCVPYKYKRMSMLVMGSNGQIDYKEYEDMIADSCTCR</Hsp_hseq>
+      <Hsp_midline>K  C   +  V+FKD+GWD W+IAP +Y   +C G C   L       NHA++QT ++ +     P   CVP +   +S+L + S   + YK+YEDM+ +SC CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|AAX68505.1|</Hit_id>
+  <Hit_def>activin betaA isoform 2 [Danio rerio]</Hit_def>
+  <Hit_accession>AAX68505</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>3.74879e-18</Hsp_evalue>
+      <Hsp_query-from>383</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>PLATRQGKRPSKNLKAR-----CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRS--------HLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>PAEEHQHRRSKRGLECDGKIRVCCKRQFYVNFKDIGWSDWIIAPSGYHANYCEGDCPSHVASITGSALSFHSTVINH----YRMRGYSPFNNIKSCCVPTRLRAMSMLYYNEEQKIIKKDIQNMIVDECGC</Hsp_hseq>
+      <Hsp_midline>P    Q +R  + L+       C ++  +VNFKD+GW DWIIAP  Y A +CEG C   + S        H    NH      M    P +   +CCVPTRL  +S+L+ +    ++ K  ++M+V+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|NP_001018166.1|</Hit_id>
+  <Hit_def>inhibin subunit beta Ab precursor [Danio rerio] &gt;gb|AAI29209.1| Inhibin, beta Ab [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001018166</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>4.10838e-18</Hsp_evalue>
+      <Hsp_query-from>383</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>PLATRQGKRPSKNLKAR-----CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRS--------HLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>PAEEHQHRRSKRGLECDGKIRVCCKRQFYVNFKDIGWSDWIIAPSGYHANYCEGDCPSHVASITGSALSFHSTVINH----YRMRGYSPFNNIKSCCVPTRLRAMSMLYYNEEQKIIKKDIQNMIVDECGC</Hsp_hseq>
+      <Hsp_midline>P    Q +R  + L+       C ++  +VNFKD+GW DWIIAP  Y A +CEG C   + S        H    NH      M    P +   +CCVPTRL  +S+L+ +    ++ K  ++M+V+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|NP_571094.2|</Hit_id>
+  <Hit_def>growth/differentiation factor 8 preproprotein [Danio rerio] &gt;sp|O42222.2| RecName: Full=Growth/differentiation factor 8; Short=GDF-8; AltName: Full=Myostatin; AltName: Full=Myostatin-1; Short=zfMSTN-1; AltName: Full=Myostatin-B; Flags: Precursor [Danio rerio] &gt;emb|CAD43439.1| SI:dZ72B14.1 (growth differentiation factor 8) [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571094</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>7.76974e-18</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEDFGWD-WIIAPKRYKANYCSGECDY-MYLQKYPHTH-----LVNKASPRGTAGPCCTPTKMSPINMLYFNGKEQIIYGKIPSMVVDRCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+D GWD WIIAP  Y+A +C G C++ +     P  H     L+N   P  T   CC PT++SPI++L+ +    ++Y +   MVV+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gb|AAB86693.1|</Hit_id>
+  <Hit_def>myostatin [Danio rerio] &gt;gb|AAP13068.1| myostatin [Danio rerio] &gt;gb|AAQ11222.1| myostatin [Danio rerio]</Hit_def>
+  <Hit_accession>AAB86693</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>8.13625e-18</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEDFGWD-WIIAPKRYKANYCSGECDY-MYLQKYPHTH-----LVNKASPRGTAGPCCTPTKMSPINMLYFNGKEQIIYGKIPSMVVDRCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+D GWD WIIAP  Y+A +C G C++ +     P  H     L+N   P  T   CC PT++SPI++L+ +    ++Y +   MVV+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>emb|CAA53636.1|</Hit_id>
+  <Hit_def>activin beta B [Danio rerio]</Hit_def>
+  <Hit_accession>CAA53636</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.63371e-16</Hsp_evalue>
+      <Hsp_query-from>387</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>RQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLR----SHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>KRGLECDGNNGGLCCRQQFYIDFRLIGWNDWIIAPAGYYGNYCEGSCPAYMAGVPGSASSFHTAVVNQYRMRGMSPGSVN-SCCIPTKLSTMSMLYFDDEYNIVKRDVPNMIVEECGC</Hsp_hseq>
+      <Hsp_midline>++G     N    C R+  +++F+ +GW+DWIIAP  Y   +CEG C   +     S        V Q  M  M P S   +CC+PT+LS +S+L+ D   N+V +   +M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|NP_571143.2|</Hit_id>
+  <Hit_def>inhibin beta B chain precursor [Danio rerio] &gt;gb|AAI62140.1| Inhibin, beta B [Danio rerio] &gt;gb|AAI62143.1| Inhibin, beta B [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571143</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.7734e-16</Hsp_evalue>
+      <Hsp_query-from>387</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>RQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLR----SHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>KRGLECDGNNGGLCCRQQFYIDFRLIGWNDWIIAPAGYYGNYCEGSCPAYMAGVPGSASSFHTAVVNQYRMRGMSPGSVN-SCCIPTKLSTMSMLYFDDEYNIVKRDVPNMIVEECGC</Hsp_hseq>
+      <Hsp_midline>++G     N    C R+  +++F+ +GW+DWIIAP  Y   +CEG C   +     S        V Q  M  M P S   +CC+PT+LS +S+L+ D   N+V +   +M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gb|AAI63304.1|</Hit_id>
+  <Hit_def>Growth differentiation factor 8, like [Danio rerio]</Hit_def>
+  <Hit_accession>AAI63304</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>4.32127e-16</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEDFGWD-WIIAPKRYKANYCSGEC-----VQKYPHSHIV-----NKANPRGSAGPCCTPTKMSPINMLYFNDREQIIYGKIPSMVVDLCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+D GWD WIIAP  Y+A +C G C         P +H V     N  +P  +   CC PT++SPI++L+ +    ++Y +   MVV+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|NP_001004122.1|</Hit_id>
+  <Hit_def>myostatin a precursor [Danio rerio] &gt;gb|AAI63668.1| Growth differentiation factor 8, like [Danio rerio] &gt;gb|AAI63669.1| Growth differentiation factor 8, like [Danio rerio] &gt;gb|AAT95431.1| myostatin-2 [Danio rerio] &gt;gb|ABF51207.1| myostatin-2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001004122</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>4.32127e-16</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEDFGWD-WIIAPKRYKANYCSGEC-----VQKYPHSHIV-----NKANPRGSAGPCCTPTKMSPINMLYFNDREQIIYGKIPSMVVDLCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+D GWD WIIAP  Y+A +C G C         P +H V     N  +P  +   CC PT++SPI++L+ +    ++Y +   MVV+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|XP_073773239.1|</Hit_id>
+  <Hit_def>inhibin beta B chain [Danio rerio]</Hit_def>
+  <Hit_accession>XP_073773239</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.16313e-16</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLR----SHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>CCRQQFYIDFRLIGWNDWIIAPSGYFGNYCEGNCPAYMAGVPGSASSFHTAVVNQYRMRGMSPGSMN-SCCIPTKLSTMSMLYFDDEYNIVKRDVPNMIVEECGC</Hsp_hseq>
+      <Hsp_midline>C R+  +++F+ +GW+DWIIAP  Y   +CEG C   +     S        V Q  M  M P S   +CC+PT+LS +S+L+ D   N+V +   +M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|XP_002662616.3|</Hit_id>
+  <Hit_def>inhibin beta B chain [Danio rerio]</Hit_def>
+  <Hit_accession>XP_002662616</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>6.57641e-16</Hsp_evalue>
+      <Hsp_query-from>365</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>DDKTVYEYLFSQRRKRRAPLATRQGKRPSK--NLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSH--LEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>EDSSHQPFLVAQVRLREDPSKHALSKRSLRCGDDVSVCCKKDFYIKFRDIQWQDWIIAPEGYHMNYCMGQCPQHLSGSPGIASSFHASVFSQLKANGINTAVSSCCVPIQRRPLSMVYFNSQHTIVKTDVPDMIVESCGC</Hsp_hseq>
+      <Hsp_midline>+D +   +L +Q R R  P      KR  +  +  + C +K  ++ F+D+ W DWIIAP  Y   +C G C   L     +  + HA + + + +    +   +CCVP +  P+S+++ +S + +V     DM+VESCGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gb|AAP85526.1|</Hit_id>
+  <Hit_def>myostatin [Danio rerio]</Hit_def>
+  <Hit_accession>AAP85526</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.42284e-15</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEDFGWD-WIIAPKRYKANYCSGECDY-MYLQKYPHTH-----LVNKAGPRGTAGPCCTPTKMSPINMLYFNGKEQIIYGKIPSM-VDRCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+D GWD WIIAP  Y+A +C G C++ +     P  H     L+N   P  T   CC PT++SPI++L+ +    ++Y +   M V+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|NP_998140.1|</Hit_id>
+  <Hit_def>growth/differentiation factor 11 isoform 1 precursor [Danio rerio] &gt;gb|AAI34029.1| Growth differentiation factor 11 [Danio rerio] &gt;gb|AAN03678.2| Gdf11-like [Danio rerio]</Hit_def>
+  <Hit_accession>NP_998140</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>2.88507e-15</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEAFGWD-WIIAPKRYKANYCSGQCEYMFMQKY-PHTH-----LVQHANPRGSAGPCCTPTKMSPINMLYFNDKQQIIHGKIPGMVVDRCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+  GWD WIIAP  Y+A +C G CE+       P  H     L+   +P  +   CC PT++SPI++L+ +    +++ +   MVV+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gb|AJG06061.1|</Hit_id>
+  <Hit_def>Gdf11, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AJG06061</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>2.91797e-15</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEAFGWD-WIIAPKRYKANYCSGQCEYMFMQKY-PHTH-----LVQHANPRGSAGPCCTPTKMSPINMLYFNDKQQIIHGKIPGMVVDRCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+  GWD WIIAP  Y+A +C G CE+       P  H     L+   +P  +   CC PT++SPI++L+ +    +++ +   MVV+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|NP_001431281.1|</Hit_id>
+  <Hit_def>growth/differentiation factor 11 isoform 2 precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001431281</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>2.94458e-15</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEAFGWD-WIIAPKRYKANYCSGQCEYMFMQKY-PHTH-----LVQHANPRGSAGPCCTPTKMSPINMLYFNDKQQIIHGKIPGMVVDRCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+  GWD WIIAP  Y+A +C G CE+       P  H     L+   +P  +   CC PT++SPI++L+ +    +++ +   MVV+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|AAD20828.1|</Hit_id>
+  <Hit_def>growth/differentiation factor 7, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AAD20828</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>7.44533e-15</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>YMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEK-DGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSC</Hsp_qseq>
+      <Hsp_hseq>YMISLYRTLSELDRRTGNGSHTRSRRYANTVTSFMDLGQDEPS-LMFQQQYTFNLSGLSRLDELMEVELRVLRRPPQDVLSLLSYGGN-LYRLLLHTC</Hsp_hseq>
+      <Hsp_midline>YM+SLYRTLS+ DR+ GN S       ANT+TSF+D GQD+   ++ +Q+Y F++S L + D L+  ELR+LR+ P D     + GG    +L L +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gb|AAT77805.1|</Hit_id>
+  <Hit_def>myostatin-II [Danio rerio]</Hit_def>
+  <Hit_accession>AAT77805</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.44208e-14</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEDFGWD-WIIAPKRYKANYCSGEC-----VQKYPHSHIV-----NKANPIFFAGPCCILTKMSPINMLYFNDREQIIYGKIPSMVVDLCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+D GWD WIIAP  Y+A +C G C         P +H V     N  +P      CC+ T++SPI++L+ +    ++Y +   MVV+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|XP_021326923.2|</Hit_id>
+  <Hit_def>growth/differentiation factor 15 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_021326923</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>2.04038e-14</Hsp_evalue>
+      <Hsp_query-from>364</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>QDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>QLDQTV-------RRNKRA-LSTRE---ESVEDEGHCRRNSLNVSFKEIGWSDWIIAPSGYTMHYCDGSCPHNYKP---ASMHTQVKSRLHLMSKGITHGPCCVPAAYEPMVLMHYDSRGKLKLTPFNDLIVNKCHC</Hsp_hseq>
+      <Hsp_midline>Q D+TV       RR +RA L+TR+    S   +  C R +L+V+FK++GW DWIIAP  Y   +C+G C    +     + H  +++ ++ M    T   CCVP    P+ ++  DS   +    + D++V  C C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gb|QJB75245.1|</Hit_id>
+  <Hit_def>growth differentiation factor 15 [Danio rerio]</Hit_def>
+  <Hit_accession>QJB75245</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>2.07803e-14</Hsp_evalue>
+      <Hsp_query-from>364</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>QDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>QLDQTV-------RRNKRA-LSTRE---ESVEDEGHCRRNSLNVSFKEIGWSDWIIAPSGYTMHYCDGSCPHNYKP---ASMHTQVKSRLHLMSKGITHGPCCVPAAYEPMVLMHYDSRGKLKLTPFNDLIVNKCHC</Hsp_hseq>
+      <Hsp_midline>Q D+TV       RR +RA L+TR+    S   +  C R +L+V+FK++GW DWIIAP  Y   +C+G C    +     + H  +++ ++ M    T   CCVP    P+ ++  DS   +    + D++V  C C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|NP_919367.2|</Hit_id>
+  <Hit_def>transforming growth factor beta-3 proprotein precursor [Danio rerio] &gt;gb|AAH81579.1| Transforming growth factor, beta 3 [Danio rerio] &gt;gb|AAU14139.1| transforming growth factor beta 3 [Danio rerio] &gt;gb|AAW66727.1| transforming growth factor beta 3 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_919367</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.37254e-12</Hsp_evalue>
+      <Hsp_query-from>375</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>SQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFK-DMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>TSRRRKRA----LDTKYCFSNYEENCCVRKLYIDFRQDLGWR-WIHEPKGYHANFCSGPCPY-LRS--ADTTHSSLLSLYNTLNPEASASPCCVPQDLEPLTILYYVGRTPKV-EQLSNMIVKSCKC</Hsp_hseq>
+      <Hsp_midline>+ RR++RA       K    N +  C  + L+++F+ D+GW  WI  P  Y A  C G C + LRS    T H+ + +L N+++PE++   CCVP  L P++IL+       V +Q  +M+V+SC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|AAQ18013.1|</Hit_id>
+  <Hit_def>transforming growth factor beta 3 [Danio rerio]</Hit_def>
+  <Hit_accession>AAQ18013</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.42254e-12</Hsp_evalue>
+      <Hsp_query-from>375</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>SQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFK-DMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>TSRRRKRA----LDTKYCFSNYEENCCVRKLYIDFRQDLGWR-WIHEPKGYHANFCSGPCPY-LRS--ADTTHSSLLSLYNTLNPEASASPCCVPQDLEPLTILYYVGRTPKV-EQLSNMIVKSCKC</Hsp_hseq>
+      <Hsp_midline>+ RR++RA       K    N +  C  + L+++F+ D+GW  WI  P  Y A  C G C + LRS    T H+ + +L N+++PE++   CCVP  L P++IL+       V +Q  +M+V+SC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gb|AAV30547.1|</Hit_id>
+  <Hit_def>myostatin form 2 [Danio rerio]</Hit_def>
+  <Hit_accession>AAV30547</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.51219e-12</Hsp_evalue>
+      <Hsp_query-from>397</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>KARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEG--LCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>ESRCCRYPLTVDFEDFGWE-WITAPKRYKANYCSGDFLQKYP-HSHI-----------VNKANPIFFAGPCCILTKMSPINMLYFNDREQIIYGKIPSMVVDLCGC</Hsp_hseq>
+      <Hsp_midline>++RC R  L V+F+D GW+ WI AP  Y+A +C G  L ++P  SH+           +N  +P      CC+ T++SPI++L+ +    ++Y +   MVV+ CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gb|AAI08014.1|</Hit_id>
+  <Hit_def>Growth differentiation factor 9 [Danio rerio]</Hit_def>
+  <Hit_accession>AAI08014</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>3.96631e-12</Hsp_evalue>
+      <Hsp_query-from>375</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>SQRRKRRAPLATRQGKRPS-----KNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>STSRRRRGTLKSSETSMPKLVPMYEFTTDDCDLYDFRVSFKELKLDHWIIEPKKYNPRYCKGSCPRNVGFMYGSPMHTMVQNLIYEKLDSSVPRPTCVPSEYNPLSVLTFENDKSYAYKEYEEMIATKCACR</Hsp_hseq>
+      <Hsp_midline>S  R+RR  L + +   P      +     C      V+FK++  D WII P +Y   +C+G C   +        H ++Q L+      S P   CVP+  +P+S+L  ++  +  YK+YE+M+   C CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|NP_001012383.1|</Hit_id>
+  <Hit_def>growth/differentiatio precursor [Danio rerio] &gt;gb|AAV91155.1| growth and differentiation factor 9 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001012383</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>6.9547e-12</Hsp_evalue>
+      <Hsp_query-from>378</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>RKRRAPLATRQGKRPS-----KNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>RRRRGTLKSSETSMPKLVPMYEFTTDDCDLYDFRVSFKELKLDHWIIEPKKYNPRYCKGSCPRNVGFMYGSPMHTMVQNLIYEKLDSSVPRPTCVPSEYNPLSVLTFENDKSYAYKEYEEMIATKCACR</Hsp_hseq>
+      <Hsp_midline>R+RR  L + +   P      +     C      V+FK++  D WII P +Y   +C+G C   +        H ++Q L+      S P   CVP+  +P+S+L  ++  +  YK+YE+M+   C CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|NP_571036.1|</Hit_id>
+  <Hit_def>lefty2 precursor [Danio rerio] &gt;gb|AAD34389.1| signaling molecule lefty2 [Danio rerio] &gt;gb|AAH97092.1| Lefty2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571036</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>9.73011e-12</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>LLKKAREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISA--LEKDGLLGAELRILRKKPSDTAKPAA-----PGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLC-LELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDD-WIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFI---DSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>LLQKLGLTEPPRIQKRDLENLVVPAH--IKSKYLSMLKLHHQRRRRSLPSLAGILRGIHGNADITGEIKYSDTTRQRLVFDMEARLQENTEVTMAELKLFQTAAQSPSKPERRHHRPINHARVSIYWVEVLENGSNRTSLLDSRLVP-IHESGWRSFDVTQAIHYWSKSQKKAPLHLEVWTEG----------ERPGSYAAEMAKRVRFATQDPKE---NTLEKDMGAPELVLYTLDLDE--------YGSQGNCNSSPNSSKCCREEHFINFRELTWTQYWIIEPAGYQAFRCAGGCKQPKRGFY------------------GYGQRTCAVMESAPLPMMYLVKKGDYTEIEVAEFPNMIVEKCGC</Hsp_hseq>
+      <Hsp_midline>LL+K     PPR  K       +  H  + S Y ++     +    S+   AG+   I    D   + +     +QR VFD+ A   E   +  AEL++ +      +KP           R +   +    +G    +LLD R VP +  SGW  FD+ +    +  S +   L LE W  G          +R      E A  + F     ++   N ++   G  +  +Y     +           QG   S    ++C R+   +NF+++ W   WII P  Y+AF C G C+ P R                           C     +P+ ++++        +   ++ +M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gb|AJG05927.1|</Hit_id>
+  <Hit_def>Lft2, partial [Danio rerio]</Hit_def>
+  <Hit_accession>AJG05927</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.84499e-11</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>LLKKAREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISA--LEKDGLLGAELRILRKKPSDTAKPAA-----PGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLC-LELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDD-WIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFI---DSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>LLQKLGLTEPPRIQKRDLENLVVPAH--IKSKYLSMLKLHHQRRRRSLPSLAGILRGIHGNADITGEIKYSDTTRQRLVFDMEARLQENTEVTMAELKLFQTAAQSPSKPERRHHRPINHARVSIYWVEVLENGSNRTSLLDSRLVP-IHESGWRSFDVTQTIHYWSKSQKKAPLHLEVWTEG----------ERPGSYAAEMAKRVRFA---TQDPKGNTLEKDMGAPELVLYTLDLDE--------YGSQGNCNSSPNSSKCCREEHFINFRELTWTQYWIIEPAGYQAFRCAGGCKQPKRGFY------------------GYGQRTCAVMESAPLPMMYLVKKGDYTEIEVAEFPNMIVEKCGC</Hsp_hseq>
+      <Hsp_midline>LL+K     PPR  K       +  H  + S Y ++     +    S+   AG+   I    D   + +     +QR VFD+ A   E   +  AEL++ +      +KP           R +   +    +G    +LLD R VP +  SGW  FD+ +    +  S +   L LE W  G          +R      E A  + F     +D   N ++   G  +  +Y     +           QG   S    ++C R+   +NF+++ W   WII P  Y+AF C G C+ P R                           C     +P+ ++++        +   ++ +M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|NP_919366.1|</Hit_id>
+  <Hit_def>transforming growth factor beta-2 proprotein precursor [Danio rerio] &gt;gb|AAQ18012.1| transforming growth factor beta 2 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_919366</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>3.97853e-10</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>SKNLKARCSRKALHVNFK-DMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>SRNVQDNRCLRSLYIDFKKDLGWR-WIHEPKGYNANFCAGACPYLWSA---DTQHSNILGLYNTINPEASASPCCVSQDLEPLTILYYIGKTPKI-EQLSNMIVKSCKC</Hsp_hseq>
+      <Hsp_midline>S+N++     ++L+++FK D+GW  WI  P  Y A  C G C +   +    T H+ I  L N+++PE++   CCV   L P++IL+       + +Q  +M+V+SC C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gb|AAD34388.1|</Hit_id>
+  <Hit_def>signaling molecule lefty1 [Danio rerio]</Hit_def>
+  <Hit_accession>AAD34388</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>7.40303e-08</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>KQRYVFDISAL--EKDGLLGAELRILRKKPSDTAKPAAPG-----GGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNS-AQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDD-WIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFI---DSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>RQRVVFEMTSRIPENSEVTMAELKLYKKAPHKRSIPERKGHRPVNNARVSIYWVEPQKDGSNRTSLVDSRLIP-IHETGWKSFDVTQAVQYWSRSRMEMPMHLEVWIEG----------ERPGSYAAEMAKCVHFTTQDPDD---NTL----GKPELVLYTLNLEE--------FGSSGDCENNKDREMCCREQYFINFRALTWTQYWIIEPSGYQAFRCKGGCRQPKRNY-------------------GYGERKCAVVESAPLPMMYLVKKGDYTEIEVAEFPNMIVEKCGC</Hsp_hseq>
+      <Hsp_midline>+QR VF++++   E   +  AEL++ +K P   + P   G       R +   +     G    +L+D R +P +  +GW+ FD+ +  + +  S  ++ + LE W  G          +R      E A  + F      D   N +    G+ +  +Y     +            G   +   +  C R+   +NF+ + W   WII P  Y+AF C+G C  P R++                         C     +P+ ++++        +   ++ +M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|NP_571035.1|</Hit_id>
+  <Hit_def>lefty1 precursor [Danio rerio] &gt;gb|AAD47114.1| antivin [Danio rerio]</Hit_def>
+  <Hit_accession>NP_571035</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>7.809e-08</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>KQRYVFDISAL--EKDGLLGAELRILRKKPSDTAKPAAPG-----GGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNS-AQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDD-WIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFI---DSANNVVYKQYEDMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>RQRVVFEMTSRIPENSEVTMAELKLYKKAPHKRSIPERKGHRPVNNARVSIYWVEPQKDGSNRTSLVDSRLIP-IHETGWKSFDVTQAVQYWSRSRMEMPMHLEVWIEG----------ERPGSYAAEMAKCVHFTTQDPDD---NTL----GKPELVLYTLNLEE--------FGSSGDCENNKDREMCCREQYFINFRALTWTQYWIIEPSGYQAFRCKGGCRQPKRNY-------------------GYGERKCAVVESAPLPMMYLVKKGDYTEIEVAEFPNMIVEKCGC</Hsp_hseq>
+      <Hsp_midline>+QR VF++++   E   +  AEL++ +K P   + P   G       R +   +     G    +L+D R +P +  +GW+ FD+ +  + +  S  ++ + LE W  G          +R      E A  + F      D   N +    G+ +  +Y     +            G   +   +  C R+   +NF+ + W   WII P  Y+AF C+G C  P R++                         C     +P+ ++++        +   ++ +M+VE CGC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|NP_001038669.1|</Hit_id>
+  <Hit_def>inhibin alpha chain precursor [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001038669</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.15646e-07</Hsp_evalue>
+      <Hsp_query-from>365</Hsp_query-from>
+      <Hsp_query-to>500</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>DDKTVYEYLFSQR----RKRRAPL------ATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYE---DMVVESCGC</Hsp_qseq>
+      <Hsp_hseq>EDKTPFLHLHTRSSGPDRSRRAPKIPWSPDAIENLKRPASQ-GTDCRREQIEISFEDLGWNNWIVHPKSFTFYYCHGNCSSAER----------ITTILGITQ-------CCAPVPESMKSLRFTTTSDGGYSFKYETLPNIIPEECNC</Hsp_hseq>
+      <Hsp_midline>+DKT + +L ++     R RRAP       A    KRP+      C R+ + ++F+D+GW++WI+ P  +  ++C G C    R          I T++           CC P   S  S+ F  +++     +YE   +++ E C C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|XP_005172423.1|</Hit_id>
+  <Hit_def>bone morphogenetic protein 7 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_005172423</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>4.39381e-05</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>501</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>CSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR</Hsp_qseq>
+      <Hsp_hseq>CRLYVHHVSLHTSKLSQWILQPSNFSISICRGIC-------LKETSMTVQRQRKHQKENESLQRSACTPQGLSSLIVMYSSDTADIIIKELKDMRAERCECQ</Hsp_hseq>
+      <Hsp_midline>C     HV+        WI+ P  +    C G+C       L+ T+  V +   +  + ES   + C P  LS + +++     +++ K+ +DM  E C C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>83494</Statistics_db-num>
+      <Statistics_db-len>65288644</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
